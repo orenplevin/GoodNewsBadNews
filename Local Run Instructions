@@ -1,0 +1,14 @@
+# 1) Create & activate a virtualenv (recommended)
+python -m venv .venv && source .venv/bin/activate
+
+
+# 2) Install deps
+pip install -r requirements.txt
+
+
+# 3) Run the fetcher to build data files
+python fetcher.py
+
+
+# 4) Open the dashboard locally
+open docs/index.html # (macOS) or start docs/index.html on Windows
