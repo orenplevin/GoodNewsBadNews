@@ -72,123 +72,131 @@
       </div>
     </header>
 
-    <!-- Stats Grid -->
-    <section class="stats-grid">
-      <div class="stat-card gradient-1">
-        <div class="stat-content">
-          <div class="stat-value" id="positiveCount">0</div>
-          <div class="stat-label">Positive Stories</div>
-          <div class="stat-trend">+12% from yesterday</div>
-        </div>
-        <div class="stat-icon">😊</div>
-      </div>
-      
-      <div class="stat-card gradient-2">
-        <div class="stat-content">
-          <div class="stat-value" id="neutralCount">0</div>
-          <div class="stat-label">Neutral Stories</div>
-          <div class="stat-trend">-3% from yesterday</div>
-        </div>
-        <div class="stat-icon">😐</div>
-      </div>
-      
-      <div class="stat-card gradient-3">
-        <div class="stat-content">
-          <div class="stat-value" id="negativeCount">0</div>
-          <div class="stat-label">Negative Stories</div>
-          <div class="stat-trend">-8% from yesterday</div>
-        </div>
-        <div class="stat-icon">😟</div>
-      </div>
-      
-      <div class="stat-card gradient-4">
-        <div class="stat-content">
-          <div class="stat-value" id="totalCount">0</div>
-          <div class="stat-label">Total Articles</div>
-          <div class="stat-trend">+2% from yesterday</div>
-        </div>
-        <div class="stat-icon">📰</div>
-      </div>
-    </section>
-
-    <!-- Charts Grid -->
-    <section class="charts-section">
-      <div class="chart-row">
-        <div class="chart-card large">
-          <div class="chart-header">
-            <h3>Sentiment Distribution</h3>
-            <div class="chart-actions">
-              <button class="action-btn">📊</button>
-              <button class="action-btn">⚙️</button>
-            </div>
+    <!-- Main Dashboard Grid -->
+    <div class="dashboard-grid">
+      <!-- Left Column - Stats Cards -->
+      <div class="stats-column">
+        <div class="stat-card gradient-4">
+          <div class="stat-content">
+            <div class="stat-value" id="totalCount">185</div>
+            <div class="stat-label">TOTAL ARTICLES</div>
+            <div class="stat-trend">+2% from yesterday</div>
           </div>
-          <div class="chart-container">
-            <canvas id="overallChart"></canvas>
-          </div>
+          <div class="stat-icon">📰</div>
         </div>
         
-        <div class="chart-card">
-          <div class="chart-header">
-            <h3>7-Day Trend</h3>
-            <div class="chart-legend">
-              <div class="legend-item">
-                <div class="legend-dot positive"></div>
-                <span>Positive</span>
-              </div>
-              <div class="legend-item">
-                <div class="legend-dot neutral"></div>
-                <span>Neutral</span>
-              </div>
-              <div class="legend-item">
-                <div class="legend-dot negative"></div>
-                <span>Negative</span>
-              </div>
-            </div>
+        <div class="stat-card gradient-1">
+          <div class="stat-content">
+            <div class="stat-value" id="positiveCount">73</div>
+            <div class="stat-label">POSITIVE STORIES</div>
+            <div class="stat-trend">+12% from yesterday</div>
           </div>
-          <div class="chart-container">
-            <canvas id="trendChart"></canvas>
-          </div>
-        </div>
-      </div>
-      
-      <div class="chart-row">
-        <div class="chart-card">
-          <div class="chart-header">
-            <h3>By Publication</h3>
-            <select class="modern-select" id="pubSort">
-              <option value="count">Total Articles</option>
-              <option value="positive">Most Positive</option>
-              <option value="neutral">Most Neutral</option>
-              <option value="negative">Most Negative</option>
-            </select>
-          </div>
-          <div class="chart-container">
-            <canvas id="pubChart"></canvas>
-          </div>
+          <div class="stat-icon">😊</div>
         </div>
         
-        <div class="chart-card">
-          <div class="chart-header">
-            <h3>By Topic</h3>
-            <div class="chart-subtitle">Distribution across categories</div>
+        <div class="stat-card gradient-2">
+          <div class="stat-content">
+            <div class="stat-value" id="neutralCount">30</div>
+            <div class="stat-label">NEUTRAL STORIES</div>
+            <div class="stat-trend">-3% from yesterday</div>
           </div>
-          <div class="chart-container">
-            <canvas id="topicChart"></canvas>
+          <div class="stat-icon">😐</div>
+        </div>
+        
+        <div class="stat-card gradient-3">
+          <div class="stat-content">
+            <div class="stat-value" id="negativeCount">82</div>
+            <div class="stat-label">NEGATIVE STORIES</div>
+            <div class="stat-trend">-8% from yesterday</div>
           </div>
+          <div class="stat-icon">😟</div>
         </div>
       </div>
-    </section>
 
-    <!-- Sources and Headlines -->
-    <section class="bottom-section">
-      <div class="sources-card glass-card">
-        <div class="card-header">
-          <h3>📡 Active Sources</h3>
-          <div class="source-count-badge" id="sourceCountBadge">0</div>
+      <!-- Right Column - Main Content -->
+      <div class="content-column">
+        <!-- Active Sources Section -->
+        <section class="sources-section">
+          <div class="section-header">
+            <h3>🏢 Active Sources</h3>
+            <div class="source-count-badge" id="sourceCountBadge">8</div>
+          </div>
+          <div class="sources-horizontal" id="sourcesList"></div>
+        </section>
+
+        <!-- Charts Grid -->
+        <div class="charts-grid">
+          <!-- Sentiment Distribution Chart -->
+          <div class="chart-card large-chart">
+            <div class="chart-header">
+              <h3>Sentiment Distribution</h3>
+              <div class="chart-actions">
+                <button class="action-btn">📊</button>
+                <button class="action-btn">⚙️</button>
+              </div>
+            </div>
+            <div class="chart-container">
+              <canvas id="overallChart"></canvas>
+            </div>
+          </div>
+          
+          <!-- 7-Day Trend Chart -->
+          <div class="chart-card">
+            <div class="chart-header">
+              <h3>7-Day Trend</h3>
+              <div class="chart-legend">
+                <div class="legend-item">
+                  <div class="legend-dot positive"></div>
+                  <span>Positive</span>
+                </div>
+                <div class="legend-item">
+                  <div class="legend-dot neutral"></div>
+                  <span>Neutral</span>
+                </div>
+                <div class="legend-item">
+                  <div class="legend-dot negative"></div>
+                  <span>Negative</span>
+                </div>
+              </div>
+            </div>
+            <div class="chart-container">
+              <canvas id="trendChart"></canvas>
+            </div>
+          </div>
         </div>
-        <div class="sources-grid" id="sourcesList"></div>
+
+        <!-- Bottom Charts Row -->
+        <div class="bottom-charts-row">
+          <div class="chart-card">
+            <div class="chart-header">
+              <h3>By Publication</h3>
+              <select class="modern-select" id="pubSort">
+                <option value="count">Total Articles</option>
+                <option value="positive">Most Positive</option>
+                <option value="neutral">Most Neutral</option>
+                <option value="negative">Most Negative</option>
+              </select>
+            </div>
+            <div class="chart-container">
+              <canvas id="pubChart"></canvas>
+            </div>
+          </div>
+          
+          <div class="chart-card">
+            <div class="chart-header">
+              <h3>By Topic</h3>
+              <div class="chart-subtitle">Distribution across categories</div>
+            </div>
+            <div class="chart-container">
+              <canvas id="topicChart"></canvas>
+            </div>
+          </div>
+        </div>
       </div>
-      
+    </div>
+
+    <!-- Headlines Section -->
+    <section class="headlines-section">
       <div class="headlines-card glass-card">
         <div class="card-header">
           <h3>🔥 Latest Headlines</h3>
