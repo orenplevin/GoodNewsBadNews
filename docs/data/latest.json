@@ -1,46 +1,46 @@
 {
-  "generated_at": "2025-08-22T19:37:14.655446+00:00",
+  "generated_at": "2025-08-22T20:20:36.805208+00:00",
   "window_hours": 24,
   "totals": {
-    "positive": 152,
+    "positive": 159,
     "neutral": 57,
-    "negative": 161
+    "negative": 166
   },
   "by_publication": [
     {
       "source": "The Guardian",
-      "positive": 36,
+      "positive": 37,
       "neutral": 2,
       "negative": 46,
-      "count": 84
+      "count": 85
     },
     {
       "source": "BBC News",
-      "positive": 24,
+      "positive": 27,
       "neutral": 16,
-      "negative": 29,
-      "count": 69
+      "negative": 30,
+      "count": 73
     },
     {
       "source": "ESPN",
-      "positive": 30,
+      "positive": 31,
       "neutral": 18,
       "negative": 11,
-      "count": 59
+      "count": 60
+    },
+    {
+      "source": "Al Jazeera English",
+      "positive": 12,
+      "neutral": 3,
+      "negative": 42,
+      "count": 57
     },
     {
       "source": "CNBC",
       "positive": 30,
       "neutral": 8,
-      "negative": 16,
-      "count": 54
-    },
-    {
-      "source": "Al Jazeera English",
-      "positive": 11,
-      "neutral": 3,
-      "negative": 39,
-      "count": 53
+      "negative": 17,
+      "count": 55
     },
     {
       "source": "Financial Times",
@@ -51,10 +51,10 @@
     },
     {
       "source": "The Verge",
-      "positive": 14,
+      "positive": 15,
       "neutral": 2,
       "negative": 4,
-      "count": 20
+      "count": 21
     },
     {
       "source": "CNN",
@@ -67,24 +67,24 @@
   "by_topic": [
     {
       "topic": "Tech",
-      "positive": 56,
+      "positive": 60,
       "neutral": 21,
-      "negative": 59,
-      "count": 136
+      "negative": 61,
+      "count": 142
     },
     {
       "topic": "Other",
-      "positive": 42,
+      "positive": 43,
       "neutral": 17,
-      "negative": 32,
-      "count": 91
+      "negative": 33,
+      "count": 93
     },
     {
       "topic": "Politics",
-      "positive": 32,
+      "positive": 33,
       "neutral": 4,
-      "negative": 37,
-      "count": 73
+      "negative": 38,
+      "count": 75
     },
     {
       "topic": "Business",
@@ -95,17 +95,17 @@
     },
     {
       "topic": "Sports",
-      "positive": 5,
+      "positive": 6,
       "neutral": 9,
       "negative": 4,
-      "count": 18
+      "count": 19
     },
     {
       "topic": "World",
       "positive": 3,
       "neutral": 2,
-      "negative": 11,
-      "count": 16
+      "negative": 12,
+      "count": 17
     },
     {
       "topic": "Health",
@@ -131,6 +131,62 @@
   ],
   "sample_headlines": [
     {
+      "title": "Ghislaine Maxwell interview released by DOJ",
+      "url": "https://www.cnbc.com/2025/08/22/ghislaine-maxwell-transcripts-trump-epstein-doj.html",
+      "source": "CNBC",
+      "published": "2025-08-22T20:11:17+00:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Fire crush Phoenix to stave off elimination",
+      "url": "https://www.bbc.com/sport/cricket/articles/c7vl9ezj596o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2025-08-22T20:09:12+00:00",
+      "sentiment": "positive"
+    },
+    {
+      "title": "This is the human tragedy caused by Israel\u2019s famine in Gaza",
+      "url": "https://www.aljazeera.com/video/newsfeed/2025/8/22/this-is-the-human-tragedy-caused-by-israels-famine-in-gaza?traffic_source=rss",
+      "source": "Al Jazeera English",
+      "published": "2025-08-22T20:07:33+00:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Kildunne scores 'beautiful' try to extend England's lead over USA",
+      "url": "https://www.bbc.com/sport/rugby-union/videos/c9wye8kvrkko?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2025-08-22T19:58:38+00:00",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Chicago \u2018will be next\u2019: Trump teases troop expansion in Democrat-led cities",
+      "url": "https://www.aljazeera.com/news/2025/8/22/chicago-will-be-next-trump-teases-troop-expansion-in-democrat-led-cities?traffic_source=rss",
+      "source": "Al Jazeera English",
+      "published": "2025-08-22T19:56:04+00:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "How Israel's policies created famine in Gaza",
+      "url": "https://www.bbc.com/news/articles/ckg4p90z1kxo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2025-08-22T19:55:47+00:00",
+      "sentiment": "positive"
+    },
+    {
+      "title": "John Bolton raid shows weaponization of FBI against Patel\u2019s \u2018gangsters\u2019 list",
+      "url": "https://www.theguardian.com/us-news/2025/aug/22/john-bolton-kash-patel-book-list",
+      "source": "The Guardian",
+      "published": "2025-08-22T19:41:02+00:00",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Children in Gaza play games with aid drop parachute",
+      "url": "https://www.aljazeera.com/video/newsfeed/2025/8/22/children-in-gaza-play-games-with-aid-drop-parachute?traffic_source=rss",
+      "source": "Al Jazeera English",
+      "published": "2025-08-22T19:39:55+00:00",
+      "sentiment": "positive"
+    },
+    {
       "title": "Ghislaine Maxwell interview transcript released by US justice department",
       "url": "https://www.theguardian.com/us-news/2025/aug/22/ghislaine-maxwell-interview-transcript-justice-department",
       "source": "The Guardian",
@@ -142,6 +198,20 @@
       "url": "https://www.theguardian.com/us-news/2025/aug/22/kilmar-abrego-garcia-release",
       "source": "The Guardian",
       "published": "2025-08-22T19:28:58+00:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Hungary, Slovakia fear oil cuts after Ukrainian attack on Russian pipeline",
+      "url": "https://www.aljazeera.com/news/2025/8/22/hungary-slovakia-fear-oil-cuts-after-ukrainian-attack-on-russian-pipeline?traffic_source=rss",
+      "source": "Al Jazeera English",
+      "published": "2025-08-22T19:28:32+00:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "FBI searches home of Trump adviser-turned-critic John Bolton",
+      "url": "https://www.bbc.com/news/articles/c98lre1vqn4o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2025-08-22T19:27:21+00:00",
       "sentiment": "negative"
     },
     {
@@ -199,76 +269,6 @@
       "source": "CNBC",
       "published": "2025-08-22T18:44:23+00:00",
       "sentiment": "neutral"
-    },
-    {
-      "title": "Young climate activists in Wisconsin sue state over pro-fossil fuel policies",
-      "url": "https://www.theguardian.com/us-news/2025/aug/22/young-climate-activists-sue-wisconsin",
-      "source": "The Guardian",
-      "published": "2025-08-22T18:43:08+00:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "\u2018We didn\u2019t understand the goals of the war\u2019: Israel\u2019s inflated Hamas death toll shows lack of strategy in Gaza",
-      "url": "https://www.theguardian.com/world/2025/aug/22/israel-defence-forces-war-strategy-hamas-gaza",
-      "source": "The Guardian",
-      "published": "2025-08-22T18:42:21+00:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Here's what current and former Fed officials are saying about Lisa Cook investigation",
-      "url": "https://www.cnbc.com/2025/08/22/heres-what-current-and-former-fed-officials-are-saying-about-lisa-cook-investigation.html",
-      "source": "CNBC",
-      "published": "2025-08-22T18:38:33+00:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "China refuses to explain \u2018greyed out\u2019 parts of London embassy plan",
-      "url": "https://www.ft.com/content/1c85300d-af36-4c49-9a45-8ebcc1c6a006",
-      "source": "Financial Times",
-      "published": "2025-08-22T18:36:11+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Trump targets Chicago and New York as Hegseth orders weapons for DC troops",
-      "url": "https://www.theguardian.com/us-news/2025/aug/22/trump-troops-dc-new-york-chicago",
-      "source": "The Guardian",
-      "published": "2025-08-22T18:33:26+00:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Wildfire explodes in California wine country as heatwave scorches US west",
-      "url": "https://www.theguardian.com/us-news/2025/aug/22/california-wildfire-napa-county",
-      "source": "The Guardian",
-      "published": "2025-08-22T18:28:24+00:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "US court orders release of Kilmar \u00c1brego Garc\u00eda from criminal custody",
-      "url": "https://www.theguardian.com/us-news/2025/aug/22/kilmar-abrego-garcia-release",
-      "source": "The Guardian",
-      "published": "2025-08-22T18:26:04+00:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "FBI raids home, office of John Bolton, former Trump national security advisor",
-      "url": "https://www.cnbc.com/2025/08/22/fbi-raid-john-bolton-trump-patel.html",
-      "source": "CNBC",
-      "published": "2025-08-22T18:24:55+00:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Intel stock rises as Trump says chipmaker has agreed to sell stake to government",
-      "url": "https://www.cnbc.com/2025/08/22/intel-goverment-equity-stake.html",
-      "source": "CNBC",
-      "published": "2025-08-22T18:24:04+00:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Canada to ease most retaliatory tariffs against United States",
-      "url": "https://www.aljazeera.com/news/2025/8/22/canada-to-ease-most-retaliatory-tariffs-against-united-states?traffic_source=rss",
-      "source": "Al Jazeera English",
-      "published": "2025-08-22T18:14:29+00:00",
-      "sentiment": "positive"
     }
   ]
 }
