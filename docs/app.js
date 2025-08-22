@@ -22,9 +22,46 @@ const COLORS = {
     }
 };
 
+// Global state for filtering
+let globalData = {
+    latest: null,
+    history: null,
+    selectedSources: new Set(),
+    allSources: []
+};
+
 async function fetchJSON(path) {
     const response = await fetch(path);
     return await response.json();
+}
+
+function filterDataBySources(data, selectedSources) {
+    if (selectedSources.size === 0) return data;
+    
+    // Filter by_publication
+    const filteredByPublication = data.by_publication.filter(item => 
+        selectedSources.has(item.source)
+    );
+    
+    // Calculate new totals based on selected sources
+    const filteredTotals = filteredByPublication.reduce((acc, item) => {
+        acc.positive += item.positive || 0;
+        acc.neutral += item.neutral || 0;
+        acc.negative += item.negative || 0;
+        return acc;
+    }, { positive: 0, neutral: 0, negative: 0 });
+    
+    // Filter headlines by selected sources
+    const filteredHeadlines = data.sample_headlines.filter(headline =>
+        selectedSources.has(headline.source)
+    );
+    
+    return {
+        ...data,
+        totals: filteredTotals,
+        by_publication: filteredByPublication,
+        sample_headlines: filteredHeadlines
+    };
 }
 
 function updateSummaryStats(totals) {
@@ -39,8 +76,8 @@ function updateSummaryStats(totals) {
 
 function animateCounter(elementId, targetValue) {
     const element = document.getElementById(elementId);
-    const startValue = 0;
-    const duration = 1500;
+    const startValue = parseInt(element.textContent.replace(/,/g, '')) || 0;
+    const duration = 1000;
     const startTime = performance.now();
     
     function updateCounter(currentTime) {
@@ -61,31 +98,142 @@ function animateCounter(elementId, targetValue) {
     requestAnimationFrame(updateCounter);
 }
 
-function updateSourceCount(byPublication) {
-    const sourceCount = byPublication.length;
-    document.getElementById('sourceCountBadge').textContent = sourceCount;
+function updateSourceCount() {
+    const selectedCount = globalData.selectedSources.size;
+    const totalCount = globalData.allSources.length;
+    document.getElementById('sourceCountBadge').textContent = `${selectedCount}/${totalCount}`;
 }
 
 function renderSourcesList(byPublication) {
     const sourcesList = document.getElementById('sourcesList');
     sourcesList.innerHTML = '';
     
+    // Store all sources globally
+    globalData.allSources = byPublication.map(item => item.source);
+    
+    // Initialize all sources as selected if none are selected yet
+    if (globalData.selectedSources.size === 0) {
+        globalData.allSources.forEach(source => {
+            globalData.selectedSources.add(source);
+        });
+    }
+    
     // Sort by total count
     const sortedSources = [...byPublication].sort((a, b) => 
         (b.positive + b.neutral + b.negative) - (a.positive + a.neutral + a.negative)
-    ).slice(0, 12); // Show top 12 sources
+    );
     
     sortedSources.forEach((source, index) => {
         const total = source.positive + source.neutral + source.negative;
+        const isSelected = globalData.selectedSources.has(source.source);
+        
         const sourceItem = document.createElement('div');
-        sourceItem.className = 'source-item';
+        sourceItem.className = `source-item ${isSelected ? 'selected' : 'deselected'}`;
         sourceItem.style.animationDelay = `${index * 50}ms`;
+        sourceItem.dataset.source = source.source;
+        
         sourceItem.innerHTML = `
             <div class="source-name">${source.source}</div>
             <div class="source-count">${total} articles</div>
         `;
+        
+        // Add click handler for filtering
+        sourceItem.addEventListener('click', () => {
+            toggleSource(source.source);
+        });
+        
         sourcesList.appendChild(sourceItem);
     });
+    
+    updateSourceCount();
+}
+
+function toggleSource(sourceName) {
+    if (globalData.selectedSources.has(sourceName)) {
+        globalData.selectedSources.delete(sourceName);
+    } else {
+        globalData.selectedSources.add(sourceName);
+    }
+    
+    // Update visual state
+    updateSourceVisuals();
+    updateSourceCount();
+    
+    // Re-render dashboard with filtered data
+    refreshDashboard();
+}
+
+function updateSourceVisuals() {
+    const sourceItems = document.querySelectorAll('.source-item');
+    sourceItems.forEach(item => {
+        const sourceName = item.dataset.source;
+        const isSelected = globalData.selectedSources.has(sourceName);
+        
+        item.className = `source-item ${isSelected ? 'selected' : 'deselected'}`;
+    });
+}
+
+function selectAllSources() {
+    globalData.allSources.forEach(source => {
+        globalData.selectedSources.add(source);
+    });
+    updateSourceVisuals();
+    updateSourceCount();
+    refreshDashboard();
+}
+
+function deselectAllSources() {
+    globalData.selectedSources.clear();
+    updateSourceVisuals();
+    updateSourceCount();
+    refreshDashboard();
+}
+
+function refreshDashboard() {
+    if (!globalData.latest) return;
+    
+    // Filter data based on selected sources
+    const filteredData = filterDataBySources(globalData.latest, globalData.selectedSources);
+    
+    // Update all visualizations
+    updateSummaryStats(filteredData.totals);
+    updateChartsWithFilteredData(filteredData);
+    renderHeadlines(document.getElementById('headlines'), filteredData.sample_headlines);
+    updateHeadlinesCount(filteredData.sample_headlines.length);
+}
+
+function updateChartsWithFilteredData(filteredData) {
+    // Destroy existing charts
+    ['overallChart', 'pubChart', 'topicChart'].forEach(chartId => {
+        const chartInstance = Chart.getChart(chartId);
+        if (chartInstance) {
+            chartInstance.destroy();
+        }
+    });
+    
+    // Re-render charts with filtered data
+    renderOverall(document.getElementById('overallChart'), filteredData.totals);
+    
+    const pubSort = document.getElementById('pubSort');
+    renderBars(
+        document.getElementById('pubChart'),
+        filteredData.by_publication,
+        'source',
+        ['positive', 'neutral', 'negative'],
+        pubSort.value
+    );
+    
+    renderBars(
+        document.getElementById('topicChart'),
+        filteredData.by_topic,
+        'topic',
+        ['positive', 'neutral', 'negative'],
+        'count'
+    );
+}
+
+function updateHeadlinesCount(count) {
+    document.getElementById('headlinesCount').textContent = `${count} articles`;
 }
 
 function createGradient(ctx, color1, color2) {
@@ -120,7 +268,7 @@ function renderOverall(ctx, totals) {
             cutout: '70%',
             plugins: {
                 legend: {
-                    display: false // We'll use custom legend
+                    display: false
                 },
                 tooltip: {
                     backgroundColor: 'rgba(15, 23, 42, 0.9)',
@@ -135,6 +283,7 @@ function renderOverall(ctx, totals) {
                     callbacks: {
                         label: function(context) {
                             const total = context.dataset.data.reduce((a, b) => a + b, 0);
+                            if (total === 0) return `${context.label}: 0 (0%)`;
                             const percentage = ((context.parsed / total) * 100).toFixed(1);
                             return `${context.label}: ${context.parsed} (${percentage}%)`;
                         }
@@ -149,13 +298,22 @@ function renderOverall(ctx, totals) {
             },
             animation: {
                 animateRotate: true,
-                duration: 2000
+                duration: 1000
             }
         }
     });
 }
 
 function renderBars(ctx, data, labelKey, valueKeys, sortBy) {
+    if (!data || data.length === 0) {
+        // Show empty state
+        ctx.fillStyle = COLORS.chart.text;
+        ctx.font = '14px Inter';
+        ctx.textAlign = 'center';
+        ctx.fillText('No data available', ctx.canvas.width / 2, ctx.canvas.height / 2);
+        return;
+    }
+    
     // Sort and limit data
     const sortedData = [...data].sort((a, b) => {
         if (sortBy === 'count') {
@@ -164,7 +322,7 @@ function renderBars(ctx, data, labelKey, valueKeys, sortBy) {
         return (b[sortBy] || 0) - (a[sortBy] || 0);
     });
     
-    const topData = sortedData.slice(0, 6); // Show top 6 for better readability
+    const topData = sortedData.slice(0, 6);
     
     const chartData = {
         labels: topData.map(item => {
@@ -217,7 +375,7 @@ function renderBars(ctx, data, labelKey, valueKeys, sortBy) {
             },
             plugins: {
                 legend: {
-                    display: false // Custom legend in HTML
+                    display: false
                 },
                 tooltip: {
                     backgroundColor: 'rgba(15, 23, 42, 0.9)',
@@ -234,7 +392,7 @@ function renderBars(ctx, data, labelKey, valueKeys, sortBy) {
                 mode: 'index'
             },
             animation: {
-                duration: 1500,
+                duration: 1000,
                 easing: 'easeInOutQuart'
             }
         }
@@ -300,7 +458,7 @@ function renderTrend(ctx, history) {
             },
             plugins: {
                 legend: {
-                    display: false // Custom legend in HTML
+                    display: false
                 },
                 tooltip: {
                     backgroundColor: 'rgba(15, 23, 42, 0.9)',
@@ -322,7 +480,7 @@ function renderTrend(ctx, history) {
                 mode: 'index'
             },
             animation: {
-                duration: 2000,
+                duration: 1500,
                 easing: 'easeInOutQuart'
             }
         }
@@ -332,10 +490,11 @@ function renderTrend(ctx, history) {
 function renderHeadlines(listEl, items) {
     listEl.innerHTML = '';
     
-    items.slice(0, 10).forEach((item, index) => { // Show top 10 headlines
+    // Show ALL headlines, not just a sample
+    items.forEach((item, index) => {
         const li = document.createElement('li');
         li.className = 'headline';
-        li.style.animationDelay = `${index * 100}ms`;
+        li.style.animationDelay = `${index * 50}ms`;
         
         const publishedDate = new Date(item.published);
         const timeAgo = getTimeAgo(publishedDate);
@@ -353,6 +512,8 @@ function renderHeadlines(listEl, items) {
         `;
         listEl.appendChild(li);
     });
+    
+    updateHeadlinesCount(items.length);
 }
 
 function getTimeAgo(date) {
@@ -365,7 +526,7 @@ function getTimeAgo(date) {
     return `${Math.floor(diffInSeconds / 86400)}d ago`;
 }
 
-// Add some interactive features
+// Add interactive features
 function addInteractivity() {
     // Add refresh functionality
     const refreshBtn = document.querySelector('.refresh-btn');
@@ -375,25 +536,17 @@ function addInteractivity() {
         });
     }
     
-    // Add nav item interactions
-    const navItems = document.querySelectorAll('.nav-item');
-    navItems.forEach(item => {
-        item.addEventListener('click', () => {
-            navItems.forEach(nav => nav.classList.remove('active'));
-            item.classList.add('active');
-        });
-    });
+    // Add source control buttons
+    const selectAllBtn = document.getElementById('selectAllSources');
+    const deselectAllBtn = document.getElementById('deselectAllSources');
     
-    // Add source item click effects
-    document.addEventListener('click', (e) => {
-        if (e.target.closest('.source-item')) {
-            const item = e.target.closest('.source-item');
-            item.style.transform = 'scale(0.95)';
-            setTimeout(() => {
-                item.style.transform = '';
-            }, 150);
-        }
-    });
+    if (selectAllBtn) {
+        selectAllBtn.addEventListener('click', selectAllSources);
+    }
+    
+    if (deselectAllBtn) {
+        deselectAllBtn.addEventListener('click', deselectAllSources);
+    }
 }
 
 (async function init() {
@@ -406,6 +559,10 @@ function addInteractivity() {
             fetchJSON('./data/history.json')
         ]);
 
+        // Store data globally
+        globalData.latest = latest;
+        globalData.history = history;
+
         // Update timestamp
         const updateTime = new Date(latest.generated_at).toLocaleString('en-US', {
             month: 'short',
@@ -416,56 +573,32 @@ function addInteractivity() {
         });
         document.getElementById('generatedAt').textContent = `Last updated ${updateTime}`;
 
-        // Update summary stats with animation
-        updateSummaryStats(latest.totals);
-
-        // Update source count
-        updateSourceCount(latest.by_publication);
-
-        // Render sources list
+        // Render sources list first (this initializes selected sources)
         renderSourcesList(latest.by_publication);
 
-        // Overall sentiment chart
-        renderOverall(document.getElementById('overallChart'), latest.totals);
+        // Initial dashboard render with all sources selected
+        refreshDashboard();
+
+        // Trend chart (doesn't need filtering)
+        renderTrend(document.getElementById('trendChart'), history.history);
 
         // Publication chart with sorting
         const pubSort = document.getElementById('pubSort');
-        let pubChartEl = document.getElementById('pubChart');
-        
-        const makePubChart = () => {
+        pubSort.addEventListener('change', () => {
+            const chartInstance = Chart.getChart('pubChart');
+            if (chartInstance) {
+                chartInstance.destroy();
+            }
+            
+            const filteredData = filterDataBySources(globalData.latest, globalData.selectedSources);
             renderBars(
-                pubChartEl,
-                latest.by_publication,
+                document.getElementById('pubChart'),
+                filteredData.by_publication,
                 'source',
                 ['positive', 'neutral', 'negative'],
                 pubSort.value
             );
-        };
-        
-        makePubChart();
-        
-        pubSort.addEventListener('change', () => {
-            const chartInstance = Chart.getChart(pubChartEl);
-            if (chartInstance) {
-                chartInstance.destroy();
-            }
-            makePubChart();
         });
-
-        // Topic chart
-        renderBars(
-            document.getElementById('topicChart'),
-            latest.by_topic,
-            'topic',
-            ['positive', 'neutral', 'negative'],
-            'count'
-        );
-
-        // Trend chart
-        renderTrend(document.getElementById('trendChart'), history.history);
-
-        // Headlines
-        renderHeadlines(document.getElementById('headlines'), latest.sample_headlines);
         
         // Add interactivity
         addInteractivity();
