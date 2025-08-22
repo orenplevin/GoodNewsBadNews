@@ -10,8 +10,8 @@ from dateutil import parser as dateparser
 
 
 # NLTK VADER setup
-import nltk
-from nltk.sentiment import SentimentIntensityAnalyzer
+from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
+
 
 
 # Ensure VADER lexicon is present
