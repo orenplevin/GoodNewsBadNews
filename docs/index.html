@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>News Sentiment Dashboard (MVP)</title>
+<link rel="stylesheet" href="./styles.css" />
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+<header class="topbar">
+<div class="brand">News Sentiment — Last 24h</div>
+<div class="meta" id="generatedAt"></div>
+</header>
+
+
+<main class="container">
+<section class="cards">
+<div class="card">
+<h3>Overall Sentiment</h3>
+<canvas id="overallChart"></canvas>
+</div>
+<div class="card">
+<h3>By Publication</h3>
+<div class="controls">
+<label for="pubSort">Sort by:</label>
+<select id="pubSort">
+<option value="count">Total</option>
+<option value="positive">Positive</option>
+<option value="neutral">Neutral</option>
+<option value="negative">Negative</option>
+</select>
+</div>
+<canvas id="pubChart"></canvas>
+</div>
+<div class="card">
+<h3>By Topic</h3>
+<canvas id="topicChart"></canvas>
+</div>
+<div class="card">
+<h3>7-Day Trend</h3>
+<canvas id="trendChart"></canvas>
+</div>
+</section>
+
+
+<section class="card">
+<h3>Latest Headlines (sample)</h3>
+<ul id="headlines" class="headlines"></ul>
+</section>
+</main>
+
+
+<footer class="footer">
+Built free with RSS + VADER + GitHub Pages. <a href="https://github.com/" target="_blank" rel="noopener">Source</a>
+</footer>
+
+
+<script src="./app.js"></script>
+</body>
+</html>
