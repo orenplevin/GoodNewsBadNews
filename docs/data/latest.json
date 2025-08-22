@@ -1,1 +1,267 @@
-{ "generated_at":"1970-01-01T00:00:00Z","window_hours":24,"totals":{"positive":0,"neutral":0,"negative":0},"by_publication":[],"by_topic":[],"sample_headlines":[] }
+{
+  "generated_at": "2025-08-22T11:15:41.144142+00:00",
+  "window_hours": 24,
+  "totals": {
+    "positive": 71,
+    "neutral": 28,
+    "negative": 76
+  },
+  "by_publication": [
+    {
+      "source": "ESPN",
+      "positive": 20,
+      "neutral": 8,
+      "negative": 7,
+      "count": 35
+    },
+    {
+      "source": "BBC News",
+      "positive": 12,
+      "neutral": 7,
+      "negative": 13,
+      "count": 32
+    },
+    {
+      "source": "The Guardian",
+      "positive": 14,
+      "neutral": 0,
+      "negative": 16,
+      "count": 30
+    },
+    {
+      "source": "CNBC",
+      "positive": 15,
+      "neutral": 4,
+      "negative": 11,
+      "count": 30
+    },
+    {
+      "source": "Al Jazeera English",
+      "positive": 3,
+      "neutral": 2,
+      "negative": 20,
+      "count": 25
+    },
+    {
+      "source": "The Verge",
+      "positive": 6,
+      "neutral": 2,
+      "negative": 2,
+      "count": 10
+    },
+    {
+      "source": "Financial Times",
+      "positive": 1,
+      "neutral": 4,
+      "negative": 4,
+      "count": 9
+    },
+    {
+      "source": "CNN",
+      "positive": 0,
+      "neutral": 1,
+      "negative": 3,
+      "count": 4
+    }
+  ],
+  "by_topic": [
+    {
+      "topic": "Tech",
+      "positive": 23,
+      "neutral": 11,
+      "negative": 27,
+      "count": 61
+    },
+    {
+      "topic": "Other",
+      "positive": 22,
+      "neutral": 5,
+      "negative": 18,
+      "count": 45
+    },
+    {
+      "topic": "Politics",
+      "positive": 14,
+      "neutral": 0,
+      "negative": 15,
+      "count": 29
+    },
+    {
+      "topic": "Sports",
+      "positive": 4,
+      "neutral": 8,
+      "negative": 3,
+      "count": 15
+    },
+    {
+      "topic": "Business",
+      "positive": 3,
+      "neutral": 1,
+      "negative": 7,
+      "count": 11
+    },
+    {
+      "topic": "World",
+      "positive": 4,
+      "neutral": 1,
+      "negative": 5,
+      "count": 10
+    },
+    {
+      "topic": "Health",
+      "positive": 0,
+      "neutral": 1,
+      "negative": 1,
+      "count": 2
+    },
+    {
+      "topic": "Entertainment",
+      "positive": 1,
+      "neutral": 1,
+      "negative": 0,
+      "count": 2
+    }
+  ],
+  "sample_headlines": [
+    {
+      "title": "Hundreds of millions at risk from Chinese shopping app malware",
+      "url": "https://cnn.it/40OSomK",
+      "source": "CNN",
+      "published": "2025-08-22T11:15:37.191651+00:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Russian authorities detain suspect over St. Petersburg cafe blast",
+      "url": "https://edition.cnn.com/webview/europe/live-news/russia-ukraine-war-news-04-03-23/index.html",
+      "source": "CNN",
+      "published": "2025-08-22T11:15:37.189021+00:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "READ: Trump indictment related to hush money payment",
+      "url": "https://cnn.it/411KYN7",
+      "source": "CNN",
+      "published": "2025-08-22T11:15:37.188976+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Trump pleads not guilty to 34 felony counts",
+      "url": "https://edition.cnn.com/webview/politics/live-news/trump-indictment-stormy-daniels-news-04-03-23/index.html",
+      "source": "CNN",
+      "published": "2025-08-22T11:15:37.188370+00:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Dozens of protests planned outside asylum hotels as Labour defends record on immigration \u2013 UK politics live",
+      "url": "https://www.theguardian.com/uk-news/live/2025/aug/22/asylum-hotels-labour-immigration-protests-conservatives-kemi-badenoch-keir-starmer-uk-politics-live",
+      "source": "The Guardian",
+      "published": "2025-08-22T11:09:56+00:00",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Israel has furthered starvation with \u2018military model\u2019 of aid distribution, according to new joint report \u2013 Israel-Gaza war latest updates",
+      "url": "https://www.theguardian.com/world/live/2025/aug/22/famine-benjamin-netanyahu-palestine-gaza-israel-war-latest-updates",
+      "source": "The Guardian",
+      "published": "2025-08-22T11:03:41+00:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Putin wants to \u2018wriggle out\u2019 of meeting, Zelenskyy claims, and says Russia does not want to end war \u2013 Europe live",
+      "url": "https://www.theguardian.com/world/live/2025/aug/22/ukraine-war-latest-updates-zelenskyy-putin-trump-news",
+      "source": "The Guardian",
+      "published": "2025-08-22T11:01:04+00:00",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Ex-pastor at Pete Hegseth\u2019s church calls for public executions and says Bible backs Ice raids",
+      "url": "https://www.theguardian.com/us-news/2025/aug/22/pastor-joshua-haymes-pete-hegseth",
+      "source": "The Guardian",
+      "published": "2025-08-22T11:00:30+00:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Trump administration accused of wanting to revoke visas \u2018based on speech, not conduct\u2019 \u2013 US politics live",
+      "url": "https://www.theguardian.com/us-news/live/2025/aug/22/donald-trump-administration-federal-reserve-republicans-democrats-us-politics-live",
+      "source": "The Guardian",
+      "published": "2025-08-22T11:00:10+00:00",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Ministers announce clampdown on UK child benefit claims from overseas",
+      "url": "https://www.theguardian.com/society/2025/aug/22/uk-clampdown-child-benefit-claims-overseas",
+      "source": "The Guardian",
+      "published": "2025-08-22T10:57:35+00:00",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Isak has Newcastle future but won\u2019t play against Liverpool",
+      "url": "https://www.aljazeera.com/sports/2025/8/22/isak-has-newcastle-future-but-wont-play-against-liverpool?traffic_source=rss",
+      "source": "Al Jazeera English",
+      "published": "2025-08-22T10:56:26+00:00",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Man City vs Tottenham: Premier League \u2013 teams, start, lineups",
+      "url": "https://www.aljazeera.com/sports/2025/8/22/man-city-vs-tottenham-premier-league-teams-start-lineups?traffic_source=rss",
+      "source": "Al Jazeera English",
+      "published": "2025-08-22T10:56:13+00:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "UN declares famine in Gaza",
+      "url": "https://www.aljazeera.com/video/newsfeed/2025/8/22/un-declares-famine-in-gaza?traffic_source=rss",
+      "source": "Al Jazeera English",
+      "published": "2025-08-22T10:51:46+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Are you smart enough to invest in private assets? Designing an investor test is tricky, experts say",
+      "url": "https://www.cnbc.com/2025/08/22/sec-test-for-private-assets.html",
+      "source": "CNBC",
+      "published": "2025-08-22T10:50:01+00:00",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Noel Clarke loses libel case against the Guardian over sexual misconduct allegations",
+      "url": "https://www.bbc.com/news/articles/cwy33g0lelno?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2025-08-22T10:49:14+00:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Government to cover pay and pensions at collapsed South Yorkshire steelworks",
+      "url": "https://www.theguardian.com/business/2025/aug/22/government-to-cover-pay-and-pensions-at-collapsed-south-yorkshire-steelworks",
+      "source": "The Guardian",
+      "published": "2025-08-22T10:43:43+00:00",
+      "sentiment": "positive"
+    },
+    {
+      "title": "TikTok to lay off hundreds of UK moderators as it shifts to AI",
+      "url": "https://www.ft.com/content/d277c456-4518-4994-8afd-c45a399db342",
+      "source": "Financial Times",
+      "published": "2025-08-22T10:16:24+00:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Hospital evacuations are \u201cclearly killing\u201d Gaza patients",
+      "url": "https://www.aljazeera.com/video/quotable/2025/8/22/hospital-evacuations-are-clearly-killing-gaza-patients?traffic_source=rss",
+      "source": "Al Jazeera English",
+      "published": "2025-08-22T10:09:57+00:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "UN-backed experts declare famine in and around Gaza City",
+      "url": "https://www.theguardian.com/world/2025/aug/22/ipc-declares-famine-gaza-city",
+      "source": "The Guardian",
+      "published": "2025-08-22T10:08:49+00:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "India top court shelves plan to lock up Delhi's one million street dogs",
+      "url": "https://www.bbc.com/news/articles/c5yejnze4p1o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2025-08-22T10:08:00+00:00",
+      "sentiment": "positive"
+    }
+  ]
+}
