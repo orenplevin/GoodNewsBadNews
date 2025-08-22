@@ -1,18 +1,18 @@
 {
-  "generated_at": "2025-08-22T16:23:06.011207+00:00",
+  "generated_at": "2025-08-22T16:46:18.852423+00:00",
   "window_hours": 24,
   "totals": {
-    "positive": 127,
+    "positive": 132,
     "neutral": 47,
-    "negative": 139
+    "negative": 144
   },
   "by_publication": [
     {
       "source": "The Guardian",
-      "positive": 29,
+      "positive": 31,
       "neutral": 2,
       "negative": 37,
-      "count": 68
+      "count": 70
     },
     {
       "source": "BBC News",
@@ -23,31 +23,31 @@
     },
     {
       "source": "ESPN",
-      "positive": 31,
+      "positive": 32,
       "neutral": 14,
       "negative": 11,
-      "count": 56
+      "count": 57
     },
     {
       "source": "CNBC",
-      "positive": 25,
+      "positive": 26,
       "neutral": 6,
-      "negative": 17,
-      "count": 48
+      "negative": 18,
+      "count": 50
     },
     {
       "source": "Al Jazeera English",
-      "positive": 5,
+      "positive": 6,
       "neutral": 2,
-      "negative": 31,
-      "count": 38
+      "negative": 32,
+      "count": 40
     },
     {
       "source": "Financial Times",
       "positive": 5,
       "neutral": 6,
-      "negative": 8,
-      "count": 19
+      "negative": 11,
+      "count": 22
     },
     {
       "source": "The Verge",
@@ -67,31 +67,31 @@
   "by_topic": [
     {
       "topic": "Tech",
-      "positive": 45,
+      "positive": 48,
       "neutral": 20,
       "negative": 54,
-      "count": 119
+      "count": 122
     },
     {
       "topic": "Other",
       "positive": 40,
       "neutral": 11,
-      "negative": 30,
-      "count": 81
+      "negative": 31,
+      "count": 82
     },
     {
       "topic": "Politics",
-      "positive": 23,
+      "positive": 24,
       "neutral": 1,
-      "negative": 26,
-      "count": 50
+      "negative": 29,
+      "count": 54
     },
     {
       "topic": "Business",
       "positive": 6,
       "neutral": 2,
-      "negative": 12,
-      "count": 20
+      "negative": 13,
+      "count": 21
     },
     {
       "topic": "Sports",
@@ -108,17 +108,17 @@
       "count": 16
     },
     {
+      "topic": "Entertainment",
+      "positive": 4,
+      "neutral": 1,
+      "negative": 0,
+      "count": 5
+    },
+    {
       "topic": "Health",
       "positive": 1,
       "neutral": 1,
       "negative": 2,
-      "count": 4
-    },
-    {
-      "topic": "Entertainment",
-      "positive": 3,
-      "neutral": 1,
-      "negative": 0,
       "count": 4
     },
     {
@@ -131,10 +131,45 @@
   ],
   "sample_headlines": [
     {
+      "title": "The summer box office sizzled, but brace for a cooldown until November",
+      "url": "https://www.cnbc.com/2025/08/22/summer-box-office.html",
+      "source": "CNBC",
+      "published": "2025-08-22T16:33:57+00:00",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Powell paves the way for Fed rate cut in September",
+      "url": "https://www.ft.com/content/cdd1dd0f-f0ba-41f3-be97-e598785676f5",
+      "source": "Financial Times",
+      "published": "2025-08-22T16:33:12+00:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Elon Musk and X reach tentative settlement with laid-off Twitter employees",
+      "url": "https://www.theguardian.com/technology/2025/aug/22/elon-musk-x-settlement-twitter-employees",
+      "source": "The Guardian",
+      "published": "2025-08-22T16:29:03+00:00",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Student loan borrowers in default could soon see reduced paychecks. What to know",
+      "url": "https://www.cnbc.com/2025/08/22/student-loan-borrowers-in-default-face-wage-garnishment.html",
+      "source": "CNBC",
+      "published": "2025-08-22T16:25:14+00:00",
+      "sentiment": "negative"
+    },
+    {
       "title": "Ether surges, trading close to its record again after Powell speech teasing rate cuts",
       "url": "https://www.cnbc.com/2025/08/22/crypto-market-today.html",
       "source": "CNBC",
       "published": "2025-08-22T16:22:14+00:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Canada to drop retaliatory tariffs on billions of dollars\u2019 worth of US products",
+      "url": "https://www.ft.com/content/32188ecb-c454-43db-8d1f-5c5ea7b5d30e",
+      "source": "Financial Times",
+      "published": "2025-08-22T16:21:39+00:00",
       "sentiment": "negative"
     },
     {
@@ -187,6 +222,27 @@
       "sentiment": "neutral"
     },
     {
+      "title": "Why is there a rift in the US Republican Party?",
+      "url": "https://www.aljazeera.com/video/the-stream/2025/8/22/why-is-there-a-rift-in-the-us-republican-party?traffic_source=rss",
+      "source": "Al Jazeera English",
+      "published": "2025-08-22T15:55:50+00:00",
+      "sentiment": "positive"
+    },
+    {
+      "title": "\u2018On edge\u2019: Trump\u2019s military deployment in US capital sparks fear, confusion",
+      "url": "https://www.aljazeera.com/news/2025/8/22/on-edge-trumps-military-deployment-in-us-capital-sparks-fear-confusion?traffic_source=rss",
+      "source": "Al Jazeera English",
+      "published": "2025-08-22T15:53:58+00:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Zelenskyy rejects Russia\u2019s demand to be involved in security guarantees",
+      "url": "https://www.ft.com/content/248b7da4-ce67-4f02-b9d1-d78af0e15c26",
+      "source": "Financial Times",
+      "published": "2025-08-22T15:51:10+00:00",
+      "sentiment": "negative"
+    },
+    {
       "title": "Young architects lead effort to save Romania\u2019s historic spa town",
       "url": "https://www.aljazeera.com/gallery/2025/8/22/young-architects-lead-effort-to-save-romanias-historic-spa-town?traffic_source=rss",
       "source": "Al Jazeera English",
@@ -212,62 +268,6 @@
       "url": "https://www.bbc.com/news/articles/ckgjpmg4r23o?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
       "published": "2025-08-22T15:46:22+00:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Royal Mail and DHL halt some US deliveries over tariffs",
-      "url": "https://www.bbc.com/news/articles/cx2p17xypgko?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2025-08-22T15:38:48+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Royal Mail and DHL halt some deliveries to US over tariffs",
-      "url": "https://www.bbc.com/news/articles/cx2p17xypgko?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2025-08-22T15:38:48+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "UN agency says Gaza famine is direct result of Israel\u2019s actions and may amount to war crime \u2013 as it happened",
-      "url": "https://www.theguardian.com/world/live/2025/aug/22/famine-benjamin-netanyahu-palestine-gaza-israel-war-latest-updates",
-      "source": "The Guardian",
-      "published": "2025-08-22T15:33:27+00:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "GYG shares: Guzman y Gomez plummets on ASX but expansion still on the menu as increased US losses rattle investors",
-      "url": "https://www.theguardian.com/australia-news/2025/aug/22/guzman-y-gomez-keeps-expansion-on-the-menu-despite-increased-us-losses-rattling-investors",
-      "source": "The Guardian",
-      "published": "2025-08-22T15:33:25+00:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "The lamentable decline of reading",
-      "url": "https://www.ft.com/content/583de986-a295-4697-a2fe-3c6b13c99145",
-      "source": "Financial Times",
-      "published": "2025-08-22T15:30:46+00:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Notting Hill carnival \u2018very close\u2019 to not happening, says chair in funding appeal",
-      "url": "https://www.theguardian.com/culture/2025/aug/22/notting-hill-carnival-london-funding-policing",
-      "source": "The Guardian",
-      "published": "2025-08-22T15:29:02+00:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Royal Mail still missing delivery targets after sale to Czech tycoon K\u0159et\u00ednsk\u00fd",
-      "url": "https://www.theguardian.com/business/2025/aug/22/royal-mail-missing-delivery-targets-sale-kretinsky-ep-group",
-      "source": "The Guardian",
-      "published": "2025-08-22T15:23:18+00:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Hurricane Erin intensified at a near-record rate. Is Florida ready for the next big storm?",
-      "url": "https://www.theguardian.com/us-news/2025/aug/22/hurricane-erin-analysis-florida",
-      "source": "The Guardian",
-      "published": "2025-08-22T15:11:47+00:00",
       "sentiment": "negative"
     }
   ]
