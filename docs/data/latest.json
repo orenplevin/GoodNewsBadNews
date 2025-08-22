@@ -1,25 +1,25 @@
 {
-  "generated_at": "2025-08-22T14:18:42.103424+00:00",
+  "generated_at": "2025-08-22T14:42:16.566094+00:00",
   "window_hours": 24,
   "totals": {
-    "positive": 111,
+    "positive": 113,
     "neutral": 42,
-    "negative": 109
+    "negative": 112
   },
   "by_publication": [
     {
       "source": "The Guardian",
       "positive": 25,
       "neutral": 2,
-      "negative": 26,
-      "count": 53
+      "negative": 27,
+      "count": 54
     },
     {
       "source": "BBC News",
-      "positive": 17,
+      "positive": 18,
       "neutral": 10,
       "negative": 25,
-      "count": 52
+      "count": 53
     },
     {
       "source": "ESPN",
@@ -30,17 +30,17 @@
     },
     {
       "source": "CNBC",
-      "positive": 23,
+      "positive": 24,
       "neutral": 6,
-      "negative": 13,
-      "count": 42
+      "negative": 14,
+      "count": 44
     },
     {
       "source": "Al Jazeera English",
       "positive": 3,
       "neutral": 2,
-      "negative": 25,
-      "count": 30
+      "negative": 26,
+      "count": 31
     },
     {
       "source": "The Verge",
@@ -69,22 +69,22 @@
       "topic": "Tech",
       "positive": 40,
       "neutral": 17,
-      "negative": 40,
-      "count": 97
+      "negative": 41,
+      "count": 98
     },
     {
       "topic": "Other",
-      "positive": 37,
+      "positive": 38,
       "neutral": 10,
       "negative": 25,
-      "count": 72
+      "count": 73
     },
     {
       "topic": "Politics",
       "positive": 19,
       "neutral": 0,
-      "negative": 19,
-      "count": 38
+      "negative": 21,
+      "count": 40
     },
     {
       "topic": "Sports",
@@ -95,10 +95,10 @@
     },
     {
       "topic": "Business",
-      "positive": 4,
+      "positive": 5,
       "neutral": 2,
       "negative": 10,
-      "count": 16
+      "count": 17
     },
     {
       "topic": "World",
@@ -124,10 +124,31 @@
   ],
   "sample_headlines": [
     {
+      "title": "Trump says he'll fire Fed Governor Lisa Cook 'if she doesn't resign'",
+      "url": "https://www.cnbc.com/2025/08/22/trump-fire-fed-lisa-cook-powell.html",
+      "source": "CNBC",
+      "published": "2025-08-22T14:41:10+00:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "DeepSeek hints latest model will be compatible with China\u2019s \u2018next generation\u2019 homegrown AI chips",
+      "url": "https://www.cnbc.com/2025/08/22/deepseek-hints-latest-model-supported-by-chinas-next-generation-homegrown-ai-chips.html",
+      "source": "CNBC",
+      "published": "2025-08-22T14:26:41+00:00",
+      "sentiment": "positive"
+    },
+    {
       "title": "Powell indicates conditions 'may warrant' interest rate cuts as Fed proceeds 'carefully'",
       "url": "https://www.cnbc.com/2025/08/22/powell-indicates-conditions-may-warrant-interest-rate-cuts-as-fed-proceeds-carefully.html",
       "source": "CNBC",
       "published": "2025-08-22T14:10:18+00:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Serbian president calls for \u2018democratic dialogue\u2019 with antigov\u2019t protesters",
+      "url": "https://www.aljazeera.com/news/2025/8/22/serbia-president-calls-for-democratic-dialogue-with-antigovt-protesters?traffic_source=rss",
+      "source": "Al Jazeera English",
+      "published": "2025-08-22T14:06:17+00:00",
       "sentiment": "negative"
     },
     {
@@ -222,6 +243,13 @@
       "sentiment": "negative"
     },
     {
+      "title": "Court challenge to US-Eswatini deportation deal postponed",
+      "url": "https://www.theguardian.com/world/2025/aug/22/court-case-challenging-eswatini-us-immigrant-deportation-deal-postponed",
+      "source": "The Guardian",
+      "published": "2025-08-22T13:37:04+00:00",
+      "sentiment": "negative"
+    },
+    {
       "title": "Waymo granted first permit to begin testing autonomous vehicles in New York City",
       "url": "https://www.cnbc.com/2025/08/22/waymo-permit-new-york-city-nyc-rides.html",
       "source": "CNBC",
@@ -233,34 +261,6 @@
       "url": "https://www.bbc.com/news/articles/cz602wvjv7lo?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
       "published": "2025-08-22T13:25:59+00:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "India scales back plan to remove stray dogs from streets of Delhi",
-      "url": "https://www.theguardian.com/world/2025/aug/22/india-scales-back-plan-remove-stray-dogs-streets-delhi",
-      "source": "The Guardian",
-      "published": "2025-08-22T13:14:59+00:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Home Office seeks to appeal against court ruling on Epping asylum hotel",
-      "url": "https://www.bbc.com/news/articles/cy5p2ye95z9o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2025-08-22T13:14:58+00:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Tariffs aren't dealing a huge blow to big retailers and consumers \u2014 yet. Here are key earnings takeaways",
-      "url": "https://www.cnbc.com/2025/08/22/retail-earnings-walmart-target-home-depot-discuss-tariffs.html",
-      "source": "CNBC",
-      "published": "2025-08-22T13:14:20+00:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Noel Clarke claimed he was a victim. Twenty-six witnesses painted a very different picture",
-      "url": "https://www.theguardian.com/media/2025/aug/22/noel-clarke-claimed-he-was-a-victim-twenty-six-witnesses-painted-a-very-different-picture",
-      "source": "The Guardian",
-      "published": "2025-08-22T13:13:11+00:00",
       "sentiment": "negative"
     }
   ]
