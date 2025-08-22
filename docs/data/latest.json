@@ -1,18 +1,18 @@
 {
-  "generated_at": "2025-08-22T19:15:37.990561+00:00",
+  "generated_at": "2025-08-22T19:37:14.655446+00:00",
   "window_hours": 24,
   "totals": {
-    "positive": 150,
-    "neutral": 56,
+    "positive": 152,
+    "neutral": 57,
     "negative": 161
   },
   "by_publication": [
     {
       "source": "The Guardian",
-      "positive": 34,
+      "positive": 36,
       "neutral": 2,
-      "negative": 45,
-      "count": 81
+      "negative": 46,
+      "count": 84
     },
     {
       "source": "BBC News",
@@ -32,15 +32,15 @@
       "source": "CNBC",
       "positive": 30,
       "neutral": 8,
-      "negative": 19,
-      "count": 57
+      "negative": 16,
+      "count": 54
     },
     {
       "source": "Al Jazeera English",
       "positive": 11,
-      "neutral": 2,
-      "negative": 37,
-      "count": 50
+      "neutral": 3,
+      "negative": 39,
+      "count": 53
     },
     {
       "source": "Financial Times",
@@ -67,45 +67,45 @@
   "by_topic": [
     {
       "topic": "Tech",
-      "positive": 55,
+      "positive": 56,
       "neutral": 21,
-      "negative": 57,
-      "count": 133
+      "negative": 59,
+      "count": 136
     },
     {
       "topic": "Other",
       "positive": 42,
-      "neutral": 15,
-      "negative": 33,
-      "count": 90
+      "neutral": 17,
+      "negative": 32,
+      "count": 91
     },
     {
       "topic": "Politics",
-      "positive": 30,
+      "positive": 32,
       "neutral": 4,
       "negative": 37,
-      "count": 71
+      "count": 73
     },
     {
       "topic": "Business",
       "positive": 8,
       "neutral": 2,
-      "negative": 15,
-      "count": 25
+      "negative": 14,
+      "count": 24
     },
     {
       "topic": "Sports",
       "positive": 5,
-      "neutral": 10,
+      "neutral": 9,
       "negative": 4,
-      "count": 19
+      "count": 18
     },
     {
       "topic": "World",
-      "positive": 4,
+      "positive": 3,
       "neutral": 2,
       "negative": 11,
-      "count": 17
+      "count": 16
     },
     {
       "topic": "Health",
@@ -130,6 +130,41 @@
     }
   ],
   "sample_headlines": [
+    {
+      "title": "Ghislaine Maxwell interview transcript released by US justice department",
+      "url": "https://www.theguardian.com/us-news/2025/aug/22/ghislaine-maxwell-interview-transcript-justice-department",
+      "source": "The Guardian",
+      "published": "2025-08-22T19:29:23+00:00",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Kilmar \u00c1brego Garc\u00eda released from criminal custody after court order",
+      "url": "https://www.theguardian.com/us-news/2025/aug/22/kilmar-abrego-garcia-release",
+      "source": "The Guardian",
+      "published": "2025-08-22T19:28:58+00:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Justice department releases transcripts of Ghislaine Maxwell interview with deputy attorney general \u2013 live",
+      "url": "https://www.theguardian.com/us-news/live/2025/aug/22/donald-trump-administration-federal-reserve-republicans-democrats-us-politics-live",
+      "source": "The Guardian",
+      "published": "2025-08-22T19:22:09+00:00",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Trump says US to take 10 percent stake in Intel",
+      "url": "https://www.aljazeera.com/economy/2025/8/22/trump-says-us-to-take-10-percent-stake-in-intel?traffic_source=rss",
+      "source": "Al Jazeera English",
+      "published": "2025-08-22T19:13:00+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "RSF attacks kill 89 people in 10 days in Sudan\u2019s Darfur, UN says",
+      "url": "https://www.aljazeera.com/news/2025/8/22/rsf-attacks-kill-89-people-in-10-days-in-sudans-darfur-un-says?traffic_source=rss",
+      "source": "Al Jazeera English",
+      "published": "2025-08-22T19:10:51+00:00",
+      "sentiment": "negative"
+    },
     {
       "title": "US\u2019s last surviving second world war flying \u2018ace\u2019 dies aged 103",
       "url": "https://www.theguardian.com/world/2025/aug/22/donald-mcpherson-navy-pilot-dies",
@@ -234,41 +269,6 @@
       "source": "Al Jazeera English",
       "published": "2025-08-22T18:14:29+00:00",
       "sentiment": "positive"
-    },
-    {
-      "title": "How can Israel continue to claim it does not target civilians?",
-      "url": "https://www.aljazeera.com/video/inside-story/2025/8/22/how-can-israel-continue-to-claim-it-does-not-target-civilians?traffic_source=rss",
-      "source": "Al Jazeera English",
-      "published": "2025-08-22T18:14:18+00:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Checked out: Jenrick\u2019s migrant hotel record haunts his rightwing bid for attention",
-      "url": "https://www.theguardian.com/politics/2025/aug/22/checked-out-jenricks-migrant-hotel-record-haunts-his-rightwing-bid-for-attention",
-      "source": "The Guardian",
-      "published": "2025-08-22T18:12:48+00:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Trump says Intel has agreed to give US 10% stake in chipmaker",
-      "url": "https://www.ft.com/content/aec7bdce-d9ca-4416-a1b4-a0da5d11c715",
-      "source": "Financial Times",
-      "published": "2025-08-22T18:10:43+00:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "The twilight of the central banking elite",
-      "url": "https://www.ft.com/content/3b5a3fde-6110-4e40-88b1-04f71ed5b0f1",
-      "source": "Financial Times",
-      "published": "2025-08-22T18:03:06+00:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Canada to drop counter-tariffs on some US goods one day after call with Trump",
-      "url": "https://www.theguardian.com/world/2025/aug/22/canada-counter-tariffs-trump",
-      "source": "The Guardian",
-      "published": "2025-08-22T18:02:17+00:00",
-      "sentiment": "negative"
     }
   ]
 }
