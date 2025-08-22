@@ -1,18 +1,18 @@
 {
-  "generated_at": "2025-08-22T18:26:54.932572+00:00",
+  "generated_at": "2025-08-22T18:49:00.270509+00:00",
   "window_hours": 24,
   "totals": {
-    "positive": 146,
-    "neutral": 51,
-    "negative": 150
+    "positive": 150,
+    "neutral": 53,
+    "negative": 156
   },
   "by_publication": [
     {
       "source": "The Guardian",
-      "positive": 32,
+      "positive": 33,
       "neutral": 2,
-      "negative": 38,
-      "count": 72
+      "negative": 42,
+      "count": 77
     },
     {
       "source": "BBC News",
@@ -24,9 +24,9 @@
     {
       "source": "CNBC",
       "positive": 30,
-      "neutral": 6,
-      "negative": 20,
-      "count": 56
+      "neutral": 7,
+      "negative": 21,
+      "count": 58
     },
     {
       "source": "ESPN",
@@ -44,17 +44,17 @@
     },
     {
       "source": "Financial Times",
-      "positive": 5,
-      "neutral": 6,
-      "negative": 11,
-      "count": 22
+      "positive": 7,
+      "neutral": 7,
+      "negative": 12,
+      "count": 26
     },
     {
       "source": "The Verge",
-      "positive": 14,
+      "positive": 15,
       "neutral": 2,
       "negative": 3,
-      "count": 19
+      "count": 20
     },
     {
       "source": "CNN",
@@ -67,24 +67,24 @@
   "by_topic": [
     {
       "topic": "Tech",
-      "positive": 54,
-      "neutral": 19,
-      "negative": 54,
-      "count": 127
+      "positive": 55,
+      "neutral": 20,
+      "negative": 55,
+      "count": 130
     },
     {
       "topic": "Other",
       "positive": 43,
       "neutral": 13,
-      "negative": 30,
-      "count": 86
+      "negative": 32,
+      "count": 88
     },
     {
       "topic": "Politics",
-      "positive": 27,
+      "positive": 30,
       "neutral": 4,
-      "negative": 34,
-      "count": 65
+      "negative": 37,
+      "count": 71
     },
     {
       "topic": "Business",
@@ -96,9 +96,9 @@
     {
       "topic": "Sports",
       "positive": 5,
-      "neutral": 9,
+      "neutral": 10,
       "negative": 4,
-      "count": 18
+      "count": 19
     },
     {
       "topic": "World",
@@ -131,6 +131,48 @@
   ],
   "sample_headlines": [
     {
+      "title": "Major League Baseball closes in on new media rights deals with ESPN, NBC, Netflix",
+      "url": "https://www.cnbc.com/2025/08/22/mlbrrights-espn-nbc-netflix.html",
+      "source": "CNBC",
+      "published": "2025-08-22T18:44:23+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Here's what current and former Fed officials are saying about Lisa Cook investigation",
+      "url": "https://www.cnbc.com/2025/08/22/heres-what-current-and-former-fed-officials-are-saying-about-lisa-cook-investigation.html",
+      "source": "CNBC",
+      "published": "2025-08-22T18:38:33+00:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "China refuses to explain \u2018greyed out\u2019 parts of London embassy plan",
+      "url": "https://www.ft.com/content/1c85300d-af36-4c49-9a45-8ebcc1c6a006",
+      "source": "Financial Times",
+      "published": "2025-08-22T18:36:11+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Trump targets Chicago and New York as Hegseth orders weapons for DC troops",
+      "url": "https://www.theguardian.com/us-news/2025/aug/22/trump-troops-dc-new-york-chicago",
+      "source": "The Guardian",
+      "published": "2025-08-22T18:33:26+00:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Wildfire explodes in California wine country as heatwave scorches US west",
+      "url": "https://www.theguardian.com/us-news/2025/aug/22/california-wildfire-napa-county",
+      "source": "The Guardian",
+      "published": "2025-08-22T18:28:24+00:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "US court orders release of Kilmar \u00c1brego Garc\u00eda from criminal custody",
+      "url": "https://www.theguardian.com/us-news/2025/aug/22/kilmar-abrego-garcia-release",
+      "source": "The Guardian",
+      "published": "2025-08-22T18:26:04+00:00",
+      "sentiment": "negative"
+    },
+    {
       "title": "FBI raids home, office of John Bolton, former Trump national security advisor",
       "url": "https://www.cnbc.com/2025/08/22/fbi-raid-john-bolton-trump-patel.html",
       "source": "CNBC",
@@ -159,10 +201,45 @@
       "sentiment": "positive"
     },
     {
+      "title": "Checked out: Jenrick\u2019s migrant hotel record haunts his rightwing bid for attention",
+      "url": "https://www.theguardian.com/politics/2025/aug/22/checked-out-jenricks-migrant-hotel-record-haunts-his-rightwing-bid-for-attention",
+      "source": "The Guardian",
+      "published": "2025-08-22T18:12:48+00:00",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Trump says Intel has agreed to give US 10% stake in chipmaker",
+      "url": "https://www.ft.com/content/aec7bdce-d9ca-4416-a1b4-a0da5d11c715",
+      "source": "Financial Times",
+      "published": "2025-08-22T18:10:43+00:00",
+      "sentiment": "positive"
+    },
+    {
+      "title": "The twilight of the central banking elite",
+      "url": "https://www.ft.com/content/3b5a3fde-6110-4e40-88b1-04f71ed5b0f1",
+      "source": "Financial Times",
+      "published": "2025-08-22T18:03:06+00:00",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Canada to drop counter-tariffs on some US goods one day after call with Trump",
+      "url": "https://www.theguardian.com/world/2025/aug/22/canada-counter-tariffs-trump",
+      "source": "The Guardian",
+      "published": "2025-08-22T18:02:17+00:00",
+      "sentiment": "negative"
+    },
+    {
       "title": "Air pollution from oil and gas causes 90,000 premature US deaths each year, says new study",
       "url": "https://www.theguardian.com/us-news/2025/aug/22/air-pollution-oil-gas-health-study",
       "source": "The Guardian",
       "published": "2025-08-22T18:00:38+00:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Tariff revenue will cut US deficits by $4tn, fiscal watchdog says",
+      "url": "https://www.ft.com/content/f996ece9-d9e2-4a06-957a-487994f6a7e7",
+      "source": "Financial Times",
+      "published": "2025-08-22T17:54:01+00:00",
       "sentiment": "negative"
     },
     {
@@ -192,83 +269,6 @@
       "source": "Al Jazeera English",
       "published": "2025-08-22T17:43:35+00:00",
       "sentiment": "positive"
-    },
-    {
-      "title": "John Bolton was not targeted for criticizing Trump, Vance claims after FBI raid",
-      "url": "https://www.cnbc.com/2025/08/22/john-bolton-investigation-vance-trump-fbi-raid.html",
-      "source": "CNBC",
-      "published": "2025-08-22T17:41:38+00:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "US Open tennis 2025: Schedule, seeds, prize money, tickets and how to watch",
-      "url": "https://www.aljazeera.com/sports/2025/8/22/us-open-tennis-2025-schedule-seeds-prize-money-tickets-and-how-to-watch?traffic_source=rss",
-      "source": "Al Jazeera English",
-      "published": "2025-08-22T17:39:55+00:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "UK agrees to pay Kenyans affected by military fire",
-      "url": "https://www.bbc.com/news/articles/c9vd3k1dpymo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2025-08-22T17:38:08+00:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "'Biggest event in sport' - Trump says Washington to host 2026 World Cup draw",
-      "url": "https://www.bbc.com/sport/football/articles/cly4pk542d1o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2025-08-22T17:33:20+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'The biggest event in sport' - Trump announces 2026 World Cup draw",
-      "url": "https://www.bbc.com/sport/football/articles/cly4pk542d1o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2025-08-22T17:33:20+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "FBI raids home and office of ex-Trump official John Bolton",
-      "url": "https://www.aljazeera.com/video/newsfeed/2025/8/22/fbi-raids-home-and-office-of-ex-trump-official-john-bolton?traffic_source=rss",
-      "source": "Al Jazeera English",
-      "published": "2025-08-22T17:31:26+00:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Trump threatens to fire US Fed Governor Lisa Cook",
-      "url": "https://www.aljazeera.com/economy/2025/8/22/trump-threatens-to-fire-us-fed-governor-lisa-cook?traffic_source=rss",
-      "source": "Al Jazeera English",
-      "published": "2025-08-22T17:24:00+00:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Trump says he wasn\u2019t briefed on FBI raid of John Bolton\u2019s home; Vance denies investigation politically motivated \u2013 live",
-      "url": "https://www.theguardian.com/us-news/live/2025/aug/22/donald-trump-administration-federal-reserve-republicans-democrats-us-politics-live",
-      "source": "The Guardian",
-      "published": "2025-08-22T17:22:24+00:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Higher tariffs are kicking in. Here's what Walmart and other retailers said about their impact",
-      "url": "https://www.cnbc.com/2025/08/22/retail-earnings-walmart-target-home-depot-discuss-tariffs.html",
-      "source": "CNBC",
-      "published": "2025-08-22T17:18:49+00:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "OpenAI CEO Sam Altman: The AI era is 'probably the most exciting time to be starting out one's career, maybe ever'",
-      "url": "https://www.cnbc.com/2025/08/22/openai-ceo-says-ai-era-is-exciting-time-to-start-a-career.html",
-      "source": "CNBC",
-      "published": "2025-08-22T17:17:00+00:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Florida appeals against judge\u2019s order to close \u2018Alligator Alcatraz\u2019 immigration jail",
-      "url": "https://www.theguardian.com/us-news/2025/aug/22/alligator-alcatraz-closure-appeal-immigration",
-      "source": "The Guardian",
-      "published": "2025-08-22T17:07:59+00:00",
-      "sentiment": "negative"
     }
   ]
 }
