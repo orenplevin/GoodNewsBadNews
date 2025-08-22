@@ -1,39 +1,39 @@
 {
-  "generated_at": "2025-08-22T23:17:14.667848+00:00",
+  "generated_at": "2025-08-22T23:37:38.906788+00:00",
   "window_hours": 24,
   "totals": {
-    "positive": 179,
+    "positive": 177,
     "neutral": 60,
-    "negative": 185
+    "negative": 184
   },
   "by_publication": [
     {
       "source": "The Guardian",
       "positive": 43,
       "neutral": 2,
-      "negative": 51,
-      "count": 96
+      "negative": 52,
+      "count": 97
     },
     {
       "source": "BBC News",
-      "positive": 38,
+      "positive": 37,
       "neutral": 16,
       "negative": 35,
-      "count": 89
+      "count": 88
+    },
+    {
+      "source": "CNBC",
+      "positive": 32,
+      "neutral": 9,
+      "negative": 20,
+      "count": 61
     },
     {
       "source": "Al Jazeera English",
       "positive": 15,
       "neutral": 3,
-      "negative": 44,
-      "count": 62
-    },
-    {
-      "source": "CNBC",
-      "positive": 33,
-      "neutral": 9,
-      "negative": 20,
-      "count": 62
+      "negative": 42,
+      "count": 60
     },
     {
       "source": "ESPN",
@@ -69,22 +69,22 @@
       "topic": "Tech",
       "positive": 70,
       "neutral": 26,
-      "negative": 73,
-      "count": 169
+      "negative": 74,
+      "count": 170
     },
     {
       "topic": "Other",
-      "positive": 44,
+      "positive": 43,
       "neutral": 15,
-      "negative": 35,
-      "count": 94
+      "negative": 34,
+      "count": 92
     },
     {
       "topic": "Politics",
       "positive": 39,
       "neutral": 4,
-      "negative": 40,
-      "count": 83
+      "negative": 39,
+      "count": 82
     },
     {
       "topic": "Business",
@@ -102,10 +102,10 @@
     },
     {
       "topic": "World",
-      "positive": 2,
+      "positive": 1,
       "neutral": 2,
       "negative": 15,
-      "count": 19
+      "count": 18
     },
     {
       "topic": "Health",
@@ -130,6 +130,13 @@
     }
   ],
   "sample_headlines": [
+    {
+      "title": "Colorado judge rejects plea deal for funeral home owner in corpse abuse case",
+      "url": "https://www.theguardian.com/us-news/2025/aug/22/colorado-corpse-abuse-case",
+      "source": "The Guardian",
+      "published": "2025-08-22T23:20:55+00:00",
+      "sentiment": "negative"
+    },
     {
       "title": "Fans loved her new album. The thing was, she hadn't released one",
       "url": "https://www.bbc.com/news/articles/clydz8d03dvo?at_medium=RSS&at_campaign=rss",
@@ -261,13 +268,6 @@
       "url": "https://www.bbc.com/news/articles/cr74p245zdlo?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
       "published": "2025-08-22T21:26:47+00:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Raducanu wants Wimbledon to try innovative mixed doubles",
-      "url": "https://www.bbc.com/sport/tennis/articles/c9d03jqdl7xo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2025-08-22T21:24:21+00:00",
       "sentiment": "positive"
     }
   ]
