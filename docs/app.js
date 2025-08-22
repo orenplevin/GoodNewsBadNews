@@ -22,12 +22,38 @@ const COLORS = {
     }
 };
 
-// Global state for filtering
+// Global state for filtering and layout
 let globalData = {
     latest: null,
     history: null,
     selectedSources: new Set(),
-    allSources: []
+    allSources: [],
+    layouts: {
+        default: {
+            stats: { width: 240, height: 'auto' },
+            sources: { height: 140 },
+            sentiment: { width: '50%', height: 360 },
+            trend: { width: '50%', height: 360 },
+            publication: { width: '50%', height: 360 },
+            topics: { width: '50%', height: 360 },
+            headlines: { height: 400 }
+        }
+    },
+    currentLayout: 'default',
+    minimizedWidgets: new Set()
+};
+
+// Resize functionality
+let resizeState = {
+    isResizing: false,
+    currentWidget: null,
+    currentHandle: null,
+    startX: 0,
+    startY: 0,
+    startWidth: 0,
+    startHeight: 0,
+    startLeft: 0,
+    startTop: 0
 };
 
 async function fetchJSON(path) {
@@ -234,13 +260,6 @@ function updateChartsWithFilteredData(filteredData) {
 
 function updateHeadlinesCount(count) {
     document.getElementById('headlinesCount').textContent = `${count} articles`;
-}
-
-function createGradient(ctx, color1, color2) {
-    const gradient = ctx.createLinearGradient(0, 0, 0, 400);
-    gradient.addColorStop(0, color1);
-    gradient.addColorStop(1, color2);
-    return gradient;
 }
 
 function renderOverall(ctx, totals) {
@@ -526,6 +545,210 @@ function getTimeAgo(date) {
     return `${Math.floor(diffInSeconds / 86400)}d ago`;
 }
 
+// Resize functionality
+function initializeResize() {
+    const resizeHandles = document.querySelectorAll('.resize-handle');
+    const resizableWidgets = document.querySelectorAll('.resizable-widget');
+    const resizableStats = document.querySelectorAll('.resizable-stat');
+    
+    // Add resize functionality to all elements
+    [...resizeHandles].forEach(handle => {
+        handle.addEventListener('mousedown', startResize);
+    });
+    
+    document.addEventListener('mousemove', handleResize);
+    document.addEventListener('mouseup', stopResize);
+    
+    // Prevent text selection during resize
+    document.addEventListener('selectstart', (e) => {
+        if (resizeState.isResizing) {
+            e.preventDefault();
+        }
+    });
+}
+
+function startResize(e) {
+    e.preventDefault();
+    e.stopPropagation();
+    
+    const handle = e.target;
+    const widget = handle.closest('.resizable-widget') || handle.closest('.resizable-stat');
+    
+    if (!widget) return;
+    
+    resizeState.isResizing = true;
+    resizeState.currentWidget = widget;
+    resizeState.currentHandle = handle;
+    resizeState.startX = e.clientX;
+    resizeState.startY = e.clientY;
+    
+    const rect = widget.getBoundingClientRect();
+    resizeState.startWidth = rect.width;
+    resizeState.startHeight = rect.height;
+    resizeState.startLeft = rect.left;
+    resizeState.startTop = rect.top;
+    
+    // Add visual feedback
+    handle.classList.add('active');
+    document.body.classList.add('resizing');
+    
+    // Set cursor
+    const handleClass = handle.className;
+    if (handleClass.includes('resize-handle-right') || handleClass.includes('resize-handle-left')) {
+        document.body.style.setProperty('--resize-cursor', 'ew-resize');
+    } else if (handleClass.includes('resize-handle-top') || handleClass.includes('resize-handle-bottom')) {
+        document.body.style.setProperty('--resize-cursor', 'ns-resize');
+    } else if (handleClass.includes('corner')) {
+        document.body.style.setProperty('--resize-cursor', 'nw-resize');
+    }
+}
+
+function handleResize(e) {
+    if (!resizeState.isResizing) return;
+    
+    e.preventDefault();
+    
+    const deltaX = e.clientX - resizeState.startX;
+    const deltaY = e.clientY - resizeState.startY;
+    const widget = resizeState.currentWidget;
+    const handle = resizeState.currentHandle;
+    
+    let newWidth = resizeState.startWidth;
+    let newHeight = resizeState.startHeight;
+    
+    // Determine resize direction based on handle class
+    const handleClass = handle.className;
+    
+    if (handleClass.includes('resize-handle-right')) {
+        newWidth = Math.max(200, resizeState.startWidth + deltaX);
+        widget.style.width = `${newWidth}px`;
+    } else if (handleClass.includes('resize-handle-left')) {
+        newWidth = Math.max(200, resizeState.startWidth - deltaX);
+        widget.style.width = `${newWidth}px`;
+    } else if (handleClass.includes('resize-handle-bottom')) {
+        newHeight = Math.max(100, resizeState.startHeight + deltaY);
+        widget.style.height = `${newHeight}px`;
+    } else if (handleClass.includes('resize-handle-top')) {
+        newHeight = Math.max(100, resizeState.startHeight - deltaY);
+        widget.style.height = `${newHeight}px`;
+    } else if (handleClass.includes('resize-handle-corner')) {
+        newWidth = Math.max(200, resizeState.startWidth + deltaX);
+        newHeight = Math.max(100, resizeState.startHeight + deltaY);
+        widget.style.width = `${newWidth}px`;
+        widget.style.height = `${newHeight}px`;
+    } else if (handleClass.includes('resize-handle-corner-left')) {
+        newWidth = Math.max(200, resizeState.startWidth - deltaX);
+        newHeight = Math.max(100, resizeState.startHeight + deltaY);
+        widget.style.width = `${newWidth}px`;
+        widget.style.height = `${newHeight}px`;
+    }
+    
+    // Trigger chart resize if this is a chart widget
+    const canvas = widget.querySelector('canvas');
+    if (canvas) {
+        const chartInstance = Chart.getChart(canvas);
+        if (chartInstance) {
+            setTimeout(() => chartInstance.resize(), 50);
+        }
+    }
+}
+
+function stopResize(e) {
+    if (!resizeState.isResizing) return;
+    
+    resizeState.currentHandle?.classList.remove('active');
+    document.body.classList.remove('resizing');
+    document.body.style.removeProperty('--resize-cursor');
+    
+    resizeState.isResizing = false;
+    resizeState.currentWidget = null;
+    resizeState.currentHandle = null;
+}
+
+// Widget minimize/expand functionality
+function initializeMinimize() {
+    const minimizeButtons = document.querySelectorAll('.minimize-btn');
+    
+    minimizeButtons.forEach(btn => {
+        btn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            const widgetType = btn.dataset.widget;
+            toggleMinimize(widgetType);
+        });
+    });
+}
+
+function toggleMinimize(widgetType) {
+    const widget = document.querySelector(`[data-widget="${widgetType}"]`);
+    const btn = document.querySelector(`[data-widget="${widgetType}"].minimize-btn`);
+    
+    if (!widget || !btn) return;
+    
+    if (globalData.minimizedWidgets.has(widgetType)) {
+        // Expand
+        widget.classList.remove('minimized');
+        globalData.minimizedWidgets.delete(widgetType);
+        btn.textContent = '−';
+        btn.title = 'Minimize';
+    } else {
+        // Minimize
+        widget.classList.add('minimized');
+        globalData.minimizedWidgets.add(widgetType);
+        btn.textContent = '+';
+        btn.title = 'Expand';
+    }
+    
+    // Trigger chart resize for expanded charts
+    if (!globalData.minimizedWidgets.has(widgetType)) {
+        const canvas = widget.querySelector('canvas');
+        if (canvas) {
+            const chartInstance = Chart.getChart(canvas);
+            if (chartInstance) {
+                setTimeout(() => chartInstance.resize(), 100);
+            }
+        }
+    }
+}
+
+// Reset layout functionality
+function resetLayout() {
+    const widgets = document.querySelectorAll('.resizable-widget, .resizable-stat');
+    
+    widgets.forEach(widget => {
+        const widgetType = widget.dataset.widget;
+        const defaultLayout = globalData.layouts.default[widgetType];
+        
+        if (defaultLayout) {
+            if (defaultLayout.width) {
+                widget.style.width = defaultLayout.width;
+            }
+            if (defaultLayout.height && defaultLayout.height !== 'auto') {
+                widget.style.height = `${defaultLayout.height}px`;
+            }
+        }
+        
+        // Remove minimized state
+        widget.classList.remove('minimized');
+        
+        // Reset minimize buttons
+        const btn = widget.querySelector('.minimize-btn');
+        if (btn) {
+            btn.textContent = '−';
+            btn.title = 'Minimize';
+        }
+    });
+    
+    // Clear minimized widgets
+    globalData.minimizedWidgets.clear();
+    
+    // Resize all charts
+    setTimeout(() => {
+        Chart.instances.forEach(chart => {
+            chart.resize();
+        });
+    }, 100);
+}
+
 // Add interactive features
 function addInteractivity() {
     // Add refresh functionality
@@ -547,6 +770,16 @@ function addInteractivity() {
     if (deselectAllBtn) {
         deselectAllBtn.addEventListener('click', deselectAllSources);
     }
+    
+    // Add reset layout button
+    const resetLayoutBtn = document.getElementById('resetLayout');
+    if (resetLayoutBtn) {
+        resetLayoutBtn.addEventListener('click', resetLayout);
+    }
+    
+    // Initialize resize functionality
+    initializeResize();
+    initializeMinimize();
 }
 
 (async function init() {
