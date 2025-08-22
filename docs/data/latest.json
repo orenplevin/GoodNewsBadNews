@@ -1,25 +1,25 @@
 {
-  "generated_at": "2025-08-22T21:17:01.505827+00:00",
+  "generated_at": "2025-08-22T21:37:54.178876+00:00",
   "window_hours": 24,
   "totals": {
-    "positive": 172,
+    "positive": 178,
     "neutral": 59,
-    "negative": 172
+    "negative": 177
   },
   "by_publication": [
     {
       "source": "The Guardian",
       "positive": 41,
       "neutral": 2,
-      "negative": 48,
-      "count": 91
+      "negative": 49,
+      "count": 92
     },
     {
       "source": "BBC News",
-      "positive": 31,
+      "positive": 35,
       "neutral": 16,
-      "negative": 30,
-      "count": 77
+      "negative": 31,
+      "count": 82
     },
     {
       "source": "ESPN",
@@ -29,6 +29,13 @@
       "count": 62
     },
     {
+      "source": "Al Jazeera English",
+      "positive": 14,
+      "neutral": 3,
+      "negative": 44,
+      "count": 61
+    },
+    {
       "source": "CNBC",
       "positive": 33,
       "neutral": 9,
@@ -36,25 +43,18 @@
       "count": 61
     },
     {
-      "source": "Al Jazeera English",
-      "positive": 12,
-      "neutral": 3,
-      "negative": 43,
-      "count": 58
-    },
-    {
       "source": "Financial Times",
       "positive": 7,
       "neutral": 8,
-      "negative": 13,
-      "count": 28
+      "negative": 14,
+      "count": 29
     },
     {
       "source": "The Verge",
       "positive": 16,
       "neutral": 2,
-      "negative": 4,
-      "count": 22
+      "negative": 5,
+      "count": 23
     },
     {
       "source": "CNN",
@@ -67,24 +67,24 @@
   "by_topic": [
     {
       "topic": "Tech",
-      "positive": 67,
+      "positive": 69,
       "neutral": 24,
-      "negative": 66,
-      "count": 157
+      "negative": 70,
+      "count": 163
     },
     {
       "topic": "Other",
-      "positive": 44,
+      "positive": 45,
       "neutral": 16,
-      "negative": 34,
-      "count": 94
+      "negative": 35,
+      "count": 96
     },
     {
       "topic": "Politics",
-      "positive": 35,
+      "positive": 37,
       "neutral": 4,
       "negative": 38,
-      "count": 77
+      "count": 79
     },
     {
       "topic": "Business",
@@ -95,10 +95,10 @@
     },
     {
       "topic": "Sports",
-      "positive": 8,
+      "positive": 9,
       "neutral": 9,
       "negative": 4,
-      "count": 21
+      "count": 22
     },
     {
       "topic": "World",
@@ -131,11 +131,67 @@
   ],
   "sample_headlines": [
     {
+      "title": "West Ham booed as Chelsea score five in convincing win",
+      "url": "https://www.bbc.com/sport/football/videos/cm21pe8d8leo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2025-08-22T21:31:39+00:00",
+      "sentiment": "positive"
+    },
+    {
+      "title": "UN aid chief\u2019s powerful plea to end Israel\u2019s Gaza famine",
+      "url": "https://www.aljazeera.com/video/newsfeed/2025/8/22/un-aid-chiefs-powerful-plea-to-end-israels-gaza-famine?traffic_source=rss",
+      "source": "Al Jazeera English",
+      "published": "2025-08-22T21:27:11+00:00",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Chappell Roan slays Reading Festival with fairytale-themed set",
+      "url": "https://www.bbc.com/news/articles/cr74p245zdlo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2025-08-22T21:26:47+00:00",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Raducanu wants Wimbledon to try innovative mixed doubles",
+      "url": "https://www.bbc.com/sport/tennis/articles/c9d03jqdl7xo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2025-08-22T21:24:21+00:00",
+      "sentiment": "positive"
+    },
+    {
+      "title": "US to take 10% stake in troubled chipmaker Intel",
+      "url": "https://www.ft.com/content/aec7bdce-d9ca-4416-a1b4-a0da5d11c715",
+      "source": "Financial Times",
+      "published": "2025-08-22T21:21:11+00:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Trump says furniture tariffs are coming later this year",
+      "url": "https://www.cnbc.com/2025/08/22/trump-tariffs-furniture-trade.html",
+      "source": "CNBC",
+      "published": "2025-08-22T21:17:41+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Apparent accident with gas exposure kills six in Colorado, including high school student",
+      "url": "https://www.theguardian.com/us-news/2025/aug/22/colorado-farm-deaths-gas-exposure",
+      "source": "The Guardian",
+      "published": "2025-08-22T21:17:35+00:00",
+      "sentiment": "negative"
+    },
+    {
       "title": "Ether notches first new record since 2021 after Powell speech teasing rate cuts",
       "url": "https://www.cnbc.com/2025/08/22/crypto-market-today.html",
       "source": "CNBC",
       "published": "2025-08-22T21:14:25+00:00",
       "sentiment": "negative"
+    },
+    {
+      "title": "White House announces chipmaker Intel to give US government 10% stake",
+      "url": "https://www.bbc.com/news/articles/cvg3zpdl3xdo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2025-08-22T21:14:00+00:00",
+      "sentiment": "positive"
     },
     {
       "title": "Hegseth fires top US general after Iran assessment that angered Trump",
@@ -150,6 +206,13 @@
       "source": "CNBC",
       "published": "2025-08-22T21:12:48+00:00",
       "sentiment": "positive"
+    },
+    {
+      "title": "DRC prosecutor seeks death penalty for former leader Joseph Kabila",
+      "url": "https://www.aljazeera.com/news/2025/8/22/drc-prosecutor-seeks-death-penalty-for-former-leader-joseph-kabila?traffic_source=rss",
+      "source": "Al Jazeera English",
+      "published": "2025-08-22T21:09:27+00:00",
+      "sentiment": "negative"
     },
     {
       "title": "Jeffrey Epstein accomplice Ghislaine Maxwell was asked about Trump by DOJ, transcripts show",
@@ -205,69 +268,6 @@
       "url": "https://www.cnbc.com/2025/08/22/intel-goverment-equity-stake.html",
       "source": "CNBC",
       "published": "2025-08-22T20:32:13+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Meta set to unveil first consumer-ready smart glasses with a display, wristband next month",
-      "url": "https://www.cnbc.com/2025/08/22/meta-hypernova-ar-glasses-wristband.html",
-      "source": "CNBC",
-      "published": "2025-08-22T20:29:49+00:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Ghislaine Maxwell never saw Trump in \u2018any inappropriate setting\u2019, transcript shows",
-      "url": "https://www.theguardian.com/us-news/2025/aug/22/ghislaine-maxwell-interview-transcript-justice-department",
-      "source": "The Guardian",
-      "published": "2025-08-22T20:29:44+00:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Russia is trying to stop meeting on peace and prolong war, Zelensky says",
-      "url": "https://www.bbc.com/news/articles/ckgjpmg4r23o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2025-08-22T20:27:18+00:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Israeli children refused access to leisure park in southern France",
-      "url": "https://www.theguardian.com/world/2025/aug/22/israeli-children-refused-access-to-leisure-park-in-southern-france",
-      "source": "The Guardian",
-      "published": "2025-08-22T20:26:47+00:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Google shares rise on report of Apple using Gemini for Siri",
-      "url": "https://www.cnbc.com/2025/08/22/google-shares-rise-on-report-of-apple-using-gemini-for-siri.html",
-      "source": "CNBC",
-      "published": "2025-08-22T20:23:55+00:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "England open World Cup with 11-try win over USA",
-      "url": "https://www.bbc.com/sport/rugby-union/articles/cn92pvd8ynvo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2025-08-22T20:23:33+00:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "England open World Cup with 11-try win over USA",
-      "url": "https://www.bbc.com/sport/rugby-union/articles/cn92pvd8ynvo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2025-08-22T20:23:33+00:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Brilliant skill from Kildunne sets Breach up for another England try",
-      "url": "https://www.bbc.com/sport/rugby-union/videos/ckgjpenv474o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2025-08-22T20:19:59+00:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Gavin Newsom holds mirror to Maga by trolling Trump",
-      "url": "https://www.ft.com/content/eb3348e4-1e7c-4b55-8e40-3baa3e4c4556",
-      "source": "Financial Times",
-      "published": "2025-08-22T20:19:21+00:00",
       "sentiment": "neutral"
     }
   ]
