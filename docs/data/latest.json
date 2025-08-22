@@ -1,60 +1,60 @@
 {
-  "generated_at": "2025-08-22T12:37:44.871026+00:00",
+  "generated_at": "2025-08-22T13:09:50.559293+00:00",
   "window_hours": 24,
   "totals": {
-    "positive": 91,
-    "neutral": 37,
-    "negative": 91
+    "positive": 101,
+    "neutral": 38,
+    "negative": 94
   },
   "by_publication": [
     {
       "source": "ESPN",
-      "positive": 27,
+      "positive": 28,
       "neutral": 14,
       "negative": 7,
-      "count": 48
+      "count": 49
     },
     {
       "source": "BBC News",
-      "positive": 15,
+      "positive": 16,
       "neutral": 9,
       "negative": 20,
-      "count": 44
+      "count": 45
     },
     {
       "source": "The Guardian",
-      "positive": 18,
+      "positive": 21,
       "neutral": 0,
       "negative": 20,
-      "count": 38
+      "count": 41
     },
     {
       "source": "CNBC",
-      "positive": 17,
+      "positive": 19,
       "neutral": 5,
       "negative": 11,
-      "count": 33
+      "count": 35
     },
     {
       "source": "Al Jazeera English",
       "positive": 3,
       "neutral": 2,
-      "negative": 22,
-      "count": 27
+      "negative": 24,
+      "count": 29
     },
     {
       "source": "The Verge",
-      "positive": 9,
+      "positive": 11,
       "neutral": 2,
-      "negative": 2,
-      "count": 13
+      "negative": 3,
+      "count": 16
     },
     {
       "source": "Financial Times",
-      "positive": 2,
-      "neutral": 4,
+      "positive": 3,
+      "neutral": 5,
       "negative": 6,
-      "count": 12
+      "count": 14
     },
     {
       "source": "CNN",
@@ -67,24 +67,24 @@
   "by_topic": [
     {
       "topic": "Tech",
-      "positive": 29,
+      "positive": 34,
       "neutral": 14,
       "negative": 32,
-      "count": 75
+      "count": 80
     },
     {
       "topic": "Other",
-      "positive": 31,
+      "positive": 34,
       "neutral": 10,
       "negative": 25,
-      "count": 66
+      "count": 69
     },
     {
       "topic": "Politics",
-      "positive": 17,
+      "positive": 19,
       "neutral": 0,
       "negative": 18,
-      "count": 35
+      "count": 37
     },
     {
       "topic": "Sports",
@@ -94,18 +94,18 @@
       "count": 16
     },
     {
+      "topic": "World",
+      "positive": 4,
+      "neutral": 2,
+      "negative": 7,
+      "count": 13
+    },
+    {
       "topic": "Business",
       "positive": 3,
       "neutral": 1,
-      "negative": 7,
-      "count": 11
-    },
-    {
-      "topic": "World",
-      "positive": 4,
-      "neutral": 1,
-      "negative": 5,
-      "count": 10
+      "negative": 8,
+      "count": 12
     },
     {
       "topic": "Health",
@@ -124,10 +124,73 @@
   ],
   "sample_headlines": [
     {
+      "title": "Chocolate lovers, brace yourselves: Prices are rising, but not forever",
+      "url": "https://www.cnbc.com/2025/08/22/chocolate-set-to-get-more-expensive-but-2026-outlook-looks-sweeter.html",
+      "source": "CNBC",
+      "published": "2025-08-22T12:55:07+00:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "What has led to a famine being confirmed in Gaza?",
+      "url": "https://www.aljazeera.com/news/2025/8/22/what-has-led-to-a-famine-being-confirmed-in-gaza?traffic_source=rss",
+      "source": "Al Jazeera English",
+      "published": "2025-08-22T12:51:32+00:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "The U.S.-EU deal is here. Europe's businesses remain on edge",
+      "url": "https://www.cnbc.com/2025/08/22/the-us-eu-deal-is-here-europes-businesses-remain-on-edge.html",
+      "source": "CNBC",
+      "published": "2025-08-22T12:48:14+00:00",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Government to appeal against court ruling blocking asylum seekers being housed at Epping hotel \u2013 UK politics live",
+      "url": "https://www.theguardian.com/uk-news/live/2025/aug/22/asylum-hotels-labour-immigration-protests-conservatives-kemi-badenoch-keir-starmer-uk-politics-live",
+      "source": "The Guardian",
+      "published": "2025-08-22T12:45:26+00:00",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Hundreds of TikTok UK moderator jobs at risk despite new online safety rules",
+      "url": "https://www.theguardian.com/technology/2025/aug/22/tiktok-uk-moderator-jobs-at-risk-despite-new-online-safety-rules",
+      "source": "The Guardian",
+      "published": "2025-08-22T12:40:01+00:00",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Cracker Barrel faces social media pushback on new logo, brand refresh",
+      "url": "https://www.cnbc.com/2025/08/21/cracker-barrel-cbrl-new-logo-branding.html",
+      "source": "CNBC",
+      "published": "2025-08-22T12:37:51+00:00",
+      "sentiment": "positive"
+    },
+    {
       "title": "FBI raids home of John Bolton, former Trump national security advisor",
       "url": "https://www.cnbc.com/2025/08/22/fbi-raid-john-bolton-trump-patel.html",
       "source": "CNBC",
       "published": "2025-08-22T12:37:08+00:00",
+      "sentiment": "positive"
+    },
+    {
+      "title": "FBI raids home of former Trump national security adviser John Bolton",
+      "url": "https://www.ft.com/content/b0b09037-1ab7-4c48-9a09-e173b33551c7",
+      "source": "Financial Times",
+      "published": "2025-08-22T12:37:01+00:00",
+      "sentiment": "positive"
+    },
+    {
+      "title": "How Israeli army\u2019s own data shows vast civilian death rate in Gaza",
+      "url": "https://www.aljazeera.com/video/newsfeed/2025/8/22/how-israeli-armys-own-data-shows-vast-civilian-death-rate-in-gaza?traffic_source=rss",
+      "source": "Al Jazeera English",
+      "published": "2025-08-22T12:34:26+00:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Italian pizzeria owner praised for tracking down \u2018dine and dash\u2019 tourists",
+      "url": "https://www.theguardian.com/world/2025/aug/22/italian-restaurateur-praised-for-tracking-down-dine-and-dash-tourists",
+      "source": "The Guardian",
+      "published": "2025-08-22T12:28:26+00:00",
       "sentiment": "positive"
     },
     {
@@ -198,69 +261,6 @@
       "url": "https://www.theguardian.com/us-news/2025/aug/22/fema-rule-aid-disaster-victims",
       "source": "The Guardian",
       "published": "2025-08-22T12:00:33+00:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "John Deere faces a crossroads amid decreasing demand, increasing investments",
-      "url": "https://www.cnbc.com/2025/08/22/john-deere-demand-layoffs.html",
-      "source": "CNBC",
-      "published": "2025-08-22T12:00:01+00:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Eze's journey from Arsenal rejection to brink of dream return",
-      "url": "https://www.bbc.com/sport/football/articles/cn85d82q55zo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2025-08-22T11:59:52+00:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "US to review all 55 million visas to check if holders broke rules",
-      "url": "https://www.bbc.com/news/articles/cvg04gm92d3o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2025-08-22T11:56:02+00:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "British Airways attendant found naked and on drugs in onboard toilet",
-      "url": "https://www.bbc.com/news/articles/c0l62wgpwkzo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2025-08-22T11:54:21+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "FBI director says \u2018no one is above the law\u2019 amid raid on John Bolton\u2019s home \u2013 live updates",
-      "url": "https://www.theguardian.com/us-news/live/2025/aug/22/donald-trump-administration-federal-reserve-republicans-democrats-us-politics-live",
-      "source": "The Guardian",
-      "published": "2025-08-22T11:52:54+00:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "FBI raids home of John Bolton, Trump\u2019s ex-national security adviser",
-      "url": "https://www.theguardian.com/us-news/2025/aug/22/fbi-raids-john-bolton-house",
-      "source": "The Guardian",
-      "published": "2025-08-22T11:50:54+00:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Revolution Beauty to 'reset' after sale falls through",
-      "url": "https://www.bbc.com/news/articles/c36j2nxg202o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2025-08-22T11:49:28+00:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "A timeline of Erik and Lyle Menendez\u2019s case over the last three decades",
-      "url": "https://www.theguardian.com/us-news/2025/aug/22/erik-lyle-menendez-timeline",
-      "source": "The Guardian",
-      "published": "2025-08-22T11:39:33+00:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "JPMorgan to pay $330mn to Malaysia to settle 1MDB claims",
-      "url": "https://www.ft.com/content/63b81c66-efb5-4264-a73b-0617d856f441",
-      "source": "Financial Times",
-      "published": "2025-08-22T11:24:35+00:00",
       "sentiment": "negative"
     }
   ]
