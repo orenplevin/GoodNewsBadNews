@@ -1,46 +1,53 @@
 {
-  "generated_at": "2025-08-22T14:42:16.566094+00:00",
+  "generated_at": "2025-08-22T15:19:18.362939+00:00",
   "window_hours": 24,
   "totals": {
-    "positive": 113,
-    "neutral": 42,
-    "negative": 112
+    "positive": 118,
+    "neutral": 44,
+    "negative": 124
   },
   "by_publication": [
     {
       "source": "The Guardian",
-      "positive": 25,
+      "positive": 29,
       "neutral": 2,
-      "negative": 27,
-      "count": 54
+      "negative": 33,
+      "count": 64
     },
     {
       "source": "BBC News",
       "positive": 18,
-      "neutral": 10,
-      "negative": 25,
-      "count": 53
+      "neutral": 11,
+      "negative": 26,
+      "count": 55
     },
     {
       "source": "ESPN",
-      "positive": 28,
+      "positive": 29,
       "neutral": 14,
       "negative": 8,
-      "count": 50
+      "count": 51
     },
     {
       "source": "CNBC",
       "positive": 24,
       "neutral": 6,
-      "negative": 14,
-      "count": 44
+      "negative": 15,
+      "count": 45
     },
     {
       "source": "Al Jazeera English",
       "positive": 3,
       "neutral": 2,
-      "negative": 26,
-      "count": 31
+      "negative": 28,
+      "count": 33
+    },
+    {
+      "source": "Financial Times",
+      "positive": 4,
+      "neutral": 6,
+      "negative": 8,
+      "count": 18
     },
     {
       "source": "The Verge",
@@ -48,13 +55,6 @@
       "neutral": 2,
       "negative": 3,
       "count": 16
-    },
-    {
-      "source": "Financial Times",
-      "positive": 4,
-      "neutral": 5,
-      "negative": 6,
-      "count": 15
     },
     {
       "source": "CNN",
@@ -68,36 +68,36 @@
     {
       "topic": "Tech",
       "positive": 40,
-      "neutral": 17,
-      "negative": 41,
-      "count": 98
+      "neutral": 18,
+      "negative": 48,
+      "count": 106
     },
     {
       "topic": "Other",
-      "positive": 38,
+      "positive": 39,
       "neutral": 10,
       "negative": 25,
-      "count": 73
+      "count": 74
     },
     {
       "topic": "Politics",
-      "positive": 19,
-      "neutral": 0,
-      "negative": 21,
-      "count": 40
+      "positive": 23,
+      "neutral": 1,
+      "negative": 24,
+      "count": 48
+    },
+    {
+      "topic": "Business",
+      "positive": 5,
+      "neutral": 2,
+      "negative": 12,
+      "count": 19
     },
     {
       "topic": "Sports",
       "positive": 4,
       "neutral": 9,
       "negative": 4,
-      "count": 17
-    },
-    {
-      "topic": "Business",
-      "positive": 5,
-      "neutral": 2,
-      "negative": 10,
       "count": 17
     },
     {
@@ -124,10 +124,101 @@
   ],
   "sample_headlines": [
     {
+      "title": "Trump says he wasn\u2019t briefed on FBI raid of John Bolton\u2019s home \u2013 live updates",
+      "url": "https://www.theguardian.com/us-news/live/2025/aug/22/donald-trump-administration-federal-reserve-republicans-democrats-us-politics-live",
+      "source": "The Guardian",
+      "published": "2025-08-22T15:09:41+00:00",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Powell says \u2018shifting\u2019 economic risks strengthen case for Fed rate cut",
+      "url": "https://www.ft.com/content/cdd1dd0f-f0ba-41f3-be97-e598785676f5",
+      "source": "Financial Times",
+      "published": "2025-08-22T15:02:29+00:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Eswatini government faces court challenge over men deported by US",
+      "url": "https://www.theguardian.com/world/2025/aug/22/court-case-challenging-eswatini-us-immigrant-deportation-deal-postponed",
+      "source": "The Guardian",
+      "published": "2025-08-22T15:02:26+00:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "\u2018I\u2019m not against development, but \u2026\u2019: Sydney\u2019s plans for greater density face a morass of confusion and hostility",
+      "url": "https://www.theguardian.com/australia-news/2025/aug/23/sydney-development-plans-increase-nsw-housing-density-opposition",
+      "source": "The Guardian",
+      "published": "2025-08-22T15:00:37+00:00",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Kimbal Musk on Elon's Tesla pay package: 'My brother deserves to be paid'",
+      "url": "https://www.cnbc.com/2025/08/22/kimbal-musk-elon-tesla-pay.html",
+      "source": "CNBC",
+      "published": "2025-08-22T14:59:17+00:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Fed chair Jerome Powell signals interest rate cuts amid Trump attacks",
+      "url": "https://www.theguardian.com/business/2025/aug/22/jerome-powell-speech-jackson-hole",
+      "source": "The Guardian",
+      "published": "2025-08-22T14:56:46+00:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Zelenskyy rebukes Russia\u2019s demand to be involved in security guarantees",
+      "url": "https://www.ft.com/content/248b7da4-ce67-4f02-b9d1-d78af0e15c26",
+      "source": "Financial Times",
+      "published": "2025-08-22T14:50:53+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Government to appeal against court ruling blocking asylum seekers being housed at Epping hotel \u2013 as it happened",
+      "url": "https://www.theguardian.com/uk-news/live/2025/aug/22/asylum-hotels-labour-immigration-protests-conservatives-kemi-badenoch-keir-starmer-uk-politics-live",
+      "source": "The Guardian",
+      "published": "2025-08-22T14:50:52+00:00",
+      "sentiment": "positive"
+    },
+    {
+      "title": "FBI raids home of John Bolton, former Trump adviser turned critic",
+      "url": "https://www.aljazeera.com/news/2025/8/22/fbi-raids-home-of-john-bolton-former-trump-adviser-turned-critic?traffic_source=rss",
+      "source": "Al Jazeera English",
+      "published": "2025-08-22T14:49:05+00:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "BA flight attendant on US-London route found \u2018naked and high on drugs\u2019 in toilet",
+      "url": "https://www.theguardian.com/uk-news/2025/aug/22/ba-flight-attendant-on-us-london-route-found-naked-and-high-on-drugs-in-toilet",
+      "source": "The Guardian",
+      "published": "2025-08-22T14:48:52+00:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "UN agency says Gaza famine is direct result of Israel\u2019s actions and may amount to war crime \u2013 Middle East crisis live",
+      "url": "https://www.theguardian.com/world/live/2025/aug/22/famine-benjamin-netanyahu-palestine-gaza-israel-war-latest-updates",
+      "source": "The Guardian",
+      "published": "2025-08-22T14:48:05+00:00",
+      "sentiment": "negative"
+    },
+    {
       "title": "Trump says he'll fire Fed Governor Lisa Cook 'if she doesn't resign'",
       "url": "https://www.cnbc.com/2025/08/22/trump-fire-fed-lisa-cook-powell.html",
       "source": "CNBC",
       "published": "2025-08-22T14:41:10+00:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Wes Streeting\u2019s row with pharma firms grows as they reject NHS drug pricing offer",
+      "url": "https://www.theguardian.com/business/2025/aug/22/wes-streeting-pharma-firms-nhs-drug-pricing-rebate-scheme",
+      "source": "The Guardian",
+      "published": "2025-08-22T14:37:53+00:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Trump must not reward Putin for his aggression in Ukraine",
+      "url": "https://www.ft.com/content/e91df3ac-c649-46f7-a9ad-5d1a626c3ad7",
+      "source": "Financial Times",
+      "published": "2025-08-22T14:36:47+00:00",
       "sentiment": "negative"
     },
     {
@@ -138,129 +229,38 @@
       "sentiment": "positive"
     },
     {
+      "title": "At least 52 killed in Gaza as Israel escalates attacks on Gaza City",
+      "url": "https://www.aljazeera.com/news/2025/8/22/at-least-52-killed-in-gaza-as-israel-escalates-attacks-on-gaza-city?traffic_source=rss",
+      "source": "Al Jazeera English",
+      "published": "2025-08-22T14:25:19+00:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Apple TV+ raises subscription prices worldwide, including in UK",
+      "url": "https://www.bbc.com/news/articles/c1le9l6pee5o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2025-08-22T14:22:32+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "No Putin-Zelenskyy meeting planned until agenda is agreed, Russia\u2019s foreign minister says \u2013 as it happened",
+      "url": "https://www.theguardian.com/world/live/2025/aug/22/ukraine-war-latest-updates-zelenskyy-putin-trump-news",
+      "source": "The Guardian",
+      "published": "2025-08-22T14:20:47+00:00",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Prigozhin knew he was \u2018doomed\u2019 after failed rebellion, says mother",
+      "url": "https://www.theguardian.com/world/2025/aug/22/prigozhin-knew-he-was-doomed-after-failed-rebellion-says-mother",
+      "source": "The Guardian",
+      "published": "2025-08-22T14:12:23+00:00",
+      "sentiment": "negative"
+    },
+    {
       "title": "Powell indicates conditions 'may warrant' interest rate cuts as Fed proceeds 'carefully'",
       "url": "https://www.cnbc.com/2025/08/22/powell-indicates-conditions-may-warrant-interest-rate-cuts-as-fed-proceeds-carefully.html",
       "source": "CNBC",
       "published": "2025-08-22T14:10:18+00:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Serbian president calls for \u2018democratic dialogue\u2019 with antigov\u2019t protesters",
-      "url": "https://www.aljazeera.com/news/2025/8/22/serbia-president-calls-for-democratic-dialogue-with-antigovt-protesters?traffic_source=rss",
-      "source": "Al Jazeera English",
-      "published": "2025-08-22T14:06:17+00:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Nuno's future as Forest boss uncertain",
-      "url": "https://www.bbc.com/sport/football/articles/c0l62pnejyro?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2025-08-22T14:04:59+00:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "A-levels and GCSEs need overhaul to keep pace with generative AI, experts say",
-      "url": "https://www.theguardian.com/education/2025/aug/22/a-levels-and-gcses-need-overhaul-to-keep-pace-with-generative-ai-experts-say",
-      "source": "The Guardian",
-      "published": "2025-08-22T14:03:44+00:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Powell says \u2018shifting\u2019 economic risks heighten case for Fed rate cut",
-      "url": "https://www.ft.com/content/cdd1dd0f-f0ba-41f3-be97-e598785676f5",
-      "source": "Financial Times",
-      "published": "2025-08-22T14:01:23+00:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Wolf hunting in western US does little to prevent livestock losses, study finds",
-      "url": "https://www.theguardian.com/environment/2025/aug/22/wolf-hunting-livestock-western-us",
-      "source": "The Guardian",
-      "published": "2025-08-22T14:00:36+00:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Thousands face deportation to danger as Trump targets temporary protections",
-      "url": "https://www.theguardian.com/us-news/2025/aug/22/temporary-protected-status-tps-immigration-trump",
-      "source": "The Guardian",
-      "published": "2025-08-22T14:00:34+00:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Seven Wyoming newspapers were about to be shut. They were given a second life",
-      "url": "https://www.theguardian.com/us-news/2025/aug/22/wyoming-newspapers-nmc-bought",
-      "source": "The Guardian",
-      "published": "2025-08-22T14:00:33+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'My youngest child doesn't know what fruit tastes like': Gaza residents on famine",
-      "url": "https://www.bbc.com/news/articles/cz602wvjv7lo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2025-08-22T14:00:26+00:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Wage growth is doing something odd in 2025 \u2014 the last time it happened was around the Great Recession",
-      "url": "https://www.cnbc.com/2025/08/22/wage-growth-2025-job-switcher-job-stayer.html",
-      "source": "CNBC",
-      "published": "2025-08-22T13:55:12+00:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Key findings from the high court ruling in Noel Clarke\u2019s libel case against the Guardian",
-      "url": "https://www.theguardian.com/culture/2025/aug/22/what-high-court-ruled-in-noel-clarke-libel-case-against-the-guardian",
-      "source": "The Guardian",
-      "published": "2025-08-22T13:45:34+00:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "We don't want players who don't want Spurs - Frank",
-      "url": "https://www.bbc.com/sport/football/articles/cly4p22v30vo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2025-08-22T13:44:43+00:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Inside Texas Instruments' $60 billion U.S. megaproject, where Apple will make iPhone chips",
-      "url": "https://www.cnbc.com/2025/08/22/apple-will-make-chips-at-texas-instruments-60-billion-us-project.html",
-      "source": "CNBC",
-      "published": "2025-08-22T13:37:11+00:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Wes Streeting\u2019s row with pharma firms grows as talks end on NHS drug pricing",
-      "url": "https://www.theguardian.com/business/2025/aug/22/wes-streeting-pharma-firms-nhs-drug-pricing-rebate-scheme",
-      "source": "The Guardian",
-      "published": "2025-08-22T13:37:08+00:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Court case challenging Eswatini-US immigrant deportation deal postponed",
-      "url": "https://www.theguardian.com/world/2025/aug/22/court-case-challenging-eswatini-us-immigrant-deportation-deal-postponed",
-      "source": "The Guardian",
-      "published": "2025-08-22T13:37:04+00:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Court challenge to US-Eswatini deportation deal postponed",
-      "url": "https://www.theguardian.com/world/2025/aug/22/court-case-challenging-eswatini-us-immigrant-deportation-deal-postponed",
-      "source": "The Guardian",
-      "published": "2025-08-22T13:37:04+00:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Waymo granted first permit to begin testing autonomous vehicles in New York City",
-      "url": "https://www.cnbc.com/2025/08/22/waymo-permit-new-york-city-nyc-rides.html",
-      "source": "CNBC",
-      "published": "2025-08-22T13:28:35+00:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Gaza residents on famine: 'My youngest child doesn't know what fruit tastes like'",
-      "url": "https://www.bbc.com/news/articles/cz602wvjv7lo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2025-08-22T13:25:59+00:00",
       "sentiment": "negative"
     }
   ]
