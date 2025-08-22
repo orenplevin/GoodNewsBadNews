@@ -1,39 +1,39 @@
 {
-  "generated_at": "2025-08-22T18:49:00.270509+00:00",
+  "generated_at": "2025-08-22T19:15:37.990561+00:00",
   "window_hours": 24,
   "totals": {
     "positive": 150,
-    "neutral": 53,
-    "negative": 156
+    "neutral": 56,
+    "negative": 161
   },
   "by_publication": [
     {
       "source": "The Guardian",
-      "positive": 33,
+      "positive": 34,
       "neutral": 2,
-      "negative": 42,
-      "count": 77
+      "negative": 45,
+      "count": 81
     },
     {
       "source": "BBC News",
       "positive": 24,
       "neutral": 16,
-      "negative": 28,
-      "count": 68
-    },
-    {
-      "source": "CNBC",
-      "positive": 30,
-      "neutral": 7,
-      "negative": 21,
-      "count": 58
+      "negative": 29,
+      "count": 69
     },
     {
       "source": "ESPN",
       "positive": 30,
-      "neutral": 16,
-      "negative": 10,
-      "count": 56
+      "neutral": 18,
+      "negative": 11,
+      "count": 59
+    },
+    {
+      "source": "CNBC",
+      "positive": 30,
+      "neutral": 8,
+      "negative": 19,
+      "count": 57
     },
     {
       "source": "Al Jazeera English",
@@ -46,14 +46,14 @@
       "source": "Financial Times",
       "positive": 7,
       "neutral": 7,
-      "negative": 12,
-      "count": 26
+      "negative": 13,
+      "count": 27
     },
     {
       "source": "The Verge",
-      "positive": 15,
+      "positive": 14,
       "neutral": 2,
-      "negative": 3,
+      "negative": 4,
       "count": 20
     },
     {
@@ -68,16 +68,16 @@
     {
       "topic": "Tech",
       "positive": 55,
-      "neutral": 20,
-      "negative": 55,
-      "count": 130
+      "neutral": 21,
+      "negative": 57,
+      "count": 133
     },
     {
       "topic": "Other",
-      "positive": 43,
-      "neutral": 13,
-      "negative": 32,
-      "count": 88
+      "positive": 42,
+      "neutral": 15,
+      "negative": 33,
+      "count": 90
     },
     {
       "topic": "Politics",
@@ -88,10 +88,10 @@
     },
     {
       "topic": "Business",
-      "positive": 7,
+      "positive": 8,
       "neutral": 2,
-      "negative": 14,
-      "count": 23
+      "negative": 15,
+      "count": 25
     },
     {
       "topic": "Sports",
@@ -111,8 +111,8 @@
       "topic": "Health",
       "positive": 1,
       "neutral": 1,
-      "negative": 3,
-      "count": 5
+      "negative": 4,
+      "count": 6
     },
     {
       "topic": "Entertainment",
@@ -131,11 +131,53 @@
   ],
   "sample_headlines": [
     {
+      "title": "US\u2019s last surviving second world war flying \u2018ace\u2019 dies aged 103",
+      "url": "https://www.theguardian.com/world/2025/aug/22/donald-mcpherson-navy-pilot-dies",
+      "source": "The Guardian",
+      "published": "2025-08-22T19:09:06+00:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Trump says US to take 10% stake in troubled chipmaker Intel",
+      "url": "https://www.ft.com/content/aec7bdce-d9ca-4416-a1b4-a0da5d11c715",
+      "source": "Financial Times",
+      "published": "2025-08-22T18:55:56+00:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Multiple fatalities reported in tourist bus crash in New York state",
+      "url": "https://www.theguardian.com/us-news/2025/aug/22/new-york-bus-crash-niagara-falls",
+      "source": "The Guardian",
+      "published": "2025-08-22T18:54:44+00:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Leaders, laggards after Powell's speech \u2014 plus, key Starbucks, Honeywell updates",
+      "url": "https://www.cnbc.com/2025/08/22/leaders-laggards-after-powells-speech-plus-key-starbucks-honeywell-updates.html",
+      "source": "CNBC",
+      "published": "2025-08-22T18:50:14+00:00",
+      "sentiment": "neutral"
+    },
+    {
       "title": "Major League Baseball closes in on new media rights deals with ESPN, NBC, Netflix",
       "url": "https://www.cnbc.com/2025/08/22/mlbrrights-espn-nbc-netflix.html",
       "source": "CNBC",
       "published": "2025-08-22T18:44:23+00:00",
       "sentiment": "neutral"
+    },
+    {
+      "title": "Young climate activists in Wisconsin sue state over pro-fossil fuel policies",
+      "url": "https://www.theguardian.com/us-news/2025/aug/22/young-climate-activists-sue-wisconsin",
+      "source": "The Guardian",
+      "published": "2025-08-22T18:43:08+00:00",
+      "sentiment": "positive"
+    },
+    {
+      "title": "\u2018We didn\u2019t understand the goals of the war\u2019: Israel\u2019s inflated Hamas death toll shows lack of strategy in Gaza",
+      "url": "https://www.theguardian.com/world/2025/aug/22/israel-defence-forces-war-strategy-hamas-gaza",
+      "source": "The Guardian",
+      "published": "2025-08-22T18:42:21+00:00",
+      "sentiment": "negative"
     },
     {
       "title": "Here's what current and former Fed officials are saying about Lisa Cook investigation",
@@ -227,48 +269,6 @@
       "source": "The Guardian",
       "published": "2025-08-22T18:02:17+00:00",
       "sentiment": "negative"
-    },
-    {
-      "title": "Air pollution from oil and gas causes 90,000 premature US deaths each year, says new study",
-      "url": "https://www.theguardian.com/us-news/2025/aug/22/air-pollution-oil-gas-health-study",
-      "source": "The Guardian",
-      "published": "2025-08-22T18:00:38+00:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Tariff revenue will cut US deficits by $4tn, fiscal watchdog says",
-      "url": "https://www.ft.com/content/f996ece9-d9e2-4a06-957a-487994f6a7e7",
-      "source": "Financial Times",
-      "published": "2025-08-22T17:54:01+00:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Trump threatens to send troops to Chicago and says he could bring in \u2018regular military\u2019 to Washington DC \u2013 live",
-      "url": "https://www.theguardian.com/us-news/live/2025/aug/22/donald-trump-administration-federal-reserve-republicans-democrats-us-politics-live",
-      "source": "The Guardian",
-      "published": "2025-08-22T17:48:03+00:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "World reacts as UN-backed body declares famine in Gaza",
-      "url": "https://www.aljazeera.com/news/2025/8/22/world-reacts-as-un-backed-body-declares-famine-in-gaza?traffic_source=rss",
-      "source": "Al Jazeera English",
-      "published": "2025-08-22T17:47:38+00:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "David Lammy given warning after fishing with JD Vance without licence",
-      "url": "https://www.theguardian.com/politics/2025/aug/22/david-lammy-avoids-fine-after-fishing-with-jd-vance-without-licence",
-      "source": "The Guardian",
-      "published": "2025-08-22T17:44:43+00:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Why are Sudanese refugees returning home despite the civil war?",
-      "url": "https://www.aljazeera.com/video/the-take-2/2025/8/22/why-are-sudanese-refugees-returning-home-despite-the-civil-war?traffic_source=rss",
-      "source": "Al Jazeera English",
-      "published": "2025-08-22T17:43:35+00:00",
-      "sentiment": "positive"
     }
   ]
 }
