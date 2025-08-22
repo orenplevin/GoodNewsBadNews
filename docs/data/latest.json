@@ -1,18 +1,18 @@
 {
-  "generated_at": "2025-08-22T21:37:54.178876+00:00",
+  "generated_at": "2025-08-22T22:17:15.223259+00:00",
   "window_hours": 24,
   "totals": {
     "positive": 178,
     "neutral": 59,
-    "negative": 177
+    "negative": 182
   },
   "by_publication": [
     {
       "source": "The Guardian",
-      "positive": 41,
+      "positive": 42,
       "neutral": 2,
-      "negative": 49,
-      "count": 92
+      "negative": 51,
+      "count": 95
     },
     {
       "source": "BBC News",
@@ -22,25 +22,25 @@
       "count": 82
     },
     {
-      "source": "ESPN",
-      "positive": 32,
-      "neutral": 18,
-      "negative": 12,
-      "count": 62
-    },
-    {
       "source": "Al Jazeera English",
-      "positive": 14,
+      "positive": 15,
       "neutral": 3,
-      "negative": 44,
-      "count": 61
+      "negative": 45,
+      "count": 63
     },
     {
       "source": "CNBC",
-      "positive": 33,
+      "positive": 34,
       "neutral": 9,
-      "negative": 19,
-      "count": 61
+      "negative": 20,
+      "count": 63
+    },
+    {
+      "source": "ESPN",
+      "positive": 28,
+      "neutral": 18,
+      "negative": 13,
+      "count": 59
     },
     {
       "source": "Financial Times",
@@ -51,10 +51,10 @@
     },
     {
       "source": "The Verge",
-      "positive": 16,
+      "positive": 17,
       "neutral": 2,
       "negative": 5,
-      "count": 23
+      "count": 24
     },
     {
       "source": "CNN",
@@ -67,24 +67,24 @@
   "by_topic": [
     {
       "topic": "Tech",
-      "positive": 69,
-      "neutral": 24,
-      "negative": 70,
-      "count": 163
+      "positive": 70,
+      "neutral": 25,
+      "negative": 73,
+      "count": 168
     },
     {
       "topic": "Other",
-      "positive": 45,
-      "neutral": 16,
+      "positive": 44,
+      "neutral": 15,
       "negative": 35,
-      "count": 96
+      "count": 94
     },
     {
       "topic": "Politics",
-      "positive": 37,
+      "positive": 38,
       "neutral": 4,
-      "negative": 38,
-      "count": 79
+      "negative": 40,
+      "count": 82
     },
     {
       "topic": "Business",
@@ -102,10 +102,10 @@
     },
     {
       "topic": "World",
-      "positive": 3,
+      "positive": 2,
       "neutral": 2,
       "negative": 13,
-      "count": 18
+      "count": 17
     },
     {
       "topic": "Health",
@@ -130,6 +130,62 @@
     }
   ],
   "sample_headlines": [
+    {
+      "title": "Meta to unveil Hypernova smart glasses with a display, wristband at Connect next month",
+      "url": "https://www.cnbc.com/2025/08/22/meta-hypernova-ar-glasses-wristband.html",
+      "source": "CNBC",
+      "published": "2025-08-22T22:14:39+00:00",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Ghislaine Maxwell interview released by DOJ; Epstein procurer questioned about Trump",
+      "url": "https://www.cnbc.com/2025/08/22/ghislaine-maxwell-transcripts-trump-epstein-doj.html",
+      "source": "CNBC",
+      "published": "2025-08-22T22:14:18+00:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "US health department moves to strip thousands of employees of collective bargaining rights",
+      "url": "https://www.theguardian.com/us-news/2025/aug/22/trump-administration-collective-bargaining-rights",
+      "source": "The Guardian",
+      "published": "2025-08-22T22:08:50+00:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Multiple fatalities, including at least one child, reported in New York bus crash",
+      "url": "https://www.theguardian.com/us-news/2025/aug/22/new-york-bus-crash-niagara-falls",
+      "source": "The Guardian",
+      "published": "2025-08-22T22:07:49+00:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Ghislaine Maxwell transcripts: what we know at a glance",
+      "url": "https://www.theguardian.com/us-news/2025/aug/22/ghislaine-maxwell-transcript-what-we-know",
+      "source": "The Guardian",
+      "published": "2025-08-22T21:48:47+00:00",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Woman jailed for race hate post says she was political prisoner",
+      "url": "https://www.bbc.com/news/articles/ce83pj1ggmeo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2025-08-22T21:45:35+00:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Dutch foreign minister resigns over Israel sanctions deadlock",
+      "url": "https://www.aljazeera.com/news/2025/8/22/dutch-foreign-minister-resigns-over-israel-sanctions-deadlock?traffic_source=rss",
+      "source": "Al Jazeera English",
+      "published": "2025-08-22T21:39:21+00:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Ghislaine Maxwell praises Trump in transcripts released by government",
+      "url": "https://www.aljazeera.com/news/2025/8/22/ghislaine-maxwell-praises-trump-in-transcripts-released-by-government?traffic_source=rss",
+      "source": "Al Jazeera English",
+      "published": "2025-08-22T21:36:44+00:00",
+      "sentiment": "positive"
+    },
     {
       "title": "West Ham booed as Chelsea score five in convincing win",
       "url": "https://www.bbc.com/sport/football/videos/cm21pe8d8leo?at_medium=RSS&at_campaign=rss",
@@ -213,62 +269,6 @@
       "source": "Al Jazeera English",
       "published": "2025-08-22T21:09:27+00:00",
       "sentiment": "negative"
-    },
-    {
-      "title": "Jeffrey Epstein accomplice Ghislaine Maxwell was asked about Trump by DOJ, transcripts show",
-      "url": "https://www.cnbc.com/2025/08/22/ghislaine-maxwell-transcripts-trump-epstein-doj.html",
-      "source": "CNBC",
-      "published": "2025-08-22T21:07:45+00:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Ghislaine Maxwell transcripts: Epstein associate says she \u2018never\u2019 saw Trump receive a massage \u2013 live",
-      "url": "https://www.theguardian.com/us-news/live/2025/aug/22/donald-trump-administration-federal-reserve-republicans-democrats-us-politics-live",
-      "source": "The Guardian",
-      "published": "2025-08-22T21:07:35+00:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Federal Reserve set to cut interest rates \u2013 but still Trump won\u2019t be happy",
-      "url": "https://www.theguardian.com/business/2025/aug/22/federal-reserve-trump-rate-cuts",
-      "source": "The Guardian",
-      "published": "2025-08-22T20:48:46+00:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Cybersecurity firm Netskope files to go public on the Nasdaq",
-      "url": "https://www.cnbc.com/2025/08/22/cybersecurity-firm-netskope-ipo-nasdaq.html",
-      "source": "CNBC",
-      "published": "2025-08-22T20:40:12+00:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Ghislaine Maxwell interview released by DOJ, shows questions about Trump",
-      "url": "https://www.cnbc.com/2025/08/22/ghislaine-maxwell-transcripts-trump-epstein-doj.html",
-      "source": "CNBC",
-      "published": "2025-08-22T20:39:03+00:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Wrongfully deported Kilmar Abrego Garcia released from Tennessee jail",
-      "url": "https://www.aljazeera.com/news/2025/8/22/wrongfully-deported-kilmar-abrego-garcia-released-from-tennessee-jail?traffic_source=rss",
-      "source": "Al Jazeera English",
-      "published": "2025-08-22T20:35:18+00:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Will Serena Williams's weight-loss admission help shed stigma of anti-obesity drugs?",
-      "url": "https://www.bbc.com/news/articles/c8de89lg21jo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2025-08-22T20:34:35+00:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "U.S. officially takes 10% stake in Intel",
-      "url": "https://www.cnbc.com/2025/08/22/intel-goverment-equity-stake.html",
-      "source": "CNBC",
-      "published": "2025-08-22T20:32:13+00:00",
-      "sentiment": "neutral"
     }
   ]
 }
