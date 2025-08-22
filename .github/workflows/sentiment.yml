@@ -2,10 +2,9 @@ name: Build Sentiment Dashboard
 
 on:
   schedule:
-    - cron: '*/30 * * * *'  # every 30 minutes
+    - cron: '*/30 * * * *'   # every 30 minutes
   workflow_dispatch:
 
-# Ensure the workflow can push back to the repo
 permissions:
   contents: write
 
@@ -35,20 +34,18 @@ jobs:
       - name: Run fetcher
         run: python fetcher.py
 
-      - name: Configure Git for push
+      - name: Configure Git
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-       - name: Commit and push changes
-      run: |
-        git config user.name "github-actions[bot]"
-        git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-        git pull --rebase || true
-        git add -A
-        if git diff --cached --quiet; then
-          echo "No changes to commit"
-        else
-          git commit -m "Update sentiment data [skip ci]"
-          git push
-        fi
+      - name: Commit and push changes
+        run: |
+          git pull --rebase || true
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Update sentiment data [skip ci]"
+            git push
+          fi
