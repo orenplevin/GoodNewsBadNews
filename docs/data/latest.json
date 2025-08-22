@@ -1,46 +1,46 @@
 {
-  "generated_at": "2025-08-22T17:40:35.016806+00:00",
+  "generated_at": "2025-08-22T18:26:54.932572+00:00",
   "window_hours": 24,
   "totals": {
-    "positive": 138,
-    "neutral": 50,
-    "negative": 146
+    "positive": 146,
+    "neutral": 51,
+    "negative": 150
   },
   "by_publication": [
     {
       "source": "The Guardian",
-      "positive": 31,
+      "positive": 32,
       "neutral": 2,
       "negative": 38,
-      "count": 71
+      "count": 72
     },
     {
       "source": "BBC News",
       "positive": 24,
-      "neutral": 15,
-      "negative": 29,
+      "neutral": 16,
+      "negative": 28,
       "count": 68
     },
     {
-      "source": "ESPN",
-      "positive": 31,
-      "neutral": 16,
-      "negative": 10,
-      "count": 57
+      "source": "CNBC",
+      "positive": 30,
+      "neutral": 6,
+      "negative": 20,
+      "count": 56
     },
     {
-      "source": "CNBC",
-      "positive": 29,
-      "neutral": 6,
-      "negative": 18,
-      "count": 53
+      "source": "ESPN",
+      "positive": 30,
+      "neutral": 16,
+      "negative": 10,
+      "count": 56
     },
     {
       "source": "Al Jazeera English",
-      "positive": 6,
+      "positive": 11,
       "neutral": 2,
-      "negative": 34,
-      "count": 42
+      "negative": 37,
+      "count": 50
     },
     {
       "source": "Financial Times",
@@ -51,10 +51,10 @@
     },
     {
       "source": "The Verge",
-      "positive": 12,
+      "positive": 14,
       "neutral": 2,
       "negative": 3,
-      "count": 17
+      "count": 19
     },
     {
       "source": "CNN",
@@ -67,10 +67,10 @@
   "by_topic": [
     {
       "topic": "Tech",
-      "positive": 49,
+      "positive": 54,
       "neutral": 19,
       "negative": 54,
-      "count": 122
+      "count": 127
     },
     {
       "topic": "Other",
@@ -81,10 +81,10 @@
     },
     {
       "topic": "Politics",
-      "positive": 25,
-      "neutral": 3,
-      "negative": 31,
-      "count": 59
+      "positive": 27,
+      "neutral": 4,
+      "negative": 34,
+      "count": 65
     },
     {
       "topic": "Business",
@@ -94,6 +94,13 @@
       "count": 23
     },
     {
+      "topic": "Sports",
+      "positive": 5,
+      "neutral": 9,
+      "negative": 4,
+      "count": 18
+    },
+    {
       "topic": "World",
       "positive": 4,
       "neutral": 2,
@@ -101,11 +108,11 @@
       "count": 17
     },
     {
-      "topic": "Sports",
-      "positive": 4,
-      "neutral": 9,
-      "negative": 4,
-      "count": 17
+      "topic": "Health",
+      "positive": 1,
+      "neutral": 1,
+      "negative": 3,
+      "count": 5
     },
     {
       "topic": "Entertainment",
@@ -113,13 +120,6 @@
       "neutral": 1,
       "negative": 0,
       "count": 5
-    },
-    {
-      "topic": "Health",
-      "positive": 1,
-      "neutral": 1,
-      "negative": 2,
-      "count": 4
     },
     {
       "topic": "Science",
@@ -131,11 +131,116 @@
   ],
   "sample_headlines": [
     {
+      "title": "FBI raids home, office of John Bolton, former Trump national security advisor",
+      "url": "https://www.cnbc.com/2025/08/22/fbi-raid-john-bolton-trump-patel.html",
+      "source": "CNBC",
+      "published": "2025-08-22T18:24:55+00:00",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Intel stock rises as Trump says chipmaker has agreed to sell stake to government",
+      "url": "https://www.cnbc.com/2025/08/22/intel-goverment-equity-stake.html",
+      "source": "CNBC",
+      "published": "2025-08-22T18:24:04+00:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Canada to ease most retaliatory tariffs against United States",
+      "url": "https://www.aljazeera.com/news/2025/8/22/canada-to-ease-most-retaliatory-tariffs-against-united-states?traffic_source=rss",
+      "source": "Al Jazeera English",
+      "published": "2025-08-22T18:14:29+00:00",
+      "sentiment": "positive"
+    },
+    {
+      "title": "How can Israel continue to claim it does not target civilians?",
+      "url": "https://www.aljazeera.com/video/inside-story/2025/8/22/how-can-israel-continue-to-claim-it-does-not-target-civilians?traffic_source=rss",
+      "source": "Al Jazeera English",
+      "published": "2025-08-22T18:14:18+00:00",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Air pollution from oil and gas causes 90,000 premature US deaths each year, says new study",
+      "url": "https://www.theguardian.com/us-news/2025/aug/22/air-pollution-oil-gas-health-study",
+      "source": "The Guardian",
+      "published": "2025-08-22T18:00:38+00:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Trump threatens to send troops to Chicago and says he could bring in \u2018regular military\u2019 to Washington DC \u2013 live",
+      "url": "https://www.theguardian.com/us-news/live/2025/aug/22/donald-trump-administration-federal-reserve-republicans-democrats-us-politics-live",
+      "source": "The Guardian",
+      "published": "2025-08-22T17:48:03+00:00",
+      "sentiment": "positive"
+    },
+    {
+      "title": "World reacts as UN-backed body declares famine in Gaza",
+      "url": "https://www.aljazeera.com/news/2025/8/22/world-reacts-as-un-backed-body-declares-famine-in-gaza?traffic_source=rss",
+      "source": "Al Jazeera English",
+      "published": "2025-08-22T17:47:38+00:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "David Lammy given warning after fishing with JD Vance without licence",
+      "url": "https://www.theguardian.com/politics/2025/aug/22/david-lammy-avoids-fine-after-fishing-with-jd-vance-without-licence",
+      "source": "The Guardian",
+      "published": "2025-08-22T17:44:43+00:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Why are Sudanese refugees returning home despite the civil war?",
+      "url": "https://www.aljazeera.com/video/the-take-2/2025/8/22/why-are-sudanese-refugees-returning-home-despite-the-civil-war?traffic_source=rss",
+      "source": "Al Jazeera English",
+      "published": "2025-08-22T17:43:35+00:00",
+      "sentiment": "positive"
+    },
+    {
+      "title": "John Bolton was not targeted for criticizing Trump, Vance claims after FBI raid",
+      "url": "https://www.cnbc.com/2025/08/22/john-bolton-investigation-vance-trump-fbi-raid.html",
+      "source": "CNBC",
+      "published": "2025-08-22T17:41:38+00:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "US Open tennis 2025: Schedule, seeds, prize money, tickets and how to watch",
+      "url": "https://www.aljazeera.com/sports/2025/8/22/us-open-tennis-2025-schedule-seeds-prize-money-tickets-and-how-to-watch?traffic_source=rss",
+      "source": "Al Jazeera English",
+      "published": "2025-08-22T17:39:55+00:00",
+      "sentiment": "positive"
+    },
+    {
+      "title": "UK agrees to pay Kenyans affected by military fire",
+      "url": "https://www.bbc.com/news/articles/c9vd3k1dpymo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2025-08-22T17:38:08+00:00",
+      "sentiment": "negative"
+    },
+    {
       "title": "'Biggest event in sport' - Trump says Washington to host 2026 World Cup draw",
       "url": "https://www.bbc.com/sport/football/articles/cly4pk542d1o?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
       "published": "2025-08-22T17:33:20+00:00",
       "sentiment": "neutral"
+    },
+    {
+      "title": "'The biggest event in sport' - Trump announces 2026 World Cup draw",
+      "url": "https://www.bbc.com/sport/football/articles/cly4pk542d1o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2025-08-22T17:33:20+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "FBI raids home and office of ex-Trump official John Bolton",
+      "url": "https://www.aljazeera.com/video/newsfeed/2025/8/22/fbi-raids-home-and-office-of-ex-trump-official-john-bolton?traffic_source=rss",
+      "source": "Al Jazeera English",
+      "published": "2025-08-22T17:31:26+00:00",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Trump threatens to fire US Fed Governor Lisa Cook",
+      "url": "https://www.aljazeera.com/economy/2025/8/22/trump-threatens-to-fire-us-fed-governor-lisa-cook?traffic_source=rss",
+      "source": "Al Jazeera English",
+      "published": "2025-08-22T17:24:00+00:00",
+      "sentiment": "negative"
     },
     {
       "title": "Trump says he wasn\u2019t briefed on FBI raid of John Bolton\u2019s home; Vance denies investigation politically motivated \u2013 live",
@@ -163,111 +268,6 @@
       "url": "https://www.theguardian.com/us-news/2025/aug/22/alligator-alcatraz-closure-appeal-immigration",
       "source": "The Guardian",
       "published": "2025-08-22T17:07:59+00:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "The new gold play as investors look to hedge against risk, volatility",
-      "url": "https://www.cnbc.com/2025/08/22/the-new-gold-play-as-investors-look-to-hedge-against-risk-volatility.html",
-      "source": "CNBC",
-      "published": "2025-08-22T17:06:17+00:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Iran rejects sanctions threats before renewed nuclear talks with Europe",
-      "url": "https://www.aljazeera.com/news/2025/8/22/iran-rejects-sanctions-threats-before-renewed-nuclear-talks-with-europe?traffic_source=rss",
-      "source": "Al Jazeera English",
-      "published": "2025-08-22T16:58:56+00:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Canada to drop many of its retaliatory tariffs on the US",
-      "url": "https://www.bbc.com/news/articles/c5yk9dqlvygo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2025-08-22T16:58:40+00:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Famine confirmed in Gaza City is 'failure of humanity', UN chief says",
-      "url": "https://www.bbc.com/news/articles/c05ed5rgld3o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2025-08-22T16:56:49+00:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Fed's Powell signals rate cuts are coming, and the stocks that need them the most are flying",
-      "url": "https://www.cnbc.com/2025/08/22/feds-powell-signals-rate-cuts-are-coming-and-the-stocks-that-need-them-the-most-are-flying.html",
-      "source": "CNBC",
-      "published": "2025-08-22T16:50:37+00:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Fire pick up first win and eliminate Phoenix",
-      "url": "https://www.bbc.com/sport/cricket/articles/cvg4zpvgyvgo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2025-08-22T16:50:17+00:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "The summer box office sizzled, but brace for a cooldown until November",
-      "url": "https://www.cnbc.com/2025/08/22/summer-box-office.html",
-      "source": "CNBC",
-      "published": "2025-08-22T16:33:57+00:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Powell paves the way for Fed rate cut in September",
-      "url": "https://www.ft.com/content/cdd1dd0f-f0ba-41f3-be97-e598785676f5",
-      "source": "Financial Times",
-      "published": "2025-08-22T16:33:12+00:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Six more people in court over alleged Palestine Action break-in at Israeli defence firm",
-      "url": "https://www.bbc.com/news/articles/c3dp29705v4o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2025-08-22T16:31:31+00:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Elon Musk and X reach tentative settlement with laid-off Twitter employees",
-      "url": "https://www.theguardian.com/technology/2025/aug/22/elon-musk-x-settlement-twitter-employees",
-      "source": "The Guardian",
-      "published": "2025-08-22T16:29:03+00:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Student loan borrowers in default could soon see reduced paychecks. What to know",
-      "url": "https://www.cnbc.com/2025/08/22/student-loan-borrowers-in-default-face-wage-garnishment.html",
-      "source": "CNBC",
-      "published": "2025-08-22T16:25:14+00:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Ether surges, trading close to its record again after Powell speech teasing rate cuts",
-      "url": "https://www.cnbc.com/2025/08/22/crypto-market-today.html",
-      "source": "CNBC",
-      "published": "2025-08-22T16:22:14+00:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Canada to drop retaliatory tariffs on billions of dollars\u2019 worth of US products",
-      "url": "https://www.ft.com/content/32188ecb-c454-43db-8d1f-5c5ea7b5d30e",
-      "source": "Financial Times",
-      "published": "2025-08-22T16:21:39+00:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Canada drops many of its retaliatory tariffs on the U.S.",
-      "url": "https://www.cnbc.com/2025/08/22/canada-retaliatory-tariffs-trump-autos-steel.html",
-      "source": "CNBC",
-      "published": "2025-08-22T16:20:48+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Cleveland Fed's Hammack casts doubt on interest rate cuts amid inflation worries",
-      "url": "https://www.cnbc.com/2025/08/22/cleveland-feds-hammack-casts-doubt-on-interest-rate-cuts-amid-inflation-worries.html",
-      "source": "CNBC",
-      "published": "2025-08-22T16:10:17+00:00",
       "sentiment": "negative"
     }
   ]
