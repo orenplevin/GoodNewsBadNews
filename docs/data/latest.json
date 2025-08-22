@@ -1,39 +1,39 @@
 {
-  "generated_at": "2025-08-22T13:09:50.559293+00:00",
+  "generated_at": "2025-08-22T13:28:20.957101+00:00",
   "window_hours": 24,
   "totals": {
     "positive": 101,
-    "neutral": 38,
-    "negative": 94
+    "neutral": 39,
+    "negative": 97
   },
   "by_publication": [
     {
       "source": "ESPN",
-      "positive": 28,
+      "positive": 27,
       "neutral": 14,
       "negative": 7,
-      "count": 49
+      "count": 48
     },
     {
       "source": "BBC News",
       "positive": 16,
       "neutral": 9,
-      "negative": 20,
-      "count": 45
+      "negative": 21,
+      "count": 46
     },
     {
       "source": "The Guardian",
       "positive": 21,
       "neutral": 0,
-      "negative": 20,
-      "count": 41
+      "negative": 22,
+      "count": 43
     },
     {
       "source": "CNBC",
-      "positive": 19,
-      "neutral": 5,
+      "positive": 20,
+      "neutral": 6,
       "negative": 11,
-      "count": 35
+      "count": 37
     },
     {
       "source": "Al Jazeera English",
@@ -69,15 +69,15 @@
       "topic": "Tech",
       "positive": 34,
       "neutral": 14,
-      "negative": 32,
-      "count": 80
+      "negative": 35,
+      "count": 83
     },
     {
       "topic": "Other",
-      "positive": 34,
+      "positive": 33,
       "neutral": 10,
       "negative": 25,
-      "count": 69
+      "count": 68
     },
     {
       "topic": "Politics",
@@ -94,18 +94,18 @@
       "count": 16
     },
     {
+      "topic": "Business",
+      "positive": 4,
+      "neutral": 2,
+      "negative": 8,
+      "count": 14
+    },
+    {
       "topic": "World",
       "positive": 4,
       "neutral": 2,
       "negative": 7,
       "count": 13
-    },
-    {
-      "topic": "Business",
-      "positive": 3,
-      "neutral": 1,
-      "negative": 8,
-      "count": 12
     },
     {
       "topic": "Health",
@@ -123,6 +123,41 @@
     }
   ],
   "sample_headlines": [
+    {
+      "title": "Home Office seeks to appeal against court ruling on Epping asylum hotel",
+      "url": "https://www.bbc.com/news/articles/cy5p2ye95z9o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2025-08-22T13:14:58+00:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Tariffs aren't dealing a huge blow to big retailers and consumers \u2014 yet. Here are key earnings takeaways",
+      "url": "https://www.cnbc.com/2025/08/22/retail-earnings-walmart-target-home-depot-discuss-tariffs.html",
+      "source": "CNBC",
+      "published": "2025-08-22T13:14:20+00:00",
+      "sentiment": "positive"
+    },
+    {
+      "title": "10 things to watch in the stock market Friday including the Fed and Nvidia's China plans",
+      "url": "https://www.cnbc.com/2025/08/22/10-things-to-watch-in-the-stock-market-friday-including-the-fed-and-nvidias-china-plans.html",
+      "source": "CNBC",
+      "published": "2025-08-22T13:09:01+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Protests at Glacier as national parks reel from Trump cuts: \u2018They\u2019ve gutted staff, gutted funding\u2019",
+      "url": "https://www.theguardian.com/us-news/2025/aug/22/montana-glacier-national-park-trump-cuts",
+      "source": "The Guardian",
+      "published": "2025-08-22T13:00:32+00:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "\u2018A nuisance and an eyesore\u2019: hire ebikes accumulate at London border between rival firms",
+      "url": "https://www.theguardian.com/uk-news/2025/aug/22/hire-ebikes-accumulate-london-border-rival-firms",
+      "source": "The Guardian",
+      "published": "2025-08-22T12:56:03+00:00",
+      "sentiment": "negative"
+    },
     {
       "title": "Chocolate lovers, brace yourselves: Prices are rising, but not forever",
       "url": "https://www.cnbc.com/2025/08/22/chocolate-set-to-get-more-expensive-but-2026-outlook-looks-sweeter.html",
@@ -226,41 +261,6 @@
       "url": "https://www.ft.com/content/d8021e9e-9dd4-4010-8c05-ed2441c89273",
       "source": "Financial Times",
       "published": "2025-08-22T12:15:58+00:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "UK health secretary ends talks with pharma groups on NHS drug pricing",
-      "url": "https://www.ft.com/content/d3d991a4-f789-4448-a4d9-bf1716c2ebdb",
-      "source": "Financial Times",
-      "published": "2025-08-22T12:14:40+00:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Home Office seeks to appeal court ruling on Epping asylum hotel",
-      "url": "https://www.bbc.com/news/articles/cy5p2ye95z9o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2025-08-22T12:14:31+00:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Beekeeping, boxing and budgets: Meet the finance chief who's about to lead WBD's networks offshoot",
-      "url": "https://www.cnbc.com/2025/08/22/gunnar-wiedenfels-finance-chief-to-lead-wbd-networks.html",
-      "source": "CNBC",
-      "published": "2025-08-22T12:09:50+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "No doubt the players would welcome Isak back - Howe",
-      "url": "https://www.bbc.com/sport/football/videos/c1jn2dgyl6zo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2025-08-22T12:03:10+00:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Alarm over Fema aid rule requiring email address for disaster victims",
-      "url": "https://www.theguardian.com/us-news/2025/aug/22/fema-rule-aid-disaster-victims",
-      "source": "The Guardian",
-      "published": "2025-08-22T12:00:33+00:00",
       "sentiment": "negative"
     }
   ]
