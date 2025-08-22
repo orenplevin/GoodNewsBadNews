@@ -1,46 +1,46 @@
 {
-  "generated_at": "2025-08-22T16:46:18.852423+00:00",
+  "generated_at": "2025-08-22T17:17:03.460707+00:00",
   "window_hours": 24,
   "totals": {
-    "positive": 132,
-    "neutral": 47,
-    "negative": 144
+    "positive": 137,
+    "neutral": 49,
+    "negative": 148
   },
   "by_publication": [
     {
       "source": "The Guardian",
       "positive": 31,
       "neutral": 2,
-      "negative": 37,
-      "count": 70
+      "negative": 38,
+      "count": 71
     },
     {
       "source": "BBC News",
-      "positive": 19,
+      "positive": 23,
       "neutral": 14,
-      "negative": 29,
-      "count": 62
+      "negative": 30,
+      "count": 67
     },
     {
       "source": "ESPN",
       "positive": 32,
-      "neutral": 14,
+      "neutral": 16,
       "negative": 11,
-      "count": 57
+      "count": 59
     },
     {
       "source": "CNBC",
-      "positive": 26,
+      "positive": 27,
       "neutral": 6,
       "negative": 18,
-      "count": 50
+      "count": 51
     },
     {
       "source": "Al Jazeera English",
       "positive": 6,
       "neutral": 2,
-      "negative": 32,
-      "count": 40
+      "negative": 34,
+      "count": 42
     },
     {
       "source": "Financial Times",
@@ -67,31 +67,31 @@
   "by_topic": [
     {
       "topic": "Tech",
-      "positive": 48,
+      "positive": 50,
       "neutral": 20,
       "negative": 54,
-      "count": 122
+      "count": 124
     },
     {
       "topic": "Other",
-      "positive": 40,
-      "neutral": 11,
+      "positive": 42,
+      "neutral": 13,
       "negative": 31,
-      "count": 82
+      "count": 86
     },
     {
       "topic": "Politics",
       "positive": 24,
       "neutral": 1,
-      "negative": 29,
-      "count": 54
+      "negative": 31,
+      "count": 56
     },
     {
       "topic": "Business",
-      "positive": 6,
+      "positive": 7,
       "neutral": 2,
-      "negative": 13,
-      "count": 21
+      "negative": 14,
+      "count": 23
     },
     {
       "topic": "Sports",
@@ -104,8 +104,8 @@
       "topic": "World",
       "positive": 4,
       "neutral": 2,
-      "negative": 10,
-      "count": 16
+      "negative": 11,
+      "count": 17
     },
     {
       "topic": "Entertainment",
@@ -131,6 +131,55 @@
   ],
   "sample_headlines": [
     {
+      "title": "Florida appeals against judge\u2019s order to close \u2018Alligator Alcatraz\u2019 immigration jail",
+      "url": "https://www.theguardian.com/us-news/2025/aug/22/alligator-alcatraz-closure-appeal-immigration",
+      "source": "The Guardian",
+      "published": "2025-08-22T17:07:59+00:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "The new gold play as investors look to hedge against risk, volatility",
+      "url": "https://www.cnbc.com/2025/08/22/the-new-gold-play-as-investors-look-to-hedge-against-risk-volatility.html",
+      "source": "CNBC",
+      "published": "2025-08-22T17:06:17+00:00",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Iran rejects sanctions threats before renewed nuclear talks with Europe",
+      "url": "https://www.aljazeera.com/news/2025/8/22/iran-rejects-sanctions-threats-before-renewed-nuclear-talks-with-europe?traffic_source=rss",
+      "source": "Al Jazeera English",
+      "published": "2025-08-22T16:58:56+00:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Canada to drop many of its retaliatory tariffs on the US",
+      "url": "https://www.bbc.com/news/articles/c5yk9dqlvygo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2025-08-22T16:58:40+00:00",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Famine confirmed in Gaza City is 'failure of humanity', UN chief says",
+      "url": "https://www.bbc.com/news/articles/c05ed5rgld3o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2025-08-22T16:56:49+00:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Fed's Powell signals rate cuts are coming, and the stocks that need them the most are flying",
+      "url": "https://www.cnbc.com/2025/08/22/feds-powell-signals-rate-cuts-are-coming-and-the-stocks-that-need-them-the-most-are-flying.html",
+      "source": "CNBC",
+      "published": "2025-08-22T16:50:37+00:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Fire pick up first win and eliminate Phoenix",
+      "url": "https://www.bbc.com/sport/cricket/articles/cvg4zpvgyvgo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2025-08-22T16:50:17+00:00",
+      "sentiment": "positive"
+    },
+    {
       "title": "The summer box office sizzled, but brace for a cooldown until November",
       "url": "https://www.cnbc.com/2025/08/22/summer-box-office.html",
       "source": "CNBC",
@@ -143,6 +192,13 @@
       "source": "Financial Times",
       "published": "2025-08-22T16:33:12+00:00",
       "sentiment": "negative"
+    },
+    {
+      "title": "Six more people in court over alleged Palestine Action break-in at Israeli defence firm",
+      "url": "https://www.bbc.com/news/articles/c3dp29705v4o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2025-08-22T16:31:31+00:00",
+      "sentiment": "positive"
     },
     {
       "title": "Elon Musk and X reach tentative settlement with laid-off Twitter employees",
@@ -212,62 +268,6 @@
       "url": "https://www.bbc.com/news/articles/cx2q189kv7yo?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
       "published": "2025-08-22T15:57:56+00:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "'Our relationship has changed' - Nuno on Forest owner",
-      "url": "https://www.bbc.com/sport/football/videos/cg50p2npgvjo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2025-08-22T15:55:59+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Why is there a rift in the US Republican Party?",
-      "url": "https://www.aljazeera.com/video/the-stream/2025/8/22/why-is-there-a-rift-in-the-us-republican-party?traffic_source=rss",
-      "source": "Al Jazeera English",
-      "published": "2025-08-22T15:55:50+00:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "\u2018On edge\u2019: Trump\u2019s military deployment in US capital sparks fear, confusion",
-      "url": "https://www.aljazeera.com/news/2025/8/22/on-edge-trumps-military-deployment-in-us-capital-sparks-fear-confusion?traffic_source=rss",
-      "source": "Al Jazeera English",
-      "published": "2025-08-22T15:53:58+00:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Zelenskyy rejects Russia\u2019s demand to be involved in security guarantees",
-      "url": "https://www.ft.com/content/248b7da4-ce67-4f02-b9d1-d78af0e15c26",
-      "source": "Financial Times",
-      "published": "2025-08-22T15:51:10+00:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Young architects lead effort to save Romania\u2019s historic spa town",
-      "url": "https://www.aljazeera.com/gallery/2025/8/22/young-architects-lead-effort-to-save-romanias-historic-spa-town?traffic_source=rss",
-      "source": "Al Jazeera English",
-      "published": "2025-08-22T15:49:13+00:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Famine in Gaza is a \u201cwar crime of starvation\u201d",
-      "url": "https://www.aljazeera.com/video/quotable/2025/8/22/famine-in-gaza-is-a-war-crime-of-starvation?traffic_source=rss",
-      "source": "Al Jazeera English",
-      "published": "2025-08-22T15:48:35+00:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "US Fed Reserve Chair Powell opens door to September rate cut",
-      "url": "https://www.aljazeera.com/economy/2025/8/22/us-fed-reserve-chair-powell-opens-door-to-september-rate-cut?traffic_source=rss",
-      "source": "Al Jazeera English",
-      "published": "2025-08-22T15:46:27+00:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Russia trying to stop meeting on peace and prolong war, says Zelensky",
-      "url": "https://www.bbc.com/news/articles/ckgjpmg4r23o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2025-08-22T15:46:22+00:00",
       "sentiment": "negative"
     }
   ]
