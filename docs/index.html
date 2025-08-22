@@ -8,103 +8,199 @@
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
-<header class="topbar">
-<div class="brand">📊 News Sentiment Dashboard — Last 24h</div>
-<div class="meta" id="generatedAt"></div>
-</header>
+<!-- Background gradients -->
+<div class="bg-gradient"></div>
+<div class="bg-gradient-2"></div>
 
-<main class="container">
-<!-- Summary Stats Row -->
-<section class="summary-row">
-<div class="stat-card positive">
-<div class="stat-number" id="positiveCount">0</div>
-<div class="stat-label">Positive Stories</div>
-</div>
-<div class="stat-card neutral">
-<div class="stat-number" id="neutralCount">0</div>
-<div class="stat-label">Neutral Stories</div>
-</div>
-<div class="stat-card negative">
-<div class="stat-number" id="negativeCount">0</div>
-<div class="stat-label">Negative Stories</div>
-</div>
-<div class="stat-card total">
-<div class="stat-number" id="totalCount">0</div>
-<div class="stat-label">Total Stories</div>
-</div>
-</section>
+<div class="dashboard-container">
+  <!-- Sidebar -->
+  <aside class="sidebar">
+    <div class="sidebar-header">
+      <div class="logo">
+        <div class="logo-icon">📊</div>
+        <span class="logo-text">NewsScope</span>
+      </div>
+    </div>
+    
+    <nav class="nav-menu">
+      <div class="nav-section">
+        <div class="nav-item active">
+          <span class="nav-icon">📈</span>
+          <span class="nav-text">Dashboard</span>
+        </div>
+        <div class="nav-item">
+          <span class="nav-icon">📰</span>
+          <span class="nav-text">Sources</span>
+        </div>
+        <div class="nav-item">
+          <span class="nav-icon">🏷️</span>
+          <span class="nav-text">Topics</span>
+        </div>
+        <div class="nav-item">
+          <span class="nav-icon">📊</span>
+          <span class="nav-text">Analytics</span>
+        </div>
+      </div>
+      
+      <div class="nav-section">
+        <div class="nav-section-title">Settings</div>
+        <div class="nav-item">
+          <span class="nav-icon">⚙️</span>
+          <span class="nav-text">Configuration</span>
+        </div>
+        <div class="nav-item">
+          <span class="nav-icon">🔄</span>
+          <span class="nav-text">Refresh Data</span>
+        </div>
+      </div>
+    </nav>
+  </aside>
 
-<!-- Charts Grid -->
-<section class="charts-grid">
-<div class="chart-card">
-<div class="card-header">
-<h3>📈 Overall Sentiment Distribution</h3>
-</div>
-<div class="chart-container">
-<canvas id="overallChart"></canvas>
-</div>
-</div>
+  <!-- Main Content -->
+  <main class="main-content">
+    <!-- Header -->
+    <header class="main-header">
+      <div class="header-left">
+        <h1 class="page-title">News Sentiment Dashboard</h1>
+        <p class="page-subtitle">Real-time sentiment analysis across news sources</p>
+      </div>
+      <div class="header-right">
+        <div class="status-indicator">
+          <div class="status-dot"></div>
+          <span class="status-text" id="generatedAt">Loading...</span>
+        </div>
+      </div>
+    </header>
 
-<div class="chart-card">
-<div class="card-header">
-<h3>📰 Sentiment by Publication</h3>
-<div class="controls">
-<label for="pubSort">Sort by:</label>
-<select id="pubSort">
-<option value="count">Total Articles</option>
-<option value="positive">Most Positive</option>
-<option value="neutral">Most Neutral</option>
-<option value="negative">Most Negative</option>
-</select>
-</div>
-</div>
-<div class="chart-container">
-<canvas id="pubChart"></canvas>
-</div>
-</div>
+    <!-- Stats Grid -->
+    <section class="stats-grid">
+      <div class="stat-card gradient-1">
+        <div class="stat-content">
+          <div class="stat-value" id="positiveCount">0</div>
+          <div class="stat-label">Positive Stories</div>
+          <div class="stat-trend">+12% from yesterday</div>
+        </div>
+        <div class="stat-icon">😊</div>
+      </div>
+      
+      <div class="stat-card gradient-2">
+        <div class="stat-content">
+          <div class="stat-value" id="neutralCount">0</div>
+          <div class="stat-label">Neutral Stories</div>
+          <div class="stat-trend">-3% from yesterday</div>
+        </div>
+        <div class="stat-icon">😐</div>
+      </div>
+      
+      <div class="stat-card gradient-3">
+        <div class="stat-content">
+          <div class="stat-value" id="negativeCount">0</div>
+          <div class="stat-label">Negative Stories</div>
+          <div class="stat-trend">-8% from yesterday</div>
+        </div>
+        <div class="stat-icon">😟</div>
+      </div>
+      
+      <div class="stat-card gradient-4">
+        <div class="stat-content">
+          <div class="stat-value" id="totalCount">0</div>
+          <div class="stat-label">Total Articles</div>
+          <div class="stat-trend">+2% from yesterday</div>
+        </div>
+        <div class="stat-icon">📰</div>
+      </div>
+    </section>
 
-<div class="chart-card">
-<div class="card-header">
-<h3>🏷️ Sentiment by Topic</h3>
-</div>
-<div class="chart-container">
-<canvas id="topicChart"></canvas>
-</div>
-</div>
+    <!-- Charts Grid -->
+    <section class="charts-section">
+      <div class="chart-row">
+        <div class="chart-card large">
+          <div class="chart-header">
+            <h3>Sentiment Distribution</h3>
+            <div class="chart-actions">
+              <button class="action-btn">📊</button>
+              <button class="action-btn">⚙️</button>
+            </div>
+          </div>
+          <div class="chart-container">
+            <canvas id="overallChart"></canvas>
+          </div>
+        </div>
+        
+        <div class="chart-card">
+          <div class="chart-header">
+            <h3>7-Day Trend</h3>
+            <div class="chart-legend">
+              <div class="legend-item">
+                <div class="legend-dot positive"></div>
+                <span>Positive</span>
+              </div>
+              <div class="legend-item">
+                <div class="legend-dot neutral"></div>
+                <span>Neutral</span>
+              </div>
+              <div class="legend-item">
+                <div class="legend-dot negative"></div>
+                <span>Negative</span>
+              </div>
+            </div>
+          </div>
+          <div class="chart-container">
+            <canvas id="trendChart"></canvas>
+          </div>
+        </div>
+      </div>
+      
+      <div class="chart-row">
+        <div class="chart-card">
+          <div class="chart-header">
+            <h3>By Publication</h3>
+            <select class="modern-select" id="pubSort">
+              <option value="count">Total Articles</option>
+              <option value="positive">Most Positive</option>
+              <option value="neutral">Most Neutral</option>
+              <option value="negative">Most Negative</option>
+            </select>
+          </div>
+          <div class="chart-container">
+            <canvas id="pubChart"></canvas>
+          </div>
+        </div>
+        
+        <div class="chart-card">
+          <div class="chart-header">
+            <h3>By Topic</h3>
+            <div class="chart-subtitle">Distribution across categories</div>
+          </div>
+          <div class="chart-container">
+            <canvas id="topicChart"></canvas>
+          </div>
+        </div>
+      </div>
+    </section>
 
-<div class="chart-card">
-<div class="card-header">
-<h3>📅 7-Day Sentiment Trend</h3>
+    <!-- Sources and Headlines -->
+    <section class="bottom-section">
+      <div class="sources-card glass-card">
+        <div class="card-header">
+          <h3>📡 Active Sources</h3>
+          <div class="source-count-badge" id="sourceCountBadge">0</div>
+        </div>
+        <div class="sources-grid" id="sourcesList"></div>
+      </div>
+      
+      <div class="headlines-card glass-card">
+        <div class="card-header">
+          <h3>🔥 Latest Headlines</h3>
+          <div class="refresh-btn">🔄</div>
+        </div>
+        <div class="headlines-container">
+          <ul id="headlines" class="headlines-list"></ul>
+        </div>
+      </div>
+    </section>
+  </main>
 </div>
-<div class="chart-container">
-<canvas id="trendChart"></canvas>
-</div>
-</div>
-</section>
-
-<!-- News Sources -->
-<section class="card">
-<div class="card-header">
-<h3>📡 News Sources</h3>
-<div class="sources-subtitle">Publications monitored in this dashboard</div>
-</div>
-<div class="sources-grid" id="sourcesList"></div>
-</section>
-
-<!-- Headlines -->
-<section class="card">
-<div class="card-header">
-<h3>📰 Latest Headlines (Sample)</h3>
-<div class="headlines-subtitle">Recent stories with sentiment analysis</div>
-</div>
-<ul id="headlines" class="headlines"></ul>
-</section>
-</main>
-
-<footer class="footer">
-<p>Built with RSS feeds + VADER sentiment analysis + GitHub Actions</p>
-<p><a href="https://github.com/orenplevin/GoodNewsBadNews" target="_blank" rel="noopener">🔗 View Source Code</a></p>
-</footer>
 
 <script src="./app.js"></script>
 </body>
