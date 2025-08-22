@@ -1,10 +1,10 @@
 {
-  "generated_at": "2025-08-22T22:17:15.223259+00:00",
+  "generated_at": "2025-08-22T22:40:50.968171+00:00",
   "window_hours": 24,
   "totals": {
-    "positive": 178,
+    "positive": 177,
     "neutral": 59,
-    "negative": 182
+    "negative": 184
   },
   "by_publication": [
     {
@@ -16,10 +16,10 @@
     },
     {
       "source": "BBC News",
-      "positive": 35,
+      "positive": 36,
       "neutral": 16,
-      "negative": 31,
-      "count": 82
+      "negative": 32,
+      "count": 84
     },
     {
       "source": "Al Jazeera English",
@@ -51,10 +51,10 @@
     },
     {
       "source": "The Verge",
-      "positive": 17,
+      "positive": 15,
       "neutral": 2,
-      "negative": 5,
-      "count": 24
+      "negative": 6,
+      "count": 23
     },
     {
       "source": "CNN",
@@ -67,10 +67,10 @@
   "by_topic": [
     {
       "topic": "Tech",
-      "positive": 70,
+      "positive": 68,
       "neutral": 25,
-      "negative": 73,
-      "count": 168
+      "negative": 74,
+      "count": 167
     },
     {
       "topic": "Other",
@@ -81,10 +81,10 @@
     },
     {
       "topic": "Politics",
-      "positive": 38,
+      "positive": 39,
       "neutral": 4,
       "negative": 40,
-      "count": 82
+      "count": 83
     },
     {
       "topic": "Business",
@@ -104,8 +104,8 @@
       "topic": "World",
       "positive": 2,
       "neutral": 2,
-      "negative": 13,
-      "count": 17
+      "negative": 14,
+      "count": 18
     },
     {
       "topic": "Health",
@@ -157,6 +157,13 @@
       "source": "The Guardian",
       "published": "2025-08-22T22:07:49+00:00",
       "sentiment": "negative"
+    },
+    {
+      "title": "Former UUP MP Rev Martin Smyth dies aged 94",
+      "url": "https://www.bbc.com/news/articles/cde3p2450nwo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2025-08-22T21:54:12+00:00",
+      "sentiment": "positive"
     },
     {
       "title": "Ghislaine Maxwell transcripts: what we know at a glance",
@@ -262,13 +269,6 @@
       "source": "CNBC",
       "published": "2025-08-22T21:12:48+00:00",
       "sentiment": "positive"
-    },
-    {
-      "title": "DRC prosecutor seeks death penalty for former leader Joseph Kabila",
-      "url": "https://www.aljazeera.com/news/2025/8/22/drc-prosecutor-seeks-death-penalty-for-former-leader-joseph-kabila?traffic_source=rss",
-      "source": "Al Jazeera English",
-      "published": "2025-08-22T21:09:27+00:00",
-      "sentiment": "negative"
     }
   ]
 }
