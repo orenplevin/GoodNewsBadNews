@@ -1,45 +1,45 @@
 {
-  "generated_at": "2025-08-22T22:40:50.968171+00:00",
+  "generated_at": "2025-08-22T23:17:14.667848+00:00",
   "window_hours": 24,
   "totals": {
-    "positive": 177,
-    "neutral": 59,
-    "negative": 184
+    "positive": 179,
+    "neutral": 60,
+    "negative": 185
   },
   "by_publication": [
     {
       "source": "The Guardian",
-      "positive": 42,
+      "positive": 43,
       "neutral": 2,
       "negative": 51,
-      "count": 95
+      "count": 96
     },
     {
       "source": "BBC News",
-      "positive": 36,
+      "positive": 38,
       "neutral": 16,
-      "negative": 32,
-      "count": 84
+      "negative": 35,
+      "count": 89
     },
     {
       "source": "Al Jazeera English",
       "positive": 15,
       "neutral": 3,
-      "negative": 45,
-      "count": 63
+      "negative": 44,
+      "count": 62
     },
     {
       "source": "CNBC",
-      "positive": 34,
+      "positive": 33,
       "neutral": 9,
       "negative": 20,
-      "count": 63
+      "count": 62
     },
     {
       "source": "ESPN",
       "positive": 28,
-      "neutral": 18,
-      "negative": 13,
+      "neutral": 19,
+      "negative": 12,
       "count": 59
     },
     {
@@ -67,10 +67,10 @@
   "by_topic": [
     {
       "topic": "Tech",
-      "positive": 68,
-      "neutral": 25,
-      "negative": 74,
-      "count": 167
+      "positive": 70,
+      "neutral": 26,
+      "negative": 73,
+      "count": 169
     },
     {
       "topic": "Other",
@@ -97,15 +97,15 @@
       "topic": "Sports",
       "positive": 9,
       "neutral": 9,
-      "negative": 4,
-      "count": 22
+      "negative": 5,
+      "count": 23
     },
     {
       "topic": "World",
       "positive": 2,
       "neutral": 2,
-      "negative": 14,
-      "count": 18
+      "negative": 15,
+      "count": 19
     },
     {
       "topic": "Health",
@@ -130,6 +130,48 @@
     }
   ],
   "sample_headlines": [
+    {
+      "title": "Fans loved her new album. The thing was, she hadn't released one",
+      "url": "https://www.bbc.com/news/articles/clydz8d03dvo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2025-08-22T23:12:40+00:00",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Two games, eight goals conceded - is Potter under pressure?",
+      "url": "https://www.bbc.com/sport/football/articles/cy5p2end116o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2025-08-22T23:12:29+00:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "'Two laptops, six plugs': The South Korean cafes grappling with students who don't leave",
+      "url": "https://www.bbc.com/news/articles/c80d9e8ep7do?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2025-08-22T23:02:12+00:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Five dead after tour bus crashes on New York highway",
+      "url": "https://www.bbc.com/news/articles/cm2kp312ryxo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2025-08-22T22:55:02+00:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Chaves Robles becomes first Costa Rican president to face loss of immunity",
+      "url": "https://www.aljazeera.com/news/2025/8/22/chaves-robles-becomes-first-costa-rican-president-to-face-loss-of-immunity?traffic_source=rss",
+      "source": "Al Jazeera English",
+      "published": "2025-08-22T22:46:40+00:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "England's appetite for destruction undimmed by thrashing of USA",
+      "url": "https://www.bbc.com/sport/rugby-union/articles/cp94p2y9rl3o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2025-08-22T22:40:40+00:00",
+      "sentiment": "positive"
+    },
     {
       "title": "Meta to unveil Hypernova smart glasses with a display, wristband at Connect next month",
       "url": "https://www.cnbc.com/2025/08/22/meta-hypernova-ar-glasses-wristband.html",
@@ -157,6 +199,13 @@
       "source": "The Guardian",
       "published": "2025-08-22T22:07:49+00:00",
       "sentiment": "negative"
+    },
+    {
+      "title": "Trump says Intel has agreed to give US government a 10% stake",
+      "url": "https://www.theguardian.com/technology/2025/aug/22/trump-stake-intel-chips",
+      "source": "The Guardian",
+      "published": "2025-08-22T22:00:39+00:00",
+      "sentiment": "positive"
     },
     {
       "title": "Former UUP MP Rev Martin Smyth dies aged 94",
@@ -219,55 +268,6 @@
       "url": "https://www.bbc.com/sport/tennis/articles/c9d03jqdl7xo?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
       "published": "2025-08-22T21:24:21+00:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "US to take 10% stake in troubled chipmaker Intel",
-      "url": "https://www.ft.com/content/aec7bdce-d9ca-4416-a1b4-a0da5d11c715",
-      "source": "Financial Times",
-      "published": "2025-08-22T21:21:11+00:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Trump says furniture tariffs are coming later this year",
-      "url": "https://www.cnbc.com/2025/08/22/trump-tariffs-furniture-trade.html",
-      "source": "CNBC",
-      "published": "2025-08-22T21:17:41+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Apparent accident with gas exposure kills six in Colorado, including high school student",
-      "url": "https://www.theguardian.com/us-news/2025/aug/22/colorado-farm-deaths-gas-exposure",
-      "source": "The Guardian",
-      "published": "2025-08-22T21:17:35+00:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Ether notches first new record since 2021 after Powell speech teasing rate cuts",
-      "url": "https://www.cnbc.com/2025/08/22/crypto-market-today.html",
-      "source": "CNBC",
-      "published": "2025-08-22T21:14:25+00:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "White House announces chipmaker Intel to give US government 10% stake",
-      "url": "https://www.bbc.com/news/articles/cvg3zpdl3xdo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2025-08-22T21:14:00+00:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Hegseth fires top US general after Iran assessment that angered Trump",
-      "url": "https://www.theguardian.com/us-news/2025/aug/22/hegseth-fires-general-jeffrey-kruse",
-      "source": "The Guardian",
-      "published": "2025-08-22T21:13:19+00:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "U.S. government takes 10% stake in Intel, as Trump expands control over private sector",
-      "url": "https://www.cnbc.com/2025/08/22/intel-goverment-equity-stake.html",
-      "source": "CNBC",
-      "published": "2025-08-22T21:12:48+00:00",
       "sentiment": "positive"
     }
   ]
