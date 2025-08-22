@@ -1,32 +1,32 @@
 {
-  "generated_at": "2025-08-22T15:19:18.362939+00:00",
+  "generated_at": "2025-08-22T15:39:29.513661+00:00",
   "window_hours": 24,
   "totals": {
-    "positive": 118,
-    "neutral": 44,
-    "negative": 124
+    "positive": 119,
+    "neutral": 45,
+    "negative": 128
   },
   "by_publication": [
     {
       "source": "The Guardian",
       "positive": 29,
       "neutral": 2,
-      "negative": 33,
-      "count": 64
+      "negative": 35,
+      "count": 66
     },
     {
       "source": "BBC News",
       "positive": 18,
-      "neutral": 11,
-      "negative": 26,
-      "count": 55
+      "neutral": 12,
+      "negative": 27,
+      "count": 57
     },
     {
       "source": "ESPN",
       "positive": 29,
       "neutral": 14,
-      "negative": 8,
-      "count": 51
+      "negative": 9,
+      "count": 52
     },
     {
       "source": "CNBC",
@@ -37,10 +37,10 @@
     },
     {
       "source": "Al Jazeera English",
-      "positive": 3,
+      "positive": 4,
       "neutral": 2,
       "negative": 28,
-      "count": 33
+      "count": 34
     },
     {
       "source": "Financial Times",
@@ -68,23 +68,23 @@
     {
       "topic": "Tech",
       "positive": 40,
-      "neutral": 18,
-      "negative": 48,
-      "count": 106
+      "neutral": 19,
+      "negative": 49,
+      "count": 108
     },
     {
       "topic": "Other",
       "positive": 39,
       "neutral": 10,
-      "negative": 25,
-      "count": 74
+      "negative": 27,
+      "count": 76
     },
     {
       "topic": "Politics",
-      "positive": 23,
+      "positive": 24,
       "neutral": 1,
       "negative": 24,
-      "count": 48
+      "count": 49
     },
     {
       "topic": "Business",
@@ -97,8 +97,8 @@
       "topic": "Sports",
       "positive": 4,
       "neutral": 9,
-      "negative": 4,
-      "count": 17
+      "negative": 5,
+      "count": 18
     },
     {
       "topic": "World",
@@ -123,6 +123,34 @@
     }
   ],
   "sample_headlines": [
+    {
+      "title": "Royal Mail and DHL halt some US deliveries over tariffs",
+      "url": "https://www.bbc.com/news/articles/cx2p17xypgko?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2025-08-22T15:38:48+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Royal Mail still missing delivery targets after sale to Czech tycoon K\u0159et\u00ednsk\u00fd",
+      "url": "https://www.theguardian.com/business/2025/aug/22/royal-mail-missing-delivery-targets-sale-kretinsky-ep-group",
+      "source": "The Guardian",
+      "published": "2025-08-22T15:23:18+00:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Hurricane Erin intensified at a near-record rate. Is Florida ready for the next big storm?",
+      "url": "https://www.theguardian.com/us-news/2025/aug/22/hurricane-erin-analysis-florida",
+      "source": "The Guardian",
+      "published": "2025-08-22T15:11:47+00:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Russia\u2019s Lavrov says agenda \u2018not ready at all\u2019 for Putin-Zelenskyy summit",
+      "url": "https://www.aljazeera.com/news/2025/8/22/russias-lavrov-says-agenda-not-ready-at-all-for-putin-zelenskyy-summit?traffic_source=rss",
+      "source": "Al Jazeera English",
+      "published": "2025-08-22T15:11:10+00:00",
+      "sentiment": "positive"
+    },
     {
       "title": "Trump says he wasn\u2019t briefed on FBI raid of John Bolton\u2019s home \u2013 live updates",
       "url": "https://www.theguardian.com/us-news/live/2025/aug/22/donald-trump-administration-federal-reserve-republicans-democrats-us-politics-live",
@@ -222,46 +250,18 @@
       "sentiment": "negative"
     },
     {
+      "title": "'Absolutely no chance I'll leave' - Rodgers plays down conflict at Celtic",
+      "url": "https://www.bbc.com/sport/football/articles/c4gevz2dzn1o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2025-08-22T14:36:36+00:00",
+      "sentiment": "negative"
+    },
+    {
       "title": "DeepSeek hints latest model will be compatible with China\u2019s \u2018next generation\u2019 homegrown AI chips",
       "url": "https://www.cnbc.com/2025/08/22/deepseek-hints-latest-model-supported-by-chinas-next-generation-homegrown-ai-chips.html",
       "source": "CNBC",
       "published": "2025-08-22T14:26:41+00:00",
       "sentiment": "positive"
-    },
-    {
-      "title": "At least 52 killed in Gaza as Israel escalates attacks on Gaza City",
-      "url": "https://www.aljazeera.com/news/2025/8/22/at-least-52-killed-in-gaza-as-israel-escalates-attacks-on-gaza-city?traffic_source=rss",
-      "source": "Al Jazeera English",
-      "published": "2025-08-22T14:25:19+00:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Apple TV+ raises subscription prices worldwide, including in UK",
-      "url": "https://www.bbc.com/news/articles/c1le9l6pee5o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2025-08-22T14:22:32+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "No Putin-Zelenskyy meeting planned until agenda is agreed, Russia\u2019s foreign minister says \u2013 as it happened",
-      "url": "https://www.theguardian.com/world/live/2025/aug/22/ukraine-war-latest-updates-zelenskyy-putin-trump-news",
-      "source": "The Guardian",
-      "published": "2025-08-22T14:20:47+00:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Prigozhin knew he was \u2018doomed\u2019 after failed rebellion, says mother",
-      "url": "https://www.theguardian.com/world/2025/aug/22/prigozhin-knew-he-was-doomed-after-failed-rebellion-says-mother",
-      "source": "The Guardian",
-      "published": "2025-08-22T14:12:23+00:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Powell indicates conditions 'may warrant' interest rate cuts as Fed proceeds 'carefully'",
-      "url": "https://www.cnbc.com/2025/08/22/powell-indicates-conditions-may-warrant-interest-rate-cuts-as-fed-proceeds-carefully.html",
-      "source": "CNBC",
-      "published": "2025-08-22T14:10:18+00:00",
-      "sentiment": "negative"
     }
   ]
 }
