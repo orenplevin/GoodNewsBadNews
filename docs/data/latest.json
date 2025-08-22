@@ -1,39 +1,39 @@
 {
-  "generated_at": "2025-08-22T13:45:57.879707+00:00",
+  "generated_at": "2025-08-22T14:18:42.103424+00:00",
   "window_hours": 24,
   "totals": {
-    "positive": 105,
-    "neutral": 41,
-    "negative": 103
+    "positive": 111,
+    "neutral": 42,
+    "negative": 109
   },
   "by_publication": [
     {
       "source": "The Guardian",
-      "positive": 22,
-      "neutral": 1,
+      "positive": 25,
+      "neutral": 2,
       "negative": 26,
-      "count": 49
-    },
-    {
-      "source": "ESPN",
-      "positive": 27,
-      "neutral": 14,
-      "negative": 8,
-      "count": 49
+      "count": 53
     },
     {
       "source": "BBC News",
-      "positive": 16,
+      "positive": 17,
       "neutral": 10,
-      "negative": 22,
-      "count": 48
+      "negative": 25,
+      "count": 52
+    },
+    {
+      "source": "ESPN",
+      "positive": 28,
+      "neutral": 14,
+      "negative": 8,
+      "count": 50
     },
     {
       "source": "CNBC",
-      "positive": 22,
+      "positive": 23,
       "neutral": 6,
-      "negative": 11,
-      "count": 39
+      "negative": 13,
+      "count": 42
     },
     {
       "source": "Al Jazeera English",
@@ -53,8 +53,8 @@
       "source": "Financial Times",
       "positive": 4,
       "neutral": 5,
-      "negative": 5,
-      "count": 14
+      "negative": 6,
+      "count": 15
     },
     {
       "source": "CNN",
@@ -67,17 +67,17 @@
   "by_topic": [
     {
       "topic": "Tech",
-      "positive": 37,
-      "neutral": 16,
-      "negative": 37,
-      "count": 90
+      "positive": 40,
+      "neutral": 17,
+      "negative": 40,
+      "count": 97
     },
     {
       "topic": "Other",
-      "positive": 34,
+      "positive": 37,
       "neutral": 10,
       "negative": 25,
-      "count": 69
+      "count": 72
     },
     {
       "topic": "Politics",
@@ -90,22 +90,22 @@
       "topic": "Sports",
       "positive": 4,
       "neutral": 9,
-      "negative": 3,
-      "count": 16
+      "negative": 4,
+      "count": 17
     },
     {
       "topic": "Business",
       "positive": 4,
       "neutral": 2,
-      "negative": 9,
-      "count": 15
+      "negative": 10,
+      "count": 16
     },
     {
       "topic": "World",
       "positive": 4,
       "neutral": 2,
-      "negative": 8,
-      "count": 14
+      "negative": 9,
+      "count": 15
     },
     {
       "topic": "Health",
@@ -123,6 +123,83 @@
     }
   ],
   "sample_headlines": [
+    {
+      "title": "Powell indicates conditions 'may warrant' interest rate cuts as Fed proceeds 'carefully'",
+      "url": "https://www.cnbc.com/2025/08/22/powell-indicates-conditions-may-warrant-interest-rate-cuts-as-fed-proceeds-carefully.html",
+      "source": "CNBC",
+      "published": "2025-08-22T14:10:18+00:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Nuno's future as Forest boss uncertain",
+      "url": "https://www.bbc.com/sport/football/articles/c0l62pnejyro?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2025-08-22T14:04:59+00:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "A-levels and GCSEs need overhaul to keep pace with generative AI, experts say",
+      "url": "https://www.theguardian.com/education/2025/aug/22/a-levels-and-gcses-need-overhaul-to-keep-pace-with-generative-ai-experts-say",
+      "source": "The Guardian",
+      "published": "2025-08-22T14:03:44+00:00",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Powell says \u2018shifting\u2019 economic risks heighten case for Fed rate cut",
+      "url": "https://www.ft.com/content/cdd1dd0f-f0ba-41f3-be97-e598785676f5",
+      "source": "Financial Times",
+      "published": "2025-08-22T14:01:23+00:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Wolf hunting in western US does little to prevent livestock losses, study finds",
+      "url": "https://www.theguardian.com/environment/2025/aug/22/wolf-hunting-livestock-western-us",
+      "source": "The Guardian",
+      "published": "2025-08-22T14:00:36+00:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Thousands face deportation to danger as Trump targets temporary protections",
+      "url": "https://www.theguardian.com/us-news/2025/aug/22/temporary-protected-status-tps-immigration-trump",
+      "source": "The Guardian",
+      "published": "2025-08-22T14:00:34+00:00",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Seven Wyoming newspapers were about to be shut. They were given a second life",
+      "url": "https://www.theguardian.com/us-news/2025/aug/22/wyoming-newspapers-nmc-bought",
+      "source": "The Guardian",
+      "published": "2025-08-22T14:00:33+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'My youngest child doesn't know what fruit tastes like': Gaza residents on famine",
+      "url": "https://www.bbc.com/news/articles/cz602wvjv7lo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2025-08-22T14:00:26+00:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Wage growth is doing something odd in 2025 \u2014 the last time it happened was around the Great Recession",
+      "url": "https://www.cnbc.com/2025/08/22/wage-growth-2025-job-switcher-job-stayer.html",
+      "source": "CNBC",
+      "published": "2025-08-22T13:55:12+00:00",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Key findings from the high court ruling in Noel Clarke\u2019s libel case against the Guardian",
+      "url": "https://www.theguardian.com/culture/2025/aug/22/what-high-court-ruled-in-noel-clarke-libel-case-against-the-guardian",
+      "source": "The Guardian",
+      "published": "2025-08-22T13:45:34+00:00",
+      "sentiment": "positive"
+    },
+    {
+      "title": "We don't want players who don't want Spurs - Frank",
+      "url": "https://www.bbc.com/sport/football/articles/cly4p22v30vo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2025-08-22T13:44:43+00:00",
+      "sentiment": "negative"
+    },
     {
       "title": "Inside Texas Instruments' $60 billion U.S. megaproject, where Apple will make iPhone chips",
       "url": "https://www.cnbc.com/2025/08/22/apple-will-make-chips-at-texas-instruments-60-billion-us-project.html",
@@ -185,83 +262,6 @@
       "source": "The Guardian",
       "published": "2025-08-22T13:13:11+00:00",
       "sentiment": "negative"
-    },
-    {
-      "title": "Florida removes rainbow crosswalk honoring victims of Pulse nightclub shooting",
-      "url": "https://www.theguardian.com/us-news/2025/aug/22/florida-pulse-rainbow-crosswalk-memorial-desantis",
-      "source": "The Guardian",
-      "published": "2025-08-22T13:12:18+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Ukraine attacks pipeline that sends Russian oil to Hungary and Slovakia",
-      "url": "https://www.theguardian.com/world/2025/aug/22/ukraine-attacks-pipeline-that-sends-russian-oil-to-hungary-and-slovakia",
-      "source": "The Guardian",
-      "published": "2025-08-22T13:11:03+00:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "10 things to watch in the stock market Friday including the Fed and Nvidia's China plans",
-      "url": "https://www.cnbc.com/2025/08/22/10-things-to-watch-in-the-stock-market-friday-including-the-fed-and-nvidias-china-plans.html",
-      "source": "CNBC",
-      "published": "2025-08-22T13:09:01+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Hollywood mogul backs Musk brother\u2019s \u2018drone entertainment company\u2019",
-      "url": "https://www.ft.com/content/3981779d-d21a-4518-b4db-1eeb87afdea3",
-      "source": "Financial Times",
-      "published": "2025-08-22T13:01:01+00:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Protests at Glacier as national parks reel from Trump cuts: \u2018They\u2019ve gutted staff, gutted funding\u2019",
-      "url": "https://www.theguardian.com/us-news/2025/aug/22/montana-glacier-national-park-trump-cuts",
-      "source": "The Guardian",
-      "published": "2025-08-22T13:00:32+00:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "\u2018A nuisance and an eyesore\u2019: hire ebikes accumulate at London border between rival firms",
-      "url": "https://www.theguardian.com/uk-news/2025/aug/22/hire-ebikes-accumulate-london-border-rival-firms",
-      "source": "The Guardian",
-      "published": "2025-08-22T12:56:03+00:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Chocolate lovers, brace yourselves: Prices are rising, but not forever",
-      "url": "https://www.cnbc.com/2025/08/22/chocolate-set-to-get-more-expensive-but-2026-outlook-looks-sweeter.html",
-      "source": "CNBC",
-      "published": "2025-08-22T12:55:07+00:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "What has led to a famine being confirmed in Gaza?",
-      "url": "https://www.aljazeera.com/news/2025/8/22/what-has-led-to-a-famine-being-confirmed-in-gaza?traffic_source=rss",
-      "source": "Al Jazeera English",
-      "published": "2025-08-22T12:51:32+00:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "The U.S.-EU deal is here. Europe's businesses remain on edge",
-      "url": "https://www.cnbc.com/2025/08/22/the-us-eu-deal-is-here-europes-businesses-remain-on-edge.html",
-      "source": "CNBC",
-      "published": "2025-08-22T12:48:14+00:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Government to appeal against court ruling blocking asylum seekers being housed at Epping hotel \u2013 UK politics live",
-      "url": "https://www.theguardian.com/uk-news/live/2025/aug/22/asylum-hotels-labour-immigration-protests-conservatives-kemi-badenoch-keir-starmer-uk-politics-live",
-      "source": "The Guardian",
-      "published": "2025-08-22T12:45:26+00:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Hundreds of TikTok UK moderator jobs at risk despite new online safety rules",
-      "url": "https://www.theguardian.com/technology/2025/aug/22/tiktok-uk-moderator-jobs-at-risk-despite-new-online-safety-rules",
-      "source": "The Guardian",
-      "published": "2025-08-22T12:40:01+00:00",
-      "sentiment": "positive"
     }
   ]
 }
