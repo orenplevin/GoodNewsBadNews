@@ -1,60 +1,60 @@
 {
-  "generated_at": "2025-08-22T15:39:29.513661+00:00",
+  "generated_at": "2025-08-22T16:23:06.011207+00:00",
   "window_hours": 24,
   "totals": {
-    "positive": 119,
-    "neutral": 45,
-    "negative": 128
+    "positive": 127,
+    "neutral": 47,
+    "negative": 139
   },
   "by_publication": [
     {
       "source": "The Guardian",
       "positive": 29,
       "neutral": 2,
-      "negative": 35,
-      "count": 66
+      "negative": 37,
+      "count": 68
     },
     {
       "source": "BBC News",
-      "positive": 18,
-      "neutral": 12,
-      "negative": 27,
-      "count": 57
+      "positive": 19,
+      "neutral": 14,
+      "negative": 29,
+      "count": 62
     },
     {
       "source": "ESPN",
-      "positive": 29,
+      "positive": 31,
       "neutral": 14,
-      "negative": 9,
-      "count": 52
+      "negative": 11,
+      "count": 56
     },
     {
       "source": "CNBC",
-      "positive": 24,
+      "positive": 25,
       "neutral": 6,
-      "negative": 15,
-      "count": 45
+      "negative": 17,
+      "count": 48
     },
     {
       "source": "Al Jazeera English",
-      "positive": 4,
+      "positive": 5,
       "neutral": 2,
-      "negative": 28,
-      "count": 34
+      "negative": 31,
+      "count": 38
     },
     {
       "source": "Financial Times",
-      "positive": 4,
+      "positive": 5,
       "neutral": 6,
       "negative": 8,
-      "count": 18
+      "count": 19
     },
     {
       "source": "The Verge",
-      "positive": 11,
+      "positive": 13,
       "neutral": 2,
       "negative": 3,
-      "count": 16
+      "count": 18
     },
     {
       "source": "CNN",
@@ -67,31 +67,31 @@
   "by_topic": [
     {
       "topic": "Tech",
-      "positive": 40,
-      "neutral": 19,
-      "negative": 49,
-      "count": 108
+      "positive": 45,
+      "neutral": 20,
+      "negative": 54,
+      "count": 119
     },
     {
       "topic": "Other",
-      "positive": 39,
-      "neutral": 10,
-      "negative": 27,
-      "count": 76
+      "positive": 40,
+      "neutral": 11,
+      "negative": 30,
+      "count": 81
     },
     {
       "topic": "Politics",
-      "positive": 24,
+      "positive": 23,
       "neutral": 1,
-      "negative": 24,
-      "count": 49
+      "negative": 26,
+      "count": 50
     },
     {
       "topic": "Business",
-      "positive": 5,
+      "positive": 6,
       "neutral": 2,
       "negative": 12,
-      "count": 19
+      "count": 20
     },
     {
       "topic": "Sports",
@@ -104,8 +104,8 @@
       "topic": "World",
       "positive": 4,
       "neutral": 2,
-      "negative": 9,
-      "count": 15
+      "negative": 10,
+      "count": 16
     },
     {
       "topic": "Health",
@@ -116,19 +116,145 @@
     },
     {
       "topic": "Entertainment",
-      "positive": 2,
+      "positive": 3,
       "neutral": 1,
       "negative": 0,
-      "count": 3
+      "count": 4
+    },
+    {
+      "topic": "Science",
+      "positive": 1,
+      "neutral": 0,
+      "negative": 0,
+      "count": 1
     }
   ],
   "sample_headlines": [
+    {
+      "title": "Ether surges, trading close to its record again after Powell speech teasing rate cuts",
+      "url": "https://www.cnbc.com/2025/08/22/crypto-market-today.html",
+      "source": "CNBC",
+      "published": "2025-08-22T16:22:14+00:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Canada drops many of its retaliatory tariffs on the U.S.",
+      "url": "https://www.cnbc.com/2025/08/22/canada-retaliatory-tariffs-trump-autos-steel.html",
+      "source": "CNBC",
+      "published": "2025-08-22T16:20:48+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Cleveland Fed's Hammack casts doubt on interest rate cuts amid inflation worries",
+      "url": "https://www.cnbc.com/2025/08/22/cleveland-feds-hammack-casts-doubt-on-interest-rate-cuts-amid-inflation-worries.html",
+      "source": "CNBC",
+      "published": "2025-08-22T16:10:17+00:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Protests expected at asylum hotels across UK as tensions mount",
+      "url": "https://www.theguardian.com/uk-news/2025/aug/22/protests-asylum-hotels-england-tensions-mount",
+      "source": "The Guardian",
+      "published": "2025-08-22T16:04:39+00:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Powell hints at potential interest rate cuts. What that means for homeowners hoping to refinance",
+      "url": "https://www.cnbc.com/2025/08/22/fed-rate-cuts-mortgage-refinance.html",
+      "source": "CNBC",
+      "published": "2025-08-22T16:03:00+00:00",
+      "sentiment": "positive"
+    },
+    {
+      "title": "She travelled eight hours by bus for violin lessons. Now she's playing Wembley with Coldplay",
+      "url": "https://www.bbc.com/news/articles/c93de1y9nl5o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2025-08-22T15:59:13+00:00",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Are girls being left behind in school? Experts are sounding the alarm",
+      "url": "https://www.bbc.com/news/articles/cx2q189kv7yo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2025-08-22T15:57:56+00:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "'Our relationship has changed' - Nuno on Forest owner",
+      "url": "https://www.bbc.com/sport/football/videos/cg50p2npgvjo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2025-08-22T15:55:59+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Young architects lead effort to save Romania\u2019s historic spa town",
+      "url": "https://www.aljazeera.com/gallery/2025/8/22/young-architects-lead-effort-to-save-romanias-historic-spa-town?traffic_source=rss",
+      "source": "Al Jazeera English",
+      "published": "2025-08-22T15:49:13+00:00",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Famine in Gaza is a \u201cwar crime of starvation\u201d",
+      "url": "https://www.aljazeera.com/video/quotable/2025/8/22/famine-in-gaza-is-a-war-crime-of-starvation?traffic_source=rss",
+      "source": "Al Jazeera English",
+      "published": "2025-08-22T15:48:35+00:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "US Fed Reserve Chair Powell opens door to September rate cut",
+      "url": "https://www.aljazeera.com/economy/2025/8/22/us-fed-reserve-chair-powell-opens-door-to-september-rate-cut?traffic_source=rss",
+      "source": "Al Jazeera English",
+      "published": "2025-08-22T15:46:27+00:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Russia trying to stop meeting on peace and prolong war, says Zelensky",
+      "url": "https://www.bbc.com/news/articles/ckgjpmg4r23o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2025-08-22T15:46:22+00:00",
+      "sentiment": "negative"
+    },
     {
       "title": "Royal Mail and DHL halt some US deliveries over tariffs",
       "url": "https://www.bbc.com/news/articles/cx2p17xypgko?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
       "published": "2025-08-22T15:38:48+00:00",
       "sentiment": "neutral"
+    },
+    {
+      "title": "Royal Mail and DHL halt some deliveries to US over tariffs",
+      "url": "https://www.bbc.com/news/articles/cx2p17xypgko?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2025-08-22T15:38:48+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "UN agency says Gaza famine is direct result of Israel\u2019s actions and may amount to war crime \u2013 as it happened",
+      "url": "https://www.theguardian.com/world/live/2025/aug/22/famine-benjamin-netanyahu-palestine-gaza-israel-war-latest-updates",
+      "source": "The Guardian",
+      "published": "2025-08-22T15:33:27+00:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "GYG shares: Guzman y Gomez plummets on ASX but expansion still on the menu as increased US losses rattle investors",
+      "url": "https://www.theguardian.com/australia-news/2025/aug/22/guzman-y-gomez-keeps-expansion-on-the-menu-despite-increased-us-losses-rattling-investors",
+      "source": "The Guardian",
+      "published": "2025-08-22T15:33:25+00:00",
+      "sentiment": "positive"
+    },
+    {
+      "title": "The lamentable decline of reading",
+      "url": "https://www.ft.com/content/583de986-a295-4697-a2fe-3c6b13c99145",
+      "source": "Financial Times",
+      "published": "2025-08-22T15:30:46+00:00",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Notting Hill carnival \u2018very close\u2019 to not happening, says chair in funding appeal",
+      "url": "https://www.theguardian.com/culture/2025/aug/22/notting-hill-carnival-london-funding-policing",
+      "source": "The Guardian",
+      "published": "2025-08-22T15:29:02+00:00",
+      "sentiment": "positive"
     },
     {
       "title": "Royal Mail still missing delivery targets after sale to Czech tycoon K\u0159et\u00ednsk\u00fd",
@@ -143,125 +269,6 @@
       "source": "The Guardian",
       "published": "2025-08-22T15:11:47+00:00",
       "sentiment": "negative"
-    },
-    {
-      "title": "Russia\u2019s Lavrov says agenda \u2018not ready at all\u2019 for Putin-Zelenskyy summit",
-      "url": "https://www.aljazeera.com/news/2025/8/22/russias-lavrov-says-agenda-not-ready-at-all-for-putin-zelenskyy-summit?traffic_source=rss",
-      "source": "Al Jazeera English",
-      "published": "2025-08-22T15:11:10+00:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Trump says he wasn\u2019t briefed on FBI raid of John Bolton\u2019s home \u2013 live updates",
-      "url": "https://www.theguardian.com/us-news/live/2025/aug/22/donald-trump-administration-federal-reserve-republicans-democrats-us-politics-live",
-      "source": "The Guardian",
-      "published": "2025-08-22T15:09:41+00:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Powell says \u2018shifting\u2019 economic risks strengthen case for Fed rate cut",
-      "url": "https://www.ft.com/content/cdd1dd0f-f0ba-41f3-be97-e598785676f5",
-      "source": "Financial Times",
-      "published": "2025-08-22T15:02:29+00:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Eswatini government faces court challenge over men deported by US",
-      "url": "https://www.theguardian.com/world/2025/aug/22/court-case-challenging-eswatini-us-immigrant-deportation-deal-postponed",
-      "source": "The Guardian",
-      "published": "2025-08-22T15:02:26+00:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "\u2018I\u2019m not against development, but \u2026\u2019: Sydney\u2019s plans for greater density face a morass of confusion and hostility",
-      "url": "https://www.theguardian.com/australia-news/2025/aug/23/sydney-development-plans-increase-nsw-housing-density-opposition",
-      "source": "The Guardian",
-      "published": "2025-08-22T15:00:37+00:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Kimbal Musk on Elon's Tesla pay package: 'My brother deserves to be paid'",
-      "url": "https://www.cnbc.com/2025/08/22/kimbal-musk-elon-tesla-pay.html",
-      "source": "CNBC",
-      "published": "2025-08-22T14:59:17+00:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Fed chair Jerome Powell signals interest rate cuts amid Trump attacks",
-      "url": "https://www.theguardian.com/business/2025/aug/22/jerome-powell-speech-jackson-hole",
-      "source": "The Guardian",
-      "published": "2025-08-22T14:56:46+00:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Zelenskyy rebukes Russia\u2019s demand to be involved in security guarantees",
-      "url": "https://www.ft.com/content/248b7da4-ce67-4f02-b9d1-d78af0e15c26",
-      "source": "Financial Times",
-      "published": "2025-08-22T14:50:53+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Government to appeal against court ruling blocking asylum seekers being housed at Epping hotel \u2013 as it happened",
-      "url": "https://www.theguardian.com/uk-news/live/2025/aug/22/asylum-hotels-labour-immigration-protests-conservatives-kemi-badenoch-keir-starmer-uk-politics-live",
-      "source": "The Guardian",
-      "published": "2025-08-22T14:50:52+00:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "FBI raids home of John Bolton, former Trump adviser turned critic",
-      "url": "https://www.aljazeera.com/news/2025/8/22/fbi-raids-home-of-john-bolton-former-trump-adviser-turned-critic?traffic_source=rss",
-      "source": "Al Jazeera English",
-      "published": "2025-08-22T14:49:05+00:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "BA flight attendant on US-London route found \u2018naked and high on drugs\u2019 in toilet",
-      "url": "https://www.theguardian.com/uk-news/2025/aug/22/ba-flight-attendant-on-us-london-route-found-naked-and-high-on-drugs-in-toilet",
-      "source": "The Guardian",
-      "published": "2025-08-22T14:48:52+00:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "UN agency says Gaza famine is direct result of Israel\u2019s actions and may amount to war crime \u2013 Middle East crisis live",
-      "url": "https://www.theguardian.com/world/live/2025/aug/22/famine-benjamin-netanyahu-palestine-gaza-israel-war-latest-updates",
-      "source": "The Guardian",
-      "published": "2025-08-22T14:48:05+00:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Trump says he'll fire Fed Governor Lisa Cook 'if she doesn't resign'",
-      "url": "https://www.cnbc.com/2025/08/22/trump-fire-fed-lisa-cook-powell.html",
-      "source": "CNBC",
-      "published": "2025-08-22T14:41:10+00:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Wes Streeting\u2019s row with pharma firms grows as they reject NHS drug pricing offer",
-      "url": "https://www.theguardian.com/business/2025/aug/22/wes-streeting-pharma-firms-nhs-drug-pricing-rebate-scheme",
-      "source": "The Guardian",
-      "published": "2025-08-22T14:37:53+00:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Trump must not reward Putin for his aggression in Ukraine",
-      "url": "https://www.ft.com/content/e91df3ac-c649-46f7-a9ad-5d1a626c3ad7",
-      "source": "Financial Times",
-      "published": "2025-08-22T14:36:47+00:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "'Absolutely no chance I'll leave' - Rodgers plays down conflict at Celtic",
-      "url": "https://www.bbc.com/sport/football/articles/c4gevz2dzn1o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2025-08-22T14:36:36+00:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "DeepSeek hints latest model will be compatible with China\u2019s \u2018next generation\u2019 homegrown AI chips",
-      "url": "https://www.cnbc.com/2025/08/22/deepseek-hints-latest-model-supported-by-chinas-next-generation-homegrown-ai-chips.html",
-      "source": "CNBC",
-      "published": "2025-08-22T14:26:41+00:00",
-      "sentiment": "positive"
     }
   ]
 }
