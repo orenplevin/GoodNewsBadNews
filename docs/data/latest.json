@@ -1,10 +1,10 @@
 {
-  "generated_at": "2025-08-22T17:17:03.460707+00:00",
+  "generated_at": "2025-08-22T17:40:35.016806+00:00",
   "window_hours": 24,
   "totals": {
-    "positive": 137,
-    "neutral": 49,
-    "negative": 148
+    "positive": 138,
+    "neutral": 50,
+    "negative": 146
   },
   "by_publication": [
     {
@@ -16,24 +16,24 @@
     },
     {
       "source": "BBC News",
-      "positive": 23,
-      "neutral": 14,
-      "negative": 30,
-      "count": 67
+      "positive": 24,
+      "neutral": 15,
+      "negative": 29,
+      "count": 68
     },
     {
       "source": "ESPN",
-      "positive": 32,
+      "positive": 31,
       "neutral": 16,
-      "negative": 11,
-      "count": 59
+      "negative": 10,
+      "count": 57
     },
     {
       "source": "CNBC",
-      "positive": 27,
+      "positive": 29,
       "neutral": 6,
       "negative": 18,
-      "count": 51
+      "count": 53
     },
     {
       "source": "Al Jazeera English",
@@ -51,10 +51,10 @@
     },
     {
       "source": "The Verge",
-      "positive": 13,
+      "positive": 12,
       "neutral": 2,
       "negative": 3,
-      "count": 18
+      "count": 17
     },
     {
       "source": "CNN",
@@ -67,24 +67,24 @@
   "by_topic": [
     {
       "topic": "Tech",
-      "positive": 50,
-      "neutral": 20,
+      "positive": 49,
+      "neutral": 19,
       "negative": 54,
-      "count": 124
+      "count": 122
     },
     {
       "topic": "Other",
-      "positive": 42,
+      "positive": 43,
       "neutral": 13,
-      "negative": 31,
+      "negative": 30,
       "count": 86
     },
     {
       "topic": "Politics",
-      "positive": 24,
-      "neutral": 1,
+      "positive": 25,
+      "neutral": 3,
       "negative": 31,
-      "count": 56
+      "count": 59
     },
     {
       "topic": "Business",
@@ -94,17 +94,17 @@
       "count": 23
     },
     {
-      "topic": "Sports",
-      "positive": 4,
-      "neutral": 9,
-      "negative": 5,
-      "count": 18
-    },
-    {
       "topic": "World",
       "positive": 4,
       "neutral": 2,
       "negative": 11,
+      "count": 17
+    },
+    {
+      "topic": "Sports",
+      "positive": 4,
+      "neutral": 9,
+      "negative": 4,
       "count": 17
     },
     {
@@ -130,6 +130,34 @@
     }
   ],
   "sample_headlines": [
+    {
+      "title": "'Biggest event in sport' - Trump says Washington to host 2026 World Cup draw",
+      "url": "https://www.bbc.com/sport/football/articles/cly4pk542d1o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2025-08-22T17:33:20+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Trump says he wasn\u2019t briefed on FBI raid of John Bolton\u2019s home; Vance denies investigation politically motivated \u2013 live",
+      "url": "https://www.theguardian.com/us-news/live/2025/aug/22/donald-trump-administration-federal-reserve-republicans-democrats-us-politics-live",
+      "source": "The Guardian",
+      "published": "2025-08-22T17:22:24+00:00",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Higher tariffs are kicking in. Here's what Walmart and other retailers said about their impact",
+      "url": "https://www.cnbc.com/2025/08/22/retail-earnings-walmart-target-home-depot-discuss-tariffs.html",
+      "source": "CNBC",
+      "published": "2025-08-22T17:18:49+00:00",
+      "sentiment": "positive"
+    },
+    {
+      "title": "OpenAI CEO Sam Altman: The AI era is 'probably the most exciting time to be starting out one's career, maybe ever'",
+      "url": "https://www.cnbc.com/2025/08/22/openai-ceo-says-ai-era-is-exciting-time-to-start-a-career.html",
+      "source": "CNBC",
+      "published": "2025-08-22T17:17:00+00:00",
+      "sentiment": "positive"
+    },
     {
       "title": "Florida appeals against judge\u2019s order to close \u2018Alligator Alcatraz\u2019 immigration jail",
       "url": "https://www.theguardian.com/us-news/2025/aug/22/alligator-alcatraz-closure-appeal-immigration",
@@ -240,34 +268,6 @@
       "url": "https://www.cnbc.com/2025/08/22/cleveland-feds-hammack-casts-doubt-on-interest-rate-cuts-amid-inflation-worries.html",
       "source": "CNBC",
       "published": "2025-08-22T16:10:17+00:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Protests expected at asylum hotels across UK as tensions mount",
-      "url": "https://www.theguardian.com/uk-news/2025/aug/22/protests-asylum-hotels-england-tensions-mount",
-      "source": "The Guardian",
-      "published": "2025-08-22T16:04:39+00:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Powell hints at potential interest rate cuts. What that means for homeowners hoping to refinance",
-      "url": "https://www.cnbc.com/2025/08/22/fed-rate-cuts-mortgage-refinance.html",
-      "source": "CNBC",
-      "published": "2025-08-22T16:03:00+00:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "She travelled eight hours by bus for violin lessons. Now she's playing Wembley with Coldplay",
-      "url": "https://www.bbc.com/news/articles/c93de1y9nl5o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2025-08-22T15:59:13+00:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Are girls being left behind in school? Experts are sounding the alarm",
-      "url": "https://www.bbc.com/news/articles/cx2q189kv7yo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2025-08-22T15:57:56+00:00",
       "sentiment": "negative"
     }
   ]
