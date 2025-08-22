@@ -1,53 +1,53 @@
 {
-  "generated_at": "2025-08-22T20:40:58.242862+00:00",
+  "generated_at": "2025-08-22T21:17:01.505827+00:00",
   "window_hours": 24,
   "totals": {
-    "positive": 167,
-    "neutral": 58,
-    "negative": 169
+    "positive": 172,
+    "neutral": 59,
+    "negative": 172
   },
   "by_publication": [
     {
       "source": "The Guardian",
-      "positive": 38,
+      "positive": 41,
       "neutral": 2,
-      "negative": 46,
-      "count": 86
+      "negative": 48,
+      "count": 91
     },
     {
       "source": "BBC News",
       "positive": 31,
       "neutral": 16,
-      "negative": 31,
-      "count": 78
+      "negative": 30,
+      "count": 77
     },
     {
       "source": "ESPN",
-      "positive": 31,
+      "positive": 32,
       "neutral": 18,
       "negative": 12,
-      "count": 61
+      "count": 62
     },
     {
       "source": "CNBC",
-      "positive": 32,
+      "positive": 33,
       "neutral": 9,
-      "negative": 18,
-      "count": 59
+      "negative": 19,
+      "count": 61
     },
     {
       "source": "Al Jazeera English",
       "positive": 12,
       "neutral": 3,
-      "negative": 42,
-      "count": 57
+      "negative": 43,
+      "count": 58
     },
     {
       "source": "Financial Times",
       "positive": 7,
-      "neutral": 7,
+      "neutral": 8,
       "negative": 13,
-      "count": 27
+      "count": 28
     },
     {
       "source": "The Verge",
@@ -67,31 +67,31 @@
   "by_topic": [
     {
       "topic": "Tech",
-      "positive": 64,
-      "neutral": 22,
-      "negative": 62,
-      "count": 148
+      "positive": 67,
+      "neutral": 24,
+      "negative": 66,
+      "count": 157
     },
     {
       "topic": "Other",
       "positive": 44,
-      "neutral": 17,
+      "neutral": 16,
       "negative": 34,
-      "count": 95
+      "count": 94
     },
     {
       "topic": "Politics",
-      "positive": 33,
+      "positive": 35,
       "neutral": 4,
       "negative": 38,
-      "count": 75
+      "count": 77
     },
     {
       "topic": "Business",
       "positive": 9,
       "neutral": 2,
-      "negative": 14,
-      "count": 25
+      "negative": 13,
+      "count": 24
     },
     {
       "topic": "Sports",
@@ -131,10 +131,66 @@
   ],
   "sample_headlines": [
     {
+      "title": "Ether notches first new record since 2021 after Powell speech teasing rate cuts",
+      "url": "https://www.cnbc.com/2025/08/22/crypto-market-today.html",
+      "source": "CNBC",
+      "published": "2025-08-22T21:14:25+00:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Hegseth fires top US general after Iran assessment that angered Trump",
+      "url": "https://www.theguardian.com/us-news/2025/aug/22/hegseth-fires-general-jeffrey-kruse",
+      "source": "The Guardian",
+      "published": "2025-08-22T21:13:19+00:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "U.S. government takes 10% stake in Intel, as Trump expands control over private sector",
+      "url": "https://www.cnbc.com/2025/08/22/intel-goverment-equity-stake.html",
+      "source": "CNBC",
+      "published": "2025-08-22T21:12:48+00:00",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Jeffrey Epstein accomplice Ghislaine Maxwell was asked about Trump by DOJ, transcripts show",
+      "url": "https://www.cnbc.com/2025/08/22/ghislaine-maxwell-transcripts-trump-epstein-doj.html",
+      "source": "CNBC",
+      "published": "2025-08-22T21:07:45+00:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Ghislaine Maxwell transcripts: Epstein associate says she \u2018never\u2019 saw Trump receive a massage \u2013 live",
+      "url": "https://www.theguardian.com/us-news/live/2025/aug/22/donald-trump-administration-federal-reserve-republicans-democrats-us-politics-live",
+      "source": "The Guardian",
+      "published": "2025-08-22T21:07:35+00:00",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Federal Reserve set to cut interest rates \u2013 but still Trump won\u2019t be happy",
+      "url": "https://www.theguardian.com/business/2025/aug/22/federal-reserve-trump-rate-cuts",
+      "source": "The Guardian",
+      "published": "2025-08-22T20:48:46+00:00",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Cybersecurity firm Netskope files to go public on the Nasdaq",
+      "url": "https://www.cnbc.com/2025/08/22/cybersecurity-firm-netskope-ipo-nasdaq.html",
+      "source": "CNBC",
+      "published": "2025-08-22T20:40:12+00:00",
+      "sentiment": "positive"
+    },
+    {
       "title": "Ghislaine Maxwell interview released by DOJ, shows questions about Trump",
       "url": "https://www.cnbc.com/2025/08/22/ghislaine-maxwell-transcripts-trump-epstein-doj.html",
       "source": "CNBC",
       "published": "2025-08-22T20:39:03+00:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Wrongfully deported Kilmar Abrego Garcia released from Tennessee jail",
+      "url": "https://www.aljazeera.com/news/2025/8/22/wrongfully-deported-kilmar-abrego-garcia-released-from-tennessee-jail?traffic_source=rss",
+      "source": "Al Jazeera English",
+      "published": "2025-08-22T20:35:18+00:00",
       "sentiment": "negative"
     },
     {
@@ -159,10 +215,24 @@
       "sentiment": "positive"
     },
     {
+      "title": "Ghislaine Maxwell never saw Trump in \u2018any inappropriate setting\u2019, transcript shows",
+      "url": "https://www.theguardian.com/us-news/2025/aug/22/ghislaine-maxwell-interview-transcript-justice-department",
+      "source": "The Guardian",
+      "published": "2025-08-22T20:29:44+00:00",
+      "sentiment": "positive"
+    },
+    {
       "title": "Russia is trying to stop meeting on peace and prolong war, Zelensky says",
       "url": "https://www.bbc.com/news/articles/ckgjpmg4r23o?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
       "published": "2025-08-22T20:27:18+00:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Israeli children refused access to leisure park in southern France",
+      "url": "https://www.theguardian.com/world/2025/aug/22/israeli-children-refused-access-to-leisure-park-in-southern-france",
+      "source": "The Guardian",
+      "published": "2025-08-22T20:26:47+00:00",
       "sentiment": "negative"
     },
     {
@@ -194,81 +264,11 @@
       "sentiment": "positive"
     },
     {
-      "title": "Ghislaine Maxwell interview released by DOJ",
-      "url": "https://www.cnbc.com/2025/08/22/ghislaine-maxwell-transcripts-trump-epstein-doj.html",
-      "source": "CNBC",
-      "published": "2025-08-22T20:11:17+00:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Fire crush Phoenix to stave off elimination",
-      "url": "https://www.bbc.com/sport/cricket/articles/c7vl9ezj596o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2025-08-22T20:09:12+00:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "This is the human tragedy caused by Israel\u2019s famine in Gaza",
-      "url": "https://www.aljazeera.com/video/newsfeed/2025/8/22/this-is-the-human-tragedy-caused-by-israels-famine-in-gaza?traffic_source=rss",
-      "source": "Al Jazeera English",
-      "published": "2025-08-22T20:07:33+00:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Kildunne scores 'beautiful' try to extend England's lead over USA",
-      "url": "https://www.bbc.com/sport/rugby-union/videos/c9wye8kvrkko?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2025-08-22T19:58:38+00:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Chicago \u2018will be next\u2019: Trump teases troop expansion in Democrat-led cities",
-      "url": "https://www.aljazeera.com/news/2025/8/22/chicago-will-be-next-trump-teases-troop-expansion-in-democrat-led-cities?traffic_source=rss",
-      "source": "Al Jazeera English",
-      "published": "2025-08-22T19:56:04+00:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "How Israel's policies created famine in Gaza",
-      "url": "https://www.bbc.com/news/articles/ckg4p90z1kxo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2025-08-22T19:55:47+00:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "John Bolton raid shows weaponization of FBI against Patel\u2019s \u2018gangsters\u2019 list",
-      "url": "https://www.theguardian.com/us-news/2025/aug/22/john-bolton-kash-patel-book-list",
-      "source": "The Guardian",
-      "published": "2025-08-22T19:41:02+00:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Children in Gaza play games with aid drop parachute",
-      "url": "https://www.aljazeera.com/video/newsfeed/2025/8/22/children-in-gaza-play-games-with-aid-drop-parachute?traffic_source=rss",
-      "source": "Al Jazeera English",
-      "published": "2025-08-22T19:39:55+00:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Ghislaine Maxwell interview transcript released by US justice department",
-      "url": "https://www.theguardian.com/us-news/2025/aug/22/ghislaine-maxwell-interview-transcript-justice-department",
-      "source": "The Guardian",
-      "published": "2025-08-22T19:29:23+00:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Ghislaine Maxwell said she never saw Trump in \u2018any inappropriate setting\u2019, transcript shows",
-      "url": "https://www.theguardian.com/us-news/2025/aug/22/ghislaine-maxwell-interview-transcript-justice-department",
-      "source": "The Guardian",
-      "published": "2025-08-22T19:29:23+00:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Kilmar \u00c1brego Garc\u00eda released from criminal custody after court order",
-      "url": "https://www.theguardian.com/us-news/2025/aug/22/kilmar-abrego-garcia-release",
-      "source": "The Guardian",
-      "published": "2025-08-22T19:28:58+00:00",
-      "sentiment": "negative"
+      "title": "Gavin Newsom holds mirror to Maga by trolling Trump",
+      "url": "https://www.ft.com/content/eb3348e4-1e7c-4b55-8e40-3baa3e4c4556",
+      "source": "Financial Times",
+      "published": "2025-08-22T20:19:21+00:00",
+      "sentiment": "neutral"
     }
   ]
 }
