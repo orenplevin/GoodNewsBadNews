@@ -602,7 +602,7 @@ body.dragging {
 
 .metrics-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr); /* Fixed 4 columns */
+  grid-template-columns: repeat(4, 1fr); /* Force 4 columns in one row */
   gap: 16px;
   min-height: 120px; /* Ensure adequate height */
 }
@@ -921,15 +921,15 @@ body.dragging {
 /* Responsive */
 @media (max-width: 1600px) {
   .metrics-grid {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(4, 1fr); /* Keep 4 columns even on smaller screens */
     gap: 12px;
   }
 }
 
 @media (max-width: 1400px) {
   .metrics-grid {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 12px;
+    grid-template-columns: repeat(4, 1fr); /* Keep 4 columns */
+    gap: 10px;
   }
 }
 
@@ -967,10 +967,11 @@ body.dragging {
   .sources-column {
     width: 100% !important;
     min-width: auto;
+    height: auto; /* Allow height to adjust on mobile */
   }
   
   .metrics-grid {
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-template-columns: repeat(2, 1fr); /* Only on mobile go to 2x2 */
     gap: 12px;
   }
 }
