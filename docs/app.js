@@ -56,6 +56,18 @@ let resizeState = {
     startTop: 0
 };
 
+// Drag and drop functionality
+let dragState = {
+    isDragging: false,
+    currentWidget: null,
+    startX: 0,
+    startY: 0,
+    offsetX: 0,
+    offsetY: 0,
+    placeholder: null,
+    dragPreview: null
+};
+
 async function fetchJSON(path) {
     const response = await fetch(path);
     return await response.json();
@@ -548,8 +560,6 @@ function getTimeAgo(date) {
 // Resize functionality
 function initializeResize() {
     const resizeHandles = document.querySelectorAll('.resize-handle');
-    const resizableWidgets = document.querySelectorAll('.resizable-widget');
-    const resizableStats = document.querySelectorAll('.resizable-stat');
     
     // Add resize functionality to all elements
     [...resizeHandles].forEach(handle => {
@@ -665,6 +675,207 @@ function stopResize(e) {
     resizeState.currentHandle = null;
 }
 
+// Drag and Drop functionality
+function initializeDragDrop() {
+    const dragHandles = document.querySelectorAll('.drag-handle');
+    
+    dragHandles.forEach(handle => {
+        handle.addEventListener('mousedown', startDrag);
+    });
+    
+    document.addEventListener('mousemove', handleDrag);
+    document.addEventListener('mouseup', stopDrag);
+}
+
+function startDrag(e) {
+    // Don't start drag if we're already resizing
+    if (resizeState.isResizing) return;
+    
+    e.preventDefault();
+    e.stopPropagation();
+    
+    const handle = e.target;
+    const widget = handle.closest('.resizable-widget');
+    
+    if (!widget) return;
+    
+    dragState.isDragging = true;
+    dragState.currentWidget = widget;
+    dragState.startX = e.clientX;
+    dragState.startY = e.clientY;
+    
+    // Calculate offset from mouse to widget top-left
+    const rect = widget.getBoundingClientRect();
+    dragState.offsetX = e.clientX - rect.left;
+    dragState.offsetY = e.clientY - rect.top;
+    
+    // Create drag preview
+    createDragPreview(widget, e.clientX, e.clientY);
+    
+    // Add visual states
+    widget.classList.add('dragging');
+    document.body.classList.add('dragging');
+    
+    // Create placeholder
+    createPlaceholder(widget);
+    
+    // Show drop zones
+    showDropZones(widget);
+}
+
+function createDragPreview(widget, x, y) {
+    dragState.dragPreview = widget.cloneNode(true);
+    dragState.dragPreview.style.position = 'fixed';
+    dragState.dragPreview.style.left = `${x - dragState.offsetX}px`;
+    dragState.dragPreview.style.top = `${y - dragState.offsetY}px`;
+    dragState.dragPreview.style.width = `${widget.offsetWidth}px`;
+    dragState.dragPreview.style.height = `${widget.offsetHeight}px`;
+    dragState.dragPreview.style.zIndex = '9999';
+    dragState.dragPreview.style.pointerEvents = 'none';
+    dragState.dragPreview.style.opacity = '0.9';
+    dragState.dragPreview.classList.add('drag-preview');
+    
+    document.body.appendChild(dragState.dragPreview);
+}
+
+function createPlaceholder(widget) {
+    dragState.placeholder = document.createElement('div');
+    dragState.placeholder.className = 'drag-placeholder';
+    dragState.placeholder.style.width = `${widget.offsetWidth}px`;
+    dragState.placeholder.style.height = `${widget.offsetHeight}px`;
+    dragState.placeholder.style.background = 'rgba(102, 126, 234, 0.1)';
+    dragState.placeholder.style.border = '2px dashed rgba(102, 126, 234, 0.5)';
+    dragState.placeholder.style.borderRadius = '20px';
+    dragState.placeholder.style.margin = getComputedStyle(widget).margin;
+    
+    widget.parentNode.insertBefore(dragState.placeholder, widget);
+    widget.style.display = 'none';
+}
+
+function showDropZones(draggedWidget) {
+    const widgets = document.querySelectorAll('.resizable-widget');
+    widgets.forEach(widget => {
+        if (widget !== draggedWidget) {
+            widget.classList.add('drop-zone');
+        }
+    });
+}
+
+function hideDropZones() {
+    const dropZones = document.querySelectorAll('.drop-zone');
+    dropZones.forEach(zone => {
+        zone.classList.remove('drop-zone', 'active');
+    });
+}
+
+function handleDrag(e) {
+    if (!dragState.isDragging) return;
+    
+    e.preventDefault();
+    
+    // Update drag preview position
+    if (dragState.dragPreview) {
+        dragState.dragPreview.style.left = `${e.clientX - dragState.offsetX}px`;
+        dragState.dragPreview.style.top = `${e.clientY - dragState.offsetY}px`;
+    }
+    
+    // Check for drop targets
+    const dropTarget = getDropTarget(e.clientX, e.clientY);
+    updateDropIndicators(dropTarget);
+}
+
+function getDropTarget(x, y) {
+    const elements = document.elementsFromPoint(x, y);
+    return elements.find(el => 
+        el.classList.contains('drop-zone') && 
+        el !== dragState.currentWidget
+    );
+}
+
+function updateDropIndicators(dropTarget) {
+    // Remove active class from all drop zones
+    const dropZones = document.querySelectorAll('.drop-zone');
+    dropZones.forEach(zone => zone.classList.remove('active'));
+    
+    // Add active class to current drop target
+    if (dropTarget) {
+        dropTarget.classList.add('active');
+    }
+}
+
+function stopDrag(e) {
+    if (!dragState.isDragging) return;
+    
+    const dropTarget = getDropTarget(e.clientX, e.clientY);
+    
+    // Perform the swap if there's a valid drop target
+    if (dropTarget) {
+        swapWidgets(dragState.currentWidget, dropTarget);
+    }
+    
+    // Clean up
+    cleanupDrag();
+}
+
+function swapWidgets(widget1, widget2) {
+    // Get parent containers
+    const parent1 = widget1.parentNode;
+    const parent2 = widget2.parentNode;
+    
+    // Get siblings (for position reference)
+    const next1 = widget1.nextSibling;
+    const next2 = widget2.nextSibling;
+    
+    // Swap the widgets
+    if (parent1 === parent2) {
+        // Same parent - simple swap
+        parent1.insertBefore(widget2, next1);
+        parent1.insertBefore(widget1, next2);
+    } else {
+        // Different parents - cross swap
+        parent1.insertBefore(widget2, next1);
+        parent2.insertBefore(widget1, next2);
+    }
+    
+    // Trigger chart resize for moved chart widgets
+    [widget1, widget2].forEach(widget => {
+        const canvas = widget.querySelector('canvas');
+        if (canvas) {
+            const chartInstance = Chart.getChart(canvas);
+            if (chartInstance) {
+                setTimeout(() => chartInstance.resize(), 100);
+            }
+        }
+    });
+}
+
+function cleanupDrag() {
+    // Remove drag preview
+    if (dragState.dragPreview) {
+        dragState.dragPreview.remove();
+        dragState.dragPreview = null;
+    }
+    
+    // Remove placeholder and show original widget
+    if (dragState.placeholder) {
+        dragState.placeholder.remove();
+        dragState.placeholder = null;
+    }
+    
+    if (dragState.currentWidget) {
+        dragState.currentWidget.style.display = '';
+        dragState.currentWidget.classList.remove('dragging');
+    }
+    
+    // Clean up visual states
+    document.body.classList.remove('dragging');
+    hideDropZones();
+    
+    // Reset drag state
+    dragState.isDragging = false;
+    dragState.currentWidget = null;
+}
+
 // Widget minimize/expand functionality
 function initializeMinimize() {
     const minimizeButtons = document.querySelectorAll('.minimize-btn');
@@ -741,12 +952,62 @@ function resetLayout() {
     // Clear minimized widgets
     globalData.minimizedWidgets.clear();
     
+    // Reset widget positions (move them back to default containers)
+    resetWidgetPositions();
+    
     // Resize all charts
     setTimeout(() => {
         Chart.instances.forEach(chart => {
             chart.resize();
         });
     }, 100);
+}
+
+function resetWidgetPositions() {
+    // Get all widgets and their default positions
+    const statsWidget = document.querySelector('[data-widget="stats"]');
+    const sourcesWidget = document.querySelector('[data-widget="sources"]');
+    const sentimentWidget = document.querySelector('[data-widget="sentiment"]');
+    const trendWidget = document.querySelector('[data-widget="trend"]');
+    const publicationWidget = document.querySelector('[data-widget="publication"]');
+    const topicsWidget = document.querySelector('[data-widget="topics"]');
+    const headlinesWidget = document.querySelector('[data-widget="headlines"]');
+    
+    // Get containers
+    const statsColumn = document.querySelector('.stats-column');
+    const contentColumn = document.querySelector('.content-column');
+    const chartsGrid = document.querySelector('.charts-grid');
+    const bottomChartsRow = document.querySelector('.bottom-charts-row');
+    const headlinesSection = document.querySelector('.headlines-section');
+    
+    // Move widgets back to their default positions
+    if (statsWidget && statsColumn) {
+        statsColumn.appendChild(statsWidget);
+    }
+    
+    if (sourcesWidget && contentColumn) {
+        contentColumn.insertBefore(sourcesWidget, chartsGrid);
+    }
+    
+    if (sentimentWidget && chartsGrid) {
+        chartsGrid.appendChild(sentimentWidget);
+    }
+    
+    if (trendWidget && chartsGrid) {
+        chartsGrid.appendChild(trendWidget);
+    }
+    
+    if (publicationWidget && bottomChartsRow) {
+        bottomChartsRow.appendChild(publicationWidget);
+    }
+    
+    if (topicsWidget && bottomChartsRow) {
+        bottomChartsRow.appendChild(topicsWidget);
+    }
+    
+    if (headlinesWidget && headlinesSection) {
+        headlinesSection.appendChild(headlinesWidget);
+    }
 }
 
 // Add interactive features
@@ -777,9 +1038,10 @@ function addInteractivity() {
         resetLayoutBtn.addEventListener('click', resetLayout);
     }
     
-    // Initialize resize functionality
+    // Initialize all functionality
     initializeResize();
     initializeMinimize();
+    initializeDragDrop();
 }
 
 (async function init() {
