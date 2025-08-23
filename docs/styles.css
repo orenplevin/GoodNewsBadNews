@@ -519,7 +519,7 @@ body.dragging {
 .sources-section .widget-content {
   height: calc(100% - 60px);
   overflow: hidden;
-  padding: 16px 20px;
+  padding: 12px 16px; /* Reduced padding */
 }
 
 .sources-controls {
@@ -554,51 +554,99 @@ body.dragging {
   font-weight: 600;
 }
 
+/* Regional Sources Layout */
 .sources-horizontal {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
-  gap: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
   height: 100%;
   overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255, 255, 255, 0.2) transparent;
 }
 
+.sources-horizontal::-webkit-scrollbar {
+  width: 6px;
+}
+
+.sources-horizontal::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.sources-horizontal::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 3px;
+}
+
+.region-group {
+  margin-bottom: 8px;
+}
+
+.region-header {
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  margin-bottom: 8px;
+  padding: 0 4px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.region-header::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.region-sources {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(90px, 1fr)); /* Much smaller min width */
+  gap: 6px; /* Reduced gap */
+}
+
+/* Smaller source items */
 .source-item {
   background: rgba(255, 255, 255, 0.05);
-  border: 2px solid rgba(255, 255, 255, 0.1);
-  border-radius: 12px;
-  padding: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.1); /* Thinner border */
+  border-radius: 8px; /* Smaller border radius */
+  padding: 8px 6px; /* Much smaller padding */
   text-align: center;
   transition: all 0.2s ease;
   cursor: pointer;
   position: relative;
   height: fit-content;
+  min-height: 50px; /* Smaller minimum height */
 }
 
 .source-item:hover {
   background: rgba(255, 255, 255, 0.1);
-  transform: translateY(-2px);
+  transform: translateY(-1px);
 }
 
 .source-item.selected {
   background: rgba(102, 126, 234, 0.2);
   border-color: #667eea;
-  box-shadow: 0 0 15px rgba(102, 126, 234, 0.3);
+  box-shadow: 0 0 10px rgba(102, 126, 234, 0.2); /* Smaller shadow */
 }
 
 .source-item.selected::before {
   content: '✓';
   position: absolute;
-  top: 8px;
-  right: 8px;
+  top: 4px; /* Smaller positioning */
+  right: 4px;
   background: #667eea;
   color: white;
-  width: 18px;
-  height: 18px;
+  width: 14px; /* Smaller check mark */
+  height: 14px;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 12px;
+  font-size: 10px; /* Smaller font */
   font-weight: bold;
 }
 
@@ -610,13 +658,19 @@ body.dragging {
 .source-name {
   font-weight: 600;
   color: var(--text-primary);
-  font-size: 13px;
-  margin-bottom: 4px;
+  font-size: 10px; /* Smaller font */
+  line-height: 1.2;
+  margin-bottom: 2px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
 .source-count {
   color: var(--text-tertiary);
-  font-size: 11px;
+  font-size: 9px; /* Smaller font */
+  font-weight: 500;
 }
 
 /* Charts Grid */
@@ -841,9 +895,15 @@ body.dragging {
 }
 
 /* Responsive */
+@media (max-width: 1600px) {
+  .region-sources {
+    grid-template-columns: repeat(auto-fit, minmax(85px, 1fr));
+  }
+}
+
 @media (max-width: 1400px) {
-  .sources-horizontal {
-    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  .region-sources {
+    grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
   }
 }
 
@@ -878,7 +938,7 @@ body.dragging {
     width: 100% !important;
   }
   
-  .sources-horizontal {
-    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  .region-sources {
+    grid-template-columns: repeat(auto-fit, minmax(70px, 1fr));
   }
 }
