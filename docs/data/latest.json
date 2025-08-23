@@ -1,46 +1,46 @@
 {
-  "generated_at": "2025-08-23T02:47:53.283598+00:00",
+  "generated_at": "2025-08-23T03:34:34.922972+00:00",
   "window_hours": 24,
   "totals": {
-    "positive": 176,
-    "neutral": 55,
-    "negative": 191
+    "positive": 175,
+    "neutral": 56,
+    "negative": 193
   },
   "by_publication": [
     {
       "source": "The Guardian",
       "positive": 47,
       "neutral": 2,
-      "negative": 55,
-      "count": 104
+      "negative": 54,
+      "count": 103
     },
     {
       "source": "BBC News",
       "positive": 36,
       "neutral": 16,
-      "negative": 39,
-      "count": 91
+      "negative": 40,
+      "count": 92
     },
     {
       "source": "Al Jazeera English",
       "positive": 15,
       "neutral": 3,
-      "negative": 41,
-      "count": 59
+      "negative": 42,
+      "count": 60
     },
     {
       "source": "ESPN",
       "positive": 27,
-      "neutral": 16,
-      "negative": 14,
-      "count": 57
+      "neutral": 17,
+      "negative": 15,
+      "count": 59
     },
     {
       "source": "CNBC",
-      "positive": 29,
+      "positive": 28,
       "neutral": 8,
       "negative": 19,
-      "count": 56
+      "count": 55
     },
     {
       "source": "Financial Times",
@@ -67,17 +67,17 @@
   "by_topic": [
     {
       "topic": "Tech",
-      "positive": 64,
+      "positive": 63,
       "neutral": 22,
-      "negative": 77,
-      "count": 163
+      "negative": 76,
+      "count": 161
     },
     {
       "topic": "Other",
       "positive": 43,
-      "neutral": 16,
-      "negative": 36,
-      "count": 95
+      "neutral": 17,
+      "negative": 37,
+      "count": 97
     },
     {
       "topic": "Politics",
@@ -90,8 +90,8 @@
       "topic": "Sports",
       "positive": 10,
       "neutral": 8,
-      "negative": 6,
-      "count": 24
+      "negative": 7,
+      "count": 25
     },
     {
       "topic": "Business",
@@ -104,8 +104,8 @@
       "topic": "World",
       "positive": 1,
       "neutral": 2,
-      "negative": 15,
-      "count": 18
+      "negative": 16,
+      "count": 19
     },
     {
       "topic": "Entertainment",
@@ -130,6 +130,27 @@
     }
   ],
   "sample_headlines": [
+    {
+      "title": "Lyle Menendez joins brother in being denied parole in parents' LA murder",
+      "url": "https://www.bbc.com/news/articles/c4gq55evnlyo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2025-08-23T03:32:20+00:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Can the new India-China bonhomie reshape trade and hurt the US in Asia?",
+      "url": "https://www.aljazeera.com/features/2025/8/23/can-the-new-india-china-bonhomie-reshape-trade-and-hurt-the-us-in-asia?traffic_source=rss",
+      "source": "Al Jazeera English",
+      "published": "2025-08-23T03:06:03+00:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "China, India watch as Myanmar rebels advance on strategic western frontier",
+      "url": "https://www.aljazeera.com/features/2025/8/23/china-india-watch-as-myanmar-rebels-advance-on-strategic-western-frontier?traffic_source=rss",
+      "source": "Al Jazeera English",
+      "published": "2025-08-23T03:01:42+00:00",
+      "sentiment": "negative"
+    },
     {
       "title": "Ghislaine Maxwell claims in DOJ interview that Epstein list doesn't exist",
       "url": "https://www.bbc.com/news/articles/cdd3pe6189go?at_medium=RSS&at_campaign=rss",
@@ -247,27 +268,6 @@
       "url": "https://www.theguardian.com/us-news/2025/aug/22/colorado-corpse-abuse-case",
       "source": "The Guardian",
       "published": "2025-08-22T23:20:55+00:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Trump's plan for DC homeless is giving San Francisco deja vu",
-      "url": "https://www.bbc.com/news/articles/c2kz4d0vwlzo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2025-08-22T23:19:47+00:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Fans loved her new album. The thing was, she hadn't released one",
-      "url": "https://www.bbc.com/news/articles/clydz8d03dvo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2025-08-22T23:12:40+00:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Two games, eight goals conceded - is Potter under pressure?",
-      "url": "https://www.bbc.com/sport/football/articles/cy5p2end116o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2025-08-22T23:12:29+00:00",
       "sentiment": "negative"
     }
   ]
