@@ -1,46 +1,46 @@
 {
-  "generated_at": "2025-08-22T23:37:38.906788+00:00",
+  "generated_at": "2025-08-23T01:23:43.805037+00:00",
   "window_hours": 24,
   "totals": {
-    "positive": 177,
-    "neutral": 60,
-    "negative": 184
+    "positive": 173,
+    "neutral": 56,
+    "negative": 190
   },
   "by_publication": [
     {
       "source": "The Guardian",
-      "positive": 43,
+      "positive": 46,
       "neutral": 2,
-      "negative": 52,
-      "count": 97
+      "negative": 55,
+      "count": 103
     },
     {
       "source": "BBC News",
-      "positive": 37,
+      "positive": 35,
       "neutral": 16,
-      "negative": 35,
-      "count": 88
-    },
-    {
-      "source": "CNBC",
-      "positive": 32,
-      "neutral": 9,
-      "negative": 20,
-      "count": 61
+      "negative": 40,
+      "count": 91
     },
     {
       "source": "Al Jazeera English",
       "positive": 15,
       "neutral": 3,
-      "negative": 42,
-      "count": 60
+      "negative": 43,
+      "count": 61
+    },
+    {
+      "source": "CNBC",
+      "positive": 30,
+      "neutral": 9,
+      "negative": 19,
+      "count": 58
     },
     {
       "source": "ESPN",
-      "positive": 28,
-      "neutral": 19,
-      "negative": 12,
-      "count": 59
+      "positive": 25,
+      "neutral": 16,
+      "negative": 10,
+      "count": 51
     },
     {
       "source": "Financial Times",
@@ -52,9 +52,9 @@
     {
       "source": "The Verge",
       "positive": 15,
-      "neutral": 2,
+      "neutral": 1,
       "negative": 6,
-      "count": 23
+      "count": 22
     },
     {
       "source": "CNN",
@@ -67,38 +67,38 @@
   "by_topic": [
     {
       "topic": "Tech",
-      "positive": 70,
-      "neutral": 26,
-      "negative": 74,
-      "count": 170
+      "positive": 64,
+      "neutral": 23,
+      "negative": 79,
+      "count": 166
     },
     {
       "topic": "Other",
       "positive": 43,
-      "neutral": 15,
-      "negative": 34,
-      "count": 92
+      "neutral": 16,
+      "negative": 35,
+      "count": 94
     },
     {
       "topic": "Politics",
-      "positive": 39,
+      "positive": 41,
       "neutral": 4,
-      "negative": 39,
-      "count": 82
+      "negative": 41,
+      "count": 86
     },
     {
       "topic": "Business",
       "positive": 9,
       "neutral": 2,
-      "negative": 13,
-      "count": 24
+      "negative": 12,
+      "count": 23
     },
     {
       "topic": "Sports",
       "positive": 9,
-      "neutral": 9,
-      "negative": 5,
-      "count": 23
+      "neutral": 8,
+      "negative": 4,
+      "count": 21
     },
     {
       "topic": "World",
@@ -108,17 +108,17 @@
       "count": 18
     },
     {
-      "topic": "Health",
-      "positive": 1,
-      "neutral": 1,
-      "negative": 4,
-      "count": 6
-    },
-    {
       "topic": "Entertainment",
       "positive": 4,
       "neutral": 1,
       "negative": 0,
+      "count": 5
+    },
+    {
+      "topic": "Health",
+      "positive": 1,
+      "neutral": 0,
+      "negative": 4,
       "count": 5
     },
     {
@@ -131,10 +131,101 @@
   ],
   "sample_headlines": [
     {
+      "title": "Five people killed, including one child, in New York bus crash",
+      "url": "https://www.theguardian.com/us-news/2025/aug/22/new-york-bus-crash-niagara-falls",
+      "source": "The Guardian",
+      "published": "2025-08-23T01:02:53+00:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "My ex stalked me, so I joined a 'dating safety' app. Then my address was leaked",
+      "url": "https://www.bbc.com/news/articles/ce87rer52k3o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2025-08-23T00:34:38+00:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Texas approves GOP\u2019s redistricting plan as senator threatens a final filibuster",
+      "url": "https://www.theguardian.com/us-news/2025/aug/22/texas-senate-redistricting-maps",
+      "source": "The Guardian",
+      "published": "2025-08-23T00:32:29+00:00",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Why India's Election Commission is facing a test of credibility",
+      "url": "https://www.bbc.com/news/articles/cj9w43p7741o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2025-08-23T00:31:01+00:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Parking firm pays \u00a310,240 after losing case, again",
+      "url": "https://www.bbc.com/news/articles/ce83n7j7p6po?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2025-08-23T00:25:25+00:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Russia-Ukraine war: List of key events, day 1,276",
+      "url": "https://www.aljazeera.com/news/2025/8/23/russia-ukraine-war-list-of-key-events-day-1276?traffic_source=rss",
+      "source": "Al Jazeera English",
+      "published": "2025-08-23T00:21:15+00:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "The Papers: 'Stop starving Gaza's kids' and 'Starmer's political prisoner'",
+      "url": "https://www.bbc.com/news/articles/c2012xjgzggo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2025-08-23T00:16:26+00:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Explosion and fire in Louisiana leads to elementary school being evacuated",
+      "url": "https://www.theguardian.com/us-news/2025/aug/22/explosion-fire-louisiana-evacuations",
+      "source": "The Guardian",
+      "published": "2025-08-23T00:02:50+00:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "An EV road user charge is looming. Could it slam the brakes on Australia\u2019s clean car transition?",
+      "url": "https://www.theguardian.com/environment/2025/aug/23/ev-road-user-charge-australia-electric-cars-vehicles-clean-transition",
+      "source": "The Guardian",
+      "published": "2025-08-23T00:00:48+00:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Lobbying rules in NSW are woefully inadequate but Icac\u2019s calls for reform keep getting ignored",
+      "url": "https://www.theguardian.com/australia-news/2025/aug/23/nsw-lobbying-rules-icac-reform-ignored",
+      "source": "The Guardian",
+      "published": "2025-08-23T00:00:47+00:00",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Are young women more left wing than men - and, if so, why?",
+      "url": "https://www.bbc.com/news/articles/cqxg89jzvl1o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2025-08-22T23:48:35+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Maxwell transcripts bring some respite for Trump, but fail to quell Maga uproar",
+      "url": "https://www.theguardian.com/us-news/2025/aug/22/maxwell-transcripts-trump-epstein-maga",
+      "source": "The Guardian",
+      "published": "2025-08-22T23:44:09+00:00",
+      "sentiment": "positive"
+    },
+    {
       "title": "Colorado judge rejects plea deal for funeral home owner in corpse abuse case",
       "url": "https://www.theguardian.com/us-news/2025/aug/22/colorado-corpse-abuse-case",
       "source": "The Guardian",
       "published": "2025-08-22T23:20:55+00:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Trump's plan for DC homeless is giving San Francisco deja vu",
+      "url": "https://www.bbc.com/news/articles/c2kz4d0vwlzo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2025-08-22T23:19:47+00:00",
       "sentiment": "negative"
     },
     {
@@ -177,97 +268,6 @@
       "url": "https://www.bbc.com/sport/rugby-union/articles/cp94p2y9rl3o?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
       "published": "2025-08-22T22:40:40+00:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Meta to unveil Hypernova smart glasses with a display, wristband at Connect next month",
-      "url": "https://www.cnbc.com/2025/08/22/meta-hypernova-ar-glasses-wristband.html",
-      "source": "CNBC",
-      "published": "2025-08-22T22:14:39+00:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Ghislaine Maxwell interview released by DOJ; Epstein procurer questioned about Trump",
-      "url": "https://www.cnbc.com/2025/08/22/ghislaine-maxwell-transcripts-trump-epstein-doj.html",
-      "source": "CNBC",
-      "published": "2025-08-22T22:14:18+00:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "US health department moves to strip thousands of employees of collective bargaining rights",
-      "url": "https://www.theguardian.com/us-news/2025/aug/22/trump-administration-collective-bargaining-rights",
-      "source": "The Guardian",
-      "published": "2025-08-22T22:08:50+00:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Multiple fatalities, including at least one child, reported in New York bus crash",
-      "url": "https://www.theguardian.com/us-news/2025/aug/22/new-york-bus-crash-niagara-falls",
-      "source": "The Guardian",
-      "published": "2025-08-22T22:07:49+00:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Trump says Intel has agreed to give US government a 10% stake",
-      "url": "https://www.theguardian.com/technology/2025/aug/22/trump-stake-intel-chips",
-      "source": "The Guardian",
-      "published": "2025-08-22T22:00:39+00:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Former UUP MP Rev Martin Smyth dies aged 94",
-      "url": "https://www.bbc.com/news/articles/cde3p2450nwo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2025-08-22T21:54:12+00:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Ghislaine Maxwell transcripts: what we know at a glance",
-      "url": "https://www.theguardian.com/us-news/2025/aug/22/ghislaine-maxwell-transcript-what-we-know",
-      "source": "The Guardian",
-      "published": "2025-08-22T21:48:47+00:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Woman jailed for race hate post says she was political prisoner",
-      "url": "https://www.bbc.com/news/articles/ce83pj1ggmeo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2025-08-22T21:45:35+00:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Dutch foreign minister resigns over Israel sanctions deadlock",
-      "url": "https://www.aljazeera.com/news/2025/8/22/dutch-foreign-minister-resigns-over-israel-sanctions-deadlock?traffic_source=rss",
-      "source": "Al Jazeera English",
-      "published": "2025-08-22T21:39:21+00:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Ghislaine Maxwell praises Trump in transcripts released by government",
-      "url": "https://www.aljazeera.com/news/2025/8/22/ghislaine-maxwell-praises-trump-in-transcripts-released-by-government?traffic_source=rss",
-      "source": "Al Jazeera English",
-      "published": "2025-08-22T21:36:44+00:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "West Ham booed as Chelsea score five in convincing win",
-      "url": "https://www.bbc.com/sport/football/videos/cm21pe8d8leo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2025-08-22T21:31:39+00:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "UN aid chief\u2019s powerful plea to end Israel\u2019s Gaza famine",
-      "url": "https://www.aljazeera.com/video/newsfeed/2025/8/22/un-aid-chiefs-powerful-plea-to-end-israels-gaza-famine?traffic_source=rss",
-      "source": "Al Jazeera English",
-      "published": "2025-08-22T21:27:11+00:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Chappell Roan slays Reading Festival with fairytale-themed set",
-      "url": "https://www.bbc.com/news/articles/cr74p245zdlo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2025-08-22T21:26:47+00:00",
       "sentiment": "positive"
     }
   ]
