@@ -1,39 +1,39 @@
 {
-  "generated_at": "2025-08-23T05:17:04.762379+00:00",
+  "generated_at": "2025-08-23T05:39:43.383993+00:00",
   "window_hours": 24,
   "totals": {
-    "positive": 172,
-    "neutral": 53,
-    "negative": 194
+    "positive": 171,
+    "neutral": 51,
+    "negative": 195
   },
   "by_publication": [
     {
       "source": "The Guardian",
       "positive": 47,
       "neutral": 2,
-      "negative": 57,
-      "count": 106
+      "negative": 56,
+      "count": 105
     },
     {
       "source": "BBC News",
-      "positive": 34,
-      "neutral": 18,
+      "positive": 32,
+      "neutral": 15,
       "negative": 38,
-      "count": 90
+      "count": 85
     },
     {
       "source": "ESPN",
       "positive": 27,
-      "neutral": 17,
+      "neutral": 18,
       "negative": 18,
-      "count": 62
+      "count": 63
     },
     {
       "source": "Al Jazeera English",
-      "positive": 15,
+      "positive": 16,
       "neutral": 3,
-      "negative": 40,
-      "count": 58
+      "negative": 42,
+      "count": 61
     },
     {
       "source": "CNBC",
@@ -67,31 +67,31 @@
   "by_topic": [
     {
       "topic": "Tech",
-      "positive": 62,
-      "neutral": 19,
-      "negative": 79,
-      "count": 160
+      "positive": 61,
+      "neutral": 20,
+      "negative": 78,
+      "count": 159
     },
     {
       "topic": "Other",
-      "positive": 42,
-      "neutral": 17,
+      "positive": 41,
+      "neutral": 16,
       "negative": 37,
-      "count": 96
+      "count": 94
     },
     {
       "topic": "Politics",
       "positive": 42,
       "neutral": 4,
-      "negative": 38,
-      "count": 84
+      "negative": 39,
+      "count": 85
     },
     {
       "topic": "Sports",
-      "positive": 9,
-      "neutral": 8,
+      "positive": 10,
+      "neutral": 6,
       "negative": 9,
-      "count": 26
+      "count": 25
     },
     {
       "topic": "Business",
@@ -108,17 +108,17 @@
       "count": 18
     },
     {
+      "topic": "Health",
+      "positive": 1,
+      "neutral": 0,
+      "negative": 5,
+      "count": 6
+    },
+    {
       "topic": "Entertainment",
       "positive": 4,
       "neutral": 1,
       "negative": 0,
-      "count": 5
-    },
-    {
-      "topic": "Health",
-      "positive": 1,
-      "neutral": 0,
-      "negative": 4,
       "count": 5
     },
     {
@@ -131,11 +131,25 @@
   ],
   "sample_headlines": [
     {
+      "title": "A new Indian bill punishes jailed politicians: Why has it sparked outrage?",
+      "url": "https://www.aljazeera.com/news/2025/8/23/a-new-indian-bill-punishes-jailed-politicians-why-has-it-sparked-outrage?traffic_source=rss",
+      "source": "Al Jazeera English",
+      "published": "2025-08-23T05:20:40+00:00",
+      "sentiment": "negative"
+    },
+    {
       "title": "'I'd love to be a WWE wrestler' - Guehi in his own words",
       "url": "https://www.bbc.com/sport/articles/cdxyde951r5o?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
       "published": "2025-08-23T05:13:28+00:00",
       "sentiment": "positive"
+    },
+    {
+      "title": "LIVE: Israel kills over 70 in Gaza as UN warns of famine \u2018survival crisis\u2019",
+      "url": "https://www.aljazeera.com/news/liveblog/2025/8/23/live-israel-kills-over-70-in-gaza-as-un-warns-of-famine-survival-crisis?traffic_source=rss",
+      "source": "Al Jazeera English",
+      "published": "2025-08-23T05:05:27+00:00",
+      "sentiment": "negative"
     },
     {
       "title": "Miners from 1980s strikes return to picket line \u2026 at mining museum",
@@ -250,25 +264,11 @@
       "sentiment": "negative"
     },
     {
-      "title": "Five people killed, including one child, in New York bus crash",
-      "url": "https://www.theguardian.com/us-news/2025/aug/22/new-york-bus-crash-niagara-falls",
-      "source": "The Guardian",
-      "published": "2025-08-23T01:02:53+00:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "My ex stalked me, so I joined a 'dating safety' app. Then my address was leaked",
-      "url": "https://www.bbc.com/news/articles/ce87rer52k3o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2025-08-23T00:34:38+00:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Texas approves GOP\u2019s redistricting plan as senator threatens a final filibuster",
-      "url": "https://www.theguardian.com/us-news/2025/aug/22/texas-senate-redistricting-maps",
-      "source": "The Guardian",
-      "published": "2025-08-23T00:32:29+00:00",
-      "sentiment": "positive"
+      "title": "Cowboys conclude preseason as Parsons looks on",
+      "url": "https://www.espn.com/nfl/story/_/id/46054582/dallas-cowboys-conclude-preseason-schedule-micah-parsons-looks-on",
+      "source": "ESPN",
+      "published": "2025-08-23T01:15:18+00:00",
+      "sentiment": "neutral"
     }
   ]
 }
