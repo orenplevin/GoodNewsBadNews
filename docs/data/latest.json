@@ -1,53 +1,53 @@
 {
-  "generated_at": "2025-08-23T05:39:43.383993+00:00",
+  "generated_at": "2025-08-23T06:25:59.611595+00:00",
   "window_hours": 24,
   "totals": {
-    "positive": 171,
+    "positive": 172,
     "neutral": 51,
-    "negative": 195
+    "negative": 193
   },
   "by_publication": [
     {
       "source": "The Guardian",
-      "positive": 47,
+      "positive": 51,
       "neutral": 2,
-      "negative": 56,
-      "count": 105
+      "negative": 57,
+      "count": 110
     },
     {
       "source": "BBC News",
-      "positive": 32,
-      "neutral": 15,
-      "negative": 38,
-      "count": 85
+      "positive": 31,
+      "neutral": 16,
+      "negative": 36,
+      "count": 83
     },
     {
       "source": "ESPN",
-      "positive": 27,
+      "positive": 26,
       "neutral": 18,
       "negative": 18,
-      "count": 63
+      "count": 62
     },
     {
       "source": "Al Jazeera English",
-      "positive": 16,
+      "positive": 15,
       "neutral": 3,
-      "negative": 42,
-      "count": 61
+      "negative": 40,
+      "count": 58
     },
     {
       "source": "CNBC",
       "positive": 27,
       "neutral": 7,
-      "negative": 18,
-      "count": 52
+      "negative": 19,
+      "count": 53
     },
     {
       "source": "Financial Times",
       "positive": 7,
-      "neutral": 4,
+      "neutral": 3,
       "negative": 14,
-      "count": 25
+      "count": 24
     },
     {
       "source": "The Verge",
@@ -67,38 +67,38 @@
   "by_topic": [
     {
       "topic": "Tech",
-      "positive": 61,
+      "positive": 62,
       "neutral": 20,
-      "negative": 78,
-      "count": 159
+      "negative": 81,
+      "count": 163
     },
     {
       "topic": "Other",
-      "positive": 41,
+      "positive": 39,
       "neutral": 16,
-      "negative": 37,
-      "count": 94
+      "negative": 35,
+      "count": 90
     },
     {
       "topic": "Politics",
       "positive": 42,
       "neutral": 4,
-      "negative": 39,
-      "count": 85
+      "negative": 38,
+      "count": 84
     },
     {
       "topic": "Sports",
-      "positive": 10,
+      "positive": 11,
       "neutral": 6,
       "negative": 9,
-      "count": 25
+      "count": 26
     },
     {
       "topic": "Business",
-      "positive": 10,
+      "positive": 11,
       "neutral": 2,
       "negative": 12,
-      "count": 24
+      "count": 25
     },
     {
       "topic": "World",
@@ -108,18 +108,18 @@
       "count": 18
     },
     {
-      "topic": "Health",
-      "positive": 1,
-      "neutral": 0,
-      "negative": 5,
-      "count": 6
-    },
-    {
       "topic": "Entertainment",
       "positive": 4,
       "neutral": 1,
       "negative": 0,
       "count": 5
+    },
+    {
+      "topic": "Health",
+      "positive": 1,
+      "neutral": 0,
+      "negative": 3,
+      "count": 4
     },
     {
       "topic": "Science",
@@ -130,6 +130,62 @@
     }
   ],
   "sample_headlines": [
+    {
+      "title": "Inside billionaire Lucy Guo\u2019s intense daily routine: 5:30 a.m. wake-ups, double gym sessions, and no lunch breaks",
+      "url": "https://www.cnbc.com/2025/08/23/inside-30-year-old-billionaire-lucy-guos-intense-daily-routine-.html",
+      "source": "CNBC",
+      "published": "2025-08-23T06:01:24+00:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Members of far-right party organising asylum hotel protests across UK, Facebook posts show",
+      "url": "https://www.theguardian.com/uk-news/2025/aug/23/members-of-far-right-party-organising-asylum-hotel-protests-across-uk-facebook-posts-show",
+      "source": "The Guardian",
+      "published": "2025-08-23T06:00:58+00:00",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Expert rejects Met police claim that study backs bias-free live facial recognition use",
+      "url": "https://www.theguardian.com/technology/2025/aug/23/expert-rejects-met-police-claim-that-study-backs-bias-free-live-facial-recognition-use",
+      "source": "The Guardian",
+      "published": "2025-08-23T06:00:57+00:00",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Silicon Valley is full of wealthy men who think they\u2019re victims, says Nick Clegg",
+      "url": "https://www.theguardian.com/politics/2025/aug/23/nick-clegg-silicon-valley-self-pity-wealthy-men",
+      "source": "The Guardian",
+      "published": "2025-08-23T06:00:57+00:00",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Eau de courgette: rise in foodie perfumes may be linked to weight-loss drugs",
+      "url": "https://www.theguardian.com/fashion/2025/aug/23/foodie-perfumes-weight-loss-drugs",
+      "source": "The Guardian",
+      "published": "2025-08-23T06:00:56+00:00",
+      "sentiment": "positive"
+    },
+    {
+      "title": "\u2018New Noel Clarkes will surface\u2019 without change in film and TV, say female witnesses",
+      "url": "https://www.theguardian.com/culture/2025/aug/23/new-noel-clarkes-will-surface-without-change-in-film-and-tv-say-female-witnesses",
+      "source": "The Guardian",
+      "published": "2025-08-23T06:00:54+00:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "David Littleproud vows to take nuclear energy to next election and claims \u2018no malice\u2019 behind brief Coalition split",
+      "url": "https://www.theguardian.com/australia-news/2025/aug/23/david-littleproud-vows-to-take-nuclear-energy-to-next-election-and-claims-no-malice-behind-brief-coalition-split",
+      "source": "The Guardian",
+      "published": "2025-08-23T05:58:08+00:00",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Key takeaways from the parole hearings of Erik and Lyle Menendez",
+      "url": "https://www.theguardian.com/us-news/2025/aug/23/erik-lyle-menendez-parole-hearings",
+      "source": "The Guardian",
+      "published": "2025-08-23T05:55:08+00:00",
+      "sentiment": "negative"
+    },
     {
       "title": "A new Indian bill punishes jailed politicians: Why has it sparked outrage?",
       "url": "https://www.aljazeera.com/news/2025/8/23/a-new-indian-bill-punishes-jailed-politicians-why-has-it-sparked-outrage?traffic_source=rss",
@@ -213,62 +269,6 @@
       "source": "The Guardian",
       "published": "2025-08-23T03:34:28+00:00",
       "sentiment": "negative"
-    },
-    {
-      "title": "Lyle Menendez joins brother in being denied parole in parents' LA murder",
-      "url": "https://www.bbc.com/news/articles/c4gq55evnlyo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2025-08-23T03:32:20+00:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "US general whose report on Iran nuclear sites angered Trump fired",
-      "url": "https://www.aljazeera.com/news/2025/8/23/us-general-whose-report-on-iran-nuclear-sites-damage-angered-trump-fired?traffic_source=rss",
-      "source": "Al Jazeera English",
-      "published": "2025-08-23T03:21:03+00:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Can the new India-China bonhomie reshape trade and hurt the US in Asia?",
-      "url": "https://www.aljazeera.com/features/2025/8/23/can-the-new-india-china-bonhomie-reshape-trade-and-hurt-the-us-in-asia?traffic_source=rss",
-      "source": "Al Jazeera English",
-      "published": "2025-08-23T03:06:03+00:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "China, India watch as Myanmar rebels advance on strategic western frontier",
-      "url": "https://www.aljazeera.com/features/2025/8/23/china-india-watch-as-myanmar-rebels-advance-on-strategic-western-frontier?traffic_source=rss",
-      "source": "Al Jazeera English",
-      "published": "2025-08-23T03:01:42+00:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Ghislaine Maxwell claims in DOJ interview that Epstein list doesn't exist",
-      "url": "https://www.bbc.com/news/articles/cdd3pe6189go?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2025-08-23T02:10:39+00:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Ghislaine Maxwell transcripts: Epstein associate says she \u2018never\u2019 saw Trump receive a massage \u2013 as it happened",
-      "url": "https://www.theguardian.com/us-news/live/2025/aug/22/donald-trump-administration-federal-reserve-republicans-democrats-us-politics-live",
-      "source": "The Guardian",
-      "published": "2025-08-23T01:56:06+00:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "North Korea accuses South Korean troops of firing warning shots near border",
-      "url": "https://www.aljazeera.com/news/2025/8/23/north-korea-accuses-south-korean-troops-of-firing-warning-shots-near-border?traffic_source=rss",
-      "source": "Al Jazeera English",
-      "published": "2025-08-23T01:21:18+00:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Cowboys conclude preseason as Parsons looks on",
-      "url": "https://www.espn.com/nfl/story/_/id/46054582/dallas-cowboys-conclude-preseason-schedule-micah-parsons-looks-on",
-      "source": "ESPN",
-      "published": "2025-08-23T01:15:18+00:00",
-      "sentiment": "neutral"
     }
   ]
 }
