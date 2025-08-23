@@ -1,25 +1,25 @@
 {
-  "generated_at": "2025-08-23T06:25:59.611595+00:00",
+  "generated_at": "2025-08-23T06:47:05.517036+00:00",
   "window_hours": 24,
   "totals": {
-    "positive": 172,
-    "neutral": 51,
-    "negative": 193
+    "positive": 171,
+    "neutral": 49,
+    "negative": 194
   },
   "by_publication": [
     {
       "source": "The Guardian",
-      "positive": 51,
+      "positive": 52,
       "neutral": 2,
-      "negative": 57,
+      "negative": 56,
       "count": 110
     },
     {
       "source": "BBC News",
       "positive": 31,
-      "neutral": 16,
+      "neutral": 14,
       "negative": 36,
-      "count": 83
+      "count": 81
     },
     {
       "source": "ESPN",
@@ -32,22 +32,22 @@
       "source": "Al Jazeera English",
       "positive": 15,
       "neutral": 3,
-      "negative": 40,
-      "count": 58
+      "negative": 41,
+      "count": 59
     },
     {
       "source": "CNBC",
-      "positive": 27,
+      "positive": 25,
       "neutral": 7,
       "negative": 19,
-      "count": 53
+      "count": 51
     },
     {
       "source": "Financial Times",
       "positive": 7,
       "neutral": 3,
-      "negative": 14,
-      "count": 24
+      "negative": 15,
+      "count": 25
     },
     {
       "source": "The Verge",
@@ -74,31 +74,31 @@
     },
     {
       "topic": "Other",
-      "positive": 39,
+      "positive": 38,
       "neutral": 16,
       "negative": 35,
-      "count": 90
+      "count": 89
     },
     {
       "topic": "Politics",
-      "positive": 42,
+      "positive": 43,
       "neutral": 4,
       "negative": 38,
-      "count": 84
+      "count": 85
+    },
+    {
+      "topic": "Business",
+      "positive": 10,
+      "neutral": 2,
+      "negative": 13,
+      "count": 25
     },
     {
       "topic": "Sports",
       "positive": 11,
-      "neutral": 6,
+      "neutral": 4,
       "negative": 9,
-      "count": 26
-    },
-    {
-      "topic": "Business",
-      "positive": 11,
-      "neutral": 2,
-      "negative": 12,
-      "count": 25
+      "count": 24
     },
     {
       "topic": "World",
@@ -130,6 +130,13 @@
     }
   ],
   "sample_headlines": [
+    {
+      "title": "Texas senate gives final approval to redrawn congressional map that heavily favours Republicans",
+      "url": "https://www.theguardian.com/us-news/2025/aug/22/texas-senate-redistricting-maps",
+      "source": "The Guardian",
+      "published": "2025-08-23T06:31:59+00:00",
+      "sentiment": "positive"
+    },
     {
       "title": "Inside billionaire Lucy Guo\u2019s intense daily routine: 5:30 a.m. wake-ups, double gym sessions, and no lunch breaks",
       "url": "https://www.cnbc.com/2025/08/23/inside-30-year-old-billionaire-lucy-guos-intense-daily-routine-.html",
@@ -194,6 +201,13 @@
       "sentiment": "negative"
     },
     {
+      "title": "Why an Indian bill removing jailed leaders from office has sparked outrage",
+      "url": "https://www.aljazeera.com/news/2025/8/23/a-new-indian-bill-punishes-jailed-politicians-why-has-it-sparked-outrage?traffic_source=rss",
+      "source": "Al Jazeera English",
+      "published": "2025-08-23T05:20:40+00:00",
+      "sentiment": "negative"
+    },
+    {
       "title": "'I'd love to be a WWE wrestler' - Guehi in his own words",
       "url": "https://www.bbc.com/sport/articles/cdxyde951r5o?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
@@ -243,32 +257,18 @@
       "sentiment": "negative"
     },
     {
+      "title": "Tech stocks are sending a warning",
+      "url": "https://www.ft.com/content/c44c32cd-da47-4ba6-a67a-30c0059931bb",
+      "source": "Financial Times",
+      "published": "2025-08-23T04:00:30+00:00",
+      "sentiment": "negative"
+    },
+    {
       "title": "Can you run a Premier League football club?",
       "url": "https://ig.ft.com/football-game",
       "source": "Financial Times",
       "published": "2025-08-23T04:00:00+00:00",
       "sentiment": "positive"
-    },
-    {
-      "title": "Foreign nationals among 5 killed in New York state tour bus crash",
-      "url": "https://www.aljazeera.com/news/2025/8/23/foreign-nationals-among-5-killed-in-new-york-state-tour-bus-crash?traffic_source=rss",
-      "source": "Al Jazeera English",
-      "published": "2025-08-23T03:45:33+00:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Farage vows mass deportations to tackle small boats",
-      "url": "https://www.bbc.com/news/articles/c9vd3rx33g1o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2025-08-23T03:43:56+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Lyle Menendez denied parole a day after brother Erik\u2019s bid rejected",
-      "url": "https://www.theguardian.com/us-news/2025/aug/23/lyle-menendez-parole-board",
-      "source": "The Guardian",
-      "published": "2025-08-23T03:34:28+00:00",
-      "sentiment": "negative"
     }
   ]
 }
