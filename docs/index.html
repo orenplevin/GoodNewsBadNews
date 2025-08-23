@@ -36,66 +36,68 @@
 
     <!-- Main Dashboard Grid -->
     <div class="dashboard-grid" id="dashboardGrid">
-      <!-- Left Column - Global News Sources (Previously Key Metrics) -->
-      <div class="sources-column resizable-widget" data-widget="sources" style="width: 300px;">
+      <!-- Left Column - Global News Sources (Now as a scrollable list) -->
+      <div class="sources-column resizable-widget" data-widget="sources" style="width: 320px;">
         <div class="resize-handle resize-handle-right"></div>
         <div class="widget-header">
           <div class="drag-handle" title="Drag to move widget">⋮⋮</div>
           <h3>🌍 Global News Sources</h3>
-          <div class="sources-controls">
-            <button id="selectAllSources" class="sources-btn">All</button>
-            <button id="deselectAllSources" class="sources-btn">None</button>
-            <div class="source-count-badge" id="sourceCountBadge">61/61</div>
+          <div class="widget-controls">
             <button class="widget-btn minimize-btn" data-widget="sources">−</button>
           </div>
         </div>
         
         <div class="widget-content" id="sourcesContent">
+          <div class="sources-controls">
+            <button id="selectAllSources" class="sources-btn">All</button>
+            <button id="deselectAllSources" class="sources-btn">None</button>
+            <div class="source-count-badge" id="sourceCountBadge">0/0</div>
+          </div>
           <div class="sources-vertical" id="sourcesList">
-            <!-- Regional sources will be populated by JavaScript -->
+            <!-- Regional sources will be populated by JavaScript as a list -->
           </div>
         </div>
       </div>
 
       <!-- Right Column - Main Content -->
       <div class="content-column">
-        <!-- Key Metrics Section (Previously Sources) -->
+        <!-- Key Metrics Section (Horizontal grid) -->
         <section class="metrics-section">
           <div class="metrics-grid">
-            <div class="stat-card gradient-4 resizable-stat" data-widget="total-stat" style="height: 100px;">
+            <div class="stat-card gradient-4 resizable-stat" data-widget="total-stat">
               <div class="resize-handle resize-handle-bottom"></div>
               <div class="stat-content">
-                <div class="stat-value" id="totalCount">403</div>
+                <div class="stat-value" id="totalCount">0</div>
                 <div class="stat-label">TOTAL ARTICLES</div>
                 <div class="stat-trend">+2% from yesterday</div>
               </div>
               <div class="stat-icon">📰</div>
             </div>
             
-            <div class="stat-card gradient-1 resizable-stat" data-widget="positive-stat" style="height: 100px;">
+            <div class="stat-card gradient-1 resizable-stat" data-widget="positive-stat">
               <div class="resize-handle resize-handle-bottom"></div>
               <div class="stat-content">
-                <div class="stat-value" id="positiveCount">173</div>
+                <div class="stat-value" id="positiveCount">0</div>
                 <div class="stat-label">POSITIVE</div>
                 <div class="stat-trend">+12% from yesterday</div>
               </div>
               <div class="stat-icon">😊</div>
             </div>
             
-            <div class="stat-card gradient-2 resizable-stat" data-widget="neutral-stat" style="height: 100px;">
+            <div class="stat-card gradient-2 resizable-stat" data-widget="neutral-stat">
               <div class="resize-handle resize-handle-bottom"></div>
               <div class="stat-content">
-                <div class="stat-value" id="neutralCount">56</div>
+                <div class="stat-value" id="neutralCount">0</div>
                 <div class="stat-label">NEUTRAL</div>
                 <div class="stat-trend">-3% from yesterday</div>
               </div>
               <div class="stat-icon">😐</div>
             </div>
             
-            <div class="stat-card gradient-3 resizable-stat" data-widget="negative-stat" style="height: 100px;">
+            <div class="stat-card gradient-3 resizable-stat" data-widget="negative-stat">
               <div class="resize-handle resize-handle-bottom"></div>
               <div class="stat-content">
-                <div class="stat-value" id="negativeCount">190</div>
+                <div class="stat-value" id="negativeCount">0</div>
                 <div class="stat-label">NEGATIVE</div>
                 <div class="stat-trend">-8% from yesterday</div>
               </div>
