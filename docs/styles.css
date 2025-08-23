@@ -595,14 +595,14 @@ body.dragging {
   min-width: 0;
 }
 
-/* Key Metrics Section (Horizontal grid with proper sizing) */
+/* Key Metrics Section (Horizontal grid with proper sizing) - ALWAYS 4 COLUMNS */
 .metrics-section {
   flex-shrink: 0;
 }
 
 .metrics-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr); /* Force 4 columns in one row */
+  grid-template-columns: repeat(4, 1fr); /* Always 4 columns in one row */
   gap: 16px;
   min-height: 120px; /* Ensure adequate height */
 }
@@ -921,7 +921,7 @@ body.dragging {
 /* Responsive */
 @media (max-width: 1600px) {
   .metrics-grid {
-    grid-template-columns: repeat(4, 1fr); /* Keep 4 columns even on smaller screens */
+    grid-template-columns: repeat(4, 1fr); /* Keep 4 columns */
     gap: 12px;
   }
 }
@@ -971,7 +971,24 @@ body.dragging {
   }
   
   .metrics-grid {
-    grid-template-columns: repeat(2, 1fr); /* Only on mobile go to 2x2 */
+    grid-template-columns: repeat(4, 1fr); /* Keep 4 columns even on tablet */
+    gap: 8px;
+  }
+}
+
+/* Only switch to 2x2 layout on very small mobile screens */
+@media (max-width: 768px) {
+  .metrics-grid {
+    grid-template-columns: repeat(2, 1fr); /* 2x2 layout only on mobile */
     gap: 12px;
+  }
+  
+  .resizable-stat {
+    padding: 16px;
+    min-height: 100px;
+  }
+  
+  .stat-value {
+    font-size: 28px;
   }
 }
