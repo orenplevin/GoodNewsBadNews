@@ -1,46 +1,46 @@
 {
-  "generated_at": "2025-08-23T01:23:43.805037+00:00",
+  "generated_at": "2025-08-23T02:47:53.283598+00:00",
   "window_hours": 24,
   "totals": {
-    "positive": 173,
-    "neutral": 56,
-    "negative": 190
+    "positive": 176,
+    "neutral": 55,
+    "negative": 191
   },
   "by_publication": [
     {
       "source": "The Guardian",
-      "positive": 46,
+      "positive": 47,
       "neutral": 2,
       "negative": 55,
-      "count": 103
+      "count": 104
     },
     {
       "source": "BBC News",
-      "positive": 35,
+      "positive": 36,
       "neutral": 16,
-      "negative": 40,
+      "negative": 39,
       "count": 91
     },
     {
       "source": "Al Jazeera English",
       "positive": 15,
       "neutral": 3,
-      "negative": 43,
-      "count": 61
-    },
-    {
-      "source": "CNBC",
-      "positive": 30,
-      "neutral": 9,
-      "negative": 19,
-      "count": 58
+      "negative": 41,
+      "count": 59
     },
     {
       "source": "ESPN",
-      "positive": 25,
+      "positive": 27,
       "neutral": 16,
-      "negative": 10,
-      "count": 51
+      "negative": 14,
+      "count": 57
+    },
+    {
+      "source": "CNBC",
+      "positive": 29,
+      "neutral": 8,
+      "negative": 19,
+      "count": 56
     },
     {
       "source": "Financial Times",
@@ -68,23 +68,30 @@
     {
       "topic": "Tech",
       "positive": 64,
-      "neutral": 23,
-      "negative": 79,
-      "count": 166
+      "neutral": 22,
+      "negative": 77,
+      "count": 163
     },
     {
       "topic": "Other",
       "positive": 43,
       "neutral": 16,
-      "negative": 35,
-      "count": 94
+      "negative": 36,
+      "count": 95
     },
     {
       "topic": "Politics",
-      "positive": 41,
+      "positive": 42,
       "neutral": 4,
       "negative": 41,
-      "count": 86
+      "count": 87
+    },
+    {
+      "topic": "Sports",
+      "positive": 10,
+      "neutral": 8,
+      "negative": 6,
+      "count": 24
     },
     {
       "topic": "Business",
@@ -92,13 +99,6 @@
       "neutral": 2,
       "negative": 12,
       "count": 23
-    },
-    {
-      "topic": "Sports",
-      "positive": 9,
-      "neutral": 8,
-      "negative": 4,
-      "count": 21
     },
     {
       "topic": "World",
@@ -109,10 +109,10 @@
     },
     {
       "topic": "Entertainment",
-      "positive": 4,
+      "positive": 5,
       "neutral": 1,
       "negative": 0,
-      "count": 5
+      "count": 6
     },
     {
       "topic": "Health",
@@ -131,6 +131,27 @@
   ],
   "sample_headlines": [
     {
+      "title": "Ghislaine Maxwell claims in DOJ interview that Epstein list doesn't exist",
+      "url": "https://www.bbc.com/news/articles/cdd3pe6189go?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2025-08-23T02:10:39+00:00",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Ghislaine Maxwell transcripts: Epstein associate says she \u2018never\u2019 saw Trump receive a massage \u2013 as it happened",
+      "url": "https://www.theguardian.com/us-news/live/2025/aug/22/donald-trump-administration-federal-reserve-republicans-democrats-us-politics-live",
+      "source": "The Guardian",
+      "published": "2025-08-23T01:56:06+00:00",
+      "sentiment": "positive"
+    },
+    {
+      "title": "North Korea accuses South Korean troops of firing warning shots near border",
+      "url": "https://www.aljazeera.com/news/2025/8/23/north-korea-accuses-south-korean-troops-of-firing-warning-shots-near-border?traffic_source=rss",
+      "source": "Al Jazeera English",
+      "published": "2025-08-23T01:21:18+00:00",
+      "sentiment": "negative"
+    },
+    {
       "title": "Five people killed, including one child, in New York bus crash",
       "url": "https://www.theguardian.com/us-news/2025/aug/22/new-york-bus-crash-niagara-falls",
       "source": "The Guardian",
@@ -146,6 +167,13 @@
     },
     {
       "title": "Texas approves GOP\u2019s redistricting plan as senator threatens a final filibuster",
+      "url": "https://www.theguardian.com/us-news/2025/aug/22/texas-senate-redistricting-maps",
+      "source": "The Guardian",
+      "published": "2025-08-23T00:32:29+00:00",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Texas prepares for final approval of Republican map as senator threatens to filibuster",
       "url": "https://www.theguardian.com/us-news/2025/aug/22/texas-senate-redistricting-maps",
       "source": "The Guardian",
       "published": "2025-08-23T00:32:29+00:00",
@@ -241,34 +269,6 @@
       "source": "BBC News",
       "published": "2025-08-22T23:12:29+00:00",
       "sentiment": "negative"
-    },
-    {
-      "title": "'Two laptops, six plugs': The South Korean cafes grappling with students who don't leave",
-      "url": "https://www.bbc.com/news/articles/c80d9e8ep7do?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2025-08-22T23:02:12+00:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Five dead after tour bus crashes on New York highway",
-      "url": "https://www.bbc.com/news/articles/cm2kp312ryxo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2025-08-22T22:55:02+00:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Chaves Robles becomes first Costa Rican president to face loss of immunity",
-      "url": "https://www.aljazeera.com/news/2025/8/22/chaves-robles-becomes-first-costa-rican-president-to-face-loss-of-immunity?traffic_source=rss",
-      "source": "Al Jazeera English",
-      "published": "2025-08-22T22:46:40+00:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "England's appetite for destruction undimmed by thrashing of USA",
-      "url": "https://www.bbc.com/sport/rugby-union/articles/cp94p2y9rl3o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2025-08-22T22:40:40+00:00",
-      "sentiment": "positive"
     }
   ]
 }
