@@ -1,25 +1,32 @@
 {
-  "generated_at": "2025-08-23T03:34:34.922972+00:00",
+  "generated_at": "2025-08-23T04:21:57.844936+00:00",
   "window_hours": 24,
   "totals": {
-    "positive": 175,
-    "neutral": 56,
-    "negative": 193
+    "positive": 173,
+    "neutral": 54,
+    "negative": 196
   },
   "by_publication": [
     {
       "source": "The Guardian",
-      "positive": 47,
+      "positive": 46,
       "neutral": 2,
-      "negative": 54,
-      "count": 103
+      "negative": 57,
+      "count": 105
     },
     {
       "source": "BBC News",
       "positive": 36,
-      "neutral": 16,
+      "neutral": 17,
       "negative": 40,
-      "count": 92
+      "count": 93
+    },
+    {
+      "source": "ESPN",
+      "positive": 27,
+      "neutral": 17,
+      "negative": 17,
+      "count": 61
     },
     {
       "source": "Al Jazeera English",
@@ -27,13 +34,6 @@
       "neutral": 3,
       "negative": 42,
       "count": 60
-    },
-    {
-      "source": "ESPN",
-      "positive": 27,
-      "neutral": 17,
-      "negative": 15,
-      "count": 59
     },
     {
       "source": "CNBC",
@@ -44,10 +44,10 @@
     },
     {
       "source": "Financial Times",
-      "positive": 7,
-      "neutral": 8,
-      "negative": 14,
-      "count": 29
+      "positive": 6,
+      "neutral": 5,
+      "negative": 12,
+      "count": 23
     },
     {
       "source": "The Verge",
@@ -68,30 +68,30 @@
     {
       "topic": "Tech",
       "positive": 63,
-      "neutral": 22,
-      "negative": 76,
+      "neutral": 20,
+      "negative": 78,
       "count": 161
     },
     {
       "topic": "Other",
-      "positive": 43,
+      "positive": 42,
       "neutral": 17,
-      "negative": 37,
+      "negative": 38,
       "count": 97
     },
     {
       "topic": "Politics",
       "positive": 42,
       "neutral": 4,
-      "negative": 41,
-      "count": 87
+      "negative": 39,
+      "count": 85
     },
     {
       "topic": "Sports",
       "positive": 10,
       "neutral": 8,
-      "negative": 7,
-      "count": 25
+      "negative": 8,
+      "count": 26
     },
     {
       "topic": "Business",
@@ -104,15 +104,15 @@
       "topic": "World",
       "positive": 1,
       "neutral": 2,
-      "negative": 16,
-      "count": 19
+      "negative": 17,
+      "count": 20
     },
     {
       "topic": "Entertainment",
-      "positive": 5,
+      "positive": 4,
       "neutral": 1,
       "negative": 0,
-      "count": 6
+      "count": 5
     },
     {
       "topic": "Health",
@@ -131,10 +131,52 @@
   ],
   "sample_headlines": [
     {
+      "title": "North Korea accuses South Korea of \u2018deliberate provocation\u2019 after warning shots fired at soldiers on border",
+      "url": "https://www.theguardian.com/world/2025/aug/23/north-korea-accuses-south-korea-of-deliberate-provocation-after-warning-shots-fired-at-soldiers-on-border",
+      "source": "The Guardian",
+      "published": "2025-08-23T04:09:47+00:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "\u2018We\u2019re publicans\u2019: County Limerick community forms syndicate to save village\u2019s last pub",
+      "url": "https://www.theguardian.com/world/2025/aug/23/ireland-county-limerick-kilteely-syndicate-villages-last-pub",
+      "source": "The Guardian",
+      "published": "2025-08-23T04:00:51+00:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Foreign nationals among 5 killed in New York state tour bus crash",
+      "url": "https://www.aljazeera.com/news/2025/8/23/foreign-nationals-among-5-killed-in-new-york-state-tour-bus-crash?traffic_source=rss",
+      "source": "Al Jazeera English",
+      "published": "2025-08-23T03:45:33+00:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Farage vows mass deportations to tackle small boats",
+      "url": "https://www.bbc.com/news/articles/c9vd3rx33g1o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2025-08-23T03:43:56+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Lyle Menendez denied parole a day after brother Erik\u2019s bid rejected",
+      "url": "https://www.theguardian.com/us-news/2025/aug/23/lyle-menendez-parole-board",
+      "source": "The Guardian",
+      "published": "2025-08-23T03:34:28+00:00",
+      "sentiment": "negative"
+    },
+    {
       "title": "Lyle Menendez joins brother in being denied parole in parents' LA murder",
       "url": "https://www.bbc.com/news/articles/c4gq55evnlyo?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
       "published": "2025-08-23T03:32:20+00:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "US general whose report on Iran nuclear sites angered Trump fired",
+      "url": "https://www.aljazeera.com/news/2025/8/23/us-general-whose-report-on-iran-nuclear-sites-damage-angered-trump-fired?traffic_source=rss",
+      "source": "Al Jazeera English",
+      "published": "2025-08-23T03:21:03+00:00",
       "sentiment": "negative"
     },
     {
@@ -226,48 +268,6 @@
       "url": "https://www.bbc.com/news/articles/c2012xjgzggo?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
       "published": "2025-08-23T00:16:26+00:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Explosion and fire in Louisiana leads to elementary school being evacuated",
-      "url": "https://www.theguardian.com/us-news/2025/aug/22/explosion-fire-louisiana-evacuations",
-      "source": "The Guardian",
-      "published": "2025-08-23T00:02:50+00:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "An EV road user charge is looming. Could it slam the brakes on Australia\u2019s clean car transition?",
-      "url": "https://www.theguardian.com/environment/2025/aug/23/ev-road-user-charge-australia-electric-cars-vehicles-clean-transition",
-      "source": "The Guardian",
-      "published": "2025-08-23T00:00:48+00:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Lobbying rules in NSW are woefully inadequate but Icac\u2019s calls for reform keep getting ignored",
-      "url": "https://www.theguardian.com/australia-news/2025/aug/23/nsw-lobbying-rules-icac-reform-ignored",
-      "source": "The Guardian",
-      "published": "2025-08-23T00:00:47+00:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Are young women more left wing than men - and, if so, why?",
-      "url": "https://www.bbc.com/news/articles/cqxg89jzvl1o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2025-08-22T23:48:35+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Maxwell transcripts bring some respite for Trump, but fail to quell Maga uproar",
-      "url": "https://www.theguardian.com/us-news/2025/aug/22/maxwell-transcripts-trump-epstein-maga",
-      "source": "The Guardian",
-      "published": "2025-08-22T23:44:09+00:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Colorado judge rejects plea deal for funeral home owner in corpse abuse case",
-      "url": "https://www.theguardian.com/us-news/2025/aug/22/colorado-corpse-abuse-case",
-      "source": "The Guardian",
-      "published": "2025-08-22T23:20:55+00:00",
       "sentiment": "negative"
     }
   ]
