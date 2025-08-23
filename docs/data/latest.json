@@ -1,10 +1,10 @@
 {
-  "generated_at": "2025-08-23T07:16:51.428859+00:00",
+  "generated_at": "2025-08-23T07:36:46.095959+00:00",
   "window_hours": 24,
   "totals": {
-    "positive": 168,
-    "neutral": 49,
-    "negative": 191
+    "positive": 165,
+    "neutral": 48,
+    "negative": 190
   },
   "by_publication": [
     {
@@ -17,23 +17,16 @@
     {
       "source": "BBC News",
       "positive": 32,
-      "neutral": 14,
+      "neutral": 15,
       "negative": 36,
-      "count": 82
+      "count": 83
     },
     {
       "source": "Al Jazeera English",
       "positive": 16,
       "neutral": 4,
-      "negative": 41,
-      "count": 61
-    },
-    {
-      "source": "ESPN",
-      "positive": 22,
-      "neutral": 17,
-      "negative": 16,
-      "count": 55
+      "negative": 40,
+      "count": 60
     },
     {
       "source": "CNBC",
@@ -41,6 +34,13 @@
       "neutral": 7,
       "negative": 19,
       "count": 51
+    },
+    {
+      "source": "ESPN",
+      "positive": 19,
+      "neutral": 15,
+      "negative": 16,
+      "count": 50
     },
     {
       "source": "Financial Times",
@@ -67,17 +67,17 @@
   "by_topic": [
     {
       "topic": "Tech",
-      "positive": 63,
+      "positive": 62,
       "neutral": 20,
-      "negative": 81,
-      "count": 164
+      "negative": 79,
+      "count": 161
     },
     {
       "topic": "Other",
-      "positive": 36,
-      "neutral": 15,
+      "positive": 35,
+      "neutral": 14,
       "negative": 34,
-      "count": 85
+      "count": 83
     },
     {
       "topic": "Politics",
@@ -95,17 +95,17 @@
     },
     {
       "topic": "Sports",
-      "positive": 10,
+      "positive": 9,
       "neutral": 4,
       "negative": 9,
-      "count": 23
+      "count": 22
     },
     {
       "topic": "World",
       "positive": 1,
       "neutral": 2,
-      "negative": 15,
-      "count": 18
+      "negative": 16,
+      "count": 19
     },
     {
       "topic": "Entertainment",
@@ -130,6 +130,13 @@
     }
   ],
   "sample_headlines": [
+    {
+      "title": "Five dead in bus crash after Niagara Falls tour",
+      "url": "https://www.bbc.com/news/articles/cm2kp312ryxo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2025-08-23T07:23:44+00:00",
+      "sentiment": "negative"
+    },
     {
       "title": "What will Uganda gain from accepting US deportees?",
       "url": "https://www.aljazeera.com/economy/2025/8/23/what-will-uganda-gain-from-accepting-us-deportees?traffic_source=rss",
@@ -261,13 +268,6 @@
       "url": "https://www.theguardian.com/world/2025/aug/23/north-korea-accuses-south-korea-of-deliberate-provocation-after-warning-shots-fired-at-soldiers-on-border",
       "source": "The Guardian",
       "published": "2025-08-23T04:09:47+00:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "\u2018We\u2019re publicans\u2019: County Limerick community forms syndicate to save village\u2019s last pub",
-      "url": "https://www.theguardian.com/world/2025/aug/23/ireland-county-limerick-kilteely-syndicate-villages-last-pub",
-      "source": "The Guardian",
-      "published": "2025-08-23T04:00:51+00:00",
       "sentiment": "negative"
     }
   ]
