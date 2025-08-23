@@ -45,8 +45,8 @@ let globalData = {
     sourcesByRegion: {},
     layouts: {
         default: {
-            stats: { width: 240, height: 'auto' },
-            sources: { height: 200 }, // Increased height for regional layout
+            sources: { width: 300, height: 'auto' }, // Now in left column
+            metrics: { height: 'auto' }, // Now in main content as grid
             sentiment: { width: '50%', height: 360 },
             trend: { width: '50%', height: 360 },
             publication: { width: '50%', height: 360 },
@@ -129,6 +129,8 @@ function updateSummaryStats(totals) {
 
 function animateCounter(elementId, targetValue) {
     const element = document.getElementById(elementId);
+    if (!element) return;
+    
     const startValue = parseInt(element.textContent.replace(/,/g, '')) || 0;
     const duration = 1000;
     const startTime = performance.now();
@@ -208,7 +210,7 @@ function renderSourcesList(byPublication) {
         regionHeader.className = 'region-header';
         const emoji = REGION_EMOJIS[region] || '🌍';
         const totalRegionArticles = sourcesByRegion[region].reduce((sum, source) => sum + (source.positive + source.neutral + source.negative), 0);
-        regionHeader.innerHTML = `${emoji} ${region} <span style="font-size: 9px; opacity: 0.7;">(${totalRegionArticles} articles)</span>`;
+        regionHeader.innerHTML = `${emoji} ${region} <span style="font-size: 8px; opacity: 0.7;">(${totalRegionArticles})</span>`;
         
         // Sources container for this region
         const regionSources = document.createElement('div');
@@ -225,7 +227,7 @@ function renderSourcesList(byPublication) {
             
             const sourceItem = document.createElement('div');
             sourceItem.className = `source-item ${isSelected ? 'selected' : 'deselected'}`;
-            sourceItem.style.animationDelay = `${index * 30}ms`;
+            sourceItem.style.animationDelay = `${index * 20}ms`;
             sourceItem.dataset.source = source.source;
             sourceItem.title = `${source.source}: ${total} articles`;
             
@@ -417,12 +419,12 @@ function renderBars(ctx, data, labelKey, valueKeys, sortBy) {
         return (b[sortBy] || 0) - (a[sortBy] || 0);
     });
     
-    const topData = sortedData.slice(0, 8); // Increased from 6 to 8 to show more sources
+    const topData = sortedData.slice(0, 8); // Show top 8 sources
     
     const chartData = {
         labels: topData.map(item => {
             const name = item[labelKey];
-            return name.length > 10 ? name.substring(0, 10) + '...' : name; // Shortened for smaller display
+            return name.length > 10 ? name.substring(0, 10) + '...' : name;
         }),
         datasets: valueKeys.map((key, index) => ({
             label: key.charAt(0).toUpperCase() + key.slice(1),
@@ -444,7 +446,7 @@ function renderBars(ctx, data, labelKey, valueKeys, sortBy) {
                     stacked: true,
                     ticks: { 
                         color: COLORS.chart.text,
-                        font: { size: 10, weight: '500' } // Smaller font
+                        font: { size: 10, weight: '500' }
                     },
                     grid: { 
                         display: false
@@ -457,7 +459,7 @@ function renderBars(ctx, data, labelKey, valueKeys, sortBy) {
                     stacked: true,
                     ticks: { 
                         color: COLORS.chart.text,
-                        font: { size: 10 } // Smaller font
+                        font: { size: 10 }
                     },
                     grid: { 
                         color: COLORS.chart.grid,
@@ -589,7 +591,7 @@ function renderHeadlines(listEl, items) {
     items.forEach((item, index) => {
         const li = document.createElement('li');
         li.className = 'headline';
-        li.style.animationDelay = `${index * 30}ms`; // Faster animation
+        li.style.animationDelay = `${index * 20}ms`;
         
         const publishedDate = new Date(item.published);
         const timeAgo = getTimeAgo(publishedDate);
@@ -621,10 +623,7 @@ function getTimeAgo(date) {
     return `${Math.floor(diffInSeconds / 86400)}d ago`;
 }
 
-// All the resize, drag & drop, and minimize functions remain the same as the original
-// [... keeping all existing resize, drag & drop, and minimize functions unchanged ...]
-
-// Initialize functionality functions (unchanged)
+// Resize, drag & drop, and minimize functions remain the same...
 function initializeResize() {
     const resizeHandles = document.querySelectorAll('.resize-handle');
     
@@ -736,7 +735,7 @@ function stopResize(e) {
     resizeState.currentHandle = null;
 }
 
-// Drag and Drop functionality (keeping original functions)
+// Keep all the drag & drop functions the same...
 function initializeDragDrop() {
     const dragHandles = document.querySelectorAll('.drag-handle');
     
@@ -914,7 +913,6 @@ function cleanupDrag() {
     dragState.currentWidget = null;
 }
 
-// Widget minimize/expand functionality
 function initializeMinimize() {
     const minimizeButtons = document.querySelectorAll('.minimize-btn');
     
@@ -956,7 +954,7 @@ function toggleMinimize(widgetType) {
     }
 }
 
-// Reset layout functionality (keeping the same)
+// Updated reset layout for new structure
 function resetLayout() {
     const widgets = document.querySelectorAll('.resizable-widget, .resizable-stat');
     
@@ -994,7 +992,7 @@ function resetLayout() {
 }
 
 function resetWidgetPositions() {
-    const statsWidget = document.querySelector('[data-widget="stats"]');
+    // Updated for new layout structure
     const sourcesWidget = document.querySelector('[data-widget="sources"]');
     const sentimentWidget = document.querySelector('[data-widget="sentiment"]');
     const trendWidget = document.querySelector('[data-widget="trend"]');
@@ -1002,19 +1000,13 @@ function resetWidgetPositions() {
     const topicsWidget = document.querySelector('[data-widget="topics"]');
     const headlinesWidget = document.querySelector('[data-widget="headlines"]');
     
-    const statsColumn = document.querySelector('.stats-column');
+    const sourcesColumn = document.querySelector('.sources-column');
     const contentColumn = document.querySelector('.content-column');
     const chartsGrid = document.querySelector('.charts-grid');
     const bottomChartsRow = document.querySelector('.bottom-charts-row');
     const headlinesSection = document.querySelector('.headlines-section');
     
-    if (statsWidget && statsColumn) {
-        statsColumn.appendChild(statsWidget);
-    }
-    
-    if (sourcesWidget && contentColumn) {
-        contentColumn.insertBefore(sourcesWidget, chartsGrid);
-    }
+    // Sources widget goes to left column (already there in new layout)
     
     if (sentimentWidget && chartsGrid) {
         chartsGrid.appendChild(sentimentWidget);
@@ -1037,7 +1029,6 @@ function resetWidgetPositions() {
     }
 }
 
-// Add interactive features
 function addInteractivity() {
     const refreshBtn = document.querySelector('.refresh-btn');
     if (refreshBtn) {
@@ -1088,7 +1079,7 @@ function addInteractivity() {
         });
         document.getElementById('generatedAt').textContent = `Last updated ${updateTime}`;
 
-        // Render sources list with regional grouping
+        // Render sources list with regional grouping in left column
         renderSourcesList(latest.by_publication);
 
         // Initial dashboard render with all sources selected
