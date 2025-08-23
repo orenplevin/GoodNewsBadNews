@@ -20,7 +20,7 @@
       <div class="header-left">
         <div class="header-subtitle">
           <h1 class="page-title">goodnewsbadnews.xyz</h1>
-          <p class="page-subtitle">analyzing news headlines across the web</p>
+          <p class="page-subtitle">analyzing news headlines across the web from multiple global sources</p>
         </div>
       </div>
       <div class="header-right">
@@ -51,7 +51,7 @@
           <div class="stat-card gradient-4 resizable-stat" style="height: 120px;">
             <div class="resize-handle resize-handle-bottom"></div>
             <div class="stat-content">
-              <div class="stat-value" id="totalCount">185</div>
+              <div class="stat-value" id="totalCount">403</div>
               <div class="stat-label">TOTAL ARTICLES</div>
               <div class="stat-trend">+2% from yesterday</div>
             </div>
@@ -61,7 +61,7 @@
           <div class="stat-card gradient-1 resizable-stat" style="height: 120px;">
             <div class="resize-handle resize-handle-bottom"></div>
             <div class="stat-content">
-              <div class="stat-value" id="positiveCount">73</div>
+              <div class="stat-value" id="positiveCount">173</div>
               <div class="stat-label">POSITIVE STORIES</div>
               <div class="stat-trend">+12% from yesterday</div>
             </div>
@@ -71,7 +71,7 @@
           <div class="stat-card gradient-2 resizable-stat" style="height: 120px;">
             <div class="resize-handle resize-handle-bottom"></div>
             <div class="stat-content">
-              <div class="stat-value" id="neutralCount">30</div>
+              <div class="stat-value" id="neutralCount">56</div>
               <div class="stat-label">NEUTRAL STORIES</div>
               <div class="stat-trend">-3% from yesterday</div>
             </div>
@@ -81,7 +81,7 @@
           <div class="stat-card gradient-3 resizable-stat" style="height: 120px;">
             <div class="resize-handle resize-handle-bottom"></div>
             <div class="stat-content">
-              <div class="stat-value" id="negativeCount">82</div>
+              <div class="stat-value" id="negativeCount">190</div>
               <div class="stat-label">NEGATIVE STORIES</div>
               <div class="stat-trend">-8% from yesterday</div>
             </div>
@@ -92,21 +92,23 @@
 
       <!-- Right Column - Main Content -->
       <div class="content-column">
-        <!-- Active Sources Section -->
-        <section class="sources-section resizable-widget" data-widget="sources" style="height: 140px;">
+        <!-- Active Sources Section - Increased height for regional layout -->
+        <section class="sources-section resizable-widget" data-widget="sources" style="height: 240px;">
           <div class="resize-handle resize-handle-bottom"></div>
           <div class="widget-header">
             <div class="drag-handle" title="Drag to move widget">⋮⋮</div>
-            <h3>🏢 Active Sources</h3>
+            <h3>🌍 Global News Sources</h3>
             <div class="sources-controls">
               <button id="selectAllSources" class="sources-btn">Select All</button>
               <button id="deselectAllSources" class="sources-btn">Deselect All</button>
-              <div class="source-count-badge" id="sourceCountBadge">8</div>
+              <div class="source-count-badge" id="sourceCountBadge">8/8</div>
               <button class="widget-btn minimize-btn" data-widget="sources">−</button>
             </div>
           </div>
           <div class="widget-content">
-            <div class="sources-horizontal" id="sourcesList"></div>
+            <div class="sources-horizontal" id="sourcesList">
+              <!-- Regional sources will be populated by JavaScript -->
+            </div>
           </div>
         </section>
 
@@ -218,7 +220,7 @@
         <div class="resize-handle resize-handle-top"></div>
         <div class="widget-header card-header">
           <div class="drag-handle" title="Drag to move widget">⋮⋮</div>
-          <h3>🔥 All Headlines</h3>
+          <h3>🔥 Latest Headlines</h3>
           <div class="headlines-info">
             <span id="headlinesCount">0 articles</span>
             <div class="refresh-btn">🔄</div>
