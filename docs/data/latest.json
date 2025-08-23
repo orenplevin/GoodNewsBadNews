@@ -1,32 +1,32 @@
 {
-  "generated_at": "2025-08-23T07:36:46.095959+00:00",
+  "generated_at": "2025-08-23T08:22:25.975349+00:00",
   "window_hours": 24,
   "totals": {
-    "positive": 165,
-    "neutral": 48,
-    "negative": 190
+    "positive": 158,
+    "neutral": 46,
+    "negative": 189
   },
   "by_publication": [
     {
       "source": "The Guardian",
-      "positive": 51,
+      "positive": 50,
       "neutral": 2,
       "negative": 55,
-      "count": 108
+      "count": 107
     },
     {
       "source": "BBC News",
-      "positive": 32,
+      "positive": 29,
       "neutral": 15,
-      "negative": 36,
-      "count": 83
+      "negative": 34,
+      "count": 78
     },
     {
       "source": "Al Jazeera English",
       "positive": 16,
-      "neutral": 4,
-      "negative": 40,
-      "count": 60
+      "neutral": 6,
+      "negative": 41,
+      "count": 63
     },
     {
       "source": "CNBC",
@@ -37,10 +37,10 @@
     },
     {
       "source": "ESPN",
-      "positive": 19,
-      "neutral": 15,
+      "positive": 16,
+      "neutral": 11,
       "negative": 16,
-      "count": 50
+      "count": 43
     },
     {
       "source": "Financial Times",
@@ -67,17 +67,10 @@
   "by_topic": [
     {
       "topic": "Tech",
-      "positive": 62,
+      "positive": 60,
       "neutral": 20,
       "negative": 79,
-      "count": 161
-    },
-    {
-      "topic": "Other",
-      "positive": 35,
-      "neutral": 14,
-      "negative": 34,
-      "count": 83
+      "count": 159
     },
     {
       "topic": "Politics",
@@ -87,25 +80,32 @@
       "count": 83
     },
     {
-      "topic": "Business",
-      "positive": 10,
-      "neutral": 3,
-      "negative": 12,
-      "count": 25
+      "topic": "Other",
+      "positive": 31,
+      "neutral": 12,
+      "negative": 32,
+      "count": 75
     },
     {
-      "topic": "Sports",
+      "topic": "Business",
       "positive": 9,
-      "neutral": 4,
-      "negative": 9,
-      "count": 22
+      "neutral": 3,
+      "negative": 12,
+      "count": 24
     },
     {
       "topic": "World",
       "positive": 1,
-      "neutral": 2,
-      "negative": 16,
-      "count": 19
+      "neutral": 3,
+      "negative": 17,
+      "count": 21
+    },
+    {
+      "topic": "Sports",
+      "positive": 9,
+      "neutral": 3,
+      "negative": 9,
+      "count": 21
     },
     {
       "topic": "Entertainment",
@@ -130,6 +130,34 @@
     }
   ],
   "sample_headlines": [
+    {
+      "title": "Will Israel choose truce or war?",
+      "url": "https://www.aljazeera.com/video/the-bottom-line/2025/8/23/will-israel-choose-truce-or-war?traffic_source=rss",
+      "source": "Al Jazeera English",
+      "published": "2025-08-23T08:05:02+00:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "LIVE: Man City vs Tottenham \u2013 Premier League",
+      "url": "https://www.aljazeera.com/sports/liveblog/2025/8/23/live-man-city-vs-tottenham-premier-league?traffic_source=rss",
+      "source": "Al Jazeera English",
+      "published": "2025-08-23T08:04:16+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Lyle Menendez denied parole decades after murder of parents",
+      "url": "https://www.aljazeera.com/news/2025/8/23/lyle-menendez-denied-parole-decades-after-murder-of-parents?traffic_source=rss",
+      "source": "Al Jazeera English",
+      "published": "2025-08-23T07:35:10+00:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "UK delays ruling on Chinese embassy after Beijing withholds information",
+      "url": "https://www.aljazeera.com/news/2025/8/23/uk-delays-ruling-on-chinese-embassy-after-beijing-withholds-information?traffic_source=rss",
+      "source": "Al Jazeera English",
+      "published": "2025-08-23T07:34:22+00:00",
+      "sentiment": "neutral"
+    },
     {
       "title": "Five dead in bus crash after Niagara Falls tour",
       "url": "https://www.bbc.com/news/articles/cm2kp312ryxo?at_medium=RSS&at_campaign=rss",
@@ -241,34 +269,6 @@
       "source": "BBC News",
       "published": "2025-08-23T05:13:28+00:00",
       "sentiment": "positive"
-    },
-    {
-      "title": "LIVE: Israel kills over 70 in Gaza as UN warns of famine \u2018survival crisis\u2019",
-      "url": "https://www.aljazeera.com/news/liveblog/2025/8/23/live-israel-kills-over-70-in-gaza-as-un-warns-of-famine-survival-crisis?traffic_source=rss",
-      "source": "Al Jazeera English",
-      "published": "2025-08-23T05:05:27+00:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Miners from 1980s strikes return to picket line \u2026 at mining museum",
-      "url": "https://www.theguardian.com/uk-news/2025/aug/23/miners-from-1980s-strikes-return-to-picket-line-at-mining-museum",
-      "source": "The Guardian",
-      "published": "2025-08-23T05:00:57+00:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "\u2018These are Ukrainian lands\u2019: people in Donetsk pour scorn on Putin\u2019s territorial demands",
-      "url": "https://www.theguardian.com/news/ng-interactive/2025/aug/23/ukraine-donetsk-putin-territorial-demands",
-      "source": "The Guardian",
-      "published": "2025-08-23T05:00:56+00:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "North Korea accuses South Korea of \u2018deliberate provocation\u2019 after warning shots fired at soldiers on border",
-      "url": "https://www.theguardian.com/world/2025/aug/23/north-korea-accuses-south-korea-of-deliberate-provocation-after-warning-shots-fired-at-soldiers-on-border",
-      "source": "The Guardian",
-      "published": "2025-08-23T04:09:47+00:00",
-      "sentiment": "negative"
     }
   ]
 }
