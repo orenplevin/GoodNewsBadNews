@@ -1,39 +1,39 @@
 {
-  "generated_at": "2025-08-23T06:47:05.517036+00:00",
+  "generated_at": "2025-08-23T07:16:51.428859+00:00",
   "window_hours": 24,
   "totals": {
-    "positive": 171,
+    "positive": 168,
     "neutral": 49,
-    "negative": 194
+    "negative": 191
   },
   "by_publication": [
     {
       "source": "The Guardian",
-      "positive": 52,
+      "positive": 51,
       "neutral": 2,
-      "negative": 56,
-      "count": 110
+      "negative": 55,
+      "count": 108
     },
     {
       "source": "BBC News",
-      "positive": 31,
+      "positive": 32,
       "neutral": 14,
       "negative": 36,
-      "count": 81
-    },
-    {
-      "source": "ESPN",
-      "positive": 26,
-      "neutral": 18,
-      "negative": 18,
-      "count": 62
+      "count": 82
     },
     {
       "source": "Al Jazeera English",
-      "positive": 15,
-      "neutral": 3,
+      "positive": 16,
+      "neutral": 4,
       "negative": 41,
-      "count": 59
+      "count": 61
+    },
+    {
+      "source": "ESPN",
+      "positive": 22,
+      "neutral": 17,
+      "negative": 16,
+      "count": 55
     },
     {
       "source": "CNBC",
@@ -67,38 +67,38 @@
   "by_topic": [
     {
       "topic": "Tech",
-      "positive": 62,
+      "positive": 63,
       "neutral": 20,
       "negative": 81,
-      "count": 163
+      "count": 164
     },
     {
       "topic": "Other",
-      "positive": 38,
-      "neutral": 16,
-      "negative": 35,
-      "count": 89
+      "positive": 36,
+      "neutral": 15,
+      "negative": 34,
+      "count": 85
     },
     {
       "topic": "Politics",
-      "positive": 43,
+      "positive": 42,
       "neutral": 4,
-      "negative": 38,
-      "count": 85
+      "negative": 37,
+      "count": 83
     },
     {
       "topic": "Business",
       "positive": 10,
-      "neutral": 2,
-      "negative": 13,
+      "neutral": 3,
+      "negative": 12,
       "count": 25
     },
     {
       "topic": "Sports",
-      "positive": 11,
+      "positive": 10,
       "neutral": 4,
       "negative": 9,
-      "count": 24
+      "count": 23
     },
     {
       "topic": "World",
@@ -130,6 +130,27 @@
     }
   ],
   "sample_headlines": [
+    {
+      "title": "What will Uganda gain from accepting US deportees?",
+      "url": "https://www.aljazeera.com/economy/2025/8/23/what-will-uganda-gain-from-accepting-us-deportees?traffic_source=rss",
+      "source": "Al Jazeera English",
+      "published": "2025-08-23T07:05:22+00:00",
+      "sentiment": "positive"
+    },
+    {
+      "title": "How chess, climbing & boxing help The Hundred's unlikely run-scorer",
+      "url": "https://www.bbc.com/sport/cricket/articles/c8ry4l164mzo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2025-08-23T07:04:17+00:00",
+      "sentiment": "positive"
+    },
+    {
+      "title": "How Nigerians reinvented an Italian tinned tomato brand",
+      "url": "https://www.aljazeera.com/features/2025/8/23/how-nigerians-reinvented-an-italian-tinned-tomato-brand?traffic_source=rss",
+      "source": "Al Jazeera English",
+      "published": "2025-08-23T06:45:42+00:00",
+      "sentiment": "neutral"
+    },
     {
       "title": "Texas senate gives final approval to redrawn congressional map that heavily favours Republicans",
       "url": "https://www.theguardian.com/us-news/2025/aug/22/texas-senate-redistricting-maps",
@@ -248,27 +269,6 @@
       "source": "The Guardian",
       "published": "2025-08-23T04:00:51+00:00",
       "sentiment": "negative"
-    },
-    {
-      "title": "How English costs the English",
-      "url": "https://www.ft.com/content/bc7cd805-7a66-4860-b16d-7baf921dfe49",
-      "source": "Financial Times",
-      "published": "2025-08-23T04:00:30+00:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Tech stocks are sending a warning",
-      "url": "https://www.ft.com/content/c44c32cd-da47-4ba6-a67a-30c0059931bb",
-      "source": "Financial Times",
-      "published": "2025-08-23T04:00:30+00:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Can you run a Premier League football club?",
-      "url": "https://ig.ft.com/football-game",
-      "source": "Financial Times",
-      "published": "2025-08-23T04:00:00+00:00",
-      "sentiment": "positive"
     }
   ]
 }
