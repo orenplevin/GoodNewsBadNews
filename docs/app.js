@@ -22,16 +22,31 @@ const COLORS = {
     }
 };
 
+// Regional emojis for visual identification
+const REGION_EMOJIS = {
+    'Global': '🌍',
+    'North America': '🇺🇸',
+    'Europe': '🇪🇺',
+    'Asia-Pacific': '🌏',
+    'Middle East': '🕌',
+    'Africa': '🌍',
+    'South America': '🌎',
+    'Business': '💼',
+    'Technology': '💻',
+    'Sports': '⚽'
+};
+
 // Global state for filtering and layout
 let globalData = {
     latest: null,
     history: null,
     selectedSources: new Set(),
     allSources: [],
+    sourcesByRegion: {},
     layouts: {
         default: {
             stats: { width: 240, height: 'auto' },
-            sources: { height: 140 },
+            sources: { height: 200 }, // Increased height for regional layout
             sentiment: { width: '50%', height: 360 },
             trend: { width: '50%', height: 360 },
             publication: { width: '50%', height: 360 },
@@ -146,8 +161,28 @@ function renderSourcesList(byPublication) {
     const sourcesList = document.getElementById('sourcesList');
     sourcesList.innerHTML = '';
     
-    // Store all sources globally
-    globalData.allSources = byPublication.map(item => item.source);
+    // Group sources by region
+    const sourcesByRegion = {};
+    globalData.allSources = [];
+    
+    byPublication.forEach(item => {
+        const source = item.source;
+        const region = item.region || 'Global';
+        
+        if (!sourcesByRegion[region]) {
+            sourcesByRegion[region] = [];
+        }
+        
+        sourcesByRegion[region].push({
+            ...item,
+            region: region
+        });
+        
+        globalData.allSources.push(source);
+    });
+    
+    // Store globally for later use
+    globalData.sourcesByRegion = sourcesByRegion;
     
     // Initialize all sources as selected if none are selected yet
     if (globalData.selectedSources.size === 0) {
@@ -156,31 +191,60 @@ function renderSourcesList(byPublication) {
         });
     }
     
-    // Sort by total count
-    const sortedSources = [...byPublication].sort((a, b) => 
-        (b.positive + b.neutral + b.negative) - (a.positive + a.neutral + a.negative)
-    );
+    // Sort regions by total article count
+    const sortedRegions = Object.keys(sourcesByRegion).sort((a, b) => {
+        const countA = sourcesByRegion[a].reduce((sum, source) => sum + (source.positive + source.neutral + source.negative), 0);
+        const countB = sourcesByRegion[b].reduce((sum, source) => sum + (source.positive + source.neutral + source.negative), 0);
+        return countB - countA;
+    });
     
-    sortedSources.forEach((source, index) => {
-        const total = source.positive + source.neutral + source.negative;
-        const isSelected = globalData.selectedSources.has(source.source);
+    // Create regional sections
+    sortedRegions.forEach(region => {
+        const regionGroup = document.createElement('div');
+        regionGroup.className = 'region-group';
         
-        const sourceItem = document.createElement('div');
-        sourceItem.className = `source-item ${isSelected ? 'selected' : 'deselected'}`;
-        sourceItem.style.animationDelay = `${index * 50}ms`;
-        sourceItem.dataset.source = source.source;
+        // Region header
+        const regionHeader = document.createElement('div');
+        regionHeader.className = 'region-header';
+        const emoji = REGION_EMOJIS[region] || '🌍';
+        const totalRegionArticles = sourcesByRegion[region].reduce((sum, source) => sum + (source.positive + source.neutral + source.negative), 0);
+        regionHeader.innerHTML = `${emoji} ${region} <span style="font-size: 9px; opacity: 0.7;">(${totalRegionArticles} articles)</span>`;
         
-        sourceItem.innerHTML = `
-            <div class="source-name">${source.source}</div>
-            <div class="source-count">${total} articles</div>
-        `;
+        // Sources container for this region
+        const regionSources = document.createElement('div');
+        regionSources.className = 'region-sources';
         
-        // Add click handler for filtering
-        sourceItem.addEventListener('click', () => {
-            toggleSource(source.source);
+        // Sort sources within region by article count
+        const sortedSources = sourcesByRegion[region].sort((a, b) => 
+            (b.positive + b.neutral + b.negative) - (a.positive + a.neutral + a.negative)
+        );
+        
+        sortedSources.forEach((source, index) => {
+            const total = source.positive + source.neutral + source.negative;
+            const isSelected = globalData.selectedSources.has(source.source);
+            
+            const sourceItem = document.createElement('div');
+            sourceItem.className = `source-item ${isSelected ? 'selected' : 'deselected'}`;
+            sourceItem.style.animationDelay = `${index * 30}ms`;
+            sourceItem.dataset.source = source.source;
+            sourceItem.title = `${source.source}: ${total} articles`;
+            
+            sourceItem.innerHTML = `
+                <div class="source-name">${source.source}</div>
+                <div class="source-count">${total}</div>
+            `;
+            
+            // Add click handler for filtering
+            sourceItem.addEventListener('click', () => {
+                toggleSource(source.source);
+            });
+            
+            regionSources.appendChild(sourceItem);
         });
         
-        sourcesList.appendChild(sourceItem);
+        regionGroup.appendChild(regionHeader);
+        regionGroup.appendChild(regionSources);
+        sourcesList.appendChild(regionGroup);
     });
     
     updateSourceCount();
@@ -353,12 +417,12 @@ function renderBars(ctx, data, labelKey, valueKeys, sortBy) {
         return (b[sortBy] || 0) - (a[sortBy] || 0);
     });
     
-    const topData = sortedData.slice(0, 6);
+    const topData = sortedData.slice(0, 8); // Increased from 6 to 8 to show more sources
     
     const chartData = {
         labels: topData.map(item => {
             const name = item[labelKey];
-            return name.length > 12 ? name.substring(0, 12) + '...' : name;
+            return name.length > 10 ? name.substring(0, 10) + '...' : name; // Shortened for smaller display
         }),
         datasets: valueKeys.map((key, index) => ({
             label: key.charAt(0).toUpperCase() + key.slice(1),
@@ -380,7 +444,7 @@ function renderBars(ctx, data, labelKey, valueKeys, sortBy) {
                     stacked: true,
                     ticks: { 
                         color: COLORS.chart.text,
-                        font: { size: 11, weight: '500' }
+                        font: { size: 10, weight: '500' } // Smaller font
                     },
                     grid: { 
                         display: false
@@ -393,7 +457,7 @@ function renderBars(ctx, data, labelKey, valueKeys, sortBy) {
                     stacked: true,
                     ticks: { 
                         color: COLORS.chart.text,
-                        font: { size: 11 }
+                        font: { size: 10 } // Smaller font
                     },
                     grid: { 
                         color: COLORS.chart.grid,
@@ -525,7 +589,7 @@ function renderHeadlines(listEl, items) {
     items.forEach((item, index) => {
         const li = document.createElement('li');
         li.className = 'headline';
-        li.style.animationDelay = `${index * 50}ms`;
+        li.style.animationDelay = `${index * 30}ms`; // Faster animation
         
         const publishedDate = new Date(item.published);
         const timeAgo = getTimeAgo(publishedDate);
@@ -557,11 +621,13 @@ function getTimeAgo(date) {
     return `${Math.floor(diffInSeconds / 86400)}d ago`;
 }
 
-// Resize functionality
+// All the resize, drag & drop, and minimize functions remain the same as the original
+// [... keeping all existing resize, drag & drop, and minimize functions unchanged ...]
+
+// Initialize functionality functions (unchanged)
 function initializeResize() {
     const resizeHandles = document.querySelectorAll('.resize-handle');
     
-    // Add resize functionality to all elements
     [...resizeHandles].forEach(handle => {
         handle.addEventListener('mousedown', startResize);
     });
@@ -569,7 +635,6 @@ function initializeResize() {
     document.addEventListener('mousemove', handleResize);
     document.addEventListener('mouseup', stopResize);
     
-    // Prevent text selection during resize
     document.addEventListener('selectstart', (e) => {
         if (resizeState.isResizing) {
             e.preventDefault();
@@ -598,11 +663,9 @@ function startResize(e) {
     resizeState.startLeft = rect.left;
     resizeState.startTop = rect.top;
     
-    // Add visual feedback
     handle.classList.add('active');
     document.body.classList.add('resizing');
     
-    // Set cursor
     const handleClass = handle.className;
     if (handleClass.includes('resize-handle-right') || handleClass.includes('resize-handle-left')) {
         document.body.style.setProperty('--resize-cursor', 'ew-resize');
@@ -626,7 +689,6 @@ function handleResize(e) {
     let newWidth = resizeState.startWidth;
     let newHeight = resizeState.startHeight;
     
-    // Determine resize direction based on handle class
     const handleClass = handle.className;
     
     if (handleClass.includes('resize-handle-right')) {
@@ -653,7 +715,6 @@ function handleResize(e) {
         widget.style.height = `${newHeight}px`;
     }
     
-    // Trigger chart resize if this is a chart widget
     const canvas = widget.querySelector('canvas');
     if (canvas) {
         const chartInstance = Chart.getChart(canvas);
@@ -675,7 +736,7 @@ function stopResize(e) {
     resizeState.currentHandle = null;
 }
 
-// Drag and Drop functionality
+// Drag and Drop functionality (keeping original functions)
 function initializeDragDrop() {
     const dragHandles = document.querySelectorAll('.drag-handle');
     
@@ -688,7 +749,6 @@ function initializeDragDrop() {
 }
 
 function startDrag(e) {
-    // Don't start drag if we're already resizing
     if (resizeState.isResizing) return;
     
     e.preventDefault();
@@ -704,22 +764,16 @@ function startDrag(e) {
     dragState.startX = e.clientX;
     dragState.startY = e.clientY;
     
-    // Calculate offset from mouse to widget top-left
     const rect = widget.getBoundingClientRect();
     dragState.offsetX = e.clientX - rect.left;
     dragState.offsetY = e.clientY - rect.top;
     
-    // Create drag preview
     createDragPreview(widget, e.clientX, e.clientY);
     
-    // Add visual states
     widget.classList.add('dragging');
     document.body.classList.add('dragging');
     
-    // Create placeholder
     createPlaceholder(widget);
-    
-    // Show drop zones
     showDropZones(widget);
 }
 
@@ -773,13 +827,11 @@ function handleDrag(e) {
     
     e.preventDefault();
     
-    // Update drag preview position
     if (dragState.dragPreview) {
         dragState.dragPreview.style.left = `${e.clientX - dragState.offsetX}px`;
         dragState.dragPreview.style.top = `${e.clientY - dragState.offsetY}px`;
     }
     
-    // Check for drop targets
     const dropTarget = getDropTarget(e.clientX, e.clientY);
     updateDropIndicators(dropTarget);
 }
@@ -793,11 +845,9 @@ function getDropTarget(x, y) {
 }
 
 function updateDropIndicators(dropTarget) {
-    // Remove active class from all drop zones
     const dropZones = document.querySelectorAll('.drop-zone');
     dropZones.forEach(zone => zone.classList.remove('active'));
     
-    // Add active class to current drop target
     if (dropTarget) {
         dropTarget.classList.add('active');
     }
@@ -808,36 +858,28 @@ function stopDrag(e) {
     
     const dropTarget = getDropTarget(e.clientX, e.clientY);
     
-    // Perform the swap if there's a valid drop target
     if (dropTarget) {
         swapWidgets(dragState.currentWidget, dropTarget);
     }
     
-    // Clean up
     cleanupDrag();
 }
 
 function swapWidgets(widget1, widget2) {
-    // Get parent containers
     const parent1 = widget1.parentNode;
     const parent2 = widget2.parentNode;
     
-    // Get siblings (for position reference)
     const next1 = widget1.nextSibling;
     const next2 = widget2.nextSibling;
     
-    // Swap the widgets
     if (parent1 === parent2) {
-        // Same parent - simple swap
         parent1.insertBefore(widget2, next1);
         parent1.insertBefore(widget1, next2);
     } else {
-        // Different parents - cross swap
         parent1.insertBefore(widget2, next1);
         parent2.insertBefore(widget1, next2);
     }
     
-    // Trigger chart resize for moved chart widgets
     [widget1, widget2].forEach(widget => {
         const canvas = widget.querySelector('canvas');
         if (canvas) {
@@ -850,13 +892,11 @@ function swapWidgets(widget1, widget2) {
 }
 
 function cleanupDrag() {
-    // Remove drag preview
     if (dragState.dragPreview) {
         dragState.dragPreview.remove();
         dragState.dragPreview = null;
     }
     
-    // Remove placeholder and show original widget
     if (dragState.placeholder) {
         dragState.placeholder.remove();
         dragState.placeholder = null;
@@ -867,11 +907,9 @@ function cleanupDrag() {
         dragState.currentWidget.classList.remove('dragging');
     }
     
-    // Clean up visual states
     document.body.classList.remove('dragging');
     hideDropZones();
     
-    // Reset drag state
     dragState.isDragging = false;
     dragState.currentWidget = null;
 }
@@ -896,20 +934,17 @@ function toggleMinimize(widgetType) {
     if (!widget || !btn) return;
     
     if (globalData.minimizedWidgets.has(widgetType)) {
-        // Expand
         widget.classList.remove('minimized');
         globalData.minimizedWidgets.delete(widgetType);
         btn.textContent = '−';
         btn.title = 'Minimize';
     } else {
-        // Minimize
         widget.classList.add('minimized');
         globalData.minimizedWidgets.add(widgetType);
         btn.textContent = '+';
         btn.title = 'Expand';
     }
     
-    // Trigger chart resize for expanded charts
     if (!globalData.minimizedWidgets.has(widgetType)) {
         const canvas = widget.querySelector('canvas');
         if (canvas) {
@@ -921,7 +956,7 @@ function toggleMinimize(widgetType) {
     }
 }
 
-// Reset layout functionality
+// Reset layout functionality (keeping the same)
 function resetLayout() {
     const widgets = document.querySelectorAll('.resizable-widget, .resizable-stat');
     
@@ -938,10 +973,8 @@ function resetLayout() {
             }
         }
         
-        // Remove minimized state
         widget.classList.remove('minimized');
         
-        // Reset minimize buttons
         const btn = widget.querySelector('.minimize-btn');
         if (btn) {
             btn.textContent = '−';
@@ -949,13 +982,10 @@ function resetLayout() {
         }
     });
     
-    // Clear minimized widgets
     globalData.minimizedWidgets.clear();
     
-    // Reset widget positions (move them back to default containers)
     resetWidgetPositions();
     
-    // Resize all charts
     setTimeout(() => {
         Chart.instances.forEach(chart => {
             chart.resize();
@@ -964,7 +994,6 @@ function resetLayout() {
 }
 
 function resetWidgetPositions() {
-    // Get all widgets and their default positions
     const statsWidget = document.querySelector('[data-widget="stats"]');
     const sourcesWidget = document.querySelector('[data-widget="sources"]');
     const sentimentWidget = document.querySelector('[data-widget="sentiment"]');
@@ -973,14 +1002,12 @@ function resetWidgetPositions() {
     const topicsWidget = document.querySelector('[data-widget="topics"]');
     const headlinesWidget = document.querySelector('[data-widget="headlines"]');
     
-    // Get containers
     const statsColumn = document.querySelector('.stats-column');
     const contentColumn = document.querySelector('.content-column');
     const chartsGrid = document.querySelector('.charts-grid');
     const bottomChartsRow = document.querySelector('.bottom-charts-row');
     const headlinesSection = document.querySelector('.headlines-section');
     
-    // Move widgets back to their default positions
     if (statsWidget && statsColumn) {
         statsColumn.appendChild(statsWidget);
     }
@@ -1012,7 +1039,6 @@ function resetWidgetPositions() {
 
 // Add interactive features
 function addInteractivity() {
-    // Add refresh functionality
     const refreshBtn = document.querySelector('.refresh-btn');
     if (refreshBtn) {
         refreshBtn.addEventListener('click', () => {
@@ -1020,7 +1046,6 @@ function addInteractivity() {
         });
     }
     
-    // Add source control buttons
     const selectAllBtn = document.getElementById('selectAllSources');
     const deselectAllBtn = document.getElementById('deselectAllSources');
     
@@ -1032,13 +1057,11 @@ function addInteractivity() {
         deselectAllBtn.addEventListener('click', deselectAllSources);
     }
     
-    // Add reset layout button
     const resetLayoutBtn = document.getElementById('resetLayout');
     if (resetLayoutBtn) {
         resetLayoutBtn.addEventListener('click', resetLayout);
     }
     
-    // Initialize all functionality
     initializeResize();
     initializeMinimize();
     initializeDragDrop();
@@ -1046,7 +1069,6 @@ function addInteractivity() {
 
 (async function init() {
     try {
-        // Show loading state
         document.getElementById('generatedAt').textContent = 'Loading...';
         
         const [latest, history] = await Promise.all([
@@ -1054,11 +1076,9 @@ function addInteractivity() {
             fetchJSON('./data/history.json')
         ]);
 
-        // Store data globally
         globalData.latest = latest;
         globalData.history = history;
 
-        // Update timestamp
         const updateTime = new Date(latest.generated_at).toLocaleString('en-US', {
             month: 'short',
             day: 'numeric',
@@ -1068,7 +1088,7 @@ function addInteractivity() {
         });
         document.getElementById('generatedAt').textContent = `Last updated ${updateTime}`;
 
-        // Render sources list first (this initializes selected sources)
+        // Render sources list with regional grouping
         renderSourcesList(latest.by_publication);
 
         // Initial dashboard render with all sources selected
@@ -1095,14 +1115,12 @@ function addInteractivity() {
             );
         });
         
-        // Add interactivity
         addInteractivity();
         
     } catch (error) {
         console.error('Error loading dashboard:', error);
         document.getElementById('generatedAt').textContent = 'Error loading data';
         
-        // Show error message
         const container = document.querySelector('.main-content');
         const errorDiv = document.createElement('div');
         errorDiv.style.cssText = `
