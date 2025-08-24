@@ -1,10 +1,10 @@
 {
-  "generated_at": "2025-08-24T05:23:59.469486+00:00",
+  "generated_at": "2025-08-24T05:46:26.009347+00:00",
   "window_hours": 24,
   "totals": {
-    "positive": 784,
-    "neutral": 288,
-    "negative": 737
+    "positive": 788,
+    "neutral": 286,
+    "negative": 743
   },
   "by_publication": [
     {
@@ -19,16 +19,16 @@
       "source": "Independent",
       "positive": 114,
       "neutral": 43,
-      "negative": 108,
-      "count": 265,
+      "negative": 107,
+      "count": 264,
       "region": "Europe"
     },
     {
       "source": "Times of India",
-      "positive": 67,
+      "positive": 69,
       "neutral": 6,
-      "negative": 50,
-      "count": 123,
+      "negative": 55,
+      "count": 130,
       "region": "Asia-Pacific"
     },
     {
@@ -40,28 +40,28 @@
       "region": "North America"
     },
     {
+      "source": "Australian Broadcasting Corporation",
+      "positive": 54,
+      "neutral": 6,
+      "negative": 25,
+      "count": 85,
+      "region": "Asia-Pacific"
+    },
+    {
       "source": "Channel News Asia",
       "positive": 33,
-      "neutral": 26,
+      "neutral": 25,
       "negative": 25,
-      "count": 84,
+      "count": 83,
       "region": "Asia-Pacific"
     },
     {
       "source": "BBC Sport",
-      "positive": 53,
+      "positive": 52,
       "neutral": 13,
       "negative": 18,
-      "count": 84,
+      "count": 83,
       "region": "Sports"
-    },
-    {
-      "source": "Australian Broadcasting Corporation",
-      "positive": 52,
-      "neutral": 6,
-      "negative": 24,
-      "count": 82,
-      "region": "Asia-Pacific"
     },
     {
       "source": "Sky Sports",
@@ -83,32 +83,32 @@
       "source": "South China Morning Post",
       "positive": 30,
       "neutral": 0,
-      "negative": 34,
-      "count": 64,
+      "negative": 33,
+      "count": 63,
       "region": "Asia-Pacific"
     },
     {
       "source": "CBS News",
       "positive": 22,
-      "neutral": 6,
+      "neutral": 5,
       "negative": 30,
-      "count": 58,
+      "count": 57,
       "region": "North America"
     },
     {
       "source": "The Guardian",
-      "positive": 22,
+      "positive": 23,
       "neutral": 1,
       "negative": 27,
-      "count": 50,
+      "count": 51,
       "region": "Global"
     },
     {
       "source": "BBC News",
       "positive": 14,
       "neutral": 10,
-      "negative": 25,
-      "count": 49,
+      "negative": 26,
+      "count": 50,
       "region": "Global"
     },
     {
@@ -123,8 +123,8 @@
       "source": "France 24",
       "positive": 13,
       "neutral": 3,
-      "negative": 20,
-      "count": 36,
+      "negative": 21,
+      "count": 37,
       "region": "Europe"
     },
     {
@@ -153,10 +153,10 @@
     },
     {
       "source": "Times of Israel",
-      "positive": 6,
+      "positive": 5,
       "neutral": 1,
       "negative": 16,
-      "count": 23,
+      "count": 22,
       "region": "Middle East"
     },
     {
@@ -176,27 +176,19 @@
       "region": "Europe"
     },
     {
+      "source": "Euronews",
+      "positive": 10,
+      "neutral": 2,
+      "negative": 7,
+      "count": 19,
+      "region": "Europe"
+    },
+    {
       "source": "Irish Times",
       "positive": 3,
       "neutral": 8,
       "negative": 8,
       "count": 19,
-      "region": "Europe"
-    },
-    {
-      "source": "Euronews",
-      "positive": 8,
-      "neutral": 2,
-      "negative": 7,
-      "count": 17,
-      "region": "Europe"
-    },
-    {
-      "source": "Sputnik News",
-      "positive": 7,
-      "neutral": 1,
-      "negative": 9,
-      "count": 17,
       "region": "Europe"
     },
     {
@@ -212,6 +204,14 @@
       "positive": 3,
       "neutral": 0,
       "negative": 13,
+      "count": 16,
+      "region": "Europe"
+    },
+    {
+      "source": "Sputnik News",
+      "positive": 6,
+      "neutral": 1,
+      "negative": 9,
       "count": 16,
       "region": "Europe"
     },
@@ -347,45 +347,45 @@
   "by_region": [
     {
       "region": "Asia-Pacific",
-      "positive": 277,
-      "neutral": 112,
-      "negative": 250,
-      "count": 639
+      "positive": 281,
+      "neutral": 111,
+      "negative": 255,
+      "count": 647
     },
     {
       "region": "Europe",
-      "positive": 175,
+      "positive": 177,
       "neutral": 62,
       "negative": 217,
-      "count": 454
+      "count": 456
     },
     {
       "region": "Sports",
-      "positive": 134,
+      "positive": 133,
       "neutral": 54,
       "negative": 40,
-      "count": 228
+      "count": 227
     },
     {
       "region": "North America",
       "positive": 78,
-      "neutral": 26,
+      "neutral": 25,
       "negative": 115,
-      "count": 219
+      "count": 218
     },
     {
       "region": "Middle East",
-      "positive": 24,
+      "positive": 23,
       "neutral": 9,
       "negative": 59,
-      "count": 92
+      "count": 91
     },
     {
       "region": "Global",
       "positive": 21,
       "neutral": 13,
-      "negative": 30,
-      "count": 64
+      "negative": 31,
+      "count": 65
     },
     {
       "region": "Technology",
@@ -420,36 +420,36 @@
     {
       "topic": "Tech",
       "positive": 293,
-      "neutral": 67,
-      "negative": 270,
-      "count": 630
+      "neutral": 66,
+      "negative": 273,
+      "count": 632
     },
     {
       "topic": "Other",
-      "positive": 170,
+      "positive": 172,
       "neutral": 110,
-      "negative": 171,
-      "count": 451
+      "negative": 172,
+      "count": 454
     },
     {
       "topic": "Politics",
-      "positive": 147,
+      "positive": 148,
       "neutral": 34,
       "negative": 146,
-      "count": 327
+      "count": 328
     },
     {
       "topic": "Sports",
-      "positive": 80,
+      "positive": 81,
       "neutral": 46,
       "negative": 42,
-      "count": 168
+      "count": 169
     },
     {
       "topic": "World",
       "positive": 43,
-      "neutral": 15,
-      "negative": 47,
+      "neutral": 14,
+      "negative": 48,
       "count": 105
     },
     {
@@ -470,8 +470,8 @@
       "topic": "Science",
       "positive": 11,
       "neutral": 5,
-      "negative": 10,
-      "count": 26
+      "negative": 11,
+      "count": 27
     },
     {
       "topic": "Entertainment",
@@ -555,6 +555,22 @@
       "sentiment": "neutral"
     },
     {
+      "title": "Big blow! Australia pacer out for 12 months, set to miss Ashes series - here's why",
+      "url": "https://timesofindia.indiatimes.com/sports/cricket/news/big-blow-australia-pacer-out-for-12-months-set-to-miss-ashes-series-heres-why/articleshow/123480770.cms",
+      "source": "Times of India",
+      "region": "Asia-Pacific",
+      "published": "2025-08-24T10:46:01+05:30",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Nayara Energy hit by new US, EU sanctions trouble; EPC work hit - Details",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/nayara-energy-indias-russia-backed-refinery-faces-fresh-us-eu-sanctions-trouble-epc-work-hit-heres-whats-happening/articleshow/123480672.cms",
+      "source": "Times of India",
+      "region": "Asia-Pacific",
+      "published": "2025-08-24T10:39:51+05:30",
+      "sentiment": "positive"
+    },
+    {
       "title": "Chief Minister Chandrababu Naidu calls upon the TDP leaders to thwart the YSRCP\u2019s false propaganda",
       "url": "https://www.thehindu.com/news/national/andhra-pradesh/chief-minister-chandrababu-naidu-calls-upon-the-tdp-leaders-to-thwart-the-ysrcps-false-propaganda/article69970817.ece",
       "source": "The Hindu",
@@ -603,6 +619,14 @@
       "sentiment": "negative"
     },
     {
+      "title": "Drake passage 2025 earthquake: 7.4-magnitude tremor; world\u2019s most dangerous waters",
+      "url": "https://timesofindia.indiatimes.com/world/us/drake-passage-2025-earthquake-what-the-7-4-magnitude-tremor-reveals-about-the-worlds-most-dangerous-waters/articleshow/123475602.cms",
+      "source": "Times of India",
+      "region": "Asia-Pacific",
+      "published": "2025-08-24T10:14:12+05:30",
+      "sentiment": "negative"
+    },
+    {
       "title": "Olympian questions Sharad Pawar Museum naming - 'Wish it was named after cricketer'",
       "url": "https://timesofindia.indiatimes.com/sports/cricket/news/controversial-olympian-questions-sharad-pawar-cricket-museum-naming-wish-it-was-named-after-a-cricketer/articleshow/123480347.cms",
       "source": "Times of India",
@@ -616,6 +640,22 @@
       "source": "Times of India",
       "region": "Asia-Pacific",
       "published": "2025-08-24T10:05:16+05:30",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Cosmic origin: Did comets play a role in shaping Earth?",
+      "url": "https://timesofindia.indiatimes.com/science/cosmic-origin-did-comets-play-a-role-in-shaping-earth-nasa-discovers-hydrogen-on-devil-comet-formed-water/articleshow/123479648.cms",
+      "source": "Times of India",
+      "region": "Asia-Pacific",
+      "published": "2025-08-24T10:03:08+05:30",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Apple's betrayal: Ex-engineer stole 63 secret files; Oppo conspiracy exposed in leaked messages",
+      "url": "https://timesofindia.indiatimes.com/technology/tech-news/apple-sues-ex-engineer-who-joined-oppo-for-stealing-trade-secrets-heres-why-theft-lawsuit-also-blames-chinas-oppo/articleshow/123480432.cms",
+      "source": "Times of India",
+      "region": "Asia-Pacific",
+      "published": "2025-08-24T09:59:39+05:30",
       "sentiment": "negative"
     },
     {
@@ -827,6 +867,14 @@
       "sentiment": "positive"
     },
     {
+      "title": "Ahmedabad school murder: \u2018My son\u2019s killer deserves nothing less than hanging'",
+      "url": "https://timesofindia.indiatimes.com/city/ahmedabad/ahmedabad-school-murder-my-sons-killer-deserves-nothing-less-than-hanging-says-nayans-father-slams-schools-role/articleshow/123479297.cms",
+      "source": "Times of India",
+      "region": "Asia-Pacific",
+      "published": "2025-08-24T07:31:12+05:30",
+      "sentiment": "negative"
+    },
+    {
       "title": "3-year-old 'kidnapped' Surat boy found murdered in dustbin of train washroom",
       "url": "https://timesofindia.indiatimes.com/city/mumbai/mumbai-horror-3-year-old-kidnapped-surat-boy-found-murdered-in-dustbin-of-train-washroom-cousin-prime-suspect/articleshow/123479290.cms",
       "source": "Times of India",
@@ -849,6 +897,14 @@
       "region": "Asia-Pacific",
       "published": "2025-08-24T07:22:39+05:30",
       "sentiment": "positive"
+    },
+    {
+      "title": "Telangana teacher mixes pesticide in drinking water: 11 students fall ill",
+      "url": "https://timesofindia.indiatimes.com/city/hyderabad/teacher-mixes-pesticide-in-drinking-water-11-students-fall-ill-in-telangana-accused-did-it-to-frame-colleagues/articleshow/123479173.cms",
+      "source": "Times of India",
+      "region": "Asia-Pacific",
+      "published": "2025-08-24T07:15:55+05:30",
+      "sentiment": "negative"
     },
     {
       "title": "Historic win for Argentina throws open Rugby Championship",
@@ -899,12 +955,28 @@
       "sentiment": "positive"
     },
     {
+      "title": "Latest news bulletin | August 24th, 2025 \u2013 Morning",
+      "url": "https://www.euronews.com/video/2025/08/24/latest-news-bulletin-august-24th-2025-morning",
+      "source": "Euronews",
+      "region": "Europe",
+      "published": "2025-08-24T07:00:33+02:00",
+      "sentiment": "positive"
+    },
+    {
       "title": "\u2018There\u2019s an appetite for newer products which is reflective of a younger India\u2019, says Mallika Srinivasan",
       "url": "https://www.thehindu.com/news/national/tamil-nadu/theres-an-appetite-for-newer-products-which-is-reflective-of-a-younger-india-says-mallika-srinivasan/article69948818.ece",
       "source": "The Hindu",
       "region": "Asia-Pacific",
       "published": "2025-08-24T07:00:00+05:30",
       "sentiment": "neutral"
+    },
+    {
+      "title": "Nursery and cr\u00e8che: How much do families spend on childcare across Europe?",
+      "url": "https://www.euronews.com/business/2025/08/24/nursery-and-creche-how-much-do-families-spend-on-childcare-across-europe",
+      "source": "Euronews",
+      "region": "Europe",
+      "published": "2025-08-24T07:00:00+02:00",
+      "sentiment": "positive"
     },
     {
       "title": "Greater Noida woman killed for \u20b936 lakh dowry, husband held",
@@ -968,6 +1040,14 @@
       "source": "The Hindu",
       "region": "Asia-Pacific",
       "published": "2025-08-24T06:33:37+05:30",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Global warming curbing workers' productivity: WHO",
+      "url": "https://timesofindia.indiatimes.com/times-special/environment/global-warming-curbing-workers-productivity-who/articleshow/123478776.cms",
+      "source": "Times of India",
+      "region": "Asia-Pacific",
+      "published": "2025-08-24T06:28:48+05:30",
       "sentiment": "positive"
     },
     {
@@ -1043,12 +1123,36 @@
       "sentiment": "positive"
     },
     {
+      "title": "Downed Ukrainian drone causes short-lived fire at Russian nuclear power plant",
+      "url": "https://www.france24.com/en/europe/20250824-downed-ukrainian-drone-causes-short-lived-fire-at-russian-nuclear-power-plant",
+      "source": "France 24",
+      "region": "Europe",
+      "published": "2025-08-24T05:36:13+00:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Tens of thousands protest in nationwide action against war in Gaza",
+      "url": "https://www.abc.net.au/news/2025-08-24/pro-palestian-rallies-protest-brisbane-melbourne-sydney/105690512",
+      "source": "Australian Broadcasting Corporation",
+      "region": "Asia-Pacific",
+      "published": "2025-08-24T05:33:58+00:00",
+      "sentiment": "negative"
+    },
+    {
       "title": "'She doesn\u2019t include Blake': Taylor Swift leans on Travis Kelce\u2019s support",
       "url": "https://timesofindia.indiatimes.com/sports/nfl/news/she-doesnt-include-blake-taylor-swift-leans-on-travis-kelces-support-and-no-longer-values-blake-livelys-advice/articleshow/123467910.cms",
       "source": "Times of India",
       "region": "Asia-Pacific",
       "published": "2025-08-24T05:32:00+05:30",
       "sentiment": "positive"
+    },
+    {
+      "title": "As Europe's fear of war grows, French join military reserves",
+      "url": "https://www.dw.com/en/as-europe-s-fear-of-war-grows-french-join-military-reserves/a-73693860?maca=en-rss-en-all-1573-xml-mrss",
+      "source": "Deutsche Welle",
+      "region": "Europe",
+      "published": "2025-08-24T05:32:00+00:00",
+      "sentiment": "negative"
     },
     {
       "title": "Tobacco control laws are out of step with smokeless tobacco",
@@ -1065,6 +1169,14 @@
       "region": "Asia-Pacific",
       "published": "2025-08-24T05:23:52+05:30",
       "sentiment": "negative"
+    },
+    {
+      "title": "Taiwan referendum on reopening last nuclear plant fails",
+      "url": "https://www.theguardian.com/world/2025/aug/24/taiwan-referendum-on-reopening-last-nuclear-plant-fails",
+      "source": "The Guardian",
+      "region": "Europe",
+      "published": "2025-08-24T05:17:03+00:00",
+      "sentiment": "positive"
     },
     {
       "title": "Odisha clerk amasses property 201% excess of his income",
@@ -1169,118 +1281,6 @@
       "region": "Asia-Pacific",
       "published": "2025-08-24T05:00:00+08:00",
       "sentiment": "positive"
-    },
-    {
-      "title": "\u2018Every culture deserves to be heard\u2019: Ngee Ann Poly\u2019s first Malay student taking Chinese Studies",
-      "url": "https://www.straitstimes.com/singapore/parenting-education/every-culture-deserves-to-be-heard-ngee-ann-poly-chinese-studies-takes-in-first-malay-and-chinese",
-      "source": "Straits Times",
-      "region": "Asia-Pacific",
-      "published": "2025-08-24T05:00:00+08:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "How sunscreen became the subject of troubling conspiracy theories",
-      "url": "https://www.independent.co.uk/life-style/sunscreen-conspiracies-spf-skin-cancer-b2812532.html",
-      "source": "Independent",
-      "region": "Europe",
-      "published": "2025-08-24T05:00:00+00:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Where the philosophy of happiness meets rail replacement buses",
-      "url": "https://www.independent.co.uk/travel/news-and-advice/philosophy-happiness-rail-replacement-buses-bank-holiday-b2813096.html",
-      "source": "Independent",
-      "region": "Europe",
-      "published": "2025-08-24T05:00:00+00:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "20 autumn TV shows everyone will be talking about",
-      "url": "https://www.independent.co.uk/arts-entertainment/tv/features/best-tv-2025-autumn-watch-series-netflix-b2812562.html",
-      "source": "Independent",
-      "region": "Europe",
-      "published": "2025-08-24T05:00:00+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Nikolaj Coster-Waldau: \u2018I had a very uncomfortable experience on my first film, before intimacy coordinators\u2019",
-      "url": "https://www.independent.co.uk/arts-entertainment/tv/features/nikolaj-coster-waldau-king-conqueror-game-thrones-b2812412.html",
-      "source": "Independent",
-      "region": "Europe",
-      "published": "2025-08-24T05:00:00+00:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Solve two Dublin problems in one go: put Molly Malone on Daniel O\u2019Connell\u2019s plinth",
-      "url": "https://www.irishtimes.com/ireland/2025/08/24/solve-two-dublin-problems-in-one-go-put-molly-malone-on-daniel-oconnells-plinth/",
-      "source": "Irish Times",
-      "region": "Europe",
-      "published": "2025-08-24T05:00:00+00:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Northern Ireland\u2019s Dark Hedges are dying: \u2018Make the most of it, folks\u2019",
-      "url": "https://www.irishtimes.com/ireland/2025/08/23/northern-irelands-dark-hedges-are-dying-make-the-most-of-it-folks/",
-      "source": "Irish Times",
-      "region": "Europe",
-      "published": "2025-08-24T05:00:00+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Hurricane Katrina 20 years on: An Irish couple\u2019s unforgettable honeymoon in New Orleans",
-      "url": "https://www.irishtimes.com/environment/2025/08/24/hurricane-katrina-20-years-on-an-irish-couples-unforgettable-honeymoon-in-new-orleans/",
-      "source": "Irish Times",
-      "region": "Europe",
-      "published": "2025-08-24T05:00:00+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "LIVE: Israel pounds Gaza; protesters across globe denounce Gaza City famine",
-      "url": "https://www.aljazeera.com/news/liveblog/2025/8/24/live-israel-pounds-gaza-protesters-across-globe-denounce-gaza-city-famine?traffic_source=rss",
-      "source": "Al Jazeera English",
-      "region": "Middle East",
-      "published": "2025-08-24T05:00:00+00:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "HP Coupon Codes and Deals: Up to 60% Off | August 2025",
-      "url": "https://www.wired.com/story/hp-coupon-code/",
-      "source": "Wired",
-      "region": "Technology",
-      "published": "2025-08-24T05:00:00+00:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Alligator Alcatraz could be shut down. Ron DeSantis has a backup plan",
-      "url": "https://www.independent.co.uk/news/world/americas/us-politics/alligator-alcatraz-closing-desantis-deportation-b2813175.html",
-      "source": "Independent",
-      "region": "Europe",
-      "published": "2025-08-24T04:59:58+00:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Scuffles, arrests as protesters across UK rally against asylum hotels",
-      "url": "https://www.aljazeera.com/news/2025/8/24/scuffles-arrests-as-protesters-across-uk-rally-against-asylum-hotels?traffic_source=rss",
-      "source": "Al Jazeera English",
-      "region": "Middle East",
-      "published": "2025-08-24T04:55:02+00:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Milan stumble out of the blocks with defeat to Cremonese",
-      "url": "https://www.channelnewsasia.com/sport/milan-stumble-out-blocks-defeat-cremonese-5310966",
-      "source": "Channel News Asia",
-      "region": "Asia-Pacific",
-      "published": "2025-08-24T04:52:44+08:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "4 named in chargesheet of Kolkata college gang-rape case",
-      "url": "https://timesofindia.indiatimes.com/india/4-named-in-chargesheet-of-kolkata-college-gang-rape-case/articleshow/123478147.cms",
-      "source": "Times of India",
-      "region": "Asia-Pacific",
-      "published": "2025-08-24T04:48:13+05:30",
-      "sentiment": "neutral"
     }
   ]
 }
