@@ -1,328 +1,123 @@
-<!doctype html>
+
+<!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>News Sentiment Dashboard</title>
-<link rel="stylesheet" href="./styles.css" />
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/wordcloud@1.2.2/src/wordcloud2.min.js"></script>
-</head>
-<body>
-<!-- Background gradients -->
-<div class="bg-gradient"></div>
-<div class="bg-gradient-2"></div>
-
-<div class="dashboard-container">
-  <!-- Main Content - Full Screen -->
-  <main class="main-content">
-    <!-- Header -->
-    <header class="main-header">
-      <div class="header-left">
-        <div class="header-subtitle">
-          <h1 class="page-title">goodnewsbadnews.xyz</h1>
-          <p class="page-subtitle">analyzing news headlines across the web from multiple global sources</p>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>News Sentiment Dashboard</title>
+    <!-- Load a modern Google font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Local stylesheet for layout and dark theme -->
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Chart.js from CDN -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"
+      integrity="sha256-yDQ4+PiPmMdQPV6wZbXY8fZUSrTIsvWle7DW30HjjoM="
+      crossorigin="anonymous"
+      defer
+    ></script>
+    <!-- Main application script -->
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <div class="dashboard">
+      <!-- Sidebar for source filters -->
+      <aside class="sidebar">
+        <h2>Sources</h2>
+        <div class="source-controls">
+          <button id="selectAllSources" class="btn small">All</button>
+          <button id="deselectAllSources" class="btn small">None</button>
         </div>
-      </div>
-      <div class="header-right">
-        <div class="status-indicator">
-          <div class="status-dot"></div>
-          <span class="status-text" id="generatedAt">Loading...</span>
-        </div>
-        <a href="headlines.html" class="header-btn" title="View All Headlines">
-          📰 All Headlines
-        </a>
-        <button class="reset-layout-btn" id="resetLayout" title="Reset Layout">
-          🔄 Reset Layout
-        </button>
-      </div>
-    </header>
-
-    <!-- Main Dashboard Grid -->
-    <div class="dashboard-grid" id="dashboardGrid">
-      <!-- Left Column - Global News Sources (Now as a scrollable list) -->
-      <div class="sources-column resizable-widget" data-widget="sources" style="width: 320px;">
-        <div class="resize-handle resize-handle-right"></div>
-        <div class="widget-header">
-          <div class="drag-handle" title="Drag to move widget">⋮⋮</div>
-          <h3>🌍 Global News Sources</h3>
-          <div class="widget-controls">
-            <button class="widget-btn minimize-btn" data-widget="sources">−</button>
+        <div id="sourcesList" class="sources-list"></div>
+      </aside>
+      <!-- Main content area -->
+      <main class="main">
+        <header class="main-header">
+          <div class="header-left">
+            <h1 class="page-title">goodnewsbadnews.xyz</h1>
+            <p class="page-subtitle">
+              analyzing news headlines across the web from multiple global sources
+            </p>
           </div>
-        </div>
-        
-        <div class="widget-content" id="sourcesContent">
-          <div class="sources-controls">
-            <button id="selectAllSources" class="sources-btn">All</button>
-            <button id="deselectAllSources" class="sources-btn">None</button>
-            <div class="source-count-badge" id="sourceCountBadge">0/0</div>
+          <div class="header-right">
+            <span id="generatedAt" class="status-text">Loading…</span>
           </div>
-          <div class="sources-vertical" id="sourcesList">
-            <!-- Regional sources will be populated by JavaScript as a list -->
+        </header>
+        <!-- Summary statistics -->
+        <div class="stats-grid">
+          <div class="stat-card" id="totalStat">
+            <p class="stat-title">Total Articles</p>
+            <span class="stat-value" id="totalCount">0</span>
           </div>
-        </div>
-      </div>
-
-      <!-- Right Column - Main Content -->
-      <div class="content-column">
-        <!-- Key Metrics Section (Horizontal grid) -->
-        <section class="metrics-section">
-          <div class="metrics-grid">
-            <div class="stat-card gradient-4 resizable-stat" data-widget="total-stat">
-              <div class="resize-handle resize-handle-bottom"></div>
-              <div class="stat-content">
-                <div class="stat-value" id="totalCount">0</div>
-                <div class="stat-label">TOTAL ARTICLES</div>
-                <div class="stat-trend">+2% from yesterday</div>
-              </div>
-              <div class="stat-icon">📰</div>
-            </div>
-            
-            <div class="stat-card gradient-1 resizable-stat" data-widget="positive-stat">
-              <div class="resize-handle resize-handle-bottom"></div>
-              <div class="stat-content">
-                <div class="stat-value" id="positiveCount">0</div>
-                <div class="stat-label">POSITIVE</div>
-                <div class="stat-trend">+12% from yesterday</div>
-              </div>
-              <div class="stat-icon">😊</div>
-            </div>
-            
-            <div class="stat-card gradient-2 resizable-stat" data-widget="neutral-stat">
-              <div class="resize-handle resize-handle-bottom"></div>
-              <div class="stat-content">
-                <div class="stat-value" id="neutralCount">0</div>
-                <div class="stat-label">NEUTRAL</div>
-                <div class="stat-trend">-3% from yesterday</div>
-              </div>
-              <div class="stat-icon">😐</div>
-            </div>
-            
-            <div class="stat-card gradient-3 resizable-stat" data-widget="negative-stat">
-              <div class="resize-handle resize-handle-bottom"></div>
-              <div class="stat-content">
-                <div class="stat-value" id="negativeCount">0</div>
-                <div class="stat-label">NEGATIVE</div>
-                <div class="stat-trend">-8% from yesterday</div>
-              </div>
-              <div class="stat-icon">😟</div>
-            </div>
+          <div class="stat-card positive" id="positiveStat">
+            <p class="stat-title">Positive</p>
+            <span class="stat-value" id="positiveCount">0</span>
           </div>
-        </section>
-
-        <!-- PRIMARY Charts Grid -->
-        <div class="charts-grid">
-          <!-- Sentiment Distribution Chart -->
-          <div class="chart-card large-chart resizable-widget" data-widget="sentiment" style="width: 33.33%; height: 360px;">
-            <div class="resize-handle resize-handle-right"></div>
-            <div class="resize-handle resize-handle-bottom"></div>
-            <div class="resize-handle resize-handle-corner"></div>
-            <div class="widget-header chart-header">
-              <div class="drag-handle" title="Drag to move widget">⋮⋮</div>
-              <h3>Sentiment Distribution</h3>
-              <div class="chart-actions">
-                <button class="action-btn">📊</button>
-                <button class="widget-btn minimize-btn" data-widget="sentiment">−</button>
-              </div>
-            </div>
-            <div class="widget-content">
-              <div class="chart-container">
-                <canvas id="overallChart"></canvas>
-              </div>
-            </div>
+          <div class="stat-card neutral" id="neutralStat">
+            <p class="stat-title">Neutral</p>
+            <span class="stat-value" id="neutralCount">0</span>
           </div>
-          
-          <!-- 7-Day Trend Chart -->
-          <div class="chart-card resizable-widget" data-widget="trend" style="width: 33.33%; height: 360px;">
-            <div class="resize-handle resize-handle-left"></div>
-            <div class="resize-handle resize-handle-bottom"></div>
-            <div class="resize-handle resize-handle-corner-left"></div>
-            <div class="widget-header chart-header">
-              <div class="drag-handle" title="Drag to move widget">⋮⋮</div>
-              <h3>7-Day Trend</h3>
-              <div class="chart-legend">
-                <div class="legend-item">
-                  <div class="legend-dot positive"></div>
-                  <span>Positive</span>
-                </div>
-                <div class="legend-item">
-                  <div class="legend-dot neutral"></div>
-                  <span>Neutral</span>
-                </div>
-                <div class="legend-item">
-                  <div class="legend-dot negative"></div>
-                  <span>Negative</span>
-                </div>
-                <button class="widget-btn minimize-btn" data-widget="trend">−</button>
-              </div>
-            </div>
-            <div class="widget-content">
-              <div class="chart-container">
-                <canvas id="trendChart"></canvas>
-              </div>
-            </div>
-          </div>
-
-          <!-- Regional Distribution Chart -->
-          <div class="chart-card resizable-widget" data-widget="regions" style="width: 33.33%; height: 360px;">
-            <div class="resize-handle resize-handle-left"></div>
-            <div class="resize-handle resize-handle-bottom"></div>
-            <div class="resize-handle resize-handle-corner-left"></div>
-            <div class="widget-header chart-header">
-              <div class="drag-handle" title="Drag to move widget">⋮⋮</div>
-              <h3>Regional Sentiment</h3>
-              <div class="chart-actions">
-                <button class="action-btn">🌍</button>
-                <button class="widget-btn minimize-btn" data-widget="regions">−</button>
-              </div>
-            </div>
-            <div class="widget-content">
-              <div class="chart-container">
-                <canvas id="regionChart"></canvas>
-              </div>
-            </div>
+          <div class="stat-card negative" id="negativeStat">
+            <p class="stat-title">Negative</p>
+            <span class="stat-value" id="negativeCount">0</span>
           </div>
         </div>
-
-        <!-- SECONDARY Charts Grid -->
-        <div class="charts-grid-secondary">
-          <div class="chart-card resizable-widget" data-widget="publication" style="width: 33.33%; height: 360px;">
-            <div class="resize-handle resize-handle-right"></div>
-            <div class="resize-handle resize-handle-bottom"></div>
-            <div class="resize-handle resize-handle-corner"></div>
-            <div class="widget-header chart-header">
-              <div class="drag-handle" title="Drag to move widget">⋮⋮</div>
-              <h3>By Publication</h3>
-              <div class="chart-controls">
-                <select class="modern-select" id="pubSort">
-                  <option value="count">Total Articles</option>
-                  <option value="positive">Most Positive</option>
-                  <option value="neutral">Most Neutral</option>
-                  <option value="negative">Most Negative</option>
-                </select>
-                <button class="widget-btn minimize-btn" data-widget="publication">−</button>
-              </div>
-            </div>
-            <div class="widget-content">
-              <div class="chart-container">
-                <canvas id="pubChart"></canvas>
-              </div>
-            </div>
+        <!-- Charts and widgets -->
+        <div class="widgets-grid">
+          <!-- Sentiment distribution -->
+          <div class="chart-widget">
+            <h3 class="widget-title">Sentiment Distribution</h3>
+            <canvas id="overallChart"></canvas>
           </div>
-          
-          <div class="chart-card resizable-widget" data-widget="topics" style="width: 33.33%; height: 360px;">
-            <div class="resize-handle resize-handle-left"></div>
-            <div class="resize-handle resize-handle-bottom"></div>
-            <div class="resize-handle resize-handle-corner-left"></div>
-            <div class="widget-header chart-header">
-              <div class="drag-handle" title="Drag to move widget">⋮⋮</div>
-              <h3>By Topic</h3>
-              <div class="chart-controls">
-                <div class="chart-subtitle">Distribution across categories</div>
-                <button class="widget-btn minimize-btn" data-widget="topics">−</button>
-              </div>
-            </div>
-            <div class="widget-content">
-              <div class="chart-container">
-                <canvas id="topicChart"></canvas>
-              </div>
-            </div>
+          <!-- 7‑day trend -->
+          <div class="chart-widget">
+            <h3 class="widget-title">7‑Day Trend</h3>
+            <canvas id="trendChart"></canvas>
           </div>
-
-          <!-- Topic Trend Chart -->
-          <div class="chart-card resizable-widget" data-widget="topic-trend" style="width: 33.33%; height: 360px;">
-            <div class="resize-handle resize-handle-left"></div>
-            <div class="resize-handle resize-handle-bottom"></div>
-            <div class="resize-handle resize-handle-corner-left"></div>
-            <div class="widget-header chart-header">
-              <div class="drag-handle" title="Drag to move widget">⋮⋮</div>
-              <h3>Topic Trends</h3>
-              <div class="chart-actions">
-                <button class="action-btn">📈</button>
-                <button class="widget-btn minimize-btn" data-widget="topic-trend">−</button>
-              </div>
-            </div>
-            <div class="widget-content">
-              <div class="chart-container">
-                <canvas id="topicTrendChart"></canvas>
-              </div>
-            </div>
+          <!-- Regional sentiment -->
+          <div class="chart-widget">
+            <h3 class="widget-title">Regional Sentiment</h3>
+            <canvas id="regionChart"></canvas>
+          </div>
+          <!-- By publication -->
+          <div class="chart-widget">
+            <h3 class="widget-title">By Publication</h3>
+            <label for="pubSort" class="sr-only">Sort by</label>
+            <select id="pubSort" class="dropdown">
+              <option value="count" selected>Total Articles</option>
+              <option value="positive">Most Positive</option>
+              <option value="neutral">Most Neutral</option>
+              <option value="negative">Most Negative</option>
+            </select>
+            <canvas id="pubChart"></canvas>
+          </div>
+          <!-- By topic -->
+          <div class="chart-widget">
+            <h3 class="widget-title">By Topic</h3>
+            <canvas id="topicChart"></canvas>
+          </div>
+          <!-- Trending keywords -->
+          <div class="chart-widget">
+            <h3 class="widget-title">Trending Keywords</h3>
+            <label for="keywordsSentiment" class="sr-only">Filter by sentiment</label>
+            <select id="keywordsSentiment" class="dropdown">
+              <option value="all" selected>All Sentiments</option>
+              <option value="positive">Positive Only</option>
+              <option value="negative">Negative Only</option>
+            </select>
+            <canvas id="keywordsChart"></canvas>
           </div>
         </div>
-
-        <!-- TERTIARY Charts Grid - Word Cloud and Regional Comparison -->
-        <div class="charts-grid-tertiary">
-          <!-- Word Cloud -->
-          <div class="chart-card resizable-widget" data-widget="wordcloud" style="width: 50%; height: 400px;">
-            <div class="resize-handle resize-handle-right"></div>
-            <div class="resize-handle resize-handle-bottom"></div>
-            <div class="resize-handle resize-handle-corner"></div>
-            <div class="widget-header chart-header">
-              <div class="drag-handle" title="Drag to move widget">⋮⋮</div>
-              <h3>Trending Keywords</h3>
-              <div class="chart-actions">
-                <select class="modern-select" id="wordcloudSentiment">
-                  <option value="all">All Sentiments</option>
-                  <option value="positive">Positive Only</option>
-                  <option value="negative">Negative Only</option>
-                </select>
-                <button class="widget-btn minimize-btn" data-widget="wordcloud">−</button>
-              </div>
-            </div>
-            <div class="widget-content">
-              <div class="wordcloud-container" id="wordcloudContainer">
-                <canvas id="wordcloudCanvas"></canvas>
-              </div>
-            </div>
-          </div>
-
-          <!-- Regional Comparison -->
-          <div class="chart-card resizable-widget" data-widget="regional-compare" style="width: 50%; height: 400px;">
-            <div class="resize-handle resize-handle-left"></div>
-            <div class="resize-handle resize-handle-bottom"></div>
-            <div class="resize-handle resize-handle-corner-left"></div>
-            <div class="widget-header chart-header">
-              <div class="drag-handle" title="Drag to move widget">⋮⋮</div>
-              <h3>Regional Comparison</h3>
-              <div class="chart-actions">
-                <button class="action-btn">🌐</button>
-                <button class="widget-btn minimize-btn" data-widget="regional-compare">−</button>
-              </div>
-            </div>
-            <div class="widget-content">
-              <div class="chart-container">
-                <canvas id="regionalCompareChart"></canvas>
-              </div>
-            </div>
-          </div>
+        <!-- Latest headlines -->
+        <div class="headlines-widget">
+          <h3 class="widget-title">Latest Headlines</h3>
+          <p id="headlinesCount" class="headline-count">0 articles</p>
+          <ul id="headlines" class="headlines-list"></ul>
         </div>
-      </div>
+      </main>
     </div>
-
-    <!-- Headlines Section -->
-    <section class="headlines-section">
-      <div class="headlines-card glass-card resizable-widget" data-widget="headlines" style="height: 500px;">
-        <div class="resize-handle resize-handle-top"></div>
-        <div class="widget-header card-header">
-          <div class="drag-handle" title="Drag to move widget">⋮⋮</div>
-          <h3>🔥 Latest Headlines</h3>
-          <div class="headlines-info">
-            <span id="headlinesCount">0 articles</span>
-            <a href="headlines.html" class="view-all-btn">View All →</a>
-            <div class="refresh-btn">🔄</div>
-            <button class="widget-btn minimize-btn" data-widget="headlines">−</button>
-          </div>
-        </div>
-        <div class="widget-content">
-          <div class="headlines-container">
-            <ul id="headlines" class="headlines-list"></ul>
-          </div>
-        </div>
-      </div>
-    </section>
-  </main>
-</div>
-
-<script src="./app.js"></script>
-</body>
+  </body>
 </html>
