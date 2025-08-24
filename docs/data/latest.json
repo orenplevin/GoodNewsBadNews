@@ -1,9 +1,9 @@
 {
-  "generated_at": "2025-08-24T23:22:57.339929+00:00",
+  "generated_at": "2025-08-24T23:44:26.508940+00:00",
   "window_hours": 24,
   "totals": {
-    "positive": 724,
-    "neutral": 273,
+    "positive": 722,
+    "neutral": 275,
     "negative": 755
   },
   "by_publication": [
@@ -25,43 +25,43 @@
     },
     {
       "source": "Times of India",
-      "positive": 52,
+      "positive": 51,
       "neutral": 7,
       "negative": 71,
-      "count": 130,
+      "count": 129,
       "region": "Asia-Pacific"
     },
     {
       "source": "Australian Broadcasting Corporation",
       "positive": 57,
       "neutral": 7,
-      "negative": 54,
-      "count": 118,
+      "negative": 53,
+      "count": 117,
       "region": "Asia-Pacific"
     },
     {
       "source": "CBS News",
-      "positive": 29,
-      "neutral": 24,
-      "negative": 30,
-      "count": 83,
+      "positive": 28,
+      "neutral": 25,
+      "negative": 33,
+      "count": 86,
+      "region": "North America"
+    },
+    {
+      "source": "Fox News",
+      "positive": 36,
+      "neutral": 10,
+      "negative": 34,
+      "count": 80,
       "region": "North America"
     },
     {
       "source": "BBC Sport",
-      "positive": 54,
+      "positive": 52,
       "neutral": 9,
       "negative": 19,
-      "count": 82,
-      "region": "Sports"
-    },
-    {
-      "source": "Fox News",
-      "positive": 35,
-      "neutral": 11,
-      "negative": 34,
       "count": 80,
-      "region": "North America"
+      "region": "Sports"
     },
     {
       "source": "Sky Sports",
@@ -81,18 +81,18 @@
     },
     {
       "source": "Channel News Asia",
-      "positive": 32,
+      "positive": 33,
       "neutral": 13,
       "negative": 17,
-      "count": 62,
+      "count": 63,
       "region": "Asia-Pacific"
     },
     {
       "source": "BBC News",
-      "positive": 20,
+      "positive": 19,
       "neutral": 7,
-      "negative": 30,
-      "count": 57,
+      "negative": 28,
+      "count": 54,
       "region": "Global"
     },
     {
@@ -107,23 +107,23 @@
       "source": "Al Jazeera English",
       "positive": 12,
       "neutral": 9,
-      "negative": 26,
-      "count": 47,
+      "negative": 28,
+      "count": 49,
       "region": "Middle East"
     },
     {
       "source": "ESPN",
       "positive": 26,
-      "neutral": 7,
+      "neutral": 8,
       "negative": 14,
-      "count": 47,
+      "count": 48,
       "region": "Sports"
     },
     {
       "source": "Times of Israel",
-      "positive": 6,
+      "positive": 5,
       "neutral": 0,
-      "negative": 36,
+      "negative": 37,
       "count": 42,
       "region": "Middle East"
     },
@@ -136,12 +136,12 @@
       "region": "Europe"
     },
     {
-      "source": "Straits Times",
-      "positive": 12,
-      "neutral": 4,
-      "negative": 10,
-      "count": 26,
-      "region": "Asia-Pacific"
+      "source": "Bloomberg",
+      "positive": 15,
+      "neutral": 3,
+      "negative": 9,
+      "count": 27,
+      "region": "Business"
     },
     {
       "source": "NBC News",
@@ -152,20 +152,20 @@
       "region": "North America"
     },
     {
+      "source": "Straits Times",
+      "positive": 12,
+      "neutral": 4,
+      "negative": 8,
+      "count": 24,
+      "region": "Asia-Pacific"
+    },
+    {
       "source": "Middle East Eye",
       "positive": 3,
       "neutral": 0,
-      "negative": 21,
-      "count": 24,
+      "negative": 20,
+      "count": 23,
       "region": "Middle East"
-    },
-    {
-      "source": "Bloomberg",
-      "positive": 13,
-      "neutral": 2,
-      "negative": 9,
-      "count": 24,
-      "region": "Business"
     },
     {
       "source": "Mashable",
@@ -341,8 +341,8 @@
       "region": "Asia-Pacific",
       "positive": 255,
       "neutral": 98,
-      "negative": 272,
-      "count": 625
+      "negative": 269,
+      "count": 622
     },
     {
       "region": "Europe",
@@ -355,29 +355,36 @@
       "region": "North America",
       "positive": 84,
       "neutral": 41,
-      "negative": 98,
-      "count": 223
+      "negative": 101,
+      "count": 226
     },
     {
       "region": "Sports",
-      "positive": 121,
-      "neutral": 36,
+      "positive": 119,
+      "neutral": 37,
       "negative": 50,
-      "count": 207
+      "count": 206
     },
     {
       "region": "Middle East",
-      "positive": 37,
+      "positive": 36,
       "neutral": 12,
-      "negative": 86,
-      "count": 135
+      "negative": 88,
+      "count": 136
     },
     {
       "region": "Global",
-      "positive": 20,
+      "positive": 19,
       "neutral": 7,
-      "negative": 30,
-      "count": 57
+      "negative": 28,
+      "count": 54
+    },
+    {
+      "region": "Business",
+      "positive": 24,
+      "neutral": 8,
+      "negative": 14,
+      "count": 46
     },
     {
       "region": "Technology",
@@ -385,13 +392,6 @@
       "neutral": 8,
       "negative": 3,
       "count": 44
-    },
-    {
-      "region": "Business",
-      "positive": 22,
-      "neutral": 7,
-      "negative": 14,
-      "count": 43
     },
     {
       "region": "South America",
@@ -404,59 +404,59 @@
   "by_topic": [
     {
       "topic": "Tech",
-      "positive": 271,
-      "neutral": 76,
+      "positive": 267,
+      "neutral": 77,
       "negative": 295,
-      "count": 642
+      "count": 639
     },
     {
       "topic": "Other",
       "positive": 160,
-      "neutral": 103,
-      "negative": 169,
-      "count": 432
+      "neutral": 105,
+      "negative": 168,
+      "count": 433
     },
     {
       "topic": "Politics",
-      "positive": 130,
+      "positive": 131,
       "neutral": 46,
-      "negative": 163,
-      "count": 339
+      "negative": 164,
+      "count": 341
     },
     {
       "topic": "Sports",
-      "positive": 77,
+      "positive": 78,
       "neutral": 25,
       "negative": 29,
-      "count": 131
+      "count": 132
     },
     {
       "topic": "World",
-      "positive": 30,
+      "positive": 29,
       "neutral": 8,
-      "negative": 58,
-      "count": 96
+      "negative": 57,
+      "count": 94
     },
     {
       "topic": "Business",
-      "positive": 30,
+      "positive": 31,
       "neutral": 2,
       "negative": 10,
-      "count": 42
+      "count": 43
     },
     {
       "topic": "Health",
       "positive": 8,
       "neutral": 3,
-      "negative": 23,
-      "count": 34
+      "negative": 24,
+      "count": 35
     },
     {
       "topic": "Entertainment",
       "positive": 13,
-      "neutral": 3,
+      "neutral": 2,
       "negative": 4,
-      "count": 20
+      "count": 19
     },
     {
       "topic": "Science",
@@ -467,6 +467,14 @@
     }
   ],
   "sample_headlines": [
+    {
+      "title": "Chan Chun Sing to make first visit to Malaysia as defence minister from Aug 25 to 26",
+      "url": "https://www.channelnewsasia.com/singapore/chan-chun-sing-malaysia-visit-mindef-5311871",
+      "source": "Channel News Asia",
+      "region": "Asia-Pacific",
+      "published": "2025-08-25T07:24:09+08:00",
+      "sentiment": "positive"
+    },
     {
       "title": "Vulvar and vaginal cancers in women: Warning signs and why you shouldn\u2019t shy away from regular checkups",
       "url": "https://www.channelnewsasia.com/women/vulvar-vaginal-cancers-women-symptoms-warning-signs-5306106",
@@ -634,6 +642,14 @@
       "region": "Asia-Pacific",
       "published": "2025-08-25T04:52:42+08:00",
       "sentiment": "positive"
+    },
+    {
+      "title": "Drinking water projects damaged, power supply affected in Chamoli",
+      "url": "https://timesofindia.indiatimes.com/india/drinking-water-projects-damaged-power-supply-affected-in-chamoli/articleshow/123490529.cms",
+      "source": "Times of India",
+      "region": "Asia-Pacific",
+      "published": "2025-08-25T04:23:23+05:30",
+      "sentiment": "negative"
     },
     {
       "title": "SC: Reciting 'guru brahma' not enough if teachers get pittance",
@@ -1204,6 +1220,22 @@
       "sentiment": "positive"
     },
     {
+      "title": "Government pledges \u00a31.5m for two new cricket domes",
+      "url": "https://www.bbc.com/sport/cricket/articles/czer2z9k58zo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Sport",
+      "region": "Sports",
+      "published": "2025-08-24T23:16:22+00:00",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Russia-Ukraine war: List of key events, day 1,278",
+      "url": "https://www.aljazeera.com/news/2025/8/24/russia-ukraine-war-list-of-key-events-day-1278?traffic_source=rss",
+      "source": "Al Jazeera English",
+      "region": "Middle East",
+      "published": "2025-08-24T23:13:52+00:00",
+      "sentiment": "negative"
+    },
+    {
       "title": "WWII anti-aircraft guns blocked off after injury sparks insurance claim",
       "url": "https://www.abc.net.au/news/2025-08-25/lithgow-anti-aircraft-guns-fenced-off-after-injury/105676480",
       "source": "Australian Broadcasting Corporation",
@@ -1233,38 +1265,6 @@
       "source": "The Guardian",
       "region": "Europe",
       "published": "2025-08-24T23:07:50+00:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Make your art useful for society: cartoonist Sridhar",
-      "url": "https://www.thehindu.com/news/national/andhra-pradesh/make-your-art-useful-for-society-cartoonist-sridhar/article69972797.ece",
-      "source": "The Hindu",
-      "region": "Asia-Pacific",
-      "published": "2025-08-24T23:07:49+05:30",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Women aren't just 'cosy gamers' - I play horror games and nearly 600,000 watch",
-      "url": "https://www.bbc.com/news/articles/cm21xy23npyo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "region": "Global",
-      "published": "2025-08-24T23:05:06+00:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Epstein accuser Virginia Giuffre\u2019s memoir to be published posthumously",
-      "url": "https://www.theguardian.com/us-news/2025/aug/25/epstein-accuser-virginia-giuffres-memoir-to-be-published-posthumously",
-      "source": "The Guardian",
-      "region": "Europe",
-      "published": "2025-08-24T23:03:58+00:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Tommy Fleetwood wins Tour Championship to end wait for PGA Tour title",
-      "url": "https://www.independent.co.uk/sport/golf/tommy-fleetwood-fedex-scottie-scheffler-rory-mcilroy-southport-b2813411.html",
-      "source": "Independent",
-      "region": "Europe",
-      "published": "2025-08-24T23:03:33+00:00",
       "sentiment": "positive"
     }
   ]
