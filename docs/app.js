@@ -589,8 +589,6 @@ function renderTrendChart(historyArr) {
         }
       }
     },
-      },
-    },
   });
 }
 
@@ -633,11 +631,17 @@ function renderRegionChart(byRegion) {
     options: {
       responsive: true,
       maintainAspectRatio: false,
+      animation: { duration: 0 },
       scales: {
         x: { stacked: true, ticks: { color: COLOR.text } },
         y: { stacked: true, ticks: { color: COLOR.text } },
       },
       plugins: { legend: { display: false } },
+      onResize: function(chart, size) {
+        if (size.height > 300) {
+          chart.canvas.style.height = '280px';
+        }
+      }
     },
   });
 }
@@ -713,11 +717,17 @@ function renderKeywordsChart(keywordsData) {
     options: {
       responsive: true,
       maintainAspectRatio: false,
+      animation: { duration: 0 },
       scales: {
         x: { ticks: { color: COLOR.text } },
         y: { ticks: { color: COLOR.text } },
       },
       plugins: { legend: { display: false } },
+      onResize: function(chart, size) {
+        if (size.height > 300) {
+          chart.canvas.style.height = '280px';
+        }
+      }
     },
   });
 }
@@ -795,19 +805,23 @@ function updateDashboard() {
   const filtered = filterDataBySources(globalData.latest, globalData.selectedSources);
   
   updateStats(filtered.totals);
-  renderOverallChart(filtered.totals);
   
-  // Determine sort option for publication chart
-  const sortBy = document.getElementById('pubSort')?.value || 'count';
-  renderPublicationChart(filtered.by_publication, sortBy);
-  
-  renderTopicChart(filtered.by_topic);
-  renderRegionChart(filtered.by_region);
-  
-  // Keywords sentiment filter
-  const kwFilter = document.getElementById('keywordsSentiment')?.value || 'all';
-  const keywordsData = extractTopKeywords(filtered.sample_headlines, kwFilter, 10);
-  renderKeywordsChart(keywordsData);
+  // Add small delay to prevent resize loops when multiple charts update
+  requestAnimationFrame(() => {
+    renderOverallChart(filtered.totals);
+    
+    // Determine sort option for publication chart
+    const sortBy = document.getElementById('pubSort')?.value || 'count';
+    renderPublicationChart(filtered.by_publication, sortBy);
+    
+    renderTopicChart(filtered.by_topic);
+    renderRegionChart(filtered.by_region);
+    
+    // Keywords sentiment filter
+    const kwFilter = document.getElementById('keywordsSentiment')?.value || 'all';
+    const keywordsData = extractTopKeywords(filtered.sample_headlines, kwFilter, 10);
+    renderKeywordsChart(keywordsData);
+  });
   
   renderHeadlinesList(filtered.sample_headlines);
 }
@@ -864,6 +878,20 @@ async function init() {
     selectAllSources();
     
     console.log('Dashboard initialized successfully');
+    
+    // Add window resize handler to prevent chart issues
+    let resizeTimeout;
+    window.addEventListener('resize', () => {
+      clearTimeout(resizeTimeout);
+      resizeTimeout = setTimeout(() => {
+        // Force canvas elements to respect container constraints
+        document.querySelectorAll('.chart-widget canvas').forEach(canvas => {
+          if (canvas.style.height && parseInt(canvas.style.height) > 300) {
+            canvas.style.height = '280px';
+          }
+        });
+      }, 100);
+    });
     
   } catch (err) {
     console.error('Dashboard initialization failed:', err);
