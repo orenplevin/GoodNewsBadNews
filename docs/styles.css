@@ -227,7 +227,8 @@ body {
   display: flex;
   flex-direction: column;
   border: 1px solid rgba(255, 255, 255, 0.1);
-  min-height: 300px;
+  height: 350px; /* Fixed height instead of min-height */
+  overflow: hidden; /* Prevent overflow */
 }
 
 .chart-widget .widget-title {
@@ -235,11 +236,14 @@ body {
   font-weight: 600;
   margin-bottom: 8px;
   color: var(--color-text-primary);
+  flex-shrink: 0; /* Prevent title from shrinking */
 }
 
 .chart-widget canvas {
-  flex-grow: 1;
-  min-height: 200px;
+  flex: 1; /* Take remaining space */
+  max-height: 280px; /* Constrain maximum height */
+  width: 100% !important; /* Force width constraint */
+  height: auto !important; /* Let height be managed by container */
 }
 
 .dropdown {
