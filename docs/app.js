@@ -348,6 +348,9 @@ function renderOverallChart(totals) {
     options: {
       responsive: true,
       maintainAspectRatio: false,
+      animation: {
+        duration: 0 // Disable animations to prevent resize loops
+      },
       plugins: {
         legend: { display: false },
         tooltip: {
@@ -361,6 +364,12 @@ function renderOverallChart(totals) {
           },
         },
       },
+      onResize: function(chart, size) {
+        // Prevent excessive resizing
+        if (size.height > 300) {
+          chart.canvas.style.height = '280px';
+        }
+      }
     },
   });
 }
@@ -428,6 +437,7 @@ function renderPublicationChart(byPub, sortBy) {
     options: {
       responsive: true,
       maintainAspectRatio: false,
+      animation: { duration: 0 },
       scales: {
         x: { stacked: true, ticks: { color: COLOR.text } },
         y: { stacked: true, ticks: { color: COLOR.text } },
@@ -435,6 +445,11 @@ function renderPublicationChart(byPub, sortBy) {
       plugins: {
         legend: { display: false },
       },
+      onResize: function(chart, size) {
+        if (size.height > 300) {
+          chart.canvas.style.height = '280px';
+        }
+      }
     },
   });
 }
@@ -479,11 +494,17 @@ function renderTopicChart(byTopic) {
     options: {
       responsive: true,
       maintainAspectRatio: false,
+      animation: { duration: 0 },
       scales: {
         x: { stacked: true, ticks: { color: COLOR.text } },
         y: { stacked: true, ticks: { color: COLOR.text } },
       },
       plugins: { legend: { display: false } },
+      onResize: function(chart, size) {
+        if (size.height > 300) {
+          chart.canvas.style.height = '280px';
+        }
+      }
     },
   });
 }
@@ -551,6 +572,7 @@ function renderTrendChart(historyArr) {
     options: {
       responsive: true,
       maintainAspectRatio: false,
+      animation: { duration: 0 },
       scales: {
         x: { ticks: { color: COLOR.text } },
         y: { ticks: { color: COLOR.text } },
@@ -560,6 +582,13 @@ function renderTrendChart(historyArr) {
           display: true,
           labels: { color: COLOR.text }
         } 
+      },
+      onResize: function(chart, size) {
+        if (size.height > 300) {
+          chart.canvas.style.height = '280px';
+        }
+      }
+    },
       },
     },
   });
