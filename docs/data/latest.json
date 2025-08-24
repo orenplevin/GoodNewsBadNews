@@ -1,58 +1,58 @@
 {
-  "generated_at": "2025-08-24T20:25:13.515799+00:00",
+  "generated_at": "2025-08-24T20:45:29.730983+00:00",
   "window_hours": 24,
   "totals": {
-    "positive": 704,
+    "positive": 711,
     "neutral": 265,
-    "negative": 707
+    "negative": 706
   },
   "by_publication": [
     {
       "source": "Independent",
-      "positive": 85,
+      "positive": 87,
       "neutral": 37,
-      "negative": 95,
-      "count": 217,
+      "negative": 94,
+      "count": 218,
       "region": "Europe"
     },
     {
       "source": "The Hindu",
-      "positive": 70,
+      "positive": 71,
       "neutral": 65,
       "negative": 75,
-      "count": 210,
+      "count": 211,
       "region": "Asia-Pacific"
     },
     {
       "source": "Times of India",
-      "positive": 52,
+      "positive": 54,
       "neutral": 9,
-      "negative": 68,
-      "count": 129,
+      "negative": 69,
+      "count": 132,
       "region": "Asia-Pacific"
     },
     {
       "source": "Australian Broadcasting Corporation",
-      "positive": 63,
-      "neutral": 10,
-      "negative": 40,
-      "count": 113,
+      "positive": 61,
+      "neutral": 9,
+      "negative": 42,
+      "count": 112,
       "region": "Asia-Pacific"
     },
     {
       "source": "BBC Sport",
-      "positive": 55,
+      "positive": 57,
       "neutral": 10,
       "negative": 19,
-      "count": 84,
+      "count": 86,
       "region": "Sports"
     },
     {
       "source": "Sky Sports",
-      "positive": 42,
+      "positive": 44,
       "neutral": 20,
       "negative": 19,
-      "count": 81,
+      "count": 83,
       "region": "Sports"
     },
     {
@@ -75,8 +75,8 @@
       "source": "South China Morning Post",
       "positive": 28,
       "neutral": 1,
-      "negative": 38,
-      "count": 67,
+      "negative": 39,
+      "count": 68,
       "region": "Asia-Pacific"
     },
     {
@@ -91,8 +91,8 @@
       "source": "BBC News",
       "positive": 19,
       "neutral": 8,
-      "negative": 32,
-      "count": 59,
+      "negative": 31,
+      "count": 58,
       "region": "Global"
     },
     {
@@ -104,6 +104,14 @@
       "region": "Europe"
     },
     {
+      "source": "Al Jazeera English",
+      "positive": 10,
+      "neutral": 6,
+      "negative": 26,
+      "count": 42,
+      "region": "Middle East"
+    },
+    {
       "source": "ESPN",
       "positive": 24,
       "neutral": 6,
@@ -112,18 +120,10 @@
       "region": "Sports"
     },
     {
-      "source": "Al Jazeera English",
-      "positive": 10,
-      "neutral": 6,
-      "negative": 25,
-      "count": 41,
-      "region": "Middle East"
-    },
-    {
       "source": "France 24",
-      "positive": 14,
+      "positive": 15,
       "neutral": 6,
-      "negative": 18,
+      "negative": 17,
       "count": 38,
       "region": "Europe"
     },
@@ -131,8 +131,16 @@
       "source": "Times of Israel",
       "positive": 5,
       "neutral": 1,
-      "negative": 32,
-      "count": 38,
+      "negative": 29,
+      "count": 35,
+      "region": "Middle East"
+    },
+    {
+      "source": "Middle East Eye",
+      "positive": 4,
+      "neutral": 0,
+      "negative": 18,
+      "count": 22,
       "region": "Middle East"
     },
     {
@@ -142,14 +150,6 @@
       "negative": 1,
       "count": 22,
       "region": "Technology"
-    },
-    {
-      "source": "Middle East Eye",
-      "positive": 4,
-      "neutral": 0,
-      "negative": 17,
-      "count": 21,
-      "region": "Middle East"
     },
     {
       "source": "NBC News",
@@ -216,6 +216,14 @@
       "region": "Business"
     },
     {
+      "source": "Financial Times",
+      "positive": 3,
+      "neutral": 3,
+      "negative": 7,
+      "count": 13,
+      "region": "Europe"
+    },
+    {
       "source": "CNBC",
       "positive": 7,
       "neutral": 3,
@@ -228,14 +236,6 @@
       "positive": 3,
       "neutral": 1,
       "negative": 8,
-      "count": 12,
-      "region": "Europe"
-    },
-    {
-      "source": "Financial Times",
-      "positive": 3,
-      "neutral": 2,
-      "negative": 7,
       "count": 12,
       "region": "Europe"
     },
@@ -307,17 +307,9 @@
       "source": "MarketWatch",
       "positive": 1,
       "neutral": 1,
-      "negative": 3,
-      "count": 5,
+      "negative": 2,
+      "count": 4,
       "region": "Business"
-    },
-    {
-      "source": "Buenos Aires Herald",
-      "positive": 2,
-      "neutral": 0,
-      "negative": 1,
-      "count": 3,
-      "region": "South America"
     },
     {
       "source": "The Verge",
@@ -326,6 +318,14 @@
       "negative": 1,
       "count": 3,
       "region": "Technology"
+    },
+    {
+      "source": "Buenos Aires Herald",
+      "positive": 1,
+      "neutral": 0,
+      "negative": 1,
+      "count": 2,
+      "region": "South America"
     },
     {
       "source": "Ars Technica",
@@ -339,17 +339,24 @@
   "by_region": [
     {
       "region": "Asia-Pacific",
-      "positive": 251,
-      "neutral": 103,
-      "negative": 246,
-      "count": 600
+      "positive": 252,
+      "neutral": 102,
+      "negative": 250,
+      "count": 604
     },
     {
       "region": "Europe",
-      "positive": 147,
-      "neutral": 62,
-      "negative": 195,
-      "count": 404
+      "positive": 150,
+      "neutral": 63,
+      "negative": 193,
+      "count": 406
+    },
+    {
+      "region": "Sports",
+      "positive": 125,
+      "neutral": 36,
+      "negative": 50,
+      "count": 211
     },
     {
       "region": "North America",
@@ -359,25 +366,18 @@
       "count": 208
     },
     {
-      "region": "Sports",
-      "positive": 121,
-      "neutral": 36,
-      "negative": 50,
-      "count": 207
-    },
-    {
       "region": "Middle East",
       "positive": 32,
       "neutral": 8,
-      "negative": 77,
-      "count": 117
+      "negative": 76,
+      "count": 116
     },
     {
       "region": "Global",
       "positive": 19,
       "neutral": 8,
-      "negative": 32,
-      "count": 59
+      "negative": 31,
+      "count": 58
     },
     {
       "region": "Technology",
@@ -390,45 +390,45 @@
       "region": "Business",
       "positive": 19,
       "neutral": 4,
-      "negative": 10,
-      "count": 33
+      "negative": 9,
+      "count": 32
     },
     {
       "region": "South America",
-      "positive": 2,
+      "positive": 1,
       "neutral": 0,
       "negative": 1,
-      "count": 3
+      "count": 2
     }
   ],
   "by_topic": [
     {
       "topic": "Tech",
-      "positive": 264,
+      "positive": 266,
       "neutral": 70,
-      "negative": 285,
+      "negative": 283,
       "count": 619
     },
     {
       "topic": "Other",
-      "positive": 153,
+      "positive": 158,
       "neutral": 104,
-      "negative": 157,
-      "count": 414
+      "negative": 159,
+      "count": 421
     },
     {
       "topic": "Politics",
-      "positive": 127,
+      "positive": 128,
       "neutral": 45,
-      "negative": 143,
-      "count": 315
+      "negative": 145,
+      "count": 318
     },
     {
       "topic": "Sports",
-      "positive": 71,
+      "positive": 73,
       "neutral": 21,
-      "negative": 32,
-      "count": 124
+      "negative": 31,
+      "count": 125
     },
     {
       "topic": "World",
@@ -439,17 +439,17 @@
     },
     {
       "topic": "Business",
-      "positive": 27,
+      "positive": 26,
       "neutral": 2,
       "negative": 8,
-      "count": 37
+      "count": 36
     },
     {
       "topic": "Health",
       "positive": 9,
       "neutral": 2,
-      "negative": 19,
-      "count": 30
+      "negative": 17,
+      "count": 28
     },
     {
       "topic": "Entertainment",
@@ -460,10 +460,10 @@
     },
     {
       "topic": "Science",
-      "positive": 7,
+      "positive": 5,
       "neutral": 9,
       "negative": 4,
-      "count": 20
+      "count": 18
     }
   ],
   "sample_headlines": [
@@ -492,6 +492,14 @@
       "sentiment": "neutral"
     },
     {
+      "title": "Fritz, Shelton lead American charge at US Open with first-round wins",
+      "url": "https://www.channelnewsasia.com/sport/fritz-shelton-lead-american-charge-us-open-first-round-wins-5311681",
+      "source": "Channel News Asia",
+      "region": "Asia-Pacific",
+      "published": "2025-08-25T03:06:50+08:00",
+      "sentiment": "positive"
+    },
+    {
       "title": "Amorim blames Man Utd's defensive mindset for draw at Fulham",
       "url": "https://www.channelnewsasia.com/sport/amorim-blames-man-utds-defensive-mindset-draw-fulham-5311671",
       "source": "Channel News Asia",
@@ -516,6 +524,30 @@
       "sentiment": "positive"
     },
     {
+      "title": "India sees space as the future of security: Rajnath Singh",
+      "url": "https://timesofindia.indiatimes.com/india/india-sees-space-as-the-future-of-security-rajnath-singh/articleshow/123489895.cms",
+      "source": "Times of India",
+      "region": "Asia-Pacific",
+      "published": "2025-08-25T02:06:31+05:30",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Nepal officially joins India-led International Big Cat Alliance",
+      "url": "https://www.thehindu.com/news/national/nepal-officially-joins-india-led-international-big-cat-alliance/article69971825.ece",
+      "source": "The Hindu",
+      "region": "Asia-Pacific",
+      "published": "2025-08-25T01:58:41+05:30",
+      "sentiment": "positive"
+    },
+    {
+      "title": "'Vote theft': Thackerays back Rahul's claim; ask workers to be alert",
+      "url": "https://timesofindia.indiatimes.com/india/thackerays-back-rahuls-claim-ask-workers-to-be-alert/articleshow/123489874.cms",
+      "source": "Times of India",
+      "region": "Asia-Pacific",
+      "published": "2025-08-25T01:52:20+05:30",
+      "sentiment": "positive"
+    },
+    {
       "title": "Hamburg earn 0-0 draw at Gladbach on Bundesliga return after seven-year absence",
       "url": "https://www.channelnewsasia.com/sport/hamburg-earn-0-0-draw-gladbach-bundesliga-return-after-seven-year-absence-5311636",
       "source": "Channel News Asia",
@@ -529,6 +561,14 @@
       "source": "The Hindu",
       "region": "Asia-Pacific",
       "published": "2025-08-25T01:44:04+05:30",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Living voters declared dead, names deleted, claims Tejashwi",
+      "url": "https://timesofindia.indiatimes.com/india/living-voters-declared-dead-names-deleted-claims-tejashwi/articleshow/123489833.cms",
+      "source": "Times of India",
+      "region": "Asia-Pacific",
+      "published": "2025-08-25T01:41:56+05:30",
       "sentiment": "negative"
     },
     {
@@ -626,6 +666,14 @@
       "region": "Asia-Pacific",
       "published": "2025-08-25T01:11:12+05:30",
       "sentiment": "negative"
+    },
+    {
+      "title": "LeBron James honors late NBA legend Kobe Bryant on his 47th birthday",
+      "url": "https://timesofindia.indiatimes.com/sports/nba/top-stories/lebron-james-honors-late-nba-legend-kobe-bryant-on-his-47th-birthday-with-a-heartfelt-tribute-and-memories/articleshow/123489625.cms",
+      "source": "Times of India",
+      "region": "Asia-Pacific",
+      "published": "2025-08-25T01:10:47+05:30",
+      "sentiment": "positive"
     },
     {
       "title": "Government is a constitutional employer not a market player, it cannot use outsourcing as a means of exploitation: Supreme Court",
@@ -1124,6 +1172,14 @@
       "sentiment": "negative"
     },
     {
+      "title": "UN official warns of famine in Gaza, calls for immediate ceasefire",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/un-official-warns-famine-gaza-calls-immediate-ceasefire",
+      "source": "Middle East Eye",
+      "region": "Middle East",
+      "published": "2025-08-24T21:25:30+01:00",
+      "sentiment": "negative"
+    },
+    {
       "title": "Farmer carries wife on his shoulder as ambulance could not reach his house",
       "url": "https://www.thehindu.com/news/national/karnataka/farmer-carries-wife-on-his-shoulder-as-ambulance-could-not-reach-his-house/article69972249.ece",
       "source": "The Hindu",
@@ -1210,62 +1266,6 @@
       "region": "Asia-Pacific",
       "published": "2025-08-24T20:59:59+05:30",
       "sentiment": "negative"
-    },
-    {
-      "title": "\u2018ECI actions not transparent, not trustworthy\u2019",
-      "url": "https://www.thehindu.com/news/national/telangana/eci-actions-not-transparent-not-trustworthy/article69972378.ece",
-      "source": "The Hindu",
-      "region": "Asia-Pacific",
-      "published": "2025-08-24T20:57:19+05:30",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Marquez wins Hungarian GP for seventh straight sprint-race double",
-      "url": "https://www.channelnewsasia.com/sport/marquez-wins-hungarian-gp-seventh-straight-sprint-race-double-5311451",
-      "source": "Channel News Asia",
-      "region": "Asia-Pacific",
-      "published": "2025-08-24T20:56:55+08:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Misconceptions over Supreme Court order on feeding stray dogs\u00a0addressed in Mysuru",
-      "url": "https://www.thehindu.com/news/national/karnataka/misconceptions-over-supreme-court-order-on-feeding-stray-dogs-addressed-in-mysuru/article69972412.ece",
-      "source": "The Hindu",
-      "region": "Asia-Pacific",
-      "published": "2025-08-24T20:54:28+05:30",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Scholarships, tabs distributed among schoolchildren in four villages",
-      "url": "https://www.thehindu.com/news/national/karnataka/scholarships-tabs-distributed-among-schoolchildren-in-four-villages/article69971640.ece",
-      "source": "The Hindu",
-      "region": "Asia-Pacific",
-      "published": "2025-08-24T20:49:17+05:30",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Neville: Man Utd display opened scars, they need a midfield signing",
-      "url": "https://www.skysports.com/football/news/12040/13417952/gary-neville-man-utds-display-in-fulham-draw-opened-up-old-scars-and-showed-need-for-midfield-signing-before-transfer-window-shuts",
-      "source": "Sky Sports",
-      "region": "Sports",
-      "published": "2025-08-24T20:49:00+00:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Women launch Chitrangana Film Society in Thrissur",
-      "url": "https://www.thehindu.com/news/national/kerala/women-launch-chitrangana-film-society-in-thrissur/article69972214.ece",
-      "source": "The Hindu",
-      "region": "Asia-Pacific",
-      "published": "2025-08-24T20:47:11+05:30",
-      "sentiment": "positive"
-    },
-    {
-      "title": "\u2018Shubharatri Stories\u2019: Mysuru school rings in bedtime stories over phone",
-      "url": "https://www.thehindu.com/news/national/karnataka/shubharatri-stories-mysuru-school-rings-in-bedtime-stories-over-phone/article69971820.ece",
-      "source": "The Hindu",
-      "region": "Asia-Pacific",
-      "published": "2025-08-24T20:45:12+05:30",
-      "sentiment": "neutral"
     }
   ]
 }
