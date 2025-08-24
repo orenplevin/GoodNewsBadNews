@@ -1,66 +1,58 @@
 {
-  "generated_at": "2025-08-24T22:22:57.299570+00:00",
+  "generated_at": "2025-08-24T22:46:43.138414+00:00",
   "window_hours": 24,
   "totals": {
-    "positive": 711,
-    "neutral": 274,
-    "negative": 734
+    "positive": 719,
+    "neutral": 272,
+    "negative": 732
   },
   "by_publication": [
     {
       "source": "Independent",
       "positive": 87,
-      "neutral": 38,
+      "neutral": 37,
       "negative": 96,
-      "count": 221,
+      "count": 220,
       "region": "Europe"
     },
     {
       "source": "The Hindu",
-      "positive": 72,
-      "neutral": 67,
+      "positive": 71,
+      "neutral": 66,
       "negative": 80,
-      "count": 219,
+      "count": 217,
       "region": "Asia-Pacific"
     },
     {
       "source": "Times of India",
-      "positive": 53,
+      "positive": 52,
       "neutral": 8,
-      "negative": 70,
+      "negative": 71,
       "count": 131,
       "region": "Asia-Pacific"
     },
     {
       "source": "Australian Broadcasting Corporation",
-      "positive": 55,
+      "positive": 56,
       "neutral": 6,
       "negative": 51,
-      "count": 112,
+      "count": 113,
       "region": "Asia-Pacific"
     },
     {
       "source": "BBC Sport",
       "positive": 54,
       "neutral": 10,
-      "negative": 19,
-      "count": 83,
+      "negative": 18,
+      "count": 82,
       "region": "Sports"
     },
     {
       "source": "Fox News",
-      "positive": 34,
-      "neutral": 10,
-      "negative": 34,
-      "count": 78,
-      "region": "North America"
-    },
-    {
-      "source": "CBS News",
-      "positive": 29,
-      "neutral": 21,
-      "negative": 27,
-      "count": 77,
+      "positive": 36,
+      "neutral": 11,
+      "negative": 35,
+      "count": 82,
       "region": "North America"
     },
     {
@@ -72,11 +64,19 @@
       "region": "Sports"
     },
     {
-      "source": "South China Morning Post",
+      "source": "CBS News",
       "positive": 28,
+      "neutral": 21,
+      "negative": 23,
+      "count": 72,
+      "region": "North America"
+    },
+    {
+      "source": "South China Morning Post",
+      "positive": 30,
       "neutral": 1,
       "negative": 40,
-      "count": 69,
+      "count": 71,
       "region": "Asia-Pacific"
     },
     {
@@ -89,10 +89,10 @@
     },
     {
       "source": "BBC News",
-      "positive": 18,
-      "neutral": 10,
+      "positive": 19,
+      "neutral": 8,
       "negative": 29,
-      "count": 57,
+      "count": 56,
       "region": "Global"
     },
     {
@@ -104,27 +104,27 @@
       "region": "Europe"
     },
     {
-      "source": "ESPN",
-      "positive": 24,
-      "neutral": 7,
-      "negative": 14,
-      "count": 45,
-      "region": "Sports"
-    },
-    {
       "source": "Al Jazeera English",
-      "positive": 11,
-      "neutral": 7,
+      "positive": 12,
+      "neutral": 9,
       "negative": 26,
-      "count": 44,
+      "count": 47,
       "region": "Middle East"
     },
     {
+      "source": "ESPN",
+      "positive": 24,
+      "neutral": 7,
+      "negative": 12,
+      "count": 43,
+      "region": "Sports"
+    },
+    {
       "source": "Times of Israel",
-      "positive": 5,
-      "neutral": 1,
-      "negative": 35,
-      "count": 41,
+      "positive": 6,
+      "neutral": 0,
+      "negative": 36,
+      "count": 42,
       "region": "Middle East"
     },
     {
@@ -144,20 +144,20 @@
       "region": "Asia-Pacific"
     },
     {
+      "source": "Middle East Eye",
+      "positive": 3,
+      "neutral": 0,
+      "negative": 20,
+      "count": 23,
+      "region": "Middle East"
+    },
+    {
       "source": "NBC News",
       "positive": 11,
       "neutral": 1,
       "negative": 10,
       "count": 22,
       "region": "North America"
-    },
-    {
-      "source": "Middle East Eye",
-      "positive": 3,
-      "neutral": 0,
-      "negative": 19,
-      "count": 22,
-      "region": "Middle East"
     },
     {
       "source": "Mashable",
@@ -177,24 +177,24 @@
     },
     {
       "source": "Bloomberg",
-      "positive": 10,
+      "positive": 12,
       "neutral": 2,
       "negative": 7,
-      "count": 19,
+      "count": 21,
       "region": "Business"
+    },
+    {
+      "source": "Euronews",
+      "positive": 8,
+      "neutral": 3,
+      "negative": 7,
+      "count": 18,
+      "region": "Europe"
     },
     {
       "source": "Irish Times",
       "positive": 5,
       "neutral": 5,
-      "negative": 7,
-      "count": 17,
-      "region": "Europe"
-    },
-    {
-      "source": "Euronews",
-      "positive": 7,
-      "neutral": 3,
       "negative": 7,
       "count": 17,
       "region": "Europe"
@@ -280,6 +280,14 @@
       "region": "Technology"
     },
     {
+      "source": "NPR",
+      "positive": 3,
+      "neutral": 0,
+      "negative": 5,
+      "count": 8,
+      "region": "North America"
+    },
+    {
       "source": "Telegraph",
       "positive": 3,
       "neutral": 2,
@@ -292,14 +300,6 @@
       "positive": 1,
       "neutral": 0,
       "negative": 6,
-      "count": 7,
-      "region": "North America"
-    },
-    {
-      "source": "NPR",
-      "positive": 3,
-      "neutral": 0,
-      "negative": 4,
       "count": 7,
       "region": "North America"
     },
@@ -339,45 +339,45 @@
   "by_region": [
     {
       "region": "Asia-Pacific",
-      "positive": 254,
-      "neutral": 100,
-      "negative": 269,
-      "count": 623
+      "positive": 255,
+      "neutral": 99,
+      "negative": 270,
+      "count": 624
     },
     {
       "region": "Europe",
-      "positive": 149,
-      "neutral": 65,
+      "positive": 150,
+      "neutral": 64,
       "negative": 195,
       "count": 409
     },
     {
       "region": "North America",
-      "positive": 83,
-      "neutral": 37,
-      "negative": 92,
+      "positive": 84,
+      "neutral": 38,
+      "negative": 90,
       "count": 212
     },
     {
       "region": "Sports",
       "positive": 118,
       "neutral": 37,
-      "negative": 50,
-      "count": 205
+      "negative": 47,
+      "count": 202
     },
     {
       "region": "Middle East",
-      "positive": 35,
-      "neutral": 11,
-      "negative": 83,
-      "count": 129
+      "positive": 37,
+      "neutral": 12,
+      "negative": 85,
+      "count": 134
     },
     {
       "region": "Global",
-      "positive": 18,
-      "neutral": 10,
+      "positive": 19,
+      "neutral": 8,
       "negative": 29,
-      "count": 57
+      "count": 56
     },
     {
       "region": "Technology",
@@ -388,10 +388,10 @@
     },
     {
       "region": "Business",
-      "positive": 19,
+      "positive": 21,
       "neutral": 6,
       "negative": 12,
-      "count": 37
+      "count": 39
     },
     {
       "region": "South America",
@@ -404,45 +404,45 @@
   "by_topic": [
     {
       "topic": "Tech",
-      "positive": 266,
-      "neutral": 75,
-      "negative": 287,
-      "count": 628
+      "positive": 270,
+      "neutral": 74,
+      "negative": 288,
+      "count": 632
     },
     {
       "topic": "Other",
-      "positive": 156,
-      "neutral": 101,
+      "positive": 158,
+      "neutral": 103,
       "negative": 165,
-      "count": 422
+      "count": 426
     },
     {
       "topic": "Politics",
-      "positive": 127,
+      "positive": 128,
       "neutral": 46,
-      "negative": 155,
-      "count": 328
+      "negative": 156,
+      "count": 330
     },
     {
       "topic": "Sports",
       "positive": 76,
       "neutral": 26,
-      "negative": 31,
-      "count": 133
+      "negative": 27,
+      "count": 129
     },
     {
       "topic": "World",
-      "positive": 31,
+      "positive": 32,
       "neutral": 8,
-      "negative": 58,
-      "count": 97
+      "negative": 59,
+      "count": 99
     },
     {
       "topic": "Business",
       "positive": 27,
       "neutral": 2,
-      "negative": 10,
-      "count": 39
+      "negative": 9,
+      "count": 38
     },
     {
       "topic": "Health",
@@ -454,16 +454,16 @@
     {
       "topic": "Entertainment",
       "positive": 14,
-      "neutral": 4,
+      "neutral": 3,
       "negative": 4,
-      "count": 22
+      "count": 21
     },
     {
       "topic": "Science",
       "positive": 6,
-      "neutral": 9,
+      "neutral": 7,
       "negative": 4,
-      "count": 19
+      "count": 17
     }
   ],
   "sample_headlines": [
@@ -626,6 +626,14 @@
       "region": "Asia-Pacific",
       "published": "2025-08-25T03:57:50+08:00",
       "sentiment": "positive"
+    },
+    {
+      "title": "Precedent-setting ruling: SC allows crime victims, their heirs to appeal against acquittal",
+      "url": "https://timesofindia.indiatimes.com/india/sc-victims-of-crime-their-heirs-can-appeal-if-accused-are-let-off/articleshow/123490266.cms",
+      "source": "Times of India",
+      "region": "Asia-Pacific",
+      "published": "2025-08-25T03:41:36+05:30",
+      "sentiment": "negative"
     },
     {
       "title": "UK vows to speed up asylum claims as hotel protests spread",
@@ -948,6 +956,14 @@
       "sentiment": "positive"
     },
     {
+      "title": "Zelenskyy marks independence day from Soviet Union vowing to fight for and defend Ukraine",
+      "url": "https://www.euronews.com/my-europe/2025/08/25/zelenskyy-marks-independence-day-from-soviet-union-vowing-to-fight-for-and-defend-ukraine",
+      "source": "Euronews",
+      "region": "Europe",
+      "published": "2025-08-25T00:29:25+02:00",
+      "sentiment": "positive"
+    },
+    {
       "title": "US Open day one",
       "url": "https://www.channelnewsasia.com/sport/us-open-day-one-5311601",
       "source": "Channel News Asia",
@@ -1074,6 +1090,14 @@
       "region": "Asia-Pacific",
       "published": "2025-08-24T23:30:17+05:30",
       "sentiment": "positive"
+    },
+    {
+      "title": "Israeli forces and settlers intensify West Bank conquest with raids and assaults",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-forces-and-settlers-intensify-west-bank-conquest-raids-and",
+      "source": "Middle East Eye",
+      "region": "Middle East",
+      "published": "2025-08-24T23:28:27+01:00",
+      "sentiment": "negative"
     },
     {
       "title": "Planetarium in Kozhikode set to go hybrid",
@@ -1220,52 +1244,28 @@
       "sentiment": "negative"
     },
     {
+      "title": "Asylum hotel protests continue in UK as government plans new fast-track process",
+      "url": "https://www.scmp.com/news/world/europe/article/3323004/asylum-hotel-protests-continue-uk-government-plans-new-fast-track-process?utm_source=rss_feed",
+      "source": "South China Morning Post",
+      "region": "Asia-Pacific",
+      "published": "2025-08-24T22:35:37+00:00",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Tropical Storm Fernand passing well east of Bermuda, no threat to land",
+      "url": "https://www.independent.co.uk/news/bermuda-miami-national-hurricane-center-atlantic-b2813413.html",
+      "source": "Independent",
+      "region": "Europe",
+      "published": "2025-08-24T22:35:33+00:00",
+      "sentiment": "positive"
+    },
+    {
       "title": "Did Trump put tariffs on India to pressure Russia? What Vance said",
       "url": "https://timesofindia.indiatimes.com/business/international-business/aggressive-economic-leverage-jd-vance-says-trump-applied-secondary-tariffs-on-india-to-force-russia-to-stop-war-harder-for-russians-to/articleshow/123486661.cms",
       "source": "Times of India",
       "region": "Asia-Pacific",
       "published": "2025-08-24T22:34:09+05:30",
       "sentiment": "negative"
-    },
-    {
-      "title": "Why did US put secondary tariffs on India for Russia oil? What JD Vance said",
-      "url": "https://timesofindia.indiatimes.com/business/international-business/aggressive-economic-leverage-jd-vance-says-trump-applied-secondary-tariffs-on-india-to-force-russia-to-stop-war-harder-for-russians-to/articleshow/123486661.cms",
-      "source": "Times of India",
-      "region": "Asia-Pacific",
-      "published": "2025-08-24T22:34:09+05:30",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "US Open: Order of Play with Draper in action on star-studded Monday",
-      "url": "https://www.skysports.com/tennis/news/12040/13415937/us-open-order-of-play-and-match-schedule-for-arthur-ashe-stadium-louis-armstrong-stadium-and-more-at-flushing-meadows-new-york",
-      "source": "Sky Sports",
-      "region": "Sports",
-      "published": "2025-08-24T22:30:00+00:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "After vote chori, BJP now engaged in satta chori, says Congress President Mallikarjun Kharge",
-      "url": "https://www.thehindu.com/news/national/after-vote-chori-bjp-now-engaged-in-satta-chori-says-congress-president-mallikarjun-kharge/article69972462.ece",
-      "source": "The Hindu",
-      "region": "Asia-Pacific",
-      "published": "2025-08-24T22:29:58+05:30",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Arrest being used as a weapon to dismiss governments, says Mallikarjun Kharge",
-      "url": "https://www.thehindu.com/news/national/after-vote-chori-bjp-now-engaged-in-satta-chori-says-congress-president-mallikarjun-kharge/article69972462.ece",
-      "source": "The Hindu",
-      "region": "Asia-Pacific",
-      "published": "2025-08-24T22:29:58+05:30",
-      "sentiment": "negative"
-    },
-    {
-      "title": "England's Botterman wants to become 'best in the world' in her position",
-      "url": "https://www.skysports.com/rugby-union/news/12040/13417992/womens-rugby-world-cup-england-prop-hannah-botterman-wants-to-become-best-in-the-world-in-her-position",
-      "source": "Sky Sports",
-      "region": "Sports",
-      "published": "2025-08-24T22:25:00+00:00",
-      "sentiment": "positive"
     }
   ]
 }
