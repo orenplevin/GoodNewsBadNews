@@ -1,42 +1,42 @@
 {
-  "generated_at": "2025-08-24T12:13:40.454764+00:00",
+  "generated_at": "2025-08-24T12:41:14.176117+00:00",
   "window_hours": 24,
   "totals": {
-    "positive": 741,
-    "neutral": 260,
-    "negative": 679
+    "positive": 733,
+    "neutral": 263,
+    "negative": 685
   },
   "by_publication": [
     {
       "source": "Independent",
-      "positive": 109,
-      "neutral": 39,
-      "negative": 96,
-      "count": 244,
+      "positive": 105,
+      "neutral": 41,
+      "negative": 93,
+      "count": 239,
       "region": "Europe"
     },
     {
       "source": "The Hindu",
-      "positive": 79,
+      "positive": 78,
       "neutral": 69,
-      "negative": 93,
-      "count": 241,
+      "negative": 92,
+      "count": 239,
       "region": "Asia-Pacific"
     },
     {
       "source": "Times of India",
       "positive": 64,
       "neutral": 5,
-      "negative": 63,
-      "count": 132,
+      "negative": 62,
+      "count": 131,
       "region": "Asia-Pacific"
     },
     {
       "source": "Australian Broadcasting Corporation",
-      "positive": 68,
+      "positive": 66,
       "neutral": 10,
       "negative": 32,
-      "count": 110,
+      "count": 108,
       "region": "Asia-Pacific"
     },
     {
@@ -50,49 +50,49 @@
     {
       "source": "Channel News Asia",
       "positive": 33,
-      "neutral": 24,
+      "neutral": 23,
       "negative": 23,
-      "count": 80,
+      "count": 79,
       "region": "Asia-Pacific"
+    },
+    {
+      "source": "Fox News",
+      "positive": 28,
+      "neutral": 7,
+      "negative": 38,
+      "count": 73,
+      "region": "North America"
     },
     {
       "source": "Sky Sports",
       "positive": 39,
-      "neutral": 24,
-      "negative": 8,
+      "neutral": 23,
+      "negative": 9,
       "count": 71,
       "region": "Sports"
-    },
-    {
-      "source": "Fox News",
-      "positive": 27,
-      "neutral": 6,
-      "negative": 34,
-      "count": 67,
-      "region": "North America"
     },
     {
       "source": "South China Morning Post",
       "positive": 28,
       "neutral": 0,
-      "negative": 30,
-      "count": 58,
+      "negative": 31,
+      "count": 59,
       "region": "Asia-Pacific"
     },
     {
       "source": "BBC News",
       "positive": 17,
       "neutral": 10,
-      "negative": 30,
-      "count": 57,
+      "negative": 31,
+      "count": 58,
       "region": "Global"
     },
     {
       "source": "CBS News",
-      "positive": 18,
+      "positive": 17,
       "neutral": 4,
-      "negative": 26,
-      "count": 48,
+      "negative": 25,
+      "count": 46,
       "region": "North America"
     },
     {
@@ -104,42 +104,42 @@
       "region": "Europe"
     },
     {
-      "source": "ESPN",
-      "positive": 27,
-      "neutral": 7,
-      "negative": 9,
-      "count": 43,
-      "region": "Sports"
-    },
-    {
       "source": "Al Jazeera English",
       "positive": 8,
-      "neutral": 6,
-      "negative": 23,
-      "count": 37,
+      "neutral": 7,
+      "negative": 24,
+      "count": 39,
       "region": "Middle East"
     },
     {
+      "source": "ESPN",
+      "positive": 24,
+      "neutral": 6,
+      "negative": 9,
+      "count": 39,
+      "region": "Sports"
+    },
+    {
       "source": "France 24",
-      "positive": 14,
-      "neutral": 4,
+      "positive": 13,
+      "neutral": 6,
       "negative": 17,
-      "count": 35,
+      "count": 36,
       "region": "Europe"
+    },
+    {
+      "source": "Times of Israel",
+      "positive": 3,
+      "neutral": 1,
+      "negative": 21,
+      "count": 25,
+      "region": "Middle East"
     },
     {
       "source": "Middle East Eye",
       "positive": 4,
       "neutral": 0,
-      "negative": 19,
-      "count": 23,
-      "region": "Middle East"
-    },
-    {
-      "source": "Times of Israel",
-      "positive": 2,
-      "neutral": 1,
-      "negative": 19,
+      "negative": 18,
       "count": 22,
       "region": "Middle East"
     },
@@ -168,6 +168,14 @@
       "region": "Business"
     },
     {
+      "source": "Euronews",
+      "positive": 8,
+      "neutral": 3,
+      "negative": 7,
+      "count": 18,
+      "region": "Europe"
+    },
+    {
       "source": "Straits Times",
       "positive": 9,
       "neutral": 4,
@@ -189,14 +197,6 @@
       "neutral": 0,
       "negative": 12,
       "count": 16,
-      "region": "Europe"
-    },
-    {
-      "source": "Euronews",
-      "positive": 7,
-      "neutral": 3,
-      "negative": 5,
-      "count": 15,
       "region": "Europe"
     },
     {
@@ -224,6 +224,14 @@
       "region": "North America"
     },
     {
+      "source": "Bloomberg",
+      "positive": 6,
+      "neutral": 0,
+      "negative": 6,
+      "count": 12,
+      "region": "Business"
+    },
+    {
       "source": "Daily News Egypt",
       "positive": 7,
       "neutral": 3,
@@ -238,14 +246,6 @@
       "negative": 0,
       "count": 11,
       "region": "Technology"
-    },
-    {
-      "source": "Bloomberg",
-      "positive": 5,
-      "neutral": 0,
-      "negative": 6,
-      "count": 11,
-      "region": "Business"
     },
     {
       "source": "New York Times",
@@ -264,6 +264,14 @@
       "region": "Technology"
     },
     {
+      "source": "Financial Times",
+      "positive": 3,
+      "neutral": 1,
+      "negative": 6,
+      "count": 10,
+      "region": "Europe"
+    },
+    {
       "source": "Sky News",
       "positive": 1,
       "neutral": 1,
@@ -278,14 +286,6 @@
       "negative": 1,
       "count": 9,
       "region": "North America"
-    },
-    {
-      "source": "Financial Times",
-      "positive": 3,
-      "neutral": 1,
-      "negative": 5,
-      "count": 9,
-      "region": "Europe"
     },
     {
       "source": "CNBC",
@@ -331,45 +331,45 @@
   "by_region": [
     {
       "region": "Asia-Pacific",
-      "positive": 281,
-      "neutral": 112,
-      "negative": 246,
-      "count": 639
+      "positive": 278,
+      "neutral": 111,
+      "negative": 245,
+      "count": 634
     },
     {
       "region": "Europe",
-      "positive": 171,
-      "neutral": 57,
+      "positive": 167,
+      "neutral": 61,
       "negative": 199,
       "count": 427
     },
     {
       "region": "Sports",
-      "positive": 127,
-      "neutral": 40,
-      "negative": 33,
-      "count": 200
+      "positive": 124,
+      "neutral": 38,
+      "negative": 34,
+      "count": 196
     },
     {
       "region": "North America",
       "positive": 64,
-      "neutral": 20,
-      "negative": 91,
-      "count": 175
+      "neutral": 21,
+      "negative": 94,
+      "count": 179
     },
     {
       "region": "Middle East",
-      "positive": 21,
-      "neutral": 10,
-      "negative": 63,
-      "count": 94
+      "positive": 22,
+      "neutral": 11,
+      "negative": 65,
+      "count": 98
     },
     {
       "region": "Global",
       "positive": 17,
       "neutral": 10,
-      "negative": 30,
-      "count": 57
+      "negative": 31,
+      "count": 58
     },
     {
       "region": "Technology",
@@ -380,10 +380,10 @@
     },
     {
       "region": "Business",
-      "positive": 22,
+      "positive": 23,
       "neutral": 5,
       "negative": 11,
-      "count": 38
+      "count": 39
     },
     {
       "region": "South America",
@@ -396,38 +396,38 @@
   "by_topic": [
     {
       "topic": "Tech",
-      "positive": 270,
-      "neutral": 57,
-      "negative": 257,
-      "count": 584
+      "positive": 267,
+      "neutral": 58,
+      "negative": 265,
+      "count": 590
     },
     {
       "topic": "Other",
-      "positive": 153,
-      "neutral": 100,
+      "positive": 151,
+      "neutral": 98,
       "negative": 159,
-      "count": 412
+      "count": 408
     },
     {
       "topic": "Politics",
-      "positive": 135,
-      "neutral": 37,
+      "positive": 133,
+      "neutral": 39,
       "negative": 125,
       "count": 297
     },
     {
       "topic": "Sports",
-      "positive": 84,
+      "positive": 82,
       "neutral": 36,
-      "negative": 41,
-      "count": 161
+      "negative": 39,
+      "count": 157
     },
     {
       "topic": "World",
       "positive": 47,
-      "neutral": 13,
-      "negative": 47,
-      "count": 107
+      "neutral": 14,
+      "negative": 48,
+      "count": 109
     },
     {
       "topic": "Business",
@@ -445,16 +445,16 @@
     },
     {
       "topic": "Science",
-      "positive": 11,
+      "positive": 12,
       "neutral": 8,
       "negative": 6,
-      "count": 25
+      "count": 26
     },
     {
       "topic": "Entertainment",
       "positive": 14,
-      "neutral": 4,
-      "negative": 5,
+      "neutral": 5,
+      "negative": 4,
       "count": 23
     }
   ],
@@ -522,6 +522,30 @@
       "region": "Asia-Pacific",
       "published": "2025-08-24T18:00:56+08:00",
       "sentiment": "positive"
+    },
+    {
+      "title": "Mangaluru\u2019s Kasturba Medical College develops new application to distinguish menstrual and non-menstrual bloodstains in crime scene",
+      "url": "https://www.thehindu.com/news/cities/Mangalore/mangalurus-kasturba-medical-college-develops-new-application-to-distinguish-menstrual-and-non-menstrual-bloodstains-in-crime-scene/article69971433.ece",
+      "source": "The Hindu",
+      "region": "Asia-Pacific",
+      "published": "2025-08-24T17:59:59+05:30",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Dharmasthala case: YouTuber M.D. Sameer appears before Belthangady police",
+      "url": "https://www.thehindu.com/news/cities/Mangalore/dharmasthala-case-youtuber-md-sameer-appears-before-belthangady-police/article69971333.ece",
+      "source": "The Hindu",
+      "region": "Asia-Pacific",
+      "published": "2025-08-24T17:38:11+05:30",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Hyderabad\u2013Tirupati flight cancelled: Hit by repeated glitches - what Alliance Air said",
+      "url": "https://timesofindia.indiatimes.com/india/technical-issues-hit-alliance-air-plane-hyderabadtirupati-flight-cancelled-airline-cites-repeated-glitches/articleshow/123484133.cms",
+      "source": "Times of India",
+      "region": "Asia-Pacific",
+      "published": "2025-08-24T17:37:45+05:30",
+      "sentiment": "negative"
     },
     {
       "title": "Kerala MLA Rahul Mamkootathil gives no definitive answer concerning calls for his resignation on grounds of sexual misconduct",
@@ -940,6 +964,14 @@
       "sentiment": "positive"
     },
     {
+      "title": "At least 64 Palestinians killed in Gaza in the past 24 hours as Israel shifts focus to Gaza City",
+      "url": "https://www.euronews.com/2025/08/24/at-least-64-palestinians-killed-in-gaza-in-the-past-24-hours-as-israel-shifts-focus-to-gaz",
+      "source": "Euronews",
+      "region": "Europe",
+      "published": "2025-08-24T14:12:42+02:00",
+      "sentiment": "negative"
+    },
+    {
       "title": "Gaganyaan: Isro completes key first integrated drop test",
       "url": "https://timesofindia.indiatimes.com/science/gaganyaan-isro-completes-key-first-integrated-drop-test/articleshow/123482360.cms",
       "source": "Times of India",
@@ -954,6 +986,14 @@
       "region": "Asia-Pacific",
       "published": "2025-08-24T13:59:18+05:30",
       "sentiment": "negative"
+    },
+    {
+      "title": "SpaceX launches 50th Dragon spacecraft to ISS on resupply mission for NASA",
+      "url": "https://www.euronews.com/2025/08/24/spacex-launches-50th-dragon-spacecraft-to-iss-on-resupply-mission-for-nasa",
+      "source": "Euronews",
+      "region": "Europe",
+      "published": "2025-08-24T13:56:57+02:00",
+      "sentiment": "positive"
     },
     {
       "title": "'Institutionalised way' for vote theft: Rahul's fresh attack on EC over SIR",
@@ -1012,6 +1052,14 @@
       "sentiment": "positive"
     },
     {
+      "title": "Russia accuses Kyiv of attacking nuclear power plant on Ukrainian Independence Day",
+      "url": "https://www.euronews.com/my-europe/2025/08/24/russia-accuses-kyiv-of-attacking-nuclear-power-plant-on-ukrainian-independence-day",
+      "source": "Euronews",
+      "region": "Europe",
+      "published": "2025-08-24T13:21:22+02:00",
+      "sentiment": "negative"
+    },
+    {
       "title": "Chinese tourist city Sanya shuts down as Typhoon Kajiki intensifies",
       "url": "https://www.channelnewsasia.com/east-asia/china-sanya-hainan-typhoon-kajiki-extreme-weather-5311156",
       "source": "Channel News Asia",
@@ -1034,6 +1082,14 @@
       "region": "Asia-Pacific",
       "published": "2025-08-24T12:57:50+05:30",
       "sentiment": "positive"
+    },
+    {
+      "title": "Trump confirms Ryder Cup attendance, backs Bradley for playing-captain role",
+      "url": "https://www.skysports.com/golf/news/12040/13417534/donald-trump-to-attend-first-day-of-2025-ryder-cup-as-us-president-backs-keegan-bradley-for-playing-captain-role",
+      "source": "Sky Sports",
+      "region": "Sports",
+      "published": "2025-08-24T12:57:00+00:00",
+      "sentiment": "negative"
     },
     {
       "title": "Pujara retires! From 206 vs England to gritty 56 at Gabba - his top 5 greatest knocks",
@@ -1076,12 +1132,92 @@
       "sentiment": "negative"
     },
     {
+      "title": "34 years ago, the making of an independent Ukraine",
+      "url": "https://www.france24.com/en/video/20250824-34-years-ago-the-making-of-an-independent-ukraine",
+      "source": "France 24",
+      "region": "Europe",
+      "published": "2025-08-24T12:38:22+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Daily Briefing Aug. 24: Day 688 \u2013 Why both sides call E1 the end of the two-state solution",
+      "url": "https://www.timesofisrael.com/daily-briefing-aug-24-day-688-why-both-sides-call-e1-the-end-of-the-two-state-solution/",
+      "source": "Times of Israel",
+      "region": "Middle East",
+      "published": "2025-08-24T12:37:59+00:00",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Strictly Come Dancing 2025 start date confirmed",
+      "url": "https://www.independent.co.uk/arts-entertainment/tv/news/strictly-come-dancing-start-2025-when-bbc-b2813273.html",
+      "source": "Independent",
+      "region": "Europe",
+      "published": "2025-08-24T12:37:06+00:00",
+      "sentiment": "neutral"
+    },
+    {
       "title": "Maharashtra to register women cooperative, give government contracts: CM Fadnavis",
       "url": "https://www.thehindu.com/news/national/maharashtra/maharashtra-to-register-women-cooperative-give-government-contracts-cm-fadnavis/article69969297.ece",
       "source": "The Hindu",
       "region": "Asia-Pacific",
       "published": "2025-08-24T12:36:36+05:30",
       "sentiment": "neutral"
+    },
+    {
+      "title": "Epstein victim\u2019s family says Ghislaine Maxwell got to \u2018rewrite history\u2019 in DOJ interviews: Live updates",
+      "url": "https://www.independent.co.uk/news/world/americas/us-politics/ghislaine-maxwell-interview-trump-epstein-live-b2813015.html",
+      "source": "Independent",
+      "region": "Europe",
+      "published": "2025-08-24T12:35:22+00:00",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Voices: Serena Williams\u2019s GLP-1 partnership marks a disturbing cultural turning point",
+      "url": "https://www.independent.co.uk/voices/serena-williams-glp1-weight-loss-drugs-ro-alexis-ohanian-b2813255.html",
+      "source": "Independent",
+      "region": "Europe",
+      "published": "2025-08-24T12:33:04+00:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Boy, 15, and man held over restaurant 'arson attack'",
+      "url": "https://www.bbc.com/news/articles/c1dxy4e9q49o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "region": "Global",
+      "published": "2025-08-24T12:31:23+00:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Why US allies are resisting China\u2019s charm offensive on trade",
+      "url": "https://www.scmp.com/opinion/china-opinion/article/3322705/why-us-allies-are-resisting-chinas-charm-offensive-trade?utm_source=rss_feed",
+      "source": "South China Morning Post",
+      "region": "Asia-Pacific",
+      "published": "2025-08-24T12:30:08+00:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Emerging Assets Set to Pull Ahead of Developed Peers, Funds Say",
+      "url": "https://www.bloomberg.com/news/articles/2025-08-24/emerging-assets-set-to-pull-ahead-of-developed-peers-funds-say",
+      "source": "Bloomberg",
+      "region": "Business",
+      "published": "2025-08-24T12:30:00+00:00",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Best Heart Rate Monitors (2025), WIRED Tested and Reviewed",
+      "url": "https://www.wired.com/gallery/best-heart-rate-monitors/",
+      "source": "Wired",
+      "region": "Technology",
+      "published": "2025-08-24T12:30:00+00:00",
+      "sentiment": "positive"
+    },
+    {
+      "title": "\u2018Hot, crispy and cheeky\u2019: Scottish chippy deep-fries the M&S strawberry and cream sandwich",
+      "url": "https://www.theguardian.com/uk-news/2025/aug/24/hot-crispy-and-cheeky-scottish-chippy-deep-fries-the-ms-strawberry-and-cream-sandwich",
+      "source": "The Guardian",
+      "region": "Europe",
+      "published": "2025-08-24T12:29:51+00:00",
+      "sentiment": "positive"
     },
     {
       "title": "Cheteshwar Pujara retires: A look back at his iconic career and records - in numbers",
@@ -1092,11 +1228,27 @@
       "sentiment": "positive"
     },
     {
+      "title": "At least 1 dead in Moscow shopping center explosion, 3 injured",
+      "url": "https://www.independent.co.uk/news/moscow-two-russia-department-of-health-b2813272.html",
+      "source": "Independent",
+      "region": "Europe",
+      "published": "2025-08-24T12:27:05+00:00",
+      "sentiment": "negative"
+    },
+    {
       "title": "BJP worker arrested for beating Scheduled Caste engineer with shoe in U.P.\u2019s Ballia",
       "url": "https://www.thehindu.com/news/national/uttar-pradesh/bjp-worker-arrested-for-beating-scheduled-caste-engineer-with-shoe-in-ups-ballia/article69971033.ece",
       "source": "The Hindu",
       "region": "Asia-Pacific",
       "published": "2025-08-24T12:21:35+05:30",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Israel pounds Gaza City in preparation for planned offensive",
+      "url": "https://www.bbc.com/news/articles/cvg478y8l09o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "region": "Global",
+      "published": "2025-08-24T12:18:44+00:00",
       "sentiment": "negative"
     },
     {
@@ -1106,158 +1258,6 @@
       "region": "Asia-Pacific",
       "published": "2025-08-24T12:17:05+08:00",
       "sentiment": "neutral"
-    },
-    {
-      "title": "Student charred to death in Arunachal residential school fire, three others injured",
-      "url": "https://www.thehindu.com/news/national/arunachal-pradesh/arunachal-school-fire-student-killed-august-24-2025/article69971039.ece",
-      "source": "The Hindu",
-      "region": "Asia-Pacific",
-      "published": "2025-08-24T12:11:48+05:30",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Pujara retirement: What is written on his goodbye post? Read inside",
-      "url": "https://timesofindia.indiatimes.com/sports/cricket/news/cheteshwar-pujara-retirement-what-is-written-on-his-goodbye-post-read-inside/articleshow/123481430.cms",
-      "source": "Times of India",
-      "region": "Asia-Pacific",
-      "published": "2025-08-24T12:11:36+05:30",
-      "sentiment": "positive"
-    },
-    {
-      "title": "146 Russian Servicemen Returned From Ukraine-Controlled Territory in POW Exchange - MoD",
-      "url": "https://sputnikglobe.com/20250824/146-russian-servicemen-returned-from-ukraine-controlled-territory-in-pow-exchange---mod-1122668794.html",
-      "source": "Sputnik News",
-      "region": "Europe",
-      "published": "2025-08-24T12:10:49+00:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Bihar SIR: Documents of over 98% electors received, says Election Commission of India",
-      "url": "https://www.thehindu.com/elections/bihar-assembly/bihar-sir-documents-of-over-98-electors-received-says-election-commission-of-india/article69971025.ece",
-      "source": "The Hindu",
-      "region": "Asia-Pacific",
-      "published": "2025-08-24T12:08:02+05:30",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Two arrested including boy, 15, over \u2018arson attack\u2019 on London restaurant",
-      "url": "https://www.independent.co.uk/news/uk/crime/london-ilford-fire-indian-aroma-restaurant-arson-arrests-b2813265.html",
-      "source": "Independent",
-      "region": "Europe",
-      "published": "2025-08-24T12:07:30+00:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Australia hammer South Africa to avoid whitewash",
-      "url": "https://www.bbc.com/sport/cricket/articles/cvgn5p40j77o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Sport",
-      "region": "Sports",
-      "published": "2025-08-24T12:03:39+00:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "A Jesuit leader did nothing to stop a priest from sexually abusing children. The church may canonize him",
-      "url": "https://www.theguardian.com/us-news/2025/aug/24/jesuits-new-orleans-clergy-abuse",
-      "source": "The Guardian",
-      "region": "Europe",
-      "published": "2025-08-24T12:00:32+00:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "\u2018No-holds-barred fight\u2019: California\u2019s governor takes off his gloves to punch back at Trump",
-      "url": "https://www.theguardian.com/us-news/2025/aug/24/no-holds-barred-fight-californias-governor-takes-off-his-gloves-to-punch-back-at-trump",
-      "source": "The Guardian",
-      "region": "Europe",
-      "published": "2025-08-24T12:00:31+00:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Composer John Williams says he \u2018never liked film music very much\u2019",
-      "url": "https://www.theguardian.com/music/2025/aug/24/composer-john-williams-never-liked-film-music-very-much",
-      "source": "The Guardian",
-      "region": "Europe",
-      "published": "2025-08-24T12:00:30+00:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Latest news bulletin | August 24th, 2025 \u2013 Midday",
-      "url": "https://www.euronews.com/video/2025/08/24/latest-news-bulletin-august-24th-2025-midday",
-      "source": "Euronews",
-      "region": "Europe",
-      "published": "2025-08-24T12:00:16+02:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Signs of a new drone boat surface from China\u2019s Victory Day parade rehearsal",
-      "url": "https://www.scmp.com/news/china/military/article/3322970/signs-new-drone-boat-surface-chinas-victory-day-parade-rehearsal?utm_source=rss_feed",
-      "source": "South China Morning Post",
-      "region": "Asia-Pacific",
-      "published": "2025-08-24T12:00:08+00:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "World\u2019s largest facility to help remove CO2 from the ocean to begin operations in S\u2019pore in 2026",
-      "url": "https://www.straitstimes.com/singapore/environment/worlds-largest-facility-to-help-remove-co2-from-the-ocean-to-begin-operations-in-spore-in-2026",
-      "source": "Straits Times",
-      "region": "Asia-Pacific",
-      "published": "2025-08-24T12:00:00+08:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Live on Sky: Everton host Brighton in first game at new stadium LIVE!",
-      "url": "https://www.skysports.com/football/everton-vs-brighton-and-hove-albion/live/531144",
-      "source": "Sky Sports",
-      "region": "Sports",
-      "published": "2025-08-24T12:00:00+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "8BitDo 64 Bluetooth Controller Review: For Human Hands",
-      "url": "https://www.wired.com/review/8bitdo-64-bluetooth-controller/",
-      "source": "Wired",
-      "region": "Technology",
-      "published": "2025-08-24T12:00:00+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Live on Sky: Grealish starts as Everton host Brighton at new stadium LIVE!",
-      "url": "https://www.skysports.com/football/everton-vs-brighton-and-hove-albion/live/531144",
-      "source": "Sky Sports",
-      "region": "Sports",
-      "published": "2025-08-24T12:00:00+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Cutting Russia off from the web",
-      "url": "https://www.aljazeera.com/video/digital-dilemma/2025/8/24/cutting-russia-off-from-the-web?traffic_source=rss",
-      "source": "Al Jazeera English",
-      "region": "Middle East",
-      "published": "2025-08-24T11:59:27+00:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Russia reports blaze at one of its biggest nuclear power plants",
-      "url": "https://www.independent.co.uk/bulletin/news/ukraine-russia-kursk-nuclear-power-plant-b2813260.html",
-      "source": "Independent",
-      "region": "Europe",
-      "published": "2025-08-24T11:59:20+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Bangladesh holds international conference on Rohingya: Here\u2019s what to know",
-      "url": "https://www.aljazeera.com/news/2025/8/24/bangladesh-holds-international-conference-on-rohingya-heres-what-to-know?traffic_source=rss",
-      "source": "Al Jazeera English",
-      "region": "Middle East",
-      "published": "2025-08-24T11:58:52+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Anti-refugee protesters in the UK rally against hotels for asylum seekers",
-      "url": "https://www.aljazeera.com/video/newsfeed/2025/8/24/anti-refugee-protesters-in-the-uk-rally-against-hotels-for-asylum-seekers?traffic_source=rss",
-      "source": "Al Jazeera English",
-      "region": "Middle East",
-      "published": "2025-08-24T11:57:54+00:00",
-      "sentiment": "negative"
     }
   ]
 }
