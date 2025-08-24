@@ -106,10 +106,10 @@
           </div>
         </section>
 
-        <!-- Charts Grid -->
+        <!-- PRIMARY Charts Grid -->
         <div class="charts-grid">
           <!-- Sentiment Distribution Chart -->
-          <div class="chart-card large-chart resizable-widget" data-widget="sentiment" style="width: 50%; height: 360px;">
+          <div class="chart-card large-chart resizable-widget" data-widget="sentiment" style="width: 33.33%; height: 360px;">
             <div class="resize-handle resize-handle-right"></div>
             <div class="resize-handle resize-handle-bottom"></div>
             <div class="resize-handle resize-handle-corner"></div>
@@ -129,7 +129,7 @@
           </div>
           
           <!-- 7-Day Trend Chart -->
-          <div class="chart-card resizable-widget" data-widget="trend" style="width: 50%; height: 360px;">
+          <div class="chart-card resizable-widget" data-widget="trend" style="width: 33.33%; height: 360px;">
             <div class="resize-handle resize-handle-left"></div>
             <div class="resize-handle resize-handle-bottom"></div>
             <div class="resize-handle resize-handle-corner-left"></div>
@@ -158,11 +158,31 @@
               </div>
             </div>
           </div>
+
+          <!-- NEW: Regional Distribution Chart -->
+          <div class="chart-card resizable-widget" data-widget="regions" style="width: 33.33%; height: 360px;">
+            <div class="resize-handle resize-handle-left"></div>
+            <div class="resize-handle resize-handle-bottom"></div>
+            <div class="resize-handle resize-handle-corner-left"></div>
+            <div class="widget-header chart-header">
+              <div class="drag-handle" title="Drag to move widget">⋮⋮</div>
+              <h3>By Region</h3>
+              <div class="chart-actions">
+                <button class="action-btn">🌍</button>
+                <button class="widget-btn minimize-btn" data-widget="regions">−</button>
+              </div>
+            </div>
+            <div class="widget-content">
+              <div class="chart-container">
+                <canvas id="regionChart"></canvas>
+              </div>
+            </div>
+          </div>
         </div>
 
-        <!-- Bottom Charts Row -->
-        <div class="bottom-charts-row">
-          <div class="chart-card resizable-widget" data-widget="publication" style="width: 50%; height: 360px;">
+        <!-- SECONDARY Charts Grid -->
+        <div class="charts-grid-secondary">
+          <div class="chart-card resizable-widget" data-widget="publication" style="width: 33.33%; height: 360px;">
             <div class="resize-handle resize-handle-right"></div>
             <div class="resize-handle resize-handle-bottom"></div>
             <div class="resize-handle resize-handle-corner"></div>
@@ -186,7 +206,7 @@
             </div>
           </div>
           
-          <div class="chart-card resizable-widget" data-widget="topics" style="width: 50%; height: 360px;">
+          <div class="chart-card resizable-widget" data-widget="topics" style="width: 33.33%; height: 360px;">
             <div class="resize-handle resize-handle-left"></div>
             <div class="resize-handle resize-handle-bottom"></div>
             <div class="resize-handle resize-handle-corner-left"></div>
@@ -201,6 +221,26 @@
             <div class="widget-content">
               <div class="chart-container">
                 <canvas id="topicChart"></canvas>
+              </div>
+            </div>
+          </div>
+
+          <!-- NEW: Hourly Activity Chart -->
+          <div class="chart-card resizable-widget" data-widget="hourly" style="width: 33.33%; height: 360px;">
+            <div class="resize-handle resize-handle-left"></div>
+            <div class="resize-handle resize-handle-bottom"></div>
+            <div class="resize-handle resize-handle-corner-left"></div>
+            <div class="widget-header chart-header">
+              <div class="drag-handle" title="Drag to move widget">⋮⋮</div>
+              <h3>Hourly Activity</h3>
+              <div class="chart-actions">
+                <button class="action-btn">⏰</button>
+                <button class="widget-btn minimize-btn" data-widget="hourly">−</button>
+              </div>
+            </div>
+            <div class="widget-content">
+              <div class="chart-container">
+                <canvas id="hourlyChart"></canvas>
               </div>
             </div>
           </div>
