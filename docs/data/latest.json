@@ -1,82 +1,82 @@
 {
-  "generated_at": "2025-08-24T06:32:51.629094+00:00",
+  "generated_at": "2025-08-24T06:55:07.578459+00:00",
   "window_hours": 24,
   "totals": {
     "positive": 779,
-    "neutral": 285,
-    "negative": 739
+    "neutral": 287,
+    "negative": 740
   },
   "by_publication": [
     {
       "source": "The Hindu",
-      "positive": 88,
+      "positive": 84,
       "neutral": 69,
-      "negative": 110,
-      "count": 267,
+      "negative": 111,
+      "count": 264,
       "region": "Asia-Pacific"
     },
     {
       "source": "Independent",
-      "positive": 108,
+      "positive": 109,
       "neutral": 43,
-      "negative": 105,
-      "count": 256,
+      "negative": 103,
+      "count": 255,
       "region": "Europe"
     },
     {
       "source": "Times of India",
-      "positive": 68,
+      "positive": 66,
       "neutral": 6,
       "negative": 54,
-      "count": 128,
+      "count": 126,
       "region": "Asia-Pacific"
     },
     {
       "source": "Fox News",
-      "positive": 38,
+      "positive": 37,
       "neutral": 9,
       "negative": 44,
-      "count": 91,
+      "count": 90,
       "region": "North America"
     },
     {
       "source": "Australian Broadcasting Corporation",
-      "positive": 56,
-      "neutral": 6,
-      "negative": 25,
-      "count": 87,
+      "positive": 57,
+      "neutral": 7,
+      "negative": 26,
+      "count": 90,
       "region": "Asia-Pacific"
     },
     {
       "source": "BBC Sport",
-      "positive": 54,
+      "positive": 59,
       "neutral": 12,
       "negative": 18,
-      "count": 84,
+      "count": 89,
       "region": "Sports"
     },
     {
       "source": "Channel News Asia",
-      "positive": 32,
+      "positive": 31,
       "neutral": 25,
       "negative": 25,
-      "count": 82,
+      "count": 81,
       "region": "Asia-Pacific"
     },
     {
       "source": "Sky Sports",
-      "positive": 42,
+      "positive": 44,
       "neutral": 28,
       "negative": 9,
-      "count": 79,
+      "count": 81,
       "region": "Sports"
     },
     {
       "source": "ESPN",
       "positive": 38,
       "neutral": 13,
-      "negative": 14,
-      "count": 65,
+      "negative": 15,
+      "count": 66,
       "region": "Sports"
     },
     {
@@ -97,10 +97,10 @@
     },
     {
       "source": "BBC News",
-      "positive": 15,
+      "positive": 16,
       "neutral": 9,
       "negative": 24,
-      "count": 48,
+      "count": 49,
       "region": "Global"
     },
     {
@@ -114,9 +114,9 @@
     {
       "source": "Al Jazeera English",
       "positive": 7,
-      "neutral": 8,
+      "neutral": 7,
       "negative": 23,
-      "count": 38,
+      "count": 37,
       "region": "Global"
     },
     {
@@ -137,10 +137,10 @@
     },
     {
       "source": "NBC News",
-      "positive": 6,
+      "positive": 5,
       "neutral": 3,
       "negative": 19,
-      "count": 28,
+      "count": 27,
       "region": "North America"
     },
     {
@@ -160,14 +160,6 @@
       "region": "Europe"
     },
     {
-      "source": "Times of Israel",
-      "positive": 5,
-      "neutral": 1,
-      "negative": 16,
-      "count": 22,
-      "region": "Middle East"
-    },
-    {
       "source": "MarketWatch",
       "positive": 14,
       "neutral": 4,
@@ -176,11 +168,27 @@
       "region": "Business"
     },
     {
+      "source": "Times of Israel",
+      "positive": 5,
+      "neutral": 1,
+      "negative": 15,
+      "count": 21,
+      "region": "Middle East"
+    },
+    {
       "source": "Irish Times",
       "positive": 3,
       "neutral": 8,
-      "negative": 8,
-      "count": 19,
+      "negative": 9,
+      "count": 20,
+      "region": "Europe"
+    },
+    {
+      "source": "Euronews",
+      "positive": 7,
+      "neutral": 4,
+      "negative": 7,
+      "count": 18,
       "region": "Europe"
     },
     {
@@ -206,14 +214,6 @@
       "negative": 9,
       "count": 17,
       "region": "Business"
-    },
-    {
-      "source": "Euronews",
-      "positive": 7,
-      "neutral": 2,
-      "negative": 7,
-      "count": 16,
-      "region": "Europe"
     },
     {
       "source": "RT News",
@@ -280,14 +280,6 @@
       "region": "North America"
     },
     {
-      "source": "Sky News",
-      "positive": 2,
-      "neutral": 0,
-      "negative": 5,
-      "count": 7,
-      "region": "Europe"
-    },
-    {
       "source": "Financial Times",
       "positive": 2,
       "neutral": 1,
@@ -310,6 +302,14 @@
       "negative": 3,
       "count": 6,
       "region": "North America"
+    },
+    {
+      "source": "Sky News",
+      "positive": 1,
+      "neutral": 0,
+      "negative": 5,
+      "count": 6,
+      "region": "Europe"
     },
     {
       "source": "The Verge",
@@ -347,38 +347,38 @@
   "by_region": [
     {
       "region": "Asia-Pacific",
-      "positive": 282,
-      "neutral": 112,
-      "negative": 251,
-      "count": 645
+      "positive": 276,
+      "neutral": 113,
+      "negative": 253,
+      "count": 642
     },
     {
       "region": "Europe",
       "positive": 170,
-      "neutral": 62,
-      "negative": 220,
-      "count": 452
+      "neutral": 64,
+      "negative": 219,
+      "count": 453
     },
     {
       "region": "Sports",
-      "positive": 134,
+      "positive": 141,
       "neutral": 53,
-      "negative": 41,
-      "count": 228
+      "negative": 42,
+      "count": 236
     },
     {
       "region": "North America",
-      "positive": 78,
+      "positive": 76,
       "neutral": 25,
       "negative": 114,
-      "count": 217
+      "count": 215
     },
     {
       "region": "Middle East",
       "positive": 23,
       "neutral": 9,
-      "negative": 60,
-      "count": 92
+      "negative": 59,
+      "count": 91
     },
     {
       "region": "Technology",
@@ -389,8 +389,8 @@
     },
     {
       "region": "Global",
-      "positive": 16,
-      "neutral": 12,
+      "positive": 17,
+      "neutral": 11,
       "negative": 26,
       "count": 54
     },
@@ -419,31 +419,31 @@
   "by_topic": [
     {
       "topic": "Tech",
-      "positive": 292,
-      "neutral": 65,
-      "negative": 271,
-      "count": 628
+      "positive": 295,
+      "neutral": 66,
+      "negative": 272,
+      "count": 633
     },
     {
       "topic": "Other",
-      "positive": 168,
-      "neutral": 112,
+      "positive": 170,
+      "neutral": 113,
       "negative": 169,
-      "count": 449
+      "count": 452
     },
     {
       "topic": "Politics",
-      "positive": 145,
+      "positive": 139,
       "neutral": 33,
       "negative": 145,
-      "count": 323
+      "count": 317
     },
     {
       "topic": "Sports",
-      "positive": 82,
-      "neutral": 45,
+      "positive": 83,
+      "neutral": 46,
       "negative": 42,
-      "count": 169
+      "count": 171
     },
     {
       "topic": "World",
@@ -455,9 +455,9 @@
     {
       "topic": "Business",
       "positive": 21,
-      "neutral": 4,
+      "neutral": 3,
       "negative": 22,
-      "count": 47
+      "count": 46
     },
     {
       "topic": "Health",
@@ -468,17 +468,17 @@
     },
     {
       "topic": "Science",
-      "positive": 12,
+      "positive": 11,
       "neutral": 5,
       "negative": 11,
-      "count": 28
+      "count": 27
     },
     {
       "topic": "Entertainment",
-      "positive": 9,
+      "positive": 10,
       "neutral": 5,
       "negative": 5,
-      "count": 19
+      "count": 20
     }
   ],
   "sample_headlines": [
@@ -547,11 +547,43 @@
       "sentiment": "negative"
     },
     {
+      "title": "BJP worker arrested for beating Scheduled Caste engineer with shoe in U.P.\u2019s Ballia",
+      "url": "https://www.thehindu.com/news/national/uttar-pradesh/bjp-worker-arrested-for-beating-scheduled-caste-engineer-with-shoe-in-ups-ballia/article69971033.ece",
+      "source": "The Hindu",
+      "region": "Asia-Pacific",
+      "published": "2025-08-24T12:21:35+05:30",
+      "sentiment": "negative"
+    },
+    {
       "title": "Spotify flags price rises as it introduces new services, FT reports",
       "url": "https://www.channelnewsasia.com/business/spotify-flags-price-rises-it-introduces-new-services-ft-reports-5311161",
       "source": "Channel News Asia",
       "region": "Asia-Pacific",
       "published": "2025-08-24T12:17:05+08:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Student charred to death in Arunachal residential school fire, three others injured",
+      "url": "https://www.thehindu.com/news/national/arunachal-pradesh/arunachal-school-fire-student-killed-august-24-2025/article69971039.ece",
+      "source": "The Hindu",
+      "region": "Asia-Pacific",
+      "published": "2025-08-24T12:11:48+05:30",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Pujara retirement: What is written on his goodbye post? Read inside",
+      "url": "https://timesofindia.indiatimes.com/sports/cricket/news/cheteshwar-pujara-retirement-what-is-written-on-his-goodbye-post-read-inside/articleshow/123481430.cms",
+      "source": "Times of India",
+      "region": "Asia-Pacific",
+      "published": "2025-08-24T12:11:36+05:30",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Bihar SIR: Documents of over 98% electors received, says Election Commission of India",
+      "url": "https://www.thehindu.com/elections/bihar-assembly/bihar-sir-documents-of-over-98-electors-received-says-election-commission-of-india/article69971025.ece",
+      "source": "The Hindu",
+      "region": "Asia-Pacific",
+      "published": "2025-08-24T12:08:02+05:30",
       "sentiment": "neutral"
     },
     {
@@ -859,12 +891,28 @@
       "sentiment": "neutral"
     },
     {
+      "title": "Rising visitor numbers are leaving a harmful human footprint on Antarctica\u2019s ecosystems",
+      "url": "https://www.euronews.com/green/2025/08/24/rising-visitor-numbers-are-leaving-a-harmful-human-footprint-on-antarcticas-ecosystems",
+      "source": "Euronews",
+      "region": "Europe",
+      "published": "2025-08-24T08:03:40+02:00",
+      "sentiment": "neutral"
+    },
+    {
       "title": "\u2018Trivial charges\u2019: Shashi Tharoor condemns arrest of ex-Sri Lankan president",
       "url": "https://timesofindia.indiatimes.com/india/trivial-charges-shashi-tharoor-condemns-arrest-of-ex-sri-lankan-president-cautions-against-vendetta-politics/articleshow/123479256.cms",
       "source": "Times of India",
       "region": "Asia-Pacific",
       "published": "2025-08-24T08:00:17+05:30",
       "sentiment": "negative"
+    },
+    {
+      "title": "Data centres: too many blank spots in Central and Eastern Europe",
+      "url": "https://www.euronews.com/next/2025/08/24/data-centres-too-many-blank-spots-in-central-and-eastern-europe",
+      "source": "Euronews",
+      "region": "Europe",
+      "published": "2025-08-24T08:00:09+02:00",
+      "sentiment": "neutral"
     },
     {
       "title": "\u2018They wanted Rs 36 lakh\u2019: Woman tortured, set ablaze by in-laws in Greater Noida; husband held",
@@ -963,12 +1011,28 @@
       "sentiment": "positive"
     },
     {
+      "title": "Fleetwood blows lead in rollercoaster round to give chasing pack hope",
+      "url": "https://www.skysports.com/watch/video/13417427/tour-championship-round-three-highlights",
+      "source": "Sky Sports",
+      "region": "Sports",
+      "published": "2025-08-24T07:16:00+00:00",
+      "sentiment": "positive"
+    },
+    {
       "title": "Telangana teacher mixes pesticide in drinking water: 11 students fall ill",
       "url": "https://timesofindia.indiatimes.com/city/hyderabad/teacher-mixes-pesticide-in-drinking-water-11-students-fall-ill-in-telangana-accused-did-it-to-frame-colleagues/articleshow/123479173.cms",
       "source": "Times of India",
       "region": "Asia-Pacific",
       "published": "2025-08-24T07:15:55+05:30",
       "sentiment": "negative"
+    },
+    {
+      "title": "Argentina claim first win over All Blacks on home soil",
+      "url": "https://www.skysports.com/rugby-union/news/12040/13417426/argentina-29-23-new-zealand-los-pumas-claim-historic-first-victory-over-all-blacks-on-home-soil",
+      "source": "Sky Sports",
+      "region": "Sports",
+      "published": "2025-08-24T07:14:00+00:00",
+      "sentiment": "positive"
     },
     {
       "title": "Historic win for Argentina throws open Rugby Championship",
@@ -1067,6 +1131,14 @@
       "sentiment": "neutral"
     },
     {
+      "title": "Asylum hotel protests latest: Government vows to fast-track deportations after new wave of anti-migrant demos",
+      "url": "https://www.independent.co.uk/news/uk/home-news/asylum-seekers-hotel-protests-uk-police-migrants-live-b2813184.html",
+      "source": "Independent",
+      "region": "Europe",
+      "published": "2025-08-24T06:48:49+00:00",
+      "sentiment": "positive"
+    },
+    {
       "title": "Medvedev and Sabalenka face tricky tests in US Open first round",
       "url": "https://www.channelnewsasia.com/sport/medvedev-and-sabalenka-face-tricky-tests-us-open-first-round-5311001",
       "source": "Channel News Asia",
@@ -1099,6 +1171,14 @@
       "sentiment": "negative"
     },
     {
+      "title": "Son and Muller celebrate first MLS goals",
+      "url": "https://www.bbc.com/sport/football/articles/cj0yg46zve8o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Sport",
+      "region": "Sports",
+      "published": "2025-08-24T06:35:29+00:00",
+      "sentiment": "positive"
+    },
+    {
       "title": "India in position to help lift the world out of slow growth: PM Modi",
       "url": "https://www.thehindu.com/news/national/india-in-position-to-help-lift-the-world-out-of-slow-growth-pm-modi/article69970751.ece",
       "source": "The Hindu",
@@ -1120,6 +1200,30 @@
       "source": "Times of India",
       "region": "Asia-Pacific",
       "published": "2025-08-24T06:28:48+05:30",
+      "sentiment": "positive"
+    },
+    {
+      "title": "The making of Spain and Arsenal's humble magician",
+      "url": "https://www.bbc.com/sport/football/articles/cwye3yydw44o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Sport",
+      "region": "Sports",
+      "published": "2025-08-24T06:28:32+00:00",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Raducanu back in 'happy place' as US Open begins",
+      "url": "https://www.bbc.com/sport/tennis/articles/czxpq6v49dlo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Sport",
+      "region": "Sports",
+      "published": "2025-08-24T06:27:47+00:00",
+      "sentiment": "positive"
+    },
+    {
+      "title": "China's animated hit 'Ne Zha II' gets a second U.S. release, this time with Michelle Yeoh",
+      "url": "https://www.nbcnews.com/world/asia/china-animated-hit-ne-zha-ii-gets-second-us-release-michelle-yeoh-rcna226225",
+      "source": "NBC News",
+      "region": "North America",
+      "published": "2025-08-24T06:27:23+00:00",
       "sentiment": "positive"
     },
     {
@@ -1177,110 +1281,6 @@
       "region": "Business",
       "published": "2025-08-24T06:03:44+00:00",
       "sentiment": "negative"
-    },
-    {
-      "title": "Photos show history lovers replaying ancient Roman battles in Romania",
-      "url": "https://www.independent.co.uk/news/roman-moldova-romans-czech-republic-central-europe-b2813183.html",
-      "source": "Independent",
-      "region": "Europe",
-      "published": "2025-08-24T06:02:35+00:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Trout farm in Cotswolds tourist hotspot accused of welfare abuses",
-      "url": "https://www.theguardian.com/world/2025/aug/24/bibury-trout-farm-cotswolds-accused-animal-welfare-abuses",
-      "source": "The Guardian",
-      "region": "Europe",
-      "published": "2025-08-24T06:00:25+00:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "UK carmakers claimed leaving EV sales rules unchanged would cost jobs and investment",
-      "url": "https://www.theguardian.com/business/2025/aug/24/uk-carmakers-ev-sales-rules-zev-mandate",
-      "source": "The Guardian",
-      "region": "Europe",
-      "published": "2025-08-24T06:00:25+00:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "\u2018Tourism suicide\u2019: will luxury villas imperil Indonesia\u2019s Komodo dragons?",
-      "url": "https://www.scmp.com/week-asia/health-environment/article/3322847/luxury-villas-plan-indonesias-komodo-national-park-slammed-tourism-suicide?utm_source=rss_feed",
-      "source": "South China Morning Post",
-      "region": "Asia-Pacific",
-      "published": "2025-08-24T06:00:15+00:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Chinese team to delve into deep history of Egypt\u2019s ancient Sekhmet Temple ruins",
-      "url": "https://www.scmp.com/news/china/diplomacy/article/3322720/chinese-team-delve-ancient-history-egypts-sekhmet-temple-ruins?utm_source=rss_feed",
-      "source": "South China Morning Post",
-      "region": "Asia-Pacific",
-      "published": "2025-08-24T06:00:12+00:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Chinese man sold by lover to Myanmar fraud ring freed after family pays US$48,000",
-      "url": "https://www.scmp.com/news/people-culture/trending-china/article/3322330/chinese-man-sold-teenage-lover-myanmar-fraud-ring-freed-after-family-pays-us48000?utm_source=rss_feed",
-      "source": "South China Morning Post",
-      "region": "Asia-Pacific",
-      "published": "2025-08-24T06:00:08+00:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Commentary: AI slurs are just the start of the backlash",
-      "url": "https://www.channelnewsasia.com/commentary/ai-slop-backlash-fatigue-danger-clanker-5308931",
-      "source": "Channel News Asia",
-      "region": "Asia-Pacific",
-      "published": "2025-08-24T06:00:00+08:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Heavy rain damages Anganwadi centre, houses in Vellore; crops in Ranipet",
-      "url": "https://www.thehindu.com/news/national/tamil-nadu/heavy-rain-damages-anganwadi-centre-houses-in-vellore-crops-in-ranipet/article69968690.ece",
-      "source": "The Hindu",
-      "region": "Asia-Pacific",
-      "published": "2025-08-24T06:00:00+05:30",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Gstaad faces  Venetian Sun and Wise Approach in Prix Morny",
-      "url": "https://www.skysports.com/racing/news/12040/13416661/today-on-sky-sports-racing-gstaad-seeks-prix-morny-glory-at-deauville",
-      "source": "Sky Sports",
-      "region": "Sports",
-      "published": "2025-08-24T06:00:00+00:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Google\u2019s AI glasses rumoured to be made in Taiwan, possibly by HTC",
-      "url": "https://www.scmp.com/tech/big-tech/article/3322964/googles-ai-glasses-rumoured-be-made-taiwan-possibly-htc?utm_source=rss_feed",
-      "source": "South China Morning Post",
-      "region": "Asia-Pacific",
-      "published": "2025-08-24T05:58:12+00:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "'War 2' BO collection Day 10: Hrithik Roshan, Jr NTR-starrer crosses Rs 214 cr mark",
-      "url": "https://timesofindia.indiatimes.com/entertainment/hindi/bollywood/box-office/war-2-box-office-collection-day-10-hrithik-roshan-jr-ntr-and-kiara-advani-starrer-picks-up-pace-on-saturday-collections-cross-rs-214-crore-mark/articleshow/123478320.cms",
-      "source": "Times of India",
-      "region": "Asia-Pacific",
-      "published": "2025-08-24T05:56:54+05:30",
-      "sentiment": "negative"
-    },
-    {
-      "title": "New Trump design chief aims to improve thousands of US government websites",
-      "url": "https://www.channelnewsasia.com/business/new-trump-design-chief-aims-improve-thousands-us-government-websites-5310996",
-      "source": "Channel News Asia",
-      "region": "Asia-Pacific",
-      "published": "2025-08-24T05:56:18+08:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Sinner & Alcaraz again? Swiatek or Sabalenka? US Open preview",
-      "url": "https://www.bbc.com/sport/tennis/articles/c9wye0x22z4o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "region": "Global",
-      "published": "2025-08-24T05:55:23+00:00",
-      "sentiment": "positive"
     }
   ]
 }
