@@ -6,6 +6,7 @@
 <title>News Sentiment Dashboard</title>
 <link rel="stylesheet" href="./styles.css" />
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/wordcloud@1.2.2/src/wordcloud2.min.js"></script>
 </head>
 <body>
 <!-- Background gradients -->
@@ -28,6 +29,9 @@
           <div class="status-dot"></div>
           <span class="status-text" id="generatedAt">Loading...</span>
         </div>
+        <a href="headlines.html" class="header-btn" title="View All Headlines">
+          📰 All Headlines
+        </a>
         <button class="reset-layout-btn" id="resetLayout" title="Reset Layout">
           🔄 Reset Layout
         </button>
@@ -159,14 +163,14 @@
             </div>
           </div>
 
-          <!-- NEW: Regional Distribution Chart -->
+          <!-- Regional Distribution Chart -->
           <div class="chart-card resizable-widget" data-widget="regions" style="width: 33.33%; height: 360px;">
             <div class="resize-handle resize-handle-left"></div>
             <div class="resize-handle resize-handle-bottom"></div>
             <div class="resize-handle resize-handle-corner-left"></div>
             <div class="widget-header chart-header">
               <div class="drag-handle" title="Drag to move widget">⋮⋮</div>
-              <h3>By Region</h3>
+              <h3>Regional Sentiment</h3>
               <div class="chart-actions">
                 <button class="action-btn">🌍</button>
                 <button class="widget-btn minimize-btn" data-widget="regions">−</button>
@@ -225,22 +229,69 @@
             </div>
           </div>
 
-          <!-- NEW: Hourly Activity Chart -->
-          <div class="chart-card resizable-widget" data-widget="hourly" style="width: 33.33%; height: 360px;">
+          <!-- Topic Trend Chart -->
+          <div class="chart-card resizable-widget" data-widget="topic-trend" style="width: 33.33%; height: 360px;">
             <div class="resize-handle resize-handle-left"></div>
             <div class="resize-handle resize-handle-bottom"></div>
             <div class="resize-handle resize-handle-corner-left"></div>
             <div class="widget-header chart-header">
               <div class="drag-handle" title="Drag to move widget">⋮⋮</div>
-              <h3>Hourly Activity</h3>
+              <h3>Topic Trends</h3>
               <div class="chart-actions">
-                <button class="action-btn">⏰</button>
-                <button class="widget-btn minimize-btn" data-widget="hourly">−</button>
+                <button class="action-btn">📈</button>
+                <button class="widget-btn minimize-btn" data-widget="topic-trend">−</button>
               </div>
             </div>
             <div class="widget-content">
               <div class="chart-container">
-                <canvas id="hourlyChart"></canvas>
+                <canvas id="topicTrendChart"></canvas>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- TERTIARY Charts Grid - Word Cloud and Regional Comparison -->
+        <div class="charts-grid-tertiary">
+          <!-- Word Cloud -->
+          <div class="chart-card resizable-widget" data-widget="wordcloud" style="width: 50%; height: 400px;">
+            <div class="resize-handle resize-handle-right"></div>
+            <div class="resize-handle resize-handle-bottom"></div>
+            <div class="resize-handle resize-handle-corner"></div>
+            <div class="widget-header chart-header">
+              <div class="drag-handle" title="Drag to move widget">⋮⋮</div>
+              <h3>Trending Keywords</h3>
+              <div class="chart-actions">
+                <select class="modern-select" id="wordcloudSentiment">
+                  <option value="all">All Sentiments</option>
+                  <option value="positive">Positive Only</option>
+                  <option value="negative">Negative Only</option>
+                </select>
+                <button class="widget-btn minimize-btn" data-widget="wordcloud">−</button>
+              </div>
+            </div>
+            <div class="widget-content">
+              <div class="wordcloud-container" id="wordcloudContainer">
+                <canvas id="wordcloudCanvas"></canvas>
+              </div>
+            </div>
+          </div>
+
+          <!-- Regional Comparison -->
+          <div class="chart-card resizable-widget" data-widget="regional-compare" style="width: 50%; height: 400px;">
+            <div class="resize-handle resize-handle-left"></div>
+            <div class="resize-handle resize-handle-bottom"></div>
+            <div class="resize-handle resize-handle-corner-left"></div>
+            <div class="widget-header chart-header">
+              <div class="drag-handle" title="Drag to move widget">⋮⋮</div>
+              <h3>Regional Comparison</h3>
+              <div class="chart-actions">
+                <button class="action-btn">🌐</button>
+                <button class="widget-btn minimize-btn" data-widget="regional-compare">−</button>
+              </div>
+            </div>
+            <div class="widget-content">
+              <div class="chart-container">
+                <canvas id="regionalCompareChart"></canvas>
               </div>
             </div>
           </div>
@@ -250,13 +301,14 @@
 
     <!-- Headlines Section -->
     <section class="headlines-section">
-      <div class="headlines-card glass-card resizable-widget" data-widget="headlines" style="height: 400px;">
+      <div class="headlines-card glass-card resizable-widget" data-widget="headlines" style="height: 500px;">
         <div class="resize-handle resize-handle-top"></div>
         <div class="widget-header card-header">
           <div class="drag-handle" title="Drag to move widget">⋮⋮</div>
           <h3>🔥 Latest Headlines</h3>
           <div class="headlines-info">
             <span id="headlinesCount">0 articles</span>
+            <a href="headlines.html" class="view-all-btn">View All →</a>
             <div class="refresh-btn">🔄</div>
             <button class="widget-btn minimize-btn" data-widget="headlines">−</button>
           </div>
