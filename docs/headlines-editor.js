@@ -509,7 +509,8 @@ function updatePagination() {
     document.getElementById('nextPage').disabled = currentPage === totalPages || totalPages === 0;
 }
 
-// Save all changes via the API
+// REPLACE your saveAllChanges function with this more efficient version:
+
 async function saveAllChanges() {
   if (editedHeadlines.size === 0) {
     alert('No changes to save!');
@@ -523,42 +524,154 @@ async function saveAllChanges() {
   saveBtn.disabled = true;
 
   try {
-    // Build the updated array of headlines
-    const updatedHeadlines = allHeadlines.map(headline => {
-      if (editedHeadlines.has(headline.id)) {
-        const edits = editedHeadlines.get(headline.id);
-        if (edits.deleted) return null; // omit deleted items
-        return { ...headline, ...edits };
+    // Build ONLY the changed headlines (much more efficient!)
+    const changedHeadlines = [];
+    const deletedHeadlineIds = [];
+    
+    editedHeadlines.forEach((changes, headlineId) => {
+      const originalHeadline = allHeadlines.find(h => h.id === headlineId);
+      
+      if (originalHeadline) {
+        if (changes.deleted) {
+          deletedHeadlineIds.push(headlineId);
+        } else {
+          // Only include headlines that actually changed
+          const updatedHeadline = { ...originalHeadline, ...changes };
+          changedHeadlines.push({
+            id: headlineId,
+            original: originalHeadline,
+            updated: updatedHeadline,
+            changes: changes
+          });
+        }
       }
-      return headline;
-    }).filter(h => h !== null);
-
-    console.log('Sending', updatedHeadlines.length, 'headlines to API...');
-
-    const response = await fetch('/api/headlines', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(updatedHeadlines)
     });
 
-    if (response.ok) {
-      const result = await response.json();
-      alert(`✅ Changes saved successfully! ${result.message || `${updatedHeadlines.length} headlines updated`}`);
+    console.log(`Saving ${changedHeadlines.length} changed headlines and ${deletedHeadlineIds.length} deletions`);
+
+    // Prepare efficient payload
+    const payload = {
+      type: 'partial_update', // Tell the server this is only changed data
+      changed_headlines: changedHeadlines,
+      deleted_ids: deletedHeadlineIds,
+      total_changes: editedHeadlines.size,
+      timestamp: new Date().toISOString()
+    };
+
+    let saveSuccess = false;
+    let errorMessage = '';
+
+    // Method 1: Try efficient API update
+    try {
+      console.log('Sending partial update to API...');
+      const response = await fetch('/api/headlines/partial', {
+        method: 'PATCH', // Use PATCH for partial updates
+        headers: { 
+          'Content-Type': 'application/json',
+          'Accept': 'application/json'
+        },
+        body: JSON.stringify(payload)
+      });
+
+      if (response.ok) {
+        const result = await response.json();
+        console.log('✅ Partial update successful:', result);
+        alert(`✅ Efficiently saved ${changedHeadlines.length} changed headlines!\n\n${result.message || 'Update successful'}`);
+        saveSuccess = true;
+      } else {
+        throw new Error(`API responded with status ${response.status}`);
+      }
+    } catch (apiError) {
+      console.warn('❌ Partial API failed, trying full update...', apiError.message);
       
-      // Clear local edits and disable the save button
+      // Fallback: Try original full update method
+      try {
+        const fullPayload = allHeadlines.map(headline => {
+          if (editedHeadlines.has(headline.id)) {
+            const edits = editedHeadlines.get(headline.id);
+            if (edits.deleted) return null;
+            return { ...headline, ...edits };
+          }
+          return headline;
+        }).filter(h => h !== null);
+
+        const response = await fetch('/api/headlines', {
+          method: 'POST',
+          headers: { 
+            'Content-Type': 'application/json',
+            'Accept': 'application/json'
+          },
+          body: JSON.stringify({
+            headlines: fullPayload,
+            timestamp: new Date().toISOString(),
+            note: 'Fallback full update'
+          })
+        });
+
+        if (response.ok) {
+          const result = await response.json();
+          console.log('✅ Full update fallback successful:', result);
+          alert(`✅ Changes saved (fallback method)!\n\nSaved ${changedHeadlines.length} changes out of ${fullPayload.length} total headlines.`);
+          saveSuccess = true;
+        } else {
+          throw new Error(`Fallback also failed: ${response.status}`);
+        }
+      } catch (fallbackError) {
+        errorMessage = fallbackError.message;
+        console.error('❌ Both methods failed:', fallbackError);
+      }
+    }
+
+    // Method 2: Local backup if API fails
+    if (!saveSuccess) {
+      try {
+        const backupData = {
+          type: 'changes_only',
+          changed_headlines: changedHeadlines,
+          deleted_ids: deletedHeadlineIds,
+          original_total: allHeadlines.length,
+          changes_count: editedHeadlines.size,
+          timestamp: new Date().toISOString(),
+          instructions: 'These are only the changed headlines. Apply these changes to your full dataset.'
+        };
+        
+        downloadChangesAsFile(backupData);
+        alert(`⚠️ API unavailable, but your ${changedHeadlines.length} changes have been downloaded as a backup!\n\nError: ${errorMessage}`);
+        saveSuccess = true;
+      } catch (backupError) {
+        console.error('❌ Backup failed:', backupError);
+      }
+    }
+
+    if (saveSuccess) {
+      // Clear local edits and update UI
       editedHeadlines.clear();
       saveBtn.disabled = true;
       
-      // Reload from the API so your UI reflects the persisted data
-      await loadHeadlines();
+      // Remove edited styling from all rows
+      document.querySelectorAll('tr.edited').forEach(row => {
+        row.classList.remove('edited');
+      });
+      
+      // Show success stats
+      console.log(`📊 Efficiency stats:
+        - Headlines changed: ${changedHeadlines.length}
+        - Headlines deleted: ${deletedHeadlineIds.length}
+        - Total dataset: ${allHeadlines.length}
+        - Data transmitted: ${((changedHeadlines.length / allHeadlines.length) * 100).toFixed(1)}% of full dataset`);
+      
+      // Reload data to get latest state
+      if (errorMessage === '') {
+        console.log('Reloading updated data...');
+        await loadHeadlines();
+      }
     } else {
-      const errorText = await response.text();
-      console.error('Save failed:', response.status, errorText);
-      alert(`❌ Failed to save changes: ${response.status} ${errorText}`);
+      alert(`❌ Failed to save changes.\n\nError: ${errorMessage}\n\nTry again or check your connection.`);
     }
+
   } catch (error) {
-    console.error('Error saving changes:', error);
-    alert('❌ Failed to save changes. Check console for details.');
+    console.error('❌ Unexpected save error:', error);
+    alert(`❌ Unexpected error: ${error.message}`);
   } finally {
     // Restore button state
     saveBtn.textContent = originalText;
@@ -570,6 +683,65 @@ async function saveAllChanges() {
   }
 }
 
+// Enhanced download function for partial changes
+function downloadChangesAsFile(data) {
+  try {
+    const filename = `headlines_changes_only_${new Date().toISOString().slice(0, 19).replace(/:/g, '-')}.json`;
+    const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = filename;
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
+    
+    console.log(`✅ Downloaded ${data.changed_headlines?.length || 0} changes to: ${filename}`);
+  } catch (error) {
+    console.error('❌ Download failed:', error);
+  }
+}
+
+// Add a function to show what will be saved (for transparency)
+function previewChanges() {
+  if (editedHeadlines.size === 0) {
+    alert('No changes to preview');
+    return;
+  }
+  
+  console.group('📋 CHANGES PREVIEW');
+  console.log(`Will save ${editedHeadlines.size} headlines out of ${allHeadlines.length} total (${((editedHeadlines.size / allHeadlines.length) * 100).toFixed(1)}%)`);
+  
+  editedHeadlines.forEach((changes, headlineId) => {
+    const original = allHeadlines.find(h => h.id === headlineId);
+    if (original) {
+      console.log(`📰 ${original.title.substring(0, 50)}...`);
+      console.log(`   Changes:`, changes);
+    }
+  });
+  console.groupEnd();
+  
+  alert(`Preview logged to console.\n\nWill save ${editedHeadlines.size} changed headlines out of ${allHeadlines.length} total.\n\nEfficiency: ${((editedHeadlines.size / allHeadlines.length) * 100).toFixed(1)}% of dataset.`);
+}
+
+// Add a preview button to your interface
+function addPreviewButton() {
+  const saveBtn = document.getElementById('saveChanges');
+  if (saveBtn && !document.getElementById('previewBtn')) {
+    const previewBtn = document.createElement('button');
+    previewBtn.id = 'previewBtn';
+    previewBtn.className = 'export-btn';
+    previewBtn.innerHTML = '👁️ Preview Changes';
+    previewBtn.onclick = previewChanges;
+    saveBtn.parentNode.insertBefore(previewBtn, saveBtn);
+  }
+}
+
+// Initialize preview button
+document.addEventListener('DOMContentLoaded', function() {
+  setTimeout(addPreviewButton, 1000);
+});
 // Export data
 function exportData() {
     const dataStr = JSON.stringify({
