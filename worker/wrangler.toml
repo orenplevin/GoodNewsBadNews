@@ -4,8 +4,13 @@ compatibility_date = "2024-08-25"
 
 [[kv_namespaces]]
 binding = "HEADLINES_STORE"
-id      = "d35fd34ae14348b9b995541fbf729133"   # replace with the ID from Cloudflare
+id = "d35fd34ae14348b9b995541fbf729133"
 
+# Route for your custom domain
 [[routes]]
-pattern   = "goodnewsbadnews.xyz/api/*"
+pattern = "goodnewsbadnews.xyz/api/*"
 zone_name = "goodnewsbadnews.xyz"
+
+# Route for the .pages.dev subdomain during testing
+[[routes]]
+pattern = "goodnewsbadnews-816.pages.dev/api/*"
