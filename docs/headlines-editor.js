@@ -13,56 +13,60 @@ window.filteredHeadlines = [];
 window.currentPage = 1;
 window.itemsPerPage = 50;
 
-// Load headlines data from the new all_headlines.json file
+// Load headlines data, preferring the API
 async function loadHeadlines() {
-    try {
-        // First try to load from the new all_headlines.json file
-        let response;
-        let data;
-        
-        try {
-            response = await fetch('./data/all_headlines.json');
-            if (response.ok) {
-                data = await response.json();
-                console.log('Loaded from all_headlines.json:', data.count, 'headlines');
-                
-                // Map the data structure from all_headlines.json
-                allHeadlines = data.headlines.map((headline, index) => ({
-                    ...headline,
-                    id: index,
-                    topic: headline.topic || classifyTopic(headline.title) // Use existing or classify
-                }));
-            } else {
-                throw new Error('all_headlines.json not found');
-            }
-        } catch (error) {
-            console.warn('Could not load all_headlines.json, falling back to latest.json:', error.message);
-            
-            // Fallback to latest.json if all_headlines.json doesn't exist
-            response = await fetch('./data/latest.json');
-            data = await response.json();
-            
-            // Get all headlines with their topics from the latest.json structure
-            allHeadlines = data.sample_headlines.map((headline, index) => ({
-                ...headline,
-                id: index,
-                topic: headline.topic || classifyTopic(headline.title) // Use existing or classify
-            }));
-            
-            console.log('Loaded from latest.json (limited):', allHeadlines.length, 'headlines');
-        }
-        
-        // Initialize filters
-        initializeFilters();
-        
-        // Apply initial filter and render
-        applyFilters();
-        
-    } catch (error) {
-        console.error('Error loading headlines:', error);
-        document.getElementById('filterResults').textContent = 'Error loading data - check console for details';
+  try {
+    // 1. Try to load from your Cloudflare Worker API
+    let response = await fetch('/api/headlines');
+    if (response.ok) {
+      const data = await response.json();
+      // If the Worker returns an array, wrap it in a consistent structure
+      const list = data.headlines || data; 
+      allHeadlines = list.map((headline, index) => ({
+        ...headline,
+        id: index,
+        topic: headline.topic || classifyTopic(headline.title)
+      }));
+      console.log('Loaded from API:', allHeadlines.length, 'headlines');
+    } else {
+      throw new Error('API returned an error');
     }
+  } catch (apiError) {
+    // 2. Fallback to local files if the API fails
+    console.warn('Could not load from API, falling back to local files:', apiError.message);
+    try {
+      let response = await fetch('./data/all_headlines.json');
+      if (response.ok) {
+        const data = await response.json();
+        allHeadlines = data.headlines.map((headline, index) => ({
+          ...headline,
+          id: index,
+          topic: headline.topic || classifyTopic(headline.title)
+        }));
+        console.log('Loaded from all_headlines.json:', data.headlines.length, 'headlines');
+      } else {
+        // Fallback to latest.json if all_headlines.json not found
+        response = await fetch('./data/latest.json');
+        const data = await response.json();
+        allHeadlines = data.sample_headlines.map((headline, index) => ({
+          ...headline,
+          id: index,
+          topic: headline.topic || classifyTopic(headline.title)
+        }));
+        console.log('Loaded from latest.json:', allHeadlines.length, 'headlines');
+      }
+    } catch (error) {
+      console.error('Error loading local files:', error);
+      document.getElementById('filterResults').textContent = 'Error loading data – check console for details';
+      return;
+    }
+  }
+
+  // 3. Initialize UI after data is loaded
+  initializeFilters();
+  applyFilters();
 }
+
 
 // Topic classification (same as in fetcher.py)
 function classifyTopic(text) {
