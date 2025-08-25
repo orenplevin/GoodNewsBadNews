@@ -67,31 +67,97 @@ async function loadHeadlines() {
   applyFilters();
 }
 
-// Topic classification (same as in fetcher.py)
+// Enhanced Topic classification with new Regional and Local topics
 function classifyTopic(text) {
     const topicKeywords = {
-        'Politics': ['election', 'president', 'parliament', 'congress', 'minister', 'policy', 'politic', 'government', 'senate', 'vote'],
-        'Business': ['market', 'stocks', 'earnings', 'profit', 'merger', 'economy', 'inflation', 'startup', 'ipo', 'trading', 'finance'],
-        'Tech': ['ai', 'artificial intelligence', 'iphone', 'android', 'microsoft', 'google', 'apple', 'meta', 'openai', 'software', 'chip', 'semiconductor', 'startup', 'tech'],
-        'Sports': ['match', 'game', 'tournament', 'league', 'world cup', 'olympic', 'goal', 'coach', 'player', 'team', 'football', 'basketball', 'tennis'],
-        'Health': ['covid', 'cancer', 'vaccine', 'health', 'disease', 'nhs', 'virus', 'medical', 'hospital', 'doctor'],
-        'Science': ['research', 'study', 'space', 'nasa', 'astronomy', 'physics', 'biology', 'climate', 'environment'],
-        'Entertainment': ['movie', 'film', 'celebrity', 'music', 'box office', 'tv', 'netflix', 'streaming', 'hollywood'],
-        'World': ['ukraine', 'gaza', 'israel', 'middle east', 'eu', 'china', 'russia', 'africa', 'asia', 'europe', 'america', 'war', 'conflict'],
+        'Politics': ['election', 'president', 'parliament', 'congress', 'minister', 'policy', 'politic', 'government', 'senate', 'vote', 'campaign', 'political', 'democrat', 'republican', 'conservative', 'liberal', 'legislation', 'bill', 'law', 'ruling party', 'opposition'],
+        'Business': ['market', 'stocks', 'earnings', 'profit', 'merger', 'economy', 'inflation', 'startup', 'ipo', 'trading', 'finance', 'revenue', 'investment', 'banking', 'cryptocurrency', 'bitcoin', 'nasdaq', 'dow jones', 'corporate', 'ceo', 'acquisition'],
+        'Tech': ['ai', 'artificial intelligence', 'iphone', 'android', 'microsoft', 'google', 'apple', 'meta', 'openai', 'software', 'chip', 'semiconductor', 'startup', 'tech', 'innovation', 'digital', 'cyber', 'data', 'algorithm', 'blockchain'],
+        'Sports': ['match', 'game', 'tournament', 'league', 'world cup', 'olympic', 'goal', 'coach', 'player', 'team', 'football', 'basketball', 'tennis', 'soccer', 'baseball', 'hockey', 'championship', 'final', 'playoffs', 'season'],
+        'Health': ['covid', 'cancer', 'vaccine', 'health', 'disease', 'nhs', 'virus', 'medical', 'hospital', 'doctor', 'patient', 'treatment', 'cure', 'medication', 'outbreak', 'pandemic', 'symptoms', 'diagnosis'],
+        'Science': ['research', 'study', 'space', 'nasa', 'astronomy', 'physics', 'biology', 'climate', 'environment', 'scientist', 'discovery', 'experiment', 'laboratory', 'breakthrough', 'renewable', 'carbon', 'global warming'],
+        'Entertainment': ['movie', 'film', 'celebrity', 'music', 'box office', 'tv', 'netflix', 'streaming', 'hollywood', 'actor', 'actress', 'director', 'concert', 'album', 'show', 'series', 'award', 'oscar', 'grammy'],
+        'World': ['ukraine', 'gaza', 'israel', 'middle east', 'eu', 'china', 'russia', 'africa', 'asia', 'europe', 'america', 'war', 'conflict', 'international', 'diplomatic', 'treaty', 'sanctions', 'embassy', 'foreign'],
+        // NEW TOPICS
+        'Regional': ['state', 'province', 'county', 'regional', 'statewide', 'provincial', 'territory', 'district', 'commonwealth', 'governor', 'premier'],
+        'Local': ['local', 'city', 'town', 'municipal', 'neighborhood', 'community', 'council', 'mayor', 'township', 'borough', 'village'],
     };
     
+    // Enhanced context-aware classification
     const textLower = (text || '').toLowerCase();
     
-    for (const [topic, keywords] of Object.entries(topicKeywords)) {
-        if (keywords.some(keyword => textLower.includes(keyword))) {
-            return topic;
+    // Context patterns for better classification
+    const contextPatterns = {
+        'Politics': [
+            /\b(wins?|loses?|defeats?)\s+(election|vote|ballot)/i,
+            /\b(president|prime minister|chancellor|governor)\s+(says?|announces?|declares?)/i,
+            /\b(parliament|congress|senate|assembly)\s+(passes?|rejects?|debates?)/i,
+        ],
+        'Business': [
+            /\$[\d,]+\s*(million|billion|trillion)/i,
+            /\b(shares?|stock)\s+(rises?|falls?|jumps?|drops?)/i,
+            /\b(company|corporation)\s+(reports?|announces?|posts?)\s+(profit|loss|earnings)/i,
+        ],
+        'Sports': [
+            /\b(wins?|loses?|defeats?|beats?)\s+\d+-\d+/i,
+            /\b(team|player|athlete)\s+(wins?|scores?|defeats?)/i,
+            /\b(championship|tournament|league)\s+(final|semifinal|match)/i,
+        ],
+        'Health': [
+            /\b(new|novel|deadly)\s+(virus|disease|outbreak)/i,
+            /\b(vaccine|treatment|cure)\s+(approved|developed|discovered)/i,
+            /\b(patients?|cases?)\s+(increase|decrease|surge)/i,
+        ],
+        'Tech': [
+            /\b(launches?|releases?|unveils?)\s+(new|latest)\s+(phone|device|app|software)/i,
+            /\b(ai|artificial intelligence)\s+(breakthrough|advancement|development)/i,
+            /\b(cyber|data)\s+(attack|breach|security)/i,
+        ],
+        'Regional': [
+            /\b(state|province|county)\s+(government|legislature|assembly)/i,
+            /\b(regional|statewide|provincial)\s+(election|policy|program)/i,
+            /\b(governor|premier)\s+(of|announces|elected)/i,
+        ],
+        'Local': [
+            /\b(city|town|municipal)\s+(council|government|meeting)/i,
+            /\b(local|community)\s+(news|event|issue|concern)/i,
+            /\b(mayor|councilman|alderman)\s+(says|announces|elected)/i,
+        ]
+    };
+    
+    let scores = {};
+    
+    // Check context patterns first (higher weight)
+    for (const [topic, patterns] of Object.entries(contextPatterns)) {
+        scores[topic] = 0;
+        for (const pattern of patterns) {
+            if (pattern.test(textLower)) {
+                scores[topic] += 3;
+            }
         }
+    }
+    
+    // Check keywords (lower weight)
+    for (const [topic, keywords] of Object.entries(topicKeywords)) {
+        if (!scores[topic]) scores[topic] = 0;
+        
+        for (const keyword of keywords) {
+            if (textLower.includes(keyword)) {
+                scores[topic] += 1;
+            }
+        }
+    }
+    
+    // Return topic with highest score
+    const maxScore = Math.max(...Object.values(scores));
+    if (maxScore > 0) {
+        return Object.keys(scores).find(key => scores[key] === maxScore);
     }
     
     return 'Other';
 }
 
-// Initialize filter dropdowns
+// Initialize filter dropdowns with new topics
 function initializeFilters() {
     // Sources filter
     const sources = [...new Set(allHeadlines.map(h => h.source))].sort();
@@ -235,7 +301,7 @@ function renderHeadlineRows(pageHeadlines) {
     tbody.appendChild(fragment);
 }
 
-// Create table row
+// Create table row with updated topics
 function createTableRow(headline) {
     const row = document.createElement('tr');
     
@@ -281,7 +347,7 @@ function createTableRow(headline) {
     regionCell.textContent = current.region;
     row.appendChild(regionCell);
     
-    // Topic column
+    // Topic column with NEW topics included
     const topicCell = document.createElement('td');
     const topicSelect = document.createElement('select');
     topicSelect.className = 'topic-select';
@@ -294,6 +360,8 @@ function createTableRow(headline) {
         <option value="Science" ${current.topic === 'Science' ? 'selected' : ''}>Science</option>
         <option value="Entertainment" ${current.topic === 'Entertainment' ? 'selected' : ''}>Entertainment</option>
         <option value="World" ${current.topic === 'World' ? 'selected' : ''}>World</option>
+        <option value="Regional" ${current.topic === 'Regional' ? 'selected' : ''}>Regional</option>
+        <option value="Local" ${current.topic === 'Local' ? 'selected' : ''}>Local</option>
         <option value="Other" ${current.topic === 'Other' ? 'selected' : ''}>Other</option>
     `;
     topicSelect.onchange = () => updateField(headline.id, 'topic', topicSelect.value);
@@ -441,7 +509,7 @@ function updatePagination() {
     document.getElementById('nextPage').disabled = currentPage === totalPages || totalPages === 0;
 }
 
-// Save all changes via the API - FIXED VERSION
+// Save all changes via the API
 async function saveAllChanges() {
   if (editedHeadlines.size === 0) {
     alert('No changes to save!');
@@ -455,7 +523,7 @@ async function saveAllChanges() {
   saveBtn.disabled = true;
 
   try {
-    // Build the updated array of headlines (same logic as before)
+    // Build the updated array of headlines
     const updatedHeadlines = allHeadlines.map(headline => {
       if (editedHeadlines.has(headline.id)) {
         const edits = editedHeadlines.get(headline.id);
