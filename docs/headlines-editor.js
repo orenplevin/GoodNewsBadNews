@@ -301,7 +301,8 @@ function renderHeadlineRows(pageHeadlines) {
     tbody.appendChild(fragment);
 }
 
-// Create table row with updated topics
+// ALSO REPLACE the createTableRow function in headlines-editor.js with this enhanced version:
+
 function createTableRow(headline) {
     const row = document.createElement('tr');
     
@@ -313,6 +314,17 @@ function createTableRow(headline) {
     if (editedHeadlines.has(headline.id)) {
         row.classList.add('edited');
     }
+    
+    // NEW: Checkbox column for bulk selection
+    const checkboxCell = document.createElement('td');
+    checkboxCell.style.width = '40px';
+    const checkbox = document.createElement('input');
+    checkbox.type = 'checkbox';
+    checkbox.className = 'row-checkbox';
+    checkbox.dataset.headlineId = headline.id;
+    checkbox.addEventListener('change', updateBulkControls);
+    checkboxCell.appendChild(checkbox);
+    row.appendChild(checkboxCell);
     
     // Time column
     const timeCell = document.createElement('td');
@@ -333,7 +345,7 @@ function createTableRow(headline) {
     headlineLink.target = '_blank';
     headlineLink.className = 'headline-link';
     headlineLink.textContent = current.title;
-    headlineLink.title = current.title; // Full title on hover
+    headlineLink.title = current.title;
     headlineCell.appendChild(headlineLink);
     row.appendChild(headlineCell);
     
@@ -408,6 +420,66 @@ function createTableRow(headline) {
     
     return row;
 }
+
+// NEW: Function to update bulk edit controls
+function updateBulkControls() {
+    const checkboxes = document.querySelectorAll('.row-checkbox');
+    const checkedBoxes = document.querySelectorAll('.row-checkbox:checked');
+    const bulkControls = document.getElementById('bulkEditControls');
+    const selectedCount = document.getElementById('selectedCount');
+    
+    if (bulkControls && selectedCount) {
+        if (checkedBoxes.length > 0) {
+            bulkControls.style.display = 'block';
+            selectedCount.textContent = `${checkedBoxes.length} selected`;
+        } else {
+            bulkControls.style.display = 'none';
+        }
+    }
+    
+    // Update "select all" checkbox if it exists
+    const selectAllCheckbox = document.getElementById('selectAllCheckbox');
+    if (selectAllCheckbox) {
+        if (checkedBoxes.length === 0) {
+            selectAllCheckbox.indeterminate = false;
+            selectAllCheckbox.checked = false;
+        } else if (checkedBoxes.length === checkboxes.length) {
+            selectAllCheckbox.indeterminate = false;
+            selectAllCheckbox.checked = true;
+        } else {
+            selectAllCheckbox.indeterminate = true;
+        }
+    }
+}
+
+// NEW: Add select all functionality to table header
+function addSelectAllToHeader() {
+    const headerRow = document.querySelector('.headlines-table thead tr');
+    if (headerRow && !document.getElementById('selectAllCheckbox')) {
+        const selectAllCell = document.createElement('th');
+        selectAllCell.style.width = '40px';
+        const selectAllCheckbox = document.createElement('input');
+        selectAllCheckbox.type = 'checkbox';
+        selectAllCheckbox.id = 'selectAllCheckbox';
+        selectAllCheckbox.title = 'Select All';
+        selectAllCheckbox.addEventListener('change', function() {
+            const checkboxes = document.querySelectorAll('.row-checkbox');
+            checkboxes.forEach(cb => {
+                cb.checked = this.checked;
+            });
+            updateBulkControls();
+        });
+        selectAllCell.appendChild(selectAllCheckbox);
+        headerRow.insertBefore(selectAllCell, headerRow.firstChild);
+    }
+}
+
+// Update the renderTable function to include the select all header
+const originalRenderTable = renderTable;
+window.renderTable = function() {
+    originalRenderTable();
+    addSelectAllToHeader();
+};
 
 // Update field
 function updateField(id, field, value) {
