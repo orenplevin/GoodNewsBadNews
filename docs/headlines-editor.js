@@ -442,43 +442,44 @@ function updatePagination() {
     document.getElementById('nextPage').disabled = currentPage === totalPages || totalPages === 0;
 }
 
-// Save all changes
+// Save all changes via the API
 async function saveAllChanges() {
-    if (editedHeadlines.size === 0) return;
-    
-    // Create updated data
-    const updatedHeadlines = allHeadlines.map(headline => {
-        if (editedHeadlines.has(headline.id)) {
-            const edits = editedHeadlines.get(headline.id);
-            if (edits.deleted) {
-                return null; // Mark for deletion
-            }
-            return { ...headline, ...edits };
-        }
-        return headline;
-    }).filter(h => h !== null); // Remove deleted items
-    
-    // Create download
-    const dataStr = JSON.stringify({
-        generated_at: new Date().toISOString(),
-        count: updatedHeadlines.length,
-        headlines: updatedHeadlines,
-        edits: Array.from(editedHeadlines.entries())
-    }, null, 2);
-    
-    const blob = new Blob([dataStr], { type: 'application/json' });
-    const url = URL.createObjectURL(blob);
-    const a = document.createElement('a');
-    a.href = url;
-    a.download = `headlines_edited_${new Date().toISOString().split('T')[0]}.json`;
-    a.click();
-    
-    // Reset edits
-    editedHeadlines.clear();
-    document.getElementById('saveChanges').disabled = true;
-    
-    alert(`Changes saved! ${updatedHeadlines.length} headlines exported.`);
+  if (editedHeadlines.size === 0) return;
+
+  // Build the updated array of headlines (same logic as before)
+  const updatedHeadlines = allHeadlines.map(headline => {
+    if (editedHeadlines.has(headline.id)) {
+      const edits = editedHeadlines.get(headline.id);
+      if (edits.deleted) return null; // omit deleted items
+      return { ...headline, ...edits };
+    }
+    return headline;
+  }).filter(h => h !== null);
+
+  try {
+    const response = await fetch('/api/headlines', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(updatedHeadlines)
+    });
+
+    if (response.ok) {
+      alert(`Changes saved! ${updatedHeadlines.length} headlines updated.`);
+      // Clear local edits and disable the save button
+      editedHeadlines.clear();
+      document.getElementById('saveChanges').disabled = true;
+      // Reload from the API so your UI reflects the persisted data
+      await loadHeadlines();
+    } else {
+      const errorText = await response.text();
+      alert(`Failed to save changes: ${errorText}`);
+    }
+  } catch (error) {
+    console.error('Error saving changes:', error);
+    alert('Failed to save changes. See console for details.');
+  }
 }
+
 
 // Export data
 function exportData() {
