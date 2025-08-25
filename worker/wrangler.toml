@@ -4,7 +4,7 @@ compatibility_date = "2024-08-25"
 
 [[kv_namespaces]]
 binding = "HEADLINES_STORE"
-id      = "<d35fd34ae14348b9b995541fbf729133>"   # replace with the ID from Cloudflare
+id      = "d35fd34ae14348b9b995541fbf729133"   # replace with the ID from Cloudflare
 
 [[routes]]
 pattern   = "goodnewsbadnews.xyz/api/*"
