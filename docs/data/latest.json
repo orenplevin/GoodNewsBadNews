@@ -1,50 +1,50 @@
 {
-  "generated_at": "2025-08-25T09:20:28.155038+00:00",
+  "generated_at": "2025-08-25T09:36:32.314633+00:00",
   "window_hours": 24,
   "totals": {
-    "positive": 843,
+    "positive": 842,
     "neutral": 333,
-    "negative": 938
+    "negative": 945
   },
   "by_publication": [
     {
       "source": "Independent",
-      "positive": 100,
-      "neutral": 42,
+      "positive": 99,
+      "neutral": 40,
       "negative": 118,
-      "count": 260,
+      "count": 257,
       "region": "Europe"
     },
     {
       "source": "The Hindu",
-      "positive": 84,
+      "positive": 81,
       "neutral": 62,
-      "negative": 108,
-      "count": 254,
+      "negative": 105,
+      "count": 248,
       "region": "Asia-Pacific"
     },
     {
       "source": "Times of India",
-      "positive": 51,
+      "positive": 52,
       "neutral": 9,
-      "negative": 75,
-      "count": 135,
+      "negative": 79,
+      "count": 140,
       "region": "Asia-Pacific"
     },
     {
       "source": "Australian Broadcasting Corporation",
       "positive": 38,
       "neutral": 10,
-      "negative": 66,
-      "count": 114,
+      "negative": 67,
+      "count": 115,
       "region": "Asia-Pacific"
     },
     {
       "source": "Bloomberg",
-      "positive": 72,
+      "positive": 73,
       "neutral": 14,
-      "negative": 25,
-      "count": 111,
+      "negative": 26,
+      "count": 113,
       "region": "Business"
     },
     {
@@ -57,18 +57,18 @@
     },
     {
       "source": "Channel News Asia",
-      "positive": 42,
+      "positive": 41,
       "neutral": 31,
-      "negative": 25,
-      "count": 98,
+      "negative": 27,
+      "count": 99,
       "region": "Asia-Pacific"
     },
     {
       "source": "BBC Sport",
-      "positive": 54,
+      "positive": 55,
       "neutral": 11,
       "negative": 28,
-      "count": 93,
+      "count": 94,
       "region": "Sports"
     },
     {
@@ -91,16 +91,16 @@
       "source": "South China Morning Post",
       "positive": 36,
       "neutral": 2,
-      "negative": 37,
-      "count": 75,
+      "negative": 38,
+      "count": 76,
       "region": "Asia-Pacific"
     },
     {
       "source": "AllAfrica",
-      "positive": 25,
+      "positive": 26,
       "neutral": 5,
-      "negative": 37,
-      "count": 67,
+      "negative": 39,
+      "count": 70,
       "region": "Africa"
     },
     {
@@ -122,40 +122,48 @@
     {
       "source": "Al Jazeera English",
       "positive": 11,
-      "neutral": 10,
+      "neutral": 9,
       "negative": 30,
-      "count": 51,
+      "count": 50,
       "region": "Middle East"
     },
     {
       "source": "ESPN",
-      "positive": 21,
-      "neutral": 8,
+      "positive": 18,
+      "neutral": 7,
       "negative": 17,
-      "count": 46,
+      "count": 42,
       "region": "Sports"
     },
     {
       "source": "Times of Israel",
       "positive": 8,
       "neutral": 1,
-      "negative": 33,
-      "count": 42,
+      "negative": 32,
+      "count": 41,
       "region": "Middle East"
     },
     {
       "source": "NBC News",
       "positive": 15,
       "neutral": 3,
-      "negative": 19,
-      "count": 37,
+      "negative": 17,
+      "count": 35,
       "region": "North America"
     },
     {
-      "source": "France 24",
+      "source": "Euronews",
       "positive": 10,
-      "neutral": 4,
+      "neutral": 6,
       "negative": 16,
+      "count": 32,
+      "region": "Europe"
+    },
+    {
+      "source": "France 24",
+      "positive": 11,
+      "neutral": 4,
+      "negative": 15,
       "count": 30,
       "region": "Europe"
     },
@@ -163,8 +171,8 @@
       "source": "Middle East Eye",
       "positive": 1,
       "neutral": 0,
-      "negative": 27,
-      "count": 28,
+      "negative": 26,
+      "count": 27,
       "region": "Middle East"
     },
     {
@@ -184,14 +192,6 @@
       "region": "Europe"
     },
     {
-      "source": "Euronews",
-      "positive": 8,
-      "neutral": 3,
-      "negative": 11,
-      "count": 22,
-      "region": "Europe"
-    },
-    {
       "source": "Daily News Egypt",
       "positive": 16,
       "neutral": 3,
@@ -200,20 +200,20 @@
       "region": "Middle East"
     },
     {
-      "source": "Straits Times",
-      "positive": 9,
-      "neutral": 4,
-      "negative": 7,
-      "count": 20,
-      "region": "Asia-Pacific"
-    },
-    {
       "source": "Financial Times",
       "positive": 6,
       "neutral": 4,
-      "negative": 9,
-      "count": 19,
+      "negative": 10,
+      "count": 20,
       "region": "Europe"
+    },
+    {
+      "source": "Straits Times",
+      "positive": 9,
+      "neutral": 3,
+      "negative": 7,
+      "count": 19,
+      "region": "Asia-Pacific"
     },
     {
       "source": "Sputnik News",
@@ -226,9 +226,9 @@
     {
       "source": "Deutsche Welle",
       "positive": 4,
-      "neutral": 1,
+      "neutral": 2,
       "negative": 10,
-      "count": 15,
+      "count": 16,
       "region": "Europe"
     },
     {
@@ -248,12 +248,12 @@
       "region": "North America"
     },
     {
-      "source": "RT News",
-      "positive": 0,
-      "neutral": 3,
-      "negative": 9,
-      "count": 12,
-      "region": "Europe"
+      "source": "ABC News",
+      "positive": 3,
+      "neutral": 2,
+      "negative": 6,
+      "count": 11,
+      "region": "North America"
     },
     {
       "source": "Engadget",
@@ -264,12 +264,12 @@
       "region": "Technology"
     },
     {
-      "source": "ABC News",
-      "positive": 3,
-      "neutral": 1,
-      "negative": 6,
-      "count": 10,
-      "region": "North America"
+      "source": "RT News",
+      "positive": 0,
+      "neutral": 3,
+      "negative": 8,
+      "count": 11,
+      "region": "Europe"
     },
     {
       "source": "Wired",
@@ -304,20 +304,20 @@
       "region": "Europe"
     },
     {
-      "source": "Sky News",
-      "positive": 2,
-      "neutral": 0,
-      "negative": 3,
-      "count": 5,
-      "region": "Europe"
-    },
-    {
       "source": "Washington Post",
       "positive": 2,
       "neutral": 0,
       "negative": 3,
       "count": 5,
       "region": "North America"
+    },
+    {
+      "source": "Sky News",
+      "positive": 2,
+      "neutral": 0,
+      "negative": 2,
+      "count": 4,
+      "region": "Europe"
     },
     {
       "source": "The Verge",
@@ -347,52 +347,52 @@
   "by_region": [
     {
       "region": "Asia-Pacific",
-      "positive": 260,
-      "neutral": 118,
-      "negative": 318,
-      "count": 696
+      "positive": 257,
+      "neutral": 117,
+      "negative": 323,
+      "count": 697
     },
     {
       "region": "Europe",
-      "positive": 165,
-      "neutral": 73,
-      "negative": 231,
-      "count": 469
+      "positive": 167,
+      "neutral": 75,
+      "negative": 234,
+      "count": 476
     },
     {
       "region": "North America",
       "positive": 93,
-      "neutral": 48,
-      "negative": 121,
-      "count": 262
+      "neutral": 49,
+      "negative": 119,
+      "count": 261
     },
     {
       "region": "Sports",
-      "positive": 119,
-      "neutral": 37,
+      "positive": 117,
+      "neutral": 36,
       "negative": 68,
-      "count": 224
+      "count": 221
     },
     {
       "region": "Business",
-      "positive": 90,
+      "positive": 91,
       "neutral": 22,
-      "negative": 34,
-      "count": 146
+      "negative": 35,
+      "count": 148
     },
     {
       "region": "Middle East",
       "positive": 36,
-      "neutral": 14,
-      "negative": 93,
-      "count": 143
+      "neutral": 13,
+      "negative": 91,
+      "count": 140
     },
     {
       "region": "Africa",
-      "positive": 25,
+      "positive": 26,
       "neutral": 5,
-      "negative": 37,
-      "count": 67
+      "negative": 39,
+      "count": 70
     },
     {
       "region": "Global",
@@ -419,69 +419,85 @@
   "by_topic": [
     {
       "topic": "Tech",
-      "positive": 285,
-      "neutral": 93,
-      "negative": 360,
-      "count": 738
+      "positive": 287,
+      "neutral": 92,
+      "negative": 362,
+      "count": 741
     },
     {
       "topic": "Other",
-      "positive": 175,
+      "positive": 173,
       "neutral": 115,
       "negative": 194,
-      "count": 484
+      "count": 482
     },
     {
       "topic": "Politics",
-      "positive": 162,
+      "positive": 160,
       "neutral": 49,
-      "negative": 206,
+      "negative": 208,
       "count": 417
     },
     {
       "topic": "Sports",
       "positive": 66,
-      "neutral": 26,
+      "neutral": 25,
       "negative": 46,
-      "count": 138
+      "count": 137
     },
     {
       "topic": "World",
       "positive": 37,
-      "neutral": 25,
-      "negative": 58,
-      "count": 120
+      "neutral": 27,
+      "negative": 59,
+      "count": 123
     },
     {
       "topic": "Business",
       "positive": 82,
-      "neutral": 10,
-      "negative": 21,
-      "count": 113
+      "neutral": 11,
+      "negative": 22,
+      "count": 115
     },
     {
       "topic": "Health",
       "positive": 11,
       "neutral": 5,
-      "negative": 33,
-      "count": 49
+      "negative": 34,
+      "count": 50
     },
     {
       "topic": "Entertainment",
-      "positive": 14,
+      "positive": 15,
       "neutral": 3,
       "negative": 12,
-      "count": 29
+      "count": 30
     },
     {
       "topic": "Science",
       "positive": 11,
-      "neutral": 7,
+      "neutral": 6,
       "negative": 8,
-      "count": 26
+      "count": 25
     }
   ],
   "sample_headlines": [
+    {
+      "title": "International investment dispute body to set up office in Singapore",
+      "url": "https://www.channelnewsasia.com/singapore/icsid-office-singapore-edwin-tong-world-bank-5312586",
+      "source": "Channel News Asia",
+      "region": "Asia-Pacific",
+      "published": "2025-08-25T17:26:24+08:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Israel hits Gaza hospital, killing at least 15 people, including journalists",
+      "url": "https://www.channelnewsasia.com/world/israel-hits-gaza-nasser-hospital-killing-people-including-journalists-5312536",
+      "source": "Channel News Asia",
+      "region": "Asia-Pacific",
+      "published": "2025-08-25T17:24:47+08:00",
+      "sentiment": "negative"
+    },
     {
       "title": "Kolisi fit to face New Zealand in Rugby Championship tests",
       "url": "https://www.channelnewsasia.com/sport/kolisi-fit-face-new-zealand-rugby-championship-tests-5312601",
@@ -587,6 +603,14 @@
       "sentiment": "neutral"
     },
     {
+      "title": "A CM visits Telangana\u2019s O.U. first time in 20 years amid heavy barricading; Revanth does not want police for meeting in December",
+      "url": "https://www.thehindu.com/news/national/telangana/a-cm-visits-telanganas-ou-first-time-in-20-years-amid-heavy-barricading-revanth-does-want-police-for-meeting-in-december/article69974475.ece",
+      "source": "The Hindu",
+      "region": "Asia-Pacific",
+      "published": "2025-08-25T14:46:25+05:30",
+      "sentiment": "negative"
+    },
+    {
       "title": "Supreme Court refuses to advance date of hearing on pleas on J&K statehood",
       "url": "https://www.thehindu.com/news/national/jammu-and-kashmir/supreme-court-refuses-to-advance-date-of-hearing-on-pleas-on-jk-statehood/article69974550.ece",
       "source": "The Hindu",
@@ -667,6 +691,22 @@
       "sentiment": "negative"
     },
     {
+      "title": "'Time for both to move forward': Netanyahu says Israel could withdraw from Lebanon",
+      "url": "https://timesofindia.indiatimes.com/world/middle-east/time-for-both-to-move-forward-netanyahu-says-israel-could-withdraw-from-lebanon-hails-decision-to-disarm-hezbollah/articleshow/123498914.cms",
+      "source": "Times of India",
+      "region": "Asia-Pacific",
+      "published": "2025-08-25T14:14:20+05:30",
+      "sentiment": "negative"
+    },
+    {
+      "title": "ICSI CS Executive Toppers 2025: Tithi Bohra obtains AIR 1 for June session",
+      "url": "https://timesofindia.indiatimes.com/education/news/icsi-cs-executive-toppers-2025-tithi-bohra-obtains-air-1-for-june-session-check-complete-rank-list-here/articleshow/123499198.cms",
+      "source": "Times of India",
+      "region": "Asia-Pacific",
+      "published": "2025-08-25T14:13:43+05:30",
+      "sentiment": "positive"
+    },
+    {
       "title": "Netizens marvel at midday sun halo spotted in Singapore",
       "url": "https://www.straitstimes.com/singapore/netizens-marvel-at-midday-sun-halo-spotted-in-singapore",
       "source": "Straits Times",
@@ -684,6 +724,14 @@
     },
     {
       "title": "Israel hits Gaza hospital again in double-tap strike, 15 dead including 4 journalists",
+      "url": "https://timesofindia.indiatimes.com/world/middle-east/israeli-airstrike-on-southern-gaza-hospital-kills-several-people-injured-many-health-ministry-latest-updates/articleshow/123498434.cms",
+      "source": "Times of India",
+      "region": "Asia-Pacific",
+      "published": "2025-08-25T14:09:45+05:30",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Israel hits Gaza hospital again, 15 dead including 4 journalists",
       "url": "https://timesofindia.indiatimes.com/world/middle-east/israeli-airstrike-on-southern-gaza-hospital-kills-several-people-injured-many-health-ministry-latest-updates/articleshow/123498434.cms",
       "source": "Times of India",
       "region": "Asia-Pacific",
@@ -795,6 +843,14 @@
       "sentiment": "positive"
     },
     {
+      "title": "Ottawa Pride parade: Event scrapped after pro-Palestinian protesters block route",
+      "url": "https://timesofindia.indiatimes.com/world/rest-of-world/ottawa-pride-parade-event-scrapped-after-pro-palestinian-protesters-block-route-mayor-calls-cancellation-deeply-regrettable/articleshow/123498102.cms",
+      "source": "Times of India",
+      "region": "Asia-Pacific",
+      "published": "2025-08-25T13:21:01+05:30",
+      "sentiment": "negative"
+    },
+    {
       "title": "OpenAI CEO Sam Altman on kids: It\u2019s the greatest joy of life; says it changed his priorities",
       "url": "https://timesofindia.indiatimes.com/technology/tech-news/openai-ceo-sam-altman-says-having-kids-is-the-best-thing-in-the-world-and-still-somehow/articleshow/123498022.cms",
       "source": "Times of India",
@@ -904,6 +960,14 @@
       "source": "The Hindu",
       "region": "Asia-Pacific",
       "published": "2025-08-25T12:46:34+05:30",
+      "sentiment": "negative"
+    },
+    {
+      "title": "'Currently stable': Syko\u2019s brother breaks silence after Raja Jackson attack",
+      "url": "https://timesofindia.indiatimes.com/sports/wwe/top-stories/syko-stus-brother-breaks-silence-after-vicious-raja-jackson-attackissues-urgent-scam-alert/articleshow/123496702.cms",
+      "source": "Times of India",
+      "region": "Asia-Pacific",
+      "published": "2025-08-25T12:43:43+05:30",
       "sentiment": "negative"
     },
     {
@@ -1217,70 +1281,6 @@
       "region": "Asia-Pacific",
       "published": "2025-08-25T11:30:23+08:00",
       "sentiment": "positive"
-    },
-    {
-      "title": "Online Gaming Bill: BCCI breaks ties with Dream11",
-      "url": "https://timesofindia.indiatimes.com/sports/cricket/news/online-gaming-bill-2025-bcci-breaks-tie-with-dream11-says-will-not-indulge-with-such-organisations-in-future/articleshow/123495398.cms",
-      "source": "Times of India",
-      "region": "Asia-Pacific",
-      "published": "2025-08-25T11:29:13+05:30",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Kerala to object to UGC\u2019s draft curricula, alleges Hindutva bias",
-      "url": "https://www.thehindu.com/news/national/kerala/kerala-to-object-to-ugcs-draft-curricula-alleges-hindutva-bias/article69974051.ece",
-      "source": "The Hindu",
-      "region": "Asia-Pacific",
-      "published": "2025-08-25T11:22:00+05:30",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Jagdeep Dhankhar\u2019s resignation: Is ex-VP under 'house arrest'? Amit Shah responds",
-      "url": "https://timesofindia.indiatimes.com/india/jagdeep-dhankhars-resignation-is-ex-vp-under-house-arrest-amit-shah-responds/articleshow/123494211.cms",
-      "source": "Times of India",
-      "region": "Asia-Pacific",
-      "published": "2025-08-25T11:17:40+05:30",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Democracy is not only the rule of the majority, but also the protection of the minority: T.N. Deputy Speaker",
-      "url": "https://www.thehindu.com/news/national/tamil-nadu/democracy-is-not-only-the-rule-of-the-majority-but-also-the-protection-of-the-minority-tn-deputy-speaker/article69972546.ece",
-      "source": "The Hindu",
-      "region": "Asia-Pacific",
-      "published": "2025-08-25T11:16:23+05:30",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\u2018Do they teach history in Ohio?\u2019: JD Vance mocked over WWII remarks",
-      "url": "https://timesofindia.indiatimes.com/world/us/do-they-teach-history-in-ohio-jd-vance-mocked-over-wars-end-with-negotiation-remarks-netizens-remind-him-wwii-ended-with-unconditional-surrender/articleshow/123494894.cms",
-      "source": "Times of India",
-      "region": "Asia-Pacific",
-      "published": "2025-08-25T11:06:16+05:30",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Google CEO reverses virtual hiring: AI cheating too widespread; returns to in-person interviews",
-      "url": "https://timesofindia.indiatimes.com/technology/tech-news/google-ceo-sundar-pichai-says-we-have-introduced-at-least-one-round-of-in-person-interviews-just-to-make-sure/articleshow/123495271.cms",
-      "source": "Times of India",
-      "region": "Asia-Pacific",
-      "published": "2025-08-25T11:03:31+05:30",
-      "sentiment": "negative"
-    },
-    {
-      "title": "More SIA KrisFlyer miles needed to redeem flights or upgrade seats to Europe, US from Nov 1",
-      "url": "https://www.straitstimes.com/singapore/more-sia-krisflyer-miles-needed-to-redeem-flights-or-upgrade-seats-to-europe-us-from-nov-1",
-      "source": "Straits Times",
-      "region": "Asia-Pacific",
-      "published": "2025-08-25T11:00:00+08:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "IndiGo flight with Assam CM on board diverted to Agartala due to bad weather in Guwahati",
-      "url": "https://www.thehindu.com/news/national/assam/indigo-flight-with-assam-cm-on-board-diverted-to-agartala-due-to-bad-weather-in-guwahati/article69974050.ece",
-      "source": "The Hindu",
-      "region": "Asia-Pacific",
-      "published": "2025-08-25T10:59:29+05:30",
-      "sentiment": "negative"
     }
   ]
 }
