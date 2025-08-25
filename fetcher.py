@@ -25,6 +25,7 @@ OUTPUT_DIR = os.path.join('docs', 'data')
 RAW_PATH = os.path.join('data', 'raw.jsonl')
 LATEST_PATH = os.path.join(OUTPUT_DIR, 'latest.json')
 HISTORY_PATH = os.path.join(OUTPUT_DIR, 'history.json')
+ALL_HEADLINES_PATH = os.path.join(OUTPUT_DIR, 'all_headlines.json')  # New file for all headlines
 
 # RSS feeds organized by region
 FEEDS = [
@@ -320,8 +321,8 @@ def generate_statistics(articles):
     ]
     by_topic.sort(key=lambda x: x['count'], reverse=True)
     
-    # Sample headlines (mix of sentiments, recent first)
-    sample_headlines = sorted(articles, key=lambda x: x['published'], reverse=True)[:100]  # Increased to show more headlines
+    # Sample headlines for main dashboard (limit to 100 for performance)
+    sample_headlines = sorted(articles, key=lambda x: x['published'], reverse=True)[:100]
     
     return {
         'totals': sentiment_counts,
@@ -340,6 +341,33 @@ def generate_statistics(articles):
             for a in sample_headlines
         ]
     }
+
+def save_all_headlines(articles):
+    """Save ALL recent headlines to separate file for the headlines editor"""
+    all_headlines = sorted(articles, key=lambda x: x['published'], reverse=True)
+    
+    headlines_data = {
+        'generated_at': datetime.now(timezone.utc).isoformat(),
+        'count': len(all_headlines),
+        'headlines': [
+            {
+                'title': a['title'],
+                'url': a['url'],
+                'source': a['source'],
+                'region': a.get('region', 'Global'),
+                'published': a['published'],
+                'sentiment': a['sentiment'],
+                'topic': a['topic'],
+                'summary': a.get('summary', '')[:200] + '...' if a.get('summary', '') else ''
+            }
+            for a in all_headlines
+        ]
+    }
+    
+    with open(ALL_HEADLINES_PATH, 'w', encoding='utf-8') as f:
+        json.dump(headlines_data, f, indent=2)
+    
+    print(f"📰 Saved {len(all_headlines)} headlines to all_headlines.json")
 
 def generate_history_data(articles):
     """Generate daily sentiment history for the last 7 days"""
@@ -395,6 +423,9 @@ def main():
     print(f"🕐 Recent articles (24h): {len(recent_articles)}")
     
     latest_stats = generate_statistics(recent_articles)
+    
+    # Save ALL recent headlines for the headlines editor
+    save_all_headlines(recent_articles)
     
     # Generate history data (last 7 days)
     week_articles = filter_recent_articles(all_articles, hours=24*ROLLING_DAYS)
