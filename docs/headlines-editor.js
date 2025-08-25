@@ -67,7 +67,6 @@ async function loadHeadlines() {
   applyFilters();
 }
 
-
 // Topic classification (same as in fetcher.py)
 function classifyTopic(text) {
     const topicKeywords = {
@@ -442,21 +441,32 @@ function updatePagination() {
     document.getElementById('nextPage').disabled = currentPage === totalPages || totalPages === 0;
 }
 
-// Save all changes via the API
+// Save all changes via the API - FIXED VERSION
 async function saveAllChanges() {
-  if (editedHeadlines.size === 0) return;
+  if (editedHeadlines.size === 0) {
+    alert('No changes to save!');
+    return;
+  }
 
-  // Build the updated array of headlines (same logic as before)
-  const updatedHeadlines = allHeadlines.map(headline => {
-    if (editedHeadlines.has(headline.id)) {
-      const edits = editedHeadlines.get(headline.id);
-      if (edits.deleted) return null; // omit deleted items
-      return { ...headline, ...edits };
-    }
-    return headline;
-  }).filter(h => h !== null);
+  // Show loading state
+  const saveBtn = document.getElementById('saveChanges');
+  const originalText = saveBtn.textContent;
+  saveBtn.textContent = '⏳ Saving...';
+  saveBtn.disabled = true;
 
   try {
+    // Build the updated array of headlines (same logic as before)
+    const updatedHeadlines = allHeadlines.map(headline => {
+      if (editedHeadlines.has(headline.id)) {
+        const edits = editedHeadlines.get(headline.id);
+        if (edits.deleted) return null; // omit deleted items
+        return { ...headline, ...edits };
+      }
+      return headline;
+    }).filter(h => h !== null);
+
+    console.log('Sending', updatedHeadlines.length, 'headlines to API...');
+
     const response = await fetch('/api/headlines', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
@@ -464,22 +474,33 @@ async function saveAllChanges() {
     });
 
     if (response.ok) {
-      alert(`Changes saved! ${updatedHeadlines.length} headlines updated.`);
+      const result = await response.json();
+      alert(`✅ Changes saved successfully! ${result.message || `${updatedHeadlines.length} headlines updated`}`);
+      
       // Clear local edits and disable the save button
       editedHeadlines.clear();
-      document.getElementById('saveChanges').disabled = true;
+      saveBtn.disabled = true;
+      
       // Reload from the API so your UI reflects the persisted data
       await loadHeadlines();
     } else {
       const errorText = await response.text();
-      alert(`Failed to save changes: ${errorText}`);
+      console.error('Save failed:', response.status, errorText);
+      alert(`❌ Failed to save changes: ${response.status} ${errorText}`);
     }
   } catch (error) {
     console.error('Error saving changes:', error);
-    alert('Failed to save changes. See console for details.');
+    alert('❌ Failed to save changes. Check console for details.');
+  } finally {
+    // Restore button state
+    saveBtn.textContent = originalText;
+    if (editedHeadlines.size === 0) {
+      saveBtn.disabled = true;
+    } else {
+      saveBtn.disabled = false;
+    }
   }
 }
-
 
 // Export data
 function exportData() {
