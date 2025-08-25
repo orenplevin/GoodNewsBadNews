@@ -509,12 +509,262 @@ function updatePagination() {
     document.getElementById('nextPage').disabled = currentPage === totalPages || totalPages === 0;
 }
 
-// Save all changes via the API
+// REPLACE the saveAllChanges function in your headlines-editor.js with this improved version:
+
+// Enhanced save function with better error handling and fallback options
 async function saveAllChanges() {
   if (editedHeadlines.size === 0) {
     alert('No changes to save!');
     return;
   }
+
+  // Show loading state
+  const saveBtn = document.getElementById('saveChanges');
+  const originalText = saveBtn.textContent;
+  saveBtn.textContent = '⏳ Saving...';
+  saveBtn.disabled = true;
+
+  try {
+    // Build the updated array of headlines
+    const updatedHeadlines = allHeadlines.map(headline => {
+      if (editedHeadlines.has(headline.id)) {
+        const edits = editedHeadlines.get(headline.id);
+        if (edits.deleted) return null; // omit deleted items
+        return { ...headline, ...edits };
+      }
+      return headline;
+    }).filter(h => h !== null);
+
+    console.log('Attempting to save', updatedHeadlines.length, 'headlines...');
+
+    // Try multiple save methods in order
+    let saveSuccess = false;
+    let errorMessage = '';
+
+    // Method 1: Try API endpoint
+    try {
+      console.log('Trying API endpoint...');
+      const response = await fetch('/api/headlines', {
+        method: 'POST',
+        headers: { 
+          'Content-Type': 'application/json',
+          'Accept': 'application/json'
+        },
+        body: JSON.stringify({
+          headlines: updatedHeadlines,
+          timestamp: new Date().toISOString(),
+          total_changes: editedHeadlines.size
+        })
+      });
+
+      if (response.ok) {
+        const result = await response.json();
+        console.log('✅ API save successful:', result);
+        alert(`✅ Changes saved successfully via API! ${result.message || `${updatedHeadlines.length} headlines updated`}`);
+        saveSuccess = true;
+      } else {
+        throw new Error(`API responded with status ${response.status}: ${await response.text()}`);
+      }
+    } catch (apiError) {
+      console.warn('❌ API save failed:', apiError.message);
+      errorMessage = apiError.message;
+    }
+
+    // Method 2: Try saving to local storage as backup
+    if (!saveSuccess) {
+      try {
+        console.log('Trying localStorage backup...');
+        const backupData = {
+          headlines: updatedHeadlines,
+          original_count: allHeadlines.length,
+          changes_count: editedHeadlines.size,
+          timestamp: new Date().toISOString(),
+          edited_ids: Array.from(editedHeadlines.keys())
+        };
+        
+        // Note: localStorage might not work in all environments
+        if (typeof(Storage) !== "undefined") {
+          localStorage.setItem('headlines_backup', JSON.stringify(backupData));
+          console.log('✅ Backup saved to localStorage');
+        }
+        
+        // Always offer download regardless of localStorage
+        downloadChangesAsFile(backupData);
+        
+        alert(`⚠️ API save failed, but your changes have been downloaded as a backup file!\n\nError: ${errorMessage}\n\nYou can restore these changes later or manually apply them.`);
+        saveSuccess = true;
+        
+      } catch (backupError) {
+        console.error('❌ Backup save failed:', backupError);
+      }
+    }
+
+    // Method 3: If all else fails, at least show the changes
+    if (!saveSuccess) {
+      console.log('All save methods failed, showing changes summary');
+      showChangesSummary();
+      alert(`❌ Unable to save changes automatically.\n\nError: ${errorMessage}\n\nYour changes are shown in the console and can be manually applied.`);
+    }
+
+    if (saveSuccess) {
+      // Clear local edits and disable the save button
+      editedHeadlines.clear();
+      saveBtn.disabled = true;
+      
+      // Mark all rows as no longer edited
+      document.querySelectorAll('tr.edited').forEach(row => {
+        row.classList.remove('edited');
+      });
+      
+      // Only reload if API save was successful
+      if (errorMessage === '') {
+        console.log('Reloading data from API...');
+        await loadHeadlines();
+      }
+    }
+
+  } catch (error) {
+    console.error('❌ Unexpected error during save:', error);
+    alert(`❌ Unexpected error occurred while saving.\n\nError: ${error.message}\n\nCheck the console for more details.`);
+  } finally {
+    // Restore button state
+    saveBtn.textContent = originalText;
+    if (editedHeadlines.size === 0) {
+      saveBtn.disabled = true;
+    } else {
+      saveBtn.disabled = false;
+    }
+  }
+}
+
+// Helper function to download changes as a file
+function downloadChangesAsFile(data) {
+  try {
+    const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = `headlines_changes_${new Date().toISOString().slice(0, 19).replace(/:/g, '-')}.json`;
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
+    console.log('✅ Changes downloaded as file');
+  } catch (error) {
+    console.error('❌ Failed to download changes:', error);
+  }
+}
+
+// Helper function to show changes summary in console
+function showChangesSummary() {
+  console.group('📝 CHANGES SUMMARY');
+  console.log(`Total changes: ${editedHeadlines.size}`);
+  
+  editedHeadlines.forEach((changes, headlineId) => {
+    const original = allHeadlines.find(h => h.id === headlineId);
+    if (original) {
+      console.group(`📰 Headline ID: ${headlineId}`);
+      console.log('Original title:', original.title);
+      console.log('Changes:', changes);
+      console.groupEnd();
+    }
+  });
+  
+  console.groupEnd();
+}
+
+// Add a bulk edit function for easier updates
+function bulkEditSelected(field, value) {
+  const checkboxes = document.querySelectorAll('.row-checkbox:checked');
+  let changeCount = 0;
+  
+  checkboxes.forEach(checkbox => {
+    const headlineId = parseInt(checkbox.dataset.headlineId);
+    updateField(headlineId, field, value);
+    changeCount++;
+  });
+  
+  if (changeCount > 0) {
+    alert(`✅ Updated ${field} for ${changeCount} headlines`);
+    renderTable();
+  } else {
+    alert('⚠️ No headlines selected for bulk edit');
+  }
+}
+
+// Add checkboxes to table for bulk selection
+function addBulkEditControls() {
+  // Add bulk edit toolbar
+  const toolbar = document.createElement('div');
+  toolbar.className = 'bulk-edit-toolbar';
+  toolbar.innerHTML = `
+    <div style="padding: 10px; background: rgba(255,255,255,0.1); border-radius: 8px; margin-bottom: 10px; display: none;" id="bulkEditControls">
+      <span id="selectedCount">0 selected</span>
+      <button onclick="bulkEditSelected('sentiment', 'positive')" class="bulk-btn">Mark Positive</button>
+      <button onclick="bulkEditSelected('sentiment', 'neutral')" class="bulk-btn">Mark Neutral</button>
+      <button onclick="bulkEditSelected('sentiment', 'negative')" class="bulk-btn">Mark Negative</button>
+      <select id="bulkTopicSelect">
+        <option value="">Bulk Topic...</option>
+        <option value="Politics">Politics</option>
+        <option value="Business">Business</option>
+        <option value="Tech">Tech</option>
+        <option value="Sports">Sports</option>
+        <option value="Health">Health</option>
+        <option value="Science">Science</option>
+        <option value="Entertainment">Entertainment</option>
+        <option value="World">World</option>
+        <option value="Regional">Regional</option>
+        <option value="Local">Local</option>
+        <option value="Other">Other</option>
+      </select>
+      <button onclick="applyBulkTopic()" class="bulk-btn">Apply Topic</button>
+    </div>
+  `;
+  
+  const tableContainer = document.querySelector('.headlines-table-container');
+  tableContainer.insertBefore(toolbar, tableContainer.firstChild);
+}
+
+function applyBulkTopic() {
+  const topic = document.getElementById('bulkTopicSelect').value;
+  if (topic) {
+    bulkEditSelected('topic', topic);
+    document.getElementById('bulkTopicSelect').value = '';
+  }
+}
+
+// Add this CSS for bulk edit controls
+const bulkEditStyles = `
+<style>
+.bulk-btn {
+  padding: 4px 8px;
+  margin: 0 4px;
+  background: rgba(102, 126, 234, 0.2);
+  border: 1px solid rgba(102, 126, 234, 0.4);
+  border-radius: 4px;
+  color: #667EEA;
+  cursor: pointer;
+  font-size: 12px;
+}
+.bulk-btn:hover {
+  background: rgba(102, 126, 234, 0.3);
+}
+.row-checkbox {
+  margin-right: 8px;
+}
+#selectedCount {
+  font-weight: bold;
+  margin-right: 10px;
+}
+</style>
+`;
+document.head.insertAdjacentHTML('beforeend', bulkEditStyles);
+
+// Initialize bulk edit on page load
+document.addEventListener('DOMContentLoaded', function() {
+  // Add bulk edit controls after table loads
+  setTimeout(addBulkEditControls, 1000);
+});
 
   // Show loading state
   const saveBtn = document.getElementById('saveChanges');
