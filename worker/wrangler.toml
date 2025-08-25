@@ -1,11 +1,11 @@
 name = "news-dashboard-api"
-main = "src/index.js"        # path to your Worker script
+main = "src/index.js"
 compatibility_date = "2024-08-25"
 
 [[kv_namespaces]]
 binding = "HEADLINES_STORE"
-id      = "your-kv-namespace-id"
+id      = "<d35fd34ae14348b9b995541fbf729133>"   # replace with the ID from Cloudflare
 
 [[routes]]
-pattern   = "yourdomain.com/api/*"
-zone_name = "yourdomain.com"
+pattern   = "goodnewsbadnews.xyz/api/*"
+zone_name = "goodnewsbadnews.xyz"
