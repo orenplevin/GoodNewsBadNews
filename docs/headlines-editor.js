@@ -8,27 +8,54 @@ let currentEditId = null;
 let sortBy = 'published';
 let sortDirection = 'desc';
 
-// Load headlines data
+// Load headlines data from the new all_headlines.json file
 async function loadHeadlines() {
     try {
-        const response = await fetch('./data/latest.json');
-        const data = await response.json();
+        // First try to load from the new all_headlines.json file
+        let response;
+        let data;
         
-        // Get all headlines with their topics
-        allHeadlines = data.sample_headlines.map((headline, index) => ({
-            ...headline,
-            id: index,
-            topic: headline.topic || classifyTopic(headline.title) // Use existing or classify
-        }));
+        try {
+            response = await fetch('./data/all_headlines.json');
+            if (response.ok) {
+                data = await response.json();
+                console.log('Loaded from all_headlines.json:', data.count, 'headlines');
+                
+                // Map the data structure from all_headlines.json
+                allHeadlines = data.headlines.map((headline, index) => ({
+                    ...headline,
+                    id: index,
+                    topic: headline.topic || classifyTopic(headline.title) // Use existing or classify
+                }));
+            } else {
+                throw new Error('all_headlines.json not found');
+            }
+        } catch (error) {
+            console.warn('Could not load all_headlines.json, falling back to latest.json:', error.message);
+            
+            // Fallback to latest.json if all_headlines.json doesn't exist
+            response = await fetch('./data/latest.json');
+            data = await response.json();
+            
+            // Get all headlines with their topics from the latest.json structure
+            allHeadlines = data.sample_headlines.map((headline, index) => ({
+                ...headline,
+                id: index,
+                topic: headline.topic || classifyTopic(headline.title) // Use existing or classify
+            }));
+            
+            console.log('Loaded from latest.json (limited):', allHeadlines.length, 'headlines');
+        }
         
         // Initialize filters
-        initializeFilters(data);
+        initializeFilters();
         
         // Apply initial filter and render
         applyFilters();
         
     } catch (error) {
         console.error('Error loading headlines:', error);
+        document.getElementById('filterResults').textContent = 'Error loading data - check console for details';
     }
 }
 
@@ -57,10 +84,11 @@ function classifyTopic(text) {
 }
 
 // Initialize filter dropdowns
-function initializeFilters(data) {
+function initializeFilters() {
     // Sources filter
     const sources = [...new Set(allHeadlines.map(h => h.source))].sort();
     const sourceSelect = document.getElementById('filterSource');
+    sourceSelect.innerHTML = '<option value="">All Sources</option>';
     sources.forEach(source => {
         const option = document.createElement('option');
         option.value = source;
@@ -71,6 +99,7 @@ function initializeFilters(data) {
     // Regions filter
     const regions = [...new Set(allHeadlines.map(h => h.region))].sort();
     const regionSelect = document.getElementById('filterRegion');
+    regionSelect.innerHTML = '<option value="">All Regions</option>';
     regions.forEach(region => {
         const option = document.createElement('option');
         option.value = region;
@@ -125,7 +154,7 @@ function applyFilters() {
     
     // Update filter stats
     document.getElementById('filterResults').textContent = 
-        `Showing ${filteredHeadlines.length} of ${allHeadlines.length} headlines`;
+        `Showing ${Math.min(filteredHeadlines.length, itemsPerPage)} of ${filteredHeadlines.length} headlines (${allHeadlines.length} total)`;
     
     // Reset to first page
     currentPage = 1;
@@ -165,14 +194,33 @@ function renderTable() {
     const endIndex = Math.min(startIndex + itemsPerPage, filteredHeadlines.length);
     const pageHeadlines = filteredHeadlines.slice(startIndex, endIndex);
     
-    // Render rows
+    // Show loading message if processing large datasets
+    if (filteredHeadlines.length > 1000) {
+        tbody.innerHTML = '<tr><td colspan="7" style="text-align: center; padding: 20px;">Loading headlines...</td></tr>';
+        
+        // Use setTimeout to allow UI to update before processing
+        setTimeout(() => {
+            tbody.innerHTML = '';
+            renderHeadlineRows(pageHeadlines);
+            updatePagination();
+        }, 10);
+    } else {
+        renderHeadlineRows(pageHeadlines);
+        updatePagination();
+    }
+}
+
+// Separate function to render headline rows (for better performance with large datasets)
+function renderHeadlineRows(pageHeadlines) {
+    const tbody = document.getElementById('headlinesBody');
+    const fragment = document.createDocumentFragment(); // Use document fragment for better performance
+    
     pageHeadlines.forEach(headline => {
         const row = createTableRow(headline);
-        tbody.appendChild(row);
+        fragment.appendChild(row);
     });
     
-    // Update pagination
-    updatePagination();
+    tbody.appendChild(fragment);
 }
 
 // Create table row
@@ -375,10 +423,10 @@ function updatePagination() {
     const totalPages = Math.ceil(filteredHeadlines.length / itemsPerPage);
     
     document.getElementById('pageInfo').textContent = 
-        `Page ${currentPage} of ${totalPages}`;
+        `Page ${currentPage} of ${Math.max(totalPages, 1)} (${filteredHeadlines.length} headlines)`;
     
     document.getElementById('prevPage').disabled = currentPage === 1;
-    document.getElementById('nextPage').disabled = currentPage === totalPages;
+    document.getElementById('nextPage').disabled = currentPage === totalPages || totalPages === 0;
 }
 
 // Save all changes
@@ -400,6 +448,7 @@ async function saveAllChanges() {
     // Create download
     const dataStr = JSON.stringify({
         generated_at: new Date().toISOString(),
+        count: updatedHeadlines.length,
         headlines: updatedHeadlines,
         edits: Array.from(editedHeadlines.entries())
     }, null, 2);
@@ -415,13 +464,14 @@ async function saveAllChanges() {
     editedHeadlines.clear();
     document.getElementById('saveChanges').disabled = true;
     
-    alert('Changes saved! Download started.');
+    alert(`Changes saved! ${updatedHeadlines.length} headlines exported.`);
 }
 
 // Export data
 function exportData() {
     const dataStr = JSON.stringify({
         generated_at: new Date().toISOString(),
+        count: filteredHeadlines.length,
         headlines: filteredHeadlines
     }, null, 2);
     
@@ -431,6 +481,13 @@ function exportData() {
     a.href = url;
     a.download = `headlines_export_${new Date().toISOString().split('T')[0]}.json`;
     a.click();
+}
+
+// Change items per page
+function changeItemsPerPage(newSize) {
+    itemsPerPage = parseInt(newSize);
+    currentPage = 1; // Reset to first page
+    applyFilters(); // Re-render with new page size
 }
 
 // Event listeners
