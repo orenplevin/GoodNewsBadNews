@@ -8,6 +8,11 @@ let currentEditId = null;
 let sortBy = 'published';
 let sortDirection = 'desc';
 
+// Make some variables globally accessible for onclick handlers
+window.filteredHeadlines = [];
+window.currentPage = 1;
+window.itemsPerPage = 50;
+
 // Load headlines data from the new all_headlines.json file
 async function loadHeadlines() {
     try {
@@ -149,6 +154,9 @@ function applyFilters() {
         return true;
     });
     
+    // Update global variable
+    window.filteredHeadlines = filteredHeadlines;
+    
     // Sort headlines
     sortHeadlines();
     
@@ -158,6 +166,7 @@ function applyFilters() {
     
     // Reset to first page
     currentPage = 1;
+    window.currentPage = 1;
     
     // Render table
     renderTable();
@@ -483,12 +492,17 @@ function exportData() {
     a.click();
 }
 
-// Change items per page
-function changeItemsPerPage(newSize) {
+// Change items per page (make global for onclick)
+window.changeItemsPerPage = function(newSize) {
     itemsPerPage = parseInt(newSize);
+    window.itemsPerPage = itemsPerPage;
     currentPage = 1; // Reset to first page
+    window.currentPage = 1;
     applyFilters(); // Re-render with new page size
-}
+};
+
+// Make renderTable globally accessible
+window.renderTable = renderTable;
 
 // Event listeners
 document.addEventListener('DOMContentLoaded', () => {
@@ -519,6 +533,7 @@ document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('prevPage').addEventListener('click', () => {
         if (currentPage > 1) {
             currentPage--;
+            window.currentPage = currentPage;
             renderTable();
         }
     });
@@ -527,6 +542,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const totalPages = Math.ceil(filteredHeadlines.length / itemsPerPage);
         if (currentPage < totalPages) {
             currentPage++;
+            window.currentPage = currentPage;
             renderTable();
         }
     });
