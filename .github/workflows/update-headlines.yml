@@ -1,139 +1,20 @@
-name: Update Headlines Data
-
-on:
-  schedule:
-    # Run every 4 hours
-    - cron: '0 */4 * * *'
-  workflow_dispatch: # Allow manual trigger
-
-permissions:
-  contents: write
-
-jobs:
-  update-headlines:
-    runs-on: ubuntu-latest
-    
-    steps:
-    - name: Checkout repository
-      uses: actions/checkout@v4
-      
-    - name: Set up Python
-      uses: actions/setup-python@v4
-      with:
-        python-version: '3.11'
-        
-    - name: Install dependencies
-      run: |
-        pip install feedparser python-dateutil vaderSentiment nltk
-        
-    - name: Download NLTK data
-      run: |
-        python -c "import nltk; nltk.download('vader_lexicon', quiet=True)"
-        
-    - name: Create directories
-      run: |
-        mkdir -p data docs/data
-        
-    - name: Check if fetcher exists and run it
-      run: |
-        if [ -f "fetcher.py" ]; then
-          echo "✅ Found fetcher.py, running..."
-          python fetcher.py || echo "⚠️ Fetcher failed, continuing anyway"
-        else
-          echo "❌ No fetcher.py found"
-        fi
-        
-    - name: Create basic all_headlines.json if missing
-      run: |
-        if [ ! -f "docs/data/all_headlines.json" ] && [ -f "docs/data/latest.json" ]; then
-          echo "📝 Creating all_headlines.json from latest.json..."
-          python3 << 'EOF'
+- name: Create basic all_headlines.json if missing
+  run: |
+    if [ ! -f "docs/data/all_headlines.json" ] && [ -f "docs/data/latest.json" ]; then
+      echo "📝 Creating all_headlines.json from latest.json..."
+      python3 <<'EOF'
 import json
 import os
 from datetime import datetime
-
+# ... Python script continues ...
 try:
-    # Load latest.json
-    with open('docs/data/latest.json', 'r') as f:
-        data = json.load(f)
-    
-    headlines = data.get('sample_headlines', [])
-    print(f"Found {len(headlines)} headlines in latest.json")
-    
-    # Enhanced topic classification
-    def classify_topic(text):
-        topic_keywords = {
-            'Politics': ['election', 'president', 'parliament', 'congress', 'minister', 'policy', 'government', 'bjp', 'party'],
-            'Business': ['market', 'stocks', 'earnings', 'economy', 'crore', 'revenue', 'nifty', 'sensex', 'finance'],
-            'Tech': ['ai', 'artificial intelligence', 'tech', 'software', 'chip', 'semiconductor', 'startup'],
-            'Sports': ['match', 'game', 'tournament', 'sports', 'open', 'win', 'beat', 'cricket', 'football'],
-            'Health': ['covid', 'health', 'medical', 'hospital', 'doctor', 'vaccine', 'disease'],
-            'Science': ['research', 'study', 'space', 'climate', 'environment'],
-            'Entertainment': ['movie', 'film', 'celebrity', 'music', 'streaming'],
-            'World': ['ukraine', 'gaza', 'israel', 'war', 'conflict', 'strike', 'military']
-        }
-        
-        text_lower = (text or '').lower()
-        for topic, keywords in topic_keywords.items():
-            if any(keyword in text_lower for keyword in keywords):
-                return topic
-        return 'Other'
-    
-    # Process headlines
-    processed_headlines = []
-    for i, headline in enumerate(headlines):
-        processed_headlines.append({
-            'title': headline.get('title', ''),
-            'url': headline.get('url', ''),
-            'source': headline.get('source', ''),
-            'region': headline.get('region', 'Global'),
-            'published': headline.get('published', datetime.now().isoformat()),
-            'sentiment': headline.get('sentiment', 'neutral'),
-            'topic': classify_topic(headline.get('title', '')),
-            'summary': (headline.get('title', '') or '')[:100] + '...' if len(headline.get('title', '') or '') > 100 else headline.get('title', '')
-        })
-    
-    # Create all_headlines.json
-    all_headlines_data = {
-        'generated_at': datetime.now().isoformat(),
-        'count': len(processed_headlines),
-        'headlines': processed_headlines
-    }
-    
-    # Save file
-    with open('docs/data/all_headlines.json', 'w') as f:
-        json.dump(all_headlines_data, f, indent=2)
-    
+    # Load and process latest.json
+    # ...
     print(f"✅ Created all_headlines.json with {len(processed_headlines)} headlines")
-    
 except Exception as e:
     print(f"❌ Error: {e}")
-    exit(0)  # Don't fail the whole workflow
+    exit(0)  # Don't fail the workflow
 EOF
-        else
-          echo "✅ all_headlines.json already exists or no source data available"
-        fi
-        
-    - name: List generated files
-      run: |
-        echo "=== Files in docs/data/ ==="
-        ls -la docs/data/ || echo "No docs/data directory"
-        
-        if [ -f "docs/data/all_headlines.json" ]; then
-          echo "✅ all_headlines.json exists"
-          echo "📊 Size: $(wc -c < docs/data/all_headlines.json) bytes"
-        fi
-        
-    - name: Commit changes
-      run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
-        git add docs/data/
-        
-        if git diff --staged --quiet; then
-          echo "📝 No changes to commit"
-        else
-          git commit -m "📰 Update headlines data - $(date '+%Y-%m-%d %H:%M')"
-          git push
-          echo "✅ Changes pushed to repository"
-        fi
+    else
+      echo "✅ all_headlines.json already exists or no source data available"
+    fi
