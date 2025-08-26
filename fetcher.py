@@ -88,22 +88,22 @@ FEEDS = [
     {"name": "Brazil News", "url": "https://rss.cnn.com/rss/edition_americas.rss", "region": "South America"},
     
     # Business & Tech (Global)
-    {"name": "CNBC", "url": "https://www.cnbc.com/id/100003114/device/rss/rss.html", "region": "Business"},
-    {"name": "Bloomberg", "url": "https://feeds.bloomberg.com/markets/news.rss", "region": "Business"},
-    {"name": "MarketWatch", "url": "http://feeds.marketwatch.com/marketwatch/topstories/", "region": "Business"},
-    {"name": "Forbes", "url": "https://www.forbes.com/news/index.xml", "region": "Business"},
-    {"name": "TechCrunch", "url": "http://feeds.feedburner.com/TechCrunch/", "region": "Technology"},
-    {"name": "The Verge", "url": "https://www.theverge.com/rss/index.xml", "region": "Technology"},
-    {"name": "Wired", "url": "https://www.wired.com/feed/rss", "region": "Technology"},
-    {"name": "Ars Technica", "url": "http://feeds.arstechnica.com/arstechnica/index", "region": "Technology"},
-    {"name": "Engadget", "url": "https://www.engadget.com/rss.xml", "region": "Technology"},
-    {"name": "Mashable", "url": "http://feeds.mashable.com/Mashable", "region": "Technology"},
+    {"name": "CNBC", "url": "https://www.cnbc.com/id/100003114/device/rss/rss.html", "region": "Global"},
+    {"name": "Bloomberg", "url": "https://feeds.bloomberg.com/markets/news.rss", "region": "Global"},
+    {"name": "MarketWatch", "url": "http://feeds.marketwatch.com/marketwatch/topstories/", "region": "Global"},
+    {"name": "Forbes", "url": "https://www.forbes.com/news/index.xml", "region": "Global"},
+    {"name": "TechCrunch", "url": "http://feeds.feedburner.com/TechCrunch/", "region": "Global"},
+    {"name": "The Verge", "url": "https://www.theverge.com/rss/index.xml", "region": "Global"},
+    {"name": "Wired", "url": "https://www.wired.com/feed/rss", "region": "Global"},
+    {"name": "Ars Technica", "url": "http://feeds.arstechnica.com/arstechnica/index", "region": "Global"},
+    {"name": "Engadget", "url": "https://www.engadget.com/rss.xml", "region": "Global"},
+    {"name": "Mashable", "url": "http://feeds.mashable.com/Mashable", "region": "Global"},
     
     # Sports (Global)
-    {"name": "ESPN", "url": "https://www.espn.com/espn/rss/news", "region": "Sports"},
-    {"name": "Sports Illustrated", "url": "https://www.si.com/rss/si_topstories.rss", "region": "Sports"},
-    {"name": "BBC Sport", "url": "http://feeds.bbci.co.uk/sport/rss.xml", "region": "Sports"},
-    {"name": "Sky Sports", "url": "http://www.skysports.com/rss/12040", "region": "Sports"},
+    {"name": "ESPN", "url": "https://www.espn.com/espn/rss/news", "region": "Global"},
+    {"name": "Sports Illustrated", "url": "https://www.si.com/rss/si_topstories.rss", "region": "Global"},
+    {"name": "BBC Sport", "url": "http://feeds.bbci.co.uk/sport/rss.xml", "region": "Global"},
+    {"name": "Sky Sports", "url": "http://www.skysports.com/rss/12040", "region": "Global"},
 ]
 
 # Enhanced topic classification with context patterns
