@@ -1,67 +1,59 @@
 {
-  "generated_at": "2025-08-27T20:28:28.892364+00:00",
+  "generated_at": "2025-08-27T20:46:26.230078+00:00",
   "window_hours": 24,
   "totals": {
-    "positive": 1195,
-    "neutral": 295,
-    "negative": 1219
+    "positive": 1210,
+    "neutral": 297,
+    "negative": 1241
   },
   "by_publication": [
     {
       "source": "Independent",
-      "positive": 214,
+      "positive": 216,
       "neutral": 63,
-      "negative": 204,
-      "count": 481,
+      "negative": 208,
+      "count": 487,
       "region": "Europe"
     },
     {
       "source": "Bloomberg",
-      "positive": 86,
+      "positive": 92,
       "neutral": 12,
-      "negative": 42,
-      "count": 140,
+      "negative": 46,
+      "count": 150,
       "region": "Asia-Pacific"
     },
     {
       "source": "Times of India",
-      "positive": 60,
+      "positive": 61,
       "neutral": 10,
-      "negative": 55,
-      "count": 125,
+      "negative": 57,
+      "count": 128,
       "region": "North America"
     },
     {
       "source": "CBS News",
-      "positive": 50,
-      "neutral": 15,
-      "negative": 57,
-      "count": 122,
+      "positive": 51,
+      "neutral": 16,
+      "negative": 58,
+      "count": 125,
       "region": "North America"
     },
     {
       "source": "Fox News",
       "positive": 36,
       "neutral": 7,
-      "negative": 63,
-      "count": 106,
+      "negative": 64,
+      "count": 107,
       "region": "North America"
     },
     {
       "source": "The Guardian",
       "positive": 41,
       "neutral": 1,
-      "negative": 63,
-      "count": 105,
+      "negative": 65,
+      "count": 107,
       "region": "Africa"
-    },
-    {
-      "source": "The Hindu",
-      "positive": 42,
-      "neutral": 12,
-      "negative": 46,
-      "count": 100,
-      "region": "North America"
     },
     {
       "source": "South China Morning Post",
@@ -69,6 +61,14 @@
       "neutral": 2,
       "negative": 46,
       "count": 99,
+      "region": "North America"
+    },
+    {
+      "source": "The Hindu",
+      "positive": 42,
+      "neutral": 11,
+      "negative": 44,
+      "count": 97,
       "region": "North America"
     },
     {
@@ -83,8 +83,16 @@
       "source": "Channel News Asia",
       "positive": 28,
       "neutral": 30,
-      "negative": 30,
-      "count": 88,
+      "negative": 31,
+      "count": 89,
+      "region": "Asia-Pacific"
+    },
+    {
+      "source": "NBC News",
+      "positive": 26,
+      "neutral": 5,
+      "negative": 44,
+      "count": 75,
       "region": "Asia-Pacific"
     },
     {
@@ -97,35 +105,27 @@
     },
     {
       "source": "CNBC",
-      "positive": 37,
+      "positive": 36,
       "neutral": 11,
       "negative": 25,
-      "count": 73,
+      "count": 72,
       "region": "North America"
-    },
-    {
-      "source": "NBC News",
-      "positive": 25,
-      "neutral": 5,
-      "negative": 40,
-      "count": 70,
-      "region": "Asia-Pacific"
-    },
-    {
-      "source": "Mashable",
-      "positive": 45,
-      "neutral": 9,
-      "negative": 12,
-      "count": 66,
-      "region": "Global"
     },
     {
       "source": "BBC Sport",
-      "positive": 41,
+      "positive": 43,
       "neutral": 5,
-      "negative": 20,
-      "count": 66,
+      "negative": 21,
+      "count": 69,
       "region": "North America"
+    },
+    {
+      "source": "Australian Broadcasting Corporation",
+      "positive": 17,
+      "neutral": 7,
+      "negative": 42,
+      "count": 66,
+      "region": "Asia-Pacific"
     },
     {
       "source": "Euronews",
@@ -136,34 +136,34 @@
       "region": "Asia-Pacific"
     },
     {
-      "source": "Australian Broadcasting Corporation",
-      "positive": 16,
-      "neutral": 7,
-      "negative": 41,
-      "count": 64,
-      "region": "Asia-Pacific"
+      "source": "Mashable",
+      "positive": 45,
+      "neutral": 9,
+      "negative": 11,
+      "count": 65,
+      "region": "Global"
     },
     {
       "source": "ESPN",
-      "positive": 39,
+      "positive": 40,
       "neutral": 10,
-      "negative": 13,
-      "count": 62,
+      "negative": 14,
+      "count": 64,
       "region": "Global"
     },
     {
       "source": "France 24",
-      "positive": 30,
+      "positive": 29,
       "neutral": 2,
       "negative": 28,
-      "count": 60,
+      "count": 59,
       "region": "Asia-Pacific"
     },
     {
       "source": "Middle East Eye",
-      "positive": 8,
+      "positive": 7,
       "neutral": 0,
-      "negative": 51,
+      "negative": 52,
       "count": 59,
       "region": "Middle East"
     },
@@ -178,9 +178,9 @@
     {
       "source": "MarketWatch",
       "positive": 31,
-      "neutral": 3,
+      "neutral": 4,
       "negative": 20,
-      "count": 54,
+      "count": 55,
       "region": "North America"
     },
     {
@@ -193,9 +193,9 @@
     },
     {
       "source": "Times of Israel",
-      "positive": 13,
+      "positive": 12,
       "neutral": 3,
-      "negative": 25,
+      "negative": 26,
       "count": 41,
       "region": "Middle East"
     },
@@ -209,18 +209,18 @@
     },
     {
       "source": "Straits Times",
-      "positive": 15,
+      "positive": 17,
       "neutral": 6,
       "negative": 15,
-      "count": 36,
+      "count": 38,
       "region": "Global"
     },
     {
       "source": "Irish Times",
-      "positive": 13,
+      "positive": 14,
       "neutral": 4,
-      "negative": 17,
-      "count": 34,
+      "negative": 19,
+      "count": 37,
       "region": "Global"
     },
     {
@@ -240,36 +240,36 @@
       "region": "North America"
     },
     {
-      "source": "NPR",
-      "positive": 7,
-      "neutral": 2,
-      "negative": 18,
-      "count": 27,
-      "region": "North America"
-    },
-    {
       "source": "Engadget",
-      "positive": 22,
+      "positive": 23,
       "neutral": 0,
       "negative": 5,
-      "count": 27,
+      "count": 28,
       "region": "North America"
     },
     {
-      "source": "The Verge",
-      "positive": 15,
-      "neutral": 1,
-      "negative": 10,
+      "source": "NPR",
+      "positive": 6,
+      "neutral": 2,
+      "negative": 18,
       "count": 26,
       "region": "North America"
     },
     {
       "source": "Financial Times",
-      "positive": 7,
+      "positive": 8,
       "neutral": 3,
       "negative": 13,
-      "count": 23,
+      "count": 24,
       "region": "Asia-Pacific"
+    },
+    {
+      "source": "The Verge",
+      "positive": 14,
+      "neutral": 1,
+      "negative": 9,
+      "count": 24,
+      "region": "North America"
     },
     {
       "source": "Wired",
@@ -282,9 +282,9 @@
     {
       "source": "RT News",
       "positive": 6,
-      "neutral": 2,
+      "neutral": 3,
       "negative": 10,
-      "count": 18,
+      "count": 19,
       "region": "Middle East"
     },
     {
@@ -297,10 +297,10 @@
     },
     {
       "source": "Telegraph",
-      "positive": 9,
+      "positive": 10,
       "neutral": 2,
       "negative": 3,
-      "count": 14,
+      "count": 15,
       "region": "North America"
     },
     {
@@ -355,38 +355,38 @@
   "by_region": [
     {
       "region": "North America",
-      "positive": 557,
-      "neutral": 123,
-      "negative": 535,
-      "count": 1215
+      "positive": 564,
+      "neutral": 124,
+      "negative": 546,
+      "count": 1234
     },
     {
       "region": "Europe",
-      "positive": 281,
-      "neutral": 83,
-      "negative": 221,
-      "count": 585
+      "positive": 283,
+      "neutral": 84,
+      "negative": 223,
+      "count": 590
     },
     {
       "region": "Asia-Pacific",
-      "positive": 147,
-      "neutral": 35,
-      "negative": 180,
-      "count": 362
+      "positive": 151,
+      "neutral": 34,
+      "negative": 183,
+      "count": 368
     },
     {
       "region": "Global",
-      "positive": 137,
-      "neutral": 43,
-      "negative": 84,
-      "count": 264
+      "positive": 140,
+      "neutral": 44,
+      "negative": 88,
+      "count": 272
     },
     {
       "region": "Middle East",
-      "positive": 43,
+      "positive": 42,
       "neutral": 7,
-      "negative": 175,
-      "count": 225
+      "negative": 177,
+      "count": 226
     },
     {
       "region": "South America",
@@ -406,52 +406,52 @@
   "by_topic": [
     {
       "topic": "Tech",
-      "positive": 298,
+      "positive": 306,
       "neutral": 72,
-      "negative": 333,
-      "count": 703
+      "negative": 336,
+      "count": 714
     },
     {
       "topic": "Politics",
       "positive": 205,
-      "neutral": 35,
-      "negative": 240,
-      "count": 480
+      "neutral": 36,
+      "negative": 248,
+      "count": 489
     },
     {
       "topic": "Other",
-      "positive": 186,
-      "neutral": 85,
-      "negative": 174,
-      "count": 445
+      "positive": 187,
+      "neutral": 86,
+      "negative": 178,
+      "count": 451
     },
     {
       "topic": "World",
       "positive": 118,
       "neutral": 23,
-      "negative": 210,
-      "count": 351
+      "negative": 213,
+      "count": 354
     },
     {
       "topic": "Business",
-      "positive": 133,
+      "positive": 136,
       "neutral": 26,
-      "negative": 62,
-      "count": 221
+      "negative": 64,
+      "count": 226
     },
     {
       "topic": "Sports",
-      "positive": 119,
+      "positive": 122,
       "neutral": 25,
       "negative": 51,
-      "count": 195
+      "count": 198
     },
     {
       "topic": "Health",
       "positive": 32,
       "neutral": 9,
-      "negative": 51,
-      "count": 92
+      "negative": 52,
+      "count": 93
     },
     {
       "topic": "Entertainment",
@@ -461,28 +461,36 @@
       "count": 84
     },
     {
-      "topic": "Science",
-      "positive": 24,
-      "neutral": 5,
-      "negative": 19,
-      "count": 48
-    },
-    {
       "topic": "Local",
       "positive": 14,
       "neutral": 7,
-      "negative": 27,
-      "count": 48
+      "negative": 28,
+      "count": 49
+    },
+    {
+      "topic": "Science",
+      "positive": 24,
+      "neutral": 5,
+      "negative": 18,
+      "count": 47
     },
     {
       "topic": "Regional",
       "positive": 18,
       "neutral": 2,
-      "negative": 22,
-      "count": 42
+      "negative": 23,
+      "count": 43
     }
   ],
   "sample_headlines": [
+    {
+      "title": "CrowdStrike's third-quarter revenue forecast disappoints, shares fall",
+      "url": "https://www.channelnewsasia.com/business/crowdstrikes-third-quarter-revenue-forecast-disappoints-shares-fall-5318411",
+      "source": "Channel News Asia",
+      "region": "Global",
+      "published": "2025-08-28T04:27:46+08:00",
+      "sentiment": "negative"
+    },
     {
       "title": "Snowflake raises annual product revenue forecast, shares rise",
       "url": "https://www.channelnewsasia.com/business/snowflake-raises-annual-product-revenue-forecast-shares-rise-5318381",
@@ -506,6 +514,22 @@
       "region": "North America",
       "published": "2025-08-28T04:02:40+08:00",
       "sentiment": "negative"
+    },
+    {
+      "title": "Placing less value on property, holding on to cash: Study reveals shifting retirement mindsets in S\u2019pore",
+      "url": "https://www.straitstimes.com/singapore/community/manulife-survey-2025-less-property-interest-holding-to-cash-retirement-in-singapore",
+      "source": "Straits Times",
+      "region": "Asia-Pacific",
+      "published": "2025-08-28T04:00:00+08:00",
+      "sentiment": "positive"
+    },
+    {
+      "title": "How this \u2018grid doctor\u2019 maintains the health of Singapore\u2019s electricity network so everything stays on",
+      "url": "https://www.straitstimes.com/singapore/how-sp-group-technical-officer-maintains-singapore-electricity",
+      "source": "Straits Times",
+      "region": "Asia-Pacific",
+      "published": "2025-08-28T04:00:00+08:00",
+      "sentiment": "positive"
     },
     {
       "title": "Early kick-off, empty stadium? No problem, as Man United's women march on",
@@ -788,6 +812,14 @@
       "sentiment": "neutral"
     },
     {
+      "title": "Syko Stu hospitalised: Awake and recovering after LA beating; Raja Jackson blamed",
+      "url": "https://timesofindia.indiatimes.com/sports/international-sports/syko-stu-awake-and-giving-health-update-in-hospital-after-brutal-attack-by-raja-jackson-in-los-angeles/articleshow/123550915.cms",
+      "source": "Times of India",
+      "region": "Asia-Pacific",
+      "published": "2025-08-28T00:09:53+05:30",
+      "sentiment": "negative"
+    },
+    {
       "title": "Kamal Haasan bats for self-reliance as Trump\u2019s 50% tariff kicks in",
       "url": "https://www.thehindu.com/news/national/kamal-haasan-bats-for-self-reliance-as-trumps-50-tariff-kicks-in/article69982886.ece",
       "source": "The Hindu",
@@ -1004,6 +1036,14 @@
       "sentiment": "positive"
     },
     {
+      "title": "US obstruction of UN resolutions \"makes it complicit\" in Gaza crimes: Hamas",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/us-obstruction-un-resolutions-makes-it-complicit-gaza-crimes-hamas",
+      "source": "Middle East Eye",
+      "region": "Middle East",
+      "published": "2025-08-27T21:44:51+01:00",
+      "sentiment": "negative"
+    },
+    {
       "title": "US citizenship: Neighbours, boss to have a say? Applicants to face tougher scrutiny",
       "url": "https://timesofindia.indiatimes.com/world/us/uscis-is-empowered-to-conduct-neighbourhood-investigations-for-those-applying-for-us-citizenship/articleshow/123548880.cms",
       "source": "Times of India",
@@ -1081,6 +1121,14 @@
       "source": "Times of India",
       "region": "Asia-Pacific",
       "published": "2025-08-27T21:12:31+05:30",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Putin\u2019s next-gen military? Eight-year-old kids train with rifle & grenade",
+      "url": "https://timesofindia.indiatimes.com/world/europe/putins-next-gen-military-eight-year-old-kids-train-with-rifle-grenade-to-serve-my-country-and-be-loyal/articleshow/123548277.cms",
+      "source": "Times of India",
+      "region": "Europe",
+      "published": "2025-08-27T21:12:21+05:30",
       "sentiment": "positive"
     },
     {
@@ -1220,67 +1268,19 @@
       "sentiment": "negative"
     },
     {
+      "title": "Nvidia Shares Fall After Providing Lackluster Forecast",
+      "url": "https://www.bloomberg.com/news/videos/2025-08-27/nvidia-shares-fall-after-providing-lackluster-forecast",
+      "source": "Bloomberg",
+      "region": "North America",
+      "published": "2025-08-27T20:43:26+00:00",
+      "sentiment": "positive"
+    },
+    {
       "title": "Assam Cabinet nod for streamlining inter-religious land transfer process",
       "url": "https://www.thehindu.com/news/national/assam/assam-cabinet-nod-for-streamlining-inter-religious-land-transfer-process/article69982696.ece",
       "source": "The Hindu",
       "region": "North America",
       "published": "2025-08-27T20:42:03+05:30",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Moscow court fines Pinterest, Twitch for failing to abide by Russian law",
-      "url": "https://www.channelnewsasia.com/business/moscow-court-fines-pinterest-twitch-failing-abide-russian-law-5317516",
-      "source": "Channel News Asia",
-      "region": "Europe",
-      "published": "2025-08-27T20:37:50+08:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Thousands struggle to access HSBC UK services after outages",
-      "url": "https://www.channelnewsasia.com/business/thousands-struggle-access-hsbc-uk-services-after-outages-5317526",
-      "source": "Channel News Asia",
-      "region": "North America",
-      "published": "2025-08-27T20:35:47+08:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "HSBC UK restores banking services after outage",
-      "url": "https://www.channelnewsasia.com/business/hsbc-uk-restores-banking-services-after-outage-5317526",
-      "source": "Channel News Asia",
-      "region": "Europe",
-      "published": "2025-08-27T20:35:47+08:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "US shooting: At least 20 hurt as gunman opens fire at school; Trump reacts",
-      "url": "https://timesofindia.indiatimes.com/world/us/shooting-at-minneapolis-catholic-school-at-least-several-hurt-and-dead-as-gunman-opens-fire-donald-trump-reacts/articleshow/123547962.cms",
-      "source": "Times of India",
-      "region": "North America",
-      "published": "2025-08-27T20:32:36+05:30",
-      "sentiment": "negative"
-    },
-    {
-      "title": "US church shooting: At least 2 children dead, 20 hurt; gunman neutralised",
-      "url": "https://timesofindia.indiatimes.com/world/us/shooting-at-minneapolis-catholic-school-at-least-several-hurt-and-dead-as-gunman-opens-fire-donald-trump-reacts/articleshow/123547962.cms",
-      "source": "Times of India",
-      "region": "North America",
-      "published": "2025-08-27T20:32:36+05:30",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Former Jharkhand MLA Sanjiv Singh acquitted in Neeraj Singh murder case",
-      "url": "https://www.thehindu.com/news/national/former-jharkhand-mla-sanjiv-singh-acquitted-in-neeraj-singh-murder-case/article69982703.ece",
-      "source": "The Hindu",
-      "region": "Asia-Pacific",
-      "published": "2025-08-27T20:29:36+05:30",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Nvidia beats on top and bottom lines as data center revenue surges 56%",
-      "url": "https://www.cnbc.com/2025/08/27/nvidia-nvda-earnings-report-q2-2026.html",
-      "source": "CNBC",
-      "region": "North America",
-      "published": "2025-08-27T20:27:53+00:00",
       "sentiment": "positive"
     }
   ]
