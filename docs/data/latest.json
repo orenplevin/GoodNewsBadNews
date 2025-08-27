@@ -1,82 +1,82 @@
 {
-  "generated_at": "2025-08-27T18:33:45.724901+00:00",
+  "generated_at": "2025-08-27T18:56:00.534179+00:00",
   "window_hours": 24,
   "totals": {
-    "positive": 1133,
+    "positive": 1137,
     "neutral": 280,
-    "negative": 1141
+    "negative": 1155
   },
   "by_publication": [
     {
       "source": "Independent",
-      "positive": 201,
-      "neutral": 59,
-      "negative": 183,
-      "count": 443,
+      "positive": 202,
+      "neutral": 60,
+      "negative": 187,
+      "count": 449,
       "region": "Europe"
     },
     {
-      "source": "Times of India",
-      "positive": 55,
-      "neutral": 9,
-      "negative": 55,
-      "count": 119,
-      "region": "North America"
-    },
-    {
       "source": "Bloomberg",
-      "positive": 70,
+      "positive": 73,
       "neutral": 12,
-      "negative": 36,
-      "count": 118,
+      "negative": 38,
+      "count": 123,
       "region": "Asia-Pacific"
     },
     {
+      "source": "Times of India",
+      "positive": 56,
+      "neutral": 9,
+      "negative": 55,
+      "count": 120,
+      "region": "North America"
+    },
+    {
       "source": "CBS News",
-      "positive": 47,
+      "positive": 48,
       "neutral": 16,
       "negative": 50,
-      "count": 113,
+      "count": 114,
       "region": "North America"
     },
     {
       "source": "The Hindu",
-      "positive": 45,
-      "neutral": 13,
-      "negative": 50,
-      "count": 108,
+      "positive": 44,
+      "neutral": 12,
+      "negative": 51,
+      "count": 107,
       "region": "North America"
     },
     {
       "source": "The Guardian",
-      "positive": 39,
+      "positive": 40,
       "neutral": 1,
-      "negative": 59,
-      "count": 99,
+      "negative": 60,
+      "count": 101,
       "region": "Africa"
     },
     {
       "source": "South China Morning Post",
-      "positive": 52,
+      "positive": 50,
       "neutral": 2,
-      "negative": 45,
-      "count": 99,
+      "negative": 46,
+      "count": 98,
       "region": "North America"
     },
     {
       "source": "Fox News",
       "positive": 33,
       "neutral": 7,
-      "negative": 54,
-      "count": 94,
+      "negative": 55,
+      "count": 95,
       "region": "North America"
     },
     {
       "source": "BBC News",
       "positive": 44,
       "neutral": 6,
-      "negative": 35,
-      "count": 85,
+      "negative": 36,
+      "count": 86,
       "region": "North America"
     },
     {
@@ -88,20 +88,20 @@
       "region": "Asia-Pacific"
     },
     {
-      "source": "CNBC",
-      "positive": 36,
-      "neutral": 11,
-      "negative": 24,
-      "count": 71,
-      "region": "North America"
-    },
-    {
       "source": "Al Jazeera English",
       "positive": 15,
       "neutral": 5,
-      "negative": 46,
-      "count": 66,
+      "negative": 49,
+      "count": 69,
       "region": "Middle East"
+    },
+    {
+      "source": "CNBC",
+      "positive": 35,
+      "neutral": 11,
+      "negative": 23,
+      "count": 69,
+      "region": "North America"
     },
     {
       "source": "Euronews",
@@ -113,19 +113,27 @@
     },
     {
       "source": "NBC News",
-      "positive": 27,
+      "positive": 26,
       "neutral": 5,
       "negative": 33,
-      "count": 65,
+      "count": 64,
       "region": "Asia-Pacific"
     },
     {
       "source": "Mashable",
       "positive": 43,
       "neutral": 9,
-      "negative": 12,
-      "count": 64,
+      "negative": 11,
+      "count": 63,
       "region": "Global"
+    },
+    {
+      "source": "BBC Sport",
+      "positive": 41,
+      "neutral": 5,
+      "negative": 16,
+      "count": 62,
+      "region": "North America"
     },
     {
       "source": "France 24",
@@ -137,19 +145,11 @@
     },
     {
       "source": "ESPN",
-      "positive": 39,
+      "positive": 40,
       "neutral": 8,
       "negative": 11,
-      "count": 58,
+      "count": 59,
       "region": "Global"
-    },
-    {
-      "source": "BBC Sport",
-      "positive": 39,
-      "neutral": 5,
-      "negative": 13,
-      "count": 57,
-      "region": "North America"
     },
     {
       "source": "Middle East Eye",
@@ -161,18 +161,18 @@
     },
     {
       "source": "Sky Sports",
-      "positive": 27,
+      "positive": 26,
       "neutral": 17,
       "negative": 8,
-      "count": 52,
+      "count": 51,
       "region": "Europe"
     },
     {
       "source": "Australian Broadcasting Corporation",
       "positive": 11,
       "neutral": 5,
-      "negative": 33,
-      "count": 49,
+      "negative": 34,
+      "count": 50,
       "region": "Asia-Pacific"
     },
     {
@@ -208,20 +208,20 @@
       "region": "Global"
     },
     {
-      "source": "New York Times",
-      "positive": 14,
-      "neutral": 2,
-      "negative": 22,
+      "source": "Deutsche Welle",
+      "positive": 7,
+      "neutral": 8,
+      "negative": 23,
       "count": 38,
-      "region": "Middle East"
+      "region": "North America"
     },
     {
-      "source": "Deutsche Welle",
-      "positive": 6,
-      "neutral": 8,
+      "source": "New York Times",
+      "positive": 13,
+      "neutral": 2,
       "negative": 22,
-      "count": 36,
-      "region": "North America"
+      "count": 37,
+      "region": "Middle East"
     },
     {
       "source": "Straits Times",
@@ -240,6 +240,14 @@
       "region": "North America"
     },
     {
+      "source": "The Verge",
+      "positive": 18,
+      "neutral": 1,
+      "negative": 10,
+      "count": 29,
+      "region": "North America"
+    },
+    {
       "source": "NPR",
       "positive": 8,
       "neutral": 2,
@@ -248,19 +256,11 @@
       "region": "North America"
     },
     {
-      "source": "The Verge",
-      "positive": 17,
-      "neutral": 1,
-      "negative": 10,
-      "count": 28,
-      "region": "North America"
-    },
-    {
       "source": "ABC News",
-      "positive": 7,
+      "positive": 8,
       "neutral": 2,
       "negative": 17,
-      "count": 26,
+      "count": 27,
       "region": "North America"
     },
     {
@@ -281,10 +281,10 @@
     },
     {
       "source": "RT News",
-      "positive": 5,
+      "positive": 6,
       "neutral": 2,
       "negative": 11,
-      "count": 18,
+      "count": 19,
       "region": "Middle East"
     },
     {
@@ -315,16 +315,16 @@
       "source": "Sputnik News",
       "positive": 5,
       "neutral": 2,
-      "negative": 4,
-      "count": 11,
+      "negative": 3,
+      "count": 10,
       "region": "Europe"
     },
     {
       "source": "Buenos Aires Herald",
-      "positive": 4,
+      "positive": 5,
       "neutral": 1,
       "negative": 4,
-      "count": 9,
+      "count": 10,
       "region": "South America"
     },
     {
@@ -334,14 +334,6 @@
       "negative": 6,
       "count": 8,
       "region": "North America"
-    },
-    {
-      "source": "Daily News Egypt",
-      "positive": 4,
-      "neutral": 0,
-      "negative": 2,
-      "count": 6,
-      "region": "Middle East"
     },
     {
       "source": "CNN",
@@ -355,103 +347,103 @@
   "by_region": [
     {
       "region": "North America",
-      "positive": 533,
+      "positive": 535,
       "neutral": 118,
-      "negative": 482,
-      "count": 1133
+      "negative": 488,
+      "count": 1141
     },
     {
       "region": "Europe",
-      "positive": 276,
-      "neutral": 75,
-      "negative": 207,
-      "count": 558
+      "positive": 277,
+      "neutral": 76,
+      "negative": 211,
+      "count": 564
     },
     {
       "region": "Asia-Pacific",
       "positive": 139,
-      "neutral": 32,
-      "negative": 177,
+      "neutral": 31,
+      "negative": 178,
       "count": 348
     },
     {
       "region": "Global",
-      "positive": 122,
+      "positive": 127,
       "neutral": 42,
-      "negative": 86,
-      "count": 250
+      "negative": 87,
+      "count": 256
     },
     {
       "region": "Middle East",
-      "positive": 36,
+      "positive": 35,
       "neutral": 7,
-      "negative": 167,
+      "negative": 168,
       "count": 210
-    },
-    {
-      "region": "Africa",
-      "positive": 18,
-      "neutral": 2,
-      "negative": 8,
-      "count": 28
     },
     {
       "region": "South America",
       "positive": 9,
       "neutral": 4,
-      "negative": 14,
-      "count": 27
+      "negative": 15,
+      "count": 28
+    },
+    {
+      "region": "Africa",
+      "positive": 15,
+      "neutral": 2,
+      "negative": 8,
+      "count": 25
     }
   ],
   "by_topic": [
     {
       "topic": "Tech",
-      "positive": 285,
-      "neutral": 72,
-      "negative": 316,
-      "count": 673
+      "positive": 288,
+      "neutral": 71,
+      "negative": 318,
+      "count": 677
     },
     {
       "topic": "Politics",
-      "positive": 199,
+      "positive": 197,
       "neutral": 34,
-      "negative": 221,
-      "count": 454
+      "negative": 227,
+      "count": 458
     },
     {
       "topic": "Other",
-      "positive": 171,
-      "neutral": 76,
+      "positive": 169,
+      "neutral": 77,
       "negative": 160,
-      "count": 407
+      "count": 406
     },
     {
       "topic": "World",
-      "positive": 110,
+      "positive": 111,
       "neutral": 23,
-      "negative": 204,
-      "count": 337
+      "negative": 207,
+      "count": 341
     },
     {
       "topic": "Business",
-      "positive": 115,
+      "positive": 117,
       "neutral": 26,
-      "negative": 59,
-      "count": 200
+      "negative": 61,
+      "count": 204
     },
     {
       "topic": "Sports",
-      "positive": 122,
-      "neutral": 22,
+      "positive": 123,
+      "neutral": 21,
       "negative": 47,
       "count": 191
     },
     {
       "topic": "Health",
-      "positive": 30,
-      "neutral": 7,
-      "negative": 48,
-      "count": 85
+      "positive": 31,
+      "neutral": 8,
+      "negative": 47,
+      "count": 86
     },
     {
       "topic": "Entertainment",
@@ -471,15 +463,15 @@
       "topic": "Local",
       "positive": 13,
       "neutral": 8,
-      "negative": 23,
-      "count": 44
+      "negative": 24,
+      "count": 45
     },
     {
       "topic": "Regional",
       "positive": 16,
       "neutral": 2,
-      "negative": 18,
-      "count": 36
+      "negative": 19,
+      "count": 37
     }
   ],
   "sample_headlines": [
@@ -564,6 +556,14 @@
       "sentiment": "neutral"
     },
     {
+      "title": "Kamal Haasan bats for self-reliance as Trump\u2019s 50% tariff kicks in",
+      "url": "https://www.thehindu.com/news/national/kamal-haasan-bats-for-self-reliance-as-trumps-50-tariff-kicks-in/article69982886.ece",
+      "source": "The Hindu",
+      "region": "Europe",
+      "published": "2025-08-28T00:04:17+05:30",
+      "sentiment": "negative"
+    },
+    {
       "title": "Inside Trump's DC crackdown: Swarms of agents and arrests for minor offences",
       "url": "https://www.channelnewsasia.com/world/trump-washington-crime-crackdown-fbi-national-guard-us-5317841",
       "source": "Channel News Asia",
@@ -578,6 +578,14 @@
       "region": "North America",
       "published": "2025-08-27T23:50:00+08:00",
       "sentiment": "negative"
+    },
+    {
+      "title": "FDA approves updated Covid vaccines with tighter access rules",
+      "url": "https://timesofindia.indiatimes.com/life-style/health-fitness/health-news/fda-approves-updated-covid-vaccines-with-tighter-access-rules/articleshow/123550550.cms",
+      "source": "Times of India",
+      "region": "North America",
+      "published": "2025-08-27T23:48:40+05:30",
+      "sentiment": "positive"
     },
     {
       "title": "28 more bodies found at Vaishno Devi landslip site, 11 from UP among 38 dead in J&K rain torment",
@@ -914,6 +922,14 @@
       "region": "Europe",
       "published": "2025-08-27T20:49:20+08:00",
       "sentiment": "neutral"
+    },
+    {
+      "title": "EU leaders visit Moldova on Independence Day with message of solidarity for Chi\u0219in\u0103u",
+      "url": "https://www.euronews.com/my-europe/2025/08/27/eu-leaders-visit-moldova-on-independence-day-with-message-of-solidarity-for-chisinau",
+      "source": "Euronews",
+      "region": "Europe",
+      "published": "2025-08-27T20:48:15+02:00",
+      "sentiment": "positive"
     },
     {
       "title": "Sompo holdings to acquire Aspen Insurance for $3.5 billion",
@@ -1258,30 +1274,6 @@
       "region": "North America",
       "published": "2025-08-27T19:05:20+05:30",
       "sentiment": "negative"
-    },
-    {
-      "title": "Analysis:Investors worry Trump's Intel deal kicks off era of US industrial policy",
-      "url": "https://www.channelnewsasia.com/business/analysisinvestors-worry-trumps-intel-deal-kicks-era-us-industrial-policy-5317341",
-      "source": "Channel News Asia",
-      "region": "North America",
-      "published": "2025-08-27T19:04:02+08:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "National Heart Centre introduces test for faster diagnosis of heart conditions in active people",
-      "url": "https://www.straitstimes.com/singapore/national-heart-centre-launches-new-test-for-faster-diagnosis-of-heart-conditions-in-active",
-      "source": "Straits Times",
-      "region": "Global",
-      "published": "2025-08-27T19:00:00+08:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "National Heart Centre introduces test for faster diagnosis of heart conditions in active people",
-      "url": "https://www.straitstimes.com/singapore/national-heart-centre-introduces-test-for-faster-diagnosis-of-heart-conditions-in-active-people",
-      "source": "Straits Times",
-      "region": "Global",
-      "published": "2025-08-27T19:00:00+08:00",
-      "sentiment": "positive"
     }
   ]
 }
