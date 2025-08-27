@@ -1,26 +1,26 @@
 {
-  "generated_at": "2025-08-27T06:20:49.448830+00:00",
+  "generated_at": "2025-08-27T06:30:36.477789+00:00",
   "window_hours": 24,
   "totals": {
-    "positive": 544,
-    "neutral": 150,
-    "negative": 469
+    "positive": 555,
+    "neutral": 151,
+    "negative": 478
   },
   "by_publication": [
+    {
+      "source": "Independent",
+      "positive": 44,
+      "neutral": 8,
+      "negative": 52,
+      "count": 104,
+      "region": "North America"
+    },
     {
       "source": "The Hindu",
       "positive": 41,
       "neutral": 27,
       "negative": 32,
       "count": 100,
-      "region": "North America"
-    },
-    {
-      "source": "Independent",
-      "positive": 42,
-      "neutral": 8,
-      "negative": 49,
-      "count": 99,
       "region": "North America"
     },
     {
@@ -49,10 +49,10 @@
     },
     {
       "source": "BBC Sport",
-      "positive": 37,
+      "positive": 38,
       "neutral": 3,
       "negative": 6,
-      "count": 46,
+      "count": 47,
       "region": "Europe"
     },
     {
@@ -67,8 +67,8 @@
       "source": "Times of India",
       "positive": 19,
       "neutral": 5,
-      "negative": 18,
-      "count": 42,
+      "negative": 19,
+      "count": 43,
       "region": "North America"
     },
     {
@@ -80,12 +80,28 @@
       "region": "Asia-Pacific"
     },
     {
+      "source": "Bloomberg",
+      "positive": 16,
+      "neutral": 7,
+      "negative": 10,
+      "count": 33,
+      "region": "Asia-Pacific"
+    },
+    {
       "source": "BBC News",
-      "positive": 14,
+      "positive": 15,
       "neutral": 4,
       "negative": 13,
-      "count": 31,
+      "count": 32,
       "region": "North America"
+    },
+    {
+      "source": "The Guardian",
+      "positive": 13,
+      "neutral": 2,
+      "negative": 17,
+      "count": 32,
+      "region": "Africa"
     },
     {
       "source": "CBS News",
@@ -94,14 +110,6 @@
       "negative": 16,
       "count": 30,
       "region": "North America"
-    },
-    {
-      "source": "The Guardian",
-      "positive": 12,
-      "neutral": 2,
-      "negative": 16,
-      "count": 30,
-      "region": "Africa"
     },
     {
       "source": "AllAfrica",
@@ -120,12 +128,12 @@
       "region": "North America"
     },
     {
-      "source": "Bloomberg",
-      "positive": 14,
-      "neutral": 6,
-      "negative": 10,
-      "count": 30,
-      "region": "Asia-Pacific"
+      "source": "Straits Times",
+      "positive": 8,
+      "neutral": 7,
+      "negative": 13,
+      "count": 28,
+      "region": "Global"
     },
     {
       "source": "New York Times",
@@ -136,12 +144,12 @@
       "region": "Middle East"
     },
     {
-      "source": "Straits Times",
-      "positive": 7,
-      "neutral": 7,
-      "negative": 12,
+      "source": "Australian Broadcasting Corporation",
+      "positive": 8,
+      "neutral": 1,
+      "negative": 17,
       "count": 26,
-      "region": "Global"
+      "region": "Asia-Pacific"
     },
     {
       "source": "Fox News",
@@ -160,19 +168,11 @@
       "region": "Middle East"
     },
     {
-      "source": "Australian Broadcasting Corporation",
-      "positive": 8,
-      "neutral": 1,
-      "negative": 16,
-      "count": 25,
-      "region": "Asia-Pacific"
-    },
-    {
       "source": "France 24",
       "positive": 9,
       "neutral": 1,
-      "negative": 13,
-      "count": 23,
+      "negative": 14,
+      "count": 24,
       "region": "Europe"
     },
     {
@@ -184,28 +184,28 @@
       "region": "North America"
     },
     {
+      "source": "Channel News Asia",
+      "positive": 8,
+      "neutral": 6,
+      "negative": 8,
+      "count": 22,
+      "region": "Global"
+    },
+    {
+      "source": "Irish Times",
+      "positive": 9,
+      "neutral": 2,
+      "negative": 10,
+      "count": 21,
+      "region": "Europe"
+    },
+    {
       "source": "Deutsche Welle",
       "positive": 9,
       "neutral": 1,
       "negative": 10,
       "count": 20,
       "region": "North America"
-    },
-    {
-      "source": "Irish Times",
-      "positive": 8,
-      "neutral": 2,
-      "negative": 10,
-      "count": 20,
-      "region": "Europe"
-    },
-    {
-      "source": "Channel News Asia",
-      "positive": 6,
-      "neutral": 6,
-      "negative": 8,
-      "count": 20,
-      "region": "Global"
     },
     {
       "source": "Middle East Eye",
@@ -222,6 +222,14 @@
       "negative": 4,
       "count": 19,
       "region": "Europe"
+    },
+    {
+      "source": "Times of Israel",
+      "positive": 5,
+      "neutral": 2,
+      "negative": 9,
+      "count": 16,
+      "region": "Middle East"
     },
     {
       "source": "Wired",
@@ -254,14 +262,6 @@
       "negative": 4,
       "count": 15,
       "region": "Europe"
-    },
-    {
-      "source": "Times of Israel",
-      "positive": 5,
-      "neutral": 2,
-      "negative": 8,
-      "count": 15,
-      "region": "Middle East"
     },
     {
       "source": "NPR",
@@ -355,38 +355,38 @@
   "by_region": [
     {
       "region": "North America",
-      "positive": 228,
+      "positive": 231,
       "neutral": 55,
-      "negative": 170,
-      "count": 453
+      "negative": 172,
+      "count": 458
     },
     {
       "region": "Europe",
-      "positive": 116,
+      "positive": 120,
       "neutral": 28,
-      "negative": 82,
-      "count": 226
+      "negative": 84,
+      "count": 232
     },
     {
       "region": "Asia-Pacific",
-      "positive": 83,
+      "positive": 85,
       "neutral": 36,
-      "negative": 87,
-      "count": 206
+      "negative": 91,
+      "count": 212
     },
     {
       "region": "Global",
-      "positive": 80,
+      "positive": 82,
       "neutral": 23,
       "negative": 44,
-      "count": 147
+      "count": 149
     },
     {
       "region": "Middle East",
       "positive": 18,
-      "neutral": 4,
-      "negative": 76,
-      "count": 98
+      "neutral": 5,
+      "negative": 77,
+      "count": 100
     },
     {
       "region": "Africa",
@@ -406,45 +406,45 @@
   "by_topic": [
     {
       "topic": "Tech",
-      "positive": 145,
+      "positive": 149,
       "neutral": 45,
-      "negative": 117,
-      "count": 307
+      "negative": 118,
+      "count": 312
     },
     {
       "topic": "Other",
       "positive": 95,
       "neutral": 45,
-      "negative": 73,
-      "count": 213
+      "negative": 75,
+      "count": 215
     },
     {
       "topic": "Politics",
       "positive": 80,
       "neutral": 19,
-      "negative": 86,
-      "count": 185
+      "negative": 89,
+      "count": 188
     },
     {
       "topic": "World",
-      "positive": 51,
-      "neutral": 16,
-      "negative": 105,
-      "count": 172
+      "positive": 52,
+      "neutral": 17,
+      "negative": 108,
+      "count": 177
     },
     {
       "topic": "Sports",
-      "positive": 66,
+      "positive": 69,
       "neutral": 7,
       "negative": 18,
-      "count": 91
+      "count": 94
     },
     {
       "topic": "Business",
-      "positive": 36,
+      "positive": 38,
       "neutral": 10,
       "negative": 15,
-      "count": 61
+      "count": 63
     },
     {
       "topic": "Entertainment",
@@ -469,10 +469,10 @@
     },
     {
       "topic": "Local",
-      "positive": 11,
+      "positive": 12,
       "neutral": 3,
       "negative": 5,
-      "count": 19
+      "count": 20
     },
     {
       "topic": "Regional",
@@ -484,12 +484,36 @@
   ],
   "sample_headlines": [
     {
+      "title": "Japan's Mitsubishi Motors cuts full-year operating profit forecast by 30%",
+      "url": "https://www.channelnewsasia.com/business/japans-mitsubishi-motors-cuts-full-year-operating-profit-forecast-30-5316851",
+      "source": "Channel News Asia",
+      "region": "Asia-Pacific",
+      "published": "2025-08-27T14:23:27+08:00",
+      "sentiment": "positive"
+    },
+    {
+      "title": "India's Ashwin ends IPL career, may play in other leagues",
+      "url": "https://www.channelnewsasia.com/sport/indias-ashwin-ends-ipl-career-may-play-other-leagues-5316846",
+      "source": "Channel News Asia",
+      "region": "Asia-Pacific",
+      "published": "2025-08-27T14:17:48+08:00",
+      "sentiment": "positive"
+    },
+    {
       "title": "FEMA workers put on leave after letter criticizing Trump administration, group says",
       "url": "https://www.channelnewsasia.com/world/fema-workers-put-leave-after-letter-criticizing-trump-administration-group-says-5316491",
       "source": "Channel News Asia",
       "region": "Global",
       "published": "2025-08-27T14:13:07+08:00",
       "sentiment": "negative"
+    },
+    {
+      "title": "ST Explains: How will the 2026 CareShield Life changes affect me?",
+      "url": "https://www.straitstimes.com/singapore/health/st-explains-how-will-the-2026-careshield-life-changes-affect-me",
+      "source": "Straits Times",
+      "region": "Global",
+      "published": "2025-08-27T14:05:00+08:00",
+      "sentiment": "positive"
     },
     {
       "title": "CareShield Life premiums and payouts to increase from 2026",
@@ -506,6 +530,14 @@
       "region": "Global",
       "published": "2025-08-27T14:00:00+08:00",
       "sentiment": "neutral"
+    },
+    {
+      "title": "CareShield Life to offer higher payouts from 2026; $570m of subsidies to offset premium increases",
+      "url": "https://www.straitstimes.com/singapore/health/careshield-life-to-offer-higher-payouts-from-2026-570m-of-subsidies-to-offset-premium-increases",
+      "source": "Straits Times",
+      "region": "Asia-Pacific",
+      "published": "2025-08-27T14:00:00+08:00",
+      "sentiment": "negative"
     },
     {
       "title": "Jollibean faces charges for owing over S$199,000 in CPF contributions",
@@ -1148,11 +1180,83 @@
       "sentiment": "positive"
     },
     {
+      "title": "London Heathrow flight makes emergency landing in Russia after \u2018engine failure\u2019",
+      "url": "https://www.independent.co.uk/travel/news-and-advice/air-china-engine-failure-russia-london-heathrow-b2814029.html",
+      "source": "Independent",
+      "region": "Europe",
+      "published": "2025-08-27T06:28:02+00:00",
+      "sentiment": "negative"
+    },
+    {
       "title": "State government\u2019s invite is an opportunity to fulfil vow to Chamundeshwari Devi, says Banu Mushtaq",
       "url": "https://www.thehindu.com/news/national/karnataka/state-governments-invite-is-an-opportunity-to-fulfil-vow-to-chamundeshwari-devi-says-banu-mushtaq/article69980162.ece",
       "source": "The Hindu",
       "region": "North America",
       "published": "2025-08-27T06:27:44+05:30",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Heavy rain spreads across east of country as weekend forecast looks unsettled",
+      "url": "https://www.irishtimes.com/ireland/2025/08/27/heavy-rain-spreads-across-east-of-country-as-weekend-forecast-looks-unsettled/",
+      "source": "Irish Times",
+      "region": "Global",
+      "published": "2025-08-27T06:27:00+00:00",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Daniel Farke apologises to Leeds fans after cup exit at Sheffield Wednesday",
+      "url": "https://www.independent.co.uk/sport/football/daniel-farke-leeds-hillsborough-sheffield-carabao-cup-b2814643.html",
+      "source": "Independent",
+      "region": "Europe",
+      "published": "2025-08-27T06:26:06+00:00",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Energy bills to rise ahead of winter despite prediction of relief for households",
+      "url": "https://www.independent.co.uk/money/energy-bills-ofgem-price-cap-b2812553.html",
+      "source": "Independent",
+      "region": "North America",
+      "published": "2025-08-27T06:25:50+00:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Ukraine-Russia war latest: Putin\u2019s forces breach Dnipropetrovsk while Moscow strikes key energy facility",
+      "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-trump-putin-dnipropetrovsk-offensive-map-live-b2814703.html",
+      "source": "Independent",
+      "region": "Europe",
+      "published": "2025-08-27T06:22:59+00:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Horizons Middle East & Africa 8/27/2025 (Video)",
+      "url": "https://www.bloomberg.com/news/videos/2025-08-27/horizons-middle-east-africa-8-27-2025-video",
+      "source": "Bloomberg",
+      "region": "Middle East",
+      "published": "2025-08-27T06:21:53+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Transfer news live: Isak makes fresh push for Liverpool, Arsenal hijack Spurs again, Chelsea\u2019s Lopez bid",
+      "url": "https://www.independent.co.uk/sport/football/transfer-news-live-liverpool-isak-arsenal-hincapie-man-utd-chelsea-b2814296.html",
+      "source": "Independent",
+      "region": "North America",
+      "published": "2025-08-27T06:19:43+00:00",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Why does Trump want to remove Lisa Cook from the Fed?",
+      "url": "https://www.abc.net.au/news/2025-08-27/donald-trump-wants-to-fire-federal-reserve-governor-lisa-cook/105702068",
+      "source": "Australian Broadcasting Corporation",
+      "region": "Asia-Pacific",
+      "published": "2025-08-27T06:17:23+00:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Rare Man Utd visit a big night for Grimsby chief Bancroft",
+      "url": "https://www.bbc.com/sport/football/articles/ckge4ez9g24o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Sport",
+      "region": "Europe",
+      "published": "2025-08-27T06:16:57+00:00",
       "sentiment": "positive"
     },
     {
@@ -1178,110 +1282,6 @@
       "region": "North America",
       "published": "2025-08-27T06:15:10.506463+00:00",
       "sentiment": "negative"
-    },
-    {
-      "title": "READ: Trump indictment related to hush money payment",
-      "url": "https://cnn.it/411KYN7",
-      "source": "CNN",
-      "region": "North America",
-      "published": "2025-08-27T06:15:10.506260+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Trump pleads not guilty to 34 felony counts",
-      "url": "https://edition.cnn.com/webview/politics/live-news/trump-indictment-stormy-daniels-news-04-03-23/index.html",
-      "source": "CNN",
-      "region": "North America",
-      "published": "2025-08-27T06:15:10.504689+00:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Energy prices to rise by more than expected ahead of winter",
-      "url": "https://www.bbc.com/news/articles/c78zgz7j576o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "region": "North America",
-      "published": "2025-08-27T06:13:55+00:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Asia-Pacific markets trade mixed as investors assess China industrial profits data",
-      "url": "https://www.cnbc.com/2025/08/27/asia-pacific-markets-live-india-tariffs-nifty-50-nikkei-225.html",
-      "source": "CNBC",
-      "region": "Asia-Pacific",
-      "published": "2025-08-27T06:13:08+00:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Household energy bills to rise by 2% from October 1",
-      "url": "https://www.independent.co.uk/news/business/ofgem-england-scotland-wales-more-b2814768.html",
-      "source": "Independent",
-      "region": "North America",
-      "published": "2025-08-27T06:10:51+00:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "The first openly bisexual player in the Australian Football League is calling for a cultural change",
-      "url": "https://www.independent.co.uk/news/australian-football-league-australia-brisbane-pride-western-australia-b2814769.html",
-      "source": "Independent",
-      "region": "Asia-Pacific",
-      "published": "2025-08-27T06:09:10+00:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Rio\u2019s New CEO Moves to Simplify Miner by Merging Businesses",
-      "url": "https://www.bloomberg.com/news/articles/2025-08-27/rio-s-new-ceo-moves-to-simplify-miner-by-merging-businesses",
-      "source": "Bloomberg",
-      "region": "North America",
-      "published": "2025-08-27T06:08:49+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "FIFA-AFC puts India on notice; AIFF must adopt constitution by Oct 30 or face suspension",
-      "url": "https://timesofindia.indiatimes.com/sports/football/top-stories/fifa-afc-puts-india-on-notice-aiff-must-adopt-constitution-by-oct-30-or-face-suspension/articleshow/123535237.cms",
-      "source": "Times of India",
-      "region": "North America",
-      "published": "2025-08-27T06:08:32+05:30",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Energy bills to rise in October despite predictions of relief for households",
-      "url": "https://www.independent.co.uk/money/energy-bills-ofgem-price-cap-b2812553.html",
-      "source": "Independent",
-      "region": "North America",
-      "published": "2025-08-27T06:08:21+00:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Morning recap",
-      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/morning-recap-110",
-      "source": "Middle East Eye",
-      "region": "Middle East",
-      "published": "2025-08-27T06:07:19+01:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "European stocks set to rebound as traders eye Nvidia earnings",
-      "url": "https://www.cnbc.com/2025/08/27/european-markets-on-weds-aug-27-french-politics-nvidia-earnings.html",
-      "source": "CNBC",
-      "region": "Europe",
-      "published": "2025-08-27T06:06:59+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Household energy bills expected to rise by around 1% in October \u2013 forecast",
-      "url": "https://www.independent.co.uk/news/business/ofgem-households-cornwall-middle-east-wales-b2814692.html",
-      "source": "Independent",
-      "region": "North America",
-      "published": "2025-08-27T06:05:51+00:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "The Peak home sold for US$140 million in Hong Kong\u2019s top deal this year",
-      "url": "https://www.scmp.com/business/article/3323296/buyer-snaps-billion-dollar-peak-home-ultra-wealthy-defy-hong-kongs-property-slump?utm_source=rss_feed",
-      "source": "South China Morning Post",
-      "region": "North America",
-      "published": "2025-08-27T06:05:08+00:00",
-      "sentiment": "positive"
     }
   ]
 }
