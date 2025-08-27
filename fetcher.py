@@ -28,7 +28,7 @@ LATEST_PATH = os.path.join(OUTPUT_DIR, 'latest.json')
 HISTORY_PATH = os.path.join(OUTPUT_DIR, 'history.json')
 ALL_HEADLINES_PATH = os.path.join(OUTPUT_DIR, 'all_headlines.json')
 
-# RSS feeds organized by region (same as before)
+# RSS feeds organized by region
 FEEDS = [
     # North America
     {"name": "BBC News", "url": "http://feeds.bbci.co.uk/news/rss.xml", "region": "Global"},
@@ -132,7 +132,336 @@ TOPIC_CONTEXTS = {
     
     'Politics': {
         'electoral_actions': [
-            r'\b(?:president|prime\s+minister|governor|mayor|senator|congressman|cm|chief\s+minister)\s+(?:wins?|loses?|def generate_article_id(title: str, url: str) -> str:
+            r'\b(?:president|prime\s+minister|governor|mayor|senator|congressman|cm|chief\s+minister)\s+(?:wins?|loses?|defeats?|elected|inaugurates?|announces?)',
+            r'\b(?:election|vote|ballot|poll|campaign)\s+(?:results?|victory|defeat|winner)',
+            r'\b(?:parliament|congress|senate|assembly|legislature)\s+(?:passes?|rejects?|approves?|votes?\s+on)',
+        ],
+        'governmental_actions': [
+            r'\b(?:government|administration|cabinet)\s+(?:announces?|plans?|proposes?|introduces?|implements?)',
+            r'\b(?:policy|law|bill|legislation|regulation)\s+(?:passed|signed|proposed|introduced|enacted)',
+            r'\b(?:minister|secretary|official)\s+(?:says?|announces?|declares?|resigns?|appointed)',
+        ],
+        'political_events': [
+            r'\bpolitical\s+(?:crisis|scandal|corruption|investigation|protest)',
+            r'\b(?:diplomatic|international)\s+(?:talks|negotiations|summit|meeting|relations)',
+            r'\b(?:sanctions?|embargo|treaty|agreement)\s+(?:imposed|lifted|signed|broken)',
+            r'\b(?:party|convention|political|pdp|nec)\s+(?:meets?|amid|uncertainty)',
+        ],
+        'priority': 9  # High priority
+    },
+    
+    'Business': {
+        'financial_actions': [
+            r'\b(?:company|corporation|firm)\s+(?:reports?|posts?|announces?)\s+(?:quarterly|annual)?\s*(?:profit|loss|earnings|revenue)',
+            r'\b(?:stock|shares?)\s+(?:rises?|falls?|jumps?|drops?|surges?|plunges?)\s+(?:\d+%|\d+\s+points?)',
+            r'\b(?:merger|acquisition|buyout|deal)\s+(?:worth|valued\s+at)?\s*\$[\d,]+\s*(?:million|billion)',
+            r'\b(?:ceo|cfo|executive|chairman)\s+(?:resigns?|fired|steps\s+down|appointed|hired)',
+        ],
+        'market_events': [
+            r'\b(?:market|economy|inflation|recession|growth)\s+(?:rises?|falls?|recovers?|crashes?|slows?)',
+            r'\b(?:federal\s+reserve|central\s+bank)\s+(?:raises?|cuts?|maintains?)\s+(?:interest\s+)?rates?',
+            r'\b(?:unemployment|jobs|employment)\s+(?:rises?|falls?|increases?|decreases?)',
+            r'\bipo\s+(?:launches?|debuts?|prices?\s+at)',
+        ],
+        'priority': 7
+    },
+
+    'Sports': {
+        'game_results': [
+            r'\b(?:team|player|athlete)\s+(?:wins?|loses?|defeats?|beats?)\s+(?:\d+-\d+|\w+\s+\d+-\d+)',
+            r'\b(?:championship|tournament|final|match|game)\s+(?:victory|defeat|win|loss)',
+            r'\b(?:scores?|goals?|points?|runs?)\s+(?:winning|decisive|final)',
+        ],
+        'sports_events': [
+            r'\b(?:world\s+cup|olympics?|championship|playoffs?|finals?)\s+(?:begins?|starts?|ends?|victory)',
+            r'\b(?:coach|manager|trainer)\s+(?:fired|hired|resigns?|appointed)',
+            r'\b(?:player|athlete)\s+(?:injured|retires?|transfers?|signs?\s+contract)',
+            r'\b(?:record|milestone)\s+(?:broken|achieved|reached|set)',
+        ],
+        'priority': 7
+    },
+    
+    'Health': {
+        'medical_developments': [
+            r'\b(?:new|novel|experimental)\s+(?:treatment|cure|therapy|drug|vaccine)\s+(?:for|against|treats?)',
+            r'\b(?:clinical\s+trial|study|research)\s+(?:shows?|finds?|reveals?|suggests?)',
+            r'\b(?:fda|health\s+authority)\s+(?:approves?|rejects?|investigates?)',
+            r'\b(?:outbreak|epidemic|pandemic)\s+(?:spreads?|contains?|under\s+control)',
+        ],
+        'health_events': [
+            r'\b(?:virus|disease|infection)\s+(?:spreads?|mutates?|identified|discovered)',
+            r'\b(?:hospital|healthcare|medical)\s+(?:crisis|shortage|emergency|breakthrough)',
+            r'\b(?:vaccine|vaccination|immunization)\s+(?:campaign|rollout|mandatory|optional)',
+        ],
+        'priority': 8
+    },
+    
+    'Science': {
+        'research_discoveries': [
+            r'\b(?:scientists?|researchers?)\s+(?:discover|find|identify|observe)\s+(?:new|first|rare)',
+            r'\b(?:study|research|experiment)\s+(?:reveals?|shows?|demonstrates?|proves?)',
+            r'\b(?:breakthrough|discovery|finding)\s+in\s+(?:physics|biology|chemistry|astronomy|medicine)',
+            r'\b(?:space|mars|moon|planet|galaxy)\s+(?:mission|exploration|discovery|landing)',
+        ],
+        'scientific_events': [
+            r'\b(?:climate|environment|global\s+warming)\s+(?:impact|effect|consequence|solution)',
+            r'\b(?:nasa|spacex|esa)\s+(?:launches?|mission|rocket|spacecraft)',
+            r'\b(?:renewable|clean)\s+energy\s+(?:breakthrough|development|project)',
+        ],
+        'priority': 6
+    },
+    
+    'Entertainment': {
+        'celebrity_events': [
+            r'\b(?:actor|actress|singer|musician|celebrity)\s+(?:dies?|arrested|marries?|divorces?|pregnant)',
+            r'\b(?:movie|film)\s+(?:premieres?|releases?|box\s+office|sequel|remake)',
+            r'\b(?:album|song|single)\s+(?:releases?|debuts?|tops?\s+charts?|grammy|award)',
+            r'\b(?:tv\s+show|series|netflix|streaming)\s+(?:cancelled|renewed|premieres?|finale)',
+        ],
+        'entertainment_industry': [
+            r'\b(?:hollywood|film\s+industry|music\s+industry)\s+(?:strike|scandal|controversy)',
+            r'\b(?:oscar|grammy|emmy|golden\s+globe)\s+(?:nominations?|winners?|ceremony)',
+            r'\b(?:streaming|netflix|disney|hbo)\s+(?:new\s+shows?|cancels?|original\s+series)',
+            r'\b(?:reality\s+tv|virgins.*tv|darlings)',
+        ],
+        'priority': 5
+    },
+    
+    'World': {
+        'international_relations': [
+            r'\b(?:country|nation|government)\s+(?:declares?|announces?)\s+(?:war|peace|alliance|sanctions?)',
+            r'\b(?:diplomatic|international)\s+(?:crisis|conflict|relations|negotiations|summit)',
+            r'\b(?:treaty|agreement|accord)\s+(?:signed|broken|violated|negotiated)',
+            r'\b(?:embassy|ambassador|foreign\s+minister)\s+(?:expelled|recalled|meeting)',
+        ],
+        'global_events': [
+            r'\b(?:war|conflict|fighting|battle|strike|attack|killed|bombs?)\s+(?:in|between|over|escalates?|ends?)',
+            r'\b(?:gaza|israel|military|officers|jihadists?|air\s+force)',
+            r'\b(?:refugees?|humanitarian)\s+(?:crisis|aid|assistance|camp)',
+            r'\b(?:terrorism|terrorist\s+attack|bombing|assassination)',
+            r'\b(?:natural\s+disaster|earthquake|hurricane|flooding|wildfire)\s+(?:hits?|strikes?|devastates?)',
+        ],
+        'priority': 8
+    },
+    
+    'Regional': {
+        'regional_actions': [
+            r'\b(state|province|county|region)\s+(government|legislature|assembly|plans)',
+            r'\b(regional|statewide|provincial)\s+(election|policy|program)',
+            r'\b(governor|premier|mayor)\s+(of|announces|elected)',
+            r'\b(state|provincial)\s+(budget|law|regulation)',
+            r'\bin\s+(california|texas|florida|ontario|quebec|bavaria|scotland)'
+        ],
+        'priority': 6
+    },
+    
+    'Local': {
+        'local_events': [
+            r'\b(city|town|municipal)\s+(council|government|meeting)',
+            r'\b(local|community)\s+(news|event|issue|concern)',
+            r'\b(mayor|councilman|alderman)\s+(says|announces|elected)',
+            r'\b(neighborhood|community)\s+(project|development|issue)',
+            r'\b(municipal|city)\s+(budget|ordinance|permit)',
+            r'\b(police|arrest|accused|crime)\s+(?:man|woman|person)',
+            r'\b(?:school|education|millions.*out\s+of\s+school)',
+            r'\b(?:dowry|wife|burning|alive)',
+        ],
+        'priority': 6
+    }
+}
+
+# Enhanced region patterns for better context detection
+REGION_PATTERNS = {
+    'North America': {
+        'countries': ['usa', 'united states', 'america', 'us', 'canada', 'mexico'],
+        'cities': ['new york', 'los angeles', 'chicago', 'toronto', 'vancouver', 'mexico city', 'washington', 'boston', 'miami', 'seattle', 'montreal', 'ottawa'],
+        'context_patterns': [
+            r'\b(president|congress|senate|house)\s+(of|in)\s+(america|usa|us)',
+            r'\b(canadian|american|mexican)\s+(government|prime minister|president)',
+            r'\bin\s+(america|usa|canada|mexico|united states)'
+        ]
+    },
+    'Europe': {
+        'countries': ['uk', 'britain', 'england', 'france', 'germany', 'italy', 'spain', 'netherlands', 'belgium', 'sweden', 'norway', 'poland', 'ukraine', 'russia'],
+        'cities': ['london', 'paris', 'berlin', 'rome', 'madrid', 'amsterdam', 'brussels', 'stockholm', 'oslo', 'warsaw', 'kiev', 'moscow'],
+        'context_patterns': [
+            r'\b(european|eu|brexit|schengen)',
+            r'\b(prime minister|chancellor|president)\s+(of|in)\s+(uk|britain|france|germany)',
+            r'\bin\s+(europe|eu|britain|france|germany|italy|spain)'
+        ]
+    },
+    'Asia-Pacific': {
+        'countries': ['china', 'japan', 'korea', 'india', 'australia', 'indonesia', 'thailand', 'vietnam', 'singapore', 'malaysia', 'philippines'],
+        'cities': ['beijing', 'shanghai', 'tokyo', 'seoul', 'mumbai', 'delhi', 'sydney', 'melbourne', 'singapore', 'bangkok', 'manila'],
+        'context_patterns': [
+            r'\b(asian|chinese|japanese|korean|indian|australian)',
+            r'\b(prime minister|president|emperor)\s+(of|in)\s+(china|japan|korea|india|australia)',
+            r'\bin\s+(asia|china|japan|korea|india|australia|southeast asia)'
+        ]
+    },
+    'Middle East': {
+        'countries': ['israel', 'palestine', 'iran', 'iraq', 'syria', 'lebanon', 'jordan', 'saudi arabia', 'uae', 'turkey', 'egypt'],
+        'cities': ['jerusalem', 'tel aviv', 'tehran', 'baghdad', 'damascus', 'beirut', 'amman', 'riyadh', 'dubai', 'istanbul', 'cairo'],
+        'context_patterns': [
+            r'\b(middle east|gaza|west bank|gulf)',
+            r'\b(israeli|palestinian|iranian|iraqi|syrian|lebanese)',
+            r'\bin\s+(israel|palestine|iran|iraq|syria|lebanon|middle east)'
+        ]
+    },
+    'Africa': {
+        'countries': ['south africa', 'nigeria', 'kenya', 'egypt', 'morocco', 'algeria', 'tunisia', 'ethiopia', 'ghana', 'zimbabwe'],
+        'cities': ['cape town', 'johannesburg', 'lagos', 'nairobi', 'cairo', 'casablanca', 'algiers', 'tunis', 'addis ababa', 'accra'],
+        'context_patterns': [
+            r'\b(african|south african|nigerian|kenyan|egyptian)',
+            r'\bin\s+(africa|south africa|nigeria|kenya|egypt|morocco)'
+        ]
+    },
+    'South America': {
+        'countries': ['brazil', 'argentina', 'chile', 'colombia', 'peru', 'venezuela', 'ecuador', 'bolivia', 'uruguay', 'paraguay'],
+        'cities': ['sao paulo', 'rio de janeiro', 'buenos aires', 'santiago', 'bogota', 'lima', 'caracas', 'quito', 'montevideo'],
+        'context_patterns': [
+            r'\b(south american|brazilian|argentinian|chilean|colombian)',
+            r'\bin\s+(south america|brazil|argentina|chile|colombia|peru)'
+        ]
+    }
+}
+
+def classify_sentiment_enhanced(title: str, summary: str = "") -> dict:
+    """Enhanced sentiment classification with context awareness"""
+    full_text = f"{title}. {summary}"
+    
+    # Get VADER scores
+    scores = sia.polarity_scores(full_text)
+    compound = scores.get('compound', 0.0)
+    
+    # Context-aware adjustments
+    text_lower = full_text.lower()
+    
+    # Boost positive sentiment for certain contexts
+    positive_boosters = [
+        r'\b(breakthrough|success|victory|achievement|progress|improvement|recovery|growth)',
+        r'\b(celebrates?|honors?|awards?|wins?|triumphs?)',
+        r'\b(peace|agreement|resolution|solution|cure)'
+    ]
+    
+    # Boost negative sentiment for certain contexts
+    negative_boosters = [
+        r'\b(crisis|disaster|tragedy|death|killing|war|conflict|attack)',
+        r'\b(fails?|collapse|crash|scandal|corruption|fraud)',
+        r'\b(emergency|urgent|critical|severe|devastating)'
+    ]
+    
+    for pattern in positive_boosters:
+        if re.search(pattern, text_lower):
+            compound += 0.1
+    
+    for pattern in negative_boosters:
+        if re.search(pattern, text_lower):
+            compound -= 0.1
+    
+    # Classify based on adjusted compound score
+    if compound >= 0.05:
+        label = 'positive'
+    elif compound <= -0.05:
+        label = 'negative'
+    else:
+        label = 'neutral'
+    
+    return {
+        'label': label,
+        'compound': compound,
+        'scores': scores
+    }
+
+def classify_topic_contextual(title: str, summary: str = "") -> str:
+    """Classify topic based on contextual patterns - what is actually happening"""
+    full_text = f"{title}. {summary}".lower()
+    
+    # Score each topic based on context matches
+    topic_scores = {}
+    
+  for topic, patterns in TOPIC_CONTEXTS.items():
+        score = 0
+        priority = patterns.get('priority', 5)
+        
+        # Check all pattern categories for this topic
+        for pattern_category, pattern_list in patterns.items():
+            if pattern_category == 'priority':
+                continue
+                
+            for pattern in pattern_list:
+                matches = len(re.findall(pattern, full_text, re.IGNORECASE))
+                if matches > 0:
+                    # Weight by priority and pattern strength
+                    score += matches * priority
+        
+        if score > 0:
+            topic_scores[topic] = score
+    
+    # Return the highest scoring topic
+    if topic_scores:
+        best_topic = max(topic_scores.keys(), key=lambda x: topic_scores[x])
+        return best_topic
+    
+    return 'Other'
+
+def classify_topic_enhanced(title: str, summary: str = "") -> str:
+    """Enhanced topic classification using contextual patterns only"""
+    return classify_topic_contextual(title, summary)
+
+def classify_region_enhanced(title: str, summary: str = "", source: str = "") -> str:
+    """Enhanced region classification using context patterns"""
+    full_text = f"{title} {summary} {source}".lower()
+    
+    scores = {}
+    
+    for region, patterns in REGION_PATTERNS.items():
+        score = 0
+        
+        # Check context patterns (highest weight)
+        for pattern in patterns['context_patterns']:
+            if re.search(pattern, full_text, re.IGNORECASE):
+                score += 5
+        
+        # Check countries (medium weight)
+        for country in patterns['countries']:
+            if country in full_text:
+                score += 2
+        
+        # Check cities (lower weight)
+        for city in patterns['cities']:
+            if city in full_text:
+                score += 1
+        
+        scores[region] = score
+    
+    # Return region with highest score
+    if scores and max(scores.values()) > 0:
+        return max(scores, key=scores.get)
+    
+    # Fallback to source-based region mapping
+    source_lower = source.lower()
+    if any(term in source_lower for term in ['cnn', 'fox', 'nbc', 'abc', 'cbs', 'npr', 'usa today', 'wall street', 'new york times', 'washington post']):
+        return 'North America'
+    elif any(term in source_lower for term in ['bbc', 'guardian', 'reuters', 'sky', 'telegraph', 'independent']):
+        return 'Europe'
+    elif any(term in source_lower for term in ['al jazeera', 'jerusalem post', 'haaretz']):
+        return 'Middle East'
+    elif any(term in source_lower for term in ['scmp', 'japan times', 'hindu', 'times of india']):
+        return 'Asia-Pacific'
+    
+    return 'Global'
+
+# Legacy function wrappers for compatibility
+def classify_sentiment(text: str) -> dict:
+    """Wrapper for legacy compatibility"""
+    return classify_sentiment_enhanced(text)
+
+def classify_topic(text: str) -> str:
+    """Wrapper for legacy compatibility"""
+    return classify_topic_enhanced(text)
+
+def generate_article_id(title: str, url: str) -> str:
     """Generate unique ID for article"""
     return hashlib.md5(f"{title}#{url}".encode()).hexdigest()
 
@@ -457,333 +786,4 @@ def main():
     print(f"📋 Topics covered: {len(latest_stats['by_topic'])}")
 
 if __name__ == "__main__":
-    main()eats?|elected|inaugurates?|announces?)',
-            r'\b(?:election|vote|ballot|poll|campaign)\s+(?:results?|victory|defeat|winner)',
-            r'\b(?:parliament|congress|senate|assembly|legislature)\s+(?:passes?|rejects?|approves?|votes?\s+on)',
-        ],
-        'governmental_actions': [
-            r'\b(?:government|administration|cabinet)\s+(?:announces?|plans?|proposes?|introduces?|implements?)',
-            r'\b(?:policy|law|bill|legislation|regulation)\s+(?:passed|signed|proposed|introduced|enacted)',
-            r'\b(?:minister|secretary|official)\s+(?:says?|announces?|declares?|resigns?|appointed)',
-        ],
-        'political_events': [
-            r'\bpolitical\s+(?:crisis|scandal|corruption|investigation|protest)',
-            r'\b(?:diplomatic|international)\s+(?:talks|negotiations|summit|meeting|relations)',
-            r'\b(?:sanctions?|embargo|treaty|agreement)\s+(?:imposed|lifted|signed|broken)',
-            r'\b(?:party|convention|political|pdp|nec)\s+(?:meets?|amid|uncertainty)',
-        ],
-        'priority': 9  # High priority
-    },
-    
-    'Business': {
-        'financial_actions': [
-            r'\b(?:company|corporation|firm)\s+(?:reports?|posts?|announces?)\s+(?:quarterly|annual)?\s*(?:profit|loss|earnings|revenue)',
-            r'\b(?:stock|shares?)\s+(?:rises?|falls?|jumps?|drops?|surges?|plunges?)\s+(?:\d+%|\d+\s+points?)',
-            r'\b(?:merger|acquisition|buyout|deal)\s+(?:worth|valued\s+at)?\s*\$[\d,]+\s*(?:million|billion)',
-            r'\b(?:ceo|cfo|executive|chairman)\s+(?:resigns?|fired|steps\s+down|appointed|hired)',
-        ],
-        'market_events': [
-            r'\b(?:market|economy|inflation|recession|growth)\s+(?:rises?|falls?|recovers?|crashes?|slows?)',
-            r'\b(?:federal\s+reserve|central\s+bank)\s+(?:raises?|cuts?|maintains?)\s+(?:interest\s+)?rates?',
-            r'\b(?:unemployment|jobs|employment)\s+(?:rises?|falls?|increases?|decreases?)',
-            r'\bipo\s+(?:launches?|debuts?|prices?\s+at)',
-        ],
-        'priority': 7
-    },
-    
-    'Sports': {
-        'game_results': [
-            r'\b(?:team|player|athlete)\s+(?:wins?|loses?|defeats?|beats?)\s+(?:\d+-\d+|\w+\s+\d+-\d+)',
-            r'\b(?:championship|tournament|final|match|game)\s+(?:victory|defeat|win|loss)',
-            r'\b(?:scores?|goals?|points?|runs?)\s+(?:winning|decisive|final)',
-        ],
-        'sports_events': [
-            r'\b(?:world\s+cup|olympics?|championship|playoffs?|finals?)\s+(?:begins?|starts?|ends?|victory)',
-            r'\b(?:coach|manager|trainer)\s+(?:fired|hired|resigns?|appointed)',
-            r'\b(?:player|athlete)\s+(?:injured|retires?|transfers?|signs?\s+contract)',
-            r'\b(?:record|milestone)\s+(?:broken|achieved|reached|set)',
-        ],
-        'priority': 7
-    },
-    
-    'Health': {
-        'medical_developments': [
-            r'\b(?:new|novel|experimental)\s+(?:treatment|cure|therapy|drug|vaccine)\s+(?:for|against|treats?)',
-            r'\b(?:clinical\s+trial|study|research)\s+(?:shows?|finds?|reveals?|suggests?)',
-            r'\b(?:fda|health\s+authority)\s+(?:approves?|rejects?|investigates?)',
-            r'\b(?:outbreak|epidemic|pandemic)\s+(?:spreads?|contains?|under\s+control)',
-        ],
-        'health_events': [
-            r'\b(?:virus|disease|infection)\s+(?:spreads?|mutates?|identified|discovered)',
-            r'\b(?:hospital|healthcare|medical)\s+(?:crisis|shortage|emergency|breakthrough)',
-            r'\b(?:vaccine|vaccination|immunization)\s+(?:campaign|rollout|mandatory|optional)',
-        ],
-        'priority': 8
-    },
-    
-    'Science': {
-        'research_discoveries': [
-            r'\b(?:scientists?|researchers?)\s+(?:discover|find|identify|observe)\s+(?:new|first|rare)',
-            r'\b(?:study|research|experiment)\s+(?:reveals?|shows?|demonstrates?|proves?)',
-            r'\b(?:breakthrough|discovery|finding)\s+in\s+(?:physics|biology|chemistry|astronomy|medicine)',
-            r'\b(?:space|mars|moon|planet|galaxy)\s+(?:mission|exploration|discovery|landing)',
-        ],
-        'scientific_events': [
-            r'\b(?:climate|environment|global\s+warming)\s+(?:impact|effect|consequence|solution)',
-            r'\b(?:nasa|spacex|esa)\s+(?:launches?|mission|rocket|spacecraft)',
-            r'\b(?:renewable|clean)\s+energy\s+(?:breakthrough|development|project)',
-        ],
-        'priority': 6
-    },
-    
-    'Entertainment': {
-        'celebrity_events': [
-            r'\b(?:actor|actress|singer|musician|celebrity)\s+(?:dies?|arrested|marries?|divorces?|pregnant)',
-            r'\b(?:movie|film)\s+(?:premieres?|releases?|box\s+office|sequel|remake)',
-            r'\b(?:album|song|single)\s+(?:releases?|debuts?|tops?\s+charts?|grammy|award)',
-            r'\b(?:tv\s+show|series|netflix|streaming)\s+(?:cancelled|renewed|premieres?|finale)',
-        ],
-        'entertainment_industry': [
-            r'\b(?:hollywood|film\s+industry|music\s+industry)\s+(?:strike|scandal|controversy)',
-            r'\b(?:oscar|grammy|emmy|golden\s+globe)\s+(?:nominations?|winners?|ceremony)',
-            r'\b(?:streaming|netflix|disney|hbo)\s+(?:new\s+shows?|cancels?|original\s+series)',
-            r'\b(?:reality\s+tv|virgins.*tv|darlings)',
-        ],
-        'priority': 5
-    },
-    
-    'World': {
-        'international_relations': [
-            r'\b(?:country|nation|government)\s+(?:declares?|announces?)\s+(?:war|peace|alliance|sanctions?)',
-            r'\b(?:diplomatic|international)\s+(?:crisis|conflict|relations|negotiations|summit)',
-            r'\b(?:treaty|agreement|accord)\s+(?:signed|broken|violated|negotiated)',
-            r'\b(?:embassy|ambassador|foreign\s+minister)\s+(?:expelled|recalled|meeting)',
-        ],
-        'global_events': [
-            r'\b(?:war|conflict|fighting|battle|strike|attack|killed|bombs?)\s+(?:in|between|over|escalates?|ends?)',
-            r'\b(?:gaza|israel|military|officers|jihadists?|air\s+force)',
-            r'\b(?:refugees?|humanitarian)\s+(?:crisis|aid|assistance|camp)',
-            r'\b(?:terrorism|terrorist\s+attack|bombing|assassination)',
-            r'\b(?:natural\s+disaster|earthquake|hurricane|flooding|wildfire)\s+(?:hits?|strikes?|devastates?)',
-        ],
-        'priority': 8
-    },
-    
-    'Regional': {
-        'regional_actions': [
-            r'\b(state|province|county|region)\s+(government|legislature|assembly|plans)',
-            r'\b(regional|statewide|provincial)\s+(election|policy|program)',
-            r'\b(governor|premier|mayor)\s+(of|announces|elected)',
-            r'\b(state|provincial)\s+(budget|law|regulation)',
-            r'\bin\s+(california|texas|florida|ontario|quebec|bavaria|scotland)'
-        ],
-        'priority': 6
-    },
-    
-    'Local': {
-        'local_events': [
-            r'\b(city|town|municipal)\s+(council|government|meeting)',
-            r'\b(local|community)\s+(news|event|issue|concern)',
-            r'\b(mayor|councilman|alderman)\s+(says|announces|elected)',
-            r'\b(neighborhood|community)\s+(project|development|issue)',
-            r'\b(municipal|city)\s+(budget|ordinance|permit)',
-            r'\b(police|arrest|accused|crime)\s+(?:man|woman|person)',
-            r'\b(?:school|education|millions.*out\s+of\s+school)',
-            r'\b(?:dowry|wife|burning|alive)',
-        ],
-        'priority': 6
-    }
-}
-
-# Enhanced region patterns for better context detection
-REGION_PATTERNS = {
-    'North America': {
-        'countries': ['usa', 'united states', 'america', 'us', 'canada', 'mexico'],
-        'cities': ['new york', 'los angeles', 'chicago', 'toronto', 'vancouver', 'mexico city', 'washington', 'boston', 'miami', 'seattle', 'montreal', 'ottawa'],
-        'context_patterns': [
-            r'\b(president|congress|senate|house)\s+(of|in)\s+(america|usa|us)',
-            r'\b(canadian|american|mexican)\s+(government|prime minister|president)',
-            r'\bin\s+(america|usa|canada|mexico|united states)'
-        ]
-    },
-    'Europe': {
-        'countries': ['uk', 'britain', 'england', 'france', 'germany', 'italy', 'spain', 'netherlands', 'belgium', 'sweden', 'norway', 'poland', 'ukraine', 'russia'],
-        'cities': ['london', 'paris', 'berlin', 'rome', 'madrid', 'amsterdam', 'brussels', 'stockholm', 'oslo', 'warsaw', 'kiev', 'moscow'],
-        'context_patterns': [
-            r'\b(european|eu|brexit|schengen)',
-            r'\b(prime minister|chancellor|president)\s+(of|in)\s+(uk|britain|france|germany)',
-            r'\bin\s+(europe|eu|britain|france|germany|italy|spain)'
-        ]
-    },
-    'Asia-Pacific': {
-        'countries': ['china', 'japan', 'korea', 'india', 'australia', 'indonesia', 'thailand', 'vietnam', 'singapore', 'malaysia', 'philippines'],
-        'cities': ['beijing', 'shanghai', 'tokyo', 'seoul', 'mumbai', 'delhi', 'sydney', 'melbourne', 'singapore', 'bangkok', 'manila'],
-        'context_patterns': [
-            r'\b(asian|chinese|japanese|korean|indian|australian)',
-            r'\b(prime minister|president|emperor)\s+(of|in)\s+(china|japan|korea|india|australia)',
-            r'\bin\s+(asia|china|japan|korea|india|australia|southeast asia)'
-        ]
-    },
-    'Middle East': {
-        'countries': ['israel', 'palestine', 'iran', 'iraq', 'syria', 'lebanon', 'jordan', 'saudi arabia', 'uae', 'turkey', 'egypt'],
-        'cities': ['jerusalem', 'tel aviv', 'tehran', 'baghdad', 'damascus', 'beirut', 'amman', 'riyadh', 'dubai', 'istanbul', 'cairo'],
-        'context_patterns': [
-            r'\b(middle east|gaza|west bank|gulf)',
-            r'\b(israeli|palestinian|iranian|iraqi|syrian|lebanese)',
-            r'\bin\s+(israel|palestine|iran|iraq|syria|lebanon|middle east)'
-        ]
-    },
-    'Africa': {
-        'countries': ['south africa', 'nigeria', 'kenya', 'egypt', 'morocco', 'algeria', 'tunisia', 'ethiopia', 'ghana', 'zimbabwe'],
-        'cities': ['cape town', 'johannesburg', 'lagos', 'nairobi', 'cairo', 'casablanca', 'algiers', 'tunis', 'addis ababa', 'accra'],
-        'context_patterns': [
-            r'\b(african|south african|nigerian|kenyan|egyptian)',
-            r'\bin\s+(africa|south africa|nigeria|kenya|egypt|morocco)'
-        ]
-    },
-    'South America': {
-        'countries': ['brazil', 'argentina', 'chile', 'colombia', 'peru', 'venezuela', 'ecuador', 'bolivia', 'uruguay', 'paraguay'],
-        'cities': ['sao paulo', 'rio de janeiro', 'buenos aires', 'santiago', 'bogota', 'lima', 'caracas', 'quito', 'montevideo'],
-        'context_patterns': [
-            r'\b(south american|brazilian|argentinian|chilean|colombian)',
-            r'\bin\s+(south america|brazil|argentina|chile|colombia|peru)'
-        ]
-    }
-}
-
-def classify_sentiment_enhanced(title: str, summary: str = "") -> dict:
-    """Enhanced sentiment classification with context awareness"""
-    full_text = f"{title}. {summary}"
-    
-    # Get VADER scores
-    scores = sia.polarity_scores(full_text)
-    compound = scores.get('compound', 0.0)
-    
-    # Context-aware adjustments
-    text_lower = full_text.lower()
-    
-    # Boost positive sentiment for certain contexts
-    positive_boosters = [
-        r'\b(breakthrough|success|victory|achievement|progress|improvement|recovery|growth)',
-        r'\b(celebrates?|honors?|awards?|wins?|triumphs?)',
-        r'\b(peace|agreement|resolution|solution|cure)'
-    ]
-    
-    # Boost negative sentiment for certain contexts
-    negative_boosters = [
-        r'\b(crisis|disaster|tragedy|death|killing|war|conflict|attack)',
-        r'\b(fails?|collapse|crash|scandal|corruption|fraud)',
-        r'\b(emergency|urgent|critical|severe|devastating)'
-    ]
-    
-    for pattern in positive_boosters:
-        if re.search(pattern, text_lower):
-            compound += 0.1
-    
-    for pattern in negative_boosters:
-        if re.search(pattern, text_lower):
-            compound -= 0.1
-    
-    # Classify based on adjusted compound score
-    if compound >= 0.05:
-        label = 'positive'
-    elif compound <= -0.05:
-        label = 'negative'
-    else:
-        label = 'neutral'
-    
-    return {
-        'label': label,
-        'compound': compound,
-        'scores': scores
-    }
-
-def classify_topic_contextual(title: str, summary: str = "") -> str:
-    """Classify topic based on contextual patterns - what is actually happening"""
-    full_text = f"{title}. {summary}".lower()
-    
-    # Score each topic based on context matches
-    topic_scores = {}
-    
-    for topic, patterns in TOPIC_CONTEXTS.items():
-        score = 0
-        priority = patterns.get('priority', 5)
-        
-        # Check all pattern categories for this topic
-        for pattern_category, pattern_list in patterns.items():
-            if pattern_category == 'priority':
-                continue
-                
-            for pattern in pattern_list:
-                matches = len(re.findall(pattern, full_text, re.IGNORECASE))
-                if matches > 0:
-                    # Weight by priority and pattern strength
-                    score += matches * priority
-        
-        if score > 0:
-            topic_scores[topic] = score
-    
-    # Return the highest scoring topic
-    if topic_scores:
-        best_topic = max(topic_scores.keys(), key=lambda x: topic_scores[x])
-        return best_topic
-    
-    return 'Other'
-
-def classify_topic_enhanced(title: str, summary: str = "") -> str:
-    """Enhanced topic classification using contextual patterns only"""
-    return classify_topic_contextual(title, summary)
-
-def classify_region_enhanced(title: str, summary: str = "", source: str = "") -> str:
-    """Enhanced region classification using context patterns"""
-    full_text = f"{title} {summary} {source}".lower()
-    
-    scores = {}
-    
-    for region, patterns in REGION_PATTERNS.items():
-        score = 0
-        
-        # Check context patterns (highest weight)
-        for pattern in patterns['context_patterns']:
-            if re.search(pattern, full_text, re.IGNORECASE):
-                score += 5
-        
-        # Check countries (medium weight)
-        for country in patterns['countries']:
-            if country in full_text:
-                score += 2
-        
-        # Check cities (lower weight)
-        for city in patterns['cities']:
-            if city in full_text:
-                score += 1
-        
-        scores[region] = score
-    
-    # Return region with highest score
-    if scores and max(scores.values()) > 0:
-        return max(scores, key=scores.get)
-    
-    # Fallback to source-based region mapping
-    source_lower = source.lower()
-    if any(term in source_lower for term in ['cnn', 'fox', 'nbc', 'abc', 'cbs', 'npr', 'usa today', 'wall street', 'new york times', 'washington post']):
-        return 'North America'
-    elif any(term in source_lower for term in ['bbc', 'guardian', 'reuters', 'sky', 'telegraph', 'independent']):
-        return 'Europe'
-    elif any(term in source_lower for term in ['al jazeera', 'jerusalem post', 'haaretz']):
-        return 'Middle East'
-    elif any(term in source_lower for term in ['scmp', 'japan times', 'hindu', 'times of india']):
-        return 'Asia-Pacific'
-    
-    return 'Global'
-
-# Legacy function wrappers for compatibility
-def classify_sentiment(text: str) -> dict:
-    """Wrapper for legacy compatibility"""
-    return classify_sentiment_enhanced(text)
-
-def classify_topic(text: str) -> str:
-    """Wrapper for legacy compatibility"""
-    return classify_topic_enhanced(text)
-
-def
+    main()
