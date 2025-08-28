@@ -1,50 +1,50 @@
 {
-  "generated_at": "2025-08-28T07:24:25.965660+00:00",
+  "generated_at": "2025-08-28T07:44:48.034083+00:00",
   "window_hours": 24,
   "totals": {
-    "positive": 1331,
-    "neutral": 377,
-    "negative": 1532
+    "positive": 1345,
+    "neutral": 378,
+    "negative": 1544
   },
   "by_publication": [
     {
       "source": "Independent",
-      "positive": 261,
-      "neutral": 85,
-      "negative": 262,
-      "count": 608,
+      "positive": 260,
+      "neutral": 86,
+      "negative": 263,
+      "count": 609,
       "region": "Europe"
     },
     {
       "source": "Bloomberg",
-      "positive": 114,
+      "positive": 118,
       "neutral": 14,
       "negative": 61,
-      "count": 189,
+      "count": 193,
       "region": "Africa"
     },
     {
       "source": "Channel News Asia",
-      "positive": 48,
-      "neutral": 66,
+      "positive": 50,
+      "neutral": 67,
       "negative": 47,
-      "count": 161,
-      "region": "Asia-Pacific"
-    },
-    {
-      "source": "Times of India",
-      "positive": 62,
-      "neutral": 11,
-      "negative": 77,
-      "count": 150,
+      "count": 164,
       "region": "Asia-Pacific"
     },
     {
       "source": "Australian Broadcasting Corporation",
-      "positive": 45,
+      "positive": 47,
       "neutral": 14,
-      "negative": 90,
-      "count": 149,
+      "negative": 93,
+      "count": 154,
+      "region": "Asia-Pacific"
+    },
+    {
+      "source": "Times of India",
+      "positive": 64,
+      "neutral": 10,
+      "negative": 77,
+      "count": 151,
       "region": "Asia-Pacific"
     },
     {
@@ -57,10 +57,10 @@
     },
     {
       "source": "The Guardian",
-      "positive": 44,
-      "neutral": 2,
+      "positive": 43,
+      "neutral": 1,
       "negative": 99,
-      "count": 145,
+      "count": 143,
       "region": "North America"
     },
     {
@@ -82,26 +82,18 @@
     {
       "source": "The Hindu",
       "positive": 50,
-      "neutral": 10,
+      "neutral": 11,
       "negative": 46,
-      "count": 106,
+      "count": 107,
       "region": "North America"
     },
     {
       "source": "BBC News",
       "positive": 36,
       "neutral": 8,
-      "negative": 52,
-      "count": 96,
-      "region": "North America"
-    },
-    {
-      "source": "Al Jazeera English",
-      "positive": 21,
-      "neutral": 8,
       "negative": 53,
-      "count": 82,
-      "region": "Middle East"
+      "count": 97,
+      "region": "North America"
     },
     {
       "source": "NBC News",
@@ -112,27 +104,35 @@
       "region": "North America"
     },
     {
+      "source": "Al Jazeera English",
+      "positive": 20,
+      "neutral": 7,
+      "negative": 50,
+      "count": 77,
+      "region": "Middle East"
+    },
+    {
       "source": "CNBC",
-      "positive": 37,
+      "positive": 38,
       "neutral": 15,
       "negative": 22,
-      "count": 74,
+      "count": 75,
       "region": "Asia-Pacific"
     },
     {
       "source": "BBC Sport",
       "positive": 36,
-      "neutral": 9,
+      "neutral": 10,
       "negative": 29,
-      "count": 74,
+      "count": 75,
       "region": "Europe"
     },
     {
       "source": "Euronews",
-      "positive": 32,
+      "positive": 35,
       "neutral": 2,
-      "negative": 34,
-      "count": 68,
+      "negative": 37,
+      "count": 74,
       "region": "Asia-Pacific"
     },
     {
@@ -155,9 +155,9 @@
       "source": "ESPN",
       "positive": 36,
       "neutral": 12,
-      "negative": 17,
-      "count": 65,
-      "region": "North America"
+      "negative": 16,
+      "count": 64,
+      "region": "Global"
     },
     {
       "source": "Middle East Eye",
@@ -171,17 +171,9 @@
       "source": "AllAfrica",
       "positive": 23,
       "neutral": 7,
-      "negative": 22,
-      "count": 52,
-      "region": "Africa"
-    },
-    {
-      "source": "Sky Sports",
-      "positive": 20,
-      "neutral": 15,
-      "negative": 16,
+      "negative": 21,
       "count": 51,
-      "region": "Europe"
+      "region": "Africa"
     },
     {
       "source": "MarketWatch",
@@ -193,18 +185,26 @@
     },
     {
       "source": "Times of Israel",
-      "positive": 18,
+      "positive": 19,
       "neutral": 4,
-      "negative": 26,
-      "count": 48,
+      "negative": 27,
+      "count": 50,
       "region": "Middle East"
+    },
+    {
+      "source": "Sky Sports",
+      "positive": 18,
+      "neutral": 15,
+      "negative": 16,
+      "count": 49,
+      "region": "Europe"
     },
     {
       "source": "Irish Times",
       "positive": 19,
       "neutral": 3,
-      "negative": 24,
-      "count": 46,
+      "negative": 25,
+      "count": 47,
       "region": "Global"
     },
     {
@@ -217,34 +217,42 @@
     },
     {
       "source": "Straits Times",
-      "positive": 15,
+      "positive": 18,
+      "neutral": 5,
+      "negative": 20,
+      "count": 43,
+      "region": "Global"
+    },
+    {
+      "source": "Financial Times",
+      "positive": 12,
       "neutral": 5,
       "negative": 16,
-      "count": 36,
-      "region": "Global"
+      "count": 33,
+      "region": "North America"
     },
     {
       "source": "New York Times",
       "positive": 12,
       "neutral": 2,
-      "negative": 20,
-      "count": 34,
-      "region": "Middle East"
-    },
-    {
-      "source": "Financial Times",
-      "positive": 11,
-      "neutral": 5,
-      "negative": 15,
-      "count": 31,
+      "negative": 19,
+      "count": 33,
       "region": "North America"
     },
     {
       "source": "ABC News",
       "positive": 8,
       "neutral": 2,
-      "negative": 19,
-      "count": 29,
+      "negative": 20,
+      "count": 30,
+      "region": "North America"
+    },
+    {
+      "source": "NPR",
+      "positive": 7,
+      "neutral": 1,
+      "negative": 18,
+      "count": 26,
       "region": "North America"
     },
     {
@@ -261,14 +269,6 @@
       "neutral": 3,
       "negative": 9,
       "count": 26,
-      "region": "North America"
-    },
-    {
-      "source": "NPR",
-      "positive": 7,
-      "neutral": 1,
-      "negative": 17,
-      "count": 25,
       "region": "North America"
     },
     {
@@ -331,8 +331,8 @@
       "source": "Sputnik News",
       "positive": 5,
       "neutral": 1,
-      "negative": 2,
-      "count": 8,
+      "negative": 3,
+      "count": 9,
       "region": "Europe"
     },
     {
@@ -355,38 +355,38 @@
   "by_region": [
     {
       "region": "North America",
-      "positive": 604,
-      "neutral": 136,
-      "negative": 663,
-      "count": 1403
+      "positive": 608,
+      "neutral": 134,
+      "negative": 664,
+      "count": 1406
     },
     {
       "region": "Europe",
-      "positive": 295,
-      "neutral": 105,
-      "negative": 301,
-      "count": 701
+      "positive": 299,
+      "neutral": 108,
+      "negative": 307,
+      "count": 714
     },
     {
       "region": "Asia-Pacific",
-      "positive": 200,
+      "positive": 205,
       "neutral": 62,
-      "negative": 264,
-      "count": 526
+      "negative": 265,
+      "count": 532
     },
     {
       "region": "Global",
       "positive": 155,
       "neutral": 55,
-      "negative": 90,
-      "count": 300
+      "negative": 94,
+      "count": 304
     },
     {
       "region": "Middle East",
-      "positive": 45,
+      "positive": 46,
       "neutral": 11,
       "negative": 181,
-      "count": 237
+      "count": 238
     },
     {
       "region": "South America",
@@ -406,83 +406,107 @@
   "by_topic": [
     {
       "topic": "Tech",
-      "positive": 317,
-      "neutral": 92,
-      "negative": 399,
-      "count": 808
+      "positive": 319,
+      "neutral": 93,
+      "negative": 402,
+      "count": 814
     },
     {
       "topic": "Politics",
-      "positive": 218,
+      "positive": 216,
       "neutral": 43,
-      "negative": 292,
+      "negative": 294,
       "count": 553
     },
     {
       "topic": "Other",
-      "positive": 209,
-      "neutral": 99,
-      "negative": 216,
-      "count": 524
+      "positive": 211,
+      "neutral": 98,
+      "negative": 219,
+      "count": 528
     },
     {
       "topic": "World",
-      "positive": 129,
-      "neutral": 29,
-      "negative": 268,
-      "count": 426
+      "positive": 134,
+      "neutral": 30,
+      "negative": 270,
+      "count": 434
     },
     {
       "topic": "Business",
-      "positive": 166,
+      "positive": 169,
       "neutral": 32,
-      "negative": 76,
-      "count": 274
+      "negative": 77,
+      "count": 278
     },
     {
       "topic": "Sports",
-      "positive": 140,
-      "neutral": 35,
-      "negative": 76,
-      "count": 251
+      "positive": 142,
+      "neutral": 36,
+      "negative": 74,
+      "count": 252
     },
     {
       "topic": "Health",
       "positive": 45,
-      "neutral": 11,
-      "negative": 74,
-      "count": 130
+      "neutral": 10,
+      "negative": 73,
+      "count": 128
     },
     {
       "topic": "Entertainment",
-      "positive": 52,
+      "positive": 53,
       "neutral": 11,
       "negative": 36,
-      "count": 99
+      "count": 100
     },
     {
       "topic": "Local",
       "positive": 11,
       "neutral": 13,
-      "negative": 47,
-      "count": 71
+      "negative": 49,
+      "count": 73
     },
     {
       "topic": "Regional",
       "positive": 21,
       "neutral": 5,
-      "negative": 29,
-      "count": 55
+      "negative": 30,
+      "count": 56
     },
     {
       "topic": "Science",
-      "positive": 23,
+      "positive": 24,
       "neutral": 7,
-      "negative": 19,
-      "count": 49
+      "negative": 20,
+      "count": 51
     }
   ],
   "sample_headlines": [
+    {
+      "title": "Malaysia says China is ready to provide assistance in rare earths processing",
+      "url": "https://www.channelnewsasia.com/asia/malaysia-says-china-ready-provide-assistance-rare-earths-processing-5319261",
+      "source": "Channel News Asia",
+      "region": "Asia-Pacific",
+      "published": "2025-08-28T15:27:00+08:00",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Serie A hits back at EU official in row over Australia-bound AC Milan fixture",
+      "url": "https://www.channelnewsasia.com/sport/serie-hits-back-eu-official-row-over-australia-bound-ac-milan-fixture-5319411",
+      "source": "Channel News Asia",
+      "region": "Europe",
+      "published": "2025-08-28T15:26:51+08:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Japan to re-auction offshore wind sites dropped by Mitsubishi",
+      "url": "https://www.channelnewsasia.com/business/japan-re-auction-offshore-wind-sites-dropped-mitsubishi-5319401",
+      "source": "Channel News Asia",
+      "region": "Asia-Pacific",
+      "published": "2025-08-28T15:18:14+08:00",
+      "sentiment": "positive"
+    },
     {
       "title": "Need a pee? Japan has QR code for that",
       "url": "https://www.channelnewsasia.com/east-asia/japan-toilet-toto-qr-code-locations-congestion-levels-queues-5319351",
@@ -492,12 +516,60 @@
       "sentiment": "neutral"
     },
     {
+      "title": "Hundreds of officers from police, CNB, MOM, various agencies helping HSA tackle vaping scourge",
+      "url": "https://www.straitstimes.com/singapore/hundreds-of-officers-from-police-cnb-mom-various-agencies-helping-hsa-tackle-vaping-scourge",
+      "source": "Straits Times",
+      "region": "North America",
+      "published": "2025-08-28T15:05:00+08:00",
+      "sentiment": "positive"
+    },
+    {
+      "title": "The day Education Minister Desmond Lee witnessed a teenage boy collapse from vaping",
+      "url": "https://www.straitstimes.com/singapore/the-day-education-minister-desmond-lee-witnessed-a-teenage-boy-collapse-from-vaping",
+      "source": "Straits Times",
+      "region": "Global",
+      "published": "2025-08-28T15:05:00+08:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Stiffer penalties, more enforcement: 8 highlights of new measures to tackle vaping scourge",
+      "url": "https://www.straitstimes.com/singapore/courts-crime/stiffer-penalties-more-enforcement-8-highlights-of-new-measures-to-tackle-vaping-scourge",
+      "source": "Straits Times",
+      "region": "North America",
+      "published": "2025-08-28T15:05:00+08:00",
+      "sentiment": "positive"
+    },
+    {
       "title": "Recalled Potter lauds Wallabies' resilience, bemoans Skelton absence",
       "url": "https://www.channelnewsasia.com/sport/recalled-potter-lauds-wallabies-resilience-bemoans-skelton-absence-5319381",
       "source": "Channel News Asia",
       "region": "Global",
       "published": "2025-08-28T15:03:56+08:00",
       "sentiment": "neutral"
+    },
+    {
+      "title": "Foreigners caught vaping may have their passes revoked, be banned from re-entering Singapore",
+      "url": "https://www.straitstimes.com/singapore/courts-crime/foreigners-caught-vaping-may-have-their-passes-revoked-be-banned-from-re-entering-singapore",
+      "source": "Straits Times",
+      "region": "Asia-Pacific",
+      "published": "2025-08-28T15:03:00+08:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "More than half of vapers, 8 in 10 etomidate abusers are under 30: Ong Ye Kung",
+      "url": "https://www.straitstimes.com/singapore/courts-crime/more-than-half-of-vapers-8-in-10-etomidate-abusers-are-under-30-ong-ye-kung",
+      "source": "Straits Times",
+      "region": "North America",
+      "published": "2025-08-28T15:02:00+08:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "S\u2019pore\u2019s tough stance against vaping signals loud and clear the nation\u2019s zero tolerance approach",
+      "url": "https://www.straitstimes.com/singapore/spores-tough-stance-against-vaping-signals-loud-and-clear-the-nations-zero-tolerance-approach",
+      "source": "Straits Times",
+      "region": "North America",
+      "published": "2025-08-28T15:01:00+08:00",
+      "sentiment": "positive"
     },
     {
       "title": "Higher fines for vape users, caning for Kpod suppliers among harsher penalties to kick in from September",
@@ -522,6 +594,22 @@
       "region": "Asia-Pacific",
       "published": "2025-08-28T15:00:00+08:00",
       "sentiment": "positive"
+    },
+    {
+      "title": "Caning for etomidate suppliers, rehab for abusers among stiffer measures to tackle vaping in S\u2019pore",
+      "url": "https://www.straitstimes.com/singapore/caning-for-etomidate-suppliers-rehab-for-abusers-among-stiffer-measures-to-tackle-vaping-in-spore",
+      "source": "Straits Times",
+      "region": "North America",
+      "published": "2025-08-28T15:00:00+08:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "3,100 students on average caught vaping yearly from 2022 to 2024; stricter penalties from Sept 1",
+      "url": "https://www.straitstimes.com/singapore/3100-students-on-average-caught-vaping-yearly-from-2022-to-2024-stricter-penalties-from-sept-1",
+      "source": "Straits Times",
+      "region": "Global",
+      "published": "2025-08-28T15:00:00+08:00",
+      "sentiment": "negative"
     },
     {
       "title": "WP chief Pritam Singh rebuts ex-NMP Calvin Cheng's claim that party 'cynically' used Palestine issue to woo voters",
@@ -756,6 +844,14 @@
       "sentiment": "neutral"
     },
     {
+      "title": "Extremely heavy rain lashes four Telangana dists on Wednesday; very heavy rain continues in Kamareddy and Nizamabad",
+      "url": "https://www.thehindu.com/news/national/telangana/extremely-heavy-rain-lashes-four-telangana-dists-on-wednesday-very-heavy-rain-continues-in-kamareddy-and-nizamabad/article69983590.ece",
+      "source": "The Hindu",
+      "region": "Asia-Pacific",
+      "published": "2025-08-28T12:50:17+05:30",
+      "sentiment": "neutral"
+    },
+    {
       "title": "$408k lost to scams involving impersonation of officers from S\u2019pore\u2019s financial intelligence unit",
       "url": "https://www.straitstimes.com/singapore/408k-lost-to-scams-involving-impersonation-of-officers-from-spores-financial-intelligence-unit",
       "source": "Straits Times",
@@ -810,6 +906,14 @@
       "region": "North America",
       "published": "2025-08-28T12:34:31+08:00",
       "sentiment": "negative"
+    },
+    {
+      "title": "Every fourth IIT aspirant in 2025 prepared in Kota: How the hub dominates JEE toppers",
+      "url": "https://timesofindia.indiatimes.com/education/news/every-fourth-iit-aspirant-in-2025-prepared-in-kota-how-the-hub-dominates-jee-toppers-while-delhi-leads-in-iit-conversions/articleshow/123558044.cms",
+      "source": "Times of India",
+      "region": "Asia-Pacific",
+      "published": "2025-08-28T12:26:48+05:30",
+      "sentiment": "positive"
     },
     {
       "title": "Hong Kong court to deliberate media mogul Jimmy Lai verdict",
@@ -1156,6 +1260,14 @@
       "sentiment": "positive"
     },
     {
+      "title": "'True fans will never do this': Shami slams trolls targeting Muslim players",
+      "url": "https://timesofindia.indiatimes.com/sports/cricket/news/true-fans-will-never-do-this-mohammed-shami-slams-trolls-targeting-muslim-cricketers-says-i-am-not-a-machine/articleshow/123556739.cms",
+      "source": "Times of India",
+      "region": "Asia-Pacific",
+      "published": "2025-08-28T10:59:44+05:30",
+      "sentiment": "positive"
+    },
+    {
       "title": "As flood-hit Kota villages in Rajasthan return to normalcy, public representatives point to delay in aid",
       "url": "https://www.thehindu.com/news/national/rajasthan/as-flood-hit-kota-villages-in-rajasthan-limp-back-to-normalcy-public-representatives-point-to-delay-in-aid/article69983341.ece",
       "source": "The Hindu",
@@ -1169,118 +1281,6 @@
       "source": "Channel News Asia",
       "region": "North America",
       "published": "2025-08-28T10:53:59+08:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Fire breaks out in Redhill flat: 4 people taken to hospital, 50 residents evacuated",
-      "url": "https://www.straitstimes.com/singapore/four-people-taken-to-hospital-50-residents-evacuated-after-fire-breaks-out-in-redhill-flat",
-      "source": "Straits Times",
-      "region": "North America",
-      "published": "2025-08-28T10:53:00+08:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Fire breaks out in Redhill flat; 4 people taken to hospital and 50 evacuated",
-      "url": "https://www.straitstimes.com/singapore/four-people-taken-to-hospital-50-residents-evacuated-after-fire-breaks-out-in-redhill-flat",
-      "source": "Straits Times",
-      "region": "North America",
-      "published": "2025-08-28T10:53:00+08:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Israel ups pressure on Gaza City as Trump talks post-war plan",
-      "url": "https://www.channelnewsasia.com/world/israel-ups-pressure-gaza-city-trump-talks-post-war-plan-5318166",
-      "source": "Channel News Asia",
-      "region": "Middle East",
-      "published": "2025-08-28T10:52:00+08:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Duleep Trophy: Why Jurel, Easwaran are not playing - All you need to know",
-      "url": "https://timesofindia.indiatimes.com/sports/cricket/news/duleep-trophy-why-dhruv-jurel-and-abhimanyu-easwaran-are-not-playing-all-you-need-to-know/articleshow/123556501.cms",
-      "source": "Times of India",
-      "region": "Asia-Pacific",
-      "published": "2025-08-28T10:44:32+05:30",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Hassan confirms decision to skip worlds in favour of Sydney marathon",
-      "url": "https://www.channelnewsasia.com/sport/hassan-confirms-decision-skip-worlds-favour-sydney-marathon-5318956",
-      "source": "Channel News Asia",
-      "region": "Asia-Pacific",
-      "published": "2025-08-28T10:42:26+08:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Maratha quota stir: Activist Jarange reaches Pune ahead of Mumbai protest",
-      "url": "https://www.thehindu.com/news/national/maharashtra/maratha-quota-stir-activist-jarange-reaches-pune-ahead-of-mumbai-protest/article69983302.ece",
-      "source": "The Hindu",
-      "region": "Asia-Pacific",
-      "published": "2025-08-28T10:42:07+05:30",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Google townhall: Exec says 35% of managers eliminated; some were managers with 'limited teams'",
-      "url": "https://timesofindia.indiatimes.com/technology/tech-news/google-townhall-exec-says-google-has-eliminated-35-of-managers-these-managers-are-those-with-/articleshow/123556439.cms",
-      "source": "Times of India",
-      "region": "Asia-Pacific",
-      "published": "2025-08-28T10:40:24+05:30",
-      "sentiment": "negative"
-    },
-    {
-      "title": "BOJ's Nakagawa says uncertainties remain high over impact of US tariff policy",
-      "url": "https://www.channelnewsasia.com/business/bojs-nakagawa-says-uncertainties-remain-high-over-impact-us-tariff-policy-5318961",
-      "source": "Channel News Asia",
-      "region": "North America",
-      "published": "2025-08-28T10:39:50+08:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "BOJ's Nakagawa warns of trade policy risks, looks to tankan for guidance",
-      "url": "https://www.channelnewsasia.com/business/bojs-nakagawa-warns-trade-policy-risks-looks-tankan-guidance-5318961",
-      "source": "Channel News Asia",
-      "region": "Global",
-      "published": "2025-08-28T10:39:50+08:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Himachal flood fury: Chandigarh-Manali highway closed",
-      "url": "https://timesofindia.indiatimes.com/city/shimla/himachal-flood-fury-rivers-scare-chamba-kullu-manimahesh-yatra-suspended-chandigarh-manali-highway-closed/articleshow/123556301.cms",
-      "source": "Times of India",
-      "region": "North America",
-      "published": "2025-08-28T10:32:06+05:30",
-      "sentiment": "negative"
-    },
-    {
-      "title": "DDA Premium Housing Scheme: Who can apply, required documents; categories, auction rules explained",
-      "url": "https://timesofindia.indiatimes.com/city/delhi/dda-premium-housing-scheme-2025-eligibility-categories-documents-required-auction-rules-and-how-to-apply-online/articleshow/123556175.cms",
-      "source": "Times of India",
-      "region": "Asia-Pacific",
-      "published": "2025-08-28T10:30:15+05:30",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Man arrested after over 890 vapes and 6,700 related parts found at Woodlands Checkpoint",
-      "url": "https://www.straitstimes.com/singapore/man-arrested-after-over-890-vapes-and-6700-related-parts-found-at-woodlands-checkpoint",
-      "source": "Straits Times",
-      "region": "Global",
-      "published": "2025-08-28T10:21:52+08:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Delhi hit-and-drag death: Minor driver\u2019s sister booked",
-      "url": "https://timesofindia.indiatimes.com/city/delhi/delhi-hit-and-drag-death-minor-drivers-sister-booked-victim-was-waiting-for-his-first-child-say-kin/articleshow/123556128.cms",
-      "source": "Times of India",
-      "region": "Asia-Pacific",
-      "published": "2025-08-28T10:17:05+05:30",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Haryana abolishes stamp duty on purchase of 50 sq yd, 100 sq yd plots",
-      "url": "https://www.thehindu.com/news/national/haryana/haryana-abolishes-stamp-duty-on-purchase-of-50-sq-yd-100-sq-yd-plots/article69983227.ece",
-      "source": "The Hindu",
-      "region": "Asia-Pacific",
-      "published": "2025-08-28T10:10:44+05:30",
       "sentiment": "positive"
     }
   ]
