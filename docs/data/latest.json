@@ -1,18 +1,18 @@
 {
-  "generated_at": "2025-08-30T03:35:05.431425+00:00",
+  "generated_at": "2025-08-30T03:52:39.169416+00:00",
   "window_hours": 24,
   "totals": {
-    "positive": 1211,
-    "neutral": 481,
+    "positive": 1210,
+    "neutral": 474,
     "negative": 1414
   },
   "by_publication": [
     {
       "source": "Independent",
-      "positive": 196,
-      "neutral": 93,
-      "negative": 235,
-      "count": 524,
+      "positive": 197,
+      "neutral": 92,
+      "negative": 232,
+      "count": 521,
       "region": "Europe"
     },
     {
@@ -25,26 +25,26 @@
     },
     {
       "source": "Bloomberg",
-      "positive": 88,
+      "positive": 87,
       "neutral": 19,
       "negative": 59,
-      "count": 166,
+      "count": 165,
       "region": "Asia-Pacific"
     },
     {
       "source": "Times of India",
-      "positive": 70,
-      "neutral": 13,
-      "negative": 70,
-      "count": 153,
-      "region": "North America"
+      "positive": 67,
+      "neutral": 12,
+      "negative": 72,
+      "count": 151,
+      "region": "Asia-Pacific"
     },
     {
       "source": "Channel News Asia",
-      "positive": 53,
-      "neutral": 45,
+      "positive": 52,
+      "neutral": 44,
       "negative": 53,
-      "count": 151,
+      "count": 149,
       "region": "North America"
     },
     {
@@ -58,18 +58,10 @@
     {
       "source": "Australian Broadcasting Corporation",
       "positive": 39,
-      "neutral": 12,
-      "negative": 68,
+      "neutral": 11,
+      "negative": 69,
       "count": 119,
       "region": "Asia-Pacific"
-    },
-    {
-      "source": "Fox News",
-      "positive": 32,
-      "neutral": 13,
-      "negative": 70,
-      "count": 115,
-      "region": "North America"
     },
     {
       "source": "The Guardian",
@@ -80,28 +72,36 @@
       "region": "North America"
     },
     {
+      "source": "Fox News",
+      "positive": 32,
+      "neutral": 13,
+      "negative": 69,
+      "count": 114,
+      "region": "North America"
+    },
+    {
       "source": "South China Morning Post",
-      "positive": 51,
+      "positive": 52,
       "neutral": 4,
-      "negative": 49,
+      "negative": 48,
       "count": 104,
       "region": "North America"
     },
     {
       "source": "BBC News",
       "positive": 28,
-      "neutral": 16,
-      "negative": 57,
+      "neutral": 14,
+      "negative": 59,
       "count": 101,
       "region": "North America"
     },
     {
       "source": "BBC Sport",
       "positive": 51,
-      "neutral": 15,
-      "negative": 31,
+      "neutral": 14,
+      "negative": 32,
       "count": 97,
-      "region": "North America"
+      "region": "Europe"
     },
     {
       "source": "Sky Sports",
@@ -121,10 +121,10 @@
     },
     {
       "source": "NBC News",
-      "positive": 13,
+      "positive": 15,
       "neutral": 7,
       "negative": 42,
-      "count": 62,
+      "count": 64,
       "region": "North America"
     },
     {
@@ -139,8 +139,8 @@
       "source": "CNBC",
       "positive": 21,
       "neutral": 10,
-      "negative": 26,
-      "count": 57,
+      "negative": 27,
+      "count": 58,
       "region": "Asia-Pacific"
     },
     {
@@ -187,16 +187,16 @@
       "source": "Straits Times",
       "positive": 17,
       "neutral": 11,
-      "negative": 10,
-      "count": 38,
+      "negative": 9,
+      "count": 37,
       "region": "North America"
     },
     {
       "source": "Times of Israel",
       "positive": 4,
       "neutral": 4,
-      "negative": 29,
-      "count": 37,
+      "negative": 28,
+      "count": 36,
       "region": "North America"
     },
     {
@@ -340,22 +340,22 @@
     {
       "region": "North America",
       "positive": 497,
-      "neutral": 170,
+      "neutral": 167,
       "negative": 610,
-      "count": 1277
+      "count": 1274
     },
     {
       "region": "Europe",
       "positive": 282,
-      "neutral": 142,
+      "neutral": 141,
       "negative": 279,
-      "count": 703
+      "count": 702
     },
     {
       "region": "Asia-Pacific",
-      "positive": 249,
-      "neutral": 103,
-      "negative": 251,
+      "positive": 250,
+      "neutral": 101,
+      "negative": 252,
       "count": 603
     },
     {
@@ -367,10 +367,10 @@
     },
     {
       "region": "Middle East",
-      "positive": 33,
+      "positive": 31,
       "neutral": 12,
-      "negative": 166,
-      "count": 211
+      "negative": 165,
+      "count": 208
     },
     {
       "region": "Africa",
@@ -382,60 +382,60 @@
     {
       "region": "South America",
       "positive": 17,
-      "neutral": 4,
+      "neutral": 3,
       "negative": 10,
-      "count": 31
+      "count": 30
     }
   ],
   "by_topic": [
     {
       "topic": "Tech",
-      "positive": 306,
-      "neutral": 91,
-      "negative": 321,
-      "count": 718
+      "positive": 304,
+      "neutral": 89,
+      "negative": 322,
+      "count": 715
     },
     {
       "topic": "Politics",
       "positive": 202,
-      "neutral": 82,
-      "negative": 284,
-      "count": 568
+      "neutral": 81,
+      "negative": 280,
+      "count": 563
     },
     {
       "topic": "Other",
       "positive": 204,
-      "neutral": 106,
-      "negative": 196,
-      "count": 506
+      "neutral": 105,
+      "negative": 195,
+      "count": 504
     },
     {
       "topic": "World",
-      "positive": 116,
+      "positive": 115,
       "neutral": 45,
-      "negative": 262,
-      "count": 423
+      "negative": 264,
+      "count": 424
     },
     {
       "topic": "Sports",
       "positive": 121,
-      "neutral": 58,
-      "negative": 96,
-      "count": 275
+      "neutral": 57,
+      "negative": 98,
+      "count": 276
     },
     {
       "topic": "Business",
-      "positive": 118,
-      "neutral": 40,
-      "negative": 75,
-      "count": 233
+      "positive": 119,
+      "neutral": 39,
+      "negative": 76,
+      "count": 234
     },
     {
       "topic": "Entertainment",
       "positive": 51,
-      "neutral": 21,
+      "neutral": 20,
       "negative": 49,
-      "count": 121
+      "count": 120
     },
     {
       "topic": "Health",
@@ -448,15 +448,15 @@
       "topic": "Regional",
       "positive": 26,
       "neutral": 13,
-      "negative": 40,
-      "count": 79
+      "negative": 39,
+      "count": 78
     },
     {
       "topic": "Local",
-      "positive": 13,
+      "positive": 14,
       "neutral": 2,
       "negative": 27,
-      "count": 42
+      "count": 43
     },
     {
       "topic": "Science",
@@ -548,6 +548,14 @@
       "sentiment": "negative"
     },
     {
+      "title": "Prayagraj: Crew member of Ayushmann-Sara Ali Khan film assaulted; accused arrested",
+      "url": "https://timesofindia.indiatimes.com/city/allahabad/crew-member-of-ayushmann-sara-ali-khan-film-assaulted-in-ups-prayagraj-accused-arrested/articleshow/123594959.cms",
+      "source": "Times of India",
+      "region": "North America",
+      "published": "2025-08-30T08:41:36+05:30",
+      "sentiment": "negative"
+    },
+    {
       "title": "Department of Posts suspend all postal services to U.S.",
       "url": "https://www.thehindu.com/business/Industry/department-of-posts-suspend-all-postal-services-to-us/article69992044.ece",
       "source": "The Hindu",
@@ -562,6 +570,14 @@
       "region": "Asia-Pacific",
       "published": "2025-08-30T08:32:59+05:30",
       "sentiment": "neutral"
+    },
+    {
+      "title": "'Jitna chahe jor lagale': Shami\u2019s wife's cryptic post after pacer\u2019s remarks",
+      "url": "https://timesofindia.indiatimes.com/sports/cricket/news/jitna-chahe-jor-lagale-hasin-jahan-shares-cryptic-post-after-mohammed-shamis-i-never-regret-the-past-comment/articleshow/123594808.cms",
+      "source": "Times of India",
+      "region": "Asia-Pacific",
+      "published": "2025-08-30T08:32:56+05:30",
+      "sentiment": "negative"
     },
     {
       "title": "Ready-to-eat Onasadya packs from Kerala find clientele among the Malayali expats",
@@ -972,6 +988,14 @@
       "sentiment": "positive"
     },
     {
+      "title": "\u2018My heart breaks\u2019: North Korea\u2019s Kim comforts families of fallen troops",
+      "url": "https://www.scmp.com/news/asia/east-asia/article/3323744/north-koreas-kim-says-his-heart-breaks-he-comforts-dead-soldiers-families?utm_source=rss_feed",
+      "source": "South China Morning Post",
+      "region": "Asia-Pacific",
+      "published": "2025-08-30T03:47:40+00:00",
+      "sentiment": "negative"
+    },
+    {
       "title": "No \u2018power to impose tariff\u2019: US court declares most Trump tariffs illegal; judge cites overreach",
       "url": "https://timesofindia.indiatimes.com/world/us/no-power-to-impose-tariff-us-court-declares-most-trump-tariffs-illegal-judge-cites-overreach/articleshow/123592775.cms",
       "source": "Times of India",
@@ -1004,6 +1028,22 @@
       "sentiment": "negative"
     },
     {
+      "title": "Hong Kong and Saudi Arabia sign deal to boost investment, infrastructure ties",
+      "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3323745/hong-kong-and-saudi-arabia-sign-deal-boost-investment-infrastructure-ties?utm_source=rss_feed",
+      "source": "South China Morning Post",
+      "region": "Asia-Pacific",
+      "published": "2025-08-30T03:44:12+00:00",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Federal government inks $400m deal with Nauru to resettle non-citizens",
+      "url": "https://www.abc.net.au/news/2025-08-30/federal-government-inks-400m-deal-for-nauru/105716134",
+      "source": "Australian Broadcasting Corporation",
+      "region": "Asia-Pacific",
+      "published": "2025-08-30T03:41:28+00:00",
+      "sentiment": "negative"
+    },
+    {
       "title": "Stocks decline with tech shares; dollar weakens as\u00a0US inflation data in line",
       "url": "https://www.channelnewsasia.com/business/stocks-decline-tech-shares-dollar-weakens-us-inflation-data-line-5321541",
       "source": "Channel News Asia",
@@ -1028,11 +1068,43 @@
       "sentiment": "positive"
     },
     {
+      "title": "Norrie rues 'overconfidence' as chance to beat Djokovic disappears",
+      "url": "https://www.bbc.com/sport/tennis/articles/clyjk21gyw9o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "region": "North America",
+      "published": "2025-08-30T03:39:42+00:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Norrie rues 'overconfidence' as chance to beat Djokovic disappears",
+      "url": "https://www.bbc.com/sport/tennis/articles/clyjk21gyw9o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "region": "North America",
+      "published": "2025-08-30T03:39:42+00:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Norrie rues 'overconfidence' as chance to beat Djokovic disappears",
+      "url": "https://www.bbc.com/sport/tennis/articles/clyjk21gyw9o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Sport",
+      "region": "North America",
+      "published": "2025-08-30T03:39:42+00:00",
+      "sentiment": "negative"
+    },
+    {
       "title": "Djokovic recovers from back issue to blast his way past Norrie at US Open",
       "url": "https://www.skysports.com/tennis/news/12040/13420831/us-open-novak-djokovic-recovers-from-back-issue-to-blast-his-way-past-cameron-norrie-in-new-york",
       "source": "Sky Sports",
       "region": "North America",
       "published": "2025-08-30T03:37:00+00:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Wife of jailed South Korean ex-president indicted over bribery and stock manipulation",
+      "url": "https://www.cnbc.com/2025/08/29/south-koreas-ex-first-lady-kim-keon-hee-indicted-over-corruption-bribery-charges.html",
+      "source": "CNBC",
+      "region": "Asia-Pacific",
+      "published": "2025-08-30T03:36:47+00:00",
       "sentiment": "negative"
     },
     {
@@ -1042,6 +1114,38 @@
       "region": "Middle East",
       "published": "2025-08-30T03:36:00+08:00",
       "sentiment": "negative"
+    },
+    {
+      "title": "Serong battles through the tags to stamp credentials as WA's best",
+      "url": "https://www.abc.net.au/news/2025-08-30/caleb-serong-on-finals-and-fyfe-geoff-christian-medal/105708522",
+      "source": "Australian Broadcasting Corporation",
+      "region": "Asia-Pacific",
+      "published": "2025-08-30T03:32:53+00:00",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Keeping it in the family: Inside the Indian tradition of polyandrous marriages",
+      "url": "https://www.independent.co.uk/asia/india/polyandry-india-marriage-brothers-hatti-himachal-pradesh-b2806711.html",
+      "source": "Independent",
+      "region": "Asia-Pacific",
+      "published": "2025-08-30T03:30:00+00:00",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Epstein's estate set to provide 'birthday book' to Congress, House Democrat says",
+      "url": "https://www.nbcnews.com/politics/congress/jeffrey-epstein-birthday-book-donald-trump-congress-subpoena-rcna228146",
+      "source": "NBC News",
+      "region": "North America",
+      "published": "2025-08-30T03:29:12+00:00",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Epstein's estate set to provide 'birthday book' to Congress, House Democrat says",
+      "url": "https://www.nbcnews.com/politics/congress/jeffrey-epstein-birthday-book-donald-trump-congress-subpoena-rcna228146",
+      "source": "NBC News",
+      "region": "North America",
+      "published": "2025-08-30T03:29:12+00:00",
+      "sentiment": "positive"
     },
     {
       "title": "Vintage hearse rescued from chicken coop still at work 100 years on",
@@ -1161,110 +1265,6 @@
       "source": "Sky Sports",
       "region": "North America",
       "published": "2025-08-30T03:09:00+00:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Wagyu heifer sells for $350,000 as Australian cattle market rises",
-      "url": "https://www.abc.net.au/news/2025-08-30/wagyu-heifer-fetches-350000-as-cattle-prices-rise/105704258",
-      "source": "Australian Broadcasting Corporation",
-      "region": "Asia-Pacific",
-      "published": "2025-08-30T03:06:45+00:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Toad sculpture in Peru reveals climate-driven collapse of ancient city",
-      "url": "https://www.channelnewsasia.com/business/toad-sculpture-peru-reveals-climate-driven-collapse-ancient-city-5323281",
-      "source": "Channel News Asia",
-      "region": "South America",
-      "published": "2025-08-30T03:02:10+08:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "\u2018Act of god\u2019: HIV plus man turns temple thief in anger; admits decade-long spree",
-      "url": "https://timesofindia.indiatimes.com/city/raipur/angry-with-god-hiv-man-turns-temple-thief-in-act-of-revenge/articleshow/123592569.cms",
-      "source": "Times of India",
-      "region": "North America",
-      "published": "2025-08-30T03:01:58+05:30",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Alcaraz wallops US Open third-round foe, Raducanu loses to Rybakina",
-      "url": "https://www.channelnewsasia.com/sport/alcaraz-wallops-us-open-third-round-foe-raducanu-loses-rybakina-5323286",
-      "source": "Channel News Asia",
-      "region": "North America",
-      "published": "2025-08-30T03:01:44+08:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Alcaraz, Pegula roll through US Open third round, Raducanu loses to Rybakina",
-      "url": "https://www.channelnewsasia.com/sport/alcaraz-pegula-roll-through-us-open-third-round-raducanu-loses-rybakina-5323286",
-      "source": "Channel News Asia",
-      "region": "North America",
-      "published": "2025-08-30T03:01:44+08:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Typhon warning: China hits out at Japan over US missile system deployment",
-      "url": "https://www.scmp.com/news/china/military/article/3323657/typhon-warning-china-hits-out-japan-over-us-missile-system-deployment?utm_source=rss_feed",
-      "source": "South China Morning Post",
-      "region": "Asia-Pacific",
-      "published": "2025-08-30T03:00:09+00:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Bondi fires justice department employee for making vulgar gesture at National Guard",
-      "url": "https://www.theguardian.com/us-news/2025/aug/30/bondi-fires-justice-department-employee-for-making-vulgar-gesture-at-national-guard",
-      "source": "The Guardian",
-      "region": "North America",
-      "published": "2025-08-30T03:00:02+00:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Latest US Open scores: Gauff, Sinner, Swiatek, Osaka and Zverev play Saturday",
-      "url": "https://www.skysports.com/tennis/scores-schedule",
-      "source": "Sky Sports",
-      "region": "North America",
-      "published": "2025-08-30T03:00:00+00:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "US skips UK-led security conference in Japan amid retreat from defence forums",
-      "url": "https://www.scmp.com/news/world/united-states-canada/article/3323743/us-skips-uk-led-security-conference-japan-amid-retreat-defence-forums?utm_source=rss_feed",
-      "source": "South China Morning Post",
-      "region": "Asia-Pacific",
-      "published": "2025-08-30T02:50:41+00:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Novak Djokovic brushes aside Cameron Norrie to end British singles hopes at US Open",
-      "url": "https://www.telegraph.co.uk/tennis/2025/08/29/cameron-norrie-vs-novak-djokovic-live-score-us-open-updates/",
-      "source": "Telegraph",
-      "region": "North America",
-      "published": "2025-08-30T02:39:40+00:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "\u200bKohima, Vizag, Bhubaneswar safest for women; Delhi among unsafe \u2014 see list\u200b",
-      "url": "https://timesofindia.indiatimes.com/india/mumbai-among-7-safest-cities-for-women-delhi-on-unsafe-list/articleshow/123592537.cms",
-      "source": "Times of India",
-      "region": "Asia-Pacific",
-      "published": "2025-08-30T02:34:48+05:30",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Tran Trong Duyet, John McCain\u2019s Captor at the \u2018Hanoi Hilton,\u2019 Is Dead",
-      "url": "https://www.nytimes.com/2025/08/29/world/asia/vietnam-tran-trong-duyet-obituary.html",
-      "source": "New York Times",
-      "region": "North America",
-      "published": "2025-08-30T02:34:23+00:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Ticket sales rocket as Powerball jackpot climbs to $1 billion for Saturday draw",
-      "url": "https://www.independent.co.uk/news/world/americas/powerball-lottery-jackpot-prize-ticket-sales-b2816890.html",
-      "source": "Independent",
-      "region": "Europe",
-      "published": "2025-08-30T02:33:20+00:00",
       "sentiment": "positive"
     }
   ]
