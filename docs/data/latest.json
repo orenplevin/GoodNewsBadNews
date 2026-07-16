@@ -1,35 +1,35 @@
 {
-  "generated_at": "2026-07-16T06:00:27.699759+00:00",
+  "generated_at": "2026-07-16T08:27:58.595427+00:00",
   "window_hours": 24,
   "totals": {
-    "positive": 1321,
-    "neutral": 411,
-    "negative": 1351
+    "positive": 1322,
+    "neutral": 419,
+    "negative": 1387
   },
   "by_publication": [
     {
       "source": "Independent",
-      "positive": 227,
-      "neutral": 126,
-      "negative": 286,
-      "count": 639,
+      "positive": 233,
+      "neutral": 125,
+      "negative": 293,
+      "count": 651,
       "region": "Europe"
     },
     {
       "source": "The Hindu",
-      "positive": 141,
-      "neutral": 68,
-      "negative": 120,
-      "count": 329,
-      "region": "Asia-Pacific"
+      "positive": 131,
+      "neutral": 69,
+      "negative": 127,
+      "count": 327,
+      "region": "North America"
     },
     {
       "source": "Times of India",
-      "positive": 115,
-      "neutral": 10,
-      "negative": 82,
-      "count": 207,
-      "region": "Asia-Pacific"
+      "positive": 109,
+      "neutral": 9,
+      "negative": 85,
+      "count": 203,
+      "region": "Europe"
     },
     {
       "source": "Fox News",
@@ -42,74 +42,82 @@
     {
       "source": "Channel News Asia",
       "positive": 58,
-      "neutral": 23,
-      "negative": 41,
+      "neutral": 25,
+      "negative": 39,
       "count": 122,
-      "region": "Global"
+      "region": "Asia-Pacific"
     },
     {
       "source": "CBS News",
       "positive": 55,
       "neutral": 10,
-      "negative": 56,
-      "count": 121,
+      "negative": 55,
+      "count": 120,
       "region": "North America"
     },
     {
       "source": "The Guardian",
-      "positive": 50,
+      "positive": 51,
       "neutral": 1,
-      "negative": 67,
-      "count": 118,
-      "region": "Asia-Pacific"
-    },
-    {
-      "source": "Australian Broadcasting Corporation",
-      "positive": 45,
-      "neutral": 5,
       "negative": 66,
-      "count": 116,
-      "region": "Asia-Pacific"
+      "count": 118,
+      "region": "Middle East"
     },
     {
       "source": "BBC News",
-      "positive": 38,
-      "neutral": 14,
-      "negative": 53,
-      "count": 105,
+      "positive": 42,
+      "neutral": 13,
+      "negative": 57,
+      "count": 112,
       "region": "Europe"
     },
     {
+      "source": "Australian Broadcasting Corporation",
+      "positive": 46,
+      "neutral": 5,
+      "negative": 61,
+      "count": 112,
+      "region": "Asia-Pacific"
+    },
+    {
       "source": "Al Jazeera English",
-      "positive": 32,
-      "neutral": 15,
-      "negative": 55,
-      "count": 102,
-      "region": "North America"
+      "positive": 30,
+      "neutral": 14,
+      "negative": 51,
+      "count": 95,
+      "region": "Asia-Pacific"
     },
     {
       "source": "South China Morning Post",
       "positive": 37,
-      "neutral": 0,
-      "negative": 40,
-      "count": 77,
-      "region": "South America"
+      "neutral": 1,
+      "negative": 45,
+      "count": 83,
+      "region": "North America"
     },
     {
       "source": "France 24",
-      "positive": 30,
-      "neutral": 2,
-      "negative": 41,
-      "count": 73,
-      "region": "Europe"
+      "positive": 29,
+      "neutral": 3,
+      "negative": 43,
+      "count": 75,
+      "region": "Africa"
     },
     {
       "source": "Mashable",
-      "positive": 47,
+      "positive": 45,
       "neutral": 17,
       "negative": 9,
-      "count": 73,
+      "count": 71,
       "region": "Global"
+    },
+    {
+      "source": "Euronews",
+      "positive": 34,
+      "neutral": 6,
+      "negative": 29,
+      "count": 69,
+      "region": "Europe"
     },
     {
       "source": "NBC News",
@@ -120,52 +128,44 @@
       "region": "North America"
     },
     {
-      "source": "BBC Sport",
-      "positive": 34,
-      "neutral": 8,
-      "negative": 20,
-      "count": 62,
-      "region": "Europe"
-    },
-    {
       "source": "CNBC",
-      "positive": 35,
+      "positive": 37,
       "neutral": 6,
-      "negative": 20,
-      "count": 61,
+      "negative": 21,
+      "count": 64,
       "region": "North America"
     },
     {
-      "source": "Euronews",
-      "positive": 30,
-      "neutral": 5,
-      "negative": 21,
-      "count": 56,
-      "region": "Europe"
-    },
-    {
-      "source": "Middle East Eye",
-      "positive": 11,
-      "neutral": 1,
-      "negative": 40,
-      "count": 52,
-      "region": "Middle East"
-    },
-    {
-      "source": "AllAfrica",
-      "positive": 12,
-      "neutral": 4,
-      "negative": 34,
-      "count": 50,
-      "region": "Africa"
+      "source": "BBC Sport",
+      "positive": 32,
+      "neutral": 7,
+      "negative": 25,
+      "count": 64,
+      "region": "Asia-Pacific"
     },
     {
       "source": "Bloomberg",
-      "positive": 24,
-      "neutral": 1,
-      "negative": 22,
-      "count": 47,
+      "positive": 31,
+      "neutral": 5,
+      "negative": 27,
+      "count": 63,
       "region": "Global"
+    },
+    {
+      "source": "AllAfrica",
+      "positive": 10,
+      "neutral": 6,
+      "negative": 36,
+      "count": 52,
+      "region": "Africa"
+    },
+    {
+      "source": "Middle East Eye",
+      "positive": 12,
+      "neutral": 1,
+      "negative": 38,
+      "count": 51,
+      "region": "Middle East"
     },
     {
       "source": "MarketWatch",
@@ -176,67 +176,75 @@
       "region": "North America"
     },
     {
-      "source": "ESPN",
-      "positive": 28,
-      "neutral": 2,
-      "negative": 6,
-      "count": 36,
+      "source": "Sky Sports",
+      "positive": 16,
+      "neutral": 7,
+      "negative": 11,
+      "count": 34,
       "region": "Europe"
     },
     {
       "source": "ABC News",
-      "positive": 14,
+      "positive": 13,
       "neutral": 10,
       "negative": 11,
-      "count": 35,
+      "count": 34,
       "region": "North America"
+    },
+    {
+      "source": "New York Times",
+      "positive": 7,
+      "neutral": 6,
+      "negative": 20,
+      "count": 33,
+      "region": "Europe"
     },
     {
       "source": "Straits Times",
       "positive": 15,
-      "neutral": 4,
-      "negative": 13,
+      "neutral": 5,
+      "negative": 12,
       "count": 32,
       "region": "Global"
-    },
-    {
-      "source": "Sky Sports",
-      "positive": 13,
-      "neutral": 6,
-      "negative": 12,
-      "count": 31,
-      "region": "Europe"
-    },
-    {
-      "source": "New York Times",
-      "positive": 5,
-      "neutral": 6,
-      "negative": 19,
-      "count": 30,
-      "region": "Asia-Pacific"
     },
     {
       "source": "Irish Times",
       "positive": 6,
       "neutral": 3,
-      "negative": 19,
-      "count": 28,
-      "region": "North America"
+      "negative": 20,
+      "count": 29,
+      "region": "Global"
+    },
+    {
+      "source": "ESPN",
+      "positive": 23,
+      "neutral": 2,
+      "negative": 4,
+      "count": 29,
+      "region": "Europe"
     },
     {
       "source": "The Verge",
-      "positive": 16,
+      "positive": 15,
       "neutral": 1,
       "negative": 9,
-      "count": 26,
+      "count": 25,
       "region": "North America"
     },
     {
       "source": "Deutsche Welle",
-      "positive": 10,
+      "positive": 9,
       "neutral": 1,
       "negative": 14,
-      "count": 25,
+      "count": 24,
+      "region": "Europe"
+    },
+    {
+      "source": "Engadget",
+      "positive": 10,
+      "neutral": 6,
+      "negative": 8,
+      "count": 24,
       "region": "North America"
     },
     {
@@ -248,28 +256,28 @@
       "region": "Global"
     },
     {
-      "source": "NPR",
-      "positive": 12,
-      "neutral": 2,
-      "negative": 10,
-      "count": 24,
-      "region": "North America"
-    },
-    {
       "source": "Financial Times",
-      "positive": 14,
+      "positive": 15,
       "neutral": 3,
-      "negative": 6,
+      "negative": 5,
       "count": 23,
       "region": "North America"
     },
     {
-      "source": "Engadget",
-      "positive": 10,
-      "neutral": 5,
-      "negative": 7,
-      "count": 22,
+      "source": "NPR",
+      "positive": 12,
+      "neutral": 0,
+      "negative": 11,
+      "count": 23,
       "region": "North America"
+    },
+    {
+      "source": "RT News",
+      "positive": 4,
+      "neutral": 2,
+      "negative": 8,
+      "count": 14,
+      "region": "Europe"
     },
     {
       "source": "Ars Technica",
@@ -278,14 +286,6 @@
       "negative": 3,
       "count": 14,
       "region": "Global"
-    },
-    {
-      "source": "RT News",
-      "positive": 4,
-      "neutral": 2,
-      "negative": 6,
-      "count": 12,
-      "region": "North America"
     },
     {
       "source": "Daily News Egypt",
@@ -297,10 +297,10 @@
     },
     {
       "source": "Sky News",
-      "positive": 4,
+      "positive": 5,
       "neutral": 1,
-      "negative": 3,
-      "count": 8,
+      "negative": 4,
+      "count": 10,
       "region": "Europe"
     },
     {
@@ -321,141 +321,141 @@
     },
     {
       "source": "Telegraph",
-      "positive": 1,
+      "positive": 2,
       "neutral": 0,
       "negative": 2,
-      "count": 3,
-      "region": "Europe"
+      "count": 4,
+      "region": "South America"
     }
   ],
   "by_region": [
     {
       "region": "North America",
-      "positive": 522,
-      "neutral": 112,
-      "negative": 503,
-      "count": 1137
+      "positive": 514,
+      "neutral": 110,
+      "negative": 526,
+      "count": 1150
     },
     {
       "region": "Europe",
-      "positive": 354,
-      "neutral": 157,
-      "negative": 336,
-      "count": 847
+      "positive": 359,
+      "neutral": 158,
+      "negative": 342,
+      "count": 859
     },
     {
       "region": "Asia-Pacific",
-      "positive": 251,
-      "neutral": 80,
-      "negative": 221,
-      "count": 552
+      "positive": 255,
+      "neutral": 85,
+      "negative": 228,
+      "count": 568
     },
     {
       "region": "Global",
-      "positive": 120,
-      "neutral": 31,
-      "negative": 74,
-      "count": 225
+      "positive": 119,
+      "neutral": 33,
+      "negative": 70,
+      "count": 222
     },
     {
       "region": "Middle East",
-      "positive": 34,
-      "neutral": 10,
-      "negative": 169,
-      "count": 213
+      "positive": 35,
+      "neutral": 11,
+      "negative": 166,
+      "count": 212
     },
     {
       "region": "South America",
-      "positive": 21,
-      "neutral": 16,
-      "negative": 27,
-      "count": 64
+      "positive": 24,
+      "neutral": 17,
+      "negative": 31,
+      "count": 72
     },
     {
       "region": "Africa",
-      "positive": 19,
+      "positive": 16,
       "neutral": 5,
-      "negative": 21,
+      "negative": 24,
       "count": 45
     }
   ],
   "by_topic": [
     {
       "topic": "Tech",
-      "positive": 281,
-      "neutral": 78,
-      "negative": 377,
-      "count": 736
+      "positive": 283,
+      "neutral": 84,
+      "negative": 372,
+      "count": 739
     },
     {
       "topic": "Politics",
-      "positive": 299,
-      "neutral": 72,
-      "negative": 288,
-      "count": 659
-    },
-    {
-      "topic": "Sports",
-      "positive": 230,
-      "neutral": 92,
-      "negative": 122,
-      "count": 444
+      "positive": 294,
+      "neutral": 71,
+      "negative": 295,
+      "count": 660
     },
     {
       "topic": "Other",
-      "positive": 176,
-      "neutral": 79,
-      "negative": 187,
-      "count": 442
+      "positive": 183,
+      "neutral": 82,
+      "negative": 191,
+      "count": 456
+    },
+    {
+      "topic": "Sports",
+      "positive": 227,
+      "neutral": 93,
+      "negative": 130,
+      "count": 450
     },
     {
       "topic": "World",
-      "positive": 84,
-      "neutral": 21,
-      "negative": 166,
-      "count": 271
+      "positive": 87,
+      "neutral": 20,
+      "negative": 169,
+      "count": 276
     },
     {
       "topic": "Business",
-      "positive": 102,
-      "neutral": 18,
-      "negative": 49,
-      "count": 169
+      "positive": 103,
+      "neutral": 19,
+      "negative": 52,
+      "count": 174
     },
     {
       "topic": "Entertainment",
-      "positive": 56,
+      "positive": 52,
       "neutral": 16,
-      "negative": 41,
-      "count": 113
+      "negative": 50,
+      "count": 118
     },
     {
       "topic": "Health",
-      "positive": 35,
+      "positive": 33,
       "neutral": 14,
       "negative": 46,
-      "count": 95
+      "count": 93
     },
     {
       "topic": "Regional",
-      "positive": 21,
+      "positive": 20,
       "neutral": 8,
-      "negative": 48,
-      "count": 77
+      "negative": 50,
+      "count": 78
     },
     {
       "topic": "Science",
-      "positive": 23,
-      "neutral": 5,
-      "negative": 16,
-      "count": 44
+      "positive": 25,
+      "neutral": 4,
+      "negative": 20,
+      "count": 49
     },
     {
       "topic": "Local",
-      "positive": 14,
+      "positive": 15,
       "neutral": 8,
-      "negative": 11,
-      "count": 33
+      "negative": 12,
+      "count": 35
     }
   ],
   "sample_headlines": [
@@ -476,11 +476,227 @@
       "sentiment": "positive"
     },
     {
+      "title": "South Korea toughens regulations on single-stock leveraged ETFs",
+      "url": "https://www.channelnewsasia.com/business/south-korea-toughens-regulations-single-stock-leveraged-etfs-6258086",
+      "source": "Channel News Asia",
+      "region": "Asia-Pacific",
+      "published": "2026-07-16T16:18:16+08:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Short, thundery showers expected in second half of July",
+      "url": "https://www.straitstimes.com/singapore/short-thundery-showers-expected-in-second-half-of-july",
+      "source": "Straits Times",
+      "region": "Global",
+      "published": "2026-07-16T16:10:00+08:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Russian missiles strike Kyiv districts, killing two, officials say",
+      "url": "https://www.channelnewsasia.com/world/russian-missiles-strike-kyiv-districts-killing-two-officials-say-6257791",
+      "source": "Channel News Asia",
+      "region": "North America",
+      "published": "2026-07-16T15:55:31+08:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "MSF explores using tech to keep closer watch on abused children after they return home",
+      "url": "https://www.straitstimes.com/singapore/community/msf-explores-using-tech-to-keep-closer-watch-on-abused-children-after-they-return-home",
+      "source": "Straits Times",
+      "region": "North America",
+      "published": "2026-07-16T15:50:00+08:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Japan PM Sanae Takaichi's approval rating below 50% for first time",
+      "url": "https://www.channelnewsasia.com/east-asia/japan-pm-sanae-takaichi-approval-rating-below-50-6257956",
+      "source": "Channel News Asia",
+      "region": "Asia-Pacific",
+      "published": "2026-07-16T15:37:00+08:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Football with a side of dim sum: Hong Kong teahouse scores big with World Cup fans",
+      "url": "https://www.channelnewsasia.com/asia/hong-kong-teahouse-football-dim-sum-6257861",
+      "source": "Channel News Asia",
+      "region": "Asia-Pacific",
+      "published": "2026-07-16T15:30:13+08:00",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Wales make six changes for Nations Championship test against South Africa",
+      "url": "https://www.channelnewsasia.com/sport/wales-make-six-changes-nations-championship-test-against-south-africa-6257946",
+      "source": "Channel News Asia",
+      "region": "Africa",
+      "published": "2026-07-16T15:24:18+08:00",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Cleaning firm, worksite manager charged over fatal incident at PUB Choa Chu Kang Waterworks",
+      "url": "https://www.straitstimes.com/singapore/courts-crime/cleaning-firm-worksite-manager-charged-over-fatal-incident-at-pub-choa-chu-kang-waterworks",
+      "source": "Straits Times",
+      "region": "Global",
+      "published": "2026-07-16T15:22:32+08:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Woman in fraudulent scheme for foreigners to get PR status in Singapore gets jail",
+      "url": "https://www.channelnewsasia.com/singapore/wang-jue-sham-scheme-foreigner-pr-jail-6257886",
+      "source": "Channel News Asia",
+      "region": "Asia-Pacific",
+      "published": "2026-07-16T15:10:09+08:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Watch parties, late starts: Schools in Singapore gear up for World Cup final",
+      "url": "https://www.straitstimes.com/singapore/watch-parties-late-starts-schools-in-singapore-gear-up-for-world-cup-final",
+      "source": "Straits Times",
+      "region": "Asia-Pacific",
+      "published": "2026-07-16T14:54:58+08:00",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Over 500 feared dead in two suspected shipwrecks off Myanmar: UN",
+      "url": "https://www.channelnewsasia.com/asia/over-500-feared-dead-in-two-suspected-shipwrecks-myanmar-un-6257896",
+      "source": "Channel News Asia",
+      "region": "North America",
+      "published": "2026-07-16T14:50:33+08:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Singaporean traveller stranded at Malaysia rest stop at 4.15am after coach to KL drove off without him",
+      "url": "https://www.channelnewsasia.com/travel/coach-bus-kl-leaves-singaporean-during-toilet-break-6257446",
+      "source": "Channel News Asia",
+      "region": "Asia-Pacific",
+      "published": "2026-07-16T14:46:34+08:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "McReight benched for Italy clash as Schmidt looks to halt Wallabies skid",
+      "url": "https://www.channelnewsasia.com/sport/mcreight-benched-italy-clash-schmidt-looks-halt-wallabies-skid-6257871",
+      "source": "Channel News Asia",
+      "region": "Europe",
+      "published": "2026-07-16T14:33:52+08:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Man admits making makeshift crossbow to shoot ball bearings at crows",
+      "url": "https://www.channelnewsasia.com/singapore/man-shoot-crows-crossbow-ball-bearings-6257826",
+      "source": "Channel News Asia",
+      "region": "Global",
+      "published": "2026-07-16T14:26:10+08:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Europe looks beyond regulation in bid for tech leadership",
+      "url": "https://www.channelnewsasia.com/world/european-union-tech-sovereignty-package-digital-leadership-w-social-6257746",
+      "source": "Channel News Asia",
+      "region": "Europe",
+      "published": "2026-07-16T14:24:39+08:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Hotter, drier El Nino could raise risks of dengue and respiratory illnesses: Experts",
+      "url": "https://www.channelnewsasia.com/singapore/el-nino-hotter-drier-weather-dengue-chikungunya-respiratory-syncytial-virus-rsv-6256346",
+      "source": "Channel News Asia",
+      "region": "North America",
+      "published": "2026-07-16T14:20:48+08:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Jalibert fit to face Japan in Nations Championship",
+      "url": "https://www.channelnewsasia.com/sport/jalibert-fit-face-japan-in-nations-championship-6257841",
+      "source": "Channel News Asia",
+      "region": "Asia-Pacific",
+      "published": "2026-07-16T14:20:36+08:00",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Jurassic Park actor Sam Neill died from pneumonia, agent says",
+      "url": "https://www.channelnewsasia.com/entertainment/sam-neill-cause-death-pneumonia-6257676",
+      "source": "Channel News Asia",
+      "region": "Global",
+      "published": "2026-07-16T14:13:00+08:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Barbecue restaurant Carnivore Brazilian Churrascaria to serve its final cut in Sept after 20 years",
+      "url": "https://www.straitstimes.com/singapore/barbecue-restaurant-carnivore-brazilian-churrascaria-to-serve-its-final-cut-in-sept-after-20-years",
+      "source": "Straits Times",
+      "region": "South America",
+      "published": "2026-07-16T14:09:00+08:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "The new wave of Japanese menswear designers taking over Paris Fashion Week",
+      "url": "https://www.channelnewsasia.com/obsessions/japanese-menswear-designers-paris-fashion-week-6257796",
+      "source": "Channel News Asia",
+      "region": "Asia-Pacific",
+      "published": "2026-07-16T14:06:29+08:00",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Is a contract job the starting point for new graduates in Singapore?",
+      "url": "https://www.straitstimes.com/singapore/is-a-contract-job-the-starting-point-for-new-graduates-in-singapore",
+      "source": "Straits Times",
+      "region": "Asia-Pacific",
+      "published": "2026-07-16T14:06:00+08:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Negeri Sembilan polls: BN not contesting all 36 seats, as it eyes pact with \u2018trusted friend\u2019",
+      "url": "https://www.channelnewsasia.com/asia/malaysia-negeri-sembilan-bn-pas-tok-mat-umno-trusted-friend-election-6257756",
+      "source": "Channel News Asia",
+      "region": "North America",
+      "published": "2026-07-16T14:00:04+08:00",
+      "sentiment": "positive"
+    },
+    {
       "title": "Scheffler ready for title defence as 154th Open gets underway",
       "url": "https://www.channelnewsasia.com/sport/scheffler-ready-title-defence-154th-open-gets-underway-6257811",
       "source": "Channel News Asia",
       "region": "Global",
       "published": "2026-07-16T13:52:11+08:00",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Congress leaders discuss party strategy for upcoming Parliament session",
+      "url": "https://www.thehindu.com/news/national/congress-leaders-discuss-party-strategy-for-upcoming-parliament-session/article71229048.ece",
+      "source": "The Hindu",
+      "region": "North America",
+      "published": "2026-07-16T13:50:28+05:30",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Sonam Wangchuk loses over 9 kg, weakens significantly on 19th day of hunger strike: CJP",
+      "url": "https://www.thehindu.com/news/national/sonam-wangchuk-loses-over-9-kg-weakens-significantly-on-19th-day-of-hunger-strike-cjp/article71228868.ece",
+      "source": "The Hindu",
+      "region": "Europe",
+      "published": "2026-07-16T13:48:11+05:30",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Delhi HC directs daily medical monitoring of Sonam Wangchuk amid indefinite hunger strike",
+      "url": "https://www.thehindu.com/news/national/delhi-hc-directs-daily-medical-monitoring-of-sonam-wangchuk-amid-indefinite-hunger-strike/article71228728.ece",
+      "source": "The Hindu",
+      "region": "Europe",
+      "published": "2026-07-16T13:47:40+05:30",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Cauvery is not a flood discharge channel for Karnataka to open at will, say Tamil Nadu farmers",
+      "url": "https://www.thehindu.com/news/cities/Coimbatore/cauvery-is-not-a-flood-discharge-channel-for-karnataka-to-open-at-will-say-farmers/article71225696.ece",
+      "source": "The Hindu",
+      "region": "Asia-Pacific",
+      "published": "2026-07-16T13:47:36+05:30",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Raut urges Fadnavis to take part in 'Ram Raksha Andolan' of Sena (UBT) in Nagpur",
+      "url": "https://www.thehindu.com/news/national/maharashtra/raut-urges-fadnavis-to-take-part-in-ram-raksha-andolan-of-sena-ubt-in-nagpur/article71228858.ece",
+      "source": "The Hindu",
+      "region": "Asia-Pacific",
+      "published": "2026-07-16T13:46:39+05:30",
       "sentiment": "positive"
     },
     {
@@ -490,6 +706,174 @@
       "region": "Europe",
       "published": "2026-07-16T13:44:22+08:00",
       "sentiment": "positive"
+    },
+    {
+      "title": "Beyond momo: Meghalaya\u2019s chefs are reclaiming the state\u2019s culinary identity",
+      "url": "https://www.thehindu.com/food/features/beyond-momos-meghalayas-chefs-are-reclaiming-the-states-culinary-identity/article71092066.ece",
+      "source": "The Hindu",
+      "region": "Asia-Pacific",
+      "published": "2026-07-16T13:41:28+05:30",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Third language must stop in Class 9, not start in Class 9, Justice Nagarathna tells government",
+      "url": "https://www.thehindu.com/news/national/supreme-court-asks-cbse-not-to-introduce-third-language-in-class-9/article71228738.ece",
+      "source": "The Hindu",
+      "region": "North America",
+      "published": "2026-07-16T13:41:00+05:30",
+      "sentiment": "negative"
+    },
+    {
+      "title": "12-year-old Bengaluru boy dies after collapsing in school; family gets CCTV camera footage one month later, alleges negligence",
+      "url": "https://www.thehindu.com/news/cities/bangalore/12-year-old-boy-dies-after-collapsing-in-school-in-bengaluru-family-gets-cctv-camera-footage-one-month-later-alleges-negligence/article71228721.ece",
+      "source": "The Hindu",
+      "region": "Asia-Pacific",
+      "published": "2026-07-16T13:34:18+05:30",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Hurdles before oil exploration on Assam-Nagaland boundary | Explained",
+      "url": "https://www.thehindu.com/news/national/hurdles-before-assam-nagaland-border-oil-exploration-explained/article71228472.ece",
+      "source": "The Hindu",
+      "region": "Asia-Pacific",
+      "published": "2026-07-16T13:28:51+05:30",
+      "sentiment": "positive"
+    },
+    {
+      "title": "'Diego is enjoying this immensely from up there': Messi's emotional tribute to Maradona",
+      "url": "https://timesofindia.indiatimes.com/sports/football/fifa-world-cup/diego-is-enjoying-this-immensely-from-up-there-lionel-messis-emotional-tribute-to-diego-maradona-after-argentina-reach-fifa-world-cup-final/articleshow/132433110.cms",
+      "source": "Times of India",
+      "region": "Europe",
+      "published": "2026-07-16T13:25:49+05:30",
+      "sentiment": "positive"
+    },
+    {
+      "title": "100% US tariff threat over Russian oil: India may have reasons to stay calm",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/100-us-tariff-sanctions-threat-over-russian-crude-oil-india-may-have-reasons-to-stay-calm/articleshow/132432976.cms",
+      "source": "Times of India",
+      "region": "North America",
+      "published": "2026-07-16T13:25:19+05:30",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Dharmasthala case: SIT submits final report before the Belthangady court",
+      "url": "https://www.thehindu.com/news/cities/Mangalore/dharmasthala-case-sit-submits-final-report-before-the-belthangady-court/article71226137.ece",
+      "source": "The Hindu",
+      "region": "Asia-Pacific",
+      "published": "2026-07-16T13:24:55+05:30",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Microsoft tells sale team how to \u2018dump\u2019 OpenAI and Anthropic",
+      "url": "https://timesofindia.indiatimes.com/technology/tech-news/microsoft-to-sales-team-on-how-to-make-customers-dump-openai-and-anthropic-tell-them-everyone-else-is-selling-/articleshow/132433162.cms",
+      "source": "Times of India",
+      "region": "North America",
+      "published": "2026-07-16T13:23:05+05:30",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Seating dispute sparks brawl on local train in Thane, three commuters injured",
+      "url": "https://www.thehindu.com/news/national/maharashtra/seating-dispute-sparks-brawl-on-local-train-in-thane-three-commuters-injured/article71228835.ece",
+      "source": "The Hindu",
+      "region": "North America",
+      "published": "2026-07-16T13:22:23+05:30",
+      "sentiment": "negative"
+    },
+    {
+      "title": "AI, automation to reshape maritime workforce as India eyes global shipping hub: Maritime University\u00a0officials",
+      "url": "https://www.thehindu.com/news/national/west-bengal/ai-automation-to-reshape-maritime-workforce-as-india-eyes-global-shipping-hub-maritime-universityofficials/article71228643.ece",
+      "source": "The Hindu",
+      "region": "Asia-Pacific",
+      "published": "2026-07-16T13:18:59+05:30",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Free Trade Agreements, including the one with India and UK, offer favourable market access to MSMEs: FKCCI",
+      "url": "https://www.thehindu.com/news/national/karnataka/free-trade-agreements-including-the-one-with-india-and-uk-offer-favourable-market-access-to-msmes-fkcci/article71227177.ece",
+      "source": "The Hindu",
+      "region": "North America",
+      "published": "2026-07-16T13:16:33+05:30",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Renting a home without a written agreement? Here's why it may be risky",
+      "url": "https://timesofindia.indiatimes.com/real-estate/news/renting-a-home-without-a-written-agreement-heres-why-it-may-be-risky/articleshow/132432905.cms",
+      "source": "Times of India",
+      "region": "Asia-Pacific",
+      "published": "2026-07-16T13:16:01+05:30",
+      "sentiment": "positive"
+    },
+    {
+      "title": "BJP MLC seeks \u20b951.5 cr Khelo India sports infra projects for north Telangana\u2019s Medak, Nizamabad, Adilabad, and Karimnagar",
+      "url": "https://www.thehindu.com/news/national/telangana/bjp-mlc-seeks-515-cr-khelo-india-sports-infra-projects-for-north-telanganas-medak-nizamabad-adilabad-and-karimnagar/article71226844.ece",
+      "source": "The Hindu",
+      "region": "Asia-Pacific",
+      "published": "2026-07-16T13:12:55+05:30",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "E20 fuel damages Maruti car; company ordered to give customer a new vehicle",
+      "url": "https://timesofindia.indiatimes.com/legal/news/e20-fuel-damages-maruti-car-company-ordered-to-give-customer-a-new-vehicle/articleshow/132432357.cms",
+      "source": "Times of India",
+      "region": "North America",
+      "published": "2026-07-16T13:10:49+05:30",
+      "sentiment": "negative"
+    },
+    {
+      "title": "'Wanted papers': Drunk son kills father over Rs 150cr property dispute in Ghaziabad",
+      "url": "https://timesofindia.indiatimes.com/city/ghaziabad/wanted-papers-for-his-share-drunk-son-pumps-3-bullets-into-father-in-ghaziabad-over-rs-150-crore-property-dispute/articleshow/132432885.cms",
+      "source": "Times of India",
+      "region": "North America",
+      "published": "2026-07-16T13:10:36+05:30",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Sabari Varman custodial death in Nagercoil jail: Chief warder, two warders arrested",
+      "url": "https://www.thehindu.com/news/national/tamil-nadu/chief-warder-two-warders-arrested-for-the-death-of-a-remand-prisoner-in-nagercoil-jail/article71222438.ece",
+      "source": "The Hindu",
+      "region": "North America",
+      "published": "2026-07-16T13:10:22+05:30",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Iran eyes the Red Sea: How it can control the vital maritime chokepoint",
+      "url": "https://timesofindia.indiatimes.com/world/middle-east/iran-eyes-the-red-sea-how-it-can-control-the-vital-martime-chokepoint/articleshow/132432685.cms",
+      "source": "Times of India",
+      "region": "Asia-Pacific",
+      "published": "2026-07-16T13:08:40+05:30",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Prisoner Sabari Varman dies in Nagercoil district jail, kin demand probe",
+      "url": "https://www.thehindu.com/news/national/tamil-nadu/prisoner-sabari-varman-dies-in-nagercoil-district-jail-kin-demand-probe/article71217349.ece",
+      "source": "The Hindu",
+      "region": "North America",
+      "published": "2026-07-16T13:06:04+05:30",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Tirupati police get 66 electric bikes for patrolling; 13 for Shakti Teams",
+      "url": "https://www.thehindu.com/news/national/andhra-pradesh/tirupati-police-get-66-electric-bikes-for-patrolling-13-for-shakti-teams/article71226528.ece",
+      "source": "The Hindu",
+      "region": "Asia-Pacific",
+      "published": "2026-07-16T13:05:50+05:30",
+      "sentiment": "positive"
+    },
+    {
+      "title": "'Stressful for students': SC tells Centre not to introduce 3rd language in Class 9",
+      "url": "https://timesofindia.indiatimes.com/india/new-language-in-class-9-stressful-sc-on-cbses-compulsory-3-language-decision/articleshow/132432470.cms",
+      "source": "Times of India",
+      "region": "North America",
+      "published": "2026-07-16T13:05:06+05:30",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Magisterial probe ordered into Ballia custodial death allegation; SP team to visit village",
+      "url": "https://www.thehindu.com/news/national/uttar-pradesh/magisterial-probe-ordered-into-ballia-custodial-death-allegation-sp-team-to-visit-village/article71228873.ece",
+      "source": "The Hindu",
+      "region": "North America",
+      "published": "2026-07-16T13:02:59+05:30",
+      "sentiment": "negative"
     },
     {
       "title": "New Zealand coach Rennie moves Vaa'i to blindside for Ireland test",
@@ -508,12 +892,76 @@
       "sentiment": "positive"
     },
     {
+      "title": "Nagercoil Sabari Varman\u2019s custodial death: Eight prison inmates arrested",
+      "url": "https://www.thehindu.com/news/national/tamil-nadu/nagercoil-sabari-varman-custodial-death-eight-prison-inmates-arrested/article71226426.ece",
+      "source": "The Hindu",
+      "region": "North America",
+      "published": "2026-07-16T13:00:44+05:30",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Why Turkmenistan\u2019s decades old \u2018door to hell\u2019 is fading",
+      "url": "https://timesofindia.indiatimes.com/world/rest-of-world/why-turkmenistans-decades-old-door-to-hell-is-fading/articleshow/132432501.cms",
+      "source": "Times of India",
+      "region": "Asia-Pacific",
+      "published": "2026-07-16T12:59:33+05:30",
+      "sentiment": "negative"
+    },
+    {
       "title": "More Japanese households see prices rising, BOJ survey shows",
       "url": "https://www.channelnewsasia.com/business/more-japanese-households-see-prices-rising-boj-survey-shows-6257696",
       "source": "Channel News Asia",
       "region": "Asia-Pacific",
       "published": "2026-07-16T12:57:56+08:00",
       "sentiment": "neutral"
+    },
+    {
+      "title": "Did Deepika Padukone delete an Instagram story backing Sonam Wangchuk amid hunger strike",
+      "url": "https://timesofindia.indiatimes.com/entertainment/hindi/bollywood/news/did-deepika-padukone-delete-an-instagram-story-backing-sonam-wangchuk-amid-hunger-strike-heres-the-truth/articleshow/132432397.cms",
+      "source": "Times of India",
+      "region": "Europe",
+      "published": "2026-07-16T12:50:36+05:30",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Why are rival Trinamool Congress factions competing to hold the July 21 Martyrs\u2019 Day Rally? | Explained",
+      "url": "https://www.thehindu.com/news/national/west-bengal/why-are-rival-trinamool-congress-factions-competing-to-hold-the-july-21-martyrs-day-rally-explained/article71228753.ece",
+      "source": "The Hindu",
+      "region": "North America",
+      "published": "2026-07-16T12:48:22+05:30",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Kanwariyas vandalise pickup after 'contact' with kanwar in Uttar Pradesh\u2019s Muzaffarnagar",
+      "url": "https://www.thehindu.com/news/national/uttar-pradesh/kanwariyas-vandalise-pickup-after-contact-with-kanwar-in-uttar-pradeshs-muzaffarnagar/article71228773.ece",
+      "source": "The Hindu",
+      "region": "North America",
+      "published": "2026-07-16T12:48:01+05:30",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Protest in Shivamogga over allowing students of private university and engineering course to apply for Agriculture Officer post",
+      "url": "https://www.thehindu.com/news/national/karnataka/protest-in-shivamogga-over-allowing-students-of-private-university-and-engineering-course-to-apply-for-agriculture-officer-post/article71228776.ece",
+      "source": "The Hindu",
+      "region": "Asia-Pacific",
+      "published": "2026-07-16T12:45:37+05:30",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Over 82,000 sign AAP's petition against mandatory E20 fuel",
+      "url": "https://timesofindia.indiatimes.com/india/give-us-the-choice-aap-opposes-mandatory-e20-petrol-launches-public-petition/articleshow/132431969.cms",
+      "source": "Times of India",
+      "region": "Asia-Pacific",
+      "published": "2026-07-16T12:44:44+05:30",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Trinamool MP Samirul Islam calls on family who was pushed into Bangladesh",
+      "url": "https://www.thehindu.com/news/national/west-bengal/trinamool-mp-samirul-islam-calls-on-family-who-was-pushed-into-bangladesh/article71228823.ece",
+      "source": "The Hindu",
+      "region": "Asia-Pacific",
+      "published": "2026-07-16T12:44:18+05:30",
+      "sentiment": "negative"
     },
     {
       "title": "Syngenta's $5 billion HK IPO pushed back amid agriculture sector uncertainty, Bloomberg News reports",
@@ -532,6 +980,38 @@
       "sentiment": "positive"
     },
     {
+      "title": "India's first hydrogen train set for launch: All you need to know",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/indias-first-hydrogen-train-set-for-july-17-launch-route-features-inside-look-and-faqs/articleshow/132431994.cms",
+      "source": "Times of India",
+      "region": "North America",
+      "published": "2026-07-16T12:35:59+05:30",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Scientists reveal why killer whales struggle to hear blue whales",
+      "url": "https://timesofindia.indiatimes.com/science/scientists-have-finally-explained-why-killer-whales-struggle-to-hear-blue-whales-and-the-answer-may-have-helped-the-giants-survive-for-millions-of-years/articleshow/132430950.cms",
+      "source": "Times of India",
+      "region": "North America",
+      "published": "2026-07-16T12:33:59+05:30",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Sean \u2018Diddy\u2019 Combs sells Miami mansion for $55M amid legal case",
+      "url": "https://timesofindia.indiatimes.com/real-estate/news/sean-diddy-combs-sells-55-million-miami-mansion-he-used-as-bail-collateral-in-sex-trafficking-case/articleshow/132431020.cms",
+      "source": "Times of India",
+      "region": "North America",
+      "published": "2026-07-16T12:31:51+05:30",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Kannada social media influencer booked for sexual harassment in Bengaluru",
+      "url": "https://www.thehindu.com/news/national/karnataka/social-media-influencer-booked-for-sexual-harassment-in-bengaluru/article71228764.ece",
+      "source": "The Hindu",
+      "region": "Asia-Pacific",
+      "published": "2026-07-16T12:27:17+05:30",
+      "sentiment": "negative"
+    },
+    {
       "title": "Asia is racing to adopt AI agents. The rewards are clear - but so are the security risks",
       "url": "https://www.channelnewsasia.com/asia/asia-ai-agents-adoption-advantages-security-risks-6255231",
       "source": "Channel News Asia",
@@ -540,11 +1020,43 @@
       "sentiment": "positive"
     },
     {
+      "title": "Judge blocks Trump's visa curbs for foreign researchers, trust &amp; safety experts",
+      "url": "https://timesofindia.indiatimes.com/technology/tech-news/judge-blocks-trump-administrations-visa-restrictions-for-foreign-researchers-trust-and-safety-professionals-including-ceo-of-the-us-based-/articleshow/132431910.cms",
+      "source": "Times of India",
+      "region": "North America",
+      "published": "2026-07-16T12:21:23+05:30",
+      "sentiment": "negative"
+    },
+    {
+      "title": "'We will kill Trump': Tehran puts up gigantic billboard depicting US president in coffin",
+      "url": "https://timesofindia.indiatimes.com/world/middle-east/we-will-kill-trump-tehran-puts-up-gigantic-billboard-depicting-us-president-in-coffin/articleshow/132431800.cms",
+      "source": "Times of India",
+      "region": "Middle East",
+      "published": "2026-07-16T12:20:39+05:30",
+      "sentiment": "negative"
+    },
+    {
       "title": "Thai band mourns loss of 4 members as Bangkok bar fire death toll hits 33",
       "url": "https://www.channelnewsasia.com/asia/thailand-bangkok-bar-fire-band-mourns-loss-6257646",
       "source": "Channel News Asia",
       "region": "North America",
       "published": "2026-07-16T12:20:00+08:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Lessons from Iran war? Saudi Arabia to buy 20,000 laser guided rockets to counter drones",
+      "url": "https://timesofindia.indiatimes.com/defence/international/lessons-from-iran-war-saudi-arabia-to-buy-20000-laser-guided-rockets-to-counter-drones/articleshow/132431765.cms",
+      "source": "Times of India",
+      "region": "North America",
+      "published": "2026-07-16T12:19:43+05:30",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Supreme Court to hear appeal against ban on animated film Mahaprabhu Jagannath for not being true to \u2018Skanda Purana\u2019",
+      "url": "https://www.thehindu.com/news/national/supreme-court-agrees-to-hear-appeal-against-ban-on-animated-film-for-not-being-true-to-skanda-purana/article71228711.ece",
+      "source": "The Hindu",
+      "region": "Asia-Pacific",
+      "published": "2026-07-16T12:18:49+05:30",
       "sentiment": "negative"
     },
     {
@@ -564,12 +1076,68 @@
       "sentiment": "positive"
     },
     {
+      "title": "ED searches 13 locations in alleged terror-funding and illegal infiltration case",
+      "url": "https://www.thehindu.com/news/national/ed-searches-13-locations-in-alleged-terror-funding-and-illegal-infiltration-case/article71228775.ece",
+      "source": "The Hindu",
+      "region": "Asia-Pacific",
+      "published": "2026-07-16T12:14:45+05:30",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Religious leaders condemn attack on HPE leader Vijayaviharam Ramanamurthy",
+      "url": "https://www.thehindu.com/news/national/telangana/religious-leaders-condemn-attack-on-hpe-leader-vijayaviharam-ramanamurthy/article71226874.ece",
+      "source": "The Hindu",
+      "region": "North America",
+      "published": "2026-07-16T12:13:54+05:30",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Two hurt as fishing boat capsizes near Visakhapatnam Fishing Harbour; all seven survive",
+      "url": "https://www.thehindu.com/news/cities/Visakhapatnam/two-hurt-as-fishing-boat-capsizes-near-visakhapatnam-fishing-harbour-all-seven-survive/article71228534.ece",
+      "source": "The Hindu",
+      "region": "Asia-Pacific",
+      "published": "2026-07-16T12:08:45+05:30",
+      "sentiment": "negative"
+    },
+    {
       "title": "Singapore Night Festival returns in August with new Museum Zone and larger-than-life light shows",
       "url": "https://www.channelnewsasia.com/living/singapore-night-festival-highlights-6257361",
       "source": "Channel News Asia",
       "region": "Asia-Pacific",
       "published": "2026-07-16T12:08:41+08:00",
       "sentiment": "positive"
+    },
+    {
+      "title": "Kuppam: a granite quarry hub, now emerging as a peacock paradise",
+      "url": "https://www.thehindu.com/news/national/andhra-pradesh/kuppam-a-granite-quarry-hub-now-emerging-as-a-peacock-paradise/article71206619.ece",
+      "source": "The Hindu",
+      "region": "North America",
+      "published": "2026-07-16T12:08:40+05:30",
+      "sentiment": "positive"
+    },
+    {
+      "title": "HC directs Telangana govt to grant 180 days maternity leave for lecturer\u2019s second pregnancy; woman had twins in first pregnancy",
+      "url": "https://www.thehindu.com/news/national/telangana/hc-directs-telangana-govt-to-grant-180-days-maternity-leave-for-lecturers-second-pregnancy-woman-had-twins-in-first-pregnancy/article71226949.ece",
+      "source": "The Hindu",
+      "region": "Asia-Pacific",
+      "published": "2026-07-16T12:02:04+05:30",
+      "sentiment": "negative"
+    },
+    {
+      "title": "T.N. will take appropriate steps to get Cauvery water for farmers: Agriculture Minister",
+      "url": "https://www.thehindu.com/news/national/tamil-nadu/tn-will-take-appropriate-steps-to-get-cauvery-water-for-farmers-agriculture-minister/article71202816.ece",
+      "source": "The Hindu",
+      "region": "Asia-Pacific",
+      "published": "2026-07-16T12:00:41+05:30",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Celebrity TV chef reveals husband of 38 years was killed during robbery",
+      "url": "https://timesofindia.indiatimes.com/life-style/food-news/celebrity-tv-chef-reveals-husband-of-38-years-was-killed-during-a-robbery-says-she-is-slowly-finding-her-way-back-to-work/articleshow/132430872.cms",
+      "source": "Times of India",
+      "region": "North America",
+      "published": "2026-07-16T11:59:41+05:30",
+      "sentiment": "negative"
     },
     {
       "title": "Japan finance minister: economic growth potential may warrant review of pension asset mix",
@@ -580,6 +1148,14 @@
       "sentiment": "positive"
     },
     {
+      "title": "Hyderabad pharma firm executives donate \u20b92 crore to TTD scheme in Tirumala",
+      "url": "https://www.thehindu.com/news/national/andhra-pradesh/hyderabad-pharma-firm-executives-donate-2-crore-to-ttd-scheme-in-tirumala/article71226771.ece",
+      "source": "The Hindu",
+      "region": "Asia-Pacific",
+      "published": "2026-07-16T11:51:05+05:30",
+      "sentiment": "negative"
+    },
+    {
       "title": "US unveils new 25% tariff on certain imports from Brazil",
       "url": "https://www.channelnewsasia.com/world/us-tariff-brazil-imports-trade-6257546",
       "source": "Channel News Asia",
@@ -588,11 +1164,67 @@
       "sentiment": "positive"
     },
     {
+      "title": "'Cast-iron support for Ukraine': Keir Starmer backs Kyiv on final visit as UK PM",
+      "url": "https://timesofindia.indiatimes.com/world/uk/cast-iron-support-for-ukraine-will-always-endure-keir-starmer-backs-kyiv-on-final-visit-as-uk-pm/articleshow/132430866.cms",
+      "source": "Times of India",
+      "region": "Europe",
+      "published": "2026-07-16T11:46:59+05:30",
+      "sentiment": "positive"
+    },
+    {
+      "title": "17-Year-Old Leads 300 US Navy Cadets Before School, Nears Naval Officer Dream",
+      "url": "https://timesofindia.indiatimes.com/education/news/at-17-she-leads-nearly-300-us-navy-cadets-before-school-now-shes-one-step-closer-to-becoming-a-naval-officer/articleshow/132431111.cms",
+      "source": "Times of India",
+      "region": "Asia-Pacific",
+      "published": "2026-07-16T11:46:11+05:30",
+      "sentiment": "positive"
+    },
+    {
       "title": "US approves nearly US$2 billion in weapons sales to Saudi Arabia",
       "url": "https://www.channelnewsasia.com/world/us-approves-nearly-us2-billion-in-weapons-sales-saudi-arabia-6257476",
       "source": "Channel News Asia",
       "region": "North America",
       "published": "2026-07-16T11:42:45+08:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Telangana State Legislative Assembly Secretariat and EQUIPPP sign MoU to set up constituency development foundations",
+      "url": "https://www.thehindu.com/news/national/telangana/telangana-state-legislative-assembly-secretariat-and-equippp-sign-mou-to-set-up-constituency-development-foundations/article71228484.ece",
+      "source": "The Hindu",
+      "region": "Asia-Pacific",
+      "published": "2026-07-16T11:38:07+05:30",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Will gold head to Rs 1.45 lakh/10 gm &amp; silver reach Rs 2.27 lakh per kg? Check outlook",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/gold-silver-price-prediction-today-what-is-the-gold-rate-outlook-for-july-16-2026-should-you-buy-or-sell-mcx-gold-mcx-silver/articleshow/132431014.cms",
+      "source": "Times of India",
+      "region": "Asia-Pacific",
+      "published": "2026-07-16T11:34:13+05:30",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Army chief visits crucial Siliguri Corridor - why Chicken's Neck area is critical for India",
+      "url": "https://timesofindia.indiatimes.com/defence/news/army-chief-visits-crucial-siliguri-corridor-why-chickens-neck-area-is-critical-for-india/articleshow/132430918.cms",
+      "source": "Times of India",
+      "region": "Asia-Pacific",
+      "published": "2026-07-16T11:32:59+05:30",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Devotees throng ISKCON Jagannath temple in Vijayawada for Nava Yauvana darshan",
+      "url": "https://www.thehindu.com/news/national/andhra-pradesh/devotees-throng-iskcon-jagannath-temple-in-vijayawada-for-nava-yauvana-darshan/article71225430.ece",
+      "source": "The Hindu",
+      "region": "Asia-Pacific",
+      "published": "2026-07-16T11:28:05+05:30",
+      "sentiment": "positive"
+    },
+    {
+      "title": "'Every life is precious': Delhi HC urges Centre to regularly examine Wangchuk's health",
+      "url": "https://timesofindia.indiatimes.com/india/life-is-precious-delhi-hc-urges-centre-to-regularly-examine-sonam-wangchuks-health/articleshow/132430821.cms",
+      "source": "Times of India",
+      "region": "Asia-Pacific",
+      "published": "2026-07-16T11:28:03+05:30",
       "sentiment": "negative"
     },
     {
@@ -625,638 +1257,6 @@
       "source": "The Hindu",
       "region": "Asia-Pacific",
       "published": "2026-07-16T11:22:29+05:30",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Gotham v Spirit clash draws record New York crowd for women's sports",
-      "url": "https://www.channelnewsasia.com/sport/gotham-v-spirit-clash-draws-record-new-york-crowd-womens-sports-6257491",
-      "source": "Channel News Asia",
-      "region": "North America",
-      "published": "2026-07-16T11:22:16+08:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Interpretation of sexual offences should not be limited only to physical act: NCW chief",
-      "url": "https://www.thehindu.com/news/national/interpretation-of-sexual-offences-should-not-be-limited-only-to-physical-act-ncw-chief/article71228637.ece",
-      "source": "The Hindu",
-      "region": "North America",
-      "published": "2026-07-16T11:17:48+05:30",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Wedding band didn't show up for baraat; consumer court orders Rs 39,000 payout",
-      "url": "https://timesofindia.indiatimes.com/legal/news/wedding-band-didnt-show-up-for-baraat-consumer-court-orders-rs-39000-payout/articleshow/132430745.cms",
-      "source": "Times of India",
-      "region": "Asia-Pacific",
-      "published": "2026-07-16T11:16:13+05:30",
-      "sentiment": "negative"
-    },
-    {
-      "title": "At least 500 Rohingya feared dead after two boats capsize in Bay of Bengal",
-      "url": "https://timesofindia.indiatimes.com/world/south-asia/at-least-500-rohingya-feared-dead-after-two-boats-capsize-in-bay-of-bengal/articleshow/132430566.cms",
-      "source": "Times of India",
-      "region": "North America",
-      "published": "2026-07-16T11:08:57+05:30",
-      "sentiment": "negative"
-    },
-    {
-      "title": "'Isn't paper leak\u2014it's theft': Rahul Gandhi ahead of Dehradun leg of 'Chhatron Ki Goonj'",
-      "url": "https://timesofindia.indiatimes.com/india/this-isnt-a-paper-leakits-theft-rahul-gandhi-ahead-of-dehradun-leg-of-chhatron-ki-goonj-on-july-17/articleshow/132430265.cms",
-      "source": "Times of India",
-      "region": "Asia-Pacific",
-      "published": "2026-07-16T11:05:20+05:30",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Hyderabad school terminates teacher who allegedly gave 'Kalma' recitation as homework",
-      "url": "https://timesofindia.indiatimes.com/city/hyderabad/hyderabad-school-terminates-teacher-who-allegedly-gave-kalma-recitation-as-homework/articleshow/132430379.cms",
-      "source": "Times of India",
-      "region": "North America",
-      "published": "2026-07-16T11:02:19+05:30",
-      "sentiment": "negative"
-    },
-    {
-      "title": "'Avoid deploying Indian seafarers': Centre tells ship owners as Iran war reignites",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/avoid-deploying-indian-seafarers-on-vessels-that-will-cross-hormuz-centres-advisory-to-ship-owners-as-gulf-tensions-reignite/articleshow/132430155.cms",
-      "source": "Times of India",
-      "region": "Asia-Pacific",
-      "published": "2026-07-16T10:56:51+05:30",
-      "sentiment": "negative"
-    },
-    {
-      "title": "State liable to pay compensation in manual scavenging deaths even if labourers were employed by private individuals: Bombay High Court",
-      "url": "https://www.thehindu.com/news/national/maharashtra/state-liable-to-pay-compensation-in-manual-scavenging-deaths-even-if-labourers-were-employed-by-private-individuals-bombay-high-court/article71226507.ece",
-      "source": "The Hindu",
-      "region": "Asia-Pacific",
-      "published": "2026-07-16T10:55:03+05:30",
-      "sentiment": "negative"
-    },
-    {
-      "title": "SIR in Karnataka: Will deadline extension ease burden on voters and BLOs? | Decode Karnataka",
-      "url": "https://www.thehindu.com/videos/shows/sir-in-karnataka-will-deadline-extension-ease-burden-on-voters-and-blos/article71228610.ece",
-      "source": "The Hindu",
-      "region": "Asia-Pacific",
-      "published": "2026-07-16T10:50:11+05:30",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Market demand, experience in building facility to decide Amara Raja gigafactory expansion: Jayadev Galla",
-      "url": "https://www.thehindu.com/news/cities/Hyderabad/market-demand-experience-in-building-facility-to-decide-amara-raja-gigafactory-expansion-jayadev-galla/article71226915.ece",
-      "source": "The Hindu",
-      "region": "Asia-Pacific",
-      "published": "2026-07-16T10:49:21+05:30",
-      "sentiment": "negative"
-    },
-    {
-      "title": "US Fed enlists ex-RBI guv Rajan, 2 other Indians for massive policy overhaul",
-      "url": "https://timesofindia.indiatimes.com/business/international-business/ex-rbi-governor-raghuram-rajan-and-2-other-indians-on-us-feds-monetary-policy-review-panels/articleshow/132430111.cms",
-      "source": "Times of India",
-      "region": "Asia-Pacific",
-      "published": "2026-07-16T10:49:17+05:30",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Provident Fund interest credited to all 34 crore accounts\u00a0on July 15",
-      "url": "https://www.thehindu.com/news/national/provident-fund-interest-credited-to-all-34-crore-accountson-july-15/article71228561.ece",
-      "source": "The Hindu",
-      "region": "North America",
-      "published": "2026-07-16T10:46:47+05:30",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Hurdles before Assam-Nagaland border oil exploration | Explained",
-      "url": "https://www.thehindu.com/news/national/hurdles-before-assam-nagaland-border-oil-exploration-explained/article71228472.ece",
-      "source": "The Hindu",
-      "region": "Asia-Pacific",
-      "published": "2026-07-16T10:46:08+05:30",
-      "sentiment": "positive"
-    },
-    {
-      "title": "World Cup's 'Chief Watchers' savour tournament's dream job",
-      "url": "https://www.channelnewsasia.com/sport/world-cups-chief-watchers-savour-tournaments-dream-job-6257436",
-      "source": "Channel News Asia",
-      "region": "Global",
-      "published": "2026-07-16T10:38:30+08:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "A R Rahman receives standing ovation at Wolf Trap concert with national symphony orchestra",
-      "url": "https://timesofindia.indiatimes.com/entertainment/hindi/bollywood/news/a-r-rahman-receives-standing-ovation-at-wolf-trap-concert-mesmerises-audience-with-national-symphony-orchestra/articleshow/132430113.cms",
-      "source": "Times of India",
-      "region": "North America",
-      "published": "2026-07-16T10:37:25+05:30",
-      "sentiment": "negative"
-    },
-    {
-      "title": "KLS GIT inaugurates \u2018factory on campus\u2019 in Belagavi",
-      "url": "https://www.thehindu.com/news/national/karnataka/kls-git-inaugurates-factory-on-campus-in-belagavi/article71226824.ece",
-      "source": "The Hindu",
-      "region": "North America",
-      "published": "2026-07-16T10:36:29+05:30",
-      "sentiment": "positive"
-    },
-    {
-      "title": "NPCIL denies nuclear systems breach after Kudankulam data leak report",
-      "url": "https://timesofindia.indiatimes.com/india/npcil-denies-nuclear-systems-breach-after-kudankulam-data-leak-report/articleshow/132430064.cms",
-      "source": "Times of India",
-      "region": "Asia-Pacific",
-      "published": "2026-07-16T10:33:46+05:30",
-      "sentiment": "negative"
-    },
-    {
-      "title": "'Could be alarming': Doctor flag new 'risks' as Wangchuk loses over 9kgs, fast enters Day 19",
-      "url": "https://timesofindia.indiatimes.com/india/could-be-alarming-doctor-flag-new-risks-as-sonam-wangchuk-loses-over-9kgs-fast-enters-day-19/articleshow/132430028.cms",
-      "source": "Times of India",
-      "region": "Europe",
-      "published": "2026-07-16T10:33:19+05:30",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Nearly half of 844 million chronic kidney disease cases remain undiagnosed worldwide: Lancet",
-      "url": "https://www.thehindu.com/sci-tech/health/nearly-half-of-844-million-chronic-kidney-disease-cases-remain-undiagnosed-worldwide-lancet/article71225434.ece",
-      "source": "The Hindu",
-      "region": "Asia-Pacific",
-      "published": "2026-07-16T10:31:35+05:30",
-      "sentiment": "negative"
-    },
-    {
-      "title": "BJP asks Congress to clarify stand on Saifuddin Soz\u2019s \u201cinternal autonomy\u201d remarks",
-      "url": "https://www.thehindu.com/news/national/jammu-and-kashmir/bjp-asks-congress-to-clarify-stand-on-saifuddin-sozs-internal-autonomy-remarks/article71226608.ece",
-      "source": "The Hindu",
-      "region": "Asia-Pacific",
-      "published": "2026-07-16T10:27:12+05:30",
-      "sentiment": "positive"
-    },
-    {
-      "title": "How Spain's triangles dismantled France's World Cup dream",
-      "url": "https://timesofindia.indiatimes.com/sports/football/fifa-world-cup/of-triangles-tactical-nuances-and-la-rojas-road-to-the-finale/articleshow/132429939.cms",
-      "source": "Times of India",
-      "region": "Europe",
-      "published": "2026-07-16T10:26:43+05:30",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Fiji's Kuruvoli suspended for striking Genge, will miss Scotland test",
-      "url": "https://www.channelnewsasia.com/sport/fijis-kuruvoli-suspended-striking-genge-will-miss-scotland-test-6257401",
-      "source": "Channel News Asia",
-      "region": "North America",
-      "published": "2026-07-16T10:26:36+08:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Anupam Mittal says India doesn\u2019t need to win model race to be in AI race",
-      "url": "https://timesofindia.indiatimes.com/technology/tech-news/shark-tank-judge-anupam-mittal-india-doesnt-need-to-win-the-model-race-to-be-in-the-ai-race-the-real-battle-is-/articleshow/132429914.cms",
-      "source": "Times of India",
-      "region": "Asia-Pacific",
-      "published": "2026-07-16T10:18:48+05:30",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Skipped land acquisition hearing? Supreme Court says you can't claim denial later",
-      "url": "https://timesofindia.indiatimes.com/legal/news/skipped-land-acquisition-hearing-you-cant-later-claim-denial-of-hearing-says-supreme-court/articleshow/132429617.cms",
-      "source": "Times of India",
-      "region": "Asia-Pacific",
-      "published": "2026-07-16T10:12:32+05:30",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Rise above political divide and work in public interest, V-P tells legislators",
-      "url": "https://www.thehindu.com/news/national/rajasthan/rise-above-political-divide-and-work-in-public-interest-v-p-tells-legislators/article71226301.ece",
-      "source": "The Hindu",
-      "region": "Asia-Pacific",
-      "published": "2026-07-16T10:11:08+05:30",
-      "sentiment": "positive"
-    },
-    {
-      "title": "$3 billion money laundering case: Conveyancing lawyer charged with forgery over property purchase",
-      "url": "https://www.straitstimes.com/singapore/courts-crime/3-billion-money-laundering-case-conveyancing-lawyer-charged-with-forgery-over-property-purchase",
-      "source": "Straits Times",
-      "region": "Global",
-      "published": "2026-07-16T10:03:35+08:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Abnormal heatwave conditions to persist across Tamil Nadu till July 17; rainfall set to improve later this week",
-      "url": "https://www.thehindu.com/news/national/tamil-nadu/abnormal-heatwave-conditions-to-persist-across-tamil-nadu-till-july-17-rainfall-set-to-improve-later-this-week/article71226160.ece",
-      "source": "The Hindu",
-      "region": "North America",
-      "published": "2026-07-16T10:02:56+05:30",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Ben Yeo shuts all 6 sliced fish soup stalls after 5-figure loss, opens affordable zi char spot in Yishun",
-      "url": "https://www.channelnewsasia.com/dining/ben-yeo-zi-char-outlet-yishun-20-dishes-only-6257291",
-      "source": "Channel News Asia",
-      "region": "Global",
-      "published": "2026-07-16T10:02:00+08:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "South Korea regulator to announce new measures on single-stock leveraged ETFs",
-      "url": "https://www.channelnewsasia.com/business/south-korea-regulator-announce-new-measures-single-stock-leveraged-etfs-6257376",
-      "source": "Channel News Asia",
-      "region": "Asia-Pacific",
-      "published": "2026-07-16T10:01:44+08:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Proposed apartment law may not be perfect, but it is a good start; Greater Bengaluru Development Minister Krishna Byre Gowda seeks feedback",
-      "url": "https://www.thehindu.com/news/cities/bangalore/proposed-apartment-law-may-not-be-perfect-but-it-is-a-good-start-greater-bengaluru-development-minister-krishna-byre-gowda/article71227042.ece",
-      "source": "The Hindu",
-      "region": "Asia-Pacific",
-      "published": "2026-07-16T10:01:20+05:30",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Singapore residents set to spend S$1 billion more a year in JB after RTS Link opens: Study",
-      "url": "https://www.channelnewsasia.com/singapore/singapore-spend-more-jb-rts-link-opens-6257241",
-      "source": "Channel News Asia",
-      "region": "Asia-Pacific",
-      "published": "2026-07-16T10:00:00+08:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Are banks closed today for Rath Yatra and Harela? Check state-wise list",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/bank-holiday-today-will-banks-remain-shut-for-rath-yatra-and-harela-on-july-16-check-state-wise-list/articleshow/132429136.cms",
-      "source": "Times of India",
-      "region": "North America",
-      "published": "2026-07-16T10:00:00+05:30",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Dollar near one-month low as cooling inflation curbs Fed hike bets",
-      "url": "https://www.channelnewsasia.com/business/dollar-near-one-month-low-cooling-inflation-curbs-fed-hike-bets-6257351",
-      "source": "Channel News Asia",
-      "region": "Global",
-      "published": "2026-07-16T09:56:59+08:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "BOJ may face pressure to ramp up bond-buying if yields spike, ex-central bank policymaker says",
-      "url": "https://www.channelnewsasia.com/business/boj-may-face-pressure-ramp-up-bond-buying-if-yields-spike-ex-central-bank-policymaker-says-6257356",
-      "source": "Channel News Asia",
-      "region": "Global",
-      "published": "2026-07-16T09:56:00+08:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Celine Dion fuels speculation among local fans after reminiscing about Singapore in series of posts",
-      "url": "https://www.channelnewsasia.com/entertainment/celine-dion-singapore-memories-post-6257296",
-      "source": "Channel News Asia",
-      "region": "Asia-Pacific",
-      "published": "2026-07-16T09:55:00+08:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Messi, space &amp; Argentina's relentless pressure: How final 10 mins broke England",
-      "url": "https://timesofindia.indiatimes.com/sports/football/fifa-world-cup/how-lionel-messis-argentina-punished-englands-retreat-to-turn-fifa-world-cup-semifinal-on-its-head-in-10-minutes/articleshow/132429142.cms",
-      "source": "Times of India",
-      "region": "Europe",
-      "published": "2026-07-16T09:54:24+05:30",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Little known to outside world, Ladakh\u2019s apricot hits global market with 5 metric tonnes shipped to UAE",
-      "url": "https://www.thehindu.com/news/national/ladakh/little-known-to-outside-world-ladakhs-apricot-hits-global-market-with-5-metric-tonnes-shipped-to-uae/article71226988.ece",
-      "source": "The Hindu",
-      "region": "Middle East",
-      "published": "2026-07-16T09:52:46+05:30",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Women's quota, Delimitation Bills will be passed in Monsoon Session: Athawale",
-      "url": "https://www.thehindu.com/news/national/womens-quota-delimitation-bills-will-be-passed-in-monsoon-session-athawale/article71228461.ece",
-      "source": "The Hindu",
-      "region": "Asia-Pacific",
-      "published": "2026-07-16T09:52:23+05:30",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Latur coaching owner paid \u20b95 lakh to procure NEET questions from NTA paper-setter, says CBI",
-      "url": "https://www.thehindu.com/news/national/latur-coaching-owner-paid-5-lakh-to-procure-neet-questions-from-nta-paper-setter-says-cbi/article71228421.ece",
-      "source": "The Hindu",
-      "region": "Asia-Pacific",
-      "published": "2026-07-16T09:50:28+05:30",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Gujarat announces rehabilitation package for Surat flood-affected traders",
-      "url": "https://www.thehindu.com/news/national/gujarat/gujarat-announces-rehabilitation-package-for-surat-flood-affected-traders/article71226912.ece",
-      "source": "The Hindu",
-      "region": "North America",
-      "published": "2026-07-16T09:44:20+05:30",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Bengaluru law student dies after man stabs her for rejecting his brother's marriage proposal",
-      "url": "https://timesofindia.indiatimes.com/city/bengaluru/bengaluru-law-student-dies-after-accuseds-brother-stabs-her-over-rejected-proposal/articleshow/132429291.cms",
-      "source": "Times of India",
-      "region": "North America",
-      "published": "2026-07-16T09:43:02+05:30",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Senior Chinese and North Korean officials hold talks in Pyongyang",
-      "url": "https://www.channelnewsasia.com/east-asia/china-north-korea-officials-meet-pyongyang-cooperation-6257081",
-      "source": "Channel News Asia",
-      "region": "Asia-Pacific",
-      "published": "2026-07-16T09:39:00+08:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "On the Grand Road of Puri",
-      "url": "https://www.thehindu.com/opinion/op-ed/on-the-grand-road-of-puri/article71226564.ece",
-      "source": "The Hindu",
-      "region": "Asia-Pacific",
-      "published": "2026-07-16T09:36:28+05:30",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Moonlighting software engineer earns Rs 7 lakh, yet fears AI",
-      "url": "https://timesofindia.indiatimes.com/education/news/he-earns-rs-7-lakh-a-month-by-moonlighting-for-a-us-company-yet-fears-ai-could-end-it-all-a-software-engineers-story-every-student-should-read/articleshow/132429147.cms",
-      "source": "Times of India",
-      "region": "North America",
-      "published": "2026-07-16T09:35:27+05:30",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Stabbed because of religion: What we know about attack on Indian-origin man in US",
-      "url": "https://timesofindia.indiatimes.com/world/us/stabbed-because-of-religion-what-we-know-about-attack-on-indian-origin-man-in-us/articleshow/132429163.cms",
-      "source": "Times of India",
-      "region": "Asia-Pacific",
-      "published": "2026-07-16T09:30:02+05:30",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Indian national stabbed in U.S. over his religion: reports",
-      "url": "https://www.thehindu.com/news/international/indian-national-stabbed-in-us-over-his-religion-reports/article71228404.ece",
-      "source": "The Hindu",
-      "region": "Asia-Pacific",
-      "published": "2026-07-16T09:25:00+05:30",
-      "sentiment": "negative"
-    },
-    {
-      "title": "'They better behave': Trump says Iran wants settlement amid fresh strikes",
-      "url": "https://timesofindia.indiatimes.com/world/us/they-better-behave-trump-says-iran-wants-settlement-amid-fresh-strikes/articleshow/132429050.cms",
-      "source": "Times of India",
-      "region": "Middle East",
-      "published": "2026-07-16T09:22:00+05:30",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Explained: What is Argentina's 'Las Malvinas' Falkland Islands controversy?",
-      "url": "https://timesofindia.indiatimes.com/sports/football/fifa-world-cup/explained-what-is-argentinas-las-malvinas-falkland-islands-controversy-why-fifa-could-act-over-fifa-world-cup-banner/articleshow/132428963.cms",
-      "source": "Times of India",
-      "region": "Europe",
-      "published": "2026-07-16T09:17:29+05:30",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Karnataka govt proposes new apartment bill: Why it matters for flat owners",
-      "url": "https://timesofindia.indiatimes.com/real-estate/news/karnataka-government-proposes-new-apartment-bill-why-it-matters-for-flat-owners/articleshow/132424535.cms",
-      "source": "Times of India",
-      "region": "Asia-Pacific",
-      "published": "2026-07-16T09:15:00+05:30",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Police summon ex-officials in probe into missing inquiry reports from Odisha CMO",
-      "url": "https://www.thehindu.com/news/national/odisha/police-summon-ex-officials-in-probe-into-missing-inquiry-reports-from-odisha-cmo/article71228399.ece",
-      "source": "The Hindu",
-      "region": "Asia-Pacific",
-      "published": "2026-07-16T09:05:37+05:30",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Top stocks to buy: Stock recommendations for today - check list",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/top-stock-recommendations-for-july-16-2026-anant-raj-sobha-pnb-housing-finance-best-stocks-to-buy-today/articleshow/132428685.cms",
-      "source": "Times of India",
-      "region": "North America",
-      "published": "2026-07-16T08:55:35+05:30",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Gill's chase at Edgbaston showed why India already have Kohli's ODI heir",
-      "url": "https://timesofindia.indiatimes.com/sports/cricket/india-tour-of-england/shubman-gills-chase-at-edgbaston-showed-why-india-already-have-virat-kohlis-odi-heir/articleshow/132428594.cms",
-      "source": "Times of India",
-      "region": "Europe",
-      "published": "2026-07-16T08:54:36+05:30",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Oil prices rise for 4th day as US strikes on Iran raise fears of wider conflict",
-      "url": "https://www.channelnewsasia.com/business/oil-prices-rise-4th-day-us-strikes-iran-raise-fears-wider-conflict-6257256",
-      "source": "Channel News Asia",
-      "region": "North America",
-      "published": "2026-07-16T08:42:46+08:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "'Very cute': US President Donald Trump welcomes new $1 coin with his face on it",
-      "url": "https://timesofindia.indiatimes.com/business/international-business/very-cute-us-president-donald-trump-welcomes-new-1-coin-with-his-face-on-it/articleshow/132428202.cms",
-      "source": "Times of India",
-      "region": "North America",
-      "published": "2026-07-16T08:41:05+05:30",
-      "sentiment": "positive"
-    },
-    {
-      "title": "FDA raids Siya Goyal's father's shop, seizes food products worth over Rs 8 lakh",
-      "url": "https://timesofindia.indiatimes.com/india/fda-raids-siya-goyals-fathers-shop-seizes-food-products-worth-over-rs-8-lakh/articleshow/132428539.cms",
-      "source": "Times of India",
-      "region": "Asia-Pacific",
-      "published": "2026-07-16T08:38:25+05:30",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Bihar cabinet authorises Gram Panchayats to levy and collect taxes in Panchayats",
-      "url": "https://www.thehindu.com/news/national/bihar/bihar-cabinet-authorises-gram-panchayats-to-levy-and-collect-taxes-in-panchayats/article71226662.ece",
-      "source": "The Hindu",
-      "region": "Europe",
-      "published": "2026-07-16T08:38:05+05:30",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "China and Xi are seen more favourably than the US and Trump in many nations, Pew study suggests",
-      "url": "https://www.channelnewsasia.com/world/china-xi-united-states-trump-pew-study-favourable-6256736",
-      "source": "Channel News Asia",
-      "region": "North America",
-      "published": "2026-07-16T08:34:00+08:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Gyanvapi dispute resolution set for the long haul, with both sides saying no to mediation",
-      "url": "https://www.thehindu.com/news/national/uttar-pradesh/gyanvapi-dispute-resolution-set-for-the-long-haul-with-both-sides-saying-no-to-mediation/article71226546.ece",
-      "source": "The Hindu",
-      "region": "Asia-Pacific",
-      "published": "2026-07-16T08:30:32+05:30",
-      "sentiment": "negative"
-    },
-    {
-      "title": "'Not in good shape but ...': Sonam Wangchuk refuses to end fast despite health concerns",
-      "url": "https://timesofindia.indiatimes.com/india/not-in-good-shape-but-sonam-wangchuk-refuses-to-end-fast-despite-health-concerns/articleshow/132428303.cms",
-      "source": "Times of India",
-      "region": "North America",
-      "published": "2026-07-16T08:22:52+05:30",
-      "sentiment": "positive"
-    },
-    {
-      "title": "'Certain elements' in Israeli government want endless war, says JD Vance",
-      "url": "https://timesofindia.indiatimes.com/world/us/certain-elements-in-israeli-government-want-endless-war-says-us-vp-jd-vance/articleshow/132428316.cms",
-      "source": "Times of India",
-      "region": "Middle East",
-      "published": "2026-07-16T08:20:34+05:30",
-      "sentiment": "negative"
-    },
-    {
-      "title": "'Mossad or CIA': Vance hints at Epstein-Israeli intel link; admits Trump admin 'screwed up'",
-      "url": "https://timesofindia.indiatimes.com/world/us/mossad-or-cia-vance-hints-at-epstein-link-to-israeli-intel-admits-trump-admin-screwed-up-handling-of-files/articleshow/132428064.cms",
-      "source": "Times of India",
-      "region": "Middle East",
-      "published": "2026-07-16T08:06:10+05:30",
-      "sentiment": "negative"
-    },
-    {
-      "title": "'To keep troops at absolute best': US announces testosterone screening for service members",
-      "url": "https://timesofindia.indiatimes.com/world/us/to-keep-troops-at-their-absolute-best-us-to-begin-annual-testosterone-screening-for-service-members-says-pete-hegseth/articleshow/132427913.cms",
-      "source": "Times of India",
-      "region": "North America",
-      "published": "2026-07-16T08:01:45+05:30",
-      "sentiment": "positive"
-    },
-    {
-      "title": "England not cursed, says Tuchel, after more World Cup heartbreak",
-      "url": "https://www.channelnewsasia.com/sport/england-not-cursed-says-tuchel-after-more-world-cup-heartbreak-6257216",
-      "source": "Channel News Asia",
-      "region": "Europe",
-      "published": "2026-07-16T07:59:52+08:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Jon Gruden on Antonio Brown: 'He finished everything' and NFL's future",
-      "url": "https://timesofindia.indiatimes.com/sports/nfl/news/he-finished-everything-jon-gruden-drops-candid-admission-about-antonio-brown-while-sending-strong-message-about-the-nfls-future/articleshow/132427894.cms",
-      "source": "Times of India",
-      "region": "North America",
-      "published": "2026-07-16T07:59:11+05:30",
-      "sentiment": "negative"
-    },
-    {
-      "title": "'There were mistakes': Acting US attorney general Blanche grilled over Trump ties and Epstein files",
-      "url": "https://timesofindia.indiatimes.com/world/us/there-were-mistakes-acting-us-attorney-general-blanche-grilled-over-trump-ties-and-epstein-files/articleshow/132427716.cms",
-      "source": "Times of India",
-      "region": "North America",
-      "published": "2026-07-16T07:53:21+05:30",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Argentina\u00a0are best with their backs to the wall, says coach Scaloni",
-      "url": "https://www.channelnewsasia.com/sport/argentina-are-best-their-backs-wall-says-coach-scaloni-6257191",
-      "source": "Channel News Asia",
-      "region": "South America",
-      "published": "2026-07-16T07:48:53+08:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Messi's reaction after Argentina players find England goalkeeper's secret penalty notes",
-      "url": "https://timesofindia.indiatimes.com/sports/football/fifa-world-cup/watch-messis-reaction-after-argentina-players-find-england-goalkeepers-secret-penalty-notes/articleshow/132427520.cms",
-      "source": "Times of India",
-      "region": "North America",
-      "published": "2026-07-16T07:48:10+05:30",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Bellingham slaps Argentina player on the head after England's semifinal defeat",
-      "url": "https://timesofindia.indiatimes.com/sports/football/fifa-world-cup/tensions-flare-jude-bellingham-involved-in-heated-exchange-with-argentina-players-after-england-semifinal-defeat-watch/articleshow/132427805.cms",
-      "source": "Times of India",
-      "region": "Europe",
-      "published": "2026-07-16T07:45:10+05:30",
-      "sentiment": "negative"
-    },
-    {
-      "title": "OpenAI staff donate $215,000 to group pushing AI rules Sam Altman opposes",
-      "url": "https://timesofindia.indiatimes.com/technology/tech-news/employee-revolt-brewing-inside-chatgpt-maker-openai-and-the-reason-is-that-a-group-of-employees-have-donated-more-than-215000-to-/articleshow/132427787.cms",
-      "source": "Times of India",
-      "region": "North America",
-      "published": "2026-07-16T07:38:50+05:30",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Brookfield-backed Csquare prices IPO at $21 per share, Bloomberg News reports",
-      "url": "https://www.channelnewsasia.com/business/brookfield-backed-csquare-prices-ipo-21-share-bloomberg-news-reports-6257181",
-      "source": "Channel News Asia",
-      "region": "Global",
-      "published": "2026-07-16T07:35:55+08:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Dak Prescott, Drake Maye react as former Cowboys QB announces retirement",
-      "url": "https://timesofindia.indiatimes.com/sports/nfl/news/dak-prescott-drake-maye-send-heartfelt-messages-after-former-cowboys-qb-announces-sudden-retirement/articleshow/132427626.cms",
-      "source": "Times of India",
-      "region": "Asia-Pacific",
-      "published": "2026-07-16T07:35:33+05:30",
-      "sentiment": "positive"
-    },
-    {
-      "title": "After two years, China says 'yes' to allow Apple Intelligence on iPhones in the country",
-      "url": "https://timesofindia.indiatimes.com/technology/tech-news/after-two-years-china-says-yes-to-allow-apple-intelligence-on-iphones-in-the-country-condition-is-it-will-be-powered-by-/articleshow/132427742.cms",
-      "source": "Times of India",
-      "region": "Asia-Pacific",
-      "published": "2026-07-16T07:34:16+05:30",
-      "sentiment": "positive"
-    },
-    {
-      "title": "5 skincare mistakes many men make, according to dermatologists",
-      "url": "https://www.channelnewsasia.com/style-beauty/skincare-mistakes-men-make-6220281",
-      "source": "Channel News Asia",
-      "region": "Global",
-      "published": "2026-07-16T07:29:35+08:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Nagpur Cyber Police register FIR against content creators over alleged defamatory campaign targeting Nitin Gadkari",
-      "url": "https://www.thehindu.com/news/national/nagpur-cyber-police-register-fir-against-content-creators-over-alleged-defamatory-campaign-targeting-nitin-gadkari/article71228312.ece",
-      "source": "The Hindu",
-      "region": "Asia-Pacific",
-      "published": "2026-07-16T07:15:49+05:30",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Oil prices extend gain for fourth day, stay beyond $85 amid Middle East chaos",
-      "url": "https://timesofindia.indiatimes.com/business/international-business/oil-prices-extend-gain-for-fourth-day-stay-beyond-85-amid-middle-east-chaos-on-july-162026/articleshow/132427553.cms",
-      "source": "Times of India",
-      "region": "Middle East",
-      "published": "2026-07-16T07:15:31+05:30",
-      "sentiment": "negative"
-    },
-    {
-      "title": "US Mint will produce US$1 coin with Trump's image: Treasury Secretary",
-      "url": "https://www.channelnewsasia.com/world/us-coin-trump-image-mint-6257156",
-      "source": "Channel News Asia",
-      "region": "North America",
-      "published": "2026-07-16T07:12:00+08:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Paresh Rawal regrets calling Anupama Chopra \u2018Miss Irrelevant\u2019 over her \u2018Dhurandhar\u2019 review",
-      "url": "https://timesofindia.indiatimes.com/entertainment/hindi/bollywood/news/i-shouldnt-have-done-it-paresh-rawal-regrets-calling-anupama-chopra-miss-irrelevant-over-her-dhurandhar-review/articleshow/132427502.cms",
-      "source": "Times of India",
-      "region": "North America",
-      "published": "2026-07-16T07:09:46+05:30",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Nearly half of Japanese firms hurt by BOJ interest rate hikes - Reuters poll",
-      "url": "https://www.channelnewsasia.com/business/nearly-half-japanese-firms-hurt-boj-interest-rate-hikes-reuters-poll-6257151",
-      "source": "Channel News Asia",
-      "region": "Asia-Pacific",
-      "published": "2026-07-16T07:04:06+08:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Government hikes export duty on diesel to Rs 15.5/litre, ATF to Rs 14.5/litre: Report",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/government-hikes-export-duty-on-diesel-to-rs-15-5/litre-atf-to-rs-14-5/litre/articleshow/132427496.cms",
-      "source": "Times of India",
-      "region": "Asia-Pacific",
-      "published": "2026-07-16T07:01:04+05:30",
       "sentiment": "neutral"
     }
   ]
