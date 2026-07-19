@@ -1,107 +1,107 @@
 {
-  "generated_at": "2026-07-19T21:53:31.533683+00:00",
+  "generated_at": "2026-07-19T22:53:18.523417+00:00",
   "window_hours": 24,
   "totals": {
-    "positive": 766,
+    "positive": 778,
     "neutral": 281,
-    "negative": 745
+    "negative": 744
   },
   "by_publication": [
     {
       "source": "Independent",
-      "positive": 87,
-      "neutral": 55,
-      "negative": 111,
-      "count": 253,
+      "positive": 90,
+      "neutral": 54,
+      "negative": 113,
+      "count": 257,
       "region": "Europe"
     },
     {
       "source": "The Hindu",
-      "positive": 98,
+      "positive": 99,
       "neutral": 44,
-      "negative": 94,
+      "negative": 93,
       "count": 236,
-      "region": "Asia-Pacific"
-    },
-    {
-      "source": "Times of India",
-      "positive": 83,
-      "neutral": 12,
-      "negative": 51,
-      "count": 146,
       "region": "North America"
     },
     {
+      "source": "Times of India",
+      "positive": 85,
+      "neutral": 11,
+      "negative": 52,
+      "count": 148,
+      "region": "Europe"
+    },
+    {
       "source": "Australian Broadcasting Corporation",
-      "positive": 37,
+      "positive": 35,
       "neutral": 6,
-      "negative": 54,
-      "count": 97,
+      "negative": 55,
+      "count": 96,
       "region": "Asia-Pacific"
     },
     {
       "source": "Fox News",
-      "positive": 39,
+      "positive": 38,
       "neutral": 12,
-      "negative": 37,
-      "count": 88,
-      "region": "North America"
+      "negative": 36,
+      "count": 86,
+      "region": "Europe"
     },
     {
       "source": "Al Jazeera English",
-      "positive": 25,
+      "positive": 26,
       "neutral": 12,
-      "negative": 44,
+      "negative": 43,
       "count": 81,
       "region": "Middle East"
     },
     {
       "source": "BBC Sport",
       "positive": 54,
-      "neutral": 12,
-      "negative": 12,
-      "count": 78,
+      "neutral": 13,
+      "negative": 13,
+      "count": 80,
       "region": "Europe"
     },
     {
       "source": "BBC News",
       "positive": 42,
-      "neutral": 13,
-      "negative": 21,
-      "count": 76,
+      "neutral": 14,
+      "negative": 22,
+      "count": 78,
       "region": "Europe"
     },
     {
       "source": "CBS News",
-      "positive": 23,
+      "positive": 25,
       "neutral": 16,
-      "negative": 32,
+      "negative": 30,
       "count": 71,
       "region": "North America"
     },
     {
       "source": "NBC News",
-      "positive": 21,
-      "neutral": 30,
-      "negative": 19,
-      "count": 70,
+      "positive": 19,
+      "neutral": 29,
+      "negative": 18,
+      "count": 66,
       "region": "North America"
     },
     {
       "source": "Channel News Asia",
-      "positive": 23,
+      "positive": 24,
       "neutral": 14,
-      "negative": 26,
+      "negative": 25,
       "count": 63,
       "region": "Europe"
     },
     {
       "source": "South China Morning Post",
-      "positive": 40,
+      "positive": 39,
       "neutral": 1,
-      "negative": 21,
+      "negative": 22,
       "count": 62,
-      "region": "North America"
+      "region": "Middle East"
     },
     {
       "source": "Sky Sports",
@@ -113,35 +113,43 @@
     },
     {
       "source": "The Guardian",
-      "positive": 20,
+      "positive": 19,
       "neutral": 2,
-      "negative": 34,
+      "negative": 35,
       "count": 56,
       "region": "North America"
     },
     {
-      "source": "Middle East Eye",
-      "positive": 11,
-      "neutral": 1,
-      "negative": 37,
+      "source": "France 24",
+      "positive": 21,
+      "neutral": 3,
+      "negative": 25,
       "count": 49,
       "region": "Middle East"
     },
     {
-      "source": "France 24",
-      "positive": 18,
-      "neutral": 3,
-      "negative": 24,
-      "count": 45,
-      "region": "Asia-Pacific"
+      "source": "Middle East Eye",
+      "positive": 10,
+      "neutral": 1,
+      "negative": 37,
+      "count": 48,
+      "region": "Middle East"
     },
     {
       "source": "Euronews",
-      "positive": 14,
+      "positive": 15,
       "neutral": 3,
       "negative": 9,
-      "count": 26,
+      "count": 27,
       "region": "Europe"
+    },
+    {
+      "source": "Bloomberg",
+      "positive": 10,
+      "neutral": 3,
+      "negative": 11,
+      "count": 24,
+      "region": "Middle East"
     },
     {
       "source": "Straits Times",
@@ -149,14 +157,6 @@
       "neutral": 1,
       "negative": 8,
       "count": 23,
-      "region": "Asia-Pacific"
-    },
-    {
-      "source": "Bloomberg",
-      "positive": 9,
-      "neutral": 3,
-      "negative": 10,
-      "count": 22,
       "region": "Asia-Pacific"
     },
     {
@@ -176,6 +176,14 @@
       "region": "Global"
     },
     {
+      "source": "Financial Times",
+      "positive": 4,
+      "neutral": 2,
+      "negative": 12,
+      "count": 18,
+      "region": "Europe"
+    },
+    {
       "source": "New York Times",
       "positive": 5,
       "neutral": 2,
@@ -184,20 +192,12 @@
       "region": "North America"
     },
     {
-      "source": "Financial Times",
-      "positive": 3,
-      "neutral": 2,
-      "negative": 12,
-      "count": 17,
-      "region": "Middle East"
-    },
-    {
       "source": "ABC News",
       "positive": 5,
       "neutral": 2,
-      "negative": 10,
-      "count": 17,
-      "region": "Middle East"
+      "negative": 9,
+      "count": 16,
+      "region": "North America"
     },
     {
       "source": "Irish Times",
@@ -209,35 +209,35 @@
     },
     {
       "source": "CNBC",
-      "positive": 8,
+      "positive": 7,
       "neutral": 1,
       "negative": 5,
-      "count": 14,
-      "region": "Middle East"
-    },
-    {
-      "source": "RT News",
-      "positive": 2,
-      "neutral": 1,
-      "negative": 9,
-      "count": 12,
+      "count": 13,
       "region": "Middle East"
     },
     {
       "source": "Deutsche Welle",
-      "positive": 1,
+      "positive": 2,
       "neutral": 0,
-      "negative": 11,
+      "negative": 10,
       "count": 12,
       "region": "Europe"
     },
     {
       "source": "NPR",
-      "positive": 3,
+      "positive": 4,
       "neutral": 2,
       "negative": 6,
-      "count": 11,
+      "count": 12,
       "region": "North America"
+    },
+    {
+      "source": "RT News",
+      "positive": 2,
+      "neutral": 1,
+      "negative": 7,
+      "count": 10,
+      "region": "Middle East"
     },
     {
       "source": "The Verge",
@@ -251,8 +251,8 @@
       "source": "Telegraph",
       "positive": 5,
       "neutral": 1,
-      "negative": 1,
-      "count": 7,
+      "negative": 0,
+      "count": 6,
       "region": "North America"
     },
     {
@@ -266,18 +266,34 @@
     {
       "source": "Engadget",
       "positive": 4,
-      "neutral": 0,
+      "neutral": 1,
       "negative": 0,
-      "count": 4,
+      "count": 5,
       "region": "Global"
     },
     {
       "source": "Buenos Aires Herald",
-      "positive": 1,
+      "positive": 2,
       "neutral": 3,
       "negative": 0,
-      "count": 4,
+      "count": 5,
       "region": "South America"
+    },
+    {
+      "source": "MarketWatch",
+      "positive": 1,
+      "neutral": 1,
+      "negative": 1,
+      "count": 3,
+      "region": "Middle East"
+    },
+    {
+      "source": "Ars Technica",
+      "positive": 2,
+      "neutral": 0,
+      "negative": 0,
+      "count": 2,
+      "region": "Asia-Pacific"
     },
     {
       "source": "Washington Post",
@@ -286,22 +302,6 @@
       "negative": 2,
       "count": 2,
       "region": "Europe"
-    },
-    {
-      "source": "MarketWatch",
-      "positive": 0,
-      "neutral": 1,
-      "negative": 0,
-      "count": 1,
-      "region": "Global"
-    },
-    {
-      "source": "Ars Technica",
-      "positive": 1,
-      "neutral": 0,
-      "negative": 0,
-      "count": 1,
-      "region": "South America"
     },
     {
       "source": "AllAfrica",
@@ -315,45 +315,45 @@
   "by_region": [
     {
       "region": "North America",
-      "positive": 244,
-      "neutral": 103,
-      "negative": 262,
-      "count": 609
+      "positive": 246,
+      "neutral": 99,
+      "negative": 255,
+      "count": 600
     },
     {
       "region": "Europe",
-      "positive": 243,
-      "neutral": 92,
-      "negative": 169,
-      "count": 504
+      "positive": 255,
+      "neutral": 93,
+      "negative": 173,
+      "count": 521
     },
     {
       "region": "Asia-Pacific",
-      "positive": 184,
+      "positive": 182,
       "neutral": 54,
-      "negative": 138,
+      "negative": 140,
       "count": 376
     },
     {
       "region": "Middle East",
-      "positive": 34,
+      "positive": 32,
       "neutral": 9,
-      "negative": 136,
-      "count": 179
+      "negative": 135,
+      "count": 176
     },
     {
       "region": "Global",
-      "positive": 33,
-      "neutral": 13,
-      "negative": 20,
-      "count": 66
+      "positive": 34,
+      "neutral": 15,
+      "negative": 21,
+      "count": 70
     },
     {
       "region": "South America",
-      "positive": 17,
-      "neutral": 10,
+      "positive": 18,
+      "neutral": 11,
       "negative": 17,
-      "count": 44
+      "count": 46
     },
     {
       "region": "Africa",
@@ -366,59 +366,59 @@
   "by_topic": [
     {
       "topic": "Sports",
-      "positive": 224,
-      "neutral": 101,
-      "negative": 80,
-      "count": 405
+      "positive": 236,
+      "neutral": 106,
+      "negative": 82,
+      "count": 424
     },
     {
       "topic": "Tech",
-      "positive": 145,
-      "neutral": 35,
-      "negative": 171,
-      "count": 351
+      "positive": 148,
+      "neutral": 32,
+      "negative": 167,
+      "count": 347
     },
     {
       "topic": "Politics",
-      "positive": 123,
+      "positive": 125,
       "neutral": 26,
       "negative": 134,
-      "count": 283
+      "count": 285
     },
     {
       "topic": "Other",
-      "positive": 98,
+      "positive": 101,
       "neutral": 61,
-      "negative": 116,
-      "count": 275
+      "negative": 114,
+      "count": 276
     },
     {
       "topic": "World",
-      "positive": 47,
-      "neutral": 10,
-      "negative": 127,
-      "count": 184
-    },
-    {
-      "topic": "Entertainment",
-      "positive": 35,
-      "neutral": 11,
-      "negative": 22,
-      "count": 68
+      "positive": 43,
+      "neutral": 8,
+      "negative": 125,
+      "count": 176
     },
     {
       "topic": "Business",
       "positive": 30,
       "neutral": 14,
-      "negative": 20,
-      "count": 64
+      "negative": 23,
+      "count": 67
+    },
+    {
+      "topic": "Entertainment",
+      "positive": 34,
+      "neutral": 11,
+      "negative": 22,
+      "count": 67
     },
     {
       "topic": "Health",
-      "positive": 19,
-      "neutral": 7,
-      "negative": 34,
-      "count": 60
+      "positive": 17,
+      "neutral": 6,
+      "negative": 36,
+      "count": 59
     },
     {
       "topic": "Regional",
@@ -430,16 +430,16 @@
     {
       "topic": "Science",
       "positive": 24,
-      "neutral": 5,
+      "neutral": 6,
       "negative": 3,
-      "count": 32
+      "count": 33
     },
     {
       "topic": "Local",
-      "positive": 11,
+      "positive": 10,
       "neutral": 4,
       "negative": 11,
-      "count": 26
+      "count": 25
     }
   ],
   "sample_headlines": [
@@ -460,6 +460,78 @@
       "sentiment": "positive"
     },
     {
+      "title": "Tempers flare at end of Spain-Argentina World Cup final",
+      "url": "https://www.channelnewsasia.com/sport/tempers-flare-end-spain-argentina-world-cup-final-6264236",
+      "source": "Channel News Asia",
+      "region": "Europe",
+      "published": "2026-07-20T06:36:17+08:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "SpaceX moves Starship launch attempt to Thursday",
+      "url": "https://www.channelnewsasia.com/business/spacex-moves-starship-launch-attempt-thursday-6264231",
+      "source": "Channel News Asia",
+      "region": "Global",
+      "published": "2026-07-20T06:28:29+08:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Spain battle past 10-man Argentina 1-0 in extra time to win World\u00a0Cup",
+      "url": "https://www.channelnewsasia.com/sport/spain-battle-past-10-man-argentina-1-0-in-extra-time-win-world-cup-6264161",
+      "source": "Channel News Asia",
+      "region": "Europe",
+      "published": "2026-07-20T06:03:12+08:00",
+      "sentiment": "positive"
+    },
+    {
+      "title": "The Lotus Emira was meant to be the carmaker\u2019s last petrol car. Now its future looks hybrid",
+      "url": "https://www.channelnewsasia.com/obsessions/lotus-emira-hybrid-future-6257466",
+      "source": "Channel News Asia",
+      "region": "North America",
+      "published": "2026-07-20T06:01:00+08:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Inside India\u2019s cybercrime investigations: How scammers exploit Telegram",
+      "url": "https://www.channelnewsasia.com/asia/inside-indias-cybercrime-investigations-how-scammers-exploit-telegram-6260666",
+      "source": "Channel News Asia",
+      "region": "Asia-Pacific",
+      "published": "2026-07-20T06:00:00+08:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Singapore Pools app can be used to bet from overseas, despite rules against it",
+      "url": "https://www.channelnewsasia.com/singapore/singapore-pools-app-gambling-bets-overseas-6246171",
+      "source": "Channel News Asia",
+      "region": "Asia-Pacific",
+      "published": "2026-07-20T06:00:00+08:00",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Commentary: Why Johor Bahru should roll out congestion pricing when RTS opens",
+      "url": "https://www.channelnewsasia.com/commentary/johor-bahru-congestion-pricing-traffic-rts-bus-6240016",
+      "source": "Channel News Asia",
+      "region": "North America",
+      "published": "2026-07-20T06:00:00+08:00",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Scheffler defends Dechambeau after two-stroke penalty row",
+      "url": "https://www.channelnewsasia.com/sport/scheffler-defends-dechambeau-after-two-stroke-penalty-row-6264156",
+      "source": "Channel News Asia",
+      "region": "Global",
+      "published": "2026-07-20T05:56:55+08:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "After taking the long road, Fox wastes no time sealing Open glory",
+      "url": "https://www.channelnewsasia.com/sport/after-taking-long-road-fox-wastes-no-time-sealing-open-glory-6264146",
+      "source": "Channel News Asia",
+      "region": "Global",
+      "published": "2026-07-20T05:49:59+08:00",
+      "sentiment": "positive"
+    },
+    {
       "title": "World Cup final between 10-man Argentina and Spain goes to extra time",
       "url": "https://www.channelnewsasia.com/sport/world-cup-final-between-10-man-argentina-and-spain-goes-extra-time-6264121",
       "source": "Channel News Asia",
@@ -474,6 +546,14 @@
       "region": "Europe",
       "published": "2026-07-20T05:16:00+08:00",
       "sentiment": "negative"
+    },
+    {
+      "title": "Spain beat Argentina 1-0 after extra time to win World Cup title",
+      "url": "https://www.channelnewsasia.com/sport/spain-argentina-world-cup-2026-final-6260011",
+      "source": "Channel News Asia",
+      "region": "Europe",
+      "published": "2026-07-20T05:16:00+08:00",
+      "sentiment": "positive"
     },
     {
       "title": "Madonna, BTS and Bieber bring star power to World Cup halftime show",
@@ -524,6 +604,14 @@
       "sentiment": "negative"
     },
     {
+      "title": "Who is Ferran Torres? Spain's World Cup final hero who broke Argentina's heart",
+      "url": "https://timesofindia.indiatimes.com/sports/football/fifa-world-cup/who-is-ferran-torres-spains-world-cup-final-hero-who-broke-messis-argentinas-heart-with-extra-time-winner/articleshow/132503387.cms",
+      "source": "Times of India",
+      "region": "Europe",
+      "published": "2026-07-20T04:01:38+05:30",
+      "sentiment": "positive"
+    },
+    {
       "title": "Donkey rides, speedboats and global deals: Inside her world as a ship charterer",
       "url": "https://www.straitstimes.com/singapore/jobs/ship-charterer-maritime-industry-career-ministry-of-transport",
       "source": "Straits Times",
@@ -546,6 +634,30 @@
       "region": "Middle East",
       "published": "2026-07-20T03:47:00+08:00",
       "sentiment": "negative"
+    },
+    {
+      "title": "Stormy parliament session ahead as opposition flags temple row, NEET, E20",
+      "url": "https://timesofindia.indiatimes.com/india/stormy-session-ahead-as-oppn-flags-temple-row-neet-e20/articleshow/132501720.cms",
+      "source": "Times of India",
+      "region": "Asia-Pacific",
+      "published": "2026-07-20T03:43:29+05:30",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Spain dethrone Argentina to win FIFA World Cup! Torres delivers extra-time heartbreak to Messi's 10-man side",
+      "url": "https://timesofindia.indiatimes.com/sports/football/fifa-world-cup/ferran-torres-breaks-argentina-hearts-spain-win-fifa-world-cup-as-messis-10-man-side-fall-short-of-title-defence/articleshow/132501711.cms",
+      "source": "Times of India",
+      "region": "Europe",
+      "published": "2026-07-20T03:32:55+05:30",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Maharashtra panel to study ST benefits after Christian conversion allegations",
+      "url": "https://www.thehindu.com/news/national/maharashtra/maharashtra-panel-to-study-st-benefits-after-christian-conversion-allegations/article71241448.ece",
+      "source": "The Hindu",
+      "region": "North America",
+      "published": "2026-07-20T03:21:22+05:30",
+      "sentiment": "positive"
     },
     {
       "title": "DMK confirms TOI report it\u2019s open to rethink on delimit bill",
@@ -828,6 +940,14 @@
       "sentiment": "negative"
     },
     {
+      "title": "Spain win World Cup for second time after thrilling final against Argentina",
+      "url": "http://www.euronews.com/2026/07/20/spain-win-world-cup-for-second-time-after-thrilling-final-against-argentina",
+      "source": "Euronews",
+      "region": "Europe",
+      "published": "2026-07-20T00:02:54+02:00",
+      "sentiment": "positive"
+    },
+    {
       "title": "Loco pilots want action dropped against motorman",
       "url": "https://www.thehindu.com/news/national/tamil-nadu/loco-pilots-want-action-dropped-against-motorman/article71242173.ece",
       "source": "The Hindu",
@@ -948,6 +1068,14 @@
       "sentiment": "negative"
     },
     {
+      "title": "Israeli forces, settlers kill two in Ramallah",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-forces-settlers-kill-two-ramallah",
+      "source": "Middle East Eye",
+      "region": "Middle East",
+      "published": "2026-07-19T23:22:18+01:00",
+      "sentiment": "negative"
+    },
+    {
       "title": "Will end fast if education accountability issue raised in Parliament Monsoon Session: Wife Gitanjali conveys Wangchuk\u2019s message",
       "url": "https://www.thehindu.com/news/national/will-end-fast-if-education-accountability-issue-raised-in-parliament-monsoon-session-wife-gitanjali-conveys-wangchuks-message/article71242404.ece",
       "source": "The Hindu",
@@ -996,6 +1124,14 @@
       "sentiment": "positive"
     },
     {
+      "title": "Spain beat Argentina to win World Cup",
+      "url": "https://www.skysports.com/football/spain-vs-argentina/report/549869",
+      "source": "Sky Sports",
+      "region": "Europe",
+      "published": "2026-07-19T23:10:00+00:00",
+      "sentiment": "positive"
+    },
+    {
       "title": "DMK, TDP should uphold their legacy of ensuring fairness delimitation, says Congress",
       "url": "https://www.thehindu.com/news/national/congress-leader-jairam-ramesh-calls-talk-of-50-seat-increase-for-all-states-an-optical-illusion/article71241576.ece",
       "source": "The Hindu",
@@ -1036,6 +1172,38 @@
       "sentiment": "positive"
     },
     {
+      "title": "Trump booed after presenting Spain with World Cup and joining trophy lift",
+      "url": "https://www.independent.co.uk/sport/football/trump-booed-world-cup-final-spain-argentina-trophy-presentation-b3017804.html",
+      "source": "Independent",
+      "region": "North America",
+      "published": "2026-07-19T22:49:07+00:00",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Anderson thrashes Joyce at World Matchplay",
+      "url": "https://www.bbc.co.uk/sport/darts/articles/cr59mr5yq3eo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Sport",
+      "region": "Europe",
+      "published": "2026-07-19T22:48:32+00:00",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Spain beat Argentina to win World Cup for second time",
+      "url": "https://www.ft.com/content/424d3c10-0068-4005-ad9b-d15daa70b842?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "region": "Europe",
+      "published": "2026-07-19T22:47:31+00:00",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Middle East live: US launches strikes to 'punish' Iran after troops killed",
+      "url": "https://www.france24.com/en/middle-east/20260719-middle-east-live-us-launches-strikes-to-punish-iran-after-troops-killed",
+      "source": "France 24",
+      "region": "Middle East",
+      "published": "2026-07-19T22:47:08+00:00",
+      "sentiment": "negative"
+    },
+    {
       "title": "Papers: Arsenal planning short-term swoop for Stones",
       "url": "https://www.skysports.com/football/news/12040/13565019/arsenal-planning-short-term-move-for-free-agent-john-stones-following-william-salibas-world-cup-injury-paper-talk",
       "source": "Sky Sports",
@@ -1044,203 +1212,35 @@
       "sentiment": "positive"
     },
     {
-      "title": "Hundreds of people pay last respects to Chennamma on the way to Holenarasipur",
-      "url": "https://www.thehindu.com/news/national/karnataka/hundreds-of-people-pay-last-respects-to-chennamma-on-the-way-to-holenarasipur/article71241568.ece",
-      "source": "The Hindu",
-      "region": "Asia-Pacific",
-      "published": "2026-07-19T22:41:57+05:30",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Antonelli wins in Belgium as Russell crashes out",
-      "url": "https://www.channelnewsasia.com/sport/antonelli-wins-in-belgium-russell-crashes-out-6263876",
-      "source": "Channel News Asia",
-      "region": "North America",
-      "published": "2026-07-19T22:40:22+08:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Martyrs\u2019 Day 2026 turns out to be show of political strength for rival Trinamool factions in West Bengal",
-      "url": "https://www.thehindu.com/news/national/west-bengal/martyrs-day-2026-turns-out-to-be-show-of-political-strength-for-rival-trinamool-factions-in-west-bengal/article71242029.ece",
-      "source": "The Hindu",
-      "region": "Asia-Pacific",
-      "published": "2026-07-19T22:36:42+05:30",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Connor Bedard\u2019s agent shares about his contract negotiations with Chicago Blackhawks",
-      "url": "https://timesofindia.indiatimes.com/sports/nhl/news/connor-bedards-agent-shares-details-about-his-contract-negotiations-with-the-chicago-blackhawks/articleshow/132497159.cms",
-      "source": "Times of India",
-      "region": "Asia-Pacific",
-      "published": "2026-07-19T22:32:58+05:30",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Shakira leads first World Cup half-time show that briefly steals the spotlight",
-      "url": "http://www.euronews.com/2026/07/19/shakira-leads-first-world-cup-half-time-show-that-briefly-steals-the-spotlight",
-      "source": "Euronews",
-      "region": "Europe",
-      "published": "2026-07-19T22:31:17+02:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Sirens sounded in Bahrain, interior ministry says",
-      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/sirens-sounded-bahrain-interior-ministry-says",
-      "source": "Middle East Eye",
-      "region": "Middle East",
-      "published": "2026-07-19T22:31:04+01:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "CBI conducts searches across four States in \u20b91,109-crore bank fraud case",
-      "url": "https://www.thehindu.com/news/national/cbi-conducts-searches-across-four-states-in-1109-crore-bank-fraud-case/article71241441.ece",
-      "source": "The Hindu",
-      "region": "North America",
-      "published": "2026-07-19T22:27:46+05:30",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Rohit Sharma scripts history, becomes first Indian to score ODI ton at Lord's",
-      "url": "https://timesofindia.indiatimes.com/sports/cricket/india-tour-of-england/rohit-sharma-scripts-history-becomes-first-indian-to-score-odi-century-at-lords-surpasses-sachin-tendulkars-record/articleshow/132497907.cms",
-      "source": "Times of India",
-      "region": "Asia-Pacific",
-      "published": "2026-07-19T22:27:27+05:30",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Jantar Mantar protest LIVE: Wangchuk will end fast if Parliament session focuses on education accountability, says Gitanjali Angmo",
-      "url": "https://www.thehindu.com/news/national/cjp-sonam-wangchuk-2026-protest-cockroach-janata-party-abhijeet-dipke-hunger-strike-july-19-2026-updates/article71240515.ece",
-      "source": "The Hindu",
-      "region": "North America",
-      "published": "2026-07-19T22:27:15+05:30",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Watch The Open: Final round highlights",
-      "url": "https://www.bbc.co.uk/iplayer/live/bbctwo?at_medium=RSS&at_campaign=rss",
+      "title": "Who made the difference for Spain? World Cup final player ratings",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cvgjgp7656xo?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
       "region": "Europe",
-      "published": "2026-07-19T22:25:59+00:00",
-      "sentiment": "positive"
+      "published": "2026-07-19T22:44:27+00:00",
+      "sentiment": "neutral"
     },
     {
-      "title": "Watch The Open: Final round highlights",
-      "url": "https://www.bbc.co.uk/iplayer/live/bbctwo?at_medium=RSS&at_campaign=rss",
+      "title": "Who made the difference for Spain? World Cup final player ratings",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cvgjgp7656xo?at_medium=RSS&at_campaign=rss",
       "source": "BBC Sport",
       "region": "Europe",
-      "published": "2026-07-19T22:25:59+00:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Kristu Jayanti University inaugurates new campus on HAL Road",
-      "url": "https://www.thehindu.com/news/national/karnataka/kristu-jayanti-university-inaugurates-new-campus-on-hal-road/article71242152.ece",
-      "source": "The Hindu",
-      "region": "North America",
-      "published": "2026-07-19T22:23:50+05:30",
+      "published": "2026-07-19T22:44:27+00:00",
       "sentiment": "neutral"
     },
     {
-      "title": "CJP march call: Section 163 imposed; security tightened in Delhi ahead of Monsoon Session",
-      "url": "https://www.thehindu.com/news/national/security-intensified-in-delhi-ahead-of-parliament-session-cjps-march-call/article71241235.ece",
-      "source": "The Hindu",
-      "region": "Asia-Pacific",
-      "published": "2026-07-19T22:14:14+05:30",
-      "sentiment": "negative"
-    },
-    {
-      "title": "First time ever at Lord's! India, England script unique ODI record with century stands",
-      "url": "https://timesofindia.indiatimes.com/sports/cricket/india-tour-of-england/first-time-ever-at-lords-india-england-script-unique-odi-record-with-century-opening-stands/articleshow/132497748.cms",
-      "source": "Times of India",
-      "region": "North America",
-      "published": "2026-07-19T22:13:08+05:30",
+      "title": "JD Vance announces birth of fourth child, becoming first baby from sitting VP in more than 150 years",
+      "url": "https://www.independent.co.uk/news/world/americas/us-politics/jd-vance-baby-name-kids-b3017833.html",
+      "source": "Independent",
+      "region": "Europe",
+      "published": "2026-07-19T22:43:56+00:00",
       "sentiment": "positive"
     },
     {
-      "title": "Jammu and Kashmir rains LIVE: At least 11 dead, several missing in flash floods; rescue ops. under way",
-      "url": "https://www.thehindu.com/news/national/jammu-and-kashmir/amarnath-yatra-2026-live-updates-temporary-suspension-pahalgam-baltal-routes-jammu-and-kashmir-heavy-rains/article71240667.ece",
-      "source": "The Hindu",
-      "region": "Asia-Pacific",
-      "published": "2026-07-19T22:13:06+05:30",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Israel committed 3,795 ceasefire violations in Gaza: Report",
-      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israel-committed-3795-ceasefire-violations-gaza-report",
-      "source": "Middle East Eye",
-      "region": "Middle East",
-      "published": "2026-07-19T22:07:05+01:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Government committed to uninterrupted power supply, strengthening SCCL: Deputy CM Bhatti Vikramarka",
-      "url": "https://www.thehindu.com/news/national/telangana/government-committed-to-uninterrupted-power-supply-strengthening-sccl-deputy-cm-bhatti-vikramarka/article71242252.ece",
-      "source": "The Hindu",
-      "region": "Asia-Pacific",
-      "published": "2026-07-19T22:04:25+05:30",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Police enhance night patrol, vehicle checks across Sri Sathya Sai district",
-      "url": "https://www.thehindu.com/news/national/andhra-pradesh/police-enhance-night-vigil-across-sri-sathya-sai-district-to-boost-security/article71241350.ece",
-      "source": "The Hindu",
+      "title": "JD and Usha Vance celebrate birth of their baby boy and reveal his unique name",
+      "url": "https://www.independent.co.uk/bulletin/news/jd-vance-baby-boy-usha-gives-birth-name-b3017836.html",
+      "source": "Independent",
       "region": "North America",
-      "published": "2026-07-19T22:01:32+05:30",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Thousands gather at Jantar Mantar ahead of CJP\u2019s march to Parliament",
-      "url": "https://www.thehindu.com/news/national/thousands-gather-at-jantar-mantar-ahead-of-cjps-march-to-parliament/article71242178.ece",
-      "source": "The Hindu",
-      "region": "North America",
-      "published": "2026-07-19T22:01:21+05:30",
-      "sentiment": "negative"
-    },
-    {
-      "title": "High Court Advocates Association hits \u2018dislike\u2019 on lawyers\u2019 reels",
-      "url": "https://www.thehindu.com/news/national/kerala/high-court-advocates-association-hits-dislike-on-lawyers-reels/article71241701.ece",
-      "source": "The Hindu",
-      "region": "Asia-Pacific",
-      "published": "2026-07-19T21:59:38+05:30",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "All-party meet: MPs seek debate on NEET leak delimitation, temple theft, E20",
-      "url": "https://www.thehindu.com/news/national/opposition-walks-out-of-all-party-meeting-parliament-monsoon-session/article71240813.ece",
-      "source": "The Hindu",
-      "region": "North America",
-      "published": "2026-07-19T21:55:46+05:30",
-      "sentiment": "negative"
-    },
-    {
-      "title": "US launches strikes to 'punish' Iran after troops killed",
-      "url": "https://www.channelnewsasia.com/world/us-iran-strikes-american-troops-killed-jordan-israel-6263826",
-      "source": "Channel News Asia",
-      "region": "North America",
-      "published": "2026-07-19T21:55:00+08:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Amit Shah inaugurates India\u2019s first immersive language museum in Kolkata",
-      "url": "https://www.thehindu.com/news/national/west-bengal/amit-shah-inaugurates-indias-first-immersive-language-museum-in-kolkata/article71241179.ece",
-      "source": "The Hindu",
-      "region": "North America",
-      "published": "2026-07-19T21:51:08+05:30",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'Adopt electric cooking, mobility for clean energy transition'",
-      "url": "https://www.thehindu.com/news/cities/Hyderabad/adopt-electric-cooking-mobility-for-clean-energy-transition/article71241993.ece",
-      "source": "The Hindu",
-      "region": "Asia-Pacific",
-      "published": "2026-07-19T21:48:56+05:30",
-      "sentiment": "positive"
-    },
-    {
-      "title": "563 drug cases, narcotics worth \u20b922.17 crore seized in Hyderabad in a year",
-      "url": "https://www.thehindu.com/news/national/telangana/563-drug-cases-narcotics-worth-2217-crore-seized-in-hyderabad-in-a-year/article71241976.ece",
-      "source": "The Hindu",
-      "region": "Asia-Pacific",
-      "published": "2026-07-19T21:47:58+05:30",
+      "published": "2026-07-19T22:43:31+00:00",
       "sentiment": "positive"
     }
   ]
