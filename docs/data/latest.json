@@ -1,74 +1,82 @@
 {
-  "generated_at": "2026-08-08T19:30:06.847758+00:00",
+  "generated_at": "2026-08-08T19:57:45.444693+00:00",
   "window_hours": 24,
   "totals": {
-    "positive": 715,
-    "neutral": 254,
-    "negative": 764
+    "positive": 710,
+    "neutral": 253,
+    "negative": 763
   },
   "by_publication": [
     {
       "source": "The Hindu",
-      "positive": 110,
+      "positive": 108,
       "neutral": 78,
-      "negative": 119,
-      "count": 307,
-      "region": "North America"
+      "negative": 118,
+      "count": 304,
+      "region": "Asia-Pacific"
     },
     {
       "source": "Times of India",
-      "positive": 96,
+      "positive": 97,
       "neutral": 23,
-      "negative": 62,
-      "count": 181,
-      "region": "North America"
+      "negative": 63,
+      "count": 183,
+      "region": "Asia-Pacific"
     },
     {
       "source": "Independent",
-      "positive": 49,
-      "neutral": 31,
-      "negative": 86,
-      "count": 166,
+      "positive": 47,
+      "neutral": 32,
+      "negative": 84,
+      "count": 163,
       "region": "Europe"
     },
     {
       "source": "Australian Broadcasting Corporation",
-      "positive": 40,
+      "positive": 38,
       "neutral": 6,
       "negative": 48,
-      "count": 94,
+      "count": 92,
       "region": "Asia-Pacific"
     },
     {
       "source": "Fox News",
-      "positive": 37,
+      "positive": 38,
       "neutral": 5,
-      "negative": 48,
-      "count": 90,
+      "negative": 46,
+      "count": 89,
       "region": "North America"
     },
     {
       "source": "Al Jazeera English",
       "positive": 26,
       "neutral": 13,
-      "negative": 38,
-      "count": 77,
-      "region": "Middle East"
+      "negative": 40,
+      "count": 79,
+      "region": "Europe"
     },
     {
       "source": "CBS News",
       "positive": 33,
       "neutral": 11,
-      "negative": 33,
-      "count": 77,
+      "negative": 34,
+      "count": 78,
       "region": "North America"
     },
     {
       "source": "BBC News",
-      "positive": 17,
+      "positive": 19,
       "neutral": 11,
       "negative": 32,
-      "count": 60,
+      "count": 62,
+      "region": "North America"
+    },
+    {
+      "source": "Sky Sports",
+      "positive": 34,
+      "neutral": 12,
+      "negative": 10,
+      "count": 56,
       "region": "Europe"
     },
     {
@@ -80,28 +88,20 @@
       "region": "Europe"
     },
     {
-      "source": "Sky Sports",
-      "positive": 33,
-      "neutral": 11,
+      "source": "BBC Sport",
+      "positive": 37,
+      "neutral": 8,
       "negative": 8,
-      "count": 52,
-      "region": "Europe"
+      "count": 53,
+      "region": "North America"
     },
     {
       "source": "Channel News Asia",
       "positive": 18,
-      "neutral": 13,
+      "neutral": 12,
       "negative": 18,
-      "count": 49,
+      "count": 48,
       "region": "North America"
-    },
-    {
-      "source": "BBC Sport",
-      "positive": 34,
-      "neutral": 8,
-      "negative": 7,
-      "count": 49,
-      "region": "Europe"
     },
     {
       "source": "The Guardian",
@@ -114,25 +114,25 @@
     {
       "source": "Bloomberg",
       "positive": 20,
-      "neutral": 2,
-      "negative": 19,
-      "count": 41,
+      "neutral": 1,
+      "negative": 18,
+      "count": 39,
       "region": "North America"
     },
     {
       "source": "Middle East Eye",
-      "positive": 15,
+      "positive": 13,
       "neutral": 0,
       "negative": 23,
-      "count": 38,
+      "count": 36,
       "region": "Middle East"
     },
     {
       "source": "NBC News",
       "positive": 10,
       "neutral": 2,
-      "negative": 22,
-      "count": 34,
+      "negative": 23,
+      "count": 35,
       "region": "North America"
     },
     {
@@ -184,14 +184,6 @@
       "region": "Global"
     },
     {
-      "source": "MarketWatch",
-      "positive": 9,
-      "neutral": 4,
-      "negative": 5,
-      "count": 18,
-      "region": "Global"
-    },
-    {
       "source": "Straits Times",
       "positive": 5,
       "neutral": 3,
@@ -216,19 +208,27 @@
       "region": "North America"
     },
     {
-      "source": "Deutsche Welle",
-      "positive": 7,
-      "neutral": 2,
-      "negative": 7,
-      "count": 16,
-      "region": "North America"
-    },
-    {
       "source": "RT News",
       "positive": 2,
       "neutral": 1,
       "negative": 13,
       "count": 16,
+      "region": "North America"
+    },
+    {
+      "source": "MarketWatch",
+      "positive": 7,
+      "neutral": 3,
+      "negative": 5,
+      "count": 15,
+      "region": "Global"
+    },
+    {
+      "source": "Deutsche Welle",
+      "positive": 5,
+      "neutral": 2,
+      "negative": 6,
+      "count": 13,
       "region": "North America"
     },
     {
@@ -240,20 +240,20 @@
       "region": "North America"
     },
     {
-      "source": "NPR",
-      "positive": 6,
-      "neutral": 0,
-      "negative": 7,
-      "count": 13,
-      "region": "Europe"
-    },
-    {
       "source": "Financial Times",
       "positive": 2,
       "neutral": 1,
       "negative": 9,
       "count": 12,
       "region": "North America"
+    },
+    {
+      "source": "NPR",
+      "positive": 6,
+      "neutral": 0,
+      "negative": 6,
+      "count": 12,
+      "region": "Europe"
     },
     {
       "source": "Engadget",
@@ -275,16 +275,8 @@
       "source": "Ars Technica",
       "positive": 3,
       "neutral": 1,
-      "negative": 1,
-      "count": 5,
-      "region": "North America"
-    },
-    {
-      "source": "AllAfrica",
-      "positive": 2,
-      "neutral": 1,
       "negative": 0,
-      "count": 3,
+      "count": 4,
       "region": "North America"
     },
     {
@@ -304,6 +296,14 @@
       "region": "South America"
     },
     {
+      "source": "AllAfrica",
+      "positive": 1,
+      "neutral": 1,
+      "negative": 0,
+      "count": 2,
+      "region": "North America"
+    },
+    {
       "source": "Telegraph",
       "positive": 1,
       "neutral": 0,
@@ -315,110 +315,110 @@
   "by_region": [
     {
       "region": "North America",
-      "positive": 263,
-      "neutral": 77,
-      "negative": 332,
-      "count": 672
+      "positive": 267,
+      "neutral": 74,
+      "negative": 327,
+      "count": 668
     },
     {
       "region": "Asia-Pacific",
-      "positive": 204,
+      "positive": 201,
       "neutral": 85,
-      "negative": 169,
-      "count": 458
+      "negative": 170,
+      "count": 456
     },
     {
       "region": "Europe",
-      "positive": 144,
-      "neutral": 54,
-      "negative": 153,
-      "count": 351
+      "positive": 141,
+      "neutral": 56,
+      "negative": 157,
+      "count": 354
     },
     {
       "region": "Middle East",
-      "positive": 47,
+      "positive": 46,
       "neutral": 12,
       "negative": 74,
-      "count": 133
+      "count": 132
     },
     {
       "region": "Global",
-      "positive": 38,
+      "positive": 37,
       "neutral": 14,
       "negative": 24,
-      "count": 76
+      "count": 75
     },
     {
       "region": "South America",
-      "positive": 14,
+      "positive": 15,
       "neutral": 9,
       "negative": 6,
-      "count": 29
+      "count": 30
     },
     {
       "region": "Africa",
-      "positive": 5,
+      "positive": 3,
       "neutral": 3,
-      "negative": 6,
-      "count": 14
+      "negative": 5,
+      "count": 11
     }
   ],
   "by_topic": [
     {
       "topic": "Tech",
-      "positive": 205,
-      "neutral": 48,
-      "negative": 212,
-      "count": 465
+      "positive": 208,
+      "neutral": 49,
+      "negative": 213,
+      "count": 470
     },
     {
       "topic": "Politics",
-      "positive": 151,
-      "neutral": 56,
-      "negative": 184,
-      "count": 391
+      "positive": 150,
+      "neutral": 55,
+      "negative": 182,
+      "count": 387
     },
     {
       "topic": "Other",
-      "positive": 94,
-      "neutral": 70,
-      "negative": 97,
-      "count": 261
+      "positive": 98,
+      "neutral": 71,
+      "negative": 100,
+      "count": 269
     },
     {
       "topic": "World",
-      "positive": 53,
+      "positive": 51,
       "neutral": 15,
-      "negative": 115,
-      "count": 183
+      "negative": 114,
+      "count": 180
     },
     {
       "topic": "Sports",
-      "positive": 69,
-      "neutral": 27,
+      "positive": 65,
+      "neutral": 26,
       "negative": 32,
-      "count": 128
+      "count": 123
     },
     {
       "topic": "Business",
-      "positive": 47,
-      "neutral": 11,
+      "positive": 45,
+      "neutral": 10,
       "negative": 29,
-      "count": 87
+      "count": 84
     },
     {
       "topic": "Entertainment",
-      "positive": 32,
+      "positive": 31,
       "neutral": 6,
-      "negative": 20,
-      "count": 58
+      "negative": 19,
+      "count": 56
     },
     {
       "topic": "Health",
-      "positive": 14,
+      "positive": 13,
       "neutral": 7,
-      "negative": 33,
-      "count": 54
+      "negative": 32,
+      "count": 52
     },
     {
       "topic": "Regional",
@@ -436,10 +436,10 @@
     },
     {
       "topic": "Local",
-      "positive": 13,
+      "positive": 12,
       "neutral": 6,
       "negative": 10,
-      "count": 29
+      "count": 28
     }
   ],
   "sample_headlines": [
@@ -473,6 +473,38 @@
       "source": "Channel News Asia",
       "region": "Europe",
       "published": "2026-08-09T02:13:00+08:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "IAF wing commander \u2018honey-trapped\u2019 by Pak operatives; charged for alleged info leak",
+      "url": "https://timesofindia.indiatimes.com/defence/iaf-wing-commander-honey-trapped-by-pak-operatives-arrested-charged-for-allegedly-leaking-defence-info/articleshow/133058871.cms",
+      "source": "Times of India",
+      "region": "Asia-Pacific",
+      "published": "2026-08-09T01:18:52+05:30",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Science min dedicates to nation first-of-its-kind \u2018eco-educational hub\u2019 in Lucknow",
+      "url": "https://timesofindia.indiatimes.com/science/union-minister-jitendra-singh-dedicates-to-nation-first-of-its-kind-eco-educational-hub-in-lucknow/articleshow/133058869.cms",
+      "source": "Times of India",
+      "region": "North America",
+      "published": "2026-08-09T01:02:12+05:30",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Kalaburagi Rangayana\u2019s repertory to stage Shantarasa\u2019s novel-based play \u2018Sannagowdasani\u2019",
+      "url": "https://www.thehindu.com/news/national/karnataka/kalaburagi-rangayanas-repertory-to-stage-shantarasas-novel-based-play-sannagowdasani/article71322171.ece",
+      "source": "The Hindu",
+      "region": "Asia-Pacific",
+      "published": "2026-08-09T00:58:21+05:30",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Autorickshaw driver booked under POCSO, Atrocities Act for sexual assault on minor girl in Kalaburagi",
+      "url": "https://www.thehindu.com/news/national/karnataka/autorickshaw-driver-booked-under-pocso-atrocities-act-for-sexual-assault-on-minor-girl-in-kalaburagi/article71321915.ece",
+      "source": "The Hindu",
+      "region": "Asia-Pacific",
+      "published": "2026-08-09T00:55:11+05:30",
       "sentiment": "negative"
     },
     {
@@ -1210,38 +1242,6 @@
       "region": "South America",
       "published": "2026-08-08T21:53:40+08:00",
       "sentiment": "neutral"
-    },
-    {
-      "title": "Affordable housing stock shrinks, premium home inventory jumps 43%: Report",
-      "url": "https://timesofindia.indiatimes.com/real-estate/news/affordable-housing-stock-shrinks-premium-home-inventory-jumps-43-report/articleshow/133055691.cms",
-      "source": "Times of India",
-      "region": "Asia-Pacific",
-      "published": "2026-08-08T21:53:31+05:30",
-      "sentiment": "positive"
-    },
-    {
-      "title": "TPCC likely to get four working presidents as Congress weighs social balance",
-      "url": "https://www.thehindu.com/news/national/telangana/tpcc-likely-to-get-four-working-presidents-as-congress-weighs-social-balance/article71321351.ece",
-      "source": "The Hindu",
-      "region": "Asia-Pacific",
-      "published": "2026-08-08T21:53:18+05:30",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Father of football star Lionel Messi dies at 68 in Argentina",
-      "url": "https://www.channelnewsasia.com/sport/lionel-messi-father-jorge-dies-68-6307711",
-      "source": "Channel News Asia",
-      "region": "South America",
-      "published": "2026-08-08T21:53:00+08:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "El Nino may trigger 39% rainfall deficit this season: Naidu",
-      "url": "https://www.thehindu.com/news/national/andhra-pradesh/el-nino-may-trigger-39-rainfall-deficit-this-season-naidu/article71322519.ece",
-      "source": "The Hindu",
-      "region": "Asia-Pacific",
-      "published": "2026-08-08T21:52:49+05:30",
-      "sentiment": "negative"
     }
   ]
 }
