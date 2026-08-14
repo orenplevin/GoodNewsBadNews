@@ -1,99 +1,91 @@
 {
-  "generated_at": "2026-08-14T19:49:09.985607+00:00",
+  "generated_at": "2026-08-14T20:31:17.662229+00:00",
   "window_hours": 24,
   "totals": {
-    "positive": 1101,
-    "neutral": 375,
-    "negative": 1378
+    "positive": 1095,
+    "neutral": 374,
+    "negative": 1362
   },
   "by_publication": [
     {
       "source": "Independent",
       "positive": 153,
-      "neutral": 85,
-      "negative": 237,
-      "count": 475,
+      "neutral": 84,
+      "negative": 234,
+      "count": 471,
       "region": "Europe"
     },
     {
       "source": "The Hindu",
-      "positive": 112,
+      "positive": 111,
       "neutral": 86,
-      "negative": 118,
-      "count": 316,
+      "negative": 120,
+      "count": 317,
       "region": "Asia-Pacific"
     },
     {
       "source": "Times of India",
-      "positive": 92,
-      "neutral": 19,
-      "negative": 67,
-      "count": 178,
+      "positive": 95,
+      "neutral": 20,
+      "negative": 66,
+      "count": 181,
       "region": "Asia-Pacific"
     },
     {
       "source": "Bloomberg",
-      "positive": 69,
-      "neutral": 13,
-      "negative": 65,
+      "positive": 68,
+      "neutral": 15,
+      "negative": 64,
       "count": 147,
       "region": "North America"
     },
     {
       "source": "Fox News",
-      "positive": 43,
-      "neutral": 11,
+      "positive": 44,
+      "neutral": 10,
       "negative": 81,
       "count": 135,
       "region": "North America"
     },
     {
-      "source": "Australian Broadcasting Corporation",
-      "positive": 45,
-      "neutral": 20,
-      "negative": 67,
-      "count": 132,
-      "region": "Asia-Pacific"
+      "source": "CBS News",
+      "positive": 41,
+      "neutral": 12,
+      "negative": 75,
+      "count": 128,
+      "region": "North America"
     },
     {
       "source": "Channel News Asia",
-      "positive": 58,
+      "positive": 56,
       "neutral": 28,
-      "negative": 42,
-      "count": 128,
+      "negative": 43,
+      "count": 127,
       "region": "Europe"
     },
     {
-      "source": "CBS News",
-      "positive": 42,
-      "neutral": 12,
-      "negative": 74,
-      "count": 128,
+      "source": "Australian Broadcasting Corporation",
+      "positive": 45,
+      "neutral": 19,
+      "negative": 63,
+      "count": 127,
       "region": "Asia-Pacific"
     },
     {
       "source": "The Guardian",
-      "positive": 41,
+      "positive": 38,
       "neutral": 3,
-      "negative": 77,
-      "count": 121,
+      "negative": 75,
+      "count": 116,
       "region": "North America"
     },
     {
       "source": "BBC News",
-      "positive": 31,
+      "positive": 32,
       "neutral": 5,
-      "negative": 62,
-      "count": 98,
+      "negative": 59,
+      "count": 96,
       "region": "Europe"
-    },
-    {
-      "source": "Al Jazeera English",
-      "positive": 21,
-      "neutral": 16,
-      "negative": 52,
-      "count": 89,
-      "region": "North America"
     },
     {
       "source": "Euronews",
@@ -104,10 +96,18 @@
       "region": "Europe"
     },
     {
+      "source": "Al Jazeera English",
+      "positive": 21,
+      "neutral": 15,
+      "negative": 52,
+      "count": 88,
+      "region": "North America"
+    },
+    {
       "source": "BBC Sport",
-      "positive": 53,
+      "positive": 56,
       "neutral": 2,
-      "negative": 25,
+      "negative": 22,
       "count": 80,
       "region": "Europe"
     },
@@ -117,7 +117,7 @@
       "neutral": 1,
       "negative": 42,
       "count": 75,
-      "region": "South America"
+      "region": "Asia-Pacific"
     },
     {
       "source": "Middle East Eye",
@@ -128,18 +128,18 @@
       "region": "Middle East"
     },
     {
-      "source": "NBC News",
-      "positive": 6,
-      "neutral": 1,
-      "negative": 43,
-      "count": 50,
+      "source": "Sky Sports",
+      "positive": 30,
+      "neutral": 5,
+      "negative": 16,
+      "count": 51,
       "region": "Europe"
     },
     {
-      "source": "Sky Sports",
-      "positive": 29,
-      "neutral": 5,
-      "negative": 15,
+      "source": "NBC News",
+      "positive": 6,
+      "neutral": 1,
+      "negative": 42,
       "count": 49,
       "region": "Europe"
     },
@@ -147,8 +147,8 @@
       "source": "France 24",
       "positive": 16,
       "neutral": 1,
-      "negative": 32,
-      "count": 49,
+      "negative": 30,
+      "count": 47,
       "region": "North America"
     },
     {
@@ -161,19 +161,11 @@
     },
     {
       "source": "CNBC",
-      "positive": 19,
+      "positive": 16,
       "neutral": 8,
-      "negative": 15,
-      "count": 42,
-      "region": "North America"
-    },
-    {
-      "source": "MarketWatch",
-      "positive": 21,
-      "neutral": 5,
-      "negative": 12,
+      "negative": 14,
       "count": 38,
-      "region": "Global"
+      "region": "North America"
     },
     {
       "source": "AllAfrica",
@@ -184,51 +176,59 @@
       "region": "South America"
     },
     {
-      "source": "New York Times",
-      "positive": 11,
-      "neutral": 2,
-      "negative": 16,
-      "count": 29,
-      "region": "North America"
+      "source": "MarketWatch",
+      "positive": 19,
+      "neutral": 5,
+      "negative": 11,
+      "count": 35,
+      "region": "Global"
     },
     {
-      "source": "Financial Times",
-      "positive": 13,
+      "source": "New York Times",
+      "positive": 10,
       "neutral": 2,
-      "negative": 14,
-      "count": 29,
+      "negative": 18,
+      "count": 30,
       "region": "Middle East"
     },
     {
       "source": "Deutsche Welle",
       "positive": 7,
       "neutral": 3,
-      "negative": 18,
-      "count": 28,
+      "negative": 19,
+      "count": 29,
       "region": "Europe"
+    },
+    {
+      "source": "Financial Times",
+      "positive": 12,
+      "neutral": 2,
+      "negative": 13,
+      "count": 27,
+      "region": "Middle East"
     },
     {
       "source": "ABC News",
       "positive": 8,
       "neutral": 5,
-      "negative": 15,
-      "count": 28,
+      "negative": 13,
+      "count": 26,
       "region": "North America"
     },
     {
       "source": "Straits Times",
-      "positive": 6,
+      "positive": 5,
       "neutral": 6,
       "negative": 14,
-      "count": 26,
+      "count": 25,
       "region": "Asia-Pacific"
     },
     {
       "source": "The Verge",
-      "positive": 15,
+      "positive": 14,
       "neutral": 2,
       "negative": 5,
-      "count": 22,
+      "count": 21,
       "region": "Global"
     },
     {
@@ -249,10 +249,10 @@
     },
     {
       "source": "RT News",
-      "positive": 5,
+      "positive": 6,
       "neutral": 2,
       "negative": 12,
-      "count": 19,
+      "count": 20,
       "region": "Middle East"
     },
     {
@@ -264,14 +264,6 @@
       "region": "Global"
     },
     {
-      "source": "Engadget",
-      "positive": 6,
-      "neutral": 3,
-      "negative": 6,
-      "count": 15,
-      "region": "North America"
-    },
-    {
       "source": "Ars Technica",
       "positive": 4,
       "neutral": 2,
@@ -280,20 +272,36 @@
       "region": "Global"
     },
     {
+      "source": "Engadget",
+      "positive": 6,
+      "neutral": 3,
+      "negative": 5,
+      "count": 14,
+      "region": "North America"
+    },
+    {
       "source": "Buenos Aires Herald",
       "positive": 7,
       "neutral": 0,
-      "negative": 2,
-      "count": 9,
+      "negative": 3,
+      "count": 10,
       "region": "South America"
     },
     {
       "source": "Washington Post",
-      "positive": 1,
+      "positive": 2,
       "neutral": 4,
       "negative": 1,
+      "count": 7,
+      "region": "Middle East"
+    },
+    {
+      "source": "Sky News",
+      "positive": 0,
+      "neutral": 1,
+      "negative": 5,
       "count": 6,
-      "region": "Asia-Pacific"
+      "region": "North America"
     },
     {
       "source": "Telegraph",
@@ -302,109 +310,101 @@
       "negative": 2,
       "count": 5,
       "region": "North America"
-    },
-    {
-      "source": "Sky News",
-      "positive": 0,
-      "neutral": 1,
-      "negative": 4,
-      "count": 5,
-      "region": "North America"
     }
   ],
   "by_region": [
     {
       "region": "North America",
-      "positive": 441,
-      "neutral": 123,
-      "negative": 555,
-      "count": 1119
+      "positive": 433,
+      "neutral": 122,
+      "negative": 544,
+      "count": 1099
     },
     {
       "region": "Europe",
-      "positive": 286,
+      "positive": 293,
       "neutral": 88,
-      "negative": 323,
-      "count": 697
+      "negative": 322,
+      "count": 703
     },
     {
       "region": "Asia-Pacific",
       "positive": 223,
-      "neutral": 107,
+      "neutral": 105,
       "negative": 245,
-      "count": 575
+      "count": 573
     },
     {
       "region": "Middle East",
       "positive": 41,
       "neutral": 17,
-      "negative": 138,
-      "count": 196
+      "negative": 136,
+      "count": 194
     },
     {
       "region": "Global",
-      "positive": 82,
-      "neutral": 31,
-      "negative": 70,
-      "count": 183
+      "positive": 77,
+      "neutral": 32,
+      "negative": 69,
+      "count": 178
     },
     {
       "region": "South America",
       "positive": 13,
-      "neutral": 5,
-      "negative": 27,
-      "count": 45
+      "neutral": 6,
+      "negative": 28,
+      "count": 47
     },
     {
       "region": "Africa",
       "positive": 15,
       "neutral": 4,
-      "negative": 20,
-      "count": 39
+      "negative": 18,
+      "count": 37
     }
   ],
   "by_topic": [
     {
       "topic": "Tech",
       "positive": 244,
-      "neutral": 89,
-      "negative": 404,
-      "count": 737
+      "neutral": 88,
+      "negative": 393,
+      "count": 725
     },
     {
       "topic": "Politics",
-      "positive": 267,
-      "neutral": 60,
-      "negative": 249,
-      "count": 576
+      "positive": 262,
+      "neutral": 59,
+      "negative": 239,
+      "count": 560
     },
     {
       "topic": "Other",
-      "positive": 162,
-      "neutral": 102,
-      "negative": 200,
-      "count": 464
+      "positive": 160,
+      "neutral": 104,
+      "negative": 198,
+      "count": 462
     },
     {
       "topic": "World",
-      "positive": 123,
+      "positive": 127,
       "neutral": 29,
-      "negative": 190,
-      "count": 342
+      "negative": 193,
+      "count": 349
     },
     {
       "topic": "Business",
-      "positive": 95,
+      "positive": 89,
       "neutral": 26,
-      "negative": 121,
-      "count": 242
+      "negative": 120,
+      "count": 235
     },
     {
       "topic": "Sports",
-      "positive": 99,
-      "neutral": 20,
-      "negative": 51,
-      "count": 170
+      "positive": 102,
+      "neutral": 19,
+      "negative": 52,
+      "count": 173
     },
     {
       "topic": "Entertainment",
@@ -414,25 +414,25 @@
       "count": 79
     },
     {
-      "topic": "Regional",
-      "positive": 23,
-      "neutral": 8,
-      "negative": 37,
-      "count": 68
-    },
-    {
       "topic": "Health",
       "positive": 19,
       "neutral": 6,
-      "negative": 43,
-      "count": 68
+      "negative": 46,
+      "count": 71
+    },
+    {
+      "topic": "Regional",
+      "positive": 23,
+      "neutral": 8,
+      "negative": 39,
+      "count": 70
     },
     {
       "topic": "Science",
       "positive": 22,
       "neutral": 7,
-      "negative": 31,
-      "count": 60
+      "negative": 30,
+      "count": 59
     },
     {
       "topic": "Local",
@@ -450,6 +450,30 @@
       "region": "Europe",
       "published": "2027-01-09T16:08:00+00:00",
       "sentiment": "neutral"
+    },
+    {
+      "title": "Hundreds evacuated from Croatian and Greek resorts as wildfires stretch across Europe",
+      "url": "https://www.channelnewsasia.com/world/wildfire-europe-heatwave-croatia-resort-6320581",
+      "source": "Channel News Asia",
+      "region": "Europe",
+      "published": "2026-08-15T04:23:40+08:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "US regulator approves bank charter for Trump-backed crypto company World Liberty Financial",
+      "url": "https://www.channelnewsasia.com/business/us-regulator-approves-bank-charter-trump-backed-crypto-company-world-liberty-financial-6320586",
+      "source": "Channel News Asia",
+      "region": "North America",
+      "published": "2026-08-15T04:05:28+08:00",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Italy's Euro 2020 winner Immobile retires after 17-year career",
+      "url": "https://www.channelnewsasia.com/sport/italys-euro-2020-winner-immobile-retires-after-17-year-career-6320566",
+      "source": "Channel News Asia",
+      "region": "Europe",
+      "published": "2026-08-15T03:46:18+08:00",
+      "sentiment": "positive"
     },
     {
       "title": "Romero bids farewell to Spurs ahead of Atletico move",
@@ -484,12 +508,28 @@
       "sentiment": "positive"
     },
     {
+      "title": "Death of wild boars raises concerns in Kerala\u2019s Kasaragod",
+      "url": "https://www.thehindu.com/news/national/kerala/death-of-wild-boars-raises-concerns-in-keralas-kasaragod/article71345879.ece",
+      "source": "The Hindu",
+      "region": "Asia-Pacific",
+      "published": "2026-08-15T01:53:45+05:30",
+      "sentiment": "negative"
+    },
+    {
       "title": "European championships deliver further frustration for Ramsay-Peaty",
       "url": "https://www.channelnewsasia.com/sport/european-championships-deliver-further-frustration-ramsay-peaty-6320436",
       "source": "Channel News Asia",
       "region": "Europe",
       "published": "2026-08-15T01:46:41+08:00",
       "sentiment": "neutral"
+    },
+    {
+      "title": "Jason Arday, ex-Cambridge professor at centre of plagiarism row, found dead",
+      "url": "https://timesofindia.indiatimes.com/world/uk/jason-arday-ex-cambridge-professor-at-centre-of-plagiarism-row-found-dead/articleshow/133251434.cms",
+      "source": "Times of India",
+      "region": "Asia-Pacific",
+      "published": "2026-08-15T01:42:23+05:30",
+      "sentiment": "negative"
     },
     {
       "title": "Dry weather delays England community rugby season, RFU says",
@@ -500,12 +540,68 @@
       "sentiment": "neutral"
     },
     {
+      "title": "Three police officers suspended for allegedly taking money from scrap dealer in Kochi",
+      "url": "https://www.thehindu.com/news/national/kerala/three-police-officers-suspended-for-allegedly-taking-money-from-scrap-dealer-in-kochi/article71346771.ece",
+      "source": "The Hindu",
+      "region": "North America",
+      "published": "2026-08-15T01:34:01+05:30",
+      "sentiment": "negative"
+    },
+    {
       "title": "US wants Netanyahu to condemn settler siege in Palestinian village, officials say",
       "url": "https://www.channelnewsasia.com/world/palestine-activists-israel-us-netanyahu-6320386",
       "source": "Channel News Asia",
       "region": "Middle East",
       "published": "2026-08-15T01:32:14+08:00",
       "sentiment": "positive"
+    },
+    {
+      "title": "Public exams to become more transparent, secure and trustworthy: President Murmu",
+      "url": "https://timesofindia.indiatimes.com/india/public-exams-to-become-more-transparent-secure-and-trustworthy-president-murmu/articleshow/133251351.cms",
+      "source": "Times of India",
+      "region": "North America",
+      "published": "2026-08-15T01:29:04+05:30",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Partition Day event turns awkward as BJP MP Rao Inderjit flags \u2018community-specific\u2019 politics",
+      "url": "https://www.thehindu.com/news/national/haryana/partition-day-event-turns-awkward-as-bjp-mp-rao-inderjit-flags-community-specific-politics/article71346638.ece",
+      "source": "The Hindu",
+      "region": "Asia-Pacific",
+      "published": "2026-08-15T01:26:21+05:30",
+      "sentiment": "negative"
+    },
+    {
+      "title": "\u2018First Islamic republic with nuclear weapons\u2019: Netanyahu\u2019s sharp rebuke of UK",
+      "url": "https://timesofindia.indiatimes.com/world/middle-east/first-islamic-republic-with-nuclear-weapons-netanyahus-sharp-rebuke-of-uk/articleshow/133251347.cms",
+      "source": "Times of India",
+      "region": "Europe",
+      "published": "2026-08-15T01:25:21+05:30",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Rowdy-sheeter arrested under Goonda Act",
+      "url": "https://www.thehindu.com/news/cities/bangalore/rowdy-sheeter-arrested-under-goonda-act/article71345661.ece",
+      "source": "The Hindu",
+      "region": "Asia-Pacific",
+      "published": "2026-08-15T01:25:08+05:30",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Couple found dead at their house in Bengaluru\u2019s Rajagopalnagar",
+      "url": "https://www.thehindu.com/news/cities/bangalore/couple-found-dead-at-their-house-in-bengalurus-rajagopalnagar/article71347196.ece",
+      "source": "The Hindu",
+      "region": "North America",
+      "published": "2026-08-15T01:23:20+05:30",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Akhilesh\u00a0takes potshots at\u00a0U.P.\u00a0govt.\u2019s project on cow urine collection",
+      "url": "https://www.thehindu.com/news/national/uttar-pradesh/akhileshtakes-potshots-atupgovts-project-on-cow-urine-collection/article71347081.ece",
+      "source": "The Hindu",
+      "region": "Asia-Pacific",
+      "published": "2026-08-15T01:19:01+05:30",
+      "sentiment": "neutral"
     },
     {
       "title": "Heated exchange between BJP and Priyank Kharge over Bill \u2018targeting\u2019 RSS",
@@ -578,6 +674,14 @@
       "region": "Asia-Pacific",
       "published": "2026-08-15T00:47:55+05:30",
       "sentiment": "positive"
+    },
+    {
+      "title": "One killed, another injured as VDG member \u2018opens fire\u2019 in J&K\u2019s Udhampur",
+      "url": "https://www.thehindu.com/news/national/jammu-and-kashmir/one-killed-another-injured-as-vdg-member-opens-fire-in-jks-udhampur/article71346751.ece",
+      "source": "The Hindu",
+      "region": "Asia-Pacific",
+      "published": "2026-08-15T00:47:17+05:30",
+      "sentiment": "negative"
     },
     {
       "title": "TASL, NIBE bag \u20b91,577-crore Army contracts for loiter munitions",
@@ -1137,110 +1241,6 @@
       "source": "Channel News Asia",
       "region": "Global",
       "published": "2026-08-14T22:09:31+08:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "'I shot him': Luigi Mangione pleads guilty to killing United Healthcare CEO",
-      "url": "https://timesofindia.indiatimes.com/world/us/i-shot-him-luigi-mangione-pleads-guilty-to-killing-united-healthcare-ceo-sentencing-on-dec-18/articleshow/133247371.cms",
-      "source": "Times of India",
-      "region": "Asia-Pacific",
-      "published": "2026-08-14T22:07:56+05:30",
-      "sentiment": "negative"
-    },
-    {
-      "title": "CJI criticises BCI\u2019s interference in \u2018dialogue\u2019 between him and students",
-      "url": "https://www.thehindu.com/news/national/supreme-court-condemns-bar-council-nalsar-enrolment-freeze-circulars-withdrawal-cji-surya-kant/article71344255.ece",
-      "source": "The Hindu",
-      "region": "Asia-Pacific",
-      "published": "2026-08-14T22:06:40+05:30",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Naomi Osaka on motherhood: How self-care changed her approach to parenting",
-      "url": "https://timesofindia.indiatimes.com/sports/international-sports/inspiring-story-on-motherhood-by-naomi-osaka-taking-care-of-myself-is-part-of-taking-care-of-my-daughter-tennis-star-reveals-how-self-care-changed-her-approach-to-parenting/articleshow/133247275.cms",
-      "source": "Times of India",
-      "region": "Asia-Pacific",
-      "published": "2026-08-14T22:01:55+05:30",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Dollar falls on surprise drop in US retail sales",
-      "url": "https://www.channelnewsasia.com/business/dollar-falls-surprise-drop-in-us-retail-sales-6319256",
-      "source": "Channel News Asia",
-      "region": "North America",
-      "published": "2026-08-14T21:58:31+08:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Second train derails in Southeast England within 24 hours; no injuries reported",
-      "url": "https://timesofindia.indiatimes.com/world/uk/second-train-derails-in-southeast-england-within-24-hours-no-injuries-reported/articleshow/133247080.cms",
-      "source": "Times of India",
-      "region": "Europe",
-      "published": "2026-08-14T21:54:37+05:30",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Two killed in alleged Kuki extremists\u2019 attack in Manipur",
-      "url": "https://www.thehindu.com/news/national/manipur/kuki-extremists-attack-in-manipur/article71345891.ece",
-      "source": "The Hindu",
-      "region": "Europe",
-      "published": "2026-08-14T21:53:52+05:30",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Arjun Ayanki taken into custody in threat case",
-      "url": "https://www.thehindu.com/news/national/kerala/arjun-ayanki-taken-into-custody-in-threat-case/article71346735.ece",
-      "source": "The Hindu",
-      "region": "North America",
-      "published": "2026-08-14T21:51:12+05:30",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Jharkhand student protesters plan \u2018Tiranga Yatra\u2019 to spread message of unity",
-      "url": "https://www.thehindu.com/news/national/jharkhand/jharkhand-job-exam-stir-protest-enters-21st-day-students-plan-tiranga-yatra-on-august-15/article71344319.ece",
-      "source": "The Hindu",
-      "region": "Middle East",
-      "published": "2026-08-14T21:51:11+05:30",
-      "sentiment": "negative"
-    },
-    {
-      "title": "At least S$6.1 million lost to scammers impersonating ICA, China officials",
-      "url": "https://www.channelnewsasia.com/singapore/impersonation-scams-officials-ica-china-6320076",
-      "source": "Channel News Asia",
-      "region": "Asia-Pacific",
-      "published": "2026-08-14T21:48:43+08:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Reddit surges on S&P 500 inclusion, set to replace AvalonBay",
-      "url": "https://www.channelnewsasia.com/business/reddit-surges-sp-500-inclusion-set-replace-avalonbay-6320091",
-      "source": "Channel News Asia",
-      "region": "North America",
-      "published": "2026-08-14T21:47:36+08:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Marcus Aurelius' quote on how perception shapes what we hear and see",
-      "url": "https://timesofindia.indiatimes.com/life-style/books/features/quote-of-the-day-by-marcus-aurelius-everything-we-hear-is-an-opinion-not-a-fact-everything-we-see-is-a-/articleshow/133246739.cms",
-      "source": "Times of India",
-      "region": "North America",
-      "published": "2026-08-14T21:47:10+05:30",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Centre and TN govts should work together to appoint V-Cs in the State: VIT chancellor",
-      "url": "https://www.thehindu.com/news/national/tamil-nadu/centre-and-tn-govts-should-work-together-to-appoint-v-cs-in-the-state-vit-chancellor/article71345721.ece",
-      "source": "The Hindu",
-      "region": "Asia-Pacific",
-      "published": "2026-08-14T21:47:07+05:30",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\u2018Peace begins from within\u2019",
-      "url": "https://www.thehindu.com/news/national/telangana/peace-begins-from-within/article71346619.ece",
-      "source": "The Hindu",
-      "region": "Asia-Pacific",
-      "published": "2026-08-14T21:46:37+05:30",
       "sentiment": "positive"
     }
   ]
