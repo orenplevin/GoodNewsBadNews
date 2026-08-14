@@ -1,26 +1,26 @@
 {
-  "generated_at": "2026-08-14T23:21:57.211636+00:00",
+  "generated_at": "2026-08-14T23:49:03.873426+00:00",
   "window_hours": 24,
   "totals": {
-    "positive": 1061,
-    "neutral": 356,
-    "negative": 1360
+    "positive": 1060,
+    "neutral": 350,
+    "negative": 1363
   },
   "by_publication": [
     {
       "source": "Independent",
-      "positive": 151,
-      "neutral": 78,
-      "negative": 230,
-      "count": 459,
+      "positive": 150,
+      "neutral": 79,
+      "negative": 231,
+      "count": 460,
       "region": "Europe"
     },
     {
       "source": "The Hindu",
-      "positive": 113,
+      "positive": 114,
       "neutral": 84,
-      "negative": 119,
-      "count": 316,
+      "negative": 122,
+      "count": 320,
       "region": "Asia-Pacific"
     },
     {
@@ -33,42 +33,34 @@
     },
     {
       "source": "Bloomberg",
-      "positive": 66,
-      "neutral": 16,
-      "negative": 63,
-      "count": 145,
+      "positive": 67,
+      "neutral": 13,
+      "negative": 62,
+      "count": 142,
       "region": "North America"
     },
     {
       "source": "Australian Broadcasting Corporation",
-      "positive": 46,
-      "neutral": 16,
-      "negative": 68,
-      "count": 130,
+      "positive": 45,
+      "neutral": 14,
+      "negative": 69,
+      "count": 128,
       "region": "Asia-Pacific"
     },
     {
-      "source": "Channel News Asia",
-      "positive": 54,
-      "neutral": 25,
-      "negative": 45,
+      "source": "Fox News",
+      "positive": 41,
+      "neutral": 9,
+      "negative": 74,
       "count": 124,
       "region": "North America"
     },
     {
-      "source": "Fox News",
-      "positive": 42,
-      "neutral": 9,
-      "negative": 71,
-      "count": 122,
-      "region": "North America"
-    },
-    {
-      "source": "CBS News",
-      "positive": 34,
-      "neutral": 11,
-      "negative": 76,
-      "count": 121,
+      "source": "Channel News Asia",
+      "positive": 53,
+      "neutral": 25,
+      "negative": 45,
+      "count": 123,
       "region": "North America"
     },
     {
@@ -80,20 +72,28 @@
       "region": "North America"
     },
     {
-      "source": "BBC News",
-      "positive": 28,
-      "neutral": 6,
-      "negative": 53,
-      "count": 87,
-      "region": "Europe"
+      "source": "CBS News",
+      "positive": 31,
+      "neutral": 10,
+      "negative": 73,
+      "count": 114,
+      "region": "North America"
     },
     {
       "source": "Al Jazeera English",
       "positive": 19,
       "neutral": 13,
-      "negative": 54,
-      "count": 86,
+      "negative": 56,
+      "count": 88,
       "region": "Middle East"
+    },
+    {
+      "source": "BBC News",
+      "positive": 28,
+      "neutral": 6,
+      "negative": 52,
+      "count": 86,
+      "region": "Europe"
     },
     {
       "source": "Euronews",
@@ -104,35 +104,35 @@
       "region": "Europe"
     },
     {
-      "source": "BBC Sport",
-      "positive": 51,
-      "neutral": 2,
-      "negative": 21,
-      "count": 74,
-      "region": "Europe"
-    },
-    {
       "source": "South China Morning Post",
       "positive": 31,
       "neutral": 1,
       "negative": 42,
       "count": 74,
-      "region": "South America"
+      "region": "Asia-Pacific"
+    },
+    {
+      "source": "BBC Sport",
+      "positive": 50,
+      "neutral": 2,
+      "negative": 19,
+      "count": 71,
+      "region": "Europe"
     },
     {
       "source": "Middle East Eye",
-      "positive": 20,
+      "positive": 22,
       "neutral": 0,
       "negative": 37,
-      "count": 57,
+      "count": 59,
       "region": "Middle East"
     },
     {
       "source": "NBC News",
-      "positive": 8,
+      "positive": 10,
       "neutral": 1,
-      "negative": 46,
-      "count": 55,
+      "negative": 47,
+      "count": 58,
       "region": "North America"
     },
     {
@@ -211,25 +211,25 @@
       "source": "New York Times",
       "positive": 10,
       "neutral": 2,
-      "negative": 16,
-      "count": 28,
-      "region": "North America"
-    },
-    {
-      "source": "ABC News",
-      "positive": 8,
-      "neutral": 4,
       "negative": 15,
       "count": 27,
       "region": "North America"
     },
     {
-      "source": "RT News",
-      "positive": 6,
-      "neutral": 0,
+      "source": "ABC News",
+      "positive": 8,
+      "neutral": 3,
       "negative": 16,
+      "count": 27,
+      "region": "North America"
+    },
+    {
+      "source": "RT News",
+      "positive": 7,
+      "neutral": 0,
+      "negative": 15,
       "count": 22,
-      "region": "Europe"
+      "region": "Global"
     },
     {
       "source": "Wired",
@@ -315,38 +315,38 @@
   "by_region": [
     {
       "region": "North America",
-      "positive": 414,
-      "neutral": 116,
-      "negative": 528,
-      "count": 1058
+      "positive": 413,
+      "neutral": 114,
+      "negative": 529,
+      "count": 1056
     },
     {
       "region": "Europe",
-      "positive": 282,
+      "positive": 280,
       "neutral": 87,
-      "negative": 327,
-      "count": 696
+      "negative": 324,
+      "count": 691
     },
     {
       "region": "Asia-Pacific",
-      "positive": 223,
-      "neutral": 101,
-      "negative": 251,
-      "count": 575
+      "positive": 222,
+      "neutral": 99,
+      "negative": 256,
+      "count": 577
     },
     {
       "region": "Middle East",
-      "positive": 43,
+      "positive": 45,
       "neutral": 13,
-      "negative": 140,
-      "count": 196
+      "negative": 141,
+      "count": 199
     },
     {
       "region": "Global",
-      "positive": 70,
-      "neutral": 31,
-      "negative": 70,
-      "count": 171
+      "positive": 71,
+      "neutral": 29,
+      "negative": 69,
+      "count": 169
     },
     {
       "region": "South America",
@@ -366,73 +366,73 @@
   "by_topic": [
     {
       "topic": "Tech",
-      "positive": 235,
-      "neutral": 88,
-      "negative": 397,
-      "count": 720
+      "positive": 233,
+      "neutral": 85,
+      "negative": 399,
+      "count": 717
     },
     {
       "topic": "Politics",
       "positive": 262,
-      "neutral": 48,
-      "negative": 229,
-      "count": 539
+      "neutral": 49,
+      "negative": 230,
+      "count": 541
     },
     {
       "topic": "Other",
-      "positive": 157,
+      "positive": 156,
       "neutral": 96,
       "negative": 195,
-      "count": 448
+      "count": 447
     },
     {
       "topic": "World",
       "positive": 122,
       "neutral": 30,
-      "negative": 204,
-      "count": 356
+      "negative": 206,
+      "count": 358
     },
     {
       "topic": "Business",
-      "positive": 80,
-      "neutral": 27,
+      "positive": 81,
+      "neutral": 24,
       "negative": 116,
-      "count": 223
+      "count": 221
     },
     {
       "topic": "Sports",
       "positive": 95,
-      "neutral": 19,
-      "negative": 51,
-      "count": 165
+      "neutral": 17,
+      "negative": 48,
+      "count": 160
     },
     {
       "topic": "Health",
       "positive": 21,
-      "neutral": 8,
-      "negative": 46,
+      "neutral": 9,
+      "negative": 45,
       "count": 75
     },
     {
       "topic": "Entertainment",
-      "positive": 34,
+      "positive": 33,
       "neutral": 15,
-      "negative": 26,
+      "negative": 27,
       "count": 75
     },
     {
       "topic": "Regional",
-      "positive": 24,
+      "positive": 26,
       "neutral": 7,
       "negative": 40,
-      "count": 71
+      "count": 73
     },
     {
       "topic": "Science",
       "positive": 21,
       "neutral": 7,
-      "negative": 30,
-      "count": 58
+      "negative": 31,
+      "count": 59
     },
     {
       "topic": "Local",
@@ -456,6 +456,14 @@
       "url": "https://www.channelnewsasia.com/asia/magnitude-76-earthquake-strikes-coast-indonesia-usgs-6320771",
       "source": "Channel News Asia",
       "region": "North America",
+      "published": "2026-08-15T07:09:00+08:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Powerful earthquake strikes off coast of Indonesia, tsunami warning issued",
+      "url": "https://www.channelnewsasia.com/asia/indonesia-earthquake-tsunami-warning-6320771",
+      "source": "Channel News Asia",
+      "region": "Asia-Pacific",
       "published": "2026-08-15T07:09:00+08:00",
       "sentiment": "negative"
     },
@@ -564,12 +572,36 @@
       "sentiment": "positive"
     },
     {
+      "title": "Lord's to Lahore: A look at India's milestone Tests before the 600th at Galle",
+      "url": "https://timesofindia.indiatimes.com/sports/cricket/news/india-play-600th-test-at-galle-what-happened-in-1st-100th-200th-300th-400th-and-500th-tests/articleshow/133251542.cms",
+      "source": "Times of India",
+      "region": "Asia-Pacific",
+      "published": "2026-08-15T05:00:00+05:30",
+      "sentiment": "positive"
+    },
+    {
       "title": "Trump says will 'soon' declare Hormuz strait US territory",
       "url": "https://www.channelnewsasia.com/world/hormuz-trump-us-territory-soon-declare-iran-6320596",
       "source": "Channel News Asia",
       "region": "North America",
       "published": "2026-08-15T04:43:09+08:00",
       "sentiment": "neutral"
+    },
+    {
+      "title": "Four arrested in Mumbai in connection with \u20b930 crore Ponzi, multi-level marketing scheme",
+      "url": "https://www.thehindu.com/news/cities/mumbai/four-arrested-in-mumbai-in-connection-with-30-crore-ponzi-multi-level-marketing-scheme/article71347096.ece",
+      "source": "The Hindu",
+      "region": "Asia-Pacific",
+      "published": "2026-08-15T04:39:14+05:30",
+      "sentiment": "negative"
+    },
+    {
+      "title": "J&K administration says no work from home order for Pandits in Kashmir; CM Abdullah says \u2018a credible threat cannot be taken lightly\u2019",
+      "url": "https://www.thehindu.com/news/national/jammu-and-kashmir/jk-administration-says-no-work-from-home-order-for-pandits-in-kashmir-cm-abdullah-says-a-credible-threat-cannot-be-taken-lightly/article71347004.ece",
+      "source": "The Hindu",
+      "region": "Asia-Pacific",
+      "published": "2026-08-15T04:34:51+05:30",
+      "sentiment": "negative"
     },
     {
       "title": "Hanwha, Fincantieri shares rise after Trump opens\u00a0Navy shipbuilding to foreign yards",
@@ -585,6 +617,14 @@
       "source": "Channel News Asia",
       "region": "Europe",
       "published": "2026-08-15T04:23:40+08:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Uttar Pradesh traders demands regulatory mechanism for the security of foreign trade amid frauds, payment failures",
+      "url": "https://www.thehindu.com/news/national/uttar-pradesh/uttar-pradesh-traders-demands-regulatory-mechanism-for-the-security-of-foreign-trade-amid-frauds-payment-failures/article71346508.ece",
+      "source": "The Hindu",
+      "region": "Asia-Pacific",
+      "published": "2026-08-15T04:15:31+05:30",
       "sentiment": "negative"
     },
     {
@@ -610,6 +650,14 @@
       "region": "North America",
       "published": "2026-08-15T04:07:15+05:30",
       "sentiment": "negative"
+    },
+    {
+      "title": "Uttar Pradesh aspirants waiting merit list plans protest outside recruitment board, flags prolong delay",
+      "url": "https://www.thehindu.com/news/national/uttar-pradesh/uttar-pradesh-aspirants-waiting-merit-list-plans-protest-outside-recruitment-board-flags-prolong-delay/article71346283.ece",
+      "source": "The Hindu",
+      "region": "Europe",
+      "published": "2026-08-15T04:06:39+05:30",
+      "sentiment": "positive"
     },
     {
       "title": "US regulator approves bank charter for Trump-backed crypto company World Liberty Financial",
@@ -972,6 +1020,14 @@
       "sentiment": "positive"
     },
     {
+      "title": "Oil climbs over $1 a barrel as expert warns of \u2018day of reckoning\u2019",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/oil-climbs-over-1-barrel-expert-warns-day-reckoning",
+      "source": "Middle East Eye",
+      "region": "Middle East",
+      "published": "2026-08-15T00:47:49+01:00",
+      "sentiment": "positive"
+    },
+    {
       "title": "One killed, another injured as VDG member \u2018opens fire\u2019 in J&K\u2019s Udhampur",
       "url": "https://www.thehindu.com/news/national/jammu-and-kashmir/one-killed-another-injured-as-vdg-member-opens-fire-in-jks-udhampur/article71346751.ece",
       "source": "The Hindu",
@@ -1017,6 +1073,14 @@
       "source": "The Hindu",
       "region": "Asia-Pacific",
       "published": "2026-08-15T00:33:32+05:30",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Trump urges Americans to accept higher oil prices",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/trump-urges-americans-accept-higher-oil-prices",
+      "source": "Middle East Eye",
+      "region": "Middle East",
+      "published": "2026-08-15T00:32:04+01:00",
       "sentiment": "positive"
     },
     {
@@ -1178,70 +1242,6 @@
       "region": "North America",
       "published": "2026-08-14T23:53:12+05:30",
       "sentiment": "positive"
-    },
-    {
-      "title": "Araghchi says talks with Oman about Strait of Hormuz \u2018may reach conclusion soon\u2019",
-      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/araghchi-says-talks-oman-about-strait-hormuz-may-reach-conclusion-soon",
-      "source": "Middle East Eye",
-      "region": "Middle East",
-      "published": "2026-08-14T23:50:08+01:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Minister inspects tribal hamlets atop Alleri hillock in Vellore to provide basic amenities",
-      "url": "https://www.thehindu.com/news/national/tamil-nadu/minister-inspects-tribal-hamlets-atop-alleri-hillock-in-vellore-to-provide-basic-amenities/article71346467.ece",
-      "source": "The Hindu",
-      "region": "Asia-Pacific",
-      "published": "2026-08-14T23:48:51+05:30",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "M. Siva Prasad takes charge as APSRTC Joint Managing Director",
-      "url": "https://www.thehindu.com/news/national/andhra-pradesh/m-siva-prasad-takes-charge-as-apsrtc-joint-managing-director/article71346551.ece",
-      "source": "The Hindu",
-      "region": "Asia-Pacific",
-      "published": "2026-08-14T23:47:33+05:30",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Israeli settlers shoot and wound two Palestinians east of Hebron",
-      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-settlers-shoot-and-wound-two-palestinians-east-hebron",
-      "source": "Middle East Eye",
-      "region": "Middle East",
-      "published": "2026-08-14T23:45:28+01:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "22 officers from Karnataka Police, Fire, Home Guard departments receive President\u2019s Medal",
-      "url": "https://www.thehindu.com/news/national/karnataka/22-officers-from-karnataka-police-fire-home-guard-departments-receive-presidents-medal/article71344336.ece",
-      "source": "The Hindu",
-      "region": "Asia-Pacific",
-      "published": "2026-08-14T23:41:00+05:30",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Kerala raises caregiver assistance under Aswasakiranam scheme to \u20b91,000",
-      "url": "https://www.thehindu.com/news/national/kerala/kerala-raises-caregiver-assistance-under-ashwasakiranam-scheme-to-1000/article71346271.ece",
-      "source": "The Hindu",
-      "region": "Middle East",
-      "published": "2026-08-14T23:36:54+05:30",
-      "sentiment": "negative"
-    },
-    {
-      "title": "What happened to Goldberg after WWE? Inside his life and new business ventures",
-      "url": "https://timesofindia.indiatimes.com/sports/wwe/top-stories/what-happened-to-goldberg-after-wwe-inside-the-wrestling-legends-life-business-ventures-and-new-chapter/articleshow/133249181.cms",
-      "source": "Times of India",
-      "region": "North America",
-      "published": "2026-08-14T23:35:06+05:30",
-      "sentiment": "positive"
-    },
-    {
-      "title": "UAE's Adnoc says one of its vessels came under attack while transiting Hormuz",
-      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/uaes-adnoc-says-one-its-vessels-came-under-attack-while-transiting",
-      "source": "Middle East Eye",
-      "region": "Middle East",
-      "published": "2026-08-14T23:33:53+01:00",
-      "sentiment": "negative"
     }
   ]
 }
