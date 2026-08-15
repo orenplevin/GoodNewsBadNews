@@ -1,122 +1,122 @@
 {
-  "generated_at": "2026-08-15T21:46:34.165985+00:00",
+  "generated_at": "2026-08-15T22:21:18.934228+00:00",
   "window_hours": 24,
   "totals": {
-    "positive": 714,
-    "neutral": 254,
-    "negative": 869
+    "positive": 700,
+    "neutral": 256,
+    "negative": 851
   },
   "by_publication": [
     {
       "source": "The Hindu",
-      "positive": 126,
+      "positive": 125,
       "neutral": 60,
       "negative": 91,
-      "count": 277,
+      "count": 276,
       "region": "North America"
     },
     {
       "source": "Independent",
-      "positive": 61,
-      "neutral": 34,
-      "negative": 126,
-      "count": 221,
+      "positive": 60,
+      "neutral": 35,
+      "negative": 124,
+      "count": 219,
       "region": "Europe"
     },
     {
       "source": "Times of India",
       "positive": 101,
-      "neutral": 21,
+      "neutral": 19,
       "negative": 49,
-      "count": 171,
+      "count": 169,
       "region": "Asia-Pacific"
     },
     {
       "source": "Australian Broadcasting Corporation",
-      "positive": 37,
+      "positive": 33,
       "neutral": 17,
-      "negative": 52,
-      "count": 106,
+      "negative": 50,
+      "count": 100,
       "region": "Asia-Pacific"
     },
     {
       "source": "Fox News",
-      "positive": 31,
+      "positive": 27,
       "neutral": 10,
       "negative": 55,
-      "count": 96,
-      "region": "Asia-Pacific"
-    },
-    {
-      "source": "Al Jazeera English",
-      "positive": 22,
-      "neutral": 6,
-      "negative": 49,
-      "count": 77,
-      "region": "Middle East"
+      "count": 92,
+      "region": "North America"
     },
     {
       "source": "BBC News",
       "positive": 27,
       "neutral": 8,
-      "negative": 41,
-      "count": 76,
+      "negative": 42,
+      "count": 77,
       "region": "Europe"
+    },
+    {
+      "source": "Al Jazeera English",
+      "positive": 23,
+      "neutral": 6,
+      "negative": 47,
+      "count": 76,
+      "region": "Middle East"
     },
     {
       "source": "Sky Sports",
       "positive": 45,
       "neutral": 17,
-      "negative": 10,
-      "count": 72,
-      "region": "Europe"
+      "negative": 8,
+      "count": 70,
+      "region": "North America"
     },
     {
       "source": "CBS News",
       "positive": 21,
       "neutral": 7,
-      "negative": 42,
-      "count": 70,
+      "negative": 38,
+      "count": 66,
       "region": "North America"
     },
     {
+      "source": "BBC Sport",
+      "positive": 34,
+      "neutral": 11,
+      "negative": 13,
+      "count": 58,
+      "region": "Middle East"
+    },
+    {
       "source": "South China Morning Post",
-      "positive": 23,
+      "positive": 24,
       "neutral": 0,
       "negative": 34,
-      "count": 57,
+      "count": 58,
       "region": "North America"
+    },
+    {
+      "source": "Channel News Asia",
+      "positive": 17,
+      "neutral": 18,
+      "negative": 20,
+      "count": 55,
+      "region": "Global"
     },
     {
       "source": "The Guardian",
       "positive": 12,
       "neutral": 1,
-      "negative": 44,
-      "count": 57,
+      "negative": 41,
+      "count": 54,
       "region": "North America"
     },
     {
-      "source": "Channel News Asia",
-      "positive": 21,
-      "neutral": 15,
-      "negative": 20,
-      "count": 56,
-      "region": "Global"
-    },
-    {
-      "source": "BBC Sport",
-      "positive": 33,
-      "neutral": 11,
-      "negative": 12,
-      "count": 56,
-      "region": "Europe"
-    },
-    {
       "source": "Middle East Eye",
-      "positive": 11,
+      "positive": 9,
       "neutral": 1,
-      "negative": 36,
-      "count": 48,
+      "negative": 37,
+      "count": 47,
       "region": "Middle East"
     },
     {
@@ -128,20 +128,20 @@
       "region": "North America"
     },
     {
-      "source": "Bloomberg",
-      "positive": 19,
-      "neutral": 3,
-      "negative": 15,
-      "count": 37,
-      "region": "Global"
-    },
-    {
       "source": "France 24",
       "positive": 6,
       "neutral": 2,
-      "negative": 27,
-      "count": 35,
+      "negative": 26,
+      "count": 34,
       "region": "Middle East"
+    },
+    {
+      "source": "Bloomberg",
+      "positive": 17,
+      "neutral": 3,
+      "negative": 14,
+      "count": 34,
+      "region": "Global"
     },
     {
       "source": "Euronews",
@@ -155,8 +155,8 @@
       "source": "Mashable",
       "positive": 23,
       "neutral": 3,
-      "negative": 4,
-      "count": 30,
+      "negative": 3,
+      "count": 29,
       "region": "Global"
     },
     {
@@ -184,28 +184,20 @@
       "region": "Global"
     },
     {
-      "source": "Deutsche Welle",
-      "positive": 4,
-      "neutral": 0,
-      "negative": 12,
-      "count": 16,
-      "region": "Middle East"
-    },
-    {
-      "source": "Irish Times",
-      "positive": 3,
-      "neutral": 0,
-      "negative": 13,
-      "count": 16,
-      "region": "Middle East"
-    },
-    {
       "source": "Daily News Egypt",
       "positive": 10,
       "neutral": 2,
       "negative": 3,
       "count": 15,
       "region": "Europe"
+    },
+    {
+      "source": "Irish Times",
+      "positive": 3,
+      "neutral": 0,
+      "negative": 12,
+      "count": 15,
+      "region": "Middle East"
     },
     {
       "source": "CNBC",
@@ -221,31 +213,47 @@
       "neutral": 1,
       "negative": 9,
       "count": 14,
-      "region": "North America"
+      "region": "Middle East"
+    },
+    {
+      "source": "Deutsche Welle",
+      "positive": 3,
+      "neutral": 0,
+      "negative": 11,
+      "count": 14,
+      "region": "Middle East"
     },
     {
       "source": "ABC News",
-      "positive": 6,
+      "positive": 7,
       "neutral": 0,
-      "negative": 7,
+      "negative": 6,
       "count": 13,
       "region": "North America"
+    },
+    {
+      "source": "The Verge",
+      "positive": 8,
+      "neutral": 1,
+      "negative": 3,
+      "count": 12,
+      "region": "Global"
     },
     {
       "source": "Financial Times",
       "positive": 3,
       "neutral": 2,
-      "negative": 8,
-      "count": 13,
+      "negative": 7,
+      "count": 12,
       "region": "Middle East"
     },
     {
-      "source": "The Verge",
-      "positive": 7,
-      "neutral": 1,
-      "negative": 3,
+      "source": "Sky News",
+      "positive": 0,
+      "neutral": 2,
+      "negative": 9,
       "count": 11,
-      "region": "Global"
+      "region": "Africa"
     },
     {
       "source": "MarketWatch",
@@ -254,14 +262,6 @@
       "negative": 6,
       "count": 10,
       "region": "North America"
-    },
-    {
-      "source": "Sky News",
-      "positive": 0,
-      "neutral": 2,
-      "negative": 8,
-      "count": 10,
-      "region": "Africa"
     },
     {
       "source": "NPR",
@@ -323,45 +323,45 @@
   "by_region": [
     {
       "region": "North America",
-      "positive": 228,
-      "neutral": 71,
-      "negative": 339,
-      "count": 638
+      "positive": 220,
+      "neutral": 70,
+      "negative": 328,
+      "count": 618
     },
     {
       "region": "Asia-Pacific",
-      "positive": 242,
-      "neutral": 91,
-      "negative": 216,
-      "count": 549
+      "positive": 236,
+      "neutral": 92,
+      "negative": 214,
+      "count": 542
     },
     {
       "region": "Europe",
       "positive": 163,
-      "neutral": 75,
-      "negative": 155,
-      "count": 393
+      "neutral": 76,
+      "negative": 150,
+      "count": 389
     },
     {
       "region": "Middle East",
       "positive": 32,
       "neutral": 3,
-      "negative": 109,
-      "count": 144
+      "negative": 110,
+      "count": 145
     },
     {
       "region": "Global",
       "positive": 38,
-      "neutral": 11,
-      "negative": 38,
-      "count": 87
+      "neutral": 12,
+      "negative": 36,
+      "count": 86
     },
     {
       "region": "Africa",
       "positive": 8,
       "neutral": 0,
-      "negative": 9,
-      "count": 17
+      "negative": 10,
+      "count": 18
     },
     {
       "region": "South America",
@@ -374,52 +374,52 @@
   "by_topic": [
     {
       "topic": "Tech",
-      "positive": 173,
-      "neutral": 56,
-      "negative": 249,
-      "count": 478
+      "positive": 170,
+      "neutral": 54,
+      "negative": 242,
+      "count": 466
     },
     {
       "topic": "Other",
-      "positive": 139,
-      "neutral": 85,
-      "negative": 148,
-      "count": 372
+      "positive": 138,
+      "neutral": 87,
+      "negative": 146,
+      "count": 371
     },
     {
       "topic": "Politics",
-      "positive": 124,
+      "positive": 119,
       "neutral": 36,
-      "negative": 151,
-      "count": 311
+      "negative": 152,
+      "count": 307
     },
     {
       "topic": "World",
-      "positive": 66,
+      "positive": 65,
       "neutral": 18,
-      "negative": 140,
-      "count": 224
+      "negative": 137,
+      "count": 220
     },
     {
       "topic": "Sports",
-      "positive": 83,
-      "neutral": 21,
-      "negative": 37,
-      "count": 141
+      "positive": 85,
+      "neutral": 22,
+      "negative": 36,
+      "count": 143
     },
     {
       "topic": "Business",
-      "positive": 34,
+      "positive": 31,
       "neutral": 14,
-      "negative": 29,
-      "count": 77
+      "negative": 27,
+      "count": 72
     },
     {
       "topic": "Entertainment",
-      "positive": 40,
+      "positive": 39,
       "neutral": 7,
       "negative": 13,
-      "count": 60
+      "count": 59
     },
     {
       "topic": "Regional",
@@ -430,24 +430,24 @@
     },
     {
       "topic": "Health",
-      "positive": 14,
-      "neutral": 5,
-      "negative": 36,
-      "count": 55
+      "positive": 12,
+      "neutral": 6,
+      "negative": 34,
+      "count": 52
     },
     {
       "topic": "Local",
       "positive": 15,
       "neutral": 5,
-      "negative": 21,
-      "count": 41
+      "negative": 20,
+      "count": 40
     },
     {
       "topic": "Science",
       "positive": 11,
       "neutral": 0,
-      "negative": 12,
-      "count": 23
+      "negative": 11,
+      "count": 22
     }
   ],
   "sample_headlines": [
@@ -457,6 +457,38 @@
       "source": "Independent",
       "region": "Europe",
       "published": "2027-01-09T16:08:00+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Djokovic falls in Cincinnati heat in first match since Wimbledon",
+      "url": "https://www.channelnewsasia.com/sport/djokovic-falls-in-cincinnati-heat-in-first-match-wimbledon-6321846",
+      "source": "Channel News Asia",
+      "region": "Global",
+      "published": "2026-08-16T06:12:26+08:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Germany's Liebmann smashes 1500m world record",
+      "url": "https://www.channelnewsasia.com/sport/germanys-liebmann-smashes-1500m-world-record-6321831",
+      "source": "Channel News Asia",
+      "region": "Europe",
+      "published": "2026-08-16T06:04:37+08:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Commentary: Japan needs deterrence and renewal - not managed decline",
+      "url": "https://www.channelnewsasia.com/commentary/japan-deterrence-and-renewal-economy-defence-soft-power-6319571",
+      "source": "Channel News Asia",
+      "region": "North America",
+      "published": "2026-08-16T06:00:00+08:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "How Singapore\u2019s Ascott grew from its first serviced residence into a global hospitality business",
+      "url": "https://www.channelnewsasia.com/people/ascott-singapore-serviced-residences-global-hospitality-6314391",
+      "source": "Channel News Asia",
+      "region": "Asia-Pacific",
+      "published": "2026-08-16T05:51:00+08:00",
       "sentiment": "neutral"
     },
     {
@@ -529,6 +561,14 @@
       "source": "The Hindu",
       "region": "North America",
       "published": "2026-08-16T02:37:12+05:30",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Nihang Sikhs | The warrior tradition",
+      "url": "https://www.thehindu.com/profile/nihang-sikhs-the-warrior-tradition/article71350572.ece",
+      "source": "The Hindu",
+      "region": "Asia-Pacific",
+      "published": "2026-08-16T02:29:46+05:30",
       "sentiment": "negative"
     },
     {
@@ -708,6 +748,14 @@
       "sentiment": "negative"
     },
     {
+      "title": "With slogans and tears, Ujjain schoolgirls protest plan to shift government schools far away",
+      "url": "https://www.thehindu.com/news/national/madhya-pradesh/with-slogans-and-tears-ujjain-schoolgirls-protest-plan-to-shift-government-schools-far-away/article71349995.ece",
+      "source": "The Hindu",
+      "region": "Asia-Pacific",
+      "published": "2026-08-16T00:16:41+05:30",
+      "sentiment": "negative"
+    },
+    {
       "title": "Ballari remembers its rich legacy in freedom struggle on Independence Day",
       "url": "https://www.thehindu.com/news/national/karnataka/ballari-remembers-its-rich-legacy-in-freedom-struggle-on-independence-day/article71350033.ece",
       "source": "The Hindu",
@@ -868,12 +916,28 @@
       "sentiment": "negative"
     },
     {
+      "title": "Report: Drone strikes kill three Houthi fighters and wound commanders in southwest Yemen",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/report-drone-strikes-kill-three-houthi-fighters-and-wound-commanders",
+      "source": "Middle East Eye",
+      "region": "Middle East",
+      "published": "2026-08-15T22:52:28+01:00",
+      "sentiment": "negative"
+    },
+    {
       "title": "Flashback: What happened when India last hosted BWF World Championships",
       "url": "https://timesofindia.indiatimes.com/sports/badminton/flashback-what-happened-when-india-last-hosted-bwf-world-championships/articleshow/133266196.cms",
       "source": "Times of India",
       "region": "Asia-Pacific",
       "published": "2026-08-15T22:50:39+05:30",
       "sentiment": "positive"
+    },
+    {
+      "title": "Djokovic knocked out early in Cincinnati after struggling in sapping heat",
+      "url": "https://www.skysports.com/tennis/news/12040/13573406/novak-djokovic-out-of-cincinnati-open-in-second-round-after-struggling-with-heat-and-humidity-against-thiago-agustin-tirante",
+      "source": "Sky Sports",
+      "region": "North America",
+      "published": "2026-08-15T22:45:00+00:00",
+      "sentiment": "negative"
     },
     {
       "title": "Government rolls out foreign asset disclosure scheme for small taxpayers",
@@ -948,6 +1012,14 @@
       "sentiment": "negative"
     },
     {
+      "title": "Drug abuse in Israel surges after October 7, latest data shows",
+      "url": "https://www.independent.co.uk/news/world/middle-east/drug-abuse-addiction-israel-ketamine-opioids-october-7-ptsd-b3025327.html",
+      "source": "Independent",
+      "region": "Middle East",
+      "published": "2026-08-15T22:15:45+00:00",
+      "sentiment": "negative"
+    },
+    {
       "title": "Israeli settlers injure five Palestinians in Masafer Yatta attacks",
       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-settlers-injure-five-palestinians-masafer-yatta-attacks",
       "source": "Middle East Eye",
@@ -980,6 +1052,14 @@
       "sentiment": "positive"
     },
     {
+      "title": "Massive Trump merchandise store goes out of business - because nobody is buying anything",
+      "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-merchandise-store-out-of-business-b3033705.html",
+      "source": "Independent",
+      "region": "North America",
+      "published": "2026-08-15T22:10:04+00:00",
+      "sentiment": "neutral"
+    },
+    {
       "title": "MSMEs in Coimbatore to explore green hydrogen sector",
       "url": "https://www.thehindu.com/news/cities/Coimbatore/msmes-in-coimbatore-to-explore-green-hydrogen-sector/article71350498.ece",
       "source": "The Hindu",
@@ -1004,12 +1084,36 @@
       "sentiment": "negative"
     },
     {
+      "title": "Djokovic suffers in heat as Tirante inflicts shock defeat",
+      "url": "https://www.bbc.co.uk/sport/tennis/articles/cj033qggmv3o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Sport",
+      "region": "Middle East",
+      "published": "2026-08-15T22:07:10+00:00",
+      "sentiment": "negative"
+    },
+    {
       "title": "Rahul Gandhi demands justice for woman killed at Uttarakhand resort",
       "url": "https://www.thehindu.com/news/national/rahul-gandhi-demands-justice-for-woman-killed-at-uttarakhand-resort/article71350262.ece",
       "source": "The Hindu",
       "region": "North America",
       "published": "2026-08-15T22:01:58+05:30",
       "sentiment": "negative"
+    },
+    {
+      "title": "Gardening is about more than food for young people learning English",
+      "url": "https://www.abc.net.au/news/2026-08-16/bels-garden-young-migrants-refugees-mental-health-headspace/107032894",
+      "source": "Australian Broadcasting Corporation",
+      "region": "Asia-Pacific",
+      "published": "2026-08-15T22:01:26+00:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "China\u2019s 1MW perovskite solar farm beats silicon system in industrial-scale test",
+      "url": "https://www.scmp.com/news/china/science/article/3364155/chinas-1mw-perovskite-solar-farm-beats-silicon-system-industrial-scale-test?utm_source=rss_feed",
+      "source": "South China Morning Post",
+      "region": "North America",
+      "published": "2026-08-15T22:00:10+00:00",
+      "sentiment": "positive"
     },
     {
       "title": "Papers: Lille head coach confirms Man City's Bouaddi talks",
@@ -1033,6 +1137,38 @@
       "source": "Times of India",
       "region": "North America",
       "published": "2026-08-15T21:58:13+05:30",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Berkshire Hathaway boosted stake in Alphabet, homebuilders in the second quarter",
+      "url": "https://www.independent.co.uk/news/berkshire-hathaway-alphabet-warren-buffett-google-nebraska-b3033715.html",
+      "source": "Independent",
+      "region": "Europe",
+      "published": "2026-08-15T21:57:09+00:00",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Hawaii braces for potential first direct hit by a hurricane in 34 years",
+      "url": "https://www.bbc.co.uk/news/articles/crmrr7kjy9vo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "region": "Europe",
+      "published": "2026-08-15T21:56:10+00:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Relay success takes Amy Hunt within one of four-gold target",
+      "url": "https://www.independent.co.uk/sport/amy-hunt-jake-wightman-great-britain-dina-ashersmith-polish-b3033709.html",
+      "source": "Independent",
+      "region": "Europe",
+      "published": "2026-08-15T21:53:35+00:00",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Saudi Arabia launches maritime coalition amid escalation in Yemen",
+      "url": "https://www.rt.com/news/644292-saudi-arabia-launches-maritime-coalition/?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
+      "source": "RT News",
+      "region": "Middle East",
+      "published": "2026-08-15T21:52:59+00:00",
       "sentiment": "positive"
     },
     {
@@ -1065,6 +1201,14 @@
       "source": "The Hindu",
       "region": "Asia-Pacific",
       "published": "2026-08-15T21:50:06+05:30",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Great Britain win gold with mixed freestyle 4x200m championship record",
+      "url": "https://www.bbc.co.uk/sport/swimming/videos/ckgvvdvwr2go?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Sport",
+      "region": "Europe",
+      "published": "2026-08-15T21:49:21+00:00",
       "sentiment": "positive"
     },
     {
@@ -1105,150 +1249,6 @@
       "source": "Australian Broadcasting Corporation",
       "region": "Asia-Pacific",
       "published": "2026-08-15T21:39:18+00:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Fadnavis backs Modi\u2019s \u2018intellectual Naxals\u2019 remark",
-      "url": "https://www.thehindu.com/news/national/maharashtra/fadnavis-backs-modis-intellectual-naxals-remark/article71349884.ece",
-      "source": "The Hindu",
-      "region": "North America",
-      "published": "2026-08-15T21:38:57+05:30",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Relay success takes Amy Hunt within one of four-gold target",
-      "url": "https://www.independent.co.uk/sport/amy-hunt-britain-dina-ashersmith-british-athletics-switzerland-b3033709.html",
-      "source": "Independent",
-      "region": "Europe",
-      "published": "2026-08-15T21:38:19+00:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Key Demon faces nervous MRO wait with AFL finals near after high shot",
-      "url": "https://www.abc.net.au/news/2026-08-16/jacob-van-rooyen-facers-afl-mro-wait-after-hit-on-aliir-aliir/107043148",
-      "source": "Australian Broadcasting Corporation",
-      "region": "Asia-Pacific",
-      "published": "2026-08-15T21:37:31+00:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Shocking death of Black scholar reverberates at Cambridge \u2014  and well beyond",
-      "url": "https://www.washingtonpost.com/world/2026/08/15/death-black-scholar-jason-arday-reverberates-cambridge-beyond/",
-      "source": "Washington Post",
-      "region": "North America",
-      "published": "2026-08-15T21:36:18+00:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "72 inter-State tourist buses booked in Ernakulam for tax evasion",
-      "url": "https://www.thehindu.com/news/national/kerala/72-inter-state-tourist-buses-booked-in-ernakulam-for-tax-evasion/article71350125.ece",
-      "source": "The Hindu",
-      "region": "North America",
-      "published": "2026-08-15T21:33:38+05:30",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Twin cities celebrate Independence Day with fervour",
-      "url": "https://www.thehindu.com/news/national/karnataka/twin-cities-celebrate-independence-day-with-fervour/article71349827.ece",
-      "source": "The Hindu",
-      "region": "Asia-Pacific",
-      "published": "2026-08-15T21:32:44+05:30",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Chief Minister Naidu, High Court Chief Justice Lisa Gill attend \u2018At Home\u2019 hosted by Governor Abdul Nazeer",
-      "url": "https://www.thehindu.com/news/national/andhra-pradesh/chief-minister-naidu-high-court-chief-justice-lisa-gill-attend-at-home-hosted-by-governor-abdul-nazeer/article71350188.ece",
-      "source": "The Hindu",
-      "region": "North America",
-      "published": "2026-08-15T21:32:16+05:30",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Hong Kong\u2019s new university town a test of the city\u2019s global ambitions",
-      "url": "https://www.scmp.com/opinion/hong-kong-opinion/article/3363760/hong-kongs-new-university-town-test-citys-global-ambitions?utm_source=rss_feed",
-      "source": "South China Morning Post",
-      "region": "North America",
-      "published": "2026-08-15T21:30:07+00:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Openness overload: Why your employees don't need to know everything about you",
-      "url": "https://www.channelnewsasia.com/today/voices/oversharing-boss-workplace-boundary-leadership-trust-social-media-6318726",
-      "source": "Channel News Asia",
-      "region": "North America",
-      "published": "2026-08-15T21:30:00+08:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Can Singapore's young stamp collectors keep the 'king of hobbies' alive?",
-      "url": "https://www.channelnewsasia.com/today/in-pixels/stamp-collectors-hobby-young-alive-6316866",
-      "source": "Channel News Asia",
-      "region": "Asia-Pacific",
-      "published": "2026-08-15T21:30:00+08:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "'Stamps are in my blood': How this 81-year-old stamp dealer keeps the trade alive",
-      "url": "https://www.channelnewsasia.com/today/up-close/stamp-collector-dealer-philatelic-singapore-history-6311431",
-      "source": "Channel News Asia",
-      "region": "Asia-Pacific",
-      "published": "2026-08-15T21:30:00+08:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Enzo Maresca reveals favourite to be new Manchester City captain after ruling out Erling Haaland",
-      "url": "https://www.independent.co.uk/sport/football/ruben-dias-man-city-captain-erling-haaland-b3033374.html",
-      "source": "Independent",
-      "region": "Europe",
-      "published": "2026-08-15T21:30:00+00:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "What is a Bluetooth codec and which one offers the best audio quality?",
-      "url": "https://www.engadget.com/2236801/what-is-bluetooth-codec-which-offers-best-audio-quality/",
-      "source": "Engadget",
-      "region": "Global",
-      "published": "2026-08-15T21:30:00+00:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Hobbies light up life for older people transitioning to retirement",
-      "url": "https://www.abc.net.au/news/2026-08-16/hobbies-like-art-bring-joy-to-retirement/107015976",
-      "source": "Australian Broadcasting Corporation",
-      "region": "Asia-Pacific",
-      "published": "2026-08-15T21:28:48+00:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Vijayanagara celebrates Independence Day with focus on Constitutional values, development",
-      "url": "https://www.thehindu.com/news/national/karnataka/vijayanagara-celebrates-independence-day-with-focus-on-constitutional-values-development/article71350137.ece",
-      "source": "The Hindu",
-      "region": "North America",
-      "published": "2026-08-15T21:27:55+05:30",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Leading countries extend greetings to India on 80th Independence Day",
-      "url": "https://www.thehindu.com/news/national/leading-countries-extend-greetings-to-india-on-80th-independence-day/article71350060.ece",
-      "source": "The Hindu",
-      "region": "Asia-Pacific",
-      "published": "2026-08-15T21:27:37+05:30",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Memorable Independence Day celebrations for students of govt. school at Kade Nandihalli in Shivamogga",
-      "url": "https://www.thehindu.com/news/national/karnataka/memorable-independence-day-celebrations-for-students-of-govt-school-at-kade-nandihalli-in-shivamogga/article71349803.ece",
-      "source": "The Hindu",
-      "region": "Asia-Pacific",
-      "published": "2026-08-15T21:26:52+05:30",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Great-grandfather killed at national park after a rock crashed through the roof of Jeep",
-      "url": "https://www.independent.co.uk/news/world/americas/montana-national-park-death-rock-car-b3033703.html",
-      "source": "Independent",
-      "region": "Europe",
-      "published": "2026-08-15T21:20:53+00:00",
       "sentiment": "negative"
     }
   ]
