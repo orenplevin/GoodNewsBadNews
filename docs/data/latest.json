@@ -1,42 +1,42 @@
 {
-  "generated_at": "2026-08-16T23:19:54.283270+00:00",
+  "generated_at": "2026-08-16T23:45:48.721846+00:00",
   "window_hours": 24,
   "totals": {
     "positive": 648,
-    "neutral": 207,
-    "negative": 792
+    "neutral": 210,
+    "negative": 794
   },
   "by_publication": [
     {
       "source": "The Hindu",
       "positive": 73,
       "neutral": 36,
-      "negative": 113,
-      "count": 222,
+      "negative": 114,
+      "count": 223,
       "region": "North America"
     },
     {
       "source": "Independent",
-      "positive": 63,
+      "positive": 64,
       "neutral": 21,
-      "negative": 99,
+      "negative": 98,
       "count": 183,
       "region": "Europe"
     },
     {
       "source": "Times of India",
-      "positive": 64,
+      "positive": 63,
       "neutral": 27,
       "negative": 72,
-      "count": 163,
+      "count": 162,
       "region": "Asia-Pacific"
     },
     {
       "source": "Australian Broadcasting Corporation",
-      "positive": 43,
-      "neutral": 11,
+      "positive": 44,
+      "neutral": 13,
       "negative": 60,
-      "count": 114,
+      "count": 117,
       "region": "Asia-Pacific"
     },
     {
@@ -49,43 +49,43 @@
     },
     {
       "source": "Sky Sports",
-      "positive": 43,
+      "positive": 42,
       "neutral": 21,
       "negative": 9,
-      "count": 73,
+      "count": 72,
       "region": "North America"
     },
     {
       "source": "Al Jazeera English",
       "positive": 19,
       "neutral": 9,
-      "negative": 44,
-      "count": 72,
+      "negative": 43,
+      "count": 71,
       "region": "Middle East"
     },
     {
       "source": "Fox News",
       "positive": 24,
       "neutral": 8,
-      "negative": 36,
-      "count": 68,
-      "region": "Asia-Pacific"
-    },
-    {
-      "source": "BBC News",
-      "positive": 30,
-      "neutral": 6,
-      "negative": 30,
-      "count": 66,
-      "region": "Middle East"
+      "negative": 38,
+      "count": 70,
+      "region": "North America"
     },
     {
       "source": "South China Morning Post",
-      "positive": 25,
+      "positive": 26,
       "neutral": 1,
-      "negative": 37,
+      "negative": 36,
       "count": 63,
-      "region": "Asia-Pacific"
+      "region": "North America"
+    },
+    {
+      "source": "BBC News",
+      "positive": 27,
+      "neutral": 6,
+      "negative": 28,
+      "count": 61,
+      "region": "Middle East"
     },
     {
       "source": "The Guardian",
@@ -96,20 +96,20 @@
       "region": "Asia-Pacific"
     },
     {
+      "source": "Channel News Asia",
+      "positive": 22,
+      "neutral": 12,
+      "negative": 22,
+      "count": 56,
+      "region": "Asia-Pacific"
+    },
+    {
       "source": "BBC Sport",
       "positive": 44,
       "neutral": 5,
       "negative": 7,
       "count": 56,
       "region": "Europe"
-    },
-    {
-      "source": "Channel News Asia",
-      "positive": 21,
-      "neutral": 12,
-      "negative": 22,
-      "count": 55,
-      "region": "Asia-Pacific"
     },
     {
       "source": "Middle East Eye",
@@ -131,9 +131,9 @@
       "source": "Bloomberg",
       "positive": 17,
       "neutral": 1,
-      "negative": 11,
-      "count": 29,
-      "region": "Middle East"
+      "negative": 13,
+      "count": 31,
+      "region": "Asia-Pacific"
     },
     {
       "source": "Euronews",
@@ -144,27 +144,27 @@
       "region": "Europe"
     },
     {
-      "source": "Financial Times",
-      "positive": 9,
-      "neutral": 1,
-      "negative": 11,
-      "count": 21,
-      "region": "Europe"
+      "source": "NBC News",
+      "positive": 8,
+      "neutral": 0,
+      "negative": 14,
+      "count": 22,
+      "region": "Middle East"
     },
     {
-      "source": "NBC News",
-      "positive": 7,
-      "neutral": 0,
-      "negative": 12,
-      "count": 19,
+      "source": "Financial Times",
+      "positive": 9,
+      "neutral": 2,
+      "negative": 11,
+      "count": 22,
       "region": "North America"
     },
     {
       "source": "Straits Times",
       "positive": 5,
-      "neutral": 3,
+      "neutral": 4,
       "negative": 10,
-      "count": 18,
+      "count": 19,
       "region": "Global"
     },
     {
@@ -181,14 +181,6 @@
       "neutral": 1,
       "negative": 13,
       "count": 16,
-      "region": "North America"
-    },
-    {
-      "source": "Deutsche Welle",
-      "positive": 2,
-      "neutral": 1,
-      "negative": 12,
-      "count": 15,
       "region": "North America"
     },
     {
@@ -214,6 +206,14 @@
       "negative": 11,
       "count": 14,
       "region": "Asia-Pacific"
+    },
+    {
+      "source": "Deutsche Welle",
+      "positive": 2,
+      "neutral": 0,
+      "negative": 12,
+      "count": 14,
+      "region": "North America"
     },
     {
       "source": "New York Times",
@@ -323,96 +323,96 @@
   "by_region": [
     {
       "region": "North America",
-      "positive": 237,
-      "neutral": 56,
+      "positive": 239,
+      "neutral": 57,
       "negative": 271,
-      "count": 564
+      "count": 567
     },
     {
       "region": "Asia-Pacific",
-      "positive": 171,
-      "neutral": 61,
-      "negative": 218,
-      "count": 450
+      "positive": 172,
+      "neutral": 63,
+      "negative": 222,
+      "count": 457
     },
     {
       "region": "Europe",
-      "positive": 157,
+      "positive": 154,
       "neutral": 60,
-      "negative": 173,
-      "count": 390
+      "negative": 171,
+      "count": 385
     },
     {
       "region": "Middle East",
       "positive": 43,
       "neutral": 11,
-      "negative": 89,
-      "count": 143
+      "negative": 90,
+      "count": 144
     },
     {
       "region": "Global",
       "positive": 30,
-      "neutral": 15,
+      "neutral": 16,
       "negative": 31,
-      "count": 76
+      "count": 77
     },
     {
       "region": "Africa",
       "positive": 7,
-      "neutral": 4,
+      "neutral": 3,
       "negative": 6,
-      "count": 17
+      "count": 16
     },
     {
       "region": "South America",
       "positive": 3,
       "neutral": 0,
-      "negative": 4,
-      "count": 7
+      "negative": 3,
+      "count": 6
     }
   ],
   "by_topic": [
     {
       "topic": "Tech",
-      "positive": 171,
+      "positive": 173,
       "neutral": 48,
-      "negative": 192,
-      "count": 411
+      "negative": 191,
+      "count": 412
     },
     {
       "topic": "Politics",
-      "positive": 118,
-      "neutral": 32,
-      "negative": 157,
-      "count": 307
+      "positive": 117,
+      "neutral": 33,
+      "negative": 158,
+      "count": 308
     },
     {
       "topic": "Other",
-      "positive": 66,
-      "neutral": 48,
-      "negative": 147,
+      "positive": 65,
+      "neutral": 50,
+      "negative": 146,
       "count": 261
     },
     {
       "topic": "World",
-      "positive": 74,
-      "neutral": 11,
-      "negative": 129,
-      "count": 214
+      "positive": 75,
+      "neutral": 10,
+      "negative": 131,
+      "count": 216
     },
     {
       "topic": "Sports",
-      "positive": 105,
+      "positive": 104,
       "neutral": 30,
-      "negative": 36,
-      "count": 171
+      "negative": 35,
+      "count": 169
     },
     {
       "topic": "Entertainment",
       "positive": 36,
-      "neutral": 7,
+      "neutral": 8,
       "negative": 18,
-      "count": 61
+      "count": 62
     },
     {
       "topic": "Health",
@@ -425,8 +425,8 @@
       "topic": "Business",
       "positive": 28,
       "neutral": 4,
-      "negative": 19,
-      "count": 51
+      "negative": 21,
+      "count": 53
     },
     {
       "topic": "Local",
@@ -458,6 +458,22 @@
       "region": "Europe",
       "published": "2027-01-09T16:08:00+00:00",
       "sentiment": "neutral"
+    },
+    {
+      "title": "News as it happens: Aug 17-21, 2026",
+      "url": "https://www.straitstimes.com/singapore/news-as-it-happens-aug-17-21-2026",
+      "source": "Straits Times",
+      "region": "Global",
+      "published": "2026-08-17T07:40:13+08:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "It\u2019s 2026 \u2013 why are brands still objectifying women to sell e-bikes, air-conditioners and more?",
+      "url": "https://www.channelnewsasia.com/women/sexist-advertising-objectifying-women-6314456",
+      "source": "Channel News Asia",
+      "region": "Asia-Pacific",
+      "published": "2026-08-17T07:17:11+08:00",
+      "sentiment": "positive"
     },
     {
       "title": "Vietnam beat Malaysia to gain upper hand in ASEAN Championship semi-final",
@@ -658,6 +674,14 @@
       "region": "Asia-Pacific",
       "published": "2026-08-17T03:01:41+05:30",
       "sentiment": "positive"
+    },
+    {
+      "title": "Kerala High Court reprimands State over its failure to collect fines for unauthorised flex boards, banners",
+      "url": "https://www.thehindu.com/news/national/kerala/kerala-high-court-reprimands-state-over-its-failure-to-collect-fines-for-unauthorised-flex-boards-banners/article71353477.ece",
+      "source": "The Hindu",
+      "region": "Asia-Pacific",
+      "published": "2026-08-17T02:51:53+05:30",
+      "sentiment": "negative"
     },
     {
       "title": "IPS officer\u2019s mother killed in U.P.\u2019s Ambedkar Nagar, jewellery missing; probe underway",
@@ -924,6 +948,14 @@
       "sentiment": "neutral"
     },
     {
+      "title": "Trump scales back joint military drills with South Korea, calling them 'hostile'",
+      "url": "https://www.abc.net.au/news/2026-08-17/trump-says-south-korean-military-drills-to-scale-back-/107045056",
+      "source": "Australian Broadcasting Corporation",
+      "region": "Asia-Pacific",
+      "published": "2026-08-16T23:39:59+00:00",
+      "sentiment": "positive"
+    },
+    {
       "title": "BJP\u2019s \u2018planned cash grant\u2019 to U.P. women is a cover for corruption: Akhilesh Yadav",
       "url": "https://www.thehindu.com/news/national/uttar-pradesh/bjp-plans-to-provide-stolen-money-to-women-as-allowance-akhilesh-yadav/article71353081.ece",
       "source": "The Hindu",
@@ -938,6 +970,22 @@
       "region": "Asia-Pacific",
       "published": "2026-08-16T23:34:58+05:30",
       "sentiment": "negative"
+    },
+    {
+      "title": "Tourists at 'right place, right time' find emus swimming in WA river",
+      "url": "https://www.abc.net.au/news/2026-08-17/emus-swimming-murchison-river/107041812",
+      "source": "Australian Broadcasting Corporation",
+      "region": "Asia-Pacific",
+      "published": "2026-08-16T23:30:52+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Launch of Northern Metropolis flats attracts strong interest from Hong Kong homebuyers",
+      "url": "https://www.scmp.com/business/article/3364205/launch-northern-metropolis-flats-attracts-strong-interest-hong-kong-homebuyers?utm_source=rss_feed",
+      "source": "South China Morning Post",
+      "region": "North America",
+      "published": "2026-08-16T23:30:08+00:00",
+      "sentiment": "positive"
     },
     {
       "title": "SIR helped Bihar achieve record poll turnout, says CEC Gyanesh Kumar",
@@ -972,6 +1020,22 @@
       "sentiment": "negative"
     },
     {
+      "title": "Trump orders military to \u2018substantially reduce\u2019 joint exercises with South Korea",
+      "url": "https://www.nbcnews.com/politics/trump-administration/trump-orders-military-substantially-reduce-joint-exercises-south-korea-rcna592832",
+      "source": "NBC News",
+      "region": "Middle East",
+      "published": "2026-08-16T23:16:31+00:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Trump orders military to \u2018substantially reduce\u2019 joint exercises with South Korea",
+      "url": "https://www.nbcnews.com/politics/trump-administration/trump-orders-military-substantially-reduce-joint-exercises-south-korea-rcna592832",
+      "source": "NBC News",
+      "region": "Middle East",
+      "published": "2026-08-16T23:16:31+00:00",
+      "sentiment": "negative"
+    },
+    {
       "title": "Chidambaram says he\u2019s proud to be a \u2018dimagi Naxal\u2019; Rijiju says PM didn\u2019t mean Opposition leaders",
       "url": "https://www.thehindu.com/news/national/only-those-who-support-maoists-separatists-are-dimagi-naxals-rijiju-after-oppositions-criticism/article71353198.ece",
       "source": "The Hindu",
@@ -985,6 +1049,14 @@
       "source": "BBC Sport",
       "region": "Europe",
       "published": "2026-08-16T23:15:12+00:00",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Amy Hunt surpasses expectations after claiming fourth European Championship gold",
+      "url": "https://www.independent.co.uk/sport/amy-hunt-dina-ashersmith-british-zharnel-hughes-georgia-hunter-bell-b3033983.html",
+      "source": "Independent",
+      "region": "Europe",
+      "published": "2026-08-16T23:11:59+00:00",
       "sentiment": "positive"
     },
     {
@@ -1076,6 +1148,14 @@
       "sentiment": "negative"
     },
     {
+      "title": "World Cup reignites NFL turf debate",
+      "url": "https://www.nbcnews.com/nightly-news/video/world-cup-reignites-nfl-turf-debate-268379205715",
+      "source": "NBC News",
+      "region": "North America",
+      "published": "2026-08-16T23:04:07+00:00",
+      "sentiment": "positive"
+    },
+    {
       "title": "A uniform 50% increase in LS seats is pulling the wool over someone\u2019s eyes, says Praveen Chakravarty",
       "url": "https://www.thehindu.com/news/national/tamil-nadu/a-uniform-50-increase-in-ls-seats-is-pulling-the-wool-over-someones-eyes-says-praveen-chakravarty/article71353328.ece",
       "source": "The Hindu",
@@ -1105,6 +1185,14 @@
       "source": "Independent",
       "region": "Europe",
       "published": "2026-08-16T23:01:41+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Trump says US will scale back military drills with South Korea",
+      "url": "https://www.ft.com/content/8889375a-bcaa-4539-a000-c89b73dbcf4c?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "region": "North America",
+      "published": "2026-08-16T23:01:17+00:00",
       "sentiment": "neutral"
     },
     {
@@ -1162,94 +1250,6 @@
       "region": "Europe",
       "published": "2026-08-16T23:01:00+00:00",
       "sentiment": "positive"
-    },
-    {
-      "title": "An exclusive look at the first seven items in the Sephora advent calendar 2026",
-      "url": "https://www.independent.co.uk/extras/indybest/christmasgifts/advent-calendars/sephora-favourites-beauty-advent-calendar-2026-b3033306.html",
-      "source": "Independent",
-      "region": "North America",
-      "published": "2026-08-16T23:01:00+00:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Sun, sea and skint: Holidaymakers \u2018struggling to shake off financial concerns\u2019",
-      "url": "https://www.independent.co.uk/money/sun-leyton-people-west-midlands-wales-b3033968.html",
-      "source": "Independent",
-      "region": "Europe",
-      "published": "2026-08-16T23:01:00+00:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "No private data sought, ID details to be provided only if available: J&K, Ladakh Census chief",
-      "url": "https://www.thehindu.com/news/national/jammu-and-kashmir/no-private-data-sought-id-details-only-if-available-jk-ladakh-census-chief/article71353316.ece",
-      "source": "The Hindu",
-      "region": "North America",
-      "published": "2026-08-16T23:00:33+05:30",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Cyber crime emerging as the biggest challenge facing police: senior IPS officer",
-      "url": "https://www.thehindu.com/news/national/cyber-crime-emerging-as-the-biggest-challenge-facing-police-senior-ips-officer/article71353369.ece",
-      "source": "The Hindu",
-      "region": "Asia-Pacific",
-      "published": "2026-08-16T22:55:51+05:30",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Congress leader's son killed in Nadia district of West Bengal",
-      "url": "https://www.thehindu.com/news/national/west-bengal/congress-leaders-son-killed-in-nadia-district-of-west-bengal/article71353610.ece",
-      "source": "The Hindu",
-      "region": "Asia-Pacific",
-      "published": "2026-08-16T22:52:19+05:30",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Trump pushes Congress to end \u2018RIDICULOUSLY CHANGING CLOCKS\u2019 - could it actually happen?",
-      "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-daylight-saving-time-congress-b3033943.html",
-      "source": "Independent",
-      "region": "North America",
-      "published": "2026-08-16T22:49:19+00:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Recap of latest developments in West Bank",
-      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/recap-latest-developments-west-bank",
-      "source": "Middle East Eye",
-      "region": "Middle East",
-      "published": "2026-08-16T22:47:54+01:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Trump snubs South Korea over \u2018very good relationship\u2019 with Kim",
-      "url": "https://www.rt.com/news/644311-trump-south-korea-scale-back-drill/?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
-      "source": "RT News",
-      "region": "Asia-Pacific",
-      "published": "2026-08-16T22:47:38+00:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "PM Wong conveys condolences after deadly earthquakes in Indonesia",
-      "url": "https://www.channelnewsasia.com/singapore/pm-wong-condolences-indonesia-earthquake-6322401",
-      "source": "Channel News Asia",
-      "region": "Asia-Pacific",
-      "published": "2026-08-16T22:47:12+08:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "No private data sought, ID details only if available: J&K, Ladakh Census chief",
-      "url": "https://www.thehindu.com/news/national/jammu-and-kashmir/no-private-data-sought-id-details-only-if-available-jk-ladakh-census-chief/article71353316.ece",
-      "source": "The Hindu",
-      "region": "North America",
-      "published": "2026-08-16T22:45:50+05:30",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Congress holds focus group discussions with students",
-      "url": "https://www.thehindu.com/news/national/congress-holds-focus-group-discussions-with-students/article71353068.ece",
-      "source": "The Hindu",
-      "region": "North America",
-      "published": "2026-08-16T22:45:04+05:30",
-      "sentiment": "neutral"
     }
   ]
 }
