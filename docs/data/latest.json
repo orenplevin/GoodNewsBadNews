@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-08-20T23:26:11.252196+00:00",
+  "generated_at": "2026-08-20T23:52:20.254568+00:00",
   "window_hours": 24,
   "totals": {
-    "positive": 1158,
-    "neutral": 410,
-    "negative": 1520
+    "positive": 1149,
+    "neutral": 407,
+    "negative": 1519
   },
   "by_publication": [
     {
       "source": "Independent",
-      "positive": 193,
+      "positive": 191,
       "neutral": 105,
-      "negative": 255,
-      "count": 553,
+      "negative": 256,
+      "count": 552,
       "region": "Europe"
     },
     {
@@ -25,58 +25,58 @@
     },
     {
       "source": "Times of India",
-      "positive": 111,
+      "positive": 110,
       "neutral": 26,
       "negative": 80,
-      "count": 217,
+      "count": 216,
       "region": "Asia-Pacific"
     },
     {
       "source": "Bloomberg",
-      "positive": 102,
+      "positive": 100,
       "neutral": 20,
       "negative": 66,
-      "count": 188,
-      "region": "Global"
+      "count": 186,
+      "region": "Europe"
     },
     {
       "source": "Australian Broadcasting Corporation",
-      "positive": 37,
-      "neutral": 10,
+      "positive": 35,
+      "neutral": 11,
       "negative": 98,
-      "count": 145,
+      "count": 144,
       "region": "Asia-Pacific"
     },
     {
       "source": "Fox News",
       "positive": 51,
-      "neutral": 10,
+      "neutral": 9,
       "negative": 79,
-      "count": 140,
-      "region": "Middle East"
+      "count": 139,
+      "region": "North America"
     },
     {
       "source": "Channel News Asia",
-      "positive": 50,
-      "neutral": 35,
+      "positive": 51,
+      "neutral": 37,
       "negative": 46,
-      "count": 131,
+      "count": 134,
       "region": "Asia-Pacific"
     },
     {
       "source": "CBS News",
-      "positive": 47,
-      "neutral": 16,
-      "negative": 64,
-      "count": 127,
+      "positive": 45,
+      "neutral": 14,
+      "negative": 67,
+      "count": 126,
       "region": "North America"
     },
     {
       "source": "The Guardian",
-      "positive": 26,
+      "positive": 25,
       "neutral": 3,
-      "negative": 82,
-      "count": 111,
+      "negative": 81,
+      "count": 109,
       "region": "Europe"
     },
     {
@@ -85,14 +85,14 @@
       "neutral": 10,
       "negative": 76,
       "count": 106,
-      "region": "North America"
+      "region": "Middle East"
     },
     {
       "source": "BBC News",
-      "positive": 29,
+      "positive": 30,
       "neutral": 9,
       "negative": 47,
-      "count": 85,
+      "count": 86,
       "region": "North America"
     },
     {
@@ -105,26 +105,26 @@
     },
     {
       "source": "Sky Sports",
-      "positive": 38,
+      "positive": 37,
       "neutral": 23,
       "negative": 15,
-      "count": 76,
+      "count": 75,
       "region": "Europe"
     },
     {
       "source": "South China Morning Post",
       "positive": 33,
       "neutral": 1,
-      "negative": 36,
-      "count": 70,
+      "negative": 34,
+      "count": 68,
       "region": "North America"
     },
     {
       "source": "BBC Sport",
-      "positive": 34,
+      "positive": 33,
       "neutral": 6,
       "negative": 27,
-      "count": 67,
+      "count": 66,
       "region": "North America"
     },
     {
@@ -146,34 +146,26 @@
     {
       "source": "Middle East Eye",
       "positive": 9,
-      "neutral": 2,
+      "neutral": 1,
       "negative": 39,
-      "count": 50,
+      "count": 49,
       "region": "Middle East"
     },
     {
       "source": "France 24",
       "positive": 14,
       "neutral": 0,
-      "negative": 35,
-      "count": 49,
+      "negative": 33,
+      "count": 47,
       "region": "Europe"
     },
     {
       "source": "NBC News",
       "positive": 10,
       "neutral": 5,
-      "negative": 34,
-      "count": 49,
+      "negative": 32,
+      "count": 47,
       "region": "North America"
-    },
-    {
-      "source": "Straits Times",
-      "positive": 20,
-      "neutral": 10,
-      "negative": 12,
-      "count": 42,
-      "region": "Global"
     },
     {
       "source": "Mashable",
@@ -181,6 +173,14 @@
       "neutral": 10,
       "negative": 6,
       "count": 41,
+      "region": "Global"
+    },
+    {
+      "source": "Straits Times",
+      "positive": 20,
+      "neutral": 8,
+      "negative": 12,
+      "count": 40,
       "region": "Global"
     },
     {
@@ -280,6 +280,14 @@
       "region": "Europe"
     },
     {
+      "source": "Ars Technica",
+      "positive": 5,
+      "neutral": 0,
+      "negative": 4,
+      "count": 9,
+      "region": "North America"
+    },
+    {
       "source": "Buenos Aires Herald",
       "positive": 3,
       "neutral": 1,
@@ -296,14 +304,6 @@
       "region": "Middle East"
     },
     {
-      "source": "Ars Technica",
-      "positive": 4,
-      "neutral": 0,
-      "negative": 2,
-      "count": 6,
-      "region": "North America"
-    },
-    {
       "source": "Telegraph",
       "positive": 0,
       "neutral": 1,
@@ -315,38 +315,38 @@
   "by_region": [
     {
       "region": "North America",
-      "positive": 499,
-      "neutral": 129,
-      "negative": 600,
-      "count": 1228
+      "positive": 493,
+      "neutral": 126,
+      "negative": 597,
+      "count": 1216
     },
     {
       "region": "Asia-Pacific",
-      "positive": 253,
-      "neutral": 92,
-      "negative": 338,
+      "positive": 251,
+      "neutral": 95,
+      "negative": 337,
       "count": 683
     },
     {
       "region": "Europe",
-      "positive": 239,
+      "positive": 238,
       "neutral": 126,
-      "negative": 310,
-      "count": 675
+      "negative": 313,
+      "count": 677
     },
     {
       "region": "Global",
       "positive": 108,
-      "neutral": 42,
-      "negative": 74,
-      "count": 224
+      "neutral": 40,
+      "negative": 75,
+      "count": 223
     },
     {
       "region": "Middle East",
       "positive": 39,
-      "neutral": 14,
-      "negative": 157,
-      "count": 210
+      "neutral": 13,
+      "negative": 156,
+      "count": 208
     },
     {
       "region": "Africa",
@@ -366,66 +366,73 @@
   "by_topic": [
     {
       "topic": "Tech",
-      "positive": 322,
-      "neutral": 104,
-      "negative": 383,
-      "count": 809
+      "positive": 318,
+      "neutral": 101,
+      "negative": 387,
+      "count": 806
     },
     {
       "topic": "Other",
       "positive": 197,
-      "neutral": 115,
-      "negative": 232,
-      "count": 544
+      "neutral": 116,
+      "negative": 230,
+      "count": 543
     },
     {
       "topic": "Politics",
-      "positive": 182,
-      "neutral": 59,
+      "positive": 178,
+      "neutral": 58,
       "negative": 277,
-      "count": 518
+      "count": 513
     },
     {
       "topic": "World",
       "positive": 64,
       "neutral": 29,
-      "negative": 263,
-      "count": 356
+      "negative": 262,
+      "count": 355
     },
     {
       "topic": "Business",
-      "positive": 135,
-      "neutral": 25,
-      "negative": 108,
-      "count": 268
+      "positive": 134,
+      "neutral": 26,
+      "negative": 105,
+      "count": 265
     },
     {
       "topic": "Sports",
-      "positive": 118,
+      "positive": 117,
       "neutral": 28,
       "negative": 74,
-      "count": 220
+      "count": 219
     },
     {
       "topic": "Health",
-      "positive": 35,
+      "positive": 34,
       "neutral": 14,
-      "negative": 66,
+      "negative": 67,
       "count": 115
     },
     {
       "topic": "Regional",
       "positive": 34,
-      "neutral": 9,
+      "neutral": 7,
       "negative": 43,
-      "count": 86
+      "count": 84
     },
     {
       "topic": "Entertainment",
       "positive": 31,
-      "neutral": 14,
+      "neutral": 15,
       "negative": 29,
-      "count": 74
+      "count": 75
+    },
+    {
+      "topic": "Science",
+      "positive": 26,
+      "neutral": 5,
+      "negative": 19,
+      "count": 50
     },
     {
       "topic": "Local",
@@ -433,13 +440,6 @@
       "neutral": 8,
       "negative": 26,
       "count": 50
-    },
-    {
-      "topic": "Science",
-      "positive": 24,
-      "neutral": 5,
-      "negative": 19,
-      "count": 48
     }
   ],
   "sample_headlines": [
@@ -450,6 +450,30 @@
       "region": "Europe",
       "published": "2027-01-09T16:08:00+00:00",
       "sentiment": "neutral"
+    },
+    {
+      "title": "Japan's core inflation accelerates in July, bolsters case for rate hike",
+      "url": "https://www.channelnewsasia.com/business/japans-core-inflation-accelerates-in-july-bolsters-case-rate-hike-6332291",
+      "source": "Channel News Asia",
+      "region": "Asia-Pacific",
+      "published": "2026-08-21T07:41:51+08:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Japan July core CPI rises 1.8% yr/yr",
+      "url": "https://www.channelnewsasia.com/business/japan-july-core-cpi-rises-18-yryr-6332276",
+      "source": "Channel News Asia",
+      "region": "Asia-Pacific",
+      "published": "2026-08-21T07:37:32+08:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Panama Canal to cap daily transits, anticipating severe El Nino",
+      "url": "https://www.channelnewsasia.com/sustainability/panama-canal-cap-daily-transit-capacity-el-nino-drought-6332176",
+      "source": "Channel News Asia",
+      "region": "Global",
+      "published": "2026-08-21T07:37:28+08:00",
+      "sentiment": "negative"
     },
     {
       "title": "This Singaporean's cute cat guitar pickguards have found fans worldwide \u2013 even metalheads love them",
@@ -550,6 +574,14 @@
     {
       "title": "Trump signs memo to help drastically boost US space launches",
       "url": "https://www.channelnewsasia.com/business/trump-signs-memo-help-drastically-boost-us-space-launches-6332186",
+      "source": "Channel News Asia",
+      "region": "North America",
+      "published": "2026-08-21T05:58:53+08:00",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Trump signs memo to help drastically boost US commercial space launches",
+      "url": "https://www.channelnewsasia.com/business/trump-signs-memo-help-drastically-boost-us-commercial-space-launches-6332186",
       "source": "Channel News Asia",
       "region": "North America",
       "published": "2026-08-21T05:58:53+08:00",
@@ -1204,44 +1236,12 @@
       "sentiment": "negative"
     },
     {
-      "title": "Caste survey report figures in discussion on Devaraja Urs",
-      "url": "https://www.thehindu.com/news/national/karnataka/caste-survey-report-figures-in-discussion-on-devaraja-urs/article71370239.ece",
-      "source": "The Hindu",
-      "region": "North America",
-      "published": "2026-08-20T23:46:26+05:30",
+      "title": "As costs rise and income falls, live music industry hopes to reverse decline",
+      "url": "https://www.abc.net.au/news/2026-08-21/regional-live-music-declining-as-costs-rise-income-falls/107038928",
+      "source": "Australian Broadcasting Corporation",
+      "region": "Asia-Pacific",
+      "published": "2026-08-20T23:48:22+00:00",
       "sentiment": "neutral"
-    },
-    {
-      "title": "Officials review logistics, security for BRICS delegates\u2019",
-      "url": "https://www.thehindu.com/news/national/andhra-pradesh/officials-review-logistics-security-for-brics-delegates/article71369893.ece",
-      "source": "The Hindu",
-      "region": "Asia-Pacific",
-      "published": "2026-08-20T23:45:36+05:30",
-      "sentiment": "positive"
-    },
-    {
-      "title": "FBI lists Bishnoi gang-linked Indian national as most wanted fugitive in extortion case",
-      "url": "https://timesofindia.indiatimes.com/nri/us-canada-news/fbi-lists-lawrence-bishnoi-gang-linked-indian-national-as-wanted-fugitive-in-us-extortion-case/articleshow/133385630.cms",
-      "source": "Times of India",
-      "region": "Asia-Pacific",
-      "published": "2026-08-20T23:44:46+05:30",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Godavari tragedy: Second body recovered",
-      "url": "https://www.thehindu.com/news/national/andhra-pradesh/godavari-tragedy-second-body-recovered/article71370614.ece",
-      "source": "The Hindu",
-      "region": "Asia-Pacific",
-      "published": "2026-08-20T23:41:31+05:30",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Dan Ticktum targets GEN4 seat and Formula E Championship success",
-      "url": "https://timesofindia.indiatimes.com/sports/formula-e/dan-ticktum-hopes-to-be-part-of-gen4-and-challenge-for-top-spots-in-formula-e-championship/articleshow/133385187.cms",
-      "source": "Times of India",
-      "region": "North America",
-      "published": "2026-08-20T23:38:28+05:30",
-      "sentiment": "positive"
     }
   ]
 }
