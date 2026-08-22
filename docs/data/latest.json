@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-22T20:50:22.079444+00:00",
+  "generated_at": "2026-08-22T21:22:16.272282+00:00",
   "window_hours": 24,
   "totals": {
-    "positive": 725,
-    "neutral": 257,
+    "positive": 710,
+    "neutral": 250,
     "negative": 881
   },
   "by_publication": [
@@ -17,34 +17,34 @@
     },
     {
       "source": "Independent",
-      "positive": 84,
-      "neutral": 41,
-      "negative": 114,
-      "count": 239,
+      "positive": 78,
+      "neutral": 39,
+      "negative": 111,
+      "count": 228,
       "region": "Europe"
     },
     {
       "source": "Times of India",
-      "positive": 70,
+      "positive": 68,
       "neutral": 23,
-      "negative": 70,
-      "count": 163,
+      "negative": 71,
+      "count": 162,
       "region": "Asia-Pacific"
     },
     {
       "source": "Sky Sports",
-      "positive": 63,
+      "positive": 64,
       "neutral": 25,
       "negative": 18,
-      "count": 106,
-      "region": "North America"
+      "count": 107,
+      "region": "Europe"
     },
     {
       "source": "Australian Broadcasting Corporation",
-      "positive": 50,
+      "positive": 48,
       "neutral": 3,
       "negative": 47,
-      "count": 100,
+      "count": 98,
       "region": "Asia-Pacific"
     },
     {
@@ -59,49 +59,49 @@
       "source": "Al Jazeera English",
       "positive": 13,
       "neutral": 11,
-      "negative": 60,
-      "count": 84,
-      "region": "Middle East"
+      "negative": 59,
+      "count": 83,
+      "region": "North America"
     },
     {
       "source": "Channel News Asia",
-      "positive": 25,
+      "positive": 23,
       "neutral": 24,
-      "negative": 24,
+      "negative": 26,
       "count": 73,
+      "region": "Global"
+    },
+    {
+      "source": "BBC Sport",
+      "positive": 45,
+      "neutral": 9,
+      "negative": 18,
+      "count": 72,
+      "region": "Europe"
+    },
+    {
+      "source": "CBS News",
+      "positive": 18,
+      "neutral": 9,
+      "negative": 45,
+      "count": 72,
       "region": "North America"
     },
     {
       "source": "BBC News",
       "positive": 23,
-      "neutral": 12,
-      "negative": 38,
-      "count": 73,
-      "region": "Europe"
-    },
-    {
-      "source": "CBS News",
-      "positive": 20,
-      "neutral": 9,
-      "negative": 44,
-      "count": 73,
-      "region": "North America"
-    },
-    {
-      "source": "BBC Sport",
-      "positive": 44,
       "neutral": 10,
-      "negative": 17,
-      "count": 71,
-      "region": "North America"
+      "negative": 36,
+      "count": 69,
+      "region": "Europe"
     },
     {
       "source": "South China Morning Post",
       "positive": 21,
       "neutral": 1,
-      "negative": 30,
-      "count": 52,
-      "region": "Middle East"
+      "negative": 31,
+      "count": 53,
+      "region": "North America"
     },
     {
       "source": "Middle East Eye",
@@ -123,8 +123,8 @@
       "source": "The Guardian",
       "positive": 12,
       "neutral": 1,
-      "negative": 27,
-      "count": 40,
+      "negative": 25,
+      "count": 38,
       "region": "North America"
     },
     {
@@ -136,14 +136,6 @@
       "region": "Europe"
     },
     {
-      "source": "Bloomberg",
-      "positive": 17,
-      "neutral": 2,
-      "negative": 14,
-      "count": 33,
-      "region": "Global"
-    },
-    {
       "source": "Mashable",
       "positive": 21,
       "neutral": 3,
@@ -152,11 +144,35 @@
       "region": "Global"
     },
     {
+      "source": "Bloomberg",
+      "positive": 14,
+      "neutral": 1,
+      "negative": 12,
+      "count": 27,
+      "region": "Global"
+    },
+    {
       "source": "Irish Times",
       "positive": 4,
       "neutral": 5,
       "negative": 12,
       "count": 21,
+      "region": "Global"
+    },
+    {
+      "source": "New York Times",
+      "positive": 6,
+      "neutral": 4,
+      "negative": 10,
+      "count": 20,
+      "region": "North America"
+    },
+    {
+      "source": "Straits Times",
+      "positive": 9,
+      "neutral": 1,
+      "negative": 9,
+      "count": 19,
       "region": "Global"
     },
     {
@@ -176,35 +192,19 @@
       "region": "Asia-Pacific"
     },
     {
-      "source": "New York Times",
-      "positive": 4,
-      "neutral": 4,
-      "negative": 10,
-      "count": 18,
-      "region": "North America"
-    },
-    {
-      "source": "Straits Times",
-      "positive": 8,
+      "source": "NBC News",
+      "positive": 5,
       "neutral": 2,
-      "negative": 7,
+      "negative": 10,
       "count": 17,
       "region": "North America"
     },
     {
       "source": "Engadget",
-      "positive": 11,
+      "positive": 10,
       "neutral": 2,
       "negative": 4,
-      "count": 17,
-      "region": "North America"
-    },
-    {
-      "source": "NBC News",
-      "positive": 6,
-      "neutral": 2,
-      "negative": 9,
-      "count": 17,
+      "count": 16,
       "region": "North America"
     },
     {
@@ -256,9 +256,9 @@
       "region": "North America"
     },
     {
-      "source": "AllAfrica",
-      "positive": 3,
-      "neutral": 1,
+      "source": "NPR",
+      "positive": 2,
+      "neutral": 2,
       "negative": 4,
       "count": 8,
       "region": "North America"
@@ -280,10 +280,10 @@
       "region": "Global"
     },
     {
-      "source": "NPR",
+      "source": "AllAfrica",
       "positive": 2,
-      "neutral": 2,
-      "negative": 3,
+      "neutral": 1,
+      "negative": 4,
       "count": 7,
       "region": "North America"
     },
@@ -323,38 +323,38 @@
   "by_region": [
     {
       "region": "North America",
-      "positive": 290,
-      "neutral": 92,
-      "negative": 365,
-      "count": 747
+      "positive": 285,
+      "neutral": 91,
+      "negative": 368,
+      "count": 744
     },
     {
       "region": "Asia-Pacific",
-      "positive": 175,
-      "neutral": 66,
+      "positive": 171,
+      "neutral": 65,
       "negative": 186,
-      "count": 427
-    },
-    {
-      "region": "Europe",
-      "positive": 168,
-      "neutral": 71,
-      "negative": 183,
       "count": 422
     },
     {
+      "region": "Europe",
+      "positive": 166,
+      "neutral": 65,
+      "negative": 179,
+      "count": 410
+    },
+    {
       "region": "Middle East",
-      "positive": 33,
-      "neutral": 9,
-      "negative": 95,
-      "count": 137
+      "positive": 30,
+      "neutral": 10,
+      "negative": 94,
+      "count": 134
     },
     {
       "region": "Global",
-      "positive": 42,
+      "positive": 41,
       "neutral": 17,
-      "negative": 31,
-      "count": 90
+      "negative": 33,
+      "count": 91
     },
     {
       "region": "Africa",
@@ -374,59 +374,66 @@
   "by_topic": [
     {
       "topic": "Tech",
-      "positive": 183,
+      "positive": 177,
       "neutral": 60,
-      "negative": 214,
-      "count": 457
+      "negative": 209,
+      "count": 446
     },
     {
       "topic": "Other",
       "positive": 129,
-      "neutral": 76,
+      "neutral": 74,
       "negative": 144,
-      "count": 349
+      "count": 347
     },
     {
       "topic": "Politics",
-      "positive": 104,
-      "neutral": 35,
-      "negative": 159,
-      "count": 298
+      "positive": 99,
+      "neutral": 36,
+      "negative": 160,
+      "count": 295
     },
     {
       "topic": "Sports",
-      "positive": 125,
-      "neutral": 37,
+      "positive": 126,
+      "neutral": 34,
       "negative": 59,
-      "count": 221
+      "count": 219
     },
     {
       "topic": "World",
-      "positive": 52,
+      "positive": 49,
       "neutral": 17,
-      "negative": 149,
-      "count": 218
+      "negative": 150,
+      "count": 216
     },
     {
       "topic": "Business",
-      "positive": 40,
-      "neutral": 5,
+      "positive": 39,
+      "neutral": 4,
       "negative": 43,
-      "count": 88
+      "count": 86
     },
     {
       "topic": "Health",
-      "positive": 27,
+      "positive": 26,
       "neutral": 6,
       "negative": 45,
-      "count": 78
+      "count": 77
     },
     {
       "topic": "Entertainment",
-      "positive": 30,
-      "neutral": 8,
-      "negative": 27,
-      "count": 65
+      "positive": 31,
+      "neutral": 7,
+      "negative": 28,
+      "count": 66
+    },
+    {
+      "topic": "Local",
+      "positive": 10,
+      "neutral": 7,
+      "negative": 14,
+      "count": 31
     },
     {
       "topic": "Regional",
@@ -436,18 +443,11 @@
       "count": 31
     },
     {
-      "topic": "Local",
-      "positive": 10,
-      "neutral": 7,
-      "negative": 13,
-      "count": 30
-    },
-    {
       "topic": "Science",
-      "positive": 13,
-      "neutral": 4,
-      "negative": 11,
-      "count": 28
+      "positive": 12,
+      "neutral": 3,
+      "negative": 12,
+      "count": 27
     }
   ],
   "sample_headlines": [
@@ -458,6 +458,62 @@
       "region": "Europe",
       "published": "2027-01-09T16:08:00+00:00",
       "sentiment": "neutral"
+    },
+    {
+      "title": "Springboks need to figure way back into series after loss to All Blacks",
+      "url": "https://www.channelnewsasia.com/sport/springboks-need-figure-way-back-series-after-loss-all-blacks-6335341",
+      "source": "Channel News Asia",
+      "region": "Global",
+      "published": "2026-08-23T05:18:24+08:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Tottenham's expensive rebuild begins with familiar collapse",
+      "url": "https://www.channelnewsasia.com/sport/tottenhams-expensive-rebuild-begins-familiar-collapse-6335316",
+      "source": "Channel News Asia",
+      "region": "Global",
+      "published": "2026-08-23T05:02:13+08:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Work stress led woman to discover  genetic condition that looks like heart attack",
+      "url": "https://www.straitstimes.com/singapore/health/work-stress-leads-woman-to-discover-genetic-condition-that-looks-like-heart-attack",
+      "source": "Straits Times",
+      "region": "Global",
+      "published": "2026-08-23T05:00:00+08:00",
+      "sentiment": "positive"
+    },
+    {
+      "title": "NUS researchers find drug that turns off \u2018master switch\u2019 in aggressive breast cancer",
+      "url": "https://www.straitstimes.com/singapore/health/nus-researchers-find-drug-that-turns-off-master-switch-in-aggressive-breast-cancer",
+      "source": "Straits Times",
+      "region": "North America",
+      "published": "2026-08-23T05:00:00+08:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Accidents involving cyclists surge to 4-year high with over 770 cases in 2025 as road safety worsens",
+      "url": "https://www.straitstimes.com/singapore/accidents-involving-cyclists-surge-to-4-year-high-with-over-770-cases-in-2025-as-road-safety-worsens",
+      "source": "Straits Times",
+      "region": "Global",
+      "published": "2026-08-23T05:00:00+08:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "As bicycle accidents hit 4-year high, cyclists call for more mutual respect from peers, road users",
+      "url": "https://www.straitstimes.com/singapore/courts-crime/as-bicycle-accidents-hit-4-year-high-cyclists-call-for-more-mutual-respect-from-peers-road-users",
+      "source": "Straits Times",
+      "region": "North America",
+      "published": "2026-08-23T05:00:00+08:00",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Bayern battle past Dortmund 2-1\u00a0to win German Supercup",
+      "url": "https://www.channelnewsasia.com/sport/bayern-battle-past-dortmund-2-1-win-german-supercup-6335301",
+      "source": "Channel News Asia",
+      "region": "Global",
+      "published": "2026-08-23T04:56:53+08:00",
+      "sentiment": "positive"
     },
     {
       "title": "Iran condemns US plans to announce new sanctions",
@@ -508,6 +564,14 @@
       "sentiment": "positive"
     },
     {
+      "title": "Inter begin title defence with win over Monza, Napoli beat Genoa",
+      "url": "https://www.channelnewsasia.com/sport/inter-begin-title-defence-win-over-monza-napoli-beat-genoa-6335236",
+      "source": "Channel News Asia",
+      "region": "Global",
+      "published": "2026-08-23T02:58:46+08:00",
+      "sentiment": "positive"
+    },
+    {
       "title": "Ipswich earn cathartic win to mark Premier League return",
       "url": "https://www.channelnewsasia.com/sport/ipswich-earn-cathartic-win-mark-premier-league-return-6335231",
       "source": "Channel News Asia",
@@ -516,12 +580,36 @@
       "sentiment": "positive"
     },
     {
+      "title": "Collections under RBI's dollar swap scheme exceed $72.8 billion",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/collections-under-rbis-dollar-swap-scheme-exceed-72-8-billion/articleshow/133431023.cms",
+      "source": "Times of India",
+      "region": "Asia-Pacific",
+      "published": "2026-08-23T02:35:48+05:30",
+      "sentiment": "neutral"
+    },
+    {
       "title": "Antonelli says Dutch weekend has been a good wake-up call",
       "url": "https://www.channelnewsasia.com/sport/antonelli-says-dutch-weekend-has-been-good-wake-up-call-6335216",
       "source": "Channel News Asia",
       "region": "Global",
       "published": "2026-08-23T02:30:18+08:00",
       "sentiment": "positive"
+    },
+    {
+      "title": "Soon, no need for physical boarding cards at immigration",
+      "url": "https://timesofindia.indiatimes.com/india/soon-no-need-for-physical-boarding-cards-at-immigration/articleshow/133431013.cms",
+      "source": "Times of India",
+      "region": "Asia-Pacific",
+      "published": "2026-08-23T02:26:20+05:30",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Invoking Mahatma Gandhi, BJP to start nationwide Vande campaign against Congress",
+      "url": "https://timesofindia.indiatimes.com/india/invoking-mahatma-gandhi-bjp-to-start-nationwide-vande-campaign/articleshow/133431005.cms",
+      "source": "Times of India",
+      "region": "North America",
+      "published": "2026-08-23T02:15:27+05:30",
+      "sentiment": "negative"
     },
     {
       "title": "Lucknow locals upset as iconic coffee house remains shut amid concern for social spaces",
@@ -844,6 +932,14 @@
       "sentiment": "neutral"
     },
     {
+      "title": "Ex-IAF vice-chief says 4.5-gen Tejas may not have relevance in 2030s",
+      "url": "https://timesofindia.indiatimes.com/india/ex-iaf-vice-chief-kapoor-says-indias-4-5-gen-tejas-may-not-have-relevance-in-2030s-country-must-partner-with-global-consortiums-like-fcas-or-gcap-for-6th-gen-programme/articleshow/133429304.cms",
+      "source": "Times of India",
+      "region": "Asia-Pacific",
+      "published": "2026-08-22T23:22:48+05:30",
+      "sentiment": "neutral"
+    },
+    {
       "title": "Ethics in management important, students need to be conscious of growing inequality, says N. Ravi",
       "url": "https://www.thehindu.com/news/national/tamil-nadu/ethics-in-management-important-students-need-to-be-conscious-of-growing-inequality-says-n-ravi/article71378806.ece",
       "source": "The Hindu",
@@ -938,6 +1034,14 @@
       "region": "Asia-Pacific",
       "published": "2026-08-22T22:50:48+05:30",
       "sentiment": "positive"
+    },
+    {
+      "title": "Match of the Day",
+      "url": "https://www.bbc.co.uk/iplayer/live/bbcone?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Sport",
+      "region": "Europe",
+      "published": "2026-08-22T22:41:54+00:00",
+      "sentiment": "neutral"
     },
     {
       "title": "BJP passes resolution against Congress over Vande Mataram issue, steps up Gen-Z outreach",
@@ -1076,11 +1180,27 @@
       "sentiment": "positive"
     },
     {
+      "title": "Papers: Arsenal pair Arteta and Berta in 'frequent contact' with Alvarez",
+      "url": "https://www.skysports.com/football/news/12040/13576128/arsenal-transfer-news-mikel-arteta-and-andrea-berta-in-frequent-contact-with-julian-alvarez-amid-hope-of-luring-atletico-madrid-star-paper-talk",
+      "source": "Sky Sports",
+      "region": "Europe",
+      "published": "2026-08-22T22:00:00+00:00",
+      "sentiment": "positive"
+    },
+    {
       "title": "Hockey World Cup: India's semifinal hopes end after 1-3 loss to Netherlands",
       "url": "https://timesofindia.indiatimes.com/sports/hockey/top-stories/hockey-world-cup-indias-semifinal-hopes-end-after-1-3-loss-to-netherlands/articleshow/133427277.cms",
       "source": "Times of India",
       "region": "Europe",
       "published": "2026-08-22T21:58:29+05:30",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Iran threatens to block Hormuz if neighbours join US sanctions",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-threatens-block-hormuz-if-neighbours-join-us-sanctions",
+      "source": "Middle East Eye",
+      "region": "Middle East",
+      "published": "2026-08-22T21:53:31+01:00",
       "sentiment": "negative"
     },
     {
@@ -1129,126 +1249,6 @@
       "source": "The Hindu",
       "region": "Asia-Pacific",
       "published": "2026-08-22T21:39:41+05:30",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Engineering graduates should turn India into AI creator rather than mere consumer market, says Delhi CM",
-      "url": "https://www.thehindu.com/news/national/tamil-nadu/engineering-graduates-should-turn-india-into-ai-creator-rather-than-mere-consumer-market-says-delhi-cm/article71377159.ece",
-      "source": "The Hindu",
-      "region": "Asia-Pacific",
-      "published": "2026-08-22T21:38:22+05:30",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Hull stun Manchester United 2-0 on Premier League return",
-      "url": "https://www.channelnewsasia.com/sport/hull-stun-manchester-united-2-0-premier-league-return-6334946",
-      "source": "Channel News Asia",
-      "region": "Global",
-      "published": "2026-08-22T21:37:08+08:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Hull stun Man Utd and Ipswich also enjoy winning Premier League return",
-      "url": "https://www.channelnewsasia.com/sport/hull-stun-man-utd-and-ipswich-also-enjoy-winning-premier-league-return-6334946",
-      "source": "Channel News Asia",
-      "region": "Global",
-      "published": "2026-08-22T21:37:08+08:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Promoted Hull stun Man Utd, Spurs thrashed, Ipswich enjoy winning return",
-      "url": "https://www.channelnewsasia.com/sport/promoted-hull-stun-man-utd-spurs-thrashed-ipswich-enjoy-winning-return-6334946",
-      "source": "Channel News Asia",
-      "region": "Global",
-      "published": "2026-08-22T21:37:08+08:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "3,289 forest offence cases registered in Chamarajanagar forest circle since 2010-11",
-      "url": "https://www.thehindu.com/news/national/karnataka/3289-forest-offence-cases-registered-in-chamarajanagar-forest-circle-since-2010-11/article71374406.ece",
-      "source": "The Hindu",
-      "region": "Asia-Pacific",
-      "published": "2026-08-22T21:33:27+05:30",
-      "sentiment": "negative"
-    },
-    {
-      "title": "My finances have taken a hit. What should I do now?",
-      "url": "https://www.channelnewsasia.com/today/voices/finances-setback-recovery-debt-losses-6328261",
-      "source": "Channel News Asia",
-      "region": "Global",
-      "published": "2026-08-22T21:30:00+08:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "The Singaporean who gets mistaken for a foreigner while running his family's Fuzhou oyster cake stall",
-      "url": "https://www.channelnewsasia.com/today/up-close/maxwell-food-centre-hawker-fuzhou-oyster-cake-mixed-race-6328021",
-      "source": "Channel News Asia",
-      "region": "Asia-Pacific",
-      "published": "2026-08-22T21:30:00+08:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Quit your job, then serve 6 months' notice? What to check before signing a contract",
-      "url": "https://www.channelnewsasia.com/today/adulting/notice-period-resignation-job-employment-contract-6322896",
-      "source": "Channel News Asia",
-      "region": "Global",
-      "published": "2026-08-22T21:30:00+08:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "CPI(M) slams Vellappally Natesan for questioning  Shamseer\u2019s secular credentials",
-      "url": "https://www.thehindu.com/news/national/kerala/cpim-slams-vellappally-natesan-for-questioning-shamseers-secular-credentials/article71378534.ece",
-      "source": "The Hindu",
-      "region": "Asia-Pacific",
-      "published": "2026-08-22T21:26:51+05:30",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Youth will rise to defend the Republic, says Aishe Ghosh at DYFI State Conference in Keralam",
-      "url": "https://www.thehindu.com/news/national/kerala/youth-will-rise-to-defend-the-republic-says-aishe-ghosh-at-dyfi-state-conference-in-keralam/article71378376.ece",
-      "source": "The Hindu",
-      "region": "North America",
-      "published": "2026-08-22T21:26:26+05:30",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Naidu pitches Visakhapatnam as hub for BRICS sports network",
-      "url": "https://www.thehindu.com/news/national/andhra-pradesh/naidu-pitches-visakhapatnam-as-hub-for-brics-sports-network/article71378435.ece",
-      "source": "The Hindu",
-      "region": "Asia-Pacific",
-      "published": "2026-08-22T21:23:53+05:30",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "60% rebate spurs B-Khata conversion, but fails to attract substantial interest",
-      "url": "https://www.thehindu.com/news/cities/bangalore/60-rebate-spurs-b-khata-conversion-but-fails-to-attract-substantial-interest/article71378274.ece",
-      "source": "The Hindu",
-      "region": "North America",
-      "published": "2026-08-22T21:22:39+05:30",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Plus One higher secondary improvement examinations from October 12",
-      "url": "https://www.thehindu.com/news/national/kerala/plus-one-higher-secondary-improvement-examinations-from-october-12/article71378307.ece",
-      "source": "The Hindu",
-      "region": "North America",
-      "published": "2026-08-22T21:18:38+05:30",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Kozhikode beach fire station returns to original location",
-      "url": "https://www.thehindu.com/news/national/kerala/kozhikode-beach-fire-station-returns-to-original-location/article71378406.ece",
-      "source": "The Hindu",
-      "region": "Asia-Pacific",
-      "published": "2026-08-22T21:18:19+05:30",
-      "sentiment": "negative"
-    },
-    {
-      "title": "RRT to be formed to address timely redressal of road-related problems in Keralam\u2019s Ernakulam district",
-      "url": "https://www.thehindu.com/news/national/kerala/rrt-to-be-formed-to-address-timely-redressal-of-road-related-problems-in-keralams-ernakulam-district/article71377516.ece",
-      "source": "The Hindu",
-      "region": "Asia-Pacific",
-      "published": "2026-08-22T21:16:01+05:30",
       "sentiment": "neutral"
     }
   ]
