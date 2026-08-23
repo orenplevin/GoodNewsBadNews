@@ -1,34 +1,34 @@
 {
-  "generated_at": "2026-08-23T03:51:31.214153+00:00",
+  "generated_at": "2026-08-23T04:36:59.869342+00:00",
   "window_hours": 24,
   "totals": {
-    "positive": 662,
-    "neutral": 236,
-    "negative": 813
+    "positive": 661,
+    "neutral": 240,
+    "negative": 808
   },
   "by_publication": [
     {
       "source": "The Hindu",
-      "positive": 97,
-      "neutral": 58,
+      "positive": 99,
+      "neutral": 60,
       "negative": 109,
-      "count": 264,
+      "count": 268,
       "region": "North America"
     },
     {
       "source": "Independent",
-      "positive": 79,
-      "neutral": 36,
-      "negative": 99,
-      "count": 214,
+      "positive": 76,
+      "neutral": 37,
+      "negative": 102,
+      "count": 215,
       "region": "Europe"
     },
     {
       "source": "Times of India",
-      "positive": 70,
+      "positive": 71,
       "neutral": 24,
-      "negative": 57,
-      "count": 151,
+      "negative": 62,
+      "count": 157,
       "region": "Asia-Pacific"
     },
     {
@@ -41,11 +41,11 @@
     },
     {
       "source": "Australian Broadcasting Corporation",
-      "positive": 34,
+      "positive": 36,
       "neutral": 6,
-      "negative": 48,
-      "count": 88,
-      "region": "Middle East"
+      "negative": 52,
+      "count": 94,
+      "region": "Asia-Pacific"
     },
     {
       "source": "Fox News",
@@ -53,15 +53,7 @@
       "neutral": 1,
       "negative": 53,
       "count": 84,
-      "region": "Asia-Pacific"
-    },
-    {
-      "source": "Al Jazeera English",
-      "positive": 13,
-      "neutral": 10,
-      "negative": 53,
-      "count": 76,
-      "region": "Asia-Pacific"
+      "region": "North America"
     },
     {
       "source": "BBC Sport",
@@ -72,59 +64,67 @@
       "region": "North America"
     },
     {
+      "source": "Al Jazeera English",
+      "positive": 13,
+      "neutral": 10,
+      "negative": 48,
+      "count": 71,
+      "region": "North America"
+    },
+    {
       "source": "Channel News Asia",
-      "positive": 22,
-      "neutral": 20,
-      "negative": 24,
-      "count": 66,
-      "region": "Asia-Pacific"
+      "positive": 21,
+      "neutral": 22,
+      "negative": 22,
+      "count": 65,
+      "region": "Global"
     },
     {
       "source": "BBC News",
       "positive": 22,
-      "neutral": 9,
+      "neutral": 8,
       "negative": 32,
-      "count": 63,
+      "count": 62,
       "region": "North America"
     },
     {
       "source": "South China Morning Post",
-      "positive": 23,
+      "positive": 22,
       "neutral": 1,
       "negative": 33,
-      "count": 57,
-      "region": "North America"
+      "count": 56,
+      "region": "Asia-Pacific"
     },
     {
       "source": "CBS News",
       "positive": 11,
       "neutral": 5,
-      "negative": 33,
-      "count": 49,
+      "negative": 31,
+      "count": 47,
       "region": "North America"
+    },
+    {
+      "source": "The Guardian",
+      "positive": 18,
+      "neutral": 1,
+      "negative": 27,
+      "count": 46,
+      "region": "Asia-Pacific"
     },
     {
       "source": "Middle East Eye",
       "positive": 14,
       "neutral": 1,
-      "negative": 29,
-      "count": 44,
+      "negative": 30,
+      "count": 45,
       "region": "Middle East"
-    },
-    {
-      "source": "The Guardian",
-      "positive": 16,
-      "neutral": 1,
-      "negative": 27,
-      "count": 44,
-      "region": "Asia-Pacific"
     },
     {
       "source": "France 24",
       "positive": 8,
       "neutral": 1,
-      "negative": 32,
-      "count": 41,
+      "negative": 30,
+      "count": 39,
       "region": "North America"
     },
     {
@@ -137,43 +137,43 @@
     },
     {
       "source": "Bloomberg",
-      "positive": 14,
+      "positive": 15,
       "neutral": 2,
-      "negative": 9,
-      "count": 25,
+      "negative": 10,
+      "count": 27,
       "region": "North America"
     },
     {
       "source": "Mashable",
-      "positive": 17,
-      "neutral": 1,
+      "positive": 16,
+      "neutral": 3,
       "negative": 4,
-      "count": 22,
-      "region": "Global"
+      "count": 23,
+      "region": "North America"
     },
     {
       "source": "Straits Times",
       "positive": 10,
-      "neutral": 2,
+      "neutral": 3,
       "negative": 8,
-      "count": 20,
-      "region": "North America"
+      "count": 21,
+      "region": "Global"
     },
     {
       "source": "Irish Times",
-      "positive": 4,
+      "positive": 5,
       "neutral": 4,
       "negative": 12,
-      "count": 20,
-      "region": "Global"
+      "count": 21,
+      "region": "North America"
     },
     {
       "source": "New York Times",
       "positive": 7,
-      "neutral": 3,
-      "negative": 9,
-      "count": 19,
-      "region": "North America"
+      "neutral": 2,
+      "negative": 8,
+      "count": 17,
+      "region": "Europe"
     },
     {
       "source": "CNBC",
@@ -192,28 +192,20 @@
       "region": "North America"
     },
     {
-      "source": "Deutsche Welle",
+      "source": "RT News",
       "positive": 2,
       "neutral": 0,
       "negative": 13,
       "count": 15,
-      "region": "Middle East"
-    },
-    {
-      "source": "Financial Times",
-      "positive": 1,
-      "neutral": 2,
-      "negative": 12,
-      "count": 15,
-      "region": "Middle East"
-    },
-    {
-      "source": "RT News",
-      "positive": 2,
-      "neutral": 0,
-      "negative": 12,
-      "count": 14,
       "region": "North America"
+    },
+    {
+      "source": "Deutsche Welle",
+      "positive": 1,
+      "neutral": 0,
+      "negative": 13,
+      "count": 14,
+      "region": "Middle East"
     },
     {
       "source": "Daily News Egypt",
@@ -224,12 +216,12 @@
       "region": "North America"
     },
     {
-      "source": "Sky News",
-      "positive": 3,
-      "neutral": 1,
+      "source": "ABC News",
+      "positive": 2,
+      "neutral": 2,
       "negative": 5,
       "count": 9,
-      "region": "Africa"
+      "region": "North America"
     },
     {
       "source": "MarketWatch",
@@ -237,6 +229,14 @@
       "neutral": 1,
       "negative": 2,
       "count": 9,
+      "region": "North America"
+    },
+    {
+      "source": "Sky News",
+      "positive": 2,
+      "neutral": 1,
+      "negative": 5,
+      "count": 8,
       "region": "North America"
     },
     {
@@ -248,14 +248,6 @@
       "region": "North America"
     },
     {
-      "source": "ABC News",
-      "positive": 2,
-      "neutral": 2,
-      "negative": 4,
-      "count": 8,
-      "region": "South America"
-    },
-    {
       "source": "AllAfrica",
       "positive": 2,
       "neutral": 1,
@@ -264,12 +256,12 @@
       "region": "North America"
     },
     {
-      "source": "NPR",
-      "positive": 1,
-      "neutral": 2,
-      "negative": 4,
-      "count": 7,
-      "region": "North America"
+      "source": "Financial Times",
+      "positive": 0,
+      "neutral": 1,
+      "negative": 5,
+      "count": 6,
+      "region": "Middle East"
     },
     {
       "source": "Wired",
@@ -294,6 +286,14 @@
       "negative": 0,
       "count": 4,
       "region": "Europe"
+    },
+    {
+      "source": "NPR",
+      "positive": 0,
+      "neutral": 1,
+      "negative": 2,
+      "count": 3,
+      "region": "North America"
     },
     {
       "source": "Buenos Aires Herald",
@@ -324,44 +324,44 @@
     {
       "region": "North America",
       "positive": 255,
-      "neutral": 82,
-      "negative": 337,
-      "count": 674
+      "neutral": 80,
+      "negative": 328,
+      "count": 663
     },
     {
       "region": "Asia-Pacific",
-      "positive": 157,
-      "neutral": 70,
-      "negative": 175,
-      "count": 402
+      "positive": 162,
+      "neutral": 73,
+      "negative": 183,
+      "count": 418
     },
     {
       "region": "Europe",
-      "positive": 160,
-      "neutral": 60,
-      "negative": 167,
-      "count": 387
+      "positive": 156,
+      "neutral": 61,
+      "negative": 165,
+      "count": 382
     },
     {
       "region": "Middle East",
-      "positive": 34,
+      "positive": 35,
       "neutral": 8,
-      "negative": 86,
-      "count": 128
+      "negative": 84,
+      "count": 127
     },
     {
       "region": "Global",
-      "positive": 40,
-      "neutral": 13,
+      "positive": 39,
+      "neutral": 15,
       "negative": 30,
-      "count": 83
+      "count": 84
     },
     {
       "region": "Africa",
-      "positive": 15,
+      "positive": 13,
       "neutral": 1,
       "negative": 14,
-      "count": 30
+      "count": 28
     },
     {
       "region": "South America",
@@ -374,80 +374,80 @@
   "by_topic": [
     {
       "topic": "Tech",
-      "positive": 162,
-      "neutral": 56,
-      "negative": 206,
-      "count": 424
+      "positive": 166,
+      "neutral": 57,
+      "negative": 202,
+      "count": 425
     },
     {
       "topic": "Other",
-      "positive": 118,
-      "neutral": 76,
-      "negative": 130,
-      "count": 324
+      "positive": 114,
+      "neutral": 79,
+      "negative": 132,
+      "count": 325
     },
     {
       "topic": "Politics",
-      "positive": 92,
-      "neutral": 30,
-      "negative": 149,
-      "count": 271
+      "positive": 94,
+      "neutral": 29,
+      "negative": 150,
+      "count": 273
     },
     {
       "topic": "World",
-      "positive": 54,
-      "neutral": 15,
-      "negative": 139,
-      "count": 208
+      "positive": 49,
+      "neutral": 16,
+      "negative": 138,
+      "count": 203
     },
     {
       "topic": "Sports",
-      "positive": 114,
-      "neutral": 33,
-      "negative": 47,
-      "count": 194
+      "positive": 119,
+      "neutral": 32,
+      "negative": 48,
+      "count": 199
     },
     {
       "topic": "Business",
-      "positive": 36,
-      "neutral": 3,
-      "negative": 40,
-      "count": 79
+      "positive": 32,
+      "neutral": 2,
+      "negative": 34,
+      "count": 68
     },
     {
       "topic": "Health",
-      "positive": 25,
+      "positive": 26,
       "neutral": 5,
       "negative": 34,
-      "count": 64
+      "count": 65
     },
     {
       "topic": "Entertainment",
-      "positive": 31,
+      "positive": 33,
       "neutral": 6,
       "negative": 25,
-      "count": 62
+      "count": 64
     },
     {
       "topic": "Local",
       "positive": 11,
-      "neutral": 7,
-      "negative": 17,
-      "count": 35
-    },
-    {
-      "topic": "Regional",
-      "positive": 8,
-      "neutral": 3,
-      "negative": 15,
-      "count": 26
+      "neutral": 8,
+      "negative": 18,
+      "count": 37
     },
     {
       "topic": "Science",
-      "positive": 11,
-      "neutral": 2,
-      "negative": 11,
-      "count": 24
+      "positive": 10,
+      "neutral": 3,
+      "negative": 12,
+      "count": 25
+    },
+    {
+      "topic": "Regional",
+      "positive": 7,
+      "neutral": 3,
+      "negative": 15,
+      "count": 25
     }
   ],
   "sample_headlines": [
@@ -457,6 +457,46 @@
       "source": "Independent",
       "region": "Europe",
       "published": "2027-01-09T16:08:00+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Is your stressed PSLE child overwhelmed or burnt out? How to spot the difference",
+      "url": "https://www.straitstimes.com/singapore/parenting-education/is-your-stressed-psle-child-overwhelmed-or-burned-out-how-to-spot-the-difference",
+      "source": "Straits Times",
+      "region": "Global",
+      "published": "2026-08-23T12:18:00+08:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "What your child\u2019s P6 prelim results are telling you and how to boost PSLE marks",
+      "url": "https://www.straitstimes.com/singapore/parenting-education/what-your-childs-p6-prelim-results-are-telling-you-and-how-to-boost-psle-marks",
+      "source": "Straits Times",
+      "region": "Global",
+      "published": "2026-08-23T12:18:00+08:00",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Cyclists in viral video chased by Traffic Police among 18 nabbed in enforcement operation",
+      "url": "https://www.straitstimes.com/singapore/cyclists-in-viral-video-chased-by-traffic-police-among-18-nabbed-in-enforcement-operation",
+      "source": "Straits Times",
+      "region": "Global",
+      "published": "2026-08-23T12:15:00+08:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Man City boss Maresca targets next Rodri after midfielder's exit",
+      "url": "https://www.channelnewsasia.com/sport/man-city-boss-maresca-targets-next-rodri-after-midfielders-exit-6335571",
+      "source": "Channel News Asia",
+      "region": "Global",
+      "published": "2026-08-23T12:13:11+08:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "7-Eleven Singapore launches self-care spots at dining spaces islandwide",
+      "url": "https://www.channelnewsasia.com/wellness/7-eleven-singapore-take-five-spot-6332681",
+      "source": "Channel News Asia",
+      "region": "Asia-Pacific",
+      "published": "2026-08-23T12:04:24+08:00",
       "sentiment": "neutral"
     },
     {
@@ -516,12 +556,132 @@
       "sentiment": "negative"
     },
     {
+      "title": "Tamil Nadu life convict Selvam\u2019s book Oru Thooku Kaithiyin Vaakumoolam wins Iyal Award of Canada",
+      "url": "https://www.thehindu.com/news/national/tamil-nadu/tamil-nadu-life-convict-selvams-book-oru-thooku-kaithiyin-vaakumoolam-wins-iyal-award-of-canada/article71380151.ece",
+      "source": "The Hindu",
+      "region": "North America",
+      "published": "2026-08-23T10:00:14+05:30",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Clash erupts between Andhra, North East region students in nursing college, one girl hurt in Kakinada",
+      "url": "https://www.thehindu.com/news/national/andhra-pradesh/clash-erupted-between-andhra-north-east-region-students-in-nursing-college-one-girl-hurt-in-kakinada/article71380089.ece",
+      "source": "The Hindu",
+      "region": "North America",
+      "published": "2026-08-23T09:51:39+05:30",
+      "sentiment": "negative"
+    },
+    {
+      "title": "A hark back to \u2018collection king\u2019 Udhayam Theatre in Chennai",
+      "url": "https://www.thehindu.com/news/cities/chennai/a-hark-back-to-collection-king-udhayam-theatre-in-chennai/article71364005.ece",
+      "source": "The Hindu",
+      "region": "Asia-Pacific",
+      "published": "2026-08-23T09:51:11+05:30",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Beach: this third place in Chennai makes room for everyone",
+      "url": "https://www.thehindu.com/news/cities/chennai/beach-this-third-place-in-chennai-makes-room-for-everyone/article71372568.ece",
+      "source": "The Hindu",
+      "region": "Asia-Pacific",
+      "published": "2026-08-23T09:47:09+05:30",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Saransh Jain makes India debut at 33: Who is the allrounder taking on Sri Lanka?",
+      "url": "https://timesofindia.indiatimes.com/sports/cricket/india-vs-sri-lanka/saransh-jain-makes-india-debut-at-33-who-is-the-madhya-pradesh-allrounder-taking-on-sri-lanka/articleshow/133434166.cms",
+      "source": "Times of India",
+      "region": "Asia-Pacific",
+      "published": "2026-08-23T09:46:03+05:30",
+      "sentiment": "positive"
+    },
+    {
+      "title": "While Madras went to bed early, Chennai stays up",
+      "url": "https://www.thehindu.com/news/cities/chennai/while-madras-went-to-bed-early-chennai-stays-up/article71376518.ece",
+      "source": "The Hindu",
+      "region": "North America",
+      "published": "2026-08-23T09:41:14+05:30",
+      "sentiment": "positive"
+    },
+    {
+      "title": "\u2018Could result in injury or death\u2019: Thanedar urges halting ICE\u2019s electric shock glove plan",
+      "url": "https://timesofindia.indiatimes.com/world/us/could-result-in-injury-or-death-thanedar-urges-us-to-halt-ices-electric-shock-glove-plan/articleshow/133433897.cms",
+      "source": "Times of India",
+      "region": "Asia-Pacific",
+      "published": "2026-08-23T09:26:19+05:30",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Two killed, five injured as Ganesh idol falls during arrival ceremony in Mumbai",
+      "url": "https://www.thehindu.com/news/cities/mumbai/people-killed-injured-as-ganesh-idol-falls-during-arrival-ceremony-in-mumbai/article71380097.ece",
+      "source": "The Hindu",
+      "region": "Asia-Pacific",
+      "published": "2026-08-23T09:22:22+05:30",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Microsoft has a 6-word answer for students wondering if coding is still worth it",
+      "url": "https://timesofindia.indiatimes.com/technology/tech-news/microsoft-to-all-the-students-wondering-whether-it-still-is-worth-learning-how-to-code-the-answer-is-now/articleshow/133433932.cms",
+      "source": "Times of India",
+      "region": "Asia-Pacific",
+      "published": "2026-08-23T09:15:55+05:30",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Portugal get their revenge on Spain \u2014 this time in cricket \u2014 after WC heartbreak",
+      "url": "https://timesofindia.indiatimes.com/sports/cricket/news/portugal-get-their-revenge-on-spain-this-time-in-cricket-after-fifa-world-cup-heartbreak/articleshow/133433909.cms",
+      "source": "Times of India",
+      "region": "Europe",
+      "published": "2026-08-23T09:13:25+05:30",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Govinda issues notice against defamatory content amid spat with wife Sunita Ahuja",
+      "url": "https://timesofindia.indiatimes.com/entertainment/hindi/bollywood/news/govinda-issues-public-notice-against-defamatory-content-amid-his-spat-with-sunita-ahuja-threatens-rs-100-crore-lawsuit/articleshow/133433853.cms",
+      "source": "Times of India",
+      "region": "North America",
+      "published": "2026-08-23T09:00:44+05:30",
+      "sentiment": "negative"
+    },
+    {
+      "title": "40% of India's office occupiers worry about finding quality space through 2028",
+      "url": "https://timesofindia.indiatimes.com/real-estate/news/40-of-india-office-occupiers-worry-about-finding-quality-space-through-2028-says-report/articleshow/133425002.cms",
+      "source": "Times of India",
+      "region": "Asia-Pacific",
+      "published": "2026-08-23T09:00:00+05:30",
+      "sentiment": "negative"
+    },
+    {
+      "title": "'Masters in our own home': Canada PM Carney explains why talks with US were suspended",
+      "url": "https://timesofindia.indiatimes.com/business/international-business/masters-in-our-own-home-canada-pm-carney-explains-why-trade-talks-with-us-were-suspended/articleshow/133433826.cms",
+      "source": "Times of India",
+      "region": "North America",
+      "published": "2026-08-23T08:58:51+05:30",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Reddy denied US visit, Gujarat CM cleared: Overseas Congress alleges \u2018double standard\u2019",
+      "url": "https://timesofindia.indiatimes.com/india/double-standard-overseas-congress-on-denial-to-revanth-reddy-nod-for-gujarat-cms-us-visit/articleshow/133433750.cms",
+      "source": "Times of India",
+      "region": "North America",
+      "published": "2026-08-23T08:53:12+05:30",
+      "sentiment": "negative"
+    },
+    {
       "title": "Shoriful Islam makes history with record seven-wicket haul against Australia",
       "url": "https://timesofindia.indiatimes.com/sports/cricket/news/shoriful-islam-makes-bangladesh-history-with-record-seven-wicket-haul-against-australia/articleshow/133433725.cms",
       "source": "Times of India",
       "region": "Asia-Pacific",
       "published": "2026-08-23T08:40:35+05:30",
       "sentiment": "negative"
+    },
+    {
+      "title": "Yash sends a strong message on \u2018North-South\u2019 comparison at \u2018Toxic\u2019 pre-release event",
+      "url": "https://timesofindia.indiatimes.com/entertainment/kannada/movies/news/dont-take-cinema-too-seriously-yash-advises-students-and-sends-a-strong-message-on-north-south-comparison-at-toxic-pre-release-event/articleshow/133433720.cms",
+      "source": "Times of India",
+      "region": "North America",
+      "published": "2026-08-23T08:35:11+05:30",
+      "sentiment": "positive"
     },
     {
       "title": "News in Frames | Toxic water runs deep",
@@ -537,6 +697,14 @@
       "source": "The Hindu",
       "region": "Asia-Pacific",
       "published": "2026-08-23T08:17:03+05:30",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Batwara 1947: Sunny Deol film crosses Rs 51cr worldwide amid clash with Awarapan 2",
+      "url": "https://timesofindia.indiatimes.com/entertainment/hindi/bollywood/box-office/batwara-1947-box-office-collection-day-9-sunny-deol-and-preity-zinta-starrer-crosses-rs-51-crore-worldwide-amid-awarapan-2-clash/articleshow/133433584.cms",
+      "source": "Times of India",
+      "region": "Asia-Pacific",
+      "published": "2026-08-23T08:05:30+05:30",
       "sentiment": "positive"
     },
     {
@@ -577,6 +745,14 @@
       "source": "Times of India",
       "region": "North America",
       "published": "2026-08-23T07:31:12+05:30",
+      "sentiment": "negative"
+    },
+    {
+      "title": "\u2018Who would apply medicine to child\u2019s blisters?\u2019 Delhi techie killed over chore; wife, in-laws held",
+      "url": "https://timesofindia.indiatimes.com/city/delhi/who-would-apply-medicine-to-childs-blisters-delhi-techie-killed-after-row-over-chore-wife-3-held/articleshow/133433250.cms",
+      "source": "Times of India",
+      "region": "Asia-Pacific",
+      "published": "2026-08-23T07:27:35+05:30",
       "sentiment": "negative"
     },
     {
@@ -732,6 +908,14 @@
       "sentiment": "neutral"
     },
     {
+      "title": "US set to remove Syria from 'sponsors of terrorism' list",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/us-set-remove-syria-sponsor-terrorism-list",
+      "source": "Middle East Eye",
+      "region": "Middle East",
+      "published": "2026-08-23T05:03:55+01:00",
+      "sentiment": "negative"
+    },
+    {
       "title": "Tottenham's expensive rebuild begins with familiar collapse",
       "url": "https://www.channelnewsasia.com/sport/tottenhams-expensive-rebuild-begins-familiar-collapse-6335316",
       "source": "Channel News Asia",
@@ -788,12 +972,28 @@
       "sentiment": "positive"
     },
     {
+      "title": "Ukraine-Russia war latest: Macron to deliver missile interceptors to Kyiv as Putin pulls ambassador from UK",
+      "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-putin-zelensky-shopping-centre-attack-b3037438.html",
+      "source": "Independent",
+      "region": "Europe",
+      "published": "2026-08-23T04:33:14+00:00",
+      "sentiment": "negative"
+    },
+    {
       "title": "Iran condemns US plans to announce new sanctions",
       "url": "https://www.channelnewsasia.com/world/iran-condemns-us-plans-announce-new-sanctions-6335291",
       "source": "Channel News Asia",
       "region": "North America",
       "published": "2026-08-23T04:33:00+08:00",
       "sentiment": "negative"
+    },
+    {
+      "title": "Tertiary degrees: \u2018They were not looking for CAO points ... just my Leaving Cert results\u2019",
+      "url": "https://www.irishtimes.com/ireland/education/2026/08/23/they-called-me-and-i-went-for-the-interview-they-just-needed-my-leaving-cert-results/",
+      "source": "Irish Times",
+      "region": "North America",
+      "published": "2026-08-23T04:31:00+00:00",
+      "sentiment": "positive"
     },
     {
       "title": "Tom Brady reveals heartbreaking moment Gisele B\u00fcndchen said she was unhappy",
@@ -812,6 +1012,14 @@
       "sentiment": "negative"
     },
     {
+      "title": "Australia Reports First Bird Flu Case in a Mammal as Seal Dies",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-23/australia-reports-first-bird-flu-case-in-a-mammal-as-seal-dies",
+      "source": "Bloomberg",
+      "region": "North America",
+      "published": "2026-08-23T04:21:40+00:00",
+      "sentiment": "negative"
+    },
+    {
       "title": "Trump shares image calling Hormuz 'new US territory'; Iran says strait 'closed'",
       "url": "https://timesofindia.indiatimes.com/world/us/trump-shares-image-calling-hormuz-new-us-territory-iran-says-strait-closed/articleshow/133432963.cms",
       "source": "Times of India",
@@ -820,11 +1028,59 @@
       "sentiment": "positive"
     },
     {
+      "title": "US Quran-burning activist detained after rally erupts in clashes (VIDEOS)",
+      "url": "https://www.rt.com/news/644546-quran-burning-activist-arrested/?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
+      "source": "RT News",
+      "region": "North America",
+      "published": "2026-08-23T04:18:36+00:00",
+      "sentiment": "negative"
+    },
+    {
       "title": "Israel conducts fresh strike in Syria after US criticism",
       "url": "https://www.channelnewsasia.com/world/israel-conducts-fresh-strike-in-syria-after-us-criticism-6335281",
       "source": "Channel News Asia",
       "region": "Middle East",
       "published": "2026-08-23T04:17:43+08:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "A moderate earthquake shakes Japan, injuring more than 30 people in the Tokyo region",
+      "url": "https://www.independent.co.uk/news/tokyo-japan-japan-meteorological-agency-sanae-takaichi-yokohama-b3037663.html",
+      "source": "Independent",
+      "region": "Asia-Pacific",
+      "published": "2026-08-23T04:15:56+00:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Swans fans turn up to support women\u2019s team \u2013 as it happened",
+      "url": "https://www.theguardian.com/australia-news/live/2026/aug/23/australia-news-live-anthony-albanese-sydney-swans-police-investigation-alan-jones-antisemitism-inquiry-icac-nsw-liberals-ntwnfb",
+      "source": "The Guardian",
+      "region": "Asia-Pacific",
+      "published": "2026-08-23T04:13:07+00:00",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Qld youth offenders who breach bail to receive mandatory sentences",
+      "url": "https://www.abc.net.au/news/2026-08-23/bail-reform-queensland/107068382",
+      "source": "Australian Broadcasting Corporation",
+      "region": "Asia-Pacific",
+      "published": "2026-08-23T04:10:15+00:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "India Rescues Two of Ship\u2019s 24 Crew Members After Distress Alert",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-23/india-rescues-two-of-ship-s-24-crew-members-after-distress-alert",
+      "source": "Bloomberg",
+      "region": "Asia-Pacific",
+      "published": "2026-08-23T04:09:01+00:00",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Wrong landmark spotted on Sydney Marathon medal a week out from event",
+      "url": "https://www.abc.net.au/news/2026-08-23/nsw-sydney-marathon-medal-mix-up-munich-arena/107068624",
+      "source": "Australian Broadcasting Corporation",
+      "region": "Asia-Pacific",
+      "published": "2026-08-23T04:07:29+00:00",
       "sentiment": "negative"
     },
     {
@@ -852,6 +1108,54 @@
       "sentiment": "neutral"
     },
     {
+      "title": "Officials warn wildland firefighters about the risks of using a supplement for smoke exposure",
+      "url": "https://www.independent.co.uk/news/southern-california-seattle-washington-fda-los-angeles-county-b3037661.html",
+      "source": "Independent",
+      "region": "North America",
+      "published": "2026-08-23T04:01:25+00:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Four Years Ago, a Crypto Boss Went Missing. Now His Successor Has.",
+      "url": "https://www.nytimes.com/2026/08/23/world/europe/poland-estonia-cryptocurrency.html",
+      "source": "New York Times",
+      "region": "Europe",
+      "published": "2026-08-23T04:01:08+00:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Liberal plan to split Victorian appeals court attacked as \u2018thought bubble\u2019 that would politicise judiciary",
+      "url": "https://www.theguardian.com/australia-news/2026/aug/23/victoria-election-liberals-plan-split-appeals-court-attacked-as-thought-bubble-politicise-judiciary",
+      "source": "The Guardian",
+      "region": "North America",
+      "published": "2026-08-23T04:00:59+00:00",
+      "sentiment": "positive"
+    },
+    {
+      "title": "The sunhat is everywhere in Athens as crowds grow larger at ancient sites",
+      "url": "https://www.independent.co.uk/news/greece-athens-panama-greek-people-b3037660.html",
+      "source": "Independent",
+      "region": "Europe",
+      "published": "2026-08-23T04:00:59+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "The \u2018ordinary\u2019 woman accused of assassinating a Russian commander in Crimea",
+      "url": "https://www.theguardian.com/world/2026/aug/23/ordinary-woman-margarita-reutt-accused-assassinating-russian-commander-crimea",
+      "source": "The Guardian",
+      "region": "Europe",
+      "published": "2026-08-23T04:00:22+00:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Gaokao reforms could leave Chinese public vulnerable to pseudo-history, top academic warns",
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3364926/gaokao-reforms-could-leave-chinese-public-vulnerable-pseudo-history-top-academic-warns?utm_source=rss_feed",
+      "source": "South China Morning Post",
+      "region": "Asia-Pacific",
+      "published": "2026-08-23T04:00:14+00:00",
+      "sentiment": "negative"
+    },
+    {
       "title": "Aipac told to stay away from pro-Israel Mike Rogers' campaign, report says",
       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/aipac-told-stay-away-pro-israel-mike-rogers-campaign-report-says",
       "source": "Middle East Eye",
@@ -868,6 +1172,38 @@
       "sentiment": "neutral"
     },
     {
+      "title": "Live: Cronulla out to snap two-game losing streak",
+      "url": "https://www.abc.net.au/news/2026-08-23/nrl-live-updates-titans-sharks-roosters-tigers/107068718",
+      "source": "Australian Broadcasting Corporation",
+      "region": "Asia-Pacific",
+      "published": "2026-08-23T03:52:53+00:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Quake-prone Indonesia\u2019s first nuclear power plant plan stokes safety fears",
+      "url": "https://www.scmp.com/news/asia/southeast-asia/article/3364952/quake-prone-indonesias-first-nuclear-power-plant-plan-stokes-safety-fears?utm_source=rss_feed",
+      "source": "South China Morning Post",
+      "region": "Asia-Pacific",
+      "published": "2026-08-23T03:52:00+00:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Tributes flow for 'formidable' ex-Nationals WA leader after his death",
+      "url": "https://www.abc.net.au/news/2026-08-23/max-trenorden-former-nationals-wa-leader-dies-prompting-tributes/107068510",
+      "source": "Australian Broadcasting Corporation",
+      "region": "Asia-Pacific",
+      "published": "2026-08-23T03:45:09+00:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "\u2018You just can\u2019t trust Trump\u2019: Canadian premiers fire back in trade war",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/23/you-just-cant-trust-trump-canadian-premiers-fire-back-in-trade-war?traffic_source=rss",
+      "source": "Al Jazeera English",
+      "region": "North America",
+      "published": "2026-08-23T03:42:22+00:00",
+      "sentiment": "negative"
+    },
+    {
       "title": "Australia news live: Swans fans turn up to support women\u2019s team; Victorian premier rejects Liberals\u2019 \u2018thought bubble\u2019 on criminal court reform",
       "url": "https://www.theguardian.com/australia-news/live/2026/aug/23/australia-news-live-anthony-albanese-sydney-swans-police-investigation-alan-jones-antisemitism-inquiry-icac-nsw-liberals-ntwnfb",
       "source": "The Guardian",
@@ -881,6 +1217,14 @@
       "source": "The Guardian",
       "region": "Middle East",
       "published": "2026-08-23T03:34:27+00:00",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Robots could harvest lava from volcanic eruptions to make 'concrete' of the future",
+      "url": "https://news.sky.com/story/robots-could-harvest-lava-from-volcanic-eruptions-to-make-concrete-of-the-future-13576172",
+      "source": "Sky News",
+      "region": "North America",
+      "published": "2026-08-23T03:30:00+01:00",
       "sentiment": "positive"
     },
     {
@@ -900,356 +1244,12 @@
       "sentiment": "negative"
     },
     {
-      "title": "Nvidia customers notified about AI-related price hikes above 15%, Bloomberg News reports",
-      "url": "https://www.channelnewsasia.com/business/nvidia-customers-notified-about-ai-related-price-hikes-above-15-bloomberg-news-reports-6335256",
-      "source": "Channel News Asia",
-      "region": "North America",
-      "published": "2026-08-23T03:20:53+08:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Macron to host Saudi crown prince for talks on Middle East, energy",
-      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/macron-host-saudi-crown-prince-talks-middle-east-energy",
-      "source": "Middle East Eye",
-      "region": "Middle East",
-      "published": "2026-08-23T03:20:00+01:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Chinese robot beats Usain Bolt\u2019s 100m world record at humanoid games",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/23/chinese-robot-beats-usain-bolts-100m-world-record-at-humanoid-games?traffic_source=rss",
+      "title": "In rural Chad, solar kiosks bring healthcare closer",
+      "url": "https://www.aljazeera.com/news/2026/8/23/in-rural-chad-solar-kiosks-bring-healthcare-closer?traffic_source=rss",
       "source": "Al Jazeera English",
-      "region": "Asia-Pacific",
-      "published": "2026-08-23T03:16:19+00:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "One Nation MP concedes party\u2019s migration target \u2018not too different\u2019 from Labor\u2019s once rural workforce included",
-      "url": "https://www.theguardian.com/australia-news/2026/aug/23/one-nation-mp-david-farley-immigration-target-net-overseas-migration-not-too-different-labor-rural-workforce",
-      "source": "The Guardian",
-      "region": "Asia-Pacific",
-      "published": "2026-08-23T03:12:58+00:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Mayors to get powers to overrule local councils on planning decisions",
-      "url": "https://www.bbc.co.uk/news/articles/cy8m0gxexl4o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "region": "North America",
-      "published": "2026-08-23T03:10:51+00:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Jordan caught in Iran-US-Israel war crossfire",
-      "url": "https://www.abc.net.au/news/2026-08-23/jordan-caught-in-the-iran-us-israel-war-crossfire/107064774",
-      "source": "Australian Broadcasting Corporation",
       "region": "Middle East",
-      "published": "2026-08-23T03:04:52+00:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Coroner closes investigation into missing man after farmers find human remains",
-      "url": "https://www.abc.net.au/news/2026-08-23/coroner-closes-investigation-missing-jayden-penno-tompsett-skull/107068432",
-      "source": "Australian Broadcasting Corporation",
-      "region": "Asia-Pacific",
-      "published": "2026-08-23T03:03:58+00:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "All Blacks take major advantage in South Africa series after first-test success",
-      "url": "https://www.channelnewsasia.com/sport/all-blacks-take-major-advantage-in-south-africa-series-after-first-test-success-6335241",
-      "source": "Channel News Asia",
-      "region": "Africa",
-      "published": "2026-08-23T03:03:56+08:00",
+      "published": "2026-08-23T03:21:03+00:00",
       "sentiment": "positive"
-    },
-    {
-      "title": "Kojonup adds names of long-forgotten soldiers to war memorial",
-      "url": "https://www.abc.net.au/news/2026-08-23/kojonup-adds-forgotten-soldiers-names-to-war-memorial/107067290",
-      "source": "Australian Broadcasting Corporation",
-      "region": "Asia-Pacific",
-      "published": "2026-08-23T03:03:51+00:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Union for Boston Symphony Orchestra musicians authorizes first strike in ensemble's 145-year history",
-      "url": "https://www.independent.co.uk/news/union-mass-b3037656.html",
-      "source": "Independent",
-      "region": "North America",
-      "published": "2026-08-23T03:03:22+00:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Harry and Meghan's return from California exile a major royal plot twist",
-      "url": "https://www.abc.net.au/news/2026-08-23/harry-and-meghan-and-the-royals-who-stepped-away-from-the-crown/107057976",
-      "source": "Australian Broadcasting Corporation",
-      "region": "Asia-Pacific",
-      "published": "2026-08-23T03:00:55+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Are humanoid robots the future? Chinese makers instead highlight practical design",
-      "url": "https://www.scmp.com/tech/tech-trends/article/3364911/are-humanoid-robots-future-chinese-makers-instead-highlight-practical-design?utm_source=rss_feed",
-      "source": "South China Morning Post",
-      "region": "Asia-Pacific",
-      "published": "2026-08-23T03:00:12+00:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Bites to bytes: Thai street food app feeds into hunger for authenticity",
-      "url": "https://www.scmp.com/week-asia/lifestyle-culture/article/3364869/bites-bytes-thai-street-food-app-feeds-hunger-authenticity?utm_source=rss_feed",
-      "source": "South China Morning Post",
-      "region": "Asia-Pacific",
-      "published": "2026-08-23T03:00:07+00:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Inter begin title defence with stylish 4-1 win over Monza",
-      "url": "https://www.channelnewsasia.com/sport/inter-begin-title-defence-stylish-4-1-win-over-monza-6335236",
-      "source": "Channel News Asia",
-      "region": "Global",
-      "published": "2026-08-23T02:58:46+08:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Inter begin title defence with win over Monza, Napoli beat Genoa",
-      "url": "https://www.channelnewsasia.com/sport/inter-begin-title-defence-win-over-monza-napoli-beat-genoa-6335236",
-      "source": "Channel News Asia",
-      "region": "Global",
-      "published": "2026-08-23T02:58:46+08:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Ipswich earn cathartic win to mark Premier League return",
-      "url": "https://www.channelnewsasia.com/sport/ipswich-earn-cathartic-win-mark-premier-league-return-6335231",
-      "source": "Channel News Asia",
-      "region": "Global",
-      "published": "2026-08-23T02:53:56+08:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "'Mainly to support AFLW': Swans fans descend on SCG amid club scandal",
-      "url": "https://www.abc.net.au/news/2026-08-23/sydney-swans-fans-react-to-week-at-scg-on-sunday/107068462",
-      "source": "Australian Broadcasting Corporation",
-      "region": "Asia-Pacific",
-      "published": "2026-08-23T02:53:48+00:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "'Low-level' metal traces linked to WA playground closure",
-      "url": "https://www.abc.net.au/news/2026-08-23/geralton-playground-closed-dust-investigation/107067332",
-      "source": "Australian Broadcasting Corporation",
-      "region": "Asia-Pacific",
-      "published": "2026-08-23T02:52:19+00:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Tear gas shelling, detentions, property theft reported during West Bank raids",
-      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/tear-gas-shelling-detentions-property-theft-reported-during-west-bank",
-      "source": "Middle East Eye",
-      "region": "Middle East",
-      "published": "2026-08-23T02:50:54+01:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Tech paradox: fear of being left behind drives China non-programmers to build own AI tools",
-      "url": "https://www.scmp.com/news/people-culture/trending-china/article/3364949/tech-paradox-fear-being-left-behind-drives-china-non-programmers-build-own-ai-tools?utm_source=rss_feed",
-      "source": "South China Morning Post",
-      "region": "North America",
-      "published": "2026-08-23T02:49:19+00:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Cyber attack shut down small power plant",
-      "url": "https://www.bbc.co.uk/news/articles/ce9793g34yvo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "region": "Europe",
-      "published": "2026-08-23T02:48:41+00:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Restriction zone scheme for offenders to start in October",
-      "url": "https://www.bbc.co.uk/news/articles/cy8e8jx0x5wo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "region": "North America",
-      "published": "2026-08-23T02:37:03+00:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Collections under RBI's dollar swap scheme exceed $72.8 billion",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/collections-under-rbis-dollar-swap-scheme-exceed-72-8-billion/articleshow/133431023.cms",
-      "source": "Times of India",
-      "region": "Asia-Pacific",
-      "published": "2026-08-23T02:35:48+05:30",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Canada to hit US with retaliatory tariffs as trade war escalates",
-      "url": "https://www.aljazeera.com/news/2026/8/23/canada-to-hit-us-with-retaliatory-tariffs-as-trade-war-escalates?traffic_source=rss",
-      "source": "Al Jazeera English",
-      "region": "North America",
-      "published": "2026-08-23T02:34:49+00:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Selwyn calls early end to 'challenging' ski season",
-      "url": "https://www.abc.net.au/news/2026-08-23/selwyn-closes-2026-winter-season/107068352",
-      "source": "Australian Broadcasting Corporation",
-      "region": "Asia-Pacific",
-      "published": "2026-08-23T02:33:10+00:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Antonelli says Dutch weekend has been a good wake-up call",
-      "url": "https://www.channelnewsasia.com/sport/antonelli-says-dutch-weekend-has-been-good-wake-up-call-6335216",
-      "source": "Channel News Asia",
-      "region": "Global",
-      "published": "2026-08-23T02:30:18+08:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Australia news live: Sydney Marathon admits \u2018unfortunate error\u2019 as finisher\u2019s medal depicts Munich stadium as highlight of course",
-      "url": "https://www.theguardian.com/australia-news/live/2026/aug/23/australia-news-live-anthony-albanese-sydney-swans-police-investigation-alan-jones-antisemitism-inquiry-icac-nsw-liberals-ntwnfb",
-      "source": "The Guardian",
-      "region": "Asia-Pacific",
-      "published": "2026-08-23T02:27:26+00:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Soon, no need for physical boarding cards at immigration",
-      "url": "https://timesofindia.indiatimes.com/india/soon-no-need-for-physical-boarding-cards-at-immigration/articleshow/133431013.cms",
-      "source": "Times of India",
-      "region": "Asia-Pacific",
-      "published": "2026-08-23T02:26:20+05:30",
-      "sentiment": "negative"
-    },
-    {
-      "title": "U.P. Deputy CM Brajesh Pathak meets reservation reform movement agitators, assures dialogue with Union Ministers",
-      "url": "https://www.thehindu.com/news/national/uttar-pradesh/up-deputy-cm-brajesh-pathak-meets-reservation-reform-movement-agitators-assures-dialogue-with-union-ministers/article71378491.ece",
-      "source": "The Hindu",
-      "region": "Asia-Pacific",
-      "published": "2026-08-23T02:24:50+05:30",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Bristol City striker's stunning backheel goal in England goes viral",
-      "url": "https://www.abc.net.au/news/2026-08-23/dom-ballard-goal-stuns-for-bristol-city/107068532",
-      "source": "Australian Broadcasting Corporation",
-      "region": "Asia-Pacific",
-      "published": "2026-08-23T02:24:49+00:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "'Scores of people' kidnapped from mosque in Nigeria",
-      "url": "https://news.sky.com/story/scores-of-people-kidnapped-from-mosque-in-nigeria-residents-say-13576166",
-      "source": "Sky News",
-      "region": "Africa",
-      "published": "2026-08-23T02:17:00+01:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Invoking Mahatma Gandhi, BJP to start nationwide Vande campaign against Congress",
-      "url": "https://timesofindia.indiatimes.com/india/invoking-mahatma-gandhi-bjp-to-start-nationwide-vande-campaign/articleshow/133431005.cms",
-      "source": "Times of India",
-      "region": "North America",
-      "published": "2026-08-23T02:15:27+05:30",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Sydney Marathon admits \u2018unfortunate error\u2019 as finisher\u2019s medal depicts Munich stadium as race highlight",
-      "url": "https://www.theguardian.com/australia-news/2026/aug/23/sydney-marathon-medal-allianz-stadium-munich-germany-unfortunate-error",
-      "source": "The Guardian",
-      "region": "Asia-Pacific",
-      "published": "2026-08-23T02:14:52+00:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Lucknow locals upset as iconic coffee house remains shut amid concern for social spaces",
-      "url": "https://www.thehindu.com/news/national/uttar-pradesh/lucknow-locals-upset-as-iconic-coffee-house-remains-shut-amid-concern-for-social-spaces/article71378666.ece",
-      "source": "The Hindu",
-      "region": "North America",
-      "published": "2026-08-23T02:10:42+05:30",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Pogacar wins Monaco time trial as Vuelta bid begins in style",
-      "url": "https://www.channelnewsasia.com/sport/pogacar-wins-monaco-time-trial-vuelta-bid-begins-in-style-6335206",
-      "source": "Channel News Asia",
-      "region": "Global",
-      "published": "2026-08-23T02:00:19+08:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "China builds world\u2019s first custom plant immunity system for epidemic response",
-      "url": "https://www.scmp.com/news/china/science/article/3364933/china-builds-worlds-first-custom-plant-immunity-system-epidemic-response?utm_source=rss_feed",
-      "source": "South China Morning Post",
-      "region": "Asia-Pacific",
-      "published": "2026-08-23T02:00:10+00:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "New Zealand Labour Opposition Vows to Restore RBNZ Dual Mandate",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-23/new-zealand-labour-opposition-vows-to-restore-rbnz-dual-mandate",
-      "source": "Bloomberg",
-      "region": "North America",
-      "published": "2026-08-23T01:59:47+00:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "New Zealand Opposition Vows to Restore RBNZ Dual Mandate",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-23/new-zealand-labour-opposition-vows-to-restore-rbnz-dual-mandate",
-      "source": "Bloomberg",
-      "region": "North America",
-      "published": "2026-08-23T01:59:47+00:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "BCI chairman faces calls to quit, co-chair demands inquiry",
-      "url": "https://timesofindia.indiatimes.com/india/bci-chairman-faces-calls-to-quit-co-chair-demands-inquiry/articleshow/133430963.cms",
-      "source": "Times of India",
-      "region": "Asia-Pacific",
-      "published": "2026-08-23T01:59:44+05:30",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'Palestinian state already a reality', says Arab Israeli leader Mansour Abbas",
-      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/palestinian-state-already-reality-says-arab-israeli-leader-mansour-abbas",
-      "source": "Middle East Eye",
-      "region": "Middle East",
-      "published": "2026-08-23T01:59:32+01:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Police arrest 15-year-old in fatal shooting of teen at California high school football game",
-      "url": "https://www.independent.co.uk/news/world/americas/crime/fatal-shooting-california-high-school-game-teens-gang-b3037648.html",
-      "source": "Independent",
-      "region": "North America",
-      "published": "2026-08-23T01:58:24+00:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Thousands flee Sudan\u2019s Kordofan fighting for relative safety of El Obeid",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/23/thousands-flee-sudans-kordofan-fighting-for-relative-safety-of-el-obeid?traffic_source=rss",
-      "source": "Al Jazeera English",
-      "region": "North America",
-      "published": "2026-08-23T01:51:47+00:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Malaysia Rules Out $1.9 Billion Takeover of Passport Supplier",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-23/malaysia-rules-out-1-9-billion-takeover-of-passport-supplier",
-      "source": "Bloomberg",
-      "region": "Asia-Pacific",
-      "published": "2026-08-23T01:51:38+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Canada\u2019s Carney refuses to take Trump\u2019s \u2018bait\u2019, confronting US in trade war",
-      "url": "https://www.scmp.com/news/world/united-states-canada/article/3364948/canadas-carney-refuses-take-trumps-bait-confronting-us-trade-war?utm_source=rss_feed",
-      "source": "South China Morning Post",
-      "region": "North America",
-      "published": "2026-08-23T01:46:24+00:00",
-      "sentiment": "negative"
     }
   ]
 }
