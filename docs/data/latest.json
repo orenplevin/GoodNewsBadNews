@@ -1,35 +1,35 @@
 {
-  "generated_at": "2026-08-23T05:29:54.656548+00:00",
+  "generated_at": "2026-08-23T05:58:21.183045+00:00",
   "window_hours": 24,
   "totals": {
     "positive": 664,
-    "neutral": 236,
-    "negative": 802
+    "neutral": 237,
+    "negative": 803
   },
   "by_publication": [
     {
       "source": "The Hindu",
-      "positive": 98,
-      "neutral": 57,
-      "negative": 106,
+      "positive": 100,
+      "neutral": 56,
+      "negative": 105,
       "count": 261,
       "region": "Asia-Pacific"
     },
     {
       "source": "Independent",
-      "positive": 76,
+      "positive": 75,
       "neutral": 36,
-      "negative": 103,
-      "count": 215,
+      "negative": 102,
+      "count": 213,
       "region": "Europe"
     },
     {
       "source": "Times of India",
-      "positive": 72,
-      "neutral": 24,
-      "negative": 59,
-      "count": 155,
-      "region": "Asia-Pacific"
+      "positive": 73,
+      "neutral": 25,
+      "negative": 63,
+      "count": 161,
+      "region": "North America"
     },
     {
       "source": "Sky Sports",
@@ -41,10 +41,10 @@
     },
     {
       "source": "Australian Broadcasting Corporation",
-      "positive": 33,
+      "positive": 34,
       "neutral": 5,
-      "negative": 55,
-      "count": 93,
+      "negative": 56,
+      "count": 95,
       "region": "Asia-Pacific"
     },
     {
@@ -57,19 +57,19 @@
     },
     {
       "source": "BBC Sport",
-      "positive": 44,
+      "positive": 43,
       "neutral": 10,
       "negative": 19,
-      "count": 73,
+      "count": 72,
       "region": "Europe"
     },
     {
       "source": "Al Jazeera English",
-      "positive": 13,
+      "positive": 14,
       "neutral": 10,
-      "negative": 49,
-      "count": 72,
-      "region": "North America"
+      "negative": 47,
+      "count": 71,
+      "region": "Middle East"
     },
     {
       "source": "Channel News Asia",
@@ -91,17 +91,17 @@
       "source": "South China Morning Post",
       "positive": 20,
       "neutral": 2,
-      "negative": 34,
-      "count": 56,
+      "negative": 33,
+      "count": 55,
       "region": "Asia-Pacific"
     },
     {
       "source": "CBS News",
       "positive": 11,
-      "neutral": 5,
+      "neutral": 6,
       "negative": 31,
-      "count": 47,
-      "region": "North America"
+      "count": 48,
+      "region": "Asia-Pacific"
     },
     {
       "source": "Middle East Eye",
@@ -113,10 +113,10 @@
     },
     {
       "source": "The Guardian",
-      "positive": 17,
+      "positive": 16,
       "neutral": 1,
       "negative": 28,
-      "count": 46,
+      "count": 45,
       "region": "North America"
     },
     {
@@ -131,8 +131,8 @@
       "source": "Euronews",
       "positive": 11,
       "neutral": 2,
-      "negative": 19,
-      "count": 32,
+      "negative": 20,
+      "count": 33,
       "region": "Europe"
     },
     {
@@ -153,17 +153,25 @@
     },
     {
       "source": "Straits Times",
-      "positive": 12,
+      "positive": 10,
       "neutral": 3,
-      "negative": 9,
-      "count": 24,
-      "region": "Global"
+      "negative": 7,
+      "count": 20,
+      "region": "Asia-Pacific"
     },
     {
       "source": "New York Times",
       "positive": 7,
       "neutral": 2,
-      "negative": 7,
+      "negative": 8,
+      "count": 17,
+      "region": "North America"
+    },
+    {
+      "source": "Deutsche Welle",
+      "positive": 1,
+      "neutral": 0,
+      "negative": 15,
       "count": 16,
       "region": "Europe"
     },
@@ -190,14 +198,6 @@
       "negative": 7,
       "count": 15,
       "region": "Global"
-    },
-    {
-      "source": "Deutsche Welle",
-      "positive": 1,
-      "neutral": 0,
-      "negative": 14,
-      "count": 15,
-      "region": "North America"
     },
     {
       "source": "RT News",
@@ -323,45 +323,45 @@
   "by_region": [
     {
       "region": "North America",
-      "positive": 250,
-      "neutral": 79,
-      "negative": 319,
-      "count": 648
+      "positive": 248,
+      "neutral": 80,
+      "negative": 322,
+      "count": 650
     },
     {
       "region": "Asia-Pacific",
-      "positive": 164,
+      "positive": 170,
       "neutral": 71,
-      "negative": 187,
-      "count": 422
+      "negative": 185,
+      "count": 426
     },
     {
       "region": "Europe",
-      "positive": 158,
+      "positive": 157,
       "neutral": 61,
-      "negative": 160,
-      "count": 379
+      "negative": 162,
+      "count": 380
     },
     {
       "region": "Middle East",
-      "positive": 35,
+      "positive": 36,
       "neutral": 8,
-      "negative": 86,
+      "negative": 85,
       "count": 129
     },
     {
       "region": "Global",
-      "positive": 43,
+      "positive": 40,
       "neutral": 14,
-      "negative": 31,
-      "count": 88
+      "negative": 30,
+      "count": 84
     },
     {
       "region": "Africa",
-      "positive": 13,
+      "positive": 12,
       "neutral": 1,
       "negative": 15,
-      "count": 29
+      "count": 28
     },
     {
       "region": "South America",
@@ -374,45 +374,45 @@
   "by_topic": [
     {
       "topic": "Tech",
-      "positive": 161,
+      "positive": 163,
       "neutral": 55,
-      "negative": 200,
+      "negative": 198,
       "count": 416
     },
     {
       "topic": "Other",
-      "positive": 118,
+      "positive": 115,
       "neutral": 78,
-      "negative": 128,
-      "count": 324
+      "negative": 127,
+      "count": 320
     },
     {
       "topic": "Politics",
-      "positive": 93,
-      "neutral": 29,
-      "negative": 150,
-      "count": 272
+      "positive": 94,
+      "neutral": 30,
+      "negative": 156,
+      "count": 280
     },
     {
       "topic": "World",
-      "positive": 51,
+      "positive": 52,
       "neutral": 16,
-      "negative": 139,
-      "count": 206
+      "negative": 137,
+      "count": 205
     },
     {
       "topic": "Sports",
-      "positive": 120,
+      "positive": 121,
       "neutral": 32,
       "negative": 47,
-      "count": 199
+      "count": 200
     },
     {
       "topic": "Entertainment",
-      "positive": 35,
+      "positive": 34,
       "neutral": 6,
       "negative": 27,
-      "count": 68
+      "count": 67
     },
     {
       "topic": "Health",
@@ -423,10 +423,10 @@
     },
     {
       "topic": "Business",
-      "positive": 30,
+      "positive": 29,
       "neutral": 2,
       "negative": 32,
-      "count": 64
+      "count": 63
     },
     {
       "topic": "Local",
@@ -458,6 +458,14 @@
       "region": "Europe",
       "published": "2027-01-09T16:08:00+00:00",
       "sentiment": "neutral"
+    },
+    {
+      "title": "Train and bus users will have reminders to keep Singapore clean in Public Hygiene Council campaign",
+      "url": "https://www.straitstimes.com/singapore/environment/train-and-bus-users-will-have-reminders-to-keep-singapore-clean-in-public-hygiene-council-campaign",
+      "source": "Straits Times",
+      "region": "Asia-Pacific",
+      "published": "2026-08-23T13:55:00+08:00",
+      "sentiment": "positive"
     },
     {
       "title": "Kids can get up to $3k funding for Punggol heritage projects; new Peppa Pig stage show",
@@ -564,6 +572,62 @@
       "sentiment": "negative"
     },
     {
+      "title": "Cycling a solution to pollution, says Union Minister Mandaviya after BRICS Friendship Cycling event",
+      "url": "https://www.thehindu.com/news/national/andhra-pradesh/cycling-a-solution-to-pollution-says-union-minister-mandaviya-after-brics-friendship-cycling-event/article71380190.ece",
+      "source": "The Hindu",
+      "region": "Asia-Pacific",
+      "published": "2026-08-23T11:16:42+05:30",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Congress highlights delay in Lok Sabha prorogation, asks if Amit Shah still seeking 2/3rd majority for delimitation-linked Bill",
+      "url": "https://www.thehindu.com/news/national/congress-questions-delay-in-prorogation-of-lok-sabha-delimitation-bill-majority/article71380217.ece",
+      "source": "The Hindu",
+      "region": "Asia-Pacific",
+      "published": "2026-08-23T11:09:56+05:30",
+      "sentiment": "negative"
+    },
+    {
+      "title": "\u2018Canada wants benefits of being State\u2019: Trump's 1st reaction after trade talks collapse",
+      "url": "https://timesofindia.indiatimes.com/business/international-business/canada-wants-benefits-of-being-state-without-being-one-trumps-1st-reaction-after-trade-talks-collapse/articleshow/133434719.cms",
+      "source": "Times of India",
+      "region": "North America",
+      "published": "2026-08-23T11:05:16+05:30",
+      "sentiment": "positive"
+    },
+    {
+      "title": "'India could use water as weapon': Pak minister as IWT remains in abeyance",
+      "url": "https://timesofindia.indiatimes.com/world/pakistan/india-could-use-water-as-weapon-pakistan-minister-as-indus-waters-treaty-remains-in-abeyance/articleshow/133434836.cms",
+      "source": "Times of India",
+      "region": "North America",
+      "published": "2026-08-23T11:05:13+05:30",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Garbage hill in Virginia Beach became America's first landfill park",
+      "url": "https://timesofindia.indiatimes.com/world/us/in-the-early-1970s-virginia-beach-compacted-640000-tons-of-garbage-into-a-60-foot-hill-the-dump-became-americas-first-landfill-park-and-now-spans-165-acres/articleshow/133406812.cms",
+      "source": "Times of India",
+      "region": "North America",
+      "published": "2026-08-23T10:57:03+05:30",
+      "sentiment": "positive"
+    },
+    {
+      "title": "ICG intensifies search and rescue following sinking of Panama-flagged vessel in Bay of Bengal",
+      "url": "https://www.thehindu.com/news/national/panama-flagged-cargo-ship-sinks-in-bay-of-bengal-rescue-operations/article71378882.ece",
+      "source": "The Hindu",
+      "region": "Asia-Pacific",
+      "published": "2026-08-23T10:55:36+05:30",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Ravindra Jadeja creates history, becomes first Indian to achieve this feat",
+      "url": "https://timesofindia.indiatimes.com/sports/cricket/india-vs-sri-lanka/ravindra-jadeja-creates-history-in-colombo-becomes-first-indian-to-achieve-this-feat/articleshow/133434278.cms",
+      "source": "Times of India",
+      "region": "Asia-Pacific",
+      "published": "2026-08-23T10:34:31+05:30",
+      "sentiment": "positive"
+    },
+    {
       "title": "'I fought cancer to see my son play for India': Saransh's long road to Test cricket",
       "url": "https://timesofindia.indiatimes.com/sports/cricket/india-vs-sri-lanka/i-fought-cancer-to-see-my-son-play-for-india-saransh-jains-long-road-to-test-cricket/articleshow/133434464.cms",
       "source": "Times of India",
@@ -620,6 +684,14 @@
       "sentiment": "negative"
     },
     {
+      "title": "Delhi-NCR twins build Rs 100 water filter that removes up to 93% of PFAS",
+      "url": "https://timesofindia.indiatimes.com/science/delhi-ncr-twin-sisters-turn-okra-fenugreek-and-rice-husk-into-a-rs-100-electricity-free-water-filter-iit-delhi-tests-show-up-to-93-removal-of-pfas/articleshow/133434339.cms",
+      "source": "Times of India",
+      "region": "Asia-Pacific",
+      "published": "2026-08-23T10:12:52+05:30",
+      "sentiment": "positive"
+    },
+    {
       "title": "National Space Day: PM Modi hails India\u2019s space journey, salutes Chandrayaan-3 success",
       "url": "https://timesofindia.indiatimes.com/india/national-space-day-pm-modi-hails-indias-space-journey-leaders-salute-chandrayaan-3-success/articleshow/133434171.cms",
       "source": "Times of India",
@@ -652,6 +724,14 @@
       "sentiment": "positive"
     },
     {
+      "title": "'Little fat black shirt': Bengaluru cafe faces heat over 'body-shaming' customer",
+      "url": "https://timesofindia.indiatimes.com/city/bengaluru/little-fat-black-shirt-bengaluru-cafe-faces-heat-over-body-shaming-customer-apologises/articleshow/133434081.cms",
+      "source": "Times of India",
+      "region": "North America",
+      "published": "2026-08-23T09:56:04+05:30",
+      "sentiment": "negative"
+    },
+    {
       "title": "Clash erupts between Andhra, North East region students in nursing college, one girl hurt in Kakinada",
       "url": "https://www.thehindu.com/news/national/andhra-pradesh/clash-erupted-between-andhra-north-east-region-students-in-nursing-college-one-girl-hurt-in-kakinada/article71380089.ece",
       "source": "The Hindu",
@@ -682,6 +762,14 @@
       "region": "Asia-Pacific",
       "published": "2026-08-23T09:46:03+05:30",
       "sentiment": "positive"
+    },
+    {
+      "title": "Revanth planned to meet Vance, Mamdani on US trip MEA denied nod to",
+      "url": "https://timesofindia.indiatimes.com/city/hyderabad/telangana-cm-revanth-reddy-planned-to-meet-jd-vance-zohran-mamdani-on-us-trip-centre/articleshow/133434107.cms",
+      "source": "Times of India",
+      "region": "North America",
+      "published": "2026-08-23T09:41:54+05:30",
+      "sentiment": "neutral"
     },
     {
       "title": "While Madras went to bed early, Chennai stays up",
@@ -756,11 +844,27 @@
       "sentiment": "negative"
     },
     {
+      "title": "Reddy denied US visit, Gujarat CM cleared: Overseas Congress alleges \u2018double standard\u2019",
+      "url": "https://timesofindia.indiatimes.com/india/revanth-reddy-denied-us-visit-nod-gujarat-cm-cleared-overseas-congress-alleges-double-standard/articleshow/133433750.cms",
+      "source": "Times of India",
+      "region": "North America",
+      "published": "2026-08-23T08:53:12+05:30",
+      "sentiment": "negative"
+    },
+    {
       "title": "Toddler dies after 'severe beating'; 18-year old mother, boyfriend arrested in Georgia",
       "url": "https://timesofindia.indiatimes.com/world/us/2-year-old-dies-after-severe-beating-18-year-old-mother-boyfriend-arrested-in-georgia/articleshow/133433763.cms",
       "source": "Times of India",
       "region": "Asia-Pacific",
       "published": "2026-08-23T08:49:14+05:30",
+      "sentiment": "negative"
+    },
+    {
+      "title": "No problem with boys but PM gets \u2018cultural shock\u2019 if girls use cuss words: Rahul",
+      "url": "https://timesofindia.indiatimes.com/city/pune/no-problem-when-boys-do-it-but-pm-modi-gets-cultural-shock-if-girls-use-cuss-words-rahul-gandhi-in-pune/articleshow/133433816.cms",
+      "source": "Times of India",
+      "region": "North America",
+      "published": "2026-08-23T08:49:11+05:30",
       "sentiment": "negative"
     },
     {
@@ -852,6 +956,14 @@
       "sentiment": "negative"
     },
     {
+      "title": "Record numbers of climate crisis insects: what to do if you spot a praying mantis",
+      "url": "http://www.euronews.com/2026/08/23/record-numbers-of-climate-crisis-insects-what-to-do-if-you-spot-a-praying-mantis",
+      "source": "Euronews",
+      "region": "Europe",
+      "published": "2026-08-23T07:30:41+02:00",
+      "sentiment": "negative"
+    },
+    {
       "title": "\u2018Who would apply medicine to child\u2019s blisters?\u2019 Delhi techie killed over chore; wife, in-laws held",
       "url": "https://timesofindia.indiatimes.com/city/delhi/who-would-apply-medicine-to-childs-blisters-delhi-techie-killed-after-row-over-chore-wife-3-held/articleshow/133433250.cms",
       "source": "Times of India",
@@ -916,6 +1028,14 @@
       "sentiment": "positive"
     },
     {
+      "title": "Israeli forces close only entrance to West Bank village, report says",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-forces-close-only-entrance-west-bank-village-report-says",
+      "source": "Middle East Eye",
+      "region": "Middle East",
+      "published": "2026-08-23T06:52:16+01:00",
+      "sentiment": "negative"
+    },
+    {
       "title": "Mourinho decries alleged bullying of Vinicius after Real's win at Espanyol",
       "url": "https://www.channelnewsasia.com/sport/mourinho-decries-alleged-bullying-vinicius-after-reals-win-espanyol-6335376",
       "source": "Channel News Asia",
@@ -930,6 +1050,14 @@
       "region": "South America",
       "published": "2026-08-23T06:36:22+08:00",
       "sentiment": "neutral"
+    },
+    {
+      "title": "Iranian hackers shut down UK power plant for four days, The Telegraph reports",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iranian-hackers-shut-down-uk-power-plant-four-days-telegraph-reports",
+      "source": "Middle East Eye",
+      "region": "Middle East",
+      "published": "2026-08-23T06:35:00+01:00",
+      "sentiment": "negative"
     },
     {
       "title": "Akhilesh\u2019s \u201825 paise\u2019 remark triggers row with RLD, Mayawati demands apology",
@@ -996,6 +1124,14 @@
       "sentiment": "positive"
     },
     {
+      "title": "Ukraine-Russia war latest: Macron to deliver missile interceptors to Kyiv as Putin pulls ambassador from UK",
+      "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-putin-zelensky-missiles-ambassador-b3037670.html",
+      "source": "Independent",
+      "region": "Europe",
+      "published": "2026-08-23T05:52:05+00:00",
+      "sentiment": "negative"
+    },
+    {
       "title": "Sowing the seeds of a solar power intervention",
       "url": "https://www.thehindu.com/news/national/rajasthan/sowing-the-seeds-of-a-solar-power-intervention/article71378860.ece",
       "source": "The Hindu",
@@ -1009,6 +1145,22 @@
       "source": "Middle East Eye",
       "region": "Middle East",
       "published": "2026-08-23T05:46:48+01:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Mexican Governor Accused by U.S. of Aiding Cartel Leaves Office, Again",
+      "url": "https://www.nytimes.com/2026/08/23/world/americas/governor-ruben-rocha-moya-sinaloa-mexico.html",
+      "source": "New York Times",
+      "region": "North America",
+      "published": "2026-08-23T05:46:20+00:00",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Ukraine: Could ex-defense minister challenge Zelenskyy?",
+      "url": "https://www.dw.com/en/ukraine-could-ex-defense-minister-challenge-zelenskyy/a-78469496?maca=en-rss-en-all-1573-xml-mrss",
+      "source": "Deutsche Welle",
+      "region": "Europe",
+      "published": "2026-08-23T05:46:00+00:00",
       "sentiment": "negative"
     },
     {
@@ -1092,164 +1244,12 @@
       "sentiment": "neutral"
     },
     {
-      "title": "Hong Kong may issue typhoon signal on Tuesday or Wednesday as Narra approaches",
-      "url": "https://www.scmp.com/news/hong-kong/health-environment/article/3364956/hong-kong-may-issue-typhoon-signal-tuesday-or-wednesday-narra-approaches?utm_source=rss_feed",
-      "source": "South China Morning Post",
-      "region": "Asia-Pacific",
-      "published": "2026-08-23T05:09:59+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "US set to remove Syria from 'sponsors of terrorism' list",
-      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/us-set-remove-syria-sponsor-terrorism-list",
-      "source": "Middle East Eye",
+      "title": "Ex-Colombian president: Restoring Israeli ties applauds Gaza genocide",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/23/ex-colombian-president-restoring-israeli-ties-applauds-gaza-genocide?traffic_source=rss",
+      "source": "Al Jazeera English",
       "region": "Middle East",
-      "published": "2026-08-23T05:03:55+01:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Tottenham's expensive rebuild begins with familiar collapse",
-      "url": "https://www.channelnewsasia.com/sport/tottenhams-expensive-rebuild-begins-familiar-collapse-6335316",
-      "source": "Channel News Asia",
-      "region": "Global",
-      "published": "2026-08-23T05:02:13+08:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "It\u2019s not too late to apply for one of the many tertiary degrees on offer in Ireland",
-      "url": "https://www.irishtimes.com/ireland/education/2026/08/23/its-not-too-late-to-apply-for-one-of-the-many-tertiary-degrees-on-offer-in-ireland/",
-      "source": "Irish Times",
-      "region": "Global",
-      "published": "2026-08-23T05:01:00+00:00",
+      "published": "2026-08-23T05:10:05+00:00",
       "sentiment": "positive"
-    },
-    {
-      "title": "Buc-ee\u2019s chain draws outcry in Ohio for launching fight over a mini mart's beaver logo",
-      "url": "https://www.independent.co.uk/news/ohio-texas-dayton-mike-dewine-john-oliver-b3037668.html",
-      "source": "Independent",
-      "region": "Europe",
-      "published": "2026-08-23T05:00:39+00:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Burnham expected to give mayors new powers over local planning decisions",
-      "url": "https://www.theguardian.com/society/2026/aug/23/burnham-expected-to-give-mayors-new-powers-over-local-planning-decisions",
-      "source": "The Guardian",
-      "region": "North America",
-      "published": "2026-08-23T05:00:25+00:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "British corporation continued trafficking of enslaved Africans to Guyana 40 years after abolition",
-      "url": "https://www.theguardian.com/news/2026/aug/23/british-corporation-continued-trafficking-of-enslaved-africans-to-guyana-40-years-after-abolition-reveals-letter",
-      "source": "The Guardian",
-      "region": "Africa",
-      "published": "2026-08-23T05:00:24+00:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Work stress led woman to discover  genetic condition that looks like heart attack",
-      "url": "https://www.straitstimes.com/singapore/health/work-stress-leads-woman-to-discover-genetic-condition-that-looks-like-heart-attack",
-      "source": "Straits Times",
-      "region": "Global",
-      "published": "2026-08-23T05:00:00+08:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "NUS researchers find drug that turns off \u2018master switch\u2019 in aggressive breast cancer",
-      "url": "https://www.straitstimes.com/singapore/health/nus-researchers-find-drug-that-turns-off-master-switch-in-aggressive-breast-cancer",
-      "source": "Straits Times",
-      "region": "North America",
-      "published": "2026-08-23T05:00:00+08:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Accidents involving cyclists surge to 4-year high with over 770 cases in 2025 as road safety worsens",
-      "url": "https://www.straitstimes.com/singapore/accidents-involving-cyclists-surge-to-4-year-high-with-over-770-cases-in-2025-as-road-safety-worsens",
-      "source": "Straits Times",
-      "region": "Global",
-      "published": "2026-08-23T05:00:00+08:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "As bicycle accidents hit 4-year high, cyclists call for more mutual respect from peers, road users",
-      "url": "https://www.straitstimes.com/singapore/courts-crime/as-bicycle-accidents-hit-4-year-high-cyclists-call-for-more-mutual-respect-from-peers-road-users",
-      "source": "Straits Times",
-      "region": "North America",
-      "published": "2026-08-23T05:00:00+08:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Work stress led woman to discover genetic condition that looks like heart attack",
-      "url": "https://www.straitstimes.com/singapore/health/work-stress-leads-woman-to-discover-genetic-condition-that-looks-like-heart-attack",
-      "source": "Straits Times",
-      "region": "Global",
-      "published": "2026-08-23T05:00:00+08:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Why you suddenly feel colder than it actually is",
-      "url": "https://www.independent.co.uk/life-style/feel-cold-summer-temperature-cool-b3036325.html",
-      "source": "Independent",
-      "region": "North America",
-      "published": "2026-08-23T05:00:00+00:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "The 50 best movie performances of the 21st century (so far)",
-      "url": "https://www.independent.co.uk/arts-entertainment/films/features/best-movie-performances-roles-acting-century-b3035899.html",
-      "source": "Independent",
-      "region": "Europe",
-      "published": "2026-08-23T05:00:00+00:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Man secures protection order against adult daughters after living in fear, court hears",
-      "url": "https://www.irishtimes.com/ireland/2026/08/23/man-secures-protection-order-against-adult-daughters-after-living-in-fear-court-hears/",
-      "source": "Irish Times",
-      "region": "Global",
-      "published": "2026-08-23T05:00:00+00:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Did children catch a baby shark on the beach in Skerries?",
-      "url": "https://www.irishtimes.com/environment/2026/08/23/did-children-catch-a-baby-shark-on-the-beach-in-skerries/",
-      "source": "Irish Times",
-      "region": "Global",
-      "published": "2026-08-23T05:00:00+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "From soda bread to knowing who Leo Varadkar is, Sarah Jessica Parker gets more Irish by the day",
-      "url": "https://www.irishtimes.com/ireland/2026/08/23/from-soda-bread-to-knowing-who-leo-varadkar-is-sarah-jessica-parker-gets-more-irish-by-the-day/",
-      "source": "Irish Times",
-      "region": "North America",
-      "published": "2026-08-23T05:00:00+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Visit families affected by Ken-Betwa project, hear their grievances: M.P. CM tells officials",
-      "url": "https://www.thehindu.com/news/national/madhya-pradesh/visit-families-affected-by-ken-betwa-project-hear-their-grievances-mp-cm-tells-officials/article71378282.ece",
-      "source": "The Hindu",
-      "region": "North America",
-      "published": "2026-08-23T04:57:55+05:30",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Bayern battle past Dortmund 2-1\u00a0to win German Supercup",
-      "url": "https://www.channelnewsasia.com/sport/bayern-battle-past-dortmund-2-1-win-german-supercup-6335301",
-      "source": "Channel News Asia",
-      "region": "Global",
-      "published": "2026-08-23T04:56:53+08:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "From frustration to celebration: New Spirit ferry arrives in home port",
-      "url": "https://www.abc.net.au/news/2026-08-23/spirit-iv-ferry-devonport-testing/107068364",
-      "source": "Australian Broadcasting Corporation",
-      "region": "Asia-Pacific",
-      "published": "2026-08-23T04:49:37+00:00",
-      "sentiment": "negative"
     }
   ]
 }
