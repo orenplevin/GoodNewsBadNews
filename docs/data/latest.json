@@ -1,67 +1,75 @@
 {
-  "generated_at": "2026-08-24T23:22:41.313431+00:00",
+  "generated_at": "2026-08-24T23:48:00.611697+00:00",
   "window_hours": 24,
   "totals": {
-    "positive": 1083,
-    "neutral": 439,
-    "negative": 1402
+    "positive": 1076,
+    "neutral": 441,
+    "negative": 1416
   },
   "by_publication": [
     {
       "source": "Independent",
-      "positive": 156,
+      "positive": 157,
       "neutral": 105,
       "negative": 245,
-      "count": 506,
+      "count": 507,
       "region": "Europe"
     },
     {
       "source": "The Hindu",
       "positive": 114,
-      "neutral": 108,
-      "negative": 120,
-      "count": 342,
+      "neutral": 109,
+      "negative": 121,
+      "count": 344,
       "region": "Asia-Pacific"
     },
     {
       "source": "Times of India",
-      "positive": 85,
+      "positive": 84,
       "neutral": 36,
-      "negative": 94,
+      "negative": 95,
       "count": 215,
-      "region": "Asia-Pacific"
+      "region": "North America"
     },
     {
       "source": "Bloomberg",
-      "positive": 87,
+      "positive": 88,
       "neutral": 15,
-      "negative": 64,
-      "count": 166,
-      "region": "Asia-Pacific"
+      "negative": 62,
+      "count": 165,
+      "region": "North America"
     },
     {
       "source": "Australian Broadcasting Corporation",
-      "positive": 37,
-      "neutral": 11,
-      "negative": 82,
-      "count": 130,
+      "positive": 36,
+      "neutral": 12,
+      "negative": 84,
+      "count": 132,
       "region": "Asia-Pacific"
     },
     {
       "source": "Fox News",
       "positive": 46,
       "neutral": 9,
-      "negative": 68,
-      "count": 123,
-      "region": "North America"
+      "negative": 69,
+      "count": 124,
+      "region": "Asia-Pacific"
     },
     {
       "source": "The Guardian",
       "positive": 36,
       "neutral": 4,
-      "negative": 71,
-      "count": 111,
-      "region": "Europe"
+      "negative": 72,
+      "count": 112,
+      "region": "North America"
+    },
+    {
+      "source": "CBS News",
+      "positive": 29,
+      "neutral": 12,
+      "negative": 69,
+      "count": 110,
+      "region": "Asia-Pacific"
     },
     {
       "source": "AllAfrica",
@@ -72,20 +80,12 @@
       "region": "Africa"
     },
     {
-      "source": "CBS News",
-      "positive": 27,
-      "neutral": 11,
-      "negative": 63,
-      "count": 101,
-      "region": "North America"
-    },
-    {
       "source": "Channel News Asia",
-      "positive": 37,
+      "positive": 36,
       "neutral": 21,
-      "negative": 40,
+      "negative": 41,
       "count": 98,
-      "region": "North America"
+      "region": "Global"
     },
     {
       "source": "Al Jazeera English",
@@ -97,18 +97,18 @@
     },
     {
       "source": "BBC News",
-      "positive": 34,
-      "neutral": 9,
-      "negative": 46,
-      "count": 89,
+      "positive": 30,
+      "neutral": 8,
+      "negative": 49,
+      "count": 87,
       "region": "North America"
     },
     {
       "source": "South China Morning Post",
-      "positive": 43,
+      "positive": 42,
       "neutral": 3,
       "negative": 35,
-      "count": 81,
+      "count": 80,
       "region": "North America"
     },
     {
@@ -145,10 +145,10 @@
     },
     {
       "source": "BBC Sport",
-      "positive": 29,
+      "positive": 27,
       "neutral": 6,
       "negative": 18,
-      "count": 53,
+      "count": 51,
       "region": "North America"
     },
     {
@@ -184,14 +184,6 @@
       "region": "Asia-Pacific"
     },
     {
-      "source": "ABC News",
-      "positive": 8,
-      "neutral": 5,
-      "negative": 19,
-      "count": 32,
-      "region": "North America"
-    },
-    {
       "source": "Straits Times",
       "positive": 13,
       "neutral": 2,
@@ -204,6 +196,14 @@
       "positive": 6,
       "neutral": 2,
       "negative": 22,
+      "count": 30,
+      "region": "North America"
+    },
+    {
+      "source": "ABC News",
+      "positive": 7,
+      "neutral": 5,
+      "negative": 18,
       "count": 30,
       "region": "North America"
     },
@@ -264,6 +264,14 @@
       "region": "North America"
     },
     {
+      "source": "The Verge",
+      "positive": 7,
+      "neutral": 0,
+      "negative": 5,
+      "count": 12,
+      "region": "North America"
+    },
+    {
       "source": "Ars Technica",
       "positive": 4,
       "neutral": 2,
@@ -284,14 +292,6 @@
       "positive": 5,
       "neutral": 0,
       "negative": 6,
-      "count": 11,
-      "region": "North America"
-    },
-    {
-      "source": "The Verge",
-      "positive": 7,
-      "neutral": 0,
-      "negative": 4,
       "count": 11,
       "region": "North America"
     },
@@ -323,24 +323,24 @@
   "by_region": [
     {
       "region": "North America",
-      "positive": 404,
+      "positive": 400,
       "neutral": 138,
-      "negative": 577,
-      "count": 1119
+      "negative": 587,
+      "count": 1125
     },
     {
       "region": "Asia-Pacific",
       "positive": 231,
-      "neutral": 132,
-      "negative": 280,
-      "count": 643
+      "neutral": 134,
+      "negative": 283,
+      "count": 648
     },
     {
       "region": "Europe",
-      "positive": 242,
+      "positive": 239,
       "neutral": 109,
       "negative": 284,
-      "count": 635
+      "count": 632
     },
     {
       "region": "Middle East",
@@ -353,8 +353,8 @@
       "region": "Global",
       "positive": 103,
       "neutral": 29,
-      "negative": 63,
-      "count": 195
+      "negative": 64,
+      "count": 196
     },
     {
       "region": "Africa",
@@ -374,59 +374,59 @@
   "by_topic": [
     {
       "topic": "Tech",
-      "positive": 253,
-      "neutral": 111,
-      "negative": 374,
-      "count": 738
+      "positive": 252,
+      "neutral": 114,
+      "negative": 382,
+      "count": 748
     },
     {
       "topic": "Politics",
       "positive": 209,
       "neutral": 66,
-      "negative": 273,
-      "count": 548
+      "negative": 278,
+      "count": 553
     },
     {
       "topic": "Other",
-      "positive": 156,
-      "neutral": 99,
+      "positive": 155,
+      "neutral": 98,
       "negative": 223,
-      "count": 478
+      "count": 476
     },
     {
       "topic": "World",
-      "positive": 112,
+      "positive": 110,
       "neutral": 33,
       "negative": 243,
-      "count": 388
+      "count": 386
     },
     {
       "topic": "Business",
       "positive": 117,
       "neutral": 28,
-      "negative": 80,
-      "count": 225
+      "negative": 78,
+      "count": 223
     },
     {
       "topic": "Sports",
-      "positive": 99,
+      "positive": 96,
       "neutral": 35,
       "negative": 59,
-      "count": 193
+      "count": 190
     },
     {
       "topic": "Health",
-      "positive": 29,
+      "positive": 30,
       "neutral": 14,
-      "negative": 52,
-      "count": 95
+      "negative": 54,
+      "count": 98
     },
     {
       "topic": "Entertainment",
-      "positive": 51,
+      "positive": 50,
       "neutral": 17,
       "negative": 25,
-      "count": 93
+      "count": 92
     },
     {
       "topic": "Science",
@@ -446,8 +446,8 @@
       "topic": "Local",
       "positive": 18,
       "neutral": 10,
-      "negative": 22,
-      "count": 50
+      "negative": 23,
+      "count": 51
     }
   ],
   "sample_headlines": [
@@ -458,6 +458,14 @@
       "region": "Europe",
       "published": "2027-01-09T16:08:00+00:00",
       "sentiment": "neutral"
+    },
+    {
+      "title": "Behind the scenes of Mediacorp's realistic hospital set, where almost every TV drama ends up",
+      "url": "https://www.channelnewsasia.com/entertainment/mediacorp-hospital-set-behind-scenes-6335766",
+      "source": "Channel News Asia",
+      "region": "Global",
+      "published": "2026-08-25T07:17:59+08:00",
+      "sentiment": "negative"
     },
     {
       "title": "Shein's stock market listing will not mask sustainability challenges",
@@ -610,6 +618,22 @@
       "region": "Global",
       "published": "2026-08-25T04:59:00+08:00",
       "sentiment": "positive"
+    },
+    {
+      "title": "Youth Morcha storms DM office highlighting critical gaps in schools, questions FIR on activist",
+      "url": "https://www.thehindu.com/news/national/uttar-pradesh/youth-morcha-storms-dm-office-highlighting-critical-gaps-in-schools-questions-fir-on-activist/article71385555.ece",
+      "source": "The Hindu",
+      "region": "Asia-Pacific",
+      "published": "2026-08-25T04:57:24+05:30",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Canada to announce retaliatory tariffs after Trump warns of 'worse consequences'",
+      "url": "https://timesofindia.indiatimes.com/business/international-business/canada-to-announce-retaliatory-tariffs-against-us-after-trump-warns-of-worse-consequences/articleshow/133483773.cms",
+      "source": "Times of India",
+      "region": "North America",
+      "published": "2026-08-25T04:45:06+05:30",
+      "sentiment": "negative"
     },
     {
       "title": "Tens of thousands evacuated as fire bears down on US city",
@@ -1084,6 +1108,14 @@
       "sentiment": "negative"
     },
     {
+      "title": "Trump removes Syria from 'terrorism list'",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/trump-removes-syria-terrorism-list",
+      "source": "Middle East Eye",
+      "region": "Middle East",
+      "published": "2026-08-25T00:47:35+01:00",
+      "sentiment": "negative"
+    },
+    {
       "title": "Romance, longing, life, and cinema on Chennai\u2019s beach",
       "url": "https://www.thehindu.com/news/cities/chennai/romance-longing-and-cinema-on-chennais-beach/article71383295.ece",
       "source": "The Hindu",
@@ -1196,6 +1228,14 @@
       "sentiment": "positive"
     },
     {
+      "title": "\u20b941-crore drain work to be implemented for preventing floods in Chennai\u2019s western parts",
+      "url": "https://www.thehindu.com/news/national/tamil-nadu/41-crore-drain-work-to-be-implemented-for-preventing-floods-in-chennais-western-parts/article71385597.ece",
+      "source": "The Hindu",
+      "region": "Asia-Pacific",
+      "published": "2026-08-25T00:16:40+05:30",
+      "sentiment": "neutral"
+    },
+    {
       "title": "US proposes $103,265 H-1B fee: Hiring set to become more costly",
       "url": "https://timesofindia.indiatimes.com/world/us/us-proposes-103265-h-1b-fee-hiring-set-to-become-more-costly/articleshow/133473256.cms",
       "source": "Times of India",
@@ -1209,46 +1249,6 @@
       "source": "The Hindu",
       "region": "North America",
       "published": "2026-08-25T00:11:47+05:30",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Israeli settler attacks rise by 63 percent in first seven months of 2026, says Commission",
-      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-settler-attacks-rise-63-percent-first-seven-months-2026-says",
-      "source": "Middle East Eye",
-      "region": "Middle East",
-      "published": "2026-08-25T00:05:36+01:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Champions? Relegated? One to watch? Carra and Neville's season predictions!",
-      "url": "https://www.skysports.com/football/news/12040/13576703/premier-league-season-predictions-jamie-carragher-and-gary-neville-pick-the-title-winner-and-players-to-watch-in-2026-27",
-      "source": "Sky Sports",
-      "region": "Europe",
-      "published": "2026-08-25T00:05:00+00:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Exclusive-Japan eyes tax breaks for non-core business sales in governance reform push, sources say",
-      "url": "https://www.channelnewsasia.com/business/exclusive-japan-eyes-tax-breaks-non-core-business-sales-in-governance-reform-push-sources-say-6338301",
-      "source": "Channel News Asia",
-      "region": "North America",
-      "published": "2026-08-25T00:03:17+08:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "DMK wouldn\u2019t be in the Opposition without its allies, says Aadhav Arjuna",
-      "url": "https://www.thehindu.com/news/national/tamil-nadu/dmk-wouldnt-be-in-the-opposition-without-its-allies-says-aadhav-arjuna/article71385708.ece",
-      "source": "The Hindu",
-      "region": "Asia-Pacific",
-      "published": "2026-08-24T23:57:10+05:30",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Indiana widow's 20-year land fight helped preserve Lake Michigan dunes",
-      "url": "https://timesofindia.indiatimes.com/world/us/in-1908-an-unschooled-indiana-widow-began-a-20-year-fight-to-defend-120-acres-of-lake-michigan-dunes-from-a-steel-giant-72-years-later-212-acres-including-part-of-her-tract-joined-indiana-dunes-to-remain-open-space-forever/articleshow/133463363.cms",
-      "source": "Times of India",
-      "region": "Asia-Pacific",
-      "published": "2026-08-24T23:55:00+05:30",
       "sentiment": "negative"
     }
   ]
