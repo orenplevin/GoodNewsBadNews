@@ -1,66 +1,66 @@
 {
-  "generated_at": "2026-08-25T23:25:46.987411+00:00",
+  "generated_at": "2026-08-25T23:50:28.162454+00:00",
   "window_hours": 24,
   "totals": {
-    "positive": 1246,
-    "neutral": 451,
-    "negative": 1427
+    "positive": 1250,
+    "neutral": 456,
+    "negative": 1422
   },
   "by_publication": [
     {
       "source": "Independent",
-      "positive": 205,
+      "positive": 203,
       "neutral": 89,
-      "negative": 270,
+      "negative": 272,
       "count": 564,
       "region": "Europe"
     },
     {
       "source": "The Hindu",
       "positive": 139,
-      "neutral": 85,
+      "neutral": 86,
       "negative": 113,
-      "count": 337,
-      "region": "Asia-Pacific"
+      "count": 338,
+      "region": "North America"
     },
     {
       "source": "Times of India",
-      "positive": 102,
+      "positive": 103,
       "neutral": 23,
-      "negative": 101,
+      "negative": 100,
       "count": 226,
       "region": "Asia-Pacific"
     },
     {
       "source": "Australian Broadcasting Corporation",
       "positive": 51,
-      "neutral": 12,
-      "negative": 94,
-      "count": 157,
+      "neutral": 11,
+      "negative": 92,
+      "count": 154,
       "region": "Asia-Pacific"
     },
     {
       "source": "Bloomberg",
       "positive": 64,
-      "neutral": 19,
+      "neutral": 20,
       "negative": 52,
-      "count": 135,
+      "count": 136,
       "region": "Asia-Pacific"
     },
     {
       "source": "Fox News",
-      "positive": 48,
+      "positive": 47,
       "neutral": 10,
       "negative": 77,
-      "count": 135,
+      "count": 134,
       "region": "North America"
     },
     {
       "source": "CBS News",
       "positive": 36,
-      "neutral": 18,
-      "negative": 73,
-      "count": 127,
+      "neutral": 20,
+      "negative": 72,
+      "count": 128,
       "region": "North America"
     },
     {
@@ -73,18 +73,18 @@
     },
     {
       "source": "The Guardian",
-      "positive": 47,
+      "positive": 48,
       "neutral": 3,
-      "negative": 66,
+      "negative": 65,
       "count": 116,
       "region": "Asia-Pacific"
     },
     {
       "source": "Al Jazeera English",
-      "positive": 31,
+      "positive": 32,
       "neutral": 14,
       "negative": 67,
-      "count": 112,
+      "count": 113,
       "region": "South America"
     },
     {
@@ -97,11 +97,11 @@
     },
     {
       "source": "BBC News",
-      "positive": 33,
+      "positive": 35,
       "neutral": 8,
-      "negative": 48,
-      "count": 89,
-      "region": "Asia-Pacific"
+      "negative": 45,
+      "count": 88,
+      "region": "North America"
     },
     {
       "source": "Euronews",
@@ -152,20 +152,20 @@
       "region": "Middle East"
     },
     {
+      "source": "BBC Sport",
+      "positive": 37,
+      "neutral": 5,
+      "negative": 13,
+      "count": 55,
+      "region": "North America"
+    },
+    {
       "source": "France 24",
       "positive": 10,
       "neutral": 11,
       "negative": 34,
       "count": 55,
       "region": "North America"
-    },
-    {
-      "source": "BBC Sport",
-      "positive": 36,
-      "neutral": 5,
-      "negative": 11,
-      "count": 52,
-      "region": "Europe"
     },
     {
       "source": "NBC News",
@@ -210,9 +210,9 @@
     {
       "source": "Straits Times",
       "positive": 10,
-      "neutral": 6,
+      "neutral": 7,
       "negative": 12,
-      "count": 28,
+      "count": 29,
       "region": "Asia-Pacific"
     },
     {
@@ -224,19 +224,19 @@
       "region": "North America"
     },
     {
-      "source": "The Verge",
-      "positive": 18,
-      "neutral": 1,
-      "negative": 8,
-      "count": 27,
+      "source": "NPR",
+      "positive": 14,
+      "neutral": 2,
+      "negative": 10,
+      "count": 26,
       "region": "North America"
     },
     {
-      "source": "NPR",
-      "positive": 13,
-      "neutral": 2,
-      "negative": 10,
-      "count": 25,
+      "source": "The Verge",
+      "positive": 18,
+      "neutral": 1,
+      "negative": 7,
+      "count": 26,
       "region": "North America"
     },
     {
@@ -264,20 +264,20 @@
       "region": "North America"
     },
     {
+      "source": "RT News",
+      "positive": 3,
+      "neutral": 4,
+      "negative": 9,
+      "count": 16,
+      "region": "North America"
+    },
+    {
       "source": "Wired",
       "positive": 10,
       "neutral": 1,
       "negative": 4,
       "count": 15,
       "region": "North America"
-    },
-    {
-      "source": "RT News",
-      "positive": 3,
-      "neutral": 3,
-      "negative": 9,
-      "count": 15,
-      "region": "Global"
     },
     {
       "source": "Ars Technica",
@@ -323,24 +323,24 @@
   "by_region": [
     {
       "region": "North America",
-      "positive": 482,
-      "neutral": 160,
+      "positive": 489,
+      "neutral": 164,
       "negative": 652,
-      "count": 1294
+      "count": 1305
     },
     {
       "region": "Asia-Pacific",
-      "positive": 298,
-      "neutral": 113,
-      "negative": 282,
-      "count": 693
+      "positive": 297,
+      "neutral": 114,
+      "negative": 279,
+      "count": 690
     },
     {
       "region": "Europe",
-      "positive": 284,
+      "positive": 282,
       "neutral": 105,
-      "negative": 271,
-      "count": 660
+      "negative": 269,
+      "count": 656
     },
     {
       "region": "Middle East",
@@ -374,59 +374,59 @@
   "by_topic": [
     {
       "topic": "Tech",
-      "positive": 335,
-      "neutral": 132,
-      "negative": 387,
-      "count": 854
+      "positive": 334,
+      "neutral": 131,
+      "negative": 378,
+      "count": 843
     },
     {
       "topic": "Politics",
-      "positive": 213,
-      "neutral": 65,
-      "negative": 253,
-      "count": 531
+      "positive": 216,
+      "neutral": 66,
+      "negative": 250,
+      "count": 532
     },
     {
       "topic": "Other",
       "positive": 174,
-      "neutral": 114,
+      "neutral": 115,
       "negative": 210,
-      "count": 498
+      "count": 499
     },
     {
       "topic": "World",
       "positive": 120,
       "neutral": 32,
-      "negative": 231,
-      "count": 383
+      "negative": 233,
+      "count": 385
     },
     {
       "topic": "Business",
-      "positive": 121,
-      "neutral": 28,
-      "negative": 81,
-      "count": 230
+      "positive": 122,
+      "neutral": 30,
+      "negative": 80,
+      "count": 232
     },
     {
       "topic": "Sports",
-      "positive": 108,
+      "positive": 107,
       "neutral": 25,
-      "negative": 61,
-      "count": 194
+      "negative": 63,
+      "count": 195
     },
     {
       "topic": "Entertainment",
-      "positive": 70,
-      "neutral": 21,
-      "negative": 80,
-      "count": 171
+      "positive": 74,
+      "neutral": 23,
+      "negative": 83,
+      "count": 180
     },
     {
       "topic": "Health",
-      "positive": 30,
+      "positive": 28,
       "neutral": 11,
       "negative": 46,
-      "count": 87
+      "count": 85
     },
     {
       "topic": "Local",
@@ -446,8 +446,8 @@
       "topic": "Regional",
       "positive": 15,
       "neutral": 3,
-      "negative": 25,
-      "count": 43
+      "negative": 26,
+      "count": 44
     }
   ],
   "sample_headlines": [
@@ -457,6 +457,14 @@
       "source": "Independent",
       "region": "Europe",
       "published": "2027-01-09T16:08:00+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Royal Caribbean\u2019s Voyager of the Seas to set sail from Singapore, Hong Kong, Australia",
+      "url": "https://www.straitstimes.com/singapore/royal-caribbeans-voyager-of-the-seas-to-set-sail-from-singapore-hong-kong-australia",
+      "source": "Straits Times",
+      "region": "Asia-Pacific",
+      "published": "2026-08-26T07:45:00+08:00",
       "sentiment": "neutral"
     },
     {
@@ -612,6 +620,14 @@
       "sentiment": "positive"
     },
     {
+      "title": "Pune tribal students\u2019 protest enters 13th day as talks with Tribal Minister yield no breakthrough, say students",
+      "url": "https://www.thehindu.com/news/national/maharashtra/pune-tribal-students-protest-enters-13th-day-as-talks-with-tribal-minister-yield-no-breakthrough-say-students/article71387944.ece",
+      "source": "The Hindu",
+      "region": "North America",
+      "published": "2026-08-26T04:53:24+05:30",
+      "sentiment": "negative"
+    },
+    {
       "title": "Suvendu vows to keep Mamata off the streets, TMC chairperson says not taking political sanyas",
       "url": "https://www.thehindu.com/news/national/west-bengal/suvendu-vows-to-keep-mamata-off-the-streets-tmc-chairperson-says-not-taking-political-sanyas/article71389096.ece",
       "source": "The Hindu",
@@ -673,6 +689,14 @@
       "source": "The Hindu",
       "region": "Asia-Pacific",
       "published": "2026-08-26T03:44:49+05:30",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Dolly Parton passes away at 80: Miley Cyrus, Donald Trump, JK Rowling pay tribute",
+      "url": "https://timesofindia.indiatimes.com/entertainment/english/hollywood/news/dolly-parton-passes-away-at-80-miley-cyrus-donald-trump-dionne-warwick-reese-witherspoon-jk-rowling-and-other-celebs-pay-tribute-to-country-icon/articleshow/133524356.cms",
+      "source": "Times of India",
+      "region": "North America",
+      "published": "2026-08-26T03:36:44+05:30",
       "sentiment": "positive"
     },
     {
@@ -964,6 +988,14 @@
       "sentiment": "negative"
     },
     {
+      "title": "Death toll from Israeli attack in north Gaza rises to four",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/death-toll-israeli-attack-north-gaza-rises-four",
+      "source": "Middle East Eye",
+      "region": "Middle East",
+      "published": "2026-08-26T00:44:32+01:00",
+      "sentiment": "negative"
+    },
+    {
       "title": "BJP to take out a 10-day padayatra from Raichur to Ballari from September 1",
       "url": "https://www.thehindu.com/news/national/karnataka/bjp-to-take-out-a-10-day-padayatra-from-raichur-to-ballari-from-september-1/article71389707.ece",
       "source": "The Hindu",
@@ -1017,6 +1049,14 @@
       "source": "Channel News Asia",
       "region": "Global",
       "published": "2026-08-26T00:28:11+08:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Madras built the engine, Chennai is shifting gears",
+      "url": "https://www.thehindu.com/news/cities/chennai/madras-built-the-engine-chennai-is-shifting-gears/article71385941.ece",
+      "source": "The Hindu",
+      "region": "North America",
+      "published": "2026-08-26T00:26:10+05:30",
       "sentiment": "neutral"
     },
     {
@@ -1172,12 +1212,28 @@
       "sentiment": "negative"
     },
     {
+      "title": "Polymarket has favorites for Time\u2019s Person of the Year. They are all Trump foes",
+      "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-time-person-of-the-year-polymarket-mamdani-b3039234.html",
+      "source": "Independent",
+      "region": "Europe",
+      "published": "2026-08-25T23:46:06+00:00",
+      "sentiment": "positive"
+    },
+    {
       "title": "New coach Xavi promises\u00a0Netherlands new energy after poor World Cup",
       "url": "https://www.channelnewsasia.com/sport/new-coach-xavi-promises-netherlands-new-energy-after-poor-world-cup-6340511",
       "source": "Channel News Asia",
       "region": "Europe",
       "published": "2026-08-25T23:45:47+08:00",
       "sentiment": "positive"
+    },
+    {
+      "title": "One in 10 people searched for weapons in Qld identified as First Nations",
+      "url": "https://www.abc.net.au/news/2026-08-26/qld-police-wanding-statistics-show-who-searched/106885150",
+      "source": "Australian Broadcasting Corporation",
+      "region": "Asia-Pacific",
+      "published": "2026-08-25T23:45:07+00:00",
+      "sentiment": "negative"
     },
     {
       "title": "Students\u2019 protest in Patna turns violent",
@@ -1194,62 +1250,6 @@
       "region": "Asia-Pacific",
       "published": "2026-08-25T23:43:18+05:30",
       "sentiment": "positive"
-    },
-    {
-      "title": "Waymo to begin testing autonomous vehicles in Munich",
-      "url": "https://www.channelnewsasia.com/business/waymo-begin-testing-autonomous-vehicles-in-munich-6340496",
-      "source": "Channel News Asia",
-      "region": "North America",
-      "published": "2026-08-25T23:38:05+08:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Trump says Saudi Arabia must recognise Israel to move forward with nuclear pact",
-      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/trump-says-saudi-arabia-must-recognise-israel-move-forward-nuclear-pact",
-      "source": "Middle East Eye",
-      "region": "Middle East",
-      "published": "2026-08-25T23:36:07+01:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "The recruitment controversy in Andhra Pradesh",
-      "url": "https://www.thehindu.com/opinion/op-ed/the-recruitment-controversy-in-andhra-pradesh/article71390255.ece",
-      "source": "The Hindu",
-      "region": "Asia-Pacific",
-      "published": "2026-08-25T23:35:18+05:30",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Trump says Strait of Hormuz has been demined, warns Iran not to plant more",
-      "url": "https://www.channelnewsasia.com/world/us-iran-strait-hormuz-mines-removed-trump-6340441",
-      "source": "Channel News Asia",
-      "region": "Middle East",
-      "published": "2026-08-25T23:34:22+08:00",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Indonesia, Malaysia and Singapore reaffirm commitment to keep Malacca and Singapore straits safe and open",
-      "url": "https://www.channelnewsasia.com/singapore/strait-malacca-singapore-indonesia-malaysia-6340351",
-      "source": "Channel News Asia",
-      "region": "Asia-Pacific",
-      "published": "2026-08-25T23:33:59+08:00",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Dera Sacha Sauda chief Gurmeet Ram Rahim gets 21-day furlough",
-      "url": "https://www.thehindu.com/news/national/haryana/gurmeet-ram-rahim-gets-21-day-furlough/article71387251.ece",
-      "source": "The Hindu",
-      "region": "North America",
-      "published": "2026-08-25T23:31:42+05:30",
-      "sentiment": "negative"
-    },
-    {
-      "title": "ACB detects \u20b91.18 crore loss to Guntur civic body over tender irregularities",
-      "url": "https://www.thehindu.com/news/national/andhra-pradesh/acb-detects-118-crore-loss-to-guntur-civic-body-over-tender-irregularities/article71389831.ece",
-      "source": "The Hindu",
-      "region": "Asia-Pacific",
-      "published": "2026-08-25T23:26:24+05:30",
-      "sentiment": "negative"
     }
   ]
 }
